@@ -5,8 +5,7 @@ Copyright © 2008-2015 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2008-2015 林鹏程， 保留所有权利。
 
-## Concept
-## 概念
+## Concept 概念
 
 Using the input and output characteristics of pure functions, pure functions are used as pipelines.
 Dataflow is formed by a series of pure functions in series.
@@ -18,8 +17,7 @@ A complete integrated system is formed by serial or parallel dataflow.
 一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
 通过串联或并联数据流，形成一个完整的集成系统。
 
-## Table of Contents 
-## 目录
+## Table of Contents  目录
 
 1.[Introduction： Basic Methods 引论: 基本构造方法](doc/IntroductionBasicMethods.md)
 
