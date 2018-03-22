@@ -1,1 +1,3 @@
+Pure function Pipeline Data flow is my personal project in the process of summing up the practice of creating a method, based on my knowledge system, the integration of integrated circuits, scientific management ideas, large industrial pipeline ideas, functional programming (FP), Statistics R language vector programming technology, in the system construction process of abstraction, The decision process of strategy selection is based on the scientific management thought and the large industrial pipeline thought, which is the best way to fit my way of thinking.
 
+纯函数管道数据流是我在个人项目实践过程总结创造出来的方法，基于我的知识体系，融合了集成电路、科学化管理思想、大工业流水线思想、函数式编程（FP）、统计学R语言的向量式编程等技术，在系统构造过程中的抽象、策略选择判断过程应用了科学化管理思想、大工业流水线思想来做为依据，是最契合我的思维方式的方法。
