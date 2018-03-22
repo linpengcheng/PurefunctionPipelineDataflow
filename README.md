@@ -20,7 +20,7 @@ A complete integrated system is formed by serial or parallel dataflow.
 # Table of Contents 
 # 目录
 
-Introduction： Basic construction methods
+1.Introduction： Basic construction methods
 
-引论，基本构造方法
+1.引论，基本构造方法
 
