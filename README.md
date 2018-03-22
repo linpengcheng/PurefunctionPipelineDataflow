@@ -1,6 +1,10 @@
 # Think PurefunctionPipeline&Dataflow  First
 # 纯函数管道数据流
 
+Copyright © 2008-2015 Lin Pengcheng. All rights reserved.
+
+版权所有 © 2008-2015 林鹏程， 保留所有权利。
+
 Using the input and output characteristics of pure functions, pure functions are used as pipelines.
 
 利用纯函数的输入输出特性当作管道（导线）使用。
