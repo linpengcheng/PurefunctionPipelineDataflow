@@ -1,4 +1,4 @@
-# think PurefunctionPipeline&Dataflow  first
+# Think PurefunctionPipeline&Dataflow  First
 # 纯函数管道数据流
 
 Using the input and output characteristics of pure functions, pure functions are used as pipelines.
