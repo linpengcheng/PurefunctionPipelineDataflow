@@ -5,6 +5,9 @@ Copyright © 2008-2015 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2008-2015 林鹏程， 保留所有权利。
 
+## Concept
+## 概念
+
 Using the input and output characteristics of pure functions, pure functions are used as pipelines.
 
 利用纯函数的输入输出特性当作管道（导线）使用。
@@ -21,8 +24,8 @@ A complete integrated system is formed by serial or parallel dataflow.
 
 通过串联或并联数据流，形成一个完整的集成系统。
 
-# Table of Contents 
-# 目录
+## Table of Contents 
+## 目录
 
 1.Introduction： Basic construction methods
 
