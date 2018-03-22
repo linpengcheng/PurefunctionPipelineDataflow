@@ -1,4 +1,4 @@
-# Think PurefunctionPipeline&Dataflow  First
+# Think PurefunctionPipeline&Dataflow First
 # 纯函数管道数据流
 
 Copyright © 2008-2015 Lin Pengcheng. All rights reserved.
@@ -27,7 +27,7 @@ A complete integrated system is formed by serial or parallel dataflow.
 ## Table of Contents 
 ## 目录
 
-1.Introduction： Basic construction methods
+1.Introduction： Basic Methods [link](doc/IntroductionBasicMethods.md)
 
-1.引论，基本构造方法
+1.引论: 基本构造方法 [链接](doc/IntroductionBasicMethods.md)
 
