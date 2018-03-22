@@ -27,7 +27,7 @@ A complete integrated system is formed by serial or parallel dataflow.
 ## Table of Contents 
 ## 目录
 
-1.Introduction： Basic Methods [link](doc/IntroductionBasicMethods.md)
+1.[Introduction： Basic Methods](doc/IntroductionBasicMethods.md)
 
-1.引论: 基本构造方法 [链接](doc/IntroductionBasicMethods.md)
+1.[引论: 基本构造方法](doc/IntroductionBasicMethods.md)
 
