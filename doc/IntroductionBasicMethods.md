@@ -98,7 +98,7 @@ english edition come soon
 
 1.我的数据流代码大概是这个形式：
 https://clojureverse.org/t/how-to-join-file-paths/814/12 
-一般是一个(->> )块一个函数。
+一般是一个`->>`块一个函数。
 
 2.对比一下akka的数据流：
 https://doc.akka.io/docs/akka/current/stream/stream-composition.html 
