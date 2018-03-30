@@ -39,9 +39,9 @@ english edition come soon
 ```clojure
 (defn f [x]
   (cond
-    (= x x1?) (f1)
-    (= x x2?) (f2)
-    :else     (f3)))
+    (= x 1) (f1)
+    (= x 2) (f2)
+    :else   (f3)))
 ```
 ```clojure
 (defn f2 [x y]
