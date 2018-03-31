@@ -2,9 +2,10 @@ english edition come soon
 
 Copyright © 2008-2015 Lin Pengcheng. All rights reserved.
 
-版权所有 © 2008-2015 林鹏程， 保留所有权利。
 
 # 纯函数管道数据流·基本构造方法
+
+版权所有 © 2008-2015 林鹏程， 保留所有权利。
 
 最近，在微信群里介绍纯函数管道数据流时，回群友关于构造方法的提问，整理一下，放这里。
 
