@@ -1,9 +1,9 @@
 # Think PurefunctionPipeline&Dataflow First
 # 纯函数管道数据流
 
-Copyright © 2008-2015 Lin Pengcheng. All rights reserved.
+Copyright © 2018 Lin Pengcheng. All rights reserved.
 
-版权所有 © 2008-2015 林鹏程， 保留所有权利。
+版权所有 © 2018 林鹏程， 保留所有权利。
 
 ## Concept 概念
 
@@ -20,4 +20,24 @@ A complete integrated system is formed by serial or parallel dataflow.
 ## Table of Contents  目录
 
 1.[Introduction： Basic Methods 引论: 基本构造方法](doc/IntroductionBasicMethods.md)
+
+2.[神话编程：生死簿、轮回、地狱](doc/LifecycleManagement.md)
+
+3.[半自动步枪、批处理和Lazy](doc/lazy.md)
+
+4.[纯函数管道数据流串并联集成系统法](doc/DataflowIC.md)
+
+5.[论纯函数管道数据流方法，兼评：左耳朵耗子 《什么是函数式编程？》](doc/AboutDataflow.md)
+
+6.[代码也是头等公民](doc/code-is-first-class.md)
+
+7.[函数式编程学套路还是学无限法？](doc/infinite.md)
+
+8.[《代码大全》与“想像力编程”](doc/CodeComplete.md)
+
+9.[《计算机编程的艺术》与想象力编程](doc/TAOCP.md)
+
+10.[Rust: 数学不能救编程，但财务可以](doc/rust.md)
+
+11.[例解：抽象、多态、变态](doc/Ii-abstract.md)
 
