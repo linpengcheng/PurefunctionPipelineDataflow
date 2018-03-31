@@ -41,5 +41,5 @@ A complete integrated system is formed by serial or parallel dataflow.
 
 - [例解：抽象、多态、变态](doc/Ii-abstract.md)
 
-- [我的项目技术架构：AI、统计、杀毒软件](doc/TechnicalFramewor.md)
+- [我的项目技术架构：AI、统计、杀毒软件](doc/TechnicalFramework.md)
 
