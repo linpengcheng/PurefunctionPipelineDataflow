@@ -1,8 +1,8 @@
 # 神话编程：生死簿、轮回、地狱
 
-Copyright © 2008-2015 Lin Pengcheng. All rights reserved.
+Copyright © 2018 Lin Pengcheng. All rights reserved.
 
-版权所有 © 2008-2015 林鹏程， 保留所有权利。
+版权所有 © 2018 林鹏程， 保留所有权利。
 
 前几年，在clojure微信群里，群里聊到生命周期管理技术和依赖包，我对现在的生命周期管理技术感觉不好理解，也很麻烦。就提议使用一个中国流传千百年的算法－－地狱生死簿。
 
