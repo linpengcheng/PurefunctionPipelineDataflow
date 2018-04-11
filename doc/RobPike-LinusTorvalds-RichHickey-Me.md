@@ -1,5 +1,9 @@
 # 英雄所见略同：Rob Pike，Linus Torvalds，Rich Hickey 和我
 
+Copyright © 2018 Lin Pengcheng. All rights reserved.
+
+版权所有 © 2018 林鹏程， 保留所有权利。
+
 2018.04.11晚，在 https://www.reddit.com/r/Clojure/ 上新文章的链接 https://github.com/walkable-server/walkable 
 看到 Rob Pike (unix,utf8,plan9,go的作者) 和 Linus Torvalds (Linux和git的作者) 的语录，
 发现与我自创的纯函数管道数据流的观点是一致的，Clojure的作者Rich Hickey也有类似观点，真是英雄所见略同啊, 哈哈！
