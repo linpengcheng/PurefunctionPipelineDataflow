@@ -13,7 +13,8 @@ A dataflow code block as a function, equivalent to an integrated circuit element
 A complete integrated system is formed by serial or parallel dataflow.
 
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
-More than 80% functions of my project is threading macro code block. 
+More than 80% functions of my project is threading macro code block, 
+each step is simple, verifiable, replaceable, testable, pluggable, extensible. 
 The clojure threading macro provides language-level support for PurefunctionPipeline&Dataflow.
 
 利用纯函数的输入输出特性当作管道（导线）使用。
