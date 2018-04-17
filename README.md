@@ -5,6 +5,11 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
+Clojure Aphorism: A tangled web of mutation means  any change to your
+code potentially occurs in the large. 
+        
+        --The Joy of Clojure (2nd-Edition, Chapter 10)
+
 ## Concept 概念
 
 Using the input and output characteristics of pure functions, pure functions are used as pipelines.
