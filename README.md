@@ -28,7 +28,7 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
-- [英雄所见略同：Rob Pike，Linus Torvalds，Rich Hickey 和我](doc/RobPike-LinusTorvalds-RichHickey-Me.md)
+- [英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
 
 - [神话编程：生死簿、轮回、地狱](doc/LifecycleManagement.md)
 
