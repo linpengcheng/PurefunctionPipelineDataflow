@@ -1,4 +1,4 @@
-# 英雄所见略同：Rob Pike，Linus Torvalds，Rich Hickey 和我
+# 英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -12,7 +12,7 @@ Rob Pike: Data dominates. If you’ve chosen the right data structures and organ
 
 Linus Torvalds: Bad programmers worry about the code. Good programmers worry about data structures and their relationships.
 
-Rich Hickey: 一个数据结构有100个函数，比10个带10个函数的数据结构好. 
+Alan Perlis: It’s better to have 100 functions operate on one data structure than 10 functions on 10 data structures.
 
 100个人围着一个核心干活，核心设计好，100个全都干活轻松，设计不好，那就要命了.
 
