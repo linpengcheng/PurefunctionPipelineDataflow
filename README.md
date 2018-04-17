@@ -23,15 +23,21 @@ Dataflow is formed by a series of pure functions in series.
 A dataflow code block as a function, equivalent to an integrated circuit element (or board)。
 A complete integrated system is formed by serial or parallel dataflow.
 
+利用纯函数的输入输出特性当作管道（导线）使用。
+数据经过一系列串联的纯函数形成数据流。
+一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
+通过串联或并联数据流，形成一个完整的集成系统。
+
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is threading macro code block, 
 each step is simple, verifiable, replaceable, testable, pluggable, extensible. 
 The clojure threading macro provides language-level support for PurefunctionPipeline&Dataflow.
 
-利用纯函数的输入输出特性当作管道（导线）使用。
-数据经过一系列串联的纯函数形成数据流。
-一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
-通过串联或并联数据流，形成一个完整的集成系统。
+对我来说，编程就是设计一个操纵简单流畅的数据模型的过程，
+在我的项目里，80%以上的函数是由->>这类数据流线程宏代码块组成。
+每一步都是很简单、可验证、可测试、可替换、可插入、可扩展。
+Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作函数，
+对纯函数管道数据流提供了语言级的支持。
 
 ## Table of Contents  目录
 
