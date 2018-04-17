@@ -9,7 +9,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 Clojure Aphorism: A tangled web of mutation means any change to 
 your code potentially occurs in the large. 
         
-        ---- The Joy of Clojure (2nd-Edition, Chapter 10)
+        ---- The Joy of Clojure (2nd Edition, Chapter 10)
 ```        
 
 ## Concept 概念
