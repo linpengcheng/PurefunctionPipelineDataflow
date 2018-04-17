@@ -10,7 +10,11 @@ Clojure Aphorism: A tangled web of mutation means any change to
 your code potentially occurs in the large. 
         
         ---- The Joy of Clojure (2nd Edition, Chapter 10)
-```        
+        
+ Clojure格言：交织的变化网意味着，代码的任何变化都可能会在更大层面上产生影响。
+ 
+        ---- Clojure编程乐趣(第2版)第10章
+``` 
 
 ## Concept 概念
 
