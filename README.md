@@ -65,6 +65,8 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 - [Rust: 数学不能救编程，但财务可以](doc/rust.md)
 
+- [c#愚蠢到我不能理解](doc/c#stupid.md)
+
 - [例解：抽象、多态、变态](doc/Ii-abstract.md)
 
 - [我的项目技术架构：AI、统计、杀毒软件](doc/TechnicalFramework.md)
