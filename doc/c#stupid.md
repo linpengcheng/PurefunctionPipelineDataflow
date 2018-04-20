@@ -39,7 +39,7 @@ It’s better to have 100 functions operate on one data structure than 10 functi
 C#的委托，进度条个人觉得是无比愚蠢的方法，愚蠢到我不能理解。
 我不喜欢应用花样特性，其它花样特性没尝试过，无法评论。
 
-C#和Scala吸收了太多特性，并不是特性也越多越好。
+C#和Scala吸收了太多特性，特性并不是越多越好。
 就好象人一样，管不住嘴，超重三高跑不了，小身板撑不住。
 象Clojure(Lisp)这类直接用语法树的语言，属于那种基因好的，怎么吃都吃不胖的。
 
