@@ -1,6 +1,6 @@
 
-# c# stupid to i can't understand
-# c#愚蠢到我不能理解
+# C# stupid to i can't understand，and UI programming.
+# C#愚蠢到我不能理解，兼论UI构造方法。
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
