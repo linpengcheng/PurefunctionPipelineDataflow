@@ -32,7 +32,8 @@ It’s better to have 100 functions operate on one data structure than 10 functi
 大家是不是觉得很相似。
 注：Alan Perlis是首位图灵奖得主、Algol语言(C/C++/Pascal等语言的鼻祖)作者。
 
-以上的方法我2013年左右，具体时间记不太清了，在QQ上的Clojure群讲过我的实现方法。
+以上的方法我2013年左右，具体时间记不太清了，在QQ上的Clojure群讲过我的实现方法，
+最近在写技术博客，把以前的一些技术心得整理出来。。
 
 不知C#设计者是怎么想的，搞这么麻烦。当时一大遍的C#新特性狂热鼓吹粉丝，
 C#的委托，进度条个人觉得是无比愚蠢的方法，愚蠢到我不能理解。
