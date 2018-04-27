@@ -1,6 +1,10 @@
 # tree-seq and The Hand of God
 # 如来神掌与tree-seq
 
+Copyright © 2018 Lin Pengcheng. All rights reserved.
+
+版权所有 © 2018 林鹏程， 保留所有权利。
+
 如果说真实的树是立体的，tree-seq就是如来神掌一巴掌拍扁的等高线平面图。
 S表达式的tree-seq特别象等高线图。
 可以折叠压平成平面，也可以直接遍历，或者也可以充气鼓起来立体展示等。
