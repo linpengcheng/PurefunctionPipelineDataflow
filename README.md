@@ -52,21 +52,23 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 - [英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
 
-- [神话编程：生死簿、轮回、地狱](doc/LifecycleManagement.md)
-
-- [半自动步枪、批处理和Lazy](doc/lazy.md)
-
 - [纯函数管道数据流串并联集成系统法](doc/DataflowIC.md)
 
 - [论纯函数管道数据流方法，兼评：左耳朵耗子 《什么是函数式编程？》](doc/AboutDataflow.md)
 
-- [代码也是头等公民](doc/code-is-first-class.md)
-
 - [函数式编程学套路还是学无限法？](doc/infinite.md)
+
+- [代码也是头等公民](doc/code-is-first-class.md)
 
 - [《代码大全》与“想像力编程”](doc/CodeComplete.md)
 
 - [《计算机编程的艺术》与想象力编程](doc/TAOCP.md)
+
+- [神话编程：生死簿、轮回、地狱](doc/LifecycleManagement.md)
+
+- [半自动步枪、批处理和Lazy](doc/lazy.md)
+
+- [如来神掌与tree-seq](doc/tree-seq-and-The-Hand-of-God.md)
 
 - [Rust: 数学不能救编程，但财务可以](doc/rust.md)
 
