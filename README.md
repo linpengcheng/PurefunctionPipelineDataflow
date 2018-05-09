@@ -35,12 +35,14 @@ A complete integrated system is formed by serial or parallel dataflow.
 
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is `->>` threading macro code block, 
-each step is simple, verifiable, replaceable, testable, pluggable, extensible. 
+each step is simple, verifiable, replaceable, testable, pluggable, extensible,
+and easy to implement multithreading. 
 The clojure threading macro provides language-level support for PurefunctionPipeline&Dataflow.
 
 对我来说，编程就是设计一个操纵简单流畅的数据模型的过程，
 在我的项目里，80%以上的函数是由`->>`这类数据流线程宏代码块组成。
-每一步都是很简单、可验证、可测试、可替换、可插入、可扩展。
+每一步都是很简单、可验证、可测试、可替换、可插入、可扩展，
+而且容易实现多线程处理。
 Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作函数，
 对纯函数管道数据流提供了语言级的支持。
 
