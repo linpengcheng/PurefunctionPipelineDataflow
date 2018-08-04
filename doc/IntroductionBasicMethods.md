@@ -2,6 +2,49 @@ english edition come soon
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
+The best practice from the largest Clojure project [(Lin Pengcheng Financial Analyser )](https://github.com/linpengcheng/fa)
+
+1.IDE: Notepad++ [(ClojureBoxNpp)](https://github.com/linpengcheng/ClojureBoxNpp)
+
+2. Version Control: 7z.exe
+
+3. Programming ideas [(PurefunctionPipelineDataflow)](https://github.com/linpengcheng/PurefunctionPipelineDataflow)simulate the following list:
+
+   **Imaginative programming： Everything is an algorithm, at your fingertips.**
+
+```
+   Business management thinking
+   Pipeline technology for large industrial production
+   Business process reengineering
+   Enterprise organization, system, process design thinking
+   Accounting
+   Integrated circuit diagram
+   Urban water network
+   Boeing aircraft pulse production line technology
+   Confluence technology of rivers from the source to the sea
+```
+
+4. Data-centric, dataflow, designing a data model that is simple and fluent in manipulation.   The line between the two points is the shortest, and the data is directly manipulated from the initial state to the final state.   
+
+5. Pure Clojure.
+
+6. Don't use OO, FP, AOP.
+
+7. Don't write middleware,  macros.
+
+8. repl drive development.
+
+9. Try to design a pure function  (pipe function) of a single hash-map parameter.
+
+10.Minimize front-end code.
+
+11 Side effects can only appear at the end of the pipe.
+
+12.Try to use thread macros.
+
+13.Code linearization, schematicization, simplification.
+
+14.Use namespaces to achieve good code structure.
 
 # 纯函数管道数据流·基本构造方法
 
