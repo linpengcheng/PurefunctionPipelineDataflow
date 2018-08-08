@@ -2,7 +2,7 @@ english edition come soon
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
-The best practice from the largest Clojure project [(Lin Pengcheng Financial Analyser )](https://github.com/linpengcheng/fa)
+The best practice from the largest personal Clojure project [(Lin Pengcheng Financial Analyser )](https://github.com/linpengcheng/fa)
 
 1.IDE: Notepad++ [(ClojureBoxNpp)](https://github.com/linpengcheng/ClojureBoxNpp)
 
@@ -11,6 +11,7 @@ The best practice from the largest Clojure project [(Lin Pengcheng Financial Ana
 3. Programming ideas [(PurefunctionPipelineDataflow)](https://github.com/linpengcheng/PurefunctionPipelineDataflow)simulate the following list:
 
    **Imaginative programming： Everything is an algorithm, at your fingertips.**
+**The most valuable chapter of "Code Complete" : Chapter 2 Metaphors for a Richer Understanding of Software Development**
 
 ```
    Business management thinking
@@ -28,9 +29,9 @@ The best practice from the largest Clojure project [(Lin Pengcheng Financial Ana
 
 5. Pure Clojure.
 
-6. Don't use OO, FP, AOP.
+6. Don't use OO, FP, AOP. They are overly complex hand-workshop-level technologies.
 
-7. Don't write middleware,  macros.
+7. Don't write middleware,  macros, loop.
 
 8. repl drive development.
 
@@ -42,9 +43,17 @@ The best practice from the largest Clojure project [(Lin Pengcheng Financial Ana
 
 12.Try to use thread macros.
 
-13.Code linearization, schematicization, simplification.
+13.Code linearization, schematicization, simplification. What You See Is What You Get.
 
 14.Use namespaces to achieve good code structure.
+
+15. Normalize data.
+
+16.Data verification only appears at the beginning of the pipeline.
+
+17. Use the clojure.core API to manipulate data, enhance data model design capabilities. Don't use like specter  lib etc.
+
+18.Use and design "simple DSL", like hiccup, honeysql etc.
 
 # 纯函数管道数据流·基本构造方法
 
