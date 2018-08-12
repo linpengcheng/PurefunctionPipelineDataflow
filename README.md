@@ -33,6 +33,13 @@ A complete integrated system is formed by serial or parallel dataflow.
 一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
 通过串联或并联数据流，形成一个完整的集成系统。
 
+Can also be said, data and logic are strictly separated, data-flow is current-flow, 
+function is chip, thread macro (->>, -> etc.) is a wire, 
+and the entire system is an integrated circuit that is energized.
+
+也可以换种说法，数据和逻辑严格分离，数据是电流，函数是芯片，
+线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
+
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is `->>` threading macro code block, 
 each step is simple, verifiable, replaceable, testable, pluggable, extensible,
@@ -71,6 +78,8 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 - [半自动步枪、批处理和Lazy](doc/lazy.md)
 
 - [如来神掌与tree-seq](doc/tree-seq-and-The-Hand-of-God.md)
+
+- [数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
 - [Rust: 数学不能救编程，但财务可以](doc/rust.md)
 
