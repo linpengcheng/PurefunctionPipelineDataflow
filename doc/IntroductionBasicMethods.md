@@ -11,6 +11,7 @@ The best practice from the largest personal Clojure project [(Lin Pengcheng Fina
 3. Programming ideas [(PurefunctionPipelineDataflow)](https://github.com/linpengcheng/PurefunctionPipelineDataflow)simulate the following list:
 
 **Imaginative programming： Everything is an algorithm, at your fingertips.**
+
 **The most valuable chapter of "Code Complete" : Chapter 2 Metaphors for a Richer Understanding of Software Development**
 
 ```
