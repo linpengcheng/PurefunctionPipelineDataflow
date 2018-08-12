@@ -9,6 +9,6 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 把没见过这种玩法的少林和尚看呆了，难道鸠摩智一天有24*72小时吗？
 相信时间是挤出来的和尚得把自已挤成纳米颗粒。
 
-![](./xiaowuxiang.png)
-![](./light.jpeg)
-![](./let.png)
+![小无相功](./xiaowuxiang.png)
+![发扬光大](./light.jpeg)
+![承让](./let.png)
