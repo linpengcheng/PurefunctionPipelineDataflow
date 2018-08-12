@@ -10,7 +10,7 @@ The best practice from the largest personal Clojure project [(Lin Pengcheng Fina
 
 3. Programming ideas [(PurefunctionPipelineDataflow)](https://github.com/linpengcheng/PurefunctionPipelineDataflow)simulate the following list:
 
-   **Imaginative programming： Everything is an algorithm, at your fingertips.**
+**Imaginative programming： Everything is an algorithm, at your fingertips.**
 **The most valuable chapter of "Code Complete" : Chapter 2 Metaphors for a Richer Understanding of Software Development**
 
 ```
@@ -31,7 +31,7 @@ The best practice from the largest personal Clojure project [(Lin Pengcheng Fina
 
 6. Don't use OO, FP, AOP. They are overly complex hand-workshop-level technologies.
 
-7. Don't write middleware,  macros, loop.
+7. Don't write middleware,  macros, loop. They are  hard to read, difficult to debug and observe. 
 
 8. repl drive development.
 
@@ -53,7 +53,9 @@ The best practice from the largest personal Clojure project [(Lin Pengcheng Fina
 
 17. Use the clojure.core API to manipulate data, enhance data model design capabilities. Don't use like specter  lib etc.
 
-18.Use and design "simple DSL", like hiccup, honeysql etc.
+18.Use and design "simple DSL", like hiccup, honeysql etc. DSL usage is code conversion, Using data style representation is better than using function style representation. A series of pipeline functions are concatenated to form a compiler for converting DSL data into target code and then evaluating it.
+
+19.The best abstraction is: data and logic are strictly separated, data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the  entire system is an integrated circuit that is energized.
 
 # 纯函数管道数据流·基本构造方法
 
