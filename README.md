@@ -55,7 +55,7 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, progressing in sequence, reaching the end point. The pure function pipeline data flow is like a water flow, almost close to the Tao.
 
-上善若水, 水能按需呈现任何形状, 随心所意, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
+上善若水, 水能按需呈现任何形状, 随心所欲, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
 纯函数管道数据流就象水流一样, 近乎于道.
 
 ![TaoTaiji](./doc/TaoTaiji.gif)
