@@ -37,7 +37,7 @@ Can also be said, data and logic are strictly separated, data-flow is current-fl
 function is chip, thread macro (->>, -> etc.) is a wire, 
 and the entire system is an integrated circuit that is energized.
 
-也可以换种说法，数据和逻辑严格分离，数据是电流，函数是芯片，
+也可以换种说法，数据和逻辑严格分离，数据流是电流，函数是芯片，
 线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
@@ -52,6 +52,11 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 而且容易实现多线程处理。
 Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作函数，
 对纯函数管道数据流提供了语言级的支持。
+
+According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, progressing in sequence, reaching the end point. The pure function pipeline data flow is like a water flow, almost close to the Tao.
+
+上善若水, 水能按需呈现任何形状, 随心所意, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
+纯函数管道数据流就象水流一样, 近乎于道.
 
 ## Table of Contents  目录
 
