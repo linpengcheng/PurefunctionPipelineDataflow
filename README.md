@@ -58,6 +58,8 @@ According to Taoism, water flow is the perfect substance. The water flow is alwa
 上善若水, 水能按需呈现任何形状, 随心所意, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
 纯函数管道数据流就象水流一样, 近乎于道.
 
+![TaoTaiji](./doc/TaoTaiji.gif)
+
 ## Table of Contents  目录
 
 - [Introduction： Basic Methods 引论: 基本构造方法](doc/IntroductionBasicMethods.md)
