@@ -6,6 +6,17 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
+```
+               Clojure -> DBMS, Super Foxpro
+                   STM -> Transaction，MVCC
+Persistent Collections -> db, table, col
+                 Watch -> trigger, log
+                  Spec -> constraint
+              Core API -> SQL, Built-in function
+              function -> Stored Procedure
+             Meta Data -> System Table
+```
+
 I don’t care about static or dynamic types, nor about FP, LP, or OO. For me, 
 they are overly complex, unreliable, and unscientific. I think they are very bad and upset me.
 
@@ -22,14 +33,3 @@ I will continue to apply this routine to the AI field in the future.
 
 The main development goal of clojure is to write the database. 
 The development idea is actually from the database, not the FP.
-
-```
-               Clojure -> DBMS, Super Foxpro
-                   STM -> Transaction，MVCC
-Persistent Collections -> db, table, col
-                 Watch -> trigger, log
-                  Spec -> constraint
-              Core API -> SQL, Built-in function
-              function -> Stored Procedure
-             Meta Data -> System Table
-```
