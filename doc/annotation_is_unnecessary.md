@@ -1,6 +1,6 @@
-Annotation is an unnecessary technique
+# Annotation is an unnecessary technique
 
-注解是不必要的技术
+# 注解是不必要的技术
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
