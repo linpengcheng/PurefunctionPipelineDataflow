@@ -64,6 +64,8 @@ According to Taoism, water flow is the perfect substance. The water flow is alwa
 
 - [Introduction： Basic Methods 引论: 基本构造方法](doc/IntroductionBasicMethods.md)
 
+- [Annotation is an unnecessary technique 注解是不必要的技术](doc/annotation_is_unnecessary.md)
+
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
 - [英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
