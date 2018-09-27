@@ -66,6 +66,8 @@ According to Taoism, water flow is the perfect substance. The water flow is alwa
 
 - [Annotation is an unnecessary technique 注解是不必要的技术](doc/annotation_is_unnecessary.md)
 
+- [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
+
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
 - [英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
