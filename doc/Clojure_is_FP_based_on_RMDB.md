@@ -23,10 +23,13 @@ I will continue to apply this routine to the AI field in the future.
 The main development goal of clojure is to write the database. 
 The development idea is actually from the database, not the FP.
 
-Clojure -> DBMS, Super Foxpro
-STM -> Transaction，MVCC
-persistent collections -> db, table, col
-Watch -> trigger, log
-Spec -> constraint
-Core API -> SQL, Built-in function
-function -> Stored Procedure
+```
+               Clojure -> DBMS, Super Foxpro
+                   STM -> Transaction，MVCC
+Persistent Collections -> db, table, col
+                 Watch -> trigger, log
+                  Spec -> constraint
+              Core API -> SQL, Built-in function
+              function -> Stored Procedure
+             Meta Data -> System Table
+```
