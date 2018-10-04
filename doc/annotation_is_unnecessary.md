@@ -19,11 +19,11 @@ transmission data signal and control signal.
 
 The difference between the two:
 
-1. Put it in the code, or put it in the data, it's just a configuration.
+1. "Put it in the code" vs. "Put it in the data", it's just a configuration.
 
-2. Intrusion code and intrusion data.
+2. "Intrusion code" vs. "Intrusion data".
 
-3. Interpreted by the compiler and interpreted by the code.
+3. "Interpreted by the compiler" vs. "Interpreted by the code".
 
 I think metadata (annotation) manipulation (or viewing) is not convenient,
 So I don't like to use this technology.
