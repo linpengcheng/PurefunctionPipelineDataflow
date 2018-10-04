@@ -13,6 +13,10 @@ similar to the system table in the database.
 The practice of data flow, controlled by data. 
 Run with data-driven and scheduling systems.
 
+Classic pure function pipeline data flow example, 
+communication industry mode, 
+transmission data signal and control signal.
+
 The difference between the two:
 
 1. Put it in the code, or put it in the data, it's just a configuration.
@@ -27,6 +31,8 @@ So I don't like to use this technology.
 注解(annotation)相当于Clojure的元数据,一般我都不用.
 我直接在数据里表示, 类似数据库里的系统表.
 数据流的做法，由数据控制一切. 用数据驱动和调度系统运行. 
+
+经典的纯函数管道数据流例子, 通信业的模式, 传输数据信号和控制信号.
 
 两者的差别:
 
