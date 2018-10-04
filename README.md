@@ -40,6 +40,10 @@ and the entire system is an integrated circuit that is energized.
 也可以换种说法，数据和逻辑严格分离，数据流是电流，函数是芯片，
 线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 
+Classic examples, communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
+
+经典的例子, 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
+
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is `->>` threading macro code block, 
 each step is simple, verifiable, replaceable, testable, pluggable, extensible,
