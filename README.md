@@ -33,20 +33,17 @@ A complete integrated system is formed by serial or parallel dataflow.
 一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
 通过串联或并联数据流，形成一个完整的集成系统。
 
-Can also be said, data and logic are strictly separated, data-flow is current-flow, 
-function is chip, thread macro (->>, -> etc.) is a wire, 
-and the entire system is an integrated circuit that is energized.
-
-也可以换种说法，数据和逻辑严格分离，数据流是电流，函数是芯片，
-线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
-
+Can also be said, 
+Data and logic are strictly separated, 
 Classic examples:
 
+- data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
 - Raw materials flow in the production line
 
-经典的例子:
+也可以换种说法，数据和逻辑严格分离，经典的例子:
 
+- 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
 - 原料在生产线流转
 
