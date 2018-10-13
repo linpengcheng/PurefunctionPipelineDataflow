@@ -47,7 +47,7 @@ Classic examples:
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
-- 原料在生产线流转
+- 原料在生产流水线上流转
 - 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.非常容易插入增强优化或特性, 实现并行编译也很简单.
 
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
