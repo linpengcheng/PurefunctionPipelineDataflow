@@ -72,8 +72,8 @@ Basic quality control of pure function pipeline data flow:
 - **System evaluation:** Just look at the circuit diagram, you can treat the function as a black box like an electronic component.
 
 纯函数管道数据流的基本质量控制:
-函数评价: 只需要看代码的外形(顺序结构比重), 以及函数是不是纯函数.
-系统评价: 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
+- **函数评价:** 只需要看代码的外形(顺序结构比重), 以及函数是不是纯函数.
+- **系统评价:** 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
 
