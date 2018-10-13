@@ -40,12 +40,14 @@ Classic examples:
 - data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
 - Raw materials flow in the production line
+- The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code.
 
 也可以换种说法，数据和逻辑严格分离，经典的例子:
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
 - 原料在生产线流转
+- 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.
 
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is `->>` threading macro code block, 
