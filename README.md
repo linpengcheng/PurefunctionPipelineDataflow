@@ -63,6 +63,18 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作函数，
 对纯函数管道数据流提供了语言级的支持。
 
+FP and OO are overly complicated, and it is not feasible in large industries. It is also a kind of production method that emphasizes personal technology in hand workshops. Personal technology greatly affects product quality and extremely unreliable production methods.
+
+FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。
+
+Basic quality control of pure function pipeline data flow:
+- **Function evaluation:** Just look at the shape of the code (sequence structure weight), and whether the function is a pure function.
+- **System evaluation:** Just look at the circuit diagram, you can treat the function as a black box like an electronic component.
+
+纯函数管道数据流的基本质量控制:
+函数评价: 只需要看代码的外形(顺序结构比重), 以及函数是不是纯函数.
+系统评价: 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
+
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
 
 上善若水, 水能按需呈现任何形状, 随心所欲, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
