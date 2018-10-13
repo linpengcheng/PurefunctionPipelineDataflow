@@ -43,7 +43,7 @@ Classic examples:
 - Raw materials flow in the production line
 - The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
 
-也可以换种说法，数据和逻辑严格分离，经典的例子:
+也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。经典的例子:
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
