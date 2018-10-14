@@ -80,7 +80,7 @@ Code example:
 代码范例:
 
 ```clojure
-;Conventional thinking, chaotic logic.
+;Traditional expression, chaotic logic, unreadable.
 (if (and (> x1 x2)
          (or (< x3 x4) 
              (and (or (> y1 y2) 
@@ -90,8 +90,9 @@ Code example:
   :t
   :f)
 
+;Pure Function Pipeline Dataflow
 ;Unrestricted expression, just read in order. 
-;Closer to the order in which the machine is executed.
+;Closer to the order of execution of the machine.
 (->  (> y1 y2)
      (or  , (< y3 y4))
      (and , (not= x5 x6))
