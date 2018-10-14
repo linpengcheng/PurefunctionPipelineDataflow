@@ -75,10 +75,41 @@ Basic quality control of pure function pipeline data flow:
 - **函数评价:** 只需要看代码的外形(顺序结构比重), 以及函数是不是纯函数.
 - **系统评价:** 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
 
+Code example:
+
+代码范例:
+
+```clojure
+;Conventional thinking, chaotic logic.
+(if (and (> x1 x2)
+         (or (< x3 x4) 
+             (and (or (> y1 y2) 
+                      (< y3 y4))
+                  (not= x5 x6)))
+         (keyword? x7)) 
+  :t
+  :f)
+
+;Unrestricted expression, just read in order. 
+;Closer to the order in which the machine is executed.
+(->  (> y1 y2)
+     (or  , (< y3 y4))
+     (and , (not= x5 x6))
+     (or  , (< x3 x4))
+     (and , (> x1 x2))
+     (and , (keyword? x7))       
+     (if  , :t :f))
+```
+
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
 
 上善若水, 水能按需呈现任何形状, 随心所欲, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
 纯函数管道数据流就象水流一样, 近乎于道.
+
+Clojure just adds four persistent collections and some core functions to the JVM, and expresses the code with four persistent collections. It has no syntax, It can change as needed, like water flow, almost the Tao.
+
+Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四个持久集合表示代码。
+它没有语法, 它可以象水流那样, 随需变化, 近乎于道.
 
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
