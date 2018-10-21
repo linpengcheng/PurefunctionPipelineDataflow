@@ -42,6 +42,8 @@ Classic examples:
 - Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
 - The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
+- Urban water network
+- Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea
 
 也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。经典的例子:
 
@@ -49,6 +51,8 @@ Classic examples:
 - 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
 - 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.非常容易插入增强优化或特性, 实现并行编译也很简单.
+- 城市的自来水网
+- 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海.
 
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is `->>` threading macro code block, 
@@ -62,6 +66,10 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 而且容易实现多线程处理。
 Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作函数，
 对纯函数管道数据流提供了语言级的支持。
+
+The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. FP and OO are actually taking a detour, highly embellished and ineffectual, and produce all kinds of fail.
+
+大海航行靠舵手，编程朝着数据走。初始状态，最终状态，两点间直线距离最短。简单直接是快速稳定可靠的根本。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
 
 FP and OO are overly complicated, and it is not feasible in large industries. It is also a kind of production method that emphasizes personal technology in hand workshops. Personal technology greatly affects product quality and extremely unreliable production methods.
 
