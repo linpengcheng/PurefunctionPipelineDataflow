@@ -39,15 +39,15 @@ Element level separation of data and logic, data stream processing.
 Classic examples:
 
 - data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
+- Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
-- Raw materials flow in the production line
 - The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
 
 也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。经典的例子:
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
+- 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
-- 原料在生产流水线上流转
 - 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.非常容易插入增强优化或特性, 实现并行编译也很简单.
 
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
@@ -68,11 +68,11 @@ FP and OO are overly complicated, and it is not feasible in large industries. It
 FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。
 
 Basic quality control of pure function pipeline data flow:
-- **Function evaluation:** Just look at the shape of the code (sequence structure weight), and whether the function is a pure function.
+- **Function evaluation:** Just look at the shape of the code (pipeline structure weight), and whether the function is a pure function.
 - **System evaluation:** Just look at the circuit diagram, you can treat the function as a black box like an electronic component.
 
 纯函数管道数据流的基本质量控制:
-- **函数评价:** 只需要看代码的外形(顺序结构比重), 以及函数是不是纯函数.
+- **函数评价:** 只需要看代码的外形(管道结构比重), 以及函数是不是纯函数.
 - **系统评价:** 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
 
 Code example:
