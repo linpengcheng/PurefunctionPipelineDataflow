@@ -21,7 +21,7 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
         ---- Clojure编程乐趣(第2版)第10章
 ``` 
 
-## Concept 概念
+## Summary 概述
 
 Using the input and output characteristics of pure functions, pure functions are used as pipelines.
 Dataflow is formed by a series of pure functions in series.
