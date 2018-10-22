@@ -75,13 +75,13 @@ FP and OO are overly complicated, and it is not feasible in large industries. It
 
 FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。
 
-Basic quality control of pure function pipeline data flow. The code must meet the following three basic quality requirements before you can talk about other things. These simple and reliable scoring standards are enough to eliminate most unqualified codes.
+Basic quality control of pure function pipeline data flow. The code must meet the following three basic quality requirements before you can talk about other things. These simple and reliable evaluation criteria are enough to eliminate most unqualified codes.
 - **Function evaluation:** Just look at the shape of the code (pipeline structure weight), and whether the function is a pure function.
 - **Dataflow evaluation:** A data flow has at most one side effect and can only be placed at the end.
 - **System evaluation:** Just look at the circuit diagram, you can treat the function as a black box like an electronic component.
 
-纯函数管道数据流的基本质量控制, 只有代码达到下面三条基本质量要求,才可以继续谈其他.
-这些简单可靠的评分标准,足以淘汰绝大多数不合格代码:
+纯函数管道数据流的基本质量控制, 只有代码达到下面三条基本质量要求, 才可以继续谈其他.
+这些简单可靠的评价标准, 足以淘汰绝大多数不合格代码:
 - **函数  评价:** 只需要看代码的外形(管道结构比重), 以及函数是不是纯函数.
 - **数据流评价:** 最多只有一个副作用,且只能放在末端.
 - **系统  评价:** 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
