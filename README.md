@@ -81,11 +81,11 @@ FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作�
 
 The code looks similar, but the idea is essentially different.
 
-- The input and output of the middleware function is a function, 
+- The input and output of the middleware's function is a function, 
 the flow is a layer-packed function. It like concentric circles, 
 and middleware debugging is very troublesome.
 
-- Pure function pipeline data stream input and output is data, flow is data, 
+- The input and output of the PureFunctionPipelineDataflow's function is data, flow is data, 
 it is linear series and parallel. It like a line.
 
 I can't agree with the idea of middleware,
@@ -95,7 +95,7 @@ only the data (current) can flow, which is the essential difference.
 
 代码外形看起来相似，但理念是本质上的差别。
 
-- middleware函数的输入输出是函数，流转的是层层打包的函数，是同心圆，middleware调试是很麻烦的。
+- 中间件函数的输入输出是函数，流转的是层层打包的函数，是同心圆，middleware调试是很麻烦的。
 
 - 纯函数管道数据流输入输出是数据，流转的是数据，是线性的串并联。
 
