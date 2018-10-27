@@ -67,13 +67,42 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作函数，
 对纯函数管道数据流提供了语言级的支持。
 
-The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. FP and OO are actually taking a detour, highly embellished and ineffectual, and produce all kinds of fail.
+The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. 
 
-大海航行靠舵手，编程朝着数据走。初始状态，最终状态，两点间直线距离最短。简单直接是快速稳定可靠的根本。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
+大海航行靠舵手，编程朝着数据走。初始状态，最终状态，两点间直线距离最短。简单直接是快速稳定可靠的根本。
 
-FP and OO are overly complicated, and it is not feasible in large industries. It is also a kind of production method that emphasizes personal technology in hand workshops. Personal technology greatly affects product quality and extremely unreliable production methods.
+## Disadvantages of FP and OO 函数式编程和面向对象编程的缺点
 
-FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。
+FP and OO are overly complicated, and it is not feasible in large industries. It is also a kind of production method that emphasizes personal technology in hand workshops. Personal technology greatly affects product quality and extremely unreliable production methods.FP and OO are actually taking a detour, highly embellished and ineffectual, and produce all kinds of fail.
+
+FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
+
+## The difference between it and middleware 它和中间件的区别
+
+The code looks similar, but the idea is essentially different.
+
+- The input and output of the middleware function is a function, 
+the flow is a layer-packed function. It like concentric circles, 
+and middleware debugging is very troublesome.
+
+- Pure function pipeline data stream input and output is data, flow is data, 
+it is linear series and parallel. It like a line.
+
+I can't agree with the idea of middleware,
+It is in conflict with the idea of integrated circuits. 
+In the circuit, the component (board) cannot be circulated, 
+only the data (current) can flow, which is the essential difference.
+
+代码外形看起来相似，但理念是本质上的差别。
+
+- middleware函数的输入输出是函数，流转的是层层打包的函数，是同心圆，middleware调试是很麻烦的。
+
+- 纯函数管道数据流输入输出是数据，流转的是数据，是线性的串并联。
+
+我不能认同中间件的理念，和集成电路思想是冲突的。电路里，元件（电路板）是无法流转的，
+只有数据（电流）才能流转，这是本质的区别。
+
+## Basic quality control 基本质量控制
 
 Basic quality control of pure function pipeline data flow. The code must meet the following three basic quality requirements before you can talk about other things. These simple and reliable evaluation criteria are enough to eliminate most unqualified codes.
 - **Function evaluation:** Just look at the shape of the code (pipeline structure weight), and whether the function is a pure function.
@@ -86,9 +115,7 @@ Basic quality control of pure function pipeline data flow. The code must meet th
 - **数据流评价:** 最多只有一个副作用,且只能放在末端.
 - **系统  评价:** 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
 
-Code example:
-
-代码范例:
+## Code example:  代码范例:
 
 ```clojure
 ;Traditional expression, chaotic logic, unreadable.
@@ -112,6 +139,8 @@ Code example:
      (and , (keyword? x7))       
      (if  , :t :f))
 ```
+
+## Tao 道
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
 
