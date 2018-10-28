@@ -178,7 +178,7 @@ a single-parameter function with a hash-map type.
 Like most functions in the R language, you can design many named parameters with default values, 
 which are highly scalable. 
 In addition, clojure has many core functions for operating hash-map, it's easy to operate,
-not only when using ->> macro can not write parentheses, 
+not only it may don't write parentheses when using ->> macro, 
 it can be integrated parameter formation, verification, transformation and serial pipeline functions, 
 It is also convenient to deconstruct the clojure. 
 which is as convenient as multi-parameter functions in use.
