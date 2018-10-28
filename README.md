@@ -155,8 +155,10 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
 Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything.
+Therefore, accounting and management can also be used as algorithms and software engineering methods.
 
 大道至简, 道法自然, 道是算法, 道无处不在。
+所以, 会计学和管理学也可当成算法和软件工程方法使用.
 
 ## Table of Contents  目录
 
