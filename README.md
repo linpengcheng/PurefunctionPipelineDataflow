@@ -155,10 +155,11 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
 Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything.
-Therefore, Integrated Circuit Technology, Accounting and Management can also be used as Algorithms and Software Engineering Methods.
+Therefore, Integrated Circuit Technology, Industrial assembly line production technology, 
+Accounting and Management can also be used as Algorithms and Software Engineering Methods.
 
 大道至简, 道法自然, 道是算法, 道无处不在。
-所以, 集成电路技术、会计学和管理学也可当成算法和软件工程方法使用.
+所以, 集成电路技术、工业流水线生产技术、会计学和管理学也可当成算法和软件工程方法使用.
 
 ## Table of Contents  目录
 
