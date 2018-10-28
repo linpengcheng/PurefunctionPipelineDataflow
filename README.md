@@ -150,13 +150,13 @@ According to Taoism, water flow is the perfect substance. The water flow is alwa
 Clojure just adds four persistent collections and some core functions to the JVM, and expresses the code with four persistent collections. It has no syntax, It can change as needed, like water flow, almost the Tao.
 
 Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四个持久集合表示代码。
-它没有语法, 它可以象水流那样, 随需变化, 近乎于道.
+它没有语法, 它可以象水流那样, 随需变化, 近乎于道。
 
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
 Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything.
 
-大道至简,道法自然, 道是算法, 道无处不在.
+大道至简, 道法自然, 道是算法, 道无处不在。
 
 ## Table of Contents  目录
 
