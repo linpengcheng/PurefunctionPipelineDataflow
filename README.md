@@ -154,9 +154,9 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
-Tao is simplicity, Tao is the law of nature, Tao is everything.
+Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything.
 
-大道至简,道法自然, 道无所不在.
+大道至简,道法自然, 道是算法, 道无处不在.
 
 ## Table of Contents  目录
 
