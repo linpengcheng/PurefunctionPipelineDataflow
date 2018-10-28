@@ -179,9 +179,9 @@ Like most functions in the R language, you can design many named parameters with
 which are highly scalable. 
 In addition, clojure has many core functions for operating hash-map, it's easy to operate,
 not only it may don't write parentheses when using ->> macro, 
-it can be integrated parameter formation, verification, transformation and serial pipeline functions, 
+it can be integrated that parameter formation, verification, transformation and serial pipeline functions, 
 It is also convenient to deconstruct in clojure. 
-which is as convenient as multi-parameter functions in use.
+which is as convenient as multi-parameter functions.
 
 在clojure语言里，建议函数尽量设计成参数为hash-map类型的单参数函数，
 象R语言大多数函数那样，可以设计很多带默认值的命名参数，有很强的可扩展性。
