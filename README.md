@@ -155,7 +155,7 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
 Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything.
-Therefore, Integrated Circuit Technology, Industrial assembly line production technology, 
+Therefore, Integrated Circuit Technology, Industrial Assembly Line Production Technology, 
 Accounting and Management can also be used as Algorithms and Software Engineering Methods.
 
 大道至简, 道法自然, 道是算法, 道无处不在。
