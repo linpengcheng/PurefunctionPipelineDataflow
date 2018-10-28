@@ -140,6 +140,136 @@ Basic quality control of pure function pipeline data flow. The code must meet th
      (if  , :t :f))
 ```
 
+## Basic construction method 基本构造方法
+
+### 1. Pipeline Component: 管道组件
+
+A ->> block function is equivalent to an integrated circuit component (or board).
+A series of functions in a ->> block can only have one function with side effects 
+and can only be at the end. 
+In addition, we must pay attention to the data standardization work, 
+verify the data at the entrance and exit, 
+and run at full speed in the middle, 
+which is simple, smooth, stable and efficient.
+
+一个->>块函数相当于一个集成电路元件（或板）,
+一个->>块里面的一系列函数，最多只能有一个带副作用的函数且只能处于末尾。
+另外，要注意做好数据标准化工作，在出入口检查，中间就可以极限裸奔，
+这样做简洁、流畅、稳定、高效。
+
+In the clojure language, it is recommended that the function be designed as 
+a single-parameter function with a hash-map type. 
+Like most functions in the R language, you can design many named parameters with default values, 
+which are highly scalable. 
+In addition, clojure has many core functions for operating hash-map, it's easy to operate,
+not only when using ->> macro can not write parentheses, 
+it can be integrated parameter formation, verification, transformation and serial pipeline functions, 
+It is also convenient to deconstruct the clojure. 
+which is as convenient as multi-parameter functions in use.
+
+在clojure语言里，建议函数尽量设计成参数为hash-map类型的单参数函数，
+象R语言大多数函数那样，可以设计很多带默认值的命名参数，有很强的可扩展性。
+另外，clojure操作hash-map的核心函数很多，操作方便，不仅在使用->>宏时可以不用写括号，
+而且参数的形成，校验，变换与函数调用一体化、一条龙数据流处理。
+还有clojure解构方便，在使用上与多参数函数是一样方便的。
+
+```clojure
+(defn f [x]
+  (->> x
+       f1
+       f2))
+```
+
+```clojure
+(defn f [{:keys [x y] :as m}]
+  (->> x
+       (f1 y ,)
+       f2))
+```
+
+### 2. Branch 分支
+
+A (cond) or (if) block as a function.
+
+一个(cond)或(if)块作为一个函数。
+
+```clojure
+(defn f [x]
+  (cond
+    (= x 1) (f1)
+    (= x 2) (f2)
+    :else   (f3)))
+```
+```clojure
+(defn f2 [x y]
+  (-> (> x 2)
+      (and , (< y 6))
+      (if , 25 30)))
+```
+```clojure
+(defn path-combine [s1 s2]
+  (cond
+    (string/starts-with? s2 "/") 
+      s2
+    (not (string/ends-with? s1 "/"))
+      (-> (string/split s1 #"[\\/]")
+          butlast
+          (#(string/join "/" %))
+          (str , "/")
+          (path-combine , s2)) 
+    :else  
+      (-> (string/join "/" [s1 s2])
+          (string/replace ,  #"[\\/]+" "/")))) 
+```
+
+### 3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）
+
+A tail recursive function is equivalent to a feedback circuit. 
+
+Note: The map is batch processing. it can be regarded as similar to a queue of tourists. 
+Repeating the ticket checking action at the entrance is a forward action, 
+not feedback or reflow.
+
+一个尾递归函数相当于一个反馈电路。
+备注：map是批处理，可以看成类似对一个游客队列，在入口重复进行验票动作，
+是一个前进动作，不是反馈或回流。
+
+```clojure
+(defn f [i]
+  (if-not (zero? i)
+    (f1)
+    (-> i dec recur)))
+```
+
+### 4. shunt (concurrent, parallel) 分流(并发, 并行)
+
+For example: data partitioning, parallel processing
+
+例如：对数据进行分块，并行处理
+
+```clojure
+(->> data
+     (partition n ,)
+     (pmap f ,))
+```
+```clojure
+(->> [pipe-f1 pipe-f2 pipe-f3]
+     (pmap #(% data) ,))
+```
+
+### 5. Confluence(reduce) 合流, 合一
+
+reduce the result of the shunt
+
+对分流的结果进行reduce： 
+
+```clojure
+(->> data
+     (partition n ,)
+     (pmap f1 ,)
+     (reduce f2 ,))   
+```
+
 ## Tao 道
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
