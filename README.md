@@ -54,22 +54,6 @@ Element level separation of data and logic, data stream processing.
 ;;[4 5 187 156 -9]
 ```
 
-## Classical Model 经典模型
-
-- data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
-- Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
-- Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
-- The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
-- Urban water network
-- Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea
-
-- 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
-- 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
-- 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
-- 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.非常容易插入增强优化或特性, 实现并行编译也很简单.
-- 城市的自来水网
-- 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海.
-
 For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is `->>` threading macro code block, 
 each step is simple, verifiable, replaceable, testable, pluggable, extensible,
@@ -86,6 +70,22 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. 
 
 大海航行靠舵手，编程朝着数据走。初始状态，最终状态，两点间直线距离最短。简单直接是快速稳定可靠的根本。
+
+## Classical Model 经典模型
+
+- data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
+- Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
+- Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
+- The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
+- Urban water network
+- Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea
+
+- 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
+- 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
+- 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
+- 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.非常容易插入增强优化或特性, 实现并行编译也很简单.
+- 城市的自来水网
+- 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海.
 
 ## Disadvantages of FP and OO 函数式编程和面向对象编程的缺点
 
