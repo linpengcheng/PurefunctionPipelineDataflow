@@ -33,10 +33,28 @@ A complete integrated system is formed by serial or parallel dataflow.
 一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
 通过串联或并联数据流，形成一个完整的集成系统。
 
-Can also be said, 
-Data and logic are strictly separated, 
+Can also be said, Data and logic are strictly separated, 
 Element level separation of data and logic, data stream processing.
-Classic examples:
+
+也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。
+
+```clojure
+(defn f [[evens odds total amax amin] x]
+  (let [[evens odds] (cond 
+                       (even? x) [(inc evens ) odds]
+                       (odd? x)  [evens (inc odds)]
+                       :else     [evens odds])
+        total (+ total x)
+        amax  (max amax x)
+        amin  (min amin x)]   
+     [evens odds total amax amin]))
+
+(reduce f [0 0 0 ##-Inf ##Inf] [5 6 8 -3 -9 11 156 6 7])
+
+;;[4 5 187 156 -9]
+```
+
+## Classical Model 经典模型
 
 - data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
 - Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
@@ -44,8 +62,6 @@ Classic examples:
 - The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
 - Urban water network
 - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea
-
-也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。经典的例子:
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
