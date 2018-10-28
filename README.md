@@ -180,7 +180,7 @@ which are highly scalable.
 In addition, clojure has many core functions for operating hash-map, it's easy to operate,
 not only it may don't write parentheses when using ->> macro, 
 it can be integrated parameter formation, verification, transformation and serial pipeline functions, 
-It is also convenient to deconstruct the clojure. 
+It is also convenient to deconstruct in clojure. 
 which is as convenient as multi-parameter functions in use.
 
 在clojure语言里，建议函数尽量设计成参数为hash-map类型的单参数函数，
