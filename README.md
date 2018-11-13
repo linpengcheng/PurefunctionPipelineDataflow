@@ -78,8 +78,8 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
 - The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
 - Urban water network
-- The Gantt chart in management, with the timeline as the main axis, multiple data flows running in parallel. It is also a good data flow , parallel and asynchronous programming tool. The application research of management to asynchronous, parallel and distributed is the first in the world!
-- Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. It's also a variant of the Gantt Chart.
+- The **Gantt chart** in management, with the timeline as the main axis, multiple data flows running in parallel. It is also a good data flow , parallel and asynchronous programming tool. The application research of management to asynchronous, parallel and distributed is the first in the world!
+- Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. It's also a variant of the **Gantt Chart**.
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
