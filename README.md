@@ -1,4 +1,4 @@
-# Think PurefunctionPipeline&Dataflow First
+# The Pure Function Pipeline Data Flow
 # 纯函数管道数据流
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
