@@ -10,6 +10,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
                Clojure -> DBMS, Super Foxpro
                    STM -> Transaction，MVCC
 Persistent Collections -> db, table, col
+              hash-map -> indexed data
                  Watch -> trigger, log
                   Spec -> constraint
               Core API -> SQL, Built-in function
