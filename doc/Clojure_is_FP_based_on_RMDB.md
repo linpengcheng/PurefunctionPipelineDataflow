@@ -36,7 +36,13 @@ The main development goal of clojure is to write the database.
 The development idea is actually from the database, not the FP.
 
 With reference to the database, as long as I use spec to strictly define (standardization) the core data model, I can ensure the correctness of the system.
+
 I've turned the traditional work of ensuring code correctness from in-code type system validation to data self-validation. Turn the work into verifying the core data model instead of validating the input and output data types of the function.
+
+Similar to industry, verify that all finished products meet the standards before entering the warehouse.
+Also similar to databases, verify their compliance before data enters the database.
+
+That is "Data as a service, Warehouse as the core, operates around it".
 
 A system requires only a few core data models, and development is built around the core data model.
 
@@ -44,7 +50,4 @@ Persistent data structures ensure that the modification of the immutable big dat
 
 In addition, using my pure function pipeline data stream (https://github.com/linpengcheng/PurefunctionPipelineDataflow) makes debugging, parallelism and extension very simple.
 
-Similar to industry, verify that all finished products meet the standards before entering the warehouse.
-Also similar to databases, verify their compliance before data enters the database.
 
-That is "Data as a service, Warehouse as the core, operates around it".
