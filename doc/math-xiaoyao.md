@@ -1,6 +1,6 @@
-数学与《天龙八部》小无相功
+# Mathathematical and AI
 
-Mathathematical and AI
+# 数学与《天龙八部》小无相功
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
