@@ -5,6 +5,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
+## Philosophy 哲学
+
 ```
 NASA’s 10 rules for writing mission-critical code: 
 1.Restrict all code to very simple control flow constructs.
@@ -13,12 +15,31 @@ NASA’s 10 rules for writing mission-critical code:
 Clojure Aphorism: A tangled web of mutation means any change to 
 your code potentially occurs in the large. 
         ---- The Joy of Clojure (2nd Edition, Chapter 10)
+        
+Bad programmers worry about the code. 
+Good programmers worry about data structures and their relationships.
+        ---- Linus Torvalds
+        
+Chapter 2: Metaphors for a Richer Understanding of Software Development.
+        ---- The most valuable chapter of "Code Complete"
+        
+Principles-based are better than rules-based.
+        ----International Accounting Standards        
 
 NASA的10大编程规则：第一条：用非常简单的控制流结构体来编写程序。
         ---- NASA 喷气推进实验室（JPL）的首席科学家 Gerard J. Holzmann
 
 Clojure格言：交织的变化网意味着，代码的任何变化都可能会在更大层面上产生影响。
         ---- Clojure编程乐趣(第2版)第10章
+        
+糟糕的程序员担心代码。优秀的程序员担心数据结构及其关系。
+       ---- Linus Torvalds
+       
+善于在软件开发中运用比喻。
+       ---- "代码大全"最有价值章节(第二章)
+       
+基于原则比基于规则更好。
+       ----国际会计准则
 ``` 
 
 ## Summary 概述
@@ -319,6 +340,8 @@ everything can be used as Algorithms and Software Engineering Methods.
 
 - [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
 
+- [Mathathematical and AI 数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
+
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
 - [英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
@@ -340,8 +363,6 @@ everything can be used as Algorithms and Software Engineering Methods.
 - [半自动步枪、批处理和Lazy](doc/lazy.md)
 
 - [如来神掌与tree-seq](doc/tree-seq-and-The-Hand-of-God.md)
-
-- [数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
 - [Rust: 数学不能救编程，但财务可以](doc/rust.md)
 
