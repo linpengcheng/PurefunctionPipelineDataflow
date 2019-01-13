@@ -20,8 +20,8 @@ Bad programmers worry about the code.
 Good programmers worry about data structures and their relationships.
         ---- Linus Torvalds
         
-Chapter 2: Metaphors for a Richer Understanding of Software Development.
-        ---- The most valuable chapter of "Code Complete"
+Metaphors for a Richer Understanding of Software Development.
+        ---- The most valuable chapter of "Code Complete": Chapter 2
         
 Principles-based are better than rules-based.
         ----International Accounting Standards        
@@ -32,7 +32,7 @@ NASA的10大编程规则：第一条：用非常简单的控制流结构体来�
 Clojure格言：交织的变化网意味着，代码的任何变化都可能会在更大层面上产生影响。
         ---- Clojure编程乐趣(第2版)第10章
         
-糟糕的程序员担心代码。优秀的程序员担心数据结构及其关系。
+糟糕的程序员关注代码。优秀的程序员关注数据结构及其关系。
        ---- Linus Torvalds
        
 善于在软件开发中运用比喻。
