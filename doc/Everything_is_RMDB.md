@@ -23,12 +23,23 @@ Persistent Collections -> db, table, col
 ```
 
 My idea of development: 
-everything is RMDB. 
-Send SQL, get results(or side effects).
+
+Everything is RMDB. 
+
+Send SQL, 
+
+Get results(or side effects).
+
 Playing table tennis between Clojure and RMDB.
 
-我的开发思想：一切都是RMDB,
-发送SQL,获得结果(或副作用),
+我的开发思想：
+
+一切都是RMDB,
+
+发送SQL,
+
+获得结果(或副作用),
+
 在Clojure和RMDB之间打乒乓球。
 
 I use the R language for data analysis and visualization 
