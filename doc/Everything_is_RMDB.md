@@ -6,10 +6,10 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 版权所有 © 2018 林鹏程， 保留所有权利。
 
 ```
-              R System -> RMDB     <- Chrome
-   JRI/RServe/Rsession -> JDBC     <- ring
-            R Language -> SQL      <- HTML
-                  RDSL -> HoneySQL <- hiccup
+              R System -> RMDB     <- Chrome, X-Server
+   JRI/RServe/Rsession -> JDBC     <- ring,   X-Protocol
+            R Language -> SQL      <- HTML,   X-Client(KDE,GNOME,Aqua)
+                  RDSL -> HoneySQL <- hiccup, code+rc(QML,qrc,XUL,XAML)
 --------------------------------------------------
                Clojure -> DBMS, Super Foxpro
                    STM -> Transaction，MVCC
