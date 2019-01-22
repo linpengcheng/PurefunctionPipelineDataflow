@@ -7,8 +7,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ```
               R System -> RMDB     <- Chrome
-            R Language -> SQL      <- HTML
    JRI/RServe/Rsession -> JDBC     <- ring
+            R Language -> SQL      <- HTML
                   RDSL -> HoneySQL <- hiccup
 --------------------------------------------------
                Clojure -> DBMS, Super Foxpro
