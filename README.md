@@ -340,6 +340,8 @@ everything can be used as Algorithms and Software Engineering Methods.
 
 - [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
 
+- [Everything is RMDB. 一切都是RMDB](doc/Everything_is_RMDB.md)
+
 - [Mathathematical and AI 数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
