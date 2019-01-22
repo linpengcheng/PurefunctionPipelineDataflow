@@ -26,7 +26,7 @@ My idea of development:
 
 - Everything is RMDB. 
 - Send SQL, 
-- Get results(or side effects).
+- Get Results ( or side effects).
 - Playing table tennis between Clojure and RMDB.
 
 我的开发思想：
