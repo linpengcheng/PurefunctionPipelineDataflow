@@ -1,6 +1,10 @@
 # Office is db Server
 # Office是数据库服务
 
+Copyright © 2018 Lin Pengcheng. All rights reserved.
+
+版权所有 © 2018 林鹏程， 保留所有权利。
+
 我觉得象msoffice现在都云office了, 
 sqlserever或firebird的数据库文件都是文件型.
 用sqlserever或firebird的数据库文件格式当文件格式,
