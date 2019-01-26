@@ -11,6 +11,10 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 NASA’s 10 rules for writing mission-critical code: 
 1.Restrict all code to very simple control flow constructs.
         ----Gerard J. Holzmann, NASA JPL lead scientist.
+        
+Minimize control flow complexity and "area under ifs", 
+favoring consistent execution paths and times over "optimally" avoiding unnecessary work.
+        ---- John Carmack
 
 Clojure Aphorism: A tangled web of mutation means any change to 
 your code potentially occurs in the large. 
@@ -27,15 +31,15 @@ than 10 functions on 10 data structures.
 Metaphors for a Richer Understanding of Software Development.
         ---- The most valuable chapter of "Code Complete": Chapter 2
         
-Minimize control flow complexity and "area under ifs", 
-favoring consistent execution paths and times over "optimally" avoiding unnecessary work.
-        ---- John Carmack
-        
 Principles-based are better than rules-based.
         ----International Accounting Standards        
 
 NASA的10大编程规则：第一条：用非常简单的控制流结构体来编写程序。
         ---- NASA 喷气推进实验室（JPL）的首席科学家 Gerard J. Holzmann
+       
+最小化控制流复杂性和“ifs下的区域”，倾向于一致的执行路径和时间, 
+而不是 "最优化", 以避免不必要的工作。。
+       ---- 约翰 卡马克       
 
 Clojure格言：交织的变化网意味着，代码的任何变化都可能会在更大层面上产生影响。
         ---- Clojure编程乐趣(第2版)第10章
@@ -48,10 +52,6 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
        
 善于在软件开发中运用比喻。
        ---- "代码大全"最有价值章节(第二章)
-       
-最小化控制流复杂性和“ifs下的区域”，倾向于一致的执行路径和时间, 
-而不是 "最优化", 以避免不必要的工作。。
-       ---- 约翰 卡马克       
        
 基于原则比基于规则更好。
        ----国际会计准则
