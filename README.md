@@ -24,6 +24,9 @@ Bad programmers worry about the code.
 Good programmers worry about data structures and their relationships.
         ---- Linus Torvalds
         
+Data dominates. If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming. 
+        ---- Rob Pike
+        
 It’s better to have 100 functions operate on one data structure 
 than 10 functions on 10 data structures.        
         ---- Alan Perlis
@@ -46,6 +49,10 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
         
 糟糕的程序员关注代码。优秀的程序员关注数据结构及其关系。
        ---- Linus Torvalds
+
+数据占主导地位。如果您选择了正确的数据结构并组织好了，那么算法几乎总是不言自明的。
+数据结构才是编程的核心, 而不是算法。
+        ---- Rob Pike
 
 围绕一个数据结构开发100个函数, 比设计10个带10个函数的数据结构更好.
        ---- Alan Perlis
