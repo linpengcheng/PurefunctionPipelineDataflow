@@ -20,6 +20,10 @@ Bad programmers worry about the code.
 Good programmers worry about data structures and their relationships.
         ---- Linus Torvalds
         
+It’s better to have 100 functions operate on one data structure 
+than 10 functions on 10 data structures.        
+        ---- Alan Perlis
+
 Metaphors for a Richer Understanding of Software Development.
         ---- The most valuable chapter of "Code Complete": Chapter 2
         
@@ -38,6 +42,9 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
         
 糟糕的程序员关注代码。优秀的程序员关注数据结构及其关系。
        ---- Linus Torvalds
+
+围绕一个数据结构开发100个函数, 比设计10个带10个函数的数据结构更好.
+       ---- Alan Perlis
        
 善于在软件开发中运用比喻。
        ---- "代码大全"最有价值章节(第二章)
