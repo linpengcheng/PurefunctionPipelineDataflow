@@ -23,6 +23,10 @@ Good programmers worry about data structures and their relationships.
 Metaphors for a Richer Understanding of Software Development.
         ---- The most valuable chapter of "Code Complete": Chapter 2
         
+Minimize control flow complexity and "area under ifs", 
+favoring consistent execution paths and times over "optimally" avoiding unnecessary work.
+        ---- John Carmack
+        
 Principles-based are better than rules-based.
         ----International Accounting Standards        
 
@@ -37,6 +41,10 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
        
 善于在软件开发中运用比喻。
        ---- "代码大全"最有价值章节(第二章)
+       
+最小化控制流复杂性和“ifs下的区域”，倾向于一致的执行路径和时间, 
+而不是 "最优化", 以避免不必要的工作。。
+       ---- 约翰卡马克       
        
 基于原则比基于规则更好。
        ----国际会计准则
