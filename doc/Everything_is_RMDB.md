@@ -58,6 +58,10 @@ Clojure操作Hash-map非常方便，哈希索引的表现也很强。
 Dataframe类似于DB，它不需要保持顺序，因此，它不需要使用向量，只需在需要时进行排序。
 我使用“hash-map * hash-map”按需在语义上映射（隐喻）作为NoSQL和RMDB的数据库结构。
 
-Finally, if you're having trouble modeling your data, you can refer to posgtresql how to do it.
+Finally, I think that RMDB is the simplest and most reliable in theory and practice, 
+and it is the most rigorous, long-term, high-stress test in critical situations. 
+if you're having trouble modeling your data, you can refer to posgtresql how to do it.
 
-最后, 如果在数据建模时遇到麻烦, 可以参考posgtresql怎么做.
+最后, 我认为RMDB在理论和实践中是最简单和最可靠的，
+并且它是在危急情况下最严格，长期，高压力的测试。
+如果在数据建模时遇到麻烦, 可以参考posgtresql怎么做.
