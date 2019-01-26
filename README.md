@@ -343,6 +343,8 @@ everything can be used as Algorithms and Software Engineering Methods.
 
 - [Mathathematical and AI 数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
+- [The Best Practice of Clojure. Clojure最佳实践](doc/best_practice_of_clojure.md)
+
 - [Office是数据库服务](doc/office_is_db.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
