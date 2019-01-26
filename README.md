@@ -334,8 +334,7 @@ everything can be used as Algorithms and Software Engineering Methods.
 
 ## Table of Contents  目录
 
-- [Introduction： Basic Methods 引论: 基本构造方法](doc/IntroductionBasicMethods.md)
-
+- [~~Introduction： Basic Methods (Old version) 引论: 基本构造方法(老版本)~~](doc/IntroductionBasicMethods.md)
 - [Annotation is an unnecessary technique 注解是不必要的技术](doc/annotation_is_unnecessary.md)
 
 - [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
