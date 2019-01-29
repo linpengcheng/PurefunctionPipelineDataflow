@@ -5,7 +5,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
-## Philosophy 哲学
+## Allies 盟友
 
 ```
 NASA’s 10 rules for writing mission-critical code: 
@@ -399,6 +399,8 @@ everything can be used as Algorithms and Software Engineering Methods.
 - [Mathathematical and AI 数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
 - [The Best Practice of Clojure. Clojure最佳实践](doc/best_practice_of_clojure.md)
+
+- [React is terrible. React很糟糕](doc/react_is_terrible.md)
 
 - [Office是数据库服务](doc/office_is_db.md)
 
