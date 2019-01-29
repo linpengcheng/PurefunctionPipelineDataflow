@@ -5,7 +5,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
-## similar statements 类似观点
+## Similar Statements 类似观点
 
 ```
 NASA’s 10 rules for writing mission-critical code: 
