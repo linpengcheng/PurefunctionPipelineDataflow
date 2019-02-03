@@ -183,8 +183,11 @@ and sent to the warehouse.
 
 Therefore, there will be no 
 abnormal/error/Illegal data inside the workshop, 
-no need to detect data, 
-code is simple, reliable, high performance.
+no need to check data.
+
+The code in the workshop is a pure function pipeline data flow,
+it's simple, reliable, high-performance, 
+Easy to debug, easy to observe, easy to maintain, easy to expand.
 
 The workshop and the workshop are independent, 
 non-interactive, Like a Lego module or 
@@ -217,7 +220,11 @@ in any one workshop do not affect other workshops.
 车间的输入输出只能是标准化数据,
 输入的数据来自仓库,输出的数据经过验收后送到仓库.
 因此车间内部不会存在异常/错误/非法数据,
-无须检测数据,代码简单,可靠,高性能.
+无须检测数据.
+
+车间的代码是纯函数管道数据流,
+代码简单,可靠,高性能,
+易调试,易观测,易维护,易扩展.
 
 车间与车间之间是独立的,不交互,
 就象是乐高组件或船只的水密隔舱,
