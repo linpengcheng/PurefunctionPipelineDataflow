@@ -16,9 +16,9 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Basic construction method 基本构造方法](#Basic-construction-method-基本构造方法)
   - [1. Pipeline Component 管道组件](#Pipeline-Component-管道组件)
   - [2. Branch 分支](#Branch-分支)
-  - [3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）](#Feedback-circuit-{reflow，recursive}-反馈电路{回流，递归})
-  - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#Shunt（concurrent，parallel）分流（并发，并行）)
-  - [5. Confluence(reduce) 合流, 合一](#Confluence（reduce）合流，合一)
+  - [3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）](#Feedback-Circuit-反馈电路)
+  - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#Shunt-分流)
+  - [5. Confluence(reduce) 合流, 合一](#Confluence-合流)
 - [Tao 道](#Tao-道)
 - [Other Articles Table of Contents 其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
 
@@ -302,15 +302,18 @@ A (cond) or (if) block as a function.
           (string/replace ,  #"[\\/]+" "/")))) 
 ```
 
-### Feedback circuit {reflow，recursive} 反馈电路{回流，递归}
+### Feedback Circuit 反馈电路
 
+Feedback circuit (reflow，recursive): 
 A tail recursive function is equivalent to a feedback circuit. 
 
 Note: The map is batch processing. it can be regarded as similar to a queue of tourists. 
 Repeating the ticket checking action at the entrance is a forward action, 
 not feedback or reflow.
 
+反馈电路（回流, 递归）:
 一个尾递归函数相当于一个反馈电路。
+
 备注：map是批处理，可以看成类似对一个游客队列，在入口重复进行验票动作，
 是一个前进动作，不是反馈或回流。
 
@@ -321,11 +324,12 @@ not feedback or reflow.
     (-> i dec recur)))
 ```
 
-### Shunt（concurrent，parallel）分流（并发，并行）
+### Shunt 分流
 
+Shunt（concurrent，parallel）,
 For example: data partitioning, parallel processing
 
-例如：对数据进行分块，并行处理
+分流（并发，并行）,例如：对数据进行分块，并行处理
 
 ```clojure
 (->> data
@@ -337,11 +341,11 @@ For example: data partitioning, parallel processing
      (pmap #(% data) ,))
 ```
 
-### Confluence（reduce）合流，合一
+### Confluence 合流
 
-reduce the result of the shunt
+Confluence（reduce）: reduce the result of the shunt
 
-对分流的结果进行reduce： 
+合流，合一: 对分流的结果进行reduce： 
 
 ```clojure
 (->> data
