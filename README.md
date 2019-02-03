@@ -5,7 +5,22 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
-[The difference between it and middleware 它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
+## TOC
+- [Similar Statements 类似观点](#Similar-Statements-类似观点)
+- [Summary 概述](#Summary-概述)
+- [Classical Model 经典模型](#Classical-Model-经典模型)
+- [Disadvantages of FP and OO 函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
+- [The difference between it and middleware 它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
+- [Basic quality control 基本质量控制](#Basic-quality-control-基本质量控制)
+- [Code example: 代码范例:](#Code-example:-代码范例:)
+- [Basic construction method 基本构造方法](#Basic-construction-method-基本构造方法)
+  - [1. Pipeline Component: 管道组件](#1.-Pipeline-Component:-管道组件)
+  - [2. Branch 分支](#2.-Branch-分支)
+  - [3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）](#3.-Feedback-circuit-(reflow,-recursive)-反馈电路（回流,-递归）)
+  - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#4.-shunt-(concurrent,-parallel)-分流(并发,-并行))
+  - [5. Confluence(reduce) 合流, 合一](#5.-Confluence(reduce)-合流,-合一)
+- [Tao 道](#Tao-道)
+- [Other Articles Table of Contents 其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
 
 ## Similar Statements 类似观点
 
