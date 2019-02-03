@@ -5,6 +5,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
+[TOC]
+
 ## Similar Statements 类似观点
 
 ```
