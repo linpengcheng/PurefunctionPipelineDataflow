@@ -154,6 +154,8 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 
 ### Warehouse Workshop Model 仓库车间模型
 
+![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
+
 Metaphor:
 
 - Warehouse: 
@@ -194,8 +196,6 @@ non-interactive, Like a Lego module or
 a ship's watertight compartment, 
 internal changes or abnormalities 
 in any one workshop do not affect other workshops.  
-
-![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
 
 比喻:
 
