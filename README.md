@@ -175,7 +175,7 @@ Metaphor:
   - Customs
   
 Before entering the warehouse, 
-all data must be accepted first.
+all data must be checked and accepted first.
 
 The input and output of the workshop 
 can only be standardized data, 
