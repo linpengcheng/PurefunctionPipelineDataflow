@@ -12,13 +12,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Disadvantages of FP and OO 函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [The difference between it and middleware 它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
 - [Basic quality control 基本质量控制](#Basic-quality-control-基本质量控制)
-- [Code example: 代码范例:](#Code-example:-代码范例:)
+- [Code example 代码范例](#Code-example-代码范例)
 - [Basic construction method 基本构造方法](#Basic-construction-method-基本构造方法)
-  - [1. Pipeline Component: 管道组件](#1.-Pipeline-Component:-管道组件)
-  - [2. Branch 分支](#2.-Branch-分支)
-  - [3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）](#3.-Feedback-circuit-(reflow,-recursive)-反馈电路（回流,-递归）)
-  - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#4.-shunt-(concurrent,-parallel)-分流(并发,-并行))
-  - [5. Confluence(reduce) 合流, 合一](#5.-Confluence(reduce)-合流,-合一)
+  - [1. Pipeline Component 管道组件](#Pipeline-Component-管道组件)
+  - [2. Branch 分支](#Branch-分支)
+  - [3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）](#Feedback-circuit（reflow，recursive）反馈电路（回流，递归）)
+  - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#Shunt（concurrent，parallel）分流（并发，并行）)
+  - [5. Confluence(reduce) 合流, 合一](#Confluence（reduce）合流，合一)
 - [Tao 道](#Tao-道)
 - [Other Articles Table of Contents 其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
 
@@ -195,7 +195,7 @@ Basic quality control of pure function pipeline data flow. The code must meet th
 - **数据流评价:** 最多只有一个副作用,且只能放在末端.
 - **系统  评价:** 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
 
-## Code example:  代码范例:
+## Code example 代码范例
 
 ```clojure
 ;Traditional expression, chaotic logic, unreadable.
@@ -222,7 +222,7 @@ Basic quality control of pure function pipeline data flow. The code must meet th
 
 ## Basic construction method 基本构造方法
 
-### 1. Pipeline Component: 管道组件
+### Pipeline Component 管道组件
 
 A ->> block function is equivalent to an integrated circuit component (or board).
 A series of functions in a ->> block can only have one function with side effects 
@@ -267,7 +267,7 @@ which is as convenient as multi-parameter functions.
        f2))
 ```
 
-### 2. Branch 分支
+### Branch 分支
 
 A (cond) or (if) block as a function.
 
@@ -302,7 +302,7 @@ A (cond) or (if) block as a function.
           (string/replace ,  #"[\\/]+" "/")))) 
 ```
 
-### 3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）
+### Feedback circuit（reflow，recursive）反馈电路（回流，递归）
 
 A tail recursive function is equivalent to a feedback circuit. 
 
@@ -321,7 +321,7 @@ not feedback or reflow.
     (-> i dec recur)))
 ```
 
-### 4. shunt (concurrent, parallel) 分流(并发, 并行)
+### Shunt（concurrent，parallel）分流（并发，并行）
 
 For example: data partitioning, parallel processing
 
@@ -337,7 +337,7 @@ For example: data partitioning, parallel processing
      (pmap #(% data) ,))
 ```
 
-### 5. Confluence(reduce) 合流, 合一
+### Confluence（reduce）合流，合一
 
 reduce the result of the shunt
 
@@ -349,37 +349,6 @@ reduce the result of the shunt
      (pmap f1 ,)
      (reduce f2 ,))   
 ```
-
-## Static-Dynamic, Taiji and Table Tennis  动静态、太极与乒乓球
-
-In Taiji figure, Yin (static) and Yang (dynamic) 
-are strictly dividing lines, 
-Yin (static) interacts with Yang (dynamic) similar to playing table tennis.
-If the dynamic and static blend together, for the language, the project, the Code, It's too messy, too complicated, too ugly.
-
-Metaphor:
-
-- Yin (Static): Warehouse, strict standardized immutable data model (Clojure persistent data structure with spec), RMDB. 
-
-- Yang (dynamic): Workshop, industrial production line, pure function pipeline data flow, Clojure
-
-- Table Tennis Ball: Products that meet industrial standards (finished goods, raw materials, middleware), strictly standardized and immutable data 
-
-- Table Tennis Net: Yin (Static) and yang (dynamic) dividing lines, Quality Control Department, Customs,  jdbc, I/O, ring
-
-![taiji2](./doc/taiji2.png)
-
-在太极图里,阴(静态)与阳(动态)是泾渭分明的，
-阴(静态)与阳(动态)交互类似打乒乓球。
-如果动静态交织在一起，对语言、项目、代码来说，
-太混乱, 太复杂，太丑了。
-
-比喻:
-
-- 阴(静态)：仓库，严格的不可变的标准化的数据模型(带SPEC的clojure持久化数据结构), RMDB 
-- 阳(动态): 车间，工业生产流水线，纯函数管道数据流，Clojure
-- 乒 乓 球: 符合工业标准的产品（产成品，原料，中间件），严格的标准化的不可变的数据
-- 乒乓球网: 阴(静态)与阳(动态)的分界线，类似海关,质量控制部门,JDBC，IO，ring
 
 ## Tao 道
 
@@ -404,7 +373,7 @@ everything can be used as Algorithms and Software Engineering Methods.
 所以, 集成电路技术、工业流水线生产技术、会计学、管理学、建筑学等,
 一切都可当成算法和软件工程方法使用.
 
-## Table of Contents  目录
+## Other Articles Table of Contents 其他文章目录
 
 - [~~Introduction： Basic Methods (Old version) 引论: 基本构造方法(老版本)~~](doc/IntroductionBasicMethods.md)
 - [Annotation is an unnecessary technique 注解是不必要的技术](doc/annotation_is_unnecessary.md)
@@ -420,6 +389,8 @@ everything can be used as Algorithms and Software Engineering Methods.
 - [React is terrible. React很糟糕](doc/react_is_terrible.md)
 
 - [Office是数据库服务](doc/office_is_db.md)
+
+- [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
