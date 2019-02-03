@@ -1,5 +1,5 @@
-# The Pure Function Pipeline Data Flow
-# 纯函数管道数据流
+# The Pure Function Pipeline Data Flow v2.0
+# 纯函数管道数据流  v2.0
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -9,6 +9,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Similar Statements 类似观点](#Similar-Statements-类似观点)
 - [Summary 概述](#Summary-概述)
 - [Classical Model 经典模型](#Classical-Model-经典模型)
+  - [Warehouse/Workshop Model 仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
 - [Disadvantages of FP and OO 函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [The difference between it and middleware 它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
 - [Basic quality control 基本质量控制](#Basic-quality-control-基本质量控制)
@@ -150,6 +151,77 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 - 城市的自来水网
 - 管理学里的**甘特图**, 以时间线为主轴, 多个数据流并行前进. 它也是很好的数据流、并行、异步编程工具. 管理学对异步、并行和分布式的应用研究是世界第一的！
 - 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海. 它也是**甘特图**的一个变种.
+
+### Warehouse Workshop Model 仓库车间模型
+
+Metaphor:
+
+- Warehouse: 
+  - Standardized Data Model
+  - RMDB
+- Workshop:
+  - Pure Function Pipeline Data Flow
+  - Industrial Production Line
+  - Watertight Compartments
+- Standardized Data
+  - Products that meet industrial standards
+    - raw materials
+    - middleware
+    - finished goods
+- Acceptance Check
+  - Quality Control Department
+  - Customs
+  
+Before entering the warehouse, 
+all data must be accepted first.
+
+The input and output of the workshop 
+can only be standardized data, 
+the input-data comes from the warehouse, 
+the output-data is checked, accepted 
+and sent to the warehouse.
+
+Therefore, there will be no 
+abnormal/error/Illegal data inside the workshop, 
+no need to detect data, 
+code is simple, reliable, high performance.
+
+The workshop and the workshop are independent, 
+non-interactive, Like a Lego module or 
+a ship's watertight compartment, 
+internal changes or abnormalities 
+in any one workshop do not affect other workshops.  
+
+![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
+
+比喻:
+
+- 仓库
+  - 标准化的数据模型
+  - 关系式数据库
+- 车间
+  - 纯函数管道数据流
+  - 工业生产流水线
+  - 船只的水密隔舱
+- 标准化的数据
+  - 符合工业标准的产品
+    - 原材料
+    - 半成品
+    - 产成品
+- 验收
+  - 质量控制部门
+  - 海关
+  
+进入仓库前, 所有的数据必须先经过验收.
+
+车间的输入输出只能是标准化数据,
+输入的数据来自仓库,输出的数据经过验收后送到仓库.
+因此车间内部不会存在异常/错误/非法数据,
+无须检测数据,代码简单,可靠,高性能.
+
+车间与车间之间是独立的,不交互,
+就象是乐高组件或船只的水密隔舱,
+任何一个车间的内部变动或异常不会影响其他车间.
 
 ## Disadvantages of FP and OO 函数式编程和面向对象编程的缺点
 
