@@ -19,7 +19,7 @@ Metaphor:
 
 - Table Tennis Net: Yin (Static) and yang (dynamic) dividing lines, Quality Control Department, Customs,  jdbc, I/O, ring
 
-![taiji2](./doc/taiji2.png)
+![taiji2](./taiji2.png)
 
 在太极图里,阴(静态)与阳(动态)是泾渭分明的，
 阴(静态)与阳(动态)交互类似打乒乓球。
