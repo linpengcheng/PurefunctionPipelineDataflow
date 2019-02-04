@@ -21,6 +21,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#Shunt-分流)
   - [5. Confluence(reduce) 合流, 合一](#Confluence-合流)
 - [Tao 道](#Tao-道)
+- [Postscript 后记](#Postscript-后记)
 - [Other Articles Table of Contents 其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
 
 ## Similar Statements 类似观点
@@ -451,10 +452,22 @@ Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything
 Therefore, Integrated Circuit Technology, Industrial Assembly Line Production Technology, 
 Accounting, Management, Architecture etc. 
 everything can be used as Algorithms and Software Engineering Methods.
+They can transform each other.
+
 
 大道至简, 道法自然, 道是算法, 道无处不在。
 所以, 集成电路技术、工业流水线生产技术、会计学、管理学、建筑学等,
-一切都可当成算法和软件工程方法使用.
+一切都可当成算法和软件工程方法使用, 它们可以互相转化.
+
+## Postscript 后记
+
+Similar to The most valuable chapter of “Code Complete”----Chapter 2 Metaphors for a Richer Understanding of Software Development, I tend to inspire readers to discover useful patterns from life, work and personal interests, which are then used as solutions for development, rather than to apply mechanically other people’s cases.
+
+In this way there will be endless cases, there will always be endless ways to solve the problem. This is "Tao ".
+
+类似于“代码完整”中最有价值的章节 - 第2章对软件开发有更深入理解的隐喻，我倾向于激发读者从生活，工作和个人兴趣中发现有用的模式，然后将其用作解决方案。发展，而不是机械地应用其他人的案件。
+
+通过这种方式，将会有无穷无尽的案例，总会有无穷无尽的方法来解决问题。这是“道”。
 
 ## Other Articles Table of Contents 其他文章目录
 
