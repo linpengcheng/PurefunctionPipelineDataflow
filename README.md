@@ -164,7 +164,7 @@ Metaphor:
 - Workshop:
   - Pure Function Pipeline Data Flow
   - Industrial Production Line
-  - Watertight Compartments
+  - Ship's Watertight Compartments
 - Standardized Data
   - Products that meet industrial standards
     - raw materials
@@ -175,12 +175,12 @@ Metaphor:
   - Customs
   
 Before entering the warehouse, 
-all data must be checked and accepted first.
+all data must be acceptance-checked first.
 
 The input and output of the workshop 
 can only be standardized data, 
 the input-data comes from the warehouse, 
-the output-data is checked, accepted 
+the output-data is acceptance-checked 
 and sent to the warehouse.
 
 Therefore, there will be no 
