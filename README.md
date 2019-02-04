@@ -469,6 +469,14 @@ In this way there will be endless cases, there will always be endless ways to so
 
 通过这种方式，将会有无穷无尽的案例，总会有无穷无尽的方法来解决问题。这是“道”。
 
+I spend my spare time developing a financial analysis expert system. 
+Although my writing time is very limited, but I will gradually improve it. 
+compared to the content when I first set up the blog, 
+it has been rich and improved a lot.
+
+我利用业余时间开发财务分析专家系统。虽然我写作时间有限，但我会逐步改进它，
+相比我第一次设置博客时的内容，它已经丰富和改进了很多。
+
 ## Other Articles Table of Contents 其他文章目录
 
 - [~~Introduction： Basic Methods (Old version) 引论: 基本构造方法(老版本)~~](doc/IntroductionBasicMethods.md)
