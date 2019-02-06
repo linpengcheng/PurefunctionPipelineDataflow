@@ -162,7 +162,7 @@ Metaphor:
 - Warehouse: 
   - Standardized Data Model
   - RMDB
-  - Motherboard with Standardized Interface（PCI, VGA, SATA, USB, etc.)
+  - Motherboard with Standardized Interface（PCI, SATA, USB, etc.)
 - Workshop:
   - Pure Function Pipeline Data Flow
   - Industrial Production Line
@@ -205,7 +205,7 @@ in any one workshop do not affect other workshops.
 - 仓库
   - 标准化的数据模型
   - 关系式数据库
-  - 主板(带有PCI, VGA, SATA, USB等标准化接口)
+  - 主板(带有PCI, SATA, USB等标准化接口)
 - 车间
   - 纯函数管道数据流
   - 工业生产流水线
