@@ -162,7 +162,7 @@ Metaphor:
 - Warehouse: 
   - Standardized Data Model
   - RMDB
-  - Motherboard with Standardized Interface（PCI, SATA, USB, etc.)
+  - Memory
 - Workshop:
   - Pure Function Pipeline Data Flow
   - Industrial Production Line
@@ -176,6 +176,7 @@ Metaphor:
 - Acceptance Check
   - Quality Control Department
   - Customs
+  - Motherboard with Standardized Interface（PCI, SATA, USB, etc.)
   
 Before entering the warehouse, 
 all data must be acceptance-checked first.
