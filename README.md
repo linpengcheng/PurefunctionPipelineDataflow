@@ -206,7 +206,7 @@ in any one workshop do not affect other workshops.
 - 仓库
   - 标准化的数据模型
   - 关系式数据库
-  - 主板(带有PCI, SATA, USB等标准化接口)
+  - 内存
 - 车间
   - 纯函数管道数据流
   - 工业生产流水线
@@ -220,6 +220,7 @@ in any one workshop do not affect other workshops.
 - 验收
   - 质量控制部门
   - 海关
+  - 主板(带有PCI, SATA, USB等标准化接口)
   
 进入仓库前, 所有的数据必须先经过验收.
 
