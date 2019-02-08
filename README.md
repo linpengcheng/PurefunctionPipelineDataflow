@@ -167,7 +167,7 @@ Metaphor:
   - Pure Function Pipeline Data Flow
   - Industrial Production Line
   - Ship's Watertight Compartments
-  - CPU, Graphics Card, Sound Card, Hard Disk, Flash Disk，etc.
+  - CPU, GPU, Sound Card, etc
 - Standardized Data
   - Products that meet industrial standards
     - raw materials
@@ -177,6 +177,10 @@ Metaphor:
   - Quality Control Department
   - Customs
   - Motherboard with Standardized Interface（PCI, SATA, USB, etc.)
+- External Standardized Data  
+  - Purchasing department
+  - Supply Chain
+  - Hard Disk, Flash Disk，etc.
   
 Before entering the warehouse, 
 all data must be acceptance-checked first.
@@ -211,7 +215,7 @@ in any one workshop do not affect other workshops.
   - 纯函数管道数据流
   - 工业生产流水线
   - 船只的水密隔舱
-  - CPU, 显卡，声卡，硬盘，闪存盘等。
+  - CPU, 显卡，声卡等。
 - 标准化的数据
   - 符合工业标准的产品
     - 原材料
@@ -221,6 +225,10 @@ in any one workshop do not affect other workshops.
   - 质量控制部门
   - 海关
   - 主板(带有PCI, SATA, USB等标准化接口)
+- 外部的标准化数据
+  - 采购部门
+  - 供应链
+  - 硬盘，闪存盘等。
   
 进入仓库前, 所有的数据必须先经过验收.
 
