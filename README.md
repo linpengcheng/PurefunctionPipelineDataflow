@@ -282,14 +282,14 @@ Basic quality control of pure function pipeline data flow. The code must meet th
 - **Function evaluation:** Just look at the shape of the code (pipeline structure weight), and whether the function is a pure function.
 - **Dataflow evaluation:** A data flow has at most one side effect and can only be placed at the end.
 - **System evaluation:** Just look at the circuit diagram, you can treat the function as a black box like an electronic component.
-- **Code Quality Visualization:** S expression is contour graph, can be very simple transformation into contour map, or 3D mountain map, if the height of the mountains is not high, and the altitude value is similar, it means that the quality of the code is good.
+- **Clojure Code Quality Visualization:** S expression is contour graph, can be very simple transformation into contour map, or 3D mountain map, if the height of the mountains is not high, and the altitude value is similar, it means that the quality of the code is good.
 
 纯函数管道数据流的基本质量控制, 只有代码达到下面三条基本质量要求, 才可以继续谈其他.
 这些简单可靠的评价标准, 足以淘汰绝大多数不合格代码:
 - **函数  评价:** 只需要看代码的外形(管道结构比重), 以及函数是不是纯函数.
 - **数据流评价:** 最多只有一个副作用,且只能放在末端.
 - **系统  评价:** 只看线路图即可, 可以把函数象电子元件一样当黑盒处理.
-- **代码质量可视化:** S表达式就是等高线图,可以很简单的变换成等高线图,或3D山峦图.
+- **Clojure代码质量可视化:** S表达式就是等高线图,可以很简单的变换成等高线图,或3D山峦图.
 如果山峦高度不高,且海拔高度值相近,意味着代码质量是好的.
 
 ## Code example 代码范例
