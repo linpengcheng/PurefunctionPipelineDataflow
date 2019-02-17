@@ -12,7 +12,7 @@ Note: line comment character of Clojure(Lisp) is `;`
 
 
 when we edit the code, we can preview the effect in real time. 
-Editing literary code has a live preview like most markdown editors.
+Editing literary code has a live preview panel like most markdown editors.
 
 The editor has a Live Preview panel to do the following work:
 
