@@ -10,6 +10,18 @@ When previewing or converting a format, you only need to simply preprocess: repl
 
 Note: line comment character of Clojure(Lisp) is `;`
 
+
+when we edit the code, we can preview the effect in real time. 
+Editing literary code has a live preview like most markdown editors.
+
+The editor has a Live Preview panel to do the following work:
+
+1. Get the current text 
+
+2. replace the `\r\n\;` with `\r\n`
+
+3. live Preview markdown string
+
 ## example:
 
 ```
