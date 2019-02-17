@@ -32,4 +32,4 @@ Note: line comment character of Clojure(Lisp) is `;`
 
 ## Screenshot
 
-![](#./markdown_literary_programming.png)
+![](./markdown_literary_programming.png)
