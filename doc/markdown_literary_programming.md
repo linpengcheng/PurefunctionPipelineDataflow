@@ -8,8 +8,10 @@ In the comments of code, you can draw flowcharts, tasklist, display data visuali
 
 When previewing or converting a format, you only need to simply preprocess: replace the `\r\n\;` with `\r\n`
 
-Note: line comment character of Clojure(Lisp) is `;`
+Note: 
 
+- line comment character of Clojure(Lisp) is `;`
+- line breaks and line comment  characters of the current file can be obtained from the editor's API.
 
 when we edit the code, we can preview the effect in real time. 
 Editing literary code has a live preview panel like most markdown editors.
