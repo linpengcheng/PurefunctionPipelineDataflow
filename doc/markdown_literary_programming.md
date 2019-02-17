@@ -4,7 +4,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 Just add a custom line comment character before each line of Markdown.
 
-In the comments you can draw flowcharts, tasklist, display data visualizations, etc.
+In the comments of code, you can draw flowcharts, tasklist, display data visualizations, etc.
 
 When previewing or converting a format, you only need to simply preprocess: replace the `\r\n\;` with `\r\n`
 
