@@ -513,7 +513,7 @@ it has been rich and improved a lot.
 
 - [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
 
-- [Markdown Literary programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
+- [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
