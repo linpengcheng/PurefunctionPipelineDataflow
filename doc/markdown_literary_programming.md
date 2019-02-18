@@ -41,8 +41,8 @@ Editing literary code has a live preview panel like most markdown editors.
 ## example:
 
 ```clojure
-;# Markdown literary programming
-;## example01:
+;### Markdown literary programming
+;#### example01:
 ;```clojure
 (defn f [[evens odds total amax amin] x]
   (let [[evens odds] (cond 
@@ -62,8 +62,8 @@ Editing literary code has a live preview panel like most markdown editors.
 
 ## Live Preview Effects:
 
-# Markdown literary programming
-## example01:
+### Markdown literary programming
+#### example01:
 ```clojure
 (defn f [[evens odds total amax amin] x]
   (let [[evens odds] (cond 
@@ -79,4 +79,3 @@ Editing literary code has a live preview panel like most markdown editors.
 ```
 return`[4 5 187 156 -9]`
 
-![](./markdown_literary_programming.png)
