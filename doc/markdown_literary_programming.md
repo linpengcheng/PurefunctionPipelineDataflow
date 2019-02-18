@@ -40,7 +40,7 @@ Editing literary code has a live preview panel like most markdown editors.
 
 ## example:
 
-```
+```clojure
 ;# Markdown literary programming
 ;## example01:
 ;```clojure
