@@ -1,8 +1,8 @@
-## Markdown Literary programming that don't break the syntax of any programming language
+# Markdown Literary programming that don't break the syntax of any programming language
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
-comment area markup method:
+## comment area markup method:
 
 Just add a custom line comment character before each line of Markdown.
 
@@ -18,7 +18,7 @@ Note:
 when we edit the code, we can preview the effect in real time. 
 Editing literary code has a live preview panel like most markdown editors.
 
-The editor has a Live Preview panel to do the following work:
+## The editor has a Live Preview panel to do the following work:
 
 1. Get the current text 
 
@@ -28,7 +28,7 @@ The editor has a Live Preview panel to do the following work:
 
 4. Easily export directly to PDF or HTML.
 
-Its advantages:
+## Its advantages:
 
 1. It don't break the syntax of any programming language, you can compile directly. comment area markup method can be applied to any programming language and any markup (including Org,rst, asciidoc, etc.), which is the greatest advantage.
 
