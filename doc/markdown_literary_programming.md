@@ -57,6 +57,8 @@ I think:
 ```clojure
 ;### Markdown literary programming
 ;#### example01:
+;![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
+;#### example02:
 ;```clojure
 (defn f [[evens odds total amax amin] x]
   (let [[evens odds] (cond 
@@ -79,6 +81,8 @@ I think:
 > 
 > ### Markdown literary programming
 > #### example01:
+> ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
+> #### example02:
 > ```clojure
 > (defn f [[evens odds total amax amin] x]
 >   (let [[evens odds] (cond 
