@@ -38,11 +38,30 @@ Editing literary code has a live preview panel like most markdown editors.
 
 4. If you extend the Markdwon tag, you can implement the eval code, print result, display data visualization and other instruction tags, to achieve live programming, live test.
 
+the main purpose of the Code comment area markup method is to live Preview directly in the Code Editor Preview panel without exporting or any preprocessing.
+
+I think:
+
+- Literary Programming, Programming was the first, Literary was the second.
+
+- The entire file is compliant with the programming language syntax and can be compiled directly.
+
+- When writing (reading or refactoring) code files, I can modify and live preview directly in the editor without exporting or any preprocessing.
+
+- Do not interfere with people who do not understand the markup language to read the code.
+
+- Reliable. Maximum code accuracy is guaranteed, and markup language errors do not affect the code.
+
 ## example:
 
 ```clojure
 ;### Markdown literary programming
 ;#### example01:
+;graph TD;
+;    A-->B;
+;    A-->C;
+;    B-->D;
+;    C-->D;
 ;```clojure
 (defn f [[evens odds total amax amin] x]
   (let [[evens odds] (cond 
@@ -65,6 +84,11 @@ Editing literary code has a live preview panel like most markdown editors.
 > 
 > ### Markdown literary programming
 > #### example01:
+> graph TD;
+>     A-->B;
+>     A-->C;
+>     B-->D;
+>     C-->D;
 > ```clojure
 > (defn f [[evens odds total amax amin] x]
 >   (let [[evens odds] (cond 
