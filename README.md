@@ -205,6 +205,10 @@ a ship's watertight compartment,
 internal changes or abnormalities 
 in any one workshop do not affect other workshops.  
 
+To make it easier for programmers to understand, 
+using a computer system as a metaphor, 
+the system uses memory as the core, not the CPU.
+
 比喻:
 
 - 仓库
@@ -244,6 +248,9 @@ in any one workshop do not affect other workshops.
 车间与车间之间是独立的,不交互,
 就象是乐高组件或船只的水密隔舱,
 任何一个车间的内部变动或异常不会影响其他车间.
+
+为了使程序员更容易理解，使用计算机系统作为比喻，
+系统使用内存作为核心，而不是CPU。
 
 ## Disadvantages of FP and OO 函数式编程和面向对象编程的缺点
 
