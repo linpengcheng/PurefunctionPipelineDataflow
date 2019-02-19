@@ -57,11 +57,6 @@ I think:
 ```clojure
 ;### Markdown literary programming
 ;#### example01:
-;graph TD;
-;    A-->B;
-;    A-->C;
-;    B-->D;
-;    C-->D;
 ;```clojure
 (defn f [[evens odds total amax amin] x]
   (let [[evens odds] (cond 
@@ -81,11 +76,6 @@ I think:
 
 ## Live Preview Effects:
 
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 > 
 > ### Markdown literary programming
 > #### example01:
