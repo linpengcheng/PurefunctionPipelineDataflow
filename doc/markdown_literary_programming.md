@@ -20,20 +20,27 @@ When previewing or converting a format, you only need to simply preprocess: repl
 Note: 
 
 - line comment character of Clojure(Lisp) is `;`
-- line breaks and line comment  characters of the current file can be obtained from the editor's API.
+- line breaks and line comment characters of the current file can be obtained from the editor's API.
 
 when we edit the code, we can preview the effect in real time. 
 Editing literary code has a live preview panel like most markdown editors.
 
 ## Live Preview Panel of editor do the following work
 
-1. Get the current text 
-
-2. replace the `\r\n\;` with `\r\n`
-
-3. live Preview markdown string
-
-4. Easily export directly to PDF or HTML.
+```clojure
+(cond
+  (or (= file-extension-name ".md")
+      (= file-extension-name ".markdown"))
+       parse+view as a normal markdown file
+  (empty? the-current-document-line-comment-characters)
+       parse+view as a normal text file 
+  :else
+       (do 0.get line breaks and line comment characters of the current file
+           1. get the current text
+           2. replace the `\r\n\;` with `\r\n` to get markdwon string
+           3. live Preview markdown string
+           4. Easily export directly to PDF or HTML))
+```
 
 ## Advantages
 
