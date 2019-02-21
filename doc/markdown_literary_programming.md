@@ -2,7 +2,14 @@
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
-## comment area markup method:
+## Table of Contents 目录
+- [Comment Area Markup Method](#Comment-Area-Markup-Method)
+- [Live Preview Panel of editor do the following work](#Live-Preview-Panel-of-editor-do-the-following-work)
+- [Advantages](#Advantages)
+- [Example](#Example)
+- [Live Preview Effects](#Live-Preview-Effects)
+
+## Comment Area Markup Method
 
 Just add a custom line comment character before each line of Markdown.
 
@@ -18,7 +25,7 @@ Note:
 when we edit the code, we can preview the effect in real time. 
 Editing literary code has a live preview panel like most markdown editors.
 
-## The editor has a Live Preview panel to do the following work:
+## Live Preview Panel of editor do the following work
 
 1. Get the current text 
 
@@ -28,7 +35,7 @@ Editing literary code has a live preview panel like most markdown editors.
 
 4. Easily export directly to PDF or HTML.
 
-## Its advantages:
+## Advantages
 
 1. It don't break the syntax of any programming language, you can compile directly. comment area markup method can be applied to any programming language and any markup (including Org,rst, asciidoc, etc.), which is the greatest advantage.
 
@@ -52,7 +59,7 @@ I think:
 
 - Reliable. Maximum code accuracy is guaranteed, and markup language errors do not affect the code.
 
-## example:
+## Example
 
 ```clojure
 ;### Markdown literary programming
@@ -76,7 +83,7 @@ I think:
 
 ```
 
-## Live Preview Effects:
+## Live Preview Effects
 
 > 
 > ### Markdown literary programming
