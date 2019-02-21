@@ -32,10 +32,10 @@ Editing literary code has a live preview panel like most markdown editors.
   (or (= file-extension-name ".md")
       (= file-extension-name ".markdown"))
        parse+view as a normal markdown file
-  (empty? the-current-document-line-comment-characters)
+  (empty? line-comment-characters-of-the-current-document)
        parse+view as a normal text file 
   :else
-       (do 0.get line breaks and line comment characters of the current file
+       (do 0.get line breaks and line comment characters of the current document
            1. get the current text
            2. replace the `\r\n\;` with `\r\n` to get markdwon string
            3. live Preview markdown string
