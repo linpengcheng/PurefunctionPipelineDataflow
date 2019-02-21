@@ -489,9 +489,9 @@ Similar to The most valuable chapter of “Code Complete”----Chapter 2 Metapho
 
 In this way there will be endless cases, there will always be endless ways to solve the problem. This is "Tao ".
 
-类似于“代码完整”中最有价值的章节 - 第2章对软件开发有更深入理解的隐喻，我倾向于激发读者从生活，工作和个人兴趣中发现有用的模式，然后将其用作解决方案。发展，而不是机械地应用其他人的案件。
+类似于“代码完整”中最有价值的章节 - 第2章对软件开发有更深入理解的隐喻，我倾向于激发读者从生活，工作和个人兴趣中发现有用的模式，然后将其作为开发的解决方案，而不是机械地应用其他人的案件。
 
-通过这种方式，将会有无穷无尽的案例，总会有无穷无尽的方法来解决问题。这是“道”。
+通过这种方式，将会有无穷无尽的参考案例、无穷无尽的方法来解决问题。这就是“道”。
 
 I spend my spare time developing a financial analysis expert system. 
 Although my writing time is very limited, but I will gradually improve it. 
@@ -516,11 +516,11 @@ it has been rich and improved a lot.
 
 - [React is terrible. React很糟糕](doc/react_is_terrible.md)
 
-- [Office是数据库服务](doc/office_is_db.md)
-
 - [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
 
 - [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
+
+- [Office是数据库服务](doc/office_is_db.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
