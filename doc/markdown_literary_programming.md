@@ -96,10 +96,18 @@ Editing literary code has a live preview panel like most markdown editors.
 ## Example
 
 ```clojure
-;### Markdown literary programming
-;#### example01:
-;![Warehouse Workshop Model](./Warehouse-Workshop-Model.svg)
-;#### example02:
+
+;<link rel="stylesheet" href="./js/prismjs/prism.css"/>
+;<script src="./js/prismjs/prism.js"></script>
+
+;<link rel="stylesheet" href="./js/mermaidjs/mermaid.css"/>
+;<script src="./js/mermaidjs/mermaid.min.js"></script>
+;<script>mermaid.initialize({startOnLoad:true});</script>
+
+;### Markdown literary programming Example
+
+;#### example01: Code with syntax highlighting.
+
 ;```clojure
 (defn f [[evens odds total amax amin] x]
   (let [[evens odds] (cond 
@@ -113,17 +121,38 @@ Editing literary code has a live preview panel like most markdown editors.
 ;;The comment of the code requires at least two line comment characters
 (reduce f [0 0 0 ##-Inf ##Inf] [5 6 8 -3 -9 11 156 6 7])
 ;```
-;return`[4 5 187 156 -9]`
+
+;return `[4 5 187 156 -9]`
+
+;#### example02: Mermaid flow chart
+
+;<div class="mermaid">
+;graph LR
+;      A-->B
+;      B-->C
+;      C-->A
+;      D-->C
+;</div>
+
+;#### example03: Image
+
+;![ggcowplot](../image/ggcowplot.png)
 
 ```
 
 ## Live Preview Effects
 
+> <link rel="stylesheet" href="./js/prismjs/prism.css"/>
+> <script src="./js/prismjs/prism.js"></script>
 > 
-> ### Markdown literary programming
-> #### example01:
-> ![Warehouse Workshop Model](./Warehouse-Workshop-Model.svg)
-> #### example02:
+> <link rel="stylesheet" href="./js/mermaidjs/mermaid.css"/>
+> <script src="./js/mermaidjs/mermaid.min.js"></script>
+> <script>mermaid.initialize({startOnLoad:true});</script>
+> 
+> ### Markdown literary programming Example
+> 
+> #### example01: Code with syntax highlighting.
+> 
 > ```clojure
 > (defn f [[evens odds total amax amin] x]
 >   (let [[evens odds] (cond 
@@ -137,5 +166,20 @@ Editing literary code has a live preview panel like most markdown editors.
 > ;The comment of the code requires at least two line comment characters
 > (reduce f [0 0 0 ##-Inf ##Inf] [5 6 8 -3 -9 11 156 6 7])
 > ```
-> return`[4 5 187 156 -9]`
 > 
+> return `[4 5 187 156 -9]`
+> 
+> #### example02: Mermaid flow chart
+> 
+> <div class="mermaid">
+> graph LR
+>       A-->B
+>       B-->C
+>       C-->A
+>       D-->C
+> </div>
+> 
+> #### example03: Image
+> 
+> ![ggcowplot](../image/ggcowplot.png)
+>
