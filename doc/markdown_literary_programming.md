@@ -142,5 +142,5 @@ Editing literary code has a live preview panel like most markdown editors.
 
 ## Live Preview Effects
 
-![cowplot](./image/mlt01.png)
-![cowplot](./image/mlt02.png)
+![](./image/mlp01.png)
+![](./image/mlp02.png)
