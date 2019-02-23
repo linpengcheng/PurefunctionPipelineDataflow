@@ -23,6 +23,12 @@ before each line of Markdown.*
 In the comments of code, you can draw flowcharts, tasklist, 
 display data visualizations, etc.
 
+The method is to add extension instructions 
+in any programming language comment area:
+- markdown
+- manual eval code, live eval code, print result, 
+  display data visualization and other directives
+
 When previewing or converting a format,
 you only need to simply preprocess: 
 delete line comment characters with regular expressions, 
