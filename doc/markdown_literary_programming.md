@@ -53,11 +53,11 @@ Editing literary code has a live preview panel like most markdown editors.
   (empty? line-comment-characters-of-the-current-document-type)
        parse+view as a normal text file 
   :else
-       (do 0.get line breaks and line comment characters of the current document
-           1. get the current text
+       (do 0. get line-comment-characters-of-the-current-document-type
+           1. get full-text-of-the-current-document
            2. delete line comment characters with regular expressions to get markdwon string
            3. live Preview markdown string
-           4. Easily export directly to PDF or HTML))
+           4. Can easily export directly to PDF or HTML))
 ```
 
 ## Advantages
