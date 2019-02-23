@@ -247,5 +247,5 @@ when MarkdownViewer++ viewer exports html files.
 
 ## Live Preview Effects
 
-![](../image/mlp01.png)
-![](../image/mlp02.png)
+![](./image/mlp01.png)
+![](./image/mlp02.png)
