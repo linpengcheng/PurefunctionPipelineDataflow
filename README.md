@@ -23,6 +23,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Tao 道](#Tao-道)
 - [Postscript 后记](#Postscript-后记)
 - [Other Articles Table of Contents 其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
+  - [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
 
 ## Similar Statements 类似观点
 
@@ -503,7 +504,10 @@ it has been rich and improved a lot.
 
 ## Other Articles Table of Contents 其他文章目录
 
+- [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
+
 - [~~Introduction： Basic Methods (Old version) 引论: 基本构造方法(老版本)~~](doc/IntroductionBasicMethods.md)
+
 - [Annotation is an unnecessary technique 注解是不必要的技术](doc/annotation_is_unnecessary.md)
 
 - [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
@@ -517,8 +521,6 @@ it has been rich and improved a lot.
 - [React is terrible. React很糟糕](doc/react_is_terrible.md)
 
 - [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
-
-- [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
 
 - [Office是数据库服务](doc/office_is_db.md)
 
