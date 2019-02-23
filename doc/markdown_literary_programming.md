@@ -56,7 +56,7 @@ Editing literary code has a live preview panel like most markdown editors.
   :else
        (do 0. get line-comment-characters-of-the-current-document-type
            1. get full-text-of-the-current-document
-           2. delete line comment characters with regular expressions to get markdwon string
+           2. delete using regular expressions line comment characters to get markdwon string.
            3. live Preview markdown string
            4. Can easily export directly to PDF or HTML))
 ```
