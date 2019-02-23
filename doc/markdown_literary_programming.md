@@ -6,6 +6,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Comment Area Markup Method](#Comment-Area-Markup-Method)
 - [Live Preview Panel of editor do the following work](#Live-Preview-Panel-of-editor-do-the-following-work)
 - [Advantages](#Advantages)
+- [Notepad++ Solutions](#Notepad++-Solutions)
 - [Example](#Example)
 - [Live Preview Effects](#Live-Preview-Effects)
 
@@ -92,17 +93,121 @@ Editing literary code has a live preview panel like most markdown editors.
   Strict distinction between markdown and code, 
   and gray comment area can reduce the amount of information in the source code file, 
   conducive to reading code.
+  
+## Notepad++ Solutions
+
+### Create MLP_Clojure.bat
+
+put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming`
+
+```batch
+
+@echo off
+cd /d "%~dp0"
+echo "start Markdown Literary Programming converter ..."
+sed\sed 's/^;//' %2 > tmp\%1.tmp.md
+copy MLP_common_head.md + tmp\%1.tmp.md tmp\%1.md
+..\notepad++ tmp\%1.md
+del  tmp\%1.tmp.md
+echo "finish Markdown Literary Programming task!"
+
+rem %1 $(FILE_NAME)
+rem %2 $(FULL_CURRENT_PATH)
+REM -----------------------
+rem MLP out path:
+rem It can be modify to project's MLP dir,
+rem default: $(NPP_DIRECTORY)\MarkdownLiteraryProgramming\tmp
+REM -----------------------
+rem sed: 
+rem line comment characters can be modified 
+rem to adopt other programming language.
+rem default to Clojure `;`
+
+```
+
+### Add the following XML entry to Shortcuts.xml
+
+```xml
+
+<Command name="view Clojure Markdown Literary Programming">CMD /K $(NPP_DIRECTORY)\MarkdownLiteraryProgramming\MLP_Clojure.bat $(FILE_NAME) &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+
+```
+
+### Common Resource
+
+common resource (js, image, ClojureMLP.bat, etc.) 
+put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming` Directory.
+
+### Install
+
+- install MarkdownViewer++ plugin, Select:
+
+```
+
+  MarkdownViewer++ 
+  Options
+  HTML
+  Open HTML after export
+  
+``` 
+
+- install NppExec plugin, 
+  - create Execute clean script: 
+    `cmd /c del /F /S /Q $(NPP_DIRECTORY)\MarkdownLiteraryProgramming\tmp\*.*`
+  - set Advanced Options,
+    when Notepad++ exit, NppExec run clean script.
+    to delete all files of output directory 
+    `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming\tmp`.
+
+- Set Chrome as the default browser,
+  because IE don't suport Mermaid.js of 
+  HTML file exported MarkdownViewer++.
+
+### click menu 
+
+`run -> view Clojure Markdown Literary Programming`
+
+### export as html
+
+Automatically opens with chrome 
+when MarkdownViewer++ viewer exports html files.
+
+### Note:
+- syntax highlighting
+  - MarkdownViewer++ viewer don't support 
+    syntax highlighting.
+  - MarkdownViewer++ export as html, 
+    chrome displaying syntax highlighting is ok.
+
+- Mermaid charts
+  - pandoc conver md to html, chrome displaying chart is failed.
+  - MarkdownViewer++ export as html, chrome displaying chart is ok.
+  - MarkdownViewer++ viewer only displaying Mermaid text.
+  - MarkdownViewer++ viewer don't support js.
+ 
+- Image
+  - MarkdownViewer++ viewer don't support displaying image.
+  - MarkdownViewer++ export as html, chrome displaying image is ok.
+    
 
 ## Example
 
+- MLP_common_head.md:
+
+```html
+
+<link rel="stylesheet" href="../js/prismjs/prism.css"/>
+<script src="../js/prismjs/prism.js"></script>
+
+<link rel="stylesheet" href="../js/mermaidjs/mermaid.css"/>
+<script src="../js/mermaidjs/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+```
+
+- Clojure Source Code:
+
 ```clojure
-
-;<link rel="stylesheet" href="./js/prismjs/prism.css"/>
-;<script src="./js/prismjs/prism.js"></script>
-
-;<link rel="stylesheet" href="./js/mermaidjs/mermaid.css"/>
-;<script src="./js/mermaidjs/mermaid.min.js"></script>
-;<script>mermaid.initialize({startOnLoad:true});</script>
 
 ;### Markdown literary programming Example
 
@@ -136,11 +241,11 @@ Editing literary code has a live preview panel like most markdown editors.
 
 ;#### example03: Image
 
-;![cowplot](./image/cowplot.png)
+;![cowplot](../image/cowplot.png)
 
 ```
 
 ## Live Preview Effects
 
-![](./image/mlp01.png)
-![](./image/mlp02.png)
+![](../image/mlp01.png)
+![](../image/mlp02.png)
