@@ -68,7 +68,7 @@ Editing literary code has a live preview panel like most markdown editors.
   comment area markup method can be applied to any programming language and any markup 
   (including Org,rst, asciidoc, etc.), which is the greatest advantage.
 
-- you only need a single line code to delete line comment characters with regular expressions, 
+- you only need a single line code to delete line comment characters using regular expressions, 
   then you can use any Markdown parse or converter.
 
 - Support any code editor that supports Markdwon Live preview, 
