@@ -26,7 +26,7 @@ display data visualizations, etc.
 When previewing or converting a format,
 you only need to simply preprocess: 
 delete line comment characters with regular expressions, 
-example: `sed 's\^;\\'  x.clj`
+example: `sed 's/^;//'  x.clj`
 
 Note: 
 
