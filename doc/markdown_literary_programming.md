@@ -2,7 +2,7 @@
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
-## Table of Contents 目录
+## Table of Contents
 - [Comment Area Markup Method](#Comment-Area-Markup-Method)
 - [Live Preview Panel of editor do the following work](#Live-Preview-Panel-of-editor-do-the-following-work)
 - [Advantages](#Advantages)
