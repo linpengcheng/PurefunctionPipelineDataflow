@@ -37,7 +37,7 @@ example: `sed 's/^;//'  x.clj`
 Note: 
 
 - line comment character of Clojure(Lisp) is `;`
-- line breaks and line comment characters of the current file 
+- line comment characters of the current file type
   can be obtained from the editor's API.
 
 when we edit the code, we can preview the effect in real time. 
