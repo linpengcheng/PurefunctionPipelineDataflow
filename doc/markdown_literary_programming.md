@@ -142,12 +142,13 @@ Editing literary code has a live preview panel like most markdown editors.
 
 ## Live Preview Effects
 
-> <link rel="stylesheet" href="./js/prismjs/prism.css"/>
-> <script src="./js/prismjs/prism.js"></script>
-> 
-> <link rel="stylesheet" href="./js/mermaidjs/mermaid.css"/>
-> <script src="./js/mermaidjs/mermaid.min.js"></script>
-> <script>mermaid.initialize({startOnLoad:true});</script>
+<link rel="stylesheet" href="./js/prismjs/prism.css"/>
+<script src="./js/prismjs/prism.js"></script>
+
+<link rel="stylesheet" href="./js/mermaidjs/mermaid.css"/>
+<script src="./js/mermaidjs/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
 > 
 > ### Markdown literary programming Example
 > 
@@ -171,13 +172,13 @@ Editing literary code has a live preview panel like most markdown editors.
 > 
 > #### example02: Mermaid flow chart
 > 
-> <div class="mermaid">
-> graph LR
->       A-->B
->       B-->C
->       C-->A
->       D-->C
-> </div>
+<div class="mermaid">
+graph LR
+      A-->B
+      B-->C
+      C-->A
+      D-->C
+</div>
 > 
 > #### example03: Image
 > 
