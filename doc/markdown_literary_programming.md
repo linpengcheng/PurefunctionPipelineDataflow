@@ -25,7 +25,8 @@ display data visualizations, etc.
 
 When previewing or converting a format,
 you only need to simply preprocess: 
-replace the `\r\n\;` with `\r\n`
+delete line comment characters with regular expressions, 
+example: `sed 's\^;\\'  x.clj`
 
 Note: 
 
@@ -43,12 +44,12 @@ Editing literary code has a live preview panel like most markdown editors.
   (or (= file-extension-name ".md")
       (= file-extension-name ".markdown"))
        parse+view as a normal markdown file
-  (empty? line-comment-characters-of-the-current-document)
+  (empty? line-comment-characters-of-the-current-document-type)
        parse+view as a normal text file 
   :else
        (do 0.get line breaks and line comment characters of the current document
            1. get the current text
-           2. replace the `\r\n\;` with `\r\n` to get markdwon string
+           2. delete line comment characters with regular expressions to get markdwon string
            3. live Preview markdown string
            4. Easily export directly to PDF or HTML))
 ```
@@ -61,7 +62,7 @@ Editing literary code has a live preview panel like most markdown editors.
   comment area markup method can be applied to any programming language and any markup 
   (including Org,rst, asciidoc, etc.), which is the greatest advantage.
 
-- you only need a single line of regular replacement preprocessing, 
+- you only need a single line code to delete line comment characters with regular expressions, 
   then you can use any Markdown parse or converter.
 
 - Support any code editor that supports Markdwon Live preview, 
