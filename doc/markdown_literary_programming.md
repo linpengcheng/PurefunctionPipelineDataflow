@@ -6,7 +6,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Comment Area Markup Method](#Comment-Area-Markup-Method)
 - [Live Preview Panel of editor do the following work](#Live-Preview-Panel-of-editor-do-the-following-work)
 - [Advantages](#Advantages)
-- [Notepad++ Solutions](#Notepad++-Solutions)
+- [Notepad++ Solutions](#NotepadPlusPlus-Solutions)
 - [Example](#Example)
 - [Live Preview Effects](#Live-Preview-Effects)
 
@@ -94,7 +94,7 @@ Editing literary code has a live preview panel like most markdown editors.
   and gray comment area can reduce the amount of information in the source code file, 
   conducive to reading code.
   
-## Notepad++ Solutions
+## NotepadPlusPlus Solutions
 
 ### Create MLP_Clojure.bat
 
