@@ -22,9 +22,9 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [5. Confluence(reduce) 合流, 合一](#Confluence-合流)
 - [Tao 道](#Tao-道)
 - [Postscript 后记](#Postscript-后记)
+- [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
 - [Other Articles Table of Contents 其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
-  - [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
-
+  
 ## Similar Statements 类似观点
 
 ```
