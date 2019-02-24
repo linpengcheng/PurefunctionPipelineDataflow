@@ -94,7 +94,38 @@ Editing literary code has a live preview panel like most markdown editors.
   and gray comment area can reduce the amount of information in the source code file, 
   conducive to reading code.
   
+## Disadvantages of traditional literary programming
+
+- because traditional literary programming users 
+  are mainly technical writers, speakers, 
+  technical document Maintainers, 
+  Style is the document priority, greatly increase 
+  the amount of information in the code, 
+  interfere with the code reading,
+  especially for non-literary programming programmers 
+  are unfriendly, or even unreadable, 
+  so there are very few applications in the field of programming.
+  
+- not universal, specific programming languages and markup languages.
+
+- Requires a complex pre-compiler.
+
+- Complex to use and high learning costs.
+
+- Not intuitive.
+
+Therefore, the method described in this paper, 
+in addition to the document priority genre of 
+traditional literary programming, 
+has innovated a new genre-code priority genre, 
+so that literary programming in the field of 
+programming Widely used as possible.
+  
 ## NotepadPlusPlus Solutions
+
+### patch for Notepad++ literary programming
+
+[patch file](./NppMarkdownLiteraryProgramming.7z)
 
 ### Create MLP_Clojure.bat
 
