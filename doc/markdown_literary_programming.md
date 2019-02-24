@@ -6,6 +6,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Comment Area Markup Method](#Comment-Area-Markup-Method)
 - [Live Preview Panel of editor do the following work](#Live-Preview-Panel-of-editor-do-the-following-work)
 - [Advantages](#Advantages)
+- [Disadvantages of traditional literary programming](#Disadvantages-of-traditional-literary-programming)
 - [Notepad++ Solutions](#NotepadPlusPlus-Solutions)
 - [Example](#Example)
 - [Live Preview Effects](#Live-Preview-Effects)
@@ -127,7 +128,7 @@ programming Widely used as possible.
 
 [patch file](./NppMarkdownLiteraryProgramming.7z)
 
-### Create MLP_Clojure.bat
+### 01 Create MLP_Clojure.bat
 
 put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming`
 
@@ -156,7 +157,7 @@ rem default to Clojure `;`
 
 ```
 
-### Add the following XML entry to Shortcuts.xml
+### 02 Add the following XML entry to Shortcuts.xml
 
 ```xml
 
@@ -164,12 +165,12 @@ rem default to Clojure `;`
 
 ```
 
-### Common Resource
+### 03 Common Resource
 
 common resource (js, image, ClojureMLP.bat, etc.) 
 put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming` Directory.
 
-### Install
+### 04 Install
 
 - install MarkdownViewer++ plugin, Select:
 
@@ -194,11 +195,11 @@ put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming` Directory.
   because IE don't suport Mermaid.js of 
   HTML file exported MarkdownViewer++.
 
-### click menu 
+### 05 click menu 
 
 `run -> view Clojure Markdown Literary Programming`
 
-### export as html
+### 06 export as html
 
 Automatically opens with chrome 
 when MarkdownViewer++ viewer exports html files.
