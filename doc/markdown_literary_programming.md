@@ -237,7 +237,7 @@ when MarkdownViewer++ viewer exports html files.
 
 ```
 
-- Clojure Source Code:
+- Clojure Source Code: example.clj
 
 ```clojure
 
