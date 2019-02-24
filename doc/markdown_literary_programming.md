@@ -118,7 +118,7 @@ Editing literary code has a live preview panel like most markdown editors.
 Therefore, the method described in this paper, 
 in addition to the document priority genre of 
 traditional literary programming, 
-has innovated a new genre-code priority genre, 
+has innovated a new genre ---- code priority genre, 
 so that literary programming in the field of 
 programming Widely used as possible.
   
