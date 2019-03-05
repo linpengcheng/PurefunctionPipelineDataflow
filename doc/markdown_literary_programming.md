@@ -143,12 +143,12 @@ You can choose from the config area of Pythonscript:
 #### subdirectorys and file of mlt_base_dir
 
 1. out (Changeable)
-2. js
+2. js: [mermaid](https://github.com/knsv/mermaid) , [PrismJS](https://github.com/PrismJS/prism)
 3. image
-4. css
-5. MultiMarkdown (Optional)
-6. CuteMarked (Optional)
-7. ChromePortable (Optional)
+4. css: [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) 
+5. [MultiMarkdown](https://github.com/fletcher/MultiMarkdown-6) (Optional)
+6. [CuteMarked](https://github.com/cloose/CuteMarkEd) (Optional)
+7. [ChromePortable](https://portableapps.com/apps/internet/google_chrome_portable) (Optional)
 8. MLT_common_head.md
 
 out_dir can be separated from mlt_base_dir(public resource directory), 
@@ -181,7 +181,7 @@ the path starts with the root path, for example:
 - When converted to HTML, it is automatically open with Chrome, 
   and the display works well.
 
-##### MarkdownViewer++ plugin + Chrome (viewer = 3)
+##### [MarkdownViewer++ plugin](https://github.com/nea/MarkdownViewerPlusPlus) + Chrome (viewer = 3)
 - MarkdownViewer++ viewer is fast, only support displaying markdown text. 
 - MarkdownViewer++ viewer don't support syntax highlighting, image, js.
 - MarkdownViewer++ viewer only displaying Mermaid text.
