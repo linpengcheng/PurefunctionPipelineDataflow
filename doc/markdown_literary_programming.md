@@ -126,52 +126,70 @@ programming Widely used as possible.
 
 ### patch for Notepad++ literary programming
 
-[patch file](./NppMarkdownLiteraryProgramming.7z)
+[patch 2.0 (PythonScript edition) file](./NppMarkdownLiteraryProgramming_v2_pythonscript.7z)
 
-### 01 Create MLP_Clojure.bat
+### Usage
 
-put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming`
+You can put pythonscript on toolbar.
+You can choose from the config area of Pythonscript: 
 
-```batch
+- viewer
+- out_path: Out directory
+- mlt_base_path: resource directory 
+  (js,image,tools,css,mlt_common_head.md, etc)
+- is auto-clean out directory or file?
+- tools path: CuteMarked, MultiMarkdown, Chrome.
 
-@echo off
-cd /d "%~dp0"
-echo "start Markdown Literary Programming converter ..."
-sed\sed 's/^;//' %2 > tmp\%1.tmp.md
-copy MLP_common_head.md + tmp\%1.tmp.md tmp\%1.md
-..\notepad++ tmp\%1.md
-del  tmp\%1.tmp.md
-echo "finish Markdown Literary Programming task!"
+#### subdirectorys and file of mlt_base_dir
 
-rem %1 $(FILE_NAME)
-rem %2 $(FULL_CURRENT_PATH)
-REM -----------------------
-rem MLP out path:
-rem It can be modify to project's MLP dir,
-rem default: $(NPP_DIRECTORY)\MarkdownLiteraryProgramming\tmp
-REM -----------------------
-rem sed: 
-rem line comment characters can be modified 
-rem to adopt other programming language.
-rem default to Clojure `;`
+1. out (Changeable)
+2. js
+3. image
+4. css
+5. MultiMarkdown (Optional)
+6. CuteMarked (Optional)
+7. ChromePortable (Optional)
+8. MLT_common_head.md
 
-```
+out_dir can be separated from mlt_base_dir(public resource directory), 
+but must be on the same disk, in "mlt_common_head.md" file, 
+the path starts with the root path, for example:  
+"/path_to/mlt_base_dir/js/prismjs/prism.js"
 
-### 02 Add the following XML entry to Shortcuts.xml
+#### Viewer
+##### CuteMarked (viewer = 1, default)
+- Cutemarked supports sidebar outlines, 
+  which is helpful for reading code.
+- Cutemarked is the only one markdown viewer (editor):
+  - native
+  - It supports all features of the browser, support:
+    - js
+	  - image
+	  - css
+	  - syntax highlighting
+    - Mermaid charts
+    - Math
+- Cutemarked exported HTML has problems 
+  displaying syntax highlighting and Mermaid charts.	
 
-```xml
+##### MultiMarkdown + Chrome (viewer = 2)
+- MultiMarkdown support TOC.
+- MultiMarkdown does not support the GitHub style 
+  code block block and Mermaid charts, 
+  I made a correction in py.
+- Multimarkdown faster and lighter than pandoc.
+- When converted to HTML, it is automatically open with Chrome, 
+  and the display works well.
 
-<Command name="view Clojure Markdown Literary Programming">CMD /K $(NPP_DIRECTORY)\MarkdownLiteraryProgramming\MLP_Clojure.bat $(FILE_NAME) &quot;$(FULL_CURRENT_PATH)&quot;</Command>
-
-```
-
-### 03 Common Resource
-
-common resource (js, image, ClojureMLP.bat, etc.) 
-put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming` Directory.
-
-### 04 Install
-
+##### MarkdownViewer++ plugin + Chrome (viewer = 3)
+- MarkdownViewer++ viewer is fast, only support displaying markdown text. 
+- MarkdownViewer++ viewer don't support syntax highlighting, image, js.
+- MarkdownViewer++ viewer only displaying Mermaid text.
+- MarkdownViewer++ export as html, chrome displaying is ok :
+  - syntax highlighting
+  - Mermaid charts 
+  - image 
+  - js
 - install MarkdownViewer++ plugin, Select:
 
 ```
@@ -182,59 +200,41 @@ put to `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming` Directory.
   Open HTML after export
   
 ``` 
-
-- install NppExec plugin, 
-  - create Execute clean script: 
-    `cmd /c del /F /S /Q $(NPP_DIRECTORY)\MarkdownLiteraryProgramming\tmp\*.*`
-  - set Advanced Options,
-    when Notepad++ exit, NppExec run clean script.
-    to delete all files of output directory 
-    `$(NPP_DIRECTORY)\MarkdownLiteraryProgramming\tmp`.
-
 - Set Chrome as the default browser,
   because IE don't suport Mermaid.js of 
   HTML file exported MarkdownViewer++.
-
-### 05 click menu 
-
-`run -> view Clojure Markdown Literary Programming`
-
-### 06 export as html
-
-Automatically opens with chrome 
-when MarkdownViewer++ viewer exports html files.
-
-### Note:
-- syntax highlighting
-  - MarkdownViewer++ viewer don't support 
-    syntax highlighting.
-  - MarkdownViewer++ export as html, 
-    chrome displaying syntax highlighting is ok.
-
-- Mermaid charts
-  - pandoc conver md to html, chrome displaying chart is failed.
-  - MarkdownViewer++ export as html, chrome displaying chart is ok.
-  - MarkdownViewer++ viewer only displaying Mermaid text.
-  - MarkdownViewer++ viewer don't support js.
- 
-- Image
-  - MarkdownViewer++ viewer don't support displaying image.
-  - MarkdownViewer++ export as html, chrome displaying image is ok.
-    
+- export as html, Automatically opens with chrome 
+  when MarkdownViewer++ viewer exports html files.
 
 ## Example
 
 - MLP_common_head.md:
 
 ```html
+<link rel="stylesheet" href="%mlt_base_dir%/js/prismjs/prism.css" />
+<script src="%mlt_base_dir%/js/prismjs/prism.js"></script>
 
-<link rel="stylesheet" href="../js/prismjs/prism.css"/>
-<script src="../js/prismjs/prism.js"></script>
-
-<link rel="stylesheet" href="../js/mermaidjs/mermaid.css"/>
-<script src="../js/mermaidjs/mermaid.min.js"></script>
+<link rel="stylesheet" href="%mlt_base_dir%/js/mermaidjs/mermaid.css" />
+<script src="%mlt_base_dir%/js/mermaidjs/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="%mlt_base_dir%/css/github-markdown.css">
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+</style>
 ```
 
 - Clojure Source Code: example.clj
@@ -279,5 +279,7 @@ when MarkdownViewer++ viewer exports html files.
 
 ## Live Preview Effects
 
-![](./image/mlp01.png)
-![](./image/mlp02.png)
+![](./image/MLP_Clojure_Example_CuteMarked01.png)
+![](./image/MLP_Clojure_Example_CuteMarked02.png)
+![](./image/MLP_Clojure_Example_CuteMarked03.png)
+
