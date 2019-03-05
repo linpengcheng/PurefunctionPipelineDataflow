@@ -134,10 +134,10 @@ You can put pythonscript on toolbar.
 You can choose from the config area of Pythonscript: 
 
 - viewer
-- out_path: Out directory
+- out_path: Output directory
 - mlt_base_path: resource directory 
   (js,image,tools,css,mlt_common_head.md, etc)
-- is auto-clean out directory or file?
+- is auto-clean output directory or file?
 - tools path: CuteMarked, MultiMarkdown, Chrome.
 
 #### subdirectorys and file of mlt_base_dir
