@@ -492,7 +492,7 @@ Similar to The most valuable chapter of “Code Complete”----Chapter 2 Metapho
 
 In this way there will be endless cases, there will always be endless ways to solve the problem. This is "Tao ".
 
-类似于“代码完整”中最有价值的章节 - 第2章对软件开发有更深入理解的隐喻，我倾向于激发读者从生活，工作和个人兴趣中发现有用的模式，然后将其作为开发的解决方案，而不是机械地应用其他人的案件。
+类似于“代码大全”中最有价值的章节--第2章对软件开发有更深入理解的隐喻，我倾向于激发读者从生活，工作和个人兴趣中发现有用的模式，然后将其作为开发的解决方案，而不是机械地应用其他人的案件。
 
 通过这种方式，将会有无穷无尽的参考案例、无穷无尽的方法来解决问题。这就是“道”。
 
