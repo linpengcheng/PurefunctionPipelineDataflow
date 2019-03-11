@@ -261,7 +261,9 @@ FP and OO are overly complicated, and it is not feasible in large industries. It
 
 FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
 
-Excessive application of OO and FP design patterns, in addition to increasing complexity and error probability, reduce performance, without any benefit, Complex relational networks between objects in the OO system are also difficult to maintain.
+Excessive application of OO and FP design patterns, in addition to increasing complexity 
+and error probability, reduce performance, without any benefit. 
+Complex networks of relationships between objects in the OO system are also difficult to maintain..
 
 过多的应用OO和FP的各种模式, 除了增加复杂性和出错概率,降低性能, 没有任何好处,
 OO系统中对象之间复杂的关联网也是难以维护的.
