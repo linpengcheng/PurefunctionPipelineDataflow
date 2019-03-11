@@ -266,7 +266,7 @@ and error probability, reduce performance, without any benefit.
 Complex networks of relationships between objects in the OO system are also difficult to maintain..
 
 过多的应用OO和FP的各种模式, 除了增加复杂性和出错概率,降低性能, 没有任何好处,
-OO系统中对象之间复杂的关联网也是难以维护的.
+OO系统中对象之间复杂的关系网也是难以维护的.
 
 I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.. There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. I hope that my code can be understood by the junior programmer even in the most complicated system.
 
