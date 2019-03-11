@@ -261,6 +261,15 @@ FP and OO are overly complicated, and it is not feasible in large industries. It
 
 FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
 
+Excessive application of OO and FP design patterns, in addition to increasing complexity and error probability, reduce performance, without any benefit, Complex relational networks between objects in the OO system are also difficult to maintain.
+
+过多的应用OO和FP的各种模式, 除了增加复杂性和出错概率,降低性能, 没有任何好处,
+OO系统中对象之间复杂的关联网也是难以维护的.
+
+I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.. There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. I hope that my code can be understood by the junior programmer even in the most complicated system.
+
+我倾向于用最简单的概念和最基本的技术、语法和函数构建系统，用来实现我的思想，纯函数管道数据流是最简单、稳定、可靠、可读性强. 在中国有一位伟大的诗人白居易，甚至文盲也理解和欣赏他的诗歌。 我希望即使在最复杂的系统中，初级程序员也能理解我的代码。
+
 ## The difference between it and middleware 它和中间件的区别
 
 The code looks similar, but the idea is essentially different.
