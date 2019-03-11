@@ -507,6 +507,10 @@ In this way there will be endless cases, there will always be endless ways to so
 
 通过这种方式，将会有无穷无尽的参考案例、无穷无尽的方法来解决问题。这就是“道”。
 
+有人问我为什么不象OO和FP一样，搞几个管道流模式，我不禁想到《西游记》中菩提祖师问猴子要学天罡36变，还是地煞72变，
+当猴子选择72变时，他的失败已成定局，作为道家大能的菩提祖师，不会不懂道法自然，千变万化的道理，
+不管猴子选36变，还是72变，他的思想从此受到窒梏，戴上无形的紧㧜咒，从此无缘大道，这不是教学，而是耍猴。:-)
+
 I spend my spare time developing a financial analysis expert system. 
 Although my writing time is very limited, but I will gradually improve it. 
 compared to the content when I first set up the blog, 
