@@ -508,7 +508,7 @@ In this way there will be endless cases, there will always be endless ways to so
 通过这种方式，将会有无穷无尽的参考案例、无穷无尽的方法来解决问题。这就是“道”。
 
 
-I was asked why I didn't create several pipeline dataflow design patterns like OO and FP, and I thought, in "The Journey to the West", Bodhi  asked the monkey if he wanted to learn Tiangang 36 change or Devils 72 change, when the monkey chose 72 change, his failure has become a foregone conclusion, Bodhi who is the Taoist great God must understand the nature of the Tao, learn the laws of nature, The ever-changing truth, whether the monkey chose 36 changes, or 72 changes, his thoughts from then on stifled shackles, put on the invisible Tight curse, from then on can not approach  "Tao ", this is not teaching, but playing monkey. :-)
+I was asked why I didn't create several pipeline dataflow design patterns like OO and FP, and I thought, in Chinese Classic Myth Fiction "The Journey to the West", Bodhi  asked the monkey if he wanted to learn Tiangang 36 change or Devils 72 change, when the monkey chose 72 change, his failure has become a foregone conclusion, Bodhi who is the Taoist great God must understand the nature of the Tao, learn the laws of nature, The ever-changing truth, whether the monkey chose 36 changes, or 72 changes, his thoughts from then on stifled shackles, put on the invisible Tight curse, from then on can not approach  "Tao ", this is not teaching, but playing monkey. :-)
 
 有人问我为什么不象OO和FP一样，搞几个管道流的设计模式，我不禁想到《西游记》中菩提祖师问猴子要学天罡36变，还是地煞72变，
 当猴子选择72变时，他的失败已成定局，作为道家大能的菩提祖师，不会不懂道法自然，千变万化的道理，
