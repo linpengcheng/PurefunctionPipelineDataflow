@@ -544,7 +544,7 @@ it has been rich and improved a lot.
 
 - [Office是数据库服务](doc/office_is_db.md)
 
-- [Rust: 数学不能救编程，但财务可以 Rust: Mathematics can't save programming, but finance can](doc/rust.md)
+- [Rust: Mathematics can't save programming, but finance can do. Rust: 数学不能救编程，但财务可以](doc/rust.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
