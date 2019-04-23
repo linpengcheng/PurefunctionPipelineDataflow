@@ -544,6 +544,8 @@ it has been rich and improved a lot.
 
 - [Office是数据库服务](doc/office_is_db.md)
 
+- [Rust: 数学不能救编程，但财务可以 Rust: Mathematics can't save programming, but finance can](doc/rust.md)
+
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
 
 - [英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
@@ -565,8 +567,6 @@ it has been rich and improved a lot.
 - [半自动步枪、批处理和Lazy](doc/lazy.md)
 
 - [如来神掌与tree-seq](doc/tree-seq-and-The-Hand-of-God.md)
-
-- [Rust: 数学不能救编程，但财务可以](doc/rust.md)
 
 - [C#愚蠢到我不能理解，兼论UI构造方法](doc/c%23stupid.md)
 
