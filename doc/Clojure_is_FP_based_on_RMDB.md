@@ -19,7 +19,7 @@ Persistent Collections -> db, table, col
  
 ```
 Note: In the latest spec2, spec is more like RMDB. 
-see: [spec-alpha2 wiki: Schema-and-select](#https://github.com/clojure/spec-alpha2/wiki/Schema-and-select)
+see: [spec-alpha2 wiki: Schema-and-select](https://github.com/clojure/spec-alpha2/wiki/Schema-and-select)
 
 I don’t care about static or dynamic types, nor about FP, LP, or OO. For me, 
 they are overly complex, unreliable, and unscientific. I think they are very bad and upset me.
