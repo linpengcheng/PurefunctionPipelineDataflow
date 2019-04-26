@@ -52,6 +52,7 @@ Also similar to databases, verify their compliance before data enters the databa
 ----
 
 In general, I think:
+
 1. arbitrary layering and deep nesting are not good engineering practices.
 
 2. I prefer to use hash-map as the table with the primary key hash index, with key as the primary key and val(colname-colval-hashmap) as the row content.
@@ -99,6 +100,6 @@ There are many ways to implement relational algebra. The thinking is not limited
 
 In fact, the original data manipulation language of posgresql and foxpro is not SQL. Clojure core function is closer to foxpro's commands (DML).
 
-3. set, vector, list is generally not a good default data container, only used when needed. you use the set as container, it's difficult to operate data (table, row, column, value).
+3. set, vector, list is generally not a good default data container, only used when needed. if you use the them as container, it's difficult to operate data (table, row, column, value).
 
-4. In summary, I think: programming is the process of designing a data model that is simple and fluent in manipulation. To have open thinking, not to be restricted by traditional thinking, to be flexible, adapt to local conditions, and design as needed.
+In summary, I think: programming is the process of designing a data model that is simple and fluent in manipulation. To have open thinking, not to be restricted by traditional thinking, to be flexible, adapt to local conditions, and design as needed.
