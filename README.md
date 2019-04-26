@@ -362,7 +362,7 @@ Basic quality control of pure function pipeline data flow. The code must meet th
 (->> data
      (reduce #(->> %2 f1 (into %1 ,)) [:tbody] ,)
      (conj [:table] ,)
-     hiccup/html))
+     hiccup/html)
 
 ```
 
