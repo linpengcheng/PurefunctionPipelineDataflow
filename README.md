@@ -315,6 +315,8 @@ Basic quality control of pure function pipeline data flow. The code must meet th
 
 ## Code example 代码范例
 
+### Code example 01
+
 ```clojure
 ;Traditional expression, chaotic logic, unreadable.
 (if (and (> x1 x2)
@@ -337,6 +339,59 @@ Basic quality control of pure function pipeline data flow. The code must meet th
      (and , (keyword? x7))       
      (if  , :t :f))
 ```
+
+### Code example 02
+
+```clojure
+(def data
+  {:a [[:b :c :d]
+       [:e :f :g]
+       [:h :i :j]]
+   :k [[:l :m :n]
+       [:o :p :q]
+       [:r :s :t]]})
+
+(defn f1 [[k v]]
+  (let [[h & t] v
+        f   (fn [x] (mapv #(vector :td %) x))
+        tds (map #(->> % f (into [:tr] ,)) t)]
+     (->> (f h)
+          (into [:tr [:td {:rowspan (count v)} k]] ,)
+          (conj tds ,))))
+
+(->> data
+     (reduce #(->> %2 f1 (into %1 ,)) [:tbody] ,)
+     (conj [:table] ,)
+     hiccup/html))
+
+```
+
+<table>
+    <tbody>
+       <tr><td rowspan=3>a</td>
+           <td>b</td>
+           <td>c</td>
+           <td>d</td></tr>
+       <tr><td>e</td>
+           <td>f</td>
+           <td>g</td></tr>
+       <tr><td>h</td>
+           <td>i</td>
+           <td>j</td></tr>
+
+       <tr><td rowspan=3>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td></tr>
+       <tr><td>o</td>
+            <td>p</td>
+            <td>q</td></tr>
+       <tr><td>r</td>
+            <td>s</td>
+            <td>t</td></tr>
+    </tbody>
+</table>
+
 
 ## Basic construction method 基本构造方法
 
