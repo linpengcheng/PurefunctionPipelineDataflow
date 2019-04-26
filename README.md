@@ -378,7 +378,6 @@ Basic quality control of pure function pipeline data flow. The code must meet th
        <tr><td>h</td>
            <td>i</td>
            <td>j</td></tr>
-
        <tr><td rowspan=3>k</td>
             <td>l</td>
             <td>m</td>
