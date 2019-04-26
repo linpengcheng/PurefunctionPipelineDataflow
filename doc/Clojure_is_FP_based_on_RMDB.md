@@ -47,14 +47,58 @@ With reference to the database, as long as I use spec to strictly define (standa
 I've turned the traditional work of ensuring code correctness from in-code type system validation to data self-validation. Turn the work into verifying the core data model instead of validating the input and output data types of the function.
 
 Similar to industry, verify that all finished products meet the standards before entering the warehouse.
-Also similar to databases, verify their compliance before data enters the database.
+Also similar to databases, verify their compliance before data enters the database.;unctionPipelineDataflow) makes debugging, parallelism and extension very simple.
 
-That is "Data as a service, Warehouse as the core, operates around it".
+----
 
-A system requires only a few core data models, and development is built around the core data model.
+In general, I think:
+1. arbitrary layering and deep nesting are not good engineering practices.
 
-Persistent data structures ensure that the modification of the immutable big data model are high performance and memory efficient.
+2. I prefer to use hash-map as the table with the primary key hash index, with key as the primary key and val(colname-colval-hashmap) as the row content.
 
-In addition, using my pure function pipeline data stream (https://github.com/linpengcheng/PurefunctionPipelineDataflow) makes debugging, parallelism and extension very simple.
+```clojure
 
+{:table01 {:row01 {:col-array [0 1 2]
+                   :col-json  "{\"a\": \"Hello\"}"
+                   :col-text  "abc"}
+           :row02 {}}
+ :table02 {:row01 {}
+           :row02 {}}}
+            
+(def a {:a-id-01 {:a-name "a1"}
+        :a-id-02 {:a-name "a2"}})
+(def b {:b-id-01 {:a-id :a-id-01 :b-name "b2"}
+        :b-id-02 {:a-id :a-id-02 :b-name "b2"}})
 
+;try to row (or col) operations as much as possible, 
+;and join all data only when necessary(reduce the row-join).
+        
+(->> b
+     :b-id-01
+     :a-id
+     a
+     :a-name)
+;=>
+;"a1"
+
+(let [x (b :b-id-01)]
+  (->> x  
+       :a-id
+       a
+       (merge x ,)))
+;=>
+;{:a-id   :a-id-01,
+; :b-name "b2",
+; :a-name "a1"}            
+            
+```
+
+I don't think relational algebra operations must be implemented in the form of RMDB and SQL. It can also be implemented very elegantly with clojure.core. using hash-map operation is simpler, clearer, smoother and high performance.
+
+There are many ways to implement relational algebra. The thinking is not limited by the "information structure" displayed by the traditional RMDB interface. In clojure, the hash-map(NoSQL) is the underlying physical model, and the relational model is the upper logical model.clojure core function acts as a data manipulation language, I named this architecture SuperSQL or SuperRMDB.
+
+In fact, the original data manipulation language of posgresql and foxpro is not SQL. Clojure core function is closer to foxpro's commands (DML).
+
+3. set, vector, list is generally not a good default data container, only used when needed. you use the set as container, it's difficult to operate data (table, row, column, value).
+
+4. In summary, I think: programming is the process of designing a data model that is simple and fluent in manipulation. To have open thinking, not to be restricted by traditional thinking, to be flexible, adapt to local conditions, and design as needed.
