@@ -59,6 +59,19 @@ In addition, using my pure function pipeline data flow (https://github.com/linpe
 
 ----
 
+
+If Clojure is the sea, programming is to sail on the sea, I use the relational model as a lighthouse and route, as a reference model for simple programming, because the relationship theory is simple and scientific.
+
+I had implemented a DataFrame with hash-map, which implements relational operations. A relational operation is just a function. The advantage of hash-map is that key-chain can be used as a pointer, and processing data elements is simple and efficient. Therefore, DataFrame has advantages of RMDB and NoSQL.
+
+A strict relational model will lose the flexibility of data element operations.
+
+Clojure is a multi-paradigm, general-purpose functional programming language.
+
+The postgresql development team is also this view, so postgresql is not only RMDB (relational modeling), but also supports OO and json (NoSQL). But postgresql default data modeling is relational modeling
+
+My point of view is mainly to emphasize the best practices of data modeling and programming.
+
 In general, I think:
 
 1. arbitrary layering and deep nesting are not good engineering practices.
