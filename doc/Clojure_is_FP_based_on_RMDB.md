@@ -170,7 +170,7 @@ In general, I think:
             (let [x (v col)
                   y (m x)
                   y (if y y #{})] 
-              (->> (conj (m x) k)
+              (->> (conj y k)
                    (assoc m x ,))))]
     (->> db
          table 
