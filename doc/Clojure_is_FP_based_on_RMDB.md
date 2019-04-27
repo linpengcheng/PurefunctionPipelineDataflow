@@ -79,6 +79,7 @@ In general, I think:
                    :t1-pk4 {:t1-pk   :t1-pk4
                             :name01  "t1-r4"
                             :manager :m2}}
+         ; generate a "derived index" based on the "primary key hash index".
          :t1-manager-index {:m1 #{:t1-pk1}
                             :m2 #{:t1-pk2 
                                   :t1-pk4}
@@ -164,7 +165,6 @@ In general, I think:
           ; :manager :m2, 
           ; :name01 "t1-r4"}}       
 
-; generate a "derived index" based on the "primary key hash index".
 (let [{:keys [table01 t1-manager-index]} db]
   (->> :m2
        t1-manager-index
