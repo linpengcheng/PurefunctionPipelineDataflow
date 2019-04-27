@@ -67,38 +67,124 @@ In general, I think:
 
 ```clojure
 
-{:table01 {:row01 {:col-array [0 1 2]
-                   :col-json  "{\"a\": \"Hello\"}"
-                   :col-text  "abc"}
-           :row02 {}}
- :table02 {:row01 {}
-           :row02 {}}}
-            
-(def a {:a-id-01 {:a-name "a1"}
-        :a-id-02 {:a-name "a2"}})
-(def b {:b-id-01 {:a-id :a-id-01 :b-name "b2"}
-        :b-id-02 {:a-id :a-id-02 :b-name "b2"}})
+(def db {:table01 {:t1-pk1 {:t1-pk   :t1-pk1
+                            :name01  "t1-r1"
+                            :manager :m1}
+                   :t1-pk2 {:t1-pk   :t1-pk2
+                            :name01  "t1-r2"
+                            :manager :m2}
+                   :t1-pk3 {:t1-pk   :t1-pk3
+                            :name01  "t1-r3"
+                            :manager :m3}
+                   :t1-pk4 {:t1-pk   :t1-pk4
+                            :name01  "t1-r4"
+                            :manager :m2}}
+         :t1-manager-index {:m1 #{:t1-pk1}
+                            :m2 #{:t1-pk2 
+                                  :t1-pk4}
+                            :m3 #{:t1-pk3}}                 
+         :table02 {:t2-pk1 {:t2-pk   :t2-pk1
+                            :t1-pk   :t1-pk1
+                            :name02  "t2-r1"
+                            :client  :client1}
+                   :t2-pk2 {:t2-pk   :t2-pk2
+                            :t1-pk   :t1-pk2
+                            :name02  "t2-r2"
+                            :client  :client2}
+                   :t2-pk3 {:t2-pk   :t2-pk3
+                            :t1-pk   :t1-pk3
+                            :name02  "t2-r3"
+                            :client  :client3}
+                   :t2-pk4 {:t2-pk   :t2-pk4
+                            :t1-pk   :t1-pk4
+                            :name02  "t2-r4"
+                            :client  :client2}}})
 
 ;try to row (or col) operations as much as possible, 
 ;and join all data only when necessary(reduce the row-join).
         
-(->> b
-     :b-id-01
-     :a-id
-     a
-     :a-name)
+(let [{:keys [table01 table02]} db]
+  (->> table02
+       :t2-pk1
+       :t1-pk
+       table01
+       :name01))
 ;=>
-;"a1"
+;"t1-r1"
 
-(let [x (b :b-id-01)]
+(let [{:keys [table01 table02]} db
+      x (table02 :t2-pk1)]
   (->> x  
-       :a-id
-       a
+       :t1-pk
+       table01
        (merge x ,)))
+ 
 ;=>
-;{:a-id   :a-id-01,
-; :b-name "b2",
-; :a-name "a1"}            
+; {:t2-pk   :t2-pk1, 
+;  :t1-pk   :t1-pk1, 
+;  :name02  "t2-r1", 
+;  :client  :client1          
+;  :manager :m1, 
+;  :name01  "t1-r1"} 
+
+(let [{:keys [table01 table02]} db
+      f #(let [x (table02 %2)]
+          (->> x 
+               :t1-pk
+               table01
+               (merge x ,)
+               (assoc %1 %2 ,)))]
+  (->> table02  
+       keys
+       (reduce f {} ,)
+       doall))      
+;=>
+; {:t2-pk1 {:t2-pk :t2-pk1, 
+          ; :t1-pk :t1-pk1, 
+          ; :name02 "t2-r1",
+          ; :client  :client1          
+          ; :manager :m1, 
+          ; :name01 "t1-r1"},  
+ ; :t2-pk2 {:t2-pk :t2-pk2, 
+          ; :t1-pk :t1-pk2, 
+          ; :name02 "t2-r2", 
+          ; :client  :client2          
+          ; :manager :m2, 
+          ; :name01 "t1-r2"}, 
+ ; :t2-pk3 {:t2-pk :t2-pk3, 
+          ; :t1-pk :t1-pk3, 
+          ; :name02 "t2-r3", 
+          ; :client  :client3          
+          ; :manager :m3, 
+          ; :name01 "t1-r3"}, 
+ ; :t2-pk4 {:t2-pk :t2-pk4, 
+          ; :t1-pk :t1-pk4, 
+          ; :name02 "t2-r4", 
+          ; :client  :client2          
+          ; :manager :m2, 
+          ; :name01 "t1-r4"}}       
+
+; generate a "derived index" based on the "primary key hash index".
+(let [{:keys [table01 t1-manager-index]} db]
+  (->> :m2
+       t1-manager-index
+       (select-keys table01 ,)))
+  
+; =>
+; {:t1-pk4 {:t1-pk :t1-pk4, :name01 "t1-r4", :manager :m2}, 
+ ; :t1-pk2 {:t1-pk :t1-pk2, :name01 "t1-r2", :manager :m2}}
+ 
+(let [{:keys [table01 t1-manager-index]} db]
+  (->> [:m2 :m3]
+       (select-keys t1-manager-index ,)
+       vals
+       (apply clojure.set/union ,)
+       (select-keys table01 ,))) 
+ 
+; =>
+; {:t1-pk3 {:t1-pk :t1-pk3, :name01 "t1-r3", :manager :m3}, 
+ ; :t1-pk4 {:t1-pk :t1-pk4, :name01 "t1-r4", :manager :m2}, 
+ ; :t1-pk2 {:t1-pk :t1-pk2, :name01 "t1-r2", :manager :m2}}          
             
 ```
 
