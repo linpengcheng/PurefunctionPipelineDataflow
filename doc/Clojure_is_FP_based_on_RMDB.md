@@ -165,6 +165,20 @@ In general, I think:
           ; :manager :m2, 
           ; :name01 "t1-r4"}}       
 
+(defn gen-index [index-name db table col]
+  (let [f (fn [m k v]
+            (let [x (v col)
+                  y (m x)
+                  y (if y y #{})] 
+              (->> (conj (m x) k)
+                   (assoc m x ,))))]
+    (->> db
+         table 
+         (reduce-kv f {} ,)
+         (assoc db index-name ,)))) 
+    
+(gen-index :t1-manager-index db :table01 :manager)
+
 (let [{:keys [table01 t1-manager-index]} db]
   (->> :m2
        t1-manager-index
