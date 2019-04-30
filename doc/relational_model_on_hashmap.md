@@ -18,11 +18,13 @@ In addition, using hash-map implementation,
 you can take full advantage of Clojure's powerful core functions.
 
 The advantage of the relational model is 
-that it is a good collection operation. 
+that it is a good collection operation, 
+and it does not have deep nesting, 
+expression is clear, easy to view, and simple operation logic.
 By simply wrapping the Clojure core functions, 
 you can implement SQL-like functions.
-In addition, the relationship model does not have deep nesting, 
-expression is clear, easy to view, and simple operation logic.
+[Clojure is a FP based on RMDB](doc/Clojure_is_FP_based_on_RMDB.md),
+it has many RMDB facilities.
 
 Therefore, it has the advantages of RMDB and NoSQL.
 
