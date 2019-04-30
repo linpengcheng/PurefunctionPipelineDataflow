@@ -22,13 +22,16 @@ that it is a good collection operation.
 By simply wrapping the Clojure core functions, 
 you can implement SQL-like functions.
 In addition, the relationship model does not have deep nesting, 
-expression is clear expression, easy to view, and simple operation logic.
+expression is clear, easy to view, and simple operation logic.
 
 Therefore, it has the advantages of RMDB and NoSQL.
 
-This programming method is actually an inverse implementation of PostgreSQL.
+This method is actually an inverse implementation of PostgreSQL.
 PostgreSQL Implements NoSQL support on relational models 
 by supporting json types and extending SQL.
+
+Postgresql uses SQL to manipulate data,
+and my method uses a more powerful clojure core function.
 
 Therefore, I don't want to implement the relational model on clojure 
 as the following RMDB-like data representation:
