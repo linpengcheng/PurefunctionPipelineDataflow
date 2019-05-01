@@ -157,8 +157,8 @@ My implementation is as follows:
 
 (use 'clojure.set)
 
-(defn select-by-index [index-name index-cols db table]
-  (->> index-cols
+(defn select-by-index [index-name index-keys db table]
+  (->> index-keys
        (select-keys (get db index-name) ,)
        vals
        (apply clojure.set/union ,)
