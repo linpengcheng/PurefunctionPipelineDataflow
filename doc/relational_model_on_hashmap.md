@@ -97,7 +97,82 @@ My implementation is as follows:
                             :t1-pk   :t1-pk4
                             :name02  "t2-r4"
                             :client  :client2}}})
+                            
+;=======SQL-Like===========                            
+(defn join [db main_table join_table join_col]
+  (let [f #(let [x (-> db main_table %2)]
+              (->> x
+			       join_col
+				   (get (db join_table) ,)
+				   (merge x ,)
+				   (assoc %1 %2 ,)))]
+  (->> db
+       main_table  
+       keys
+       (reduce f {} ,)
+       doall)))  
+	   
+(join db :table02 :table01 :t1-pk)
 
+;=>
+; {:t2-pk1 {:t2-pk :t2-pk1, 
+          ; :t1-pk :t1-pk1, 
+          ; :name02 "t2-r1",
+          ; :client  :client1          
+          ; :manager :m1, 
+          ; :name01 "t1-r1"},  
+ ; :t2-pk2 {:t2-pk :t2-pk2, 
+          ; :t1-pk :t1-pk2, 
+          ; :name02 "t2-r2", 
+          ; :client  :client2          
+          ; :manager :m2, 
+          ; :name01 "t1-r2"}, 
+ ; :t2-pk3 {:t2-pk :t2-pk3, 
+          ; :t1-pk :t1-pk3, 
+          ; :name02 "t2-r3", 
+          ; :client  :client3          
+          ; :manager :m3, 
+          ; :name01 "t1-r3"}, 
+ ; :t2-pk4 {:t2-pk :t2-pk4, 
+          ; :t1-pk :t1-pk4, 
+          ; :name02 "t2-r4", 
+          ; :client  :client2          
+          ; :manager :m2, 
+          ; :name01 "t1-r4"}} 
+          
+(defn index [index-name db table col]
+  (let [f (fn [m k v]
+            (let [x (v col)
+                  y (m x)
+                  y (if y y #{})] 
+              (->> (conj y k)
+                   (assoc m x ,))))]
+    (->> db
+         table 
+         (reduce-kv f {} ,)
+         (assoc db index-name ,)))) 
+    
+(index :t1-manager-index db :table01 :manager)
+
+(use 'clojure.set)
+
+(defn select-by-index [index-name index-cols db table]
+  (->> index-cols
+       (select-keys (get db index-name) ,)
+       vals
+       (apply clojure.set/union ,)
+       (select-keys (get db table) ,)))  
+	   
+(select-by-index :t1-manager-index 
+                 [:m2 :m3] 
+				 db 
+				 :table01)
+; =>
+; {:t1-pk3 {:t1-pk :t1-pk3, :name01 "t1-r3", :manager :m3}, 
+ ; :t1-pk4 {:t1-pk :t1-pk4, :name01 "t1-r4", :manager :m2}, 
+ ; :t1-pk2 {:t1-pk :t1-pk2, :name01 "t1-r2", :manager :m2}}   
+
+;=======hash-map(NoSQL): clojure core fn ======
 ;try to row (or col) operations as much as possible, 
 ;and join all data only when necessary(reduce the row-join).
         
@@ -125,56 +200,7 @@ My implementation is as follows:
 ;  :manager :m1, 
 ;  :name01  "t1-r1"} 
 
-(let [{:keys [table01 table02]} db
-      f #(let [x (table02 %2)]
-          (->> x 
-               :t1-pk
-               table01
-               (merge x ,)
-               (assoc %1 %2 ,)))]
-  (->> table02  
-       keys
-       (reduce f {} ,)
-       doall))      
-;=>
-; {:t2-pk1 {:t2-pk :t2-pk1, 
-          ; :t1-pk :t1-pk1, 
-          ; :name02 "t2-r1",
-          ; :client  :client1          
-          ; :manager :m1, 
-          ; :name01 "t1-r1"},  
- ; :t2-pk2 {:t2-pk :t2-pk2, 
-          ; :t1-pk :t1-pk2, 
-          ; :name02 "t2-r2", 
-          ; :client  :client2          
-          ; :manager :m2, 
-          ; :name01 "t1-r2"}, 
- ; :t2-pk3 {:t2-pk :t2-pk3, 
-          ; :t1-pk :t1-pk3, 
-          ; :name02 "t2-r3", 
-          ; :client  :client3          
-          ; :manager :m3, 
-          ; :name01 "t1-r3"}, 
- ; :t2-pk4 {:t2-pk :t2-pk4, 
-          ; :t1-pk :t1-pk4, 
-          ; :name02 "t2-r4", 
-          ; :client  :client2          
-          ; :manager :m2, 
-          ; :name01 "t1-r4"}}       
 
-(defn gen-index [index-name db table col]
-  (let [f (fn [m k v]
-            (let [x (v col)
-                  y (m x)
-                  y (if y y #{})] 
-              (->> (conj y k)
-                   (assoc m x ,))))]
-    (->> db
-         table 
-         (reduce-kv f {} ,)
-         (assoc db index-name ,)))) 
-    
-(gen-index :t1-manager-index db :table01 :manager)
 
 (let [{:keys [table01 t1-manager-index]} db]
   (->> :m2
@@ -185,17 +211,6 @@ My implementation is as follows:
 ; {:t1-pk4 {:t1-pk :t1-pk4, :name01 "t1-r4", :manager :m2}, 
  ; :t1-pk2 {:t1-pk :t1-pk2, :name01 "t1-r2", :manager :m2}}
  
-(let [{:keys [table01 t1-manager-index]} db]
-  (->> [:m2 :m3]
-       (select-keys t1-manager-index ,)
-       vals
-       (apply clojure.set/union ,)
-       (select-keys table01 ,))) 
- 
-; =>
-; {:t1-pk3 {:t1-pk :t1-pk3, :name01 "t1-r3", :manager :m3}, 
- ; :t1-pk4 {:t1-pk :t1-pk4, :name01 "t1-r4", :manager :m2}, 
- ; :t1-pk2 {:t1-pk :t1-pk2, :name01 "t1-r2", :manager :m2}}   
 ```
 
 如果说编程是在海上航行，我使用关系模型作为灯塔和路线，
