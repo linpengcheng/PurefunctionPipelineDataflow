@@ -98,14 +98,15 @@ My implementation is as follows:
                             :name02  "t2-r4"
                             :client  :client2}}})
                             
-;=======SQL-Like===========                            
+;=======SQL-Like===========    
+
 (defn join [db main_table join_table join_col]
   (let [f #(let [x (-> db main_table %2)]
               (->> x
-			       join_col
-				   (get (db join_table) ,)
-				   (merge x ,)
-				   (assoc %1 %2 ,)))]
+		   join_col
+		   (get (db join_table) ,)
+		   (merge x ,)
+		   (assoc %1 %2 ,)))]
   (->> db
        main_table  
        keys
@@ -165,8 +166,8 @@ My implementation is as follows:
 	   
 (select-by-index :t1-manager-index 
                  [:m2 :m3] 
-				 db 
-				 :table01)
+		 db 
+		 :table01)
 ; =>
 ; {:t1-pk3 {:t1-pk :t1-pk3, :name01 "t1-r3", :manager :m3}, 
  ; :t1-pk4 {:t1-pk :t1-pk4, :name01 "t1-r4", :manager :m2}, 
