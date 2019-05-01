@@ -1,6 +1,6 @@
-# Implement relational model and programming based on hash-map (NoSQL)
+# Implement relational data model and programming based on hash-map (NoSQL)
 
-# 在hash-map(NoSQL)的基础上实现关系式模型和编程
+# 在hash-map(NoSQL)的基础上实现关系式数据模型和编程
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -17,7 +17,7 @@ and processing data elements is simple and efficient.
 In addition, using hash-map implementation, 
 you can take full advantage of Clojure's powerful core functions.
 
-The advantage of the relational model is 
+The advantage of the relational data model is 
 that it is a good collection operation, 
 and it does not have deep nesting, 
 expression is clear, easy to view, and simple operation logic.
@@ -35,7 +35,7 @@ by supporting json types and extending SQL.
 Postgresql uses SQL to manipulate data,
 and my method uses a more powerful clojure core function.
 
-Therefore, I don't want to implement the relational model on clojure 
+Therefore, I don't want to implement the relational data model on clojure 
 as the following RMDB-like data representation:
 
 ```clojure
