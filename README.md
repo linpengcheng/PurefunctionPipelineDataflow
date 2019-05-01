@@ -603,11 +603,11 @@ it has been rich and improved a lot.
 
 - [The Best Practice of Clojure. Clojure最佳实践](doc/best_practice_of_clojure.md)
 
-- [React is terrible. React很糟糕](doc/react_is_terrible.md)
-
 - [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
 
 - [Rust: Mathematics can't save programming, but finance can do. Rust: 数学不能救编程，但财务可以](doc/rust.md)
+
+- [React is terrible. React很糟糕](doc/react_is_terrible.md)
 
 ### Chinese
 
