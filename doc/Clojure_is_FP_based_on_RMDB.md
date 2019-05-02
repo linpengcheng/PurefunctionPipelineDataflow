@@ -57,8 +57,40 @@ Persistent data structures ensure that the modification of the immutable big dat
 
 In addition, using my pure function pipeline data flow (https://github.com/linpengcheng/PurefunctionPipelineDataflow) makes debugging, parallelism and extension very simple.
 
+
 ----
 
+I think developers must fully understand the data model and be able to manipulate any data element, data transformation, and collection operations as they wish.
+
+The data model is the most important. It should be designed before programming and adjusted as the development progresses to ensure that the data model can be easily and smoothly manipulated.
+
+If you only need a pure relational database, I will choose postgresql, h2, honeysql.
+
+The main purpose of my approach is to implement data modeling best practices using pure clojure core data types. The hash-map data model is designed with reference to the relational data model to:
+
+- Like Collection operations of relational data models.
+
+- Manipulate data elements with the powerful core functions of the hash-map in clojure.
+
+Clojure has many facilities similar to RMDB, but lacks a relational data model. I designed this model and sql-like function. Filled in this defect. So we can call clojure an RMDB.
+```
+               Clojure -> DBMS, Super Foxpro
+                   STM -> Transaction，MVCC
+Persistent Collections -> db, table, col
+              hash-map -> indexed data
+                 Watch -> trigger, log
+                  Spec -> constraint
+              Core API -> SQL, Built-in function
+              function -> Stored Procedure
+             Meta Data -> System Table
+```
+
+Rmdb is not only manipulated with SQL, The original DML of postgresql and foxpro is not SQL.
+
+Duck Typing: If it looks like a duck and quacks like a duck, it must be a duck.
+
+If clojure's data model like a RMDB, clojure's facilities like a RMDB and clojure's data manipulation like a RMDB, clojure must be a RMDB.
+----
 
 If Clojure is the sea, programming is to sail on the sea, I use the relational model as a lighthouse and route, as a reference model for simple programming, because the relationship theory is simple and scientific.
 
