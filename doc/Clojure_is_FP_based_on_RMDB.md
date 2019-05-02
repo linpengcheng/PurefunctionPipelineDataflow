@@ -89,7 +89,8 @@ Rmdb is not only manipulated with SQL, The original DML of postgresql and foxpro
 
 Duck Typing: If it looks like a duck and quacks like a duck, it must be a duck.
 
-If clojure's data model like a RMDB, clojure's facilities like a RMDB and clojure's data manipulation like a RMDB, clojure must be a RMDB.
+**If clojure's data model like a RMDB, clojure's facilities like a RMDB and clojure's data manipulation like a RMDB, clojure must be a RMDB.**
+
 ----
 
 If Clojure is the sea, programming is to sail on the sea, I use the relational model as a lighthouse and route, as a reference model for simple programming, because the relationship theory is simple and scientific.
