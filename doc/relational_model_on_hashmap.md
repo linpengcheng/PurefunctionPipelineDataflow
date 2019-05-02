@@ -228,6 +228,9 @@ The main purpose of my approach is to implement data modeling best practices usi
 - Manipulate data elements with the powerful core functions of the hash-map in clojure.
 
 Clojure has many facilities similar to RMDB, but lacks a relational data model. I designed this model and sql-like function. Filled in this defect. So we can call clojure an RMDB.
+
+I did not design a complete SQL clause, because in the pure function pipeline data flow, only need to add a reduce-kv (filter, map , etc.) in series to achieve the clause function.
+
 ```
                Clojure -> DBMS, Super Foxpro
                    STM -> Transaction，MVCC
