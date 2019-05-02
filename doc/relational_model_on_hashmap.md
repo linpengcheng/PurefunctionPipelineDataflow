@@ -213,19 +213,37 @@ My implementation is as follows:
  ; :t1-pk2 {:t1-pk :t1-pk2, :name01 "t1-r2", :manager :m2}}
  
 ```
+----
 
-如果说编程是在海上航行，我使用关系模型作为灯塔和路线，
-作为简单编程的参考模型，因为关系理论简单而科学。
+I think developers must fully understand the data model and be able to manipulate any data element, data transformation, and collection operations as they wish.
 
-hash-map的优点是善长数据元素操作, 可以把key-chain作为指针，处理数据元素简单而有效。
-另外用hash-map实现,可以充分利用Clojure丰富强大的核心函数。
+The data model is the most important. It should be designed before programming and adjusted as the development progresses to ensure that the data model can be easily and smoothly manipulated.
 
-关系模型的优点是善长集合操作, 通过对Clojure核心函数的简单包装,可以实现SQL类的函数。
-另外,关系模型不会有深度嵌套, 表达清晰, 查看方便, 操作逻辑简单.
+If you only need a pure relational database, I will choose postgresql, h2, honeysql.
 
-因此，它具有RMDB和NoSQL的优点。
+The main purpose of my approach is to implement data modeling best practices using pure clojure core data types. The hash-map data model is designed with reference to the relational data model to:
 
-这种编程方法事实上是PostgreSQL的逆实现,
-PostgreSQL:通过支持json类型和扩展SQL，实现在关系式模型上的NoSQL支持.
+- Like Collection operations of relational data models.
 
-因此, 我不希望把clojure上的关系模型实现成类似RMDB的数据表示, 
+- Manipulate data elements with the powerful core functions of the hash-map in clojure.
+
+Clojure has many facilities similar to RMDB, but lacks a relational data model. I designed this model and sql-like function. Filled in this defect. So we can call clojure an RMDB.
+```
+               Clojure -> DBMS, Super Foxpro
+                   STM -> Transaction，MVCC
+Persistent Collections -> db, table, col
+              hash-map -> indexed data
+                 Watch -> trigger, log
+                  Spec -> constraint
+              Core API -> SQL, Built-in function
+              function -> Stored Procedure
+             Meta Data -> System Table
+```
+
+Rmdb is not only manipulated with SQL, The original DML of postgresql and foxpro is not SQL.
+
+Duck Typing: If it looks like a duck and quacks like a duck, it must be a duck.
+
+If clojure's data model like a RMDB, clojure's facilities like a RMDB and clojure's data manipulation like a RMDB, clojure must be a RMDB.
+
+----
