@@ -249,4 +249,4 @@ Duck Typing: If it looks like a duck and quacks like a duck, it must be a duck.
 
 If clojure's data model like a RMDB, clojure's facilities like a RMDB and clojure's data manipulation like a RMDB, clojure must be a RMDB.
 
-----
+According to Duck Typing theory, no matter whether clojure is RMDB or not, as long as it can be used like RMDB, it is RMDB.
