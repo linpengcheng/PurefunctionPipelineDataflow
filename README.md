@@ -17,7 +17,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Basic construction method 基本构造方法](#Basic-construction-method-基本构造方法)
   - [1. Pipeline Component 管道组件](#Pipeline-Component-管道组件)
   - [2. Branch 分支](#Branch-分支)
-  - [3. Feedback circuit (reflow, recursive) 反馈电路（回流, 递归）](#Feedback-Circuit-反馈电路)
+  - [3. Feedback circuit (reflow, whirlpool, recursive) 反馈电路（回流, 漩涡, 递归）](#Feedback-Circuit-反馈电路)
   - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#Shunt-分流)
   - [5. Confluence(reduce) 合流, 合一](#Confluence-合流)
 - [Tao 道](#Tao-道)
