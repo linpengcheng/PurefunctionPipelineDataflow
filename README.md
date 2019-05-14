@@ -485,14 +485,14 @@ A (cond) or (if) block as a function.
 
 ### Feedback Circuit 反馈电路
 
-Feedback circuit (reflow，recursive): 
+Feedback circuit (reflow, whirlpool, recursive): 
 A tail recursive function is equivalent to a feedback circuit. 
 
 Note: The map is batch processing. it can be regarded as similar to a queue of tourists. 
 Repeating the ticket checking action at the entrance is a forward action, 
 not feedback or reflow.
 
-反馈电路（回流, 递归）:
+反馈电路（回流, 漩涡, 递归）:
 一个尾递归函数相当于一个反馈电路。
 
 备注：map是批处理，可以看成类似对一个游客队列，在入口重复进行验票动作，
