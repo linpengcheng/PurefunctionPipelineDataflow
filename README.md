@@ -181,7 +181,7 @@ Metaphor:
   - Industrial Production Line
   - Ship's Watertight Compartments
   - CPU, GPU, Sound Card, etc
-  - integrated circuit element (or board)
+  - integrated circuit element (or board), electrical device
 - Standardized Data
   - Products that meet industrial standards
     - raw materials
@@ -237,7 +237,7 @@ the system uses memory as the core, not the CPU.
   - 工业生产流水线
   - 船只的水密隔舱
   - CPU, 显卡，声卡等。
-  - 集成电路元件(芯片,板)
+  - 集成电路元件(芯片,板), 电气设备
 - 标准化的数据
   - 符合工业标准的产品
     - 原材料
