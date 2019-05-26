@@ -175,16 +175,19 @@ Metaphor:
   - Standardized Data Model
   - RMDB
   - Memory
+  - Battery
 - Workshop:
   - Pure Function Pipeline Data Flow
   - Industrial Production Line
   - Ship's Watertight Compartments
   - CPU, GPU, Sound Card, etc
+  - integrated circuit element (or board)
 - Standardized Data
   - Products that meet industrial standards
     - raw materials
     - middleware
     - finished goods
+  - Current
 - Acceptance Check
   - Quality Control Department
   - Customs
@@ -193,6 +196,7 @@ Metaphor:
   - Purchasing department
   - Supply Chain
   - Hard Disk, Flash Disk，etc.
+  - Power Plant
   
 Before entering the warehouse, 
 all data must be acceptance-checked first.
@@ -227,16 +231,19 @@ the system uses memory as the core, not the CPU.
   - 标准化的数据模型
   - 关系式数据库
   - 内存
+  - 电池
 - 车间
   - 纯函数管道数据流
   - 工业生产流水线
   - 船只的水密隔舱
   - CPU, 显卡，声卡等。
+  - 集成电路元件(芯片,板)
 - 标准化的数据
   - 符合工业标准的产品
     - 原材料
     - 半成品
     - 产成品
+  - 电流  
 - 验收
   - 质量控制部门
   - 海关
@@ -244,7 +251,8 @@ the system uses memory as the core, not the CPU.
 - 外部的标准化数据
   - 采购部门
   - 供应链
-  - 硬盘，闪存盘等。
+  - 硬盘，闪存盘等
+  - 发电厂。
   
 进入仓库前, 所有的数据必须先经过验收.
 
