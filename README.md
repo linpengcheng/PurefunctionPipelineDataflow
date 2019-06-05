@@ -5,35 +5,68 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
-## Table of Contents 目录
-- [Similar Statements 类似观点](#Similar-Statements-类似观点)
-- [Summary 概述](#Summary-概述)
-- [Classical Model 经典模型](#Classical-Model-经典模型)
-  - [Warehouse/Workshop Model 仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
-- [Disadvantages of FP and OO 函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
-- [The difference between it and middleware 它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
-- [Basic quality control 基本质量控制](#Basic-quality-control-基本质量控制)
-- [Code example 代码范例](#Code-example-代码范例)
-- [Basic construction method 基本构造方法](#Basic-construction-method-基本构造方法)
-  - [1. Pipeline Component 管道组件](#Pipeline-Component-管道组件)
-  - [2. Branch 分支](#Branch-分支)
-  - [3. Feedback circuit (reflow, whirlpool, recursive) 反馈电路（回流, 漩涡, 递归）](#Feedback-Circuit-反馈电路)
-  - [4. shunt (concurrent, parallel) 分流(并发, 并行)](#Shunt-分流)
-  - [5. Confluence(reduce) 合流, 合一](#Confluence-合流)
-- [Tao 道](#Tao-道)
-- [Postscript 后记](#Postscript-后记)
-----
+## Table of Contents
+- [Similar Statements](#Similar-Statements-类似观点)
+- [Summary](#Summary-概述)
+- [Classical Model](#Classical-Model-经典模型)
+  - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
+- [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
+- [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
+- [Basic quality control](#Basic-quality-control-基本质量控制)
+- [Code Example](#Code-example-代码范例)
+- [Basic construction method](#Basic-construction-method-基本构造方法)
+  - [1. Pipeline Component](#Pipeline-Component-管道组件)
+  - [2. Branch](#Branch-分支)
+  - [3. Feedback circuit (reflow, whirlpool, recursive)](#Feedback-Circuit-反馈电路)
+  - [4. shunt (concurrent, parallel)](#Shunt-分流)
+  - [5. Confluence(reduce)](#Confluence-合流)
+- [Tao](#Tao-道)
+- [Great Historical Significance](#Great-Historical-Significance-重大历史意义)
+- [Postscript](#Postscript-后记)
 - Appendix:
 
-  - [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
+  - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
 
-  - [Everything is RMDB. 一切都是RMDB](doc/Everything_is_RMDB.md)
+  - [Everything is RMDB.](doc/Everything_is_RMDB.md)
 
-  - [Implement relational data model and programming based on hash-map (NoSQL) 在hash-map(NoSQL)的基础上实现关系式数据模型和编程](doc/relational_model_on_hashmap.md)
+  - [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
 
-  - [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
+  - [Markdown Literary Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
 
-  - [Other Articles Table of Contents 其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
+  - [Other Articles Table of Contents](#Other-Articles-Table-of-Contents-其他文章目录)
+
+----
+## 目录
+- [类似观点](#Similar-Statements-类似观点)
+- [概述](#Summary-概述)
+- [经典模型](#Classical-Model-经典模型)
+  - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
+- [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
+- [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
+- [基本质量控制](#Basic-quality-control-基本质量控制)
+- [代码范例](#Code-example-代码范例)
+- [基本构造方法](#Basic-construction-method-基本构造方法)
+  - [1. 管道组件](#Pipeline-Component-管道组件)
+  - [2. 分支](#Branch-分支)
+  - [3. 反馈电路（回流, 漩涡, 递归）](#Feedback-Circuit-反馈电路)
+  - [4. 分流(并发, 并行)](#Shunt-分流)
+  - [5. 合流, 合一](#Confluence-合流)
+- [道](#Tao-道)
+- [重大历史意义](#Great-Historical-Significance-重大历史意义)
+- [后记](#Postscript-后记)
+
+- 附录:
+
+  - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
+
+  - [一切都是RMDB](doc/Everything_is_RMDB.md)
+
+  - [在hash-map(NoSQL)的基础上实现关系式数据模型和编程](doc/relational_model_on_hashmap.md)
+
+  - [不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
+
+  - [其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
+
 ----
   
 ## Similar Statements 类似观点
@@ -567,6 +600,20 @@ They can transform each other.
 大道至简, 道法自然, 道是算法, 道无处不在。
 所以, 集成电路技术、工业流水线生产技术、会计学、管理学、建筑学等,
 一切都可当成算法和软件工程方法使用, 它们可以互相转化.
+
+## Great Historical Significance 重大历史意义
+
+Its great historical significance is that in the computer field, for the first time, 
+the hardware model and software engineering are unified in the logical model, 
+but also very simple and clear, 
+The support for concurrency, parallelism and distributed is also very simple and natural. 
+It has created the Taoist programming philosophy. 
+It must be the ultimate methodology in programming methodology. :-)
+
+它的重大历史意义在于, 在计算机领域里, 第一次实现了硬件工程和软件工程在逻辑模型上的统一, 
+而且还非常简单和清晰, 对并发, 并行, 分布式的支持也很简单自然. 
+开创了大道至简和道法自然的东方道系编程哲学. 
+它一定能成为编程方法学里的终极方法学. :-)
 
 ## Postscript 后记
 
