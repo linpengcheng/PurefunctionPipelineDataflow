@@ -604,7 +604,7 @@ They can transform each other.
 ## Great Historical Significance 重大历史意义
 
 Its great historical significance is that in the computer field, for the first time, 
-the hardware model and software engineering are unified in the logical model, 
+the hardware engineering and software engineering are unified in the logical model, 
 but also very simple and clear, 
 The support for concurrency, parallelism and distributed is also very simple and natural. 
 It has created the Taoist programming philosophy. 
