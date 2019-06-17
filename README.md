@@ -24,7 +24,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Great Historical Significance](#Great-Historical-Significance-重大历史意义)
 - [Postscript](#Postscript-后记)
 - Appendix:
-  - [(Chinese)Simplicity and Unity----Grand Unified Theory and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
+  - [(Chinese) Simplicity and Unity ---- Grand Unified Theory and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
   - [Everything is RMDB.](doc/Everything_is_RMDB.md)
   - [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
