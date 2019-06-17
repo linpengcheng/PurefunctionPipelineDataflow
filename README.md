@@ -24,18 +24,15 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Great Historical Significance](#Great-Historical-Significance-重大历史意义)
 - [Postscript](#Postscript-后记)
 - Appendix:
-
+  - [(Chinese)Simplicity and Unity----Grand Unified Theory and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
-
   - [Everything is RMDB.](doc/Everything_is_RMDB.md)
-
   - [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
-
   - [Markdown Literary Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
-
   - [Other Articles Table of Contents](#Other-Articles-Table-of-Contents-其他文章目录)
 
 ----
+
 ## 目录
 - [类似观点](#Similar-Statements-类似观点)
 - [概述](#Summary-概述)
@@ -54,17 +51,12 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [道](#Tao-道)
 - [重大历史意义](#Great-Historical-Significance-重大历史意义)
 - [后记](#Postscript-后记)
-
 - 附录:
-
+  - [简单性和统一性----大统一理论与纯函数管道数据流](doc/Simplicity_and_Unity.md)
   - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
-
   - [一切都是RMDB](doc/Everything_is_RMDB.md)
-
   - [在hash-map(NoSQL)的基础上实现关系式数据模型和编程](doc/relational_model_on_hashmap.md)
-
   - [不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
-
   - [其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
 
 ----
