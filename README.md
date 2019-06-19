@@ -174,7 +174,7 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 
 ## Classical Model 经典模型
 
-This is a typical application of the grand unified theory.
+This is a typical application of `Tao` and `Grand Unified Theory`.
 
 - data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
 - Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
@@ -189,7 +189,7 @@ This is a typical application of the grand unified theory.
   - Architecture: Pyramid, flat, matrix, etc.
 - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. It's also a variant of the **Gantt Chart**.
 
-这是大统一理论的典型应用:
+这是`道`和`大统一理论`的典型应用:
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
