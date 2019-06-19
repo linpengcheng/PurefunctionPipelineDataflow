@@ -174,20 +174,33 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 
 ## Classical Model 经典模型
 
+This is a typical application of the grand unified theory.
+
 - data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
 - Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
 - The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
 - Urban water network
-- The **Gantt chart** in management, with the timeline as the main axis, multiple data flows running in parallel. It is also a good data flow , parallel and asynchronous programming tool. The application research of management to asynchronous, parallel and distributed is the first in the world!
+- It is the first in the world that the application research of management to asynchronous, parallel and distributed!
+  - The **Gantt chart** in management, with the timeline as the main axis, multiple data flows running in parallel. 
+    It is also a good data flow , parallel and asynchronous programming tool. 
+  - Parallel: Large industrial pipelines can be expanded linearly in parallel.
+  - Distributed: group company model, total branch model, parent-subsidiary model, holding company model, etc.
+  - Architecture: Pyramid, flat, matrix, etc.
 - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. It's also a variant of the **Gantt Chart**.
+
+这是大统一理论的典型应用:
 
 - 数据流是电流，函数是芯片，线程宏（->>, -> etc.）是导线，整个系统就是通电工作的集成电路。
 - 数据(流)是原料(流), 纯函数是机器, 线程宏（->>, -> etc.）是传送带, 整个系统是大工业流水线.
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
 - 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.非常容易插入增强优化或特性, 实现并行编译也很简单.
 - 城市的自来水网
-- 管理学里的**甘特图**, 以时间线为主轴, 多个数据流并行前进. 它也是很好的数据流、并行、异步编程工具. 管理学对异步、并行和分布式的应用研究是世界第一的！
+- 管理学对异步、并行和分布式的应用研究是世界第一的！
+  - 管理学里的**甘特图**, 以时间线为主轴, 多个数据流并行前进. 它也是很好的数据流、并行、异步编程工具.
+  - 并行: 大工业流水线可以线性并行扩展.
+  - 分布式: 集团公司模型, 总分公司模式,母子公司模式, 控股公司模型等.
+  - 组织架构: 金字塔式, 扁平式, 矩阵式等.
 - 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海. 它也是**甘特图**的一个变种.
 
 ### Warehouse Workshop Model 仓库车间模型
