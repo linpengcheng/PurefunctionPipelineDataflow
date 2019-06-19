@@ -185,7 +185,7 @@ This is a typical application of `Tao` and `Grand Unified Theory`.
   - The **Gantt chart** in management, with the timeline as the main axis, multiple data flows running in parallel. 
     It is also a good data flow , parallel and asynchronous programming tool. 
   - Parallel: Large industrial pipelines can be expanded linearly in parallel.
-  - Distributed: group company model, total branch model, parent-subsidiary model, holding company model, etc.
+  - Distributed: group company model, total branch model, parent-subsidiary model, holding company model, etc.
   - Architecture: Pyramid, flat, matrix, etc.
 - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. It's also a variant of the **Gantt Chart**.
 
