@@ -1,5 +1,5 @@
 # Simplicity and Unity
-`Grand Unified Theory` and `Pure Function Pipeline Dataflow`
+`Grand Unified Theory`, Lisp(Clojure) and `Pure Function Pipeline Dataflow`
 
 # 简单性和统一性
 ----大统一理论, Lisp(Clojure)与我的`纯函数管道数据流`
