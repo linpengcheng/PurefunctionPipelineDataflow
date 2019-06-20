@@ -191,6 +191,10 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - Storage Management(buffers, caches, databases, etc.): Inventory management
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
     It's also a variant of the **Gantt Chart**.
+    
+![Gantt chart](./doc/image/ganttR2.svg) 
+
+![River](./doc/image/river.jpeg) 
 
 这是`道`和`大统一理论`的哲学的典型应用:
 
