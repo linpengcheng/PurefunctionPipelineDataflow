@@ -21,6 +21,8 @@ Metaphor:
 
 ![taiji2](./taiji2.png)
 
+![Table Tennis](./image/TableTennis.gif)
+
 在太极图里,阴(静态)与阳(动态)是泾渭分明的，
 阴(静态)与阳(动态)交互类似打乒乓球。
 如果动静态交织在一起，对语言、项目、代码来说，
