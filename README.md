@@ -192,7 +192,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
     It's also a variant of the **Gantt Chart**.
     
-![Gantt chart](./doc/image/ganttR2.svg) 
+![Gantt chart](./doc/image/GanttChart.jpeg) 
 
 ![River](./doc/image/river.jpeg) 
 
