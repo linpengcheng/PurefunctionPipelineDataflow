@@ -188,7 +188,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - Distributed: group company model, total branch model, parent-subsidiary model, holding company model, etc.
   - Architecture: Pyramid, flat, matrix, etc.
   - Resource Management: ERP
-  - Inventory Management: Cache
+  - Storage Management(buffers, caches, databases, etc.): Inventory management
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
     It's also a variant of the **Gantt Chart**.
 
@@ -205,7 +205,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - 分布式: 集团公司模型, 总分公司模式,母子公司模式, 控股公司模型等.
   - 组织架构: 金字塔式, 扁平式, 矩阵式等.
   - 资源管理: ERP
-  - 库存管理：缓存
+  - 存储管理(缓冲区, 缓存, 数据库, 等等)：库存管理.
   - 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海. 它也是**甘特图**的一个变种.
 
 ### Warehouse Workshop Model 仓库车间模型
