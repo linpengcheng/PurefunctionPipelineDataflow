@@ -664,7 +664,7 @@ which can prove the practicability of this method.
 
 只有五个基本组成部分：
 
-1. 管道（纯功能）
+1. 管道（纯函数）
 
 2. 分支
 
@@ -672,7 +672,7 @@ which can prove the practicability of this method.
 
 4. 分流（并发，并行）
 
-5. 汇合。
+5. 汇流
 
 整个系统由五个基本组成部分组成。它完美地实现了统一性和简单性。它一定会成为终极编程方法学。
 
