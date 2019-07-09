@@ -623,17 +623,60 @@ They can transform each other.
 
 ## Great Historical Significance 重大历史意义
 
-Its great historical significance is that in the computer field, for the first time, 
-the hardware engineering and software engineering are unified in the logical model, 
-but also very simple and clear, 
-The support for concurrency, parallelism and distributed is also very simple and natural. 
-It has created the Taoist programming philosophy. 
-It must be the ultimate methodology in programming methodology. :-)
+The Pure Function Pipeline Data Flow, 
+based on the philosophy of Taoism and the Great Unification Theory, 
+In the computer field, for the first time, 
+it was realized that the unification of hardware engineering and software engineering on the logical model.
+It has been extended from `Lisp language-level code and data unification` 
+to `system engineering-level software and hardware unification`. 
+Whether it is the appearance of the code or the runtime mechanism, 
+it is highly consistent with the integrated circuit system. 
+It has also been widely unified with other disciplines 
+(such as management, large industrial assembly lines, water conservancy projects, power engineering, etc.). 
+It's also very simple and clear, and the support for concurrency, parallelism, 
+and distribution is simple and natural.
 
-它的重大历史意义在于, 在计算机领域里, 第一次实现了硬件工程和软件工程在逻辑模型上的统一, 
-而且还非常简单和清晰, 对并发, 并行, 分布式的支持也很简单自然. 
-开创了大道至简和道法自然的东方道系编程哲学. 
-它一定能成为编程方法学里的终极方法学. :-)
+There are only five basic components:
+
+1. Pipeline (pure function)
+
+2. Branch
+
+3. Reflow (feedback, whirlpool, recursion)
+
+4. Shunt (concurrent, parallel)
+
+5. Confluence.
+
+The whole system consists of five basic components. 
+It perfectly achieves unity and simplicity.
+It must be the ultimate programming methodology.
+
+This method has been applied to 100,000 lines of code-level pure clojure project, 
+which can prove the practicability of this method.
+
+纯函数管道数据流，基于道教和大统一理论的哲学，
+在计算机领域，首次实现了硬件工程与软件工程在逻辑模型上的统一。
+它已从“Lisp语言级代码和数据统一”扩展到“系统工程级软件和硬件统一”。
+无论是代码的外观还是运行时机制，它都与集成电路系统高度一致。
+它还与其他学科（如管理，大型工业装配线，水利工程，电力工程等）广泛统一。
+它也非常简单明了，对并发，并行和分发的支持简单而自然。
+
+只有五个基本组成部分：
+
+1. 管道（纯功能）
+
+2. 分支
+
+3. 回流（反馈，漩涡，递归）
+
+4. 分流（并发，并行）
+
+5. 汇合。
+
+整个系统由五个基本组成部分组成。它完美地实现了统一性和简单性。它一定会成为终极编程方法学。
+
+该方法已应用于10万行代码级的纯Clojure项目，足以证明该方法的实用性。
 
 ## Postscript 后记
 
