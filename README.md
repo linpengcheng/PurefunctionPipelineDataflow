@@ -89,6 +89,14 @@ It’s better to have 100 functions operate on one data structure
 than 10 functions on 10 data structures.        
         ---- Alan Perlis
 
+Even the simplest procedural logic is hard for humans to verify, 
+but quite complex data structures are fairly easy to model and reason about. 
+...
+Data is more tractable than program logic. It follows that where you see a choice 
+between complexity in data structures and complexity in code, choose the former. 
+More: in evolving a design, you should actively seek ways to shift complexity from code to data.
+        ---- Eric Raymond
+        
 Metaphors for a Richer Understanding of Software Development.
         ---- The most valuable chapter of "Code Complete": Chapter 2
         
@@ -114,7 +122,13 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
 
 围绕一个数据结构开发100个函数, 比设计10个带10个函数的数据结构更好.
        ---- Alan Perlis
-       
+
+即使是最简单的程序逻辑对于人类来说也难以验证，但非常复杂的数据结构却相当容易建模和推理。
+...
+数据比程序逻辑更容易处理。接下来，您可以选择数据结构的复杂性和代码的复杂性，选择前者。
+更多：在设计的演变过程中，您应该积极寻求将复杂性从代码转移到数据的方法。
+        ---- Eric Raymond
+
 善于在软件开发中运用比喻。
        ---- "代码大全"最有价值章节(第二章)
        
