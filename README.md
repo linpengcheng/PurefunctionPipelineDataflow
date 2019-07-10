@@ -95,7 +95,7 @@ but quite complex data structures are fairly easy to model and reason about.
 Data is more tractable than program logic. It follows that where you see a choice 
 between complexity in data structures and complexity in code, choose the former. 
 More: in evolving a design, you should actively seek ways to shift complexity from code to data.
-        ---- Eric Raymond
+        ---- Eric Steven Raymond, The Art of Unix Programming, Basics of the Unix Philosophy
         
 Metaphors for a Richer Understanding of Software Development.
         ---- The most valuable chapter of "Code Complete": Chapter 2
@@ -127,7 +127,7 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
 ...
 数据比程序逻辑更容易处理。接下来，您可以选择数据结构的复杂性和代码的复杂性，选择前者。
 更多：在设计的演变过程中，您应该积极寻求将复杂性从代码转移到数据的方法。
-        ---- Eric Raymond
+        ---- Eric Steven Raymond, Unix编程的艺术, Unix哲学的基础知识
 
 善于在软件开发中运用比喻。
        ---- "代码大全"最有价值章节(第二章)
