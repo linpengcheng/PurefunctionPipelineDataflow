@@ -208,7 +208,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     interface is a data standard specification. Data is transferred between hardware (functions).
   - Storage Management(buffers, caches, databases, etc.): Inventory management
   - In a large business, `process first thinking` is based on the credential(evidence). This credential is data.
-    Credentials (data) flow through the nodes in the process to form a data stream.
+    Credentials (data) flow through the nodes in the process to form a dataflow.
     Every node in the process is a pipe-function (pure function).
     This is the `Pure Function Pipeline Data Flow`.
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
