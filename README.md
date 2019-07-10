@@ -193,9 +193,9 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     industry standard system, Just like the computer hardware interface standard specification, Hardware is a function, 
     interface is a data standard specification. Data is transferred between hardware (functions).
   - Storage Management(buffers, caches, databases, etc.): Inventory management
-  - In large business, `process first thinking` is based on the credential(evidence). This credential is data.
-    Credentials (data) flow through the process to form a dataflow.
-    Every node in the process is a pipe (pure function).
+  - In a large business, `process first thinking` is based on the credential(evidence). This credential is data.
+    Credentials (data) flow through the nodes in the process to form a data stream.
+    Every node in the process is a pipe-function (pure function).
     This is the `Pure Function Pipeline Data Flow`.
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
     It's also a variant of the **Gantt Chart**.
@@ -221,8 +221,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - 类型系统: 工业标准体系(ISO标准,国家标准，行业标准，企业标准)，纯函数管道数据流适合产品规范(数据规范)工业标准体系的实施,
     就象计算机硬件接口标准规范一样, 硬件是函数, 接口是数据标准规范 在硬件(函数)间传输数据.。
   - 存储管理(缓冲区, 缓存, 数据库, 等等)：库存管理.
-  - 在大型企业中, 流程第一思想, 是建立在凭据(证据)的基础上的, 这个凭据就是数据, 凭据(数据)在流程中流转, 形成数据流. 
-    流程中的每一个环节就是管道(纯函数), 这就是`纯函数管道数据流`.
+  - 在大型企业中, 流程第一思想, 是建立在凭据(证据)的基础上的, 这个凭据就是数据, 凭据(数据)在流程中各节点流转, 形成数据流. 
+    流程中的每一个节点就是管道函数(纯函数), 这就是`纯函数管道数据流`.
   - 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海. 它也是**甘特图**的一个变种.
 
 ### Warehouse Workshop Model 仓库车间模型
