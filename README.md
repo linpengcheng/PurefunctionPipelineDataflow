@@ -392,7 +392,7 @@ only the data (current) can flow, which is the essential difference.
 
 ## The difference between it and Rx 它和Rx的区别
 
-It is essentially different between it and Rx:
+It is essentially different between it and [Rx](http://reactivex.io/):
 
 - The essential difference between programming methods is the inherent thoughts and models. The idea and model of pure function pipeline data flow are highly consistent with integrated circuits.
 
@@ -404,9 +404,9 @@ It is essentially different between it and Rx:
 
 - The asynchronous event flow of `The Pure Function Pipeline Data Flow` is simpler than Rx. I wrote an asynchronous event flow in my project, it is just a queue processing, It's too simple, so there's no need to mention it specifically.
 
-- The Clojure language doesn't require RxClojure at all.
+- The Clojure language doesn't require [RxClojure](https://github.com/ReactiveX/RxClojure) at all.
 
-它与Rx本质上是不同的：
+它与[Rx](http://reactivex.io/)本质上是不同的：
 
 - 编程方法之间的本质区别在于内在的思想和模型。 纯函数流水线数据流的思想和模型与集成电路高度一致。
 
@@ -418,7 +418,7 @@ It is essentially different between it and Rx:
 
 - 纯函数管道数据流的异步事件流比Rx简单。 我在我的项目中编写了一个异步事件流，它只是一个队列处理，简单到没有必要特别提及它。
 
-- Clojure语言根本不需要RxClojure。
+- Clojure语言根本不需要[RxClojure](https://github.com/ReactiveX/RxClojure)。
 
 ## Basic quality control 基本质量控制
 
