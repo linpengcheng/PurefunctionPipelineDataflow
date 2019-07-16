@@ -12,6 +12,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
 - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
+- [The difference between it and Rx](#The-difference-between-it-and-Rx-它和Rx的区别)
 - [Basic quality control](#Basic-quality-control-基本质量控制)
 - [Code Example](#Code-example-代码范例)
 - [Basic construction method](#Basic-construction-method-基本构造方法)
@@ -40,6 +41,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
 - [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
+- [它和Rx的区别](#The-difference-between-it-and-Rx-它和Rx的区别)
 - [基本质量控制](#Basic-quality-control-基本质量控制)
 - [代码范例](#Code-example-代码范例)
 - [基本构造方法](#Basic-construction-method-基本构造方法)
@@ -387,6 +389,36 @@ only the data (current) can flow, which is the essential difference.
 
 我不能认同中间件的理念，和集成电路思想是冲突的。电路里，元件（电路板）是无法流转的，
 只有数据（电流）才能流转，这是本质的区别。
+
+## The difference between it and Rx 它和Rx的区别
+
+It is essentially different between it and Rx:
+
+- The essential difference between programming methods is the inherent thoughts and models. The idea and model of pure function pipeline data flow are highly consistent with integrated circuits.
+
+- `The Pure Function Pipeline Data Flow` emphasizes the data flow, Rx emphasizes the asynchronous event flow, and does not mention or emphasize the data flow.
+
+- `The Pure Function Pipeline Data Flow` is composed of only 5 components, and the model is much simpler than Rx.
+
+- `The Pure Function Pipeline Data Flow` emphasizes the sequential structure (series of pipeline components), and the maintenance (code reading, expansion, debugging, etc.) is simpler.
+
+- The asynchronous event flow of `The Pure Function Pipeline Data Flow` is simpler than Rx. I wrote an asynchronous event flow in my project, it is just a queue processing, It's too simple, so there's no need to mention it specifically.
+
+- The Clojure language doesn't require RxClojure at all.
+
+它与Rx本质上是不同的：
+
+- 编程方法之间的本质区别在于内在的思想和模型。 纯函数流水线数据流的思想和模型与集成电路高度一致。
+
+- 纯函数管道数据流强调数据流，Rx强调异步事件流，没有提及或强调数据流。
+
+- 纯函数流水线数据流仅由5个组件组成，模型比Rx简单得多。
+
+- 纯函数流水线数据流强调顺序结构（管道组件的串联），维护（代码读取，扩展，调试等）更简单。
+
+- 纯函数管道数据流的异步事件流比Rx简单。 我在我的项目中编写了一个异步事件流，它只是一个队列处理，简单到没有必要特别提及它。
+
+- Clojure语言根本不需要RxClojure。
 
 ## Basic quality control 基本质量控制
 
