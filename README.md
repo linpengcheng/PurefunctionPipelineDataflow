@@ -197,7 +197,11 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
 - The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
 - Urban water network
-- It is the first in the world that the application research of management to asynchronous, parallel, distributed and etc!
+- Management is the best and most vivid treasure trove of computer science
+  (algorithm, architecture, asynchronous, parallel, distributed and etc.).
+  My programming approach is a fusion of “functional programming” and “enterprise management”. 
+  It has an added benefit，It is very helpful for the communication 
+  between the information technology department and the management of the company.
   - The **Gantt chart** in management, with the timeline as the main axis, multiple data flows running in parallel. 
     It is also a good data flow , parallel and asynchronous programming tool. 
   - Parallel: Large industrial pipelines can be expanded linearly in parallel.
@@ -228,7 +232,9 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 - 通信模式, 数据信号和控制信号(注解或元数据)在管道里流转.
 - 编译器本质上就是数据变换，从源码开始，经过一系列纯函数管道的变换优化，直至机器码.非常容易插入增强优化或特性, 实现并行编译也很简单.
 - 城市的自来水网
-- 管理学对异步、并行和分布式等的应用研究是世界第一的！
+- 管理学是最好的,最生动的计算机科学的宝库(算法、架构、异步、并行和分布式等等). 
+  我的编程方法是“函数式编程”和“企业管理”的融合。它有一个额外的好处，
+  它对信息技术部门和公司管理层之间的沟通非常有帮助。
   - 管理学里的**甘特图**, 以时间线为主轴, 多个数据流并行前进. 它也是很好的数据流、并行、异步编程工具.
   - 并行: 大工业流水线可以线性并行扩展.
   - 分布式: 集团公司模型, 总分公司模式,母子公司模式, 控股公司模型等.
