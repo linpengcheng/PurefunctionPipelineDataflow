@@ -206,7 +206,10 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     It is also a good data flow , parallel and asynchronous programming tool. 
   - Parallel: Large industrial pipelines can be expanded linearly in parallel.
   - Distributed: group company model, total branch model, parent-subsidiary model, holding company model, etc.
-  - Architecture (Organizational Structure): Pyramid, flat, matrix, etc.
+  - Architecture (Organizational Structure): 
+    - Pyramid: Classic top-down modular design
+    - Flat: The Pure Function Pipeline Data Flow
+    - Matrix: AOP(Aspect-Oriented Programming)
   - OS or Resource Management: ERP
   - Type system: Industrial standard system (ISO standard, national standard, industry standard, enterprise standard), 
     The Pure Function Pipeline Data Flow is suitable for the implementation of product specification (data specification) 
@@ -238,7 +241,10 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - 管理学里的**甘特图**, 以时间线为主轴, 多个数据流并行前进. 它也是很好的数据流、并行、异步编程工具.
   - 并行: 大工业流水线可以线性并行扩展.
   - 分布式: 集团公司模型, 总分公司模式,母子公司模式, 控股公司模型等.
-  - 组织架构: 金字塔式, 扁平式, 矩阵式等.
+  - 组织架构: 
+    - 金字塔式: 经典的自顶向下模块化设计:
+    - 扁平式: 纯函数管道数据流
+    - 矩阵式: 面向切面编程(AOP)
   - 操作系统或资源管理: ERP
   - 类型系统: 工业标准体系(ISO标准,国家标准，行业标准，企业标准)，纯函数管道数据流适合产品规范(数据规范)工业标准体系的实施,
     就象计算机硬件接口标准规范一样, 硬件是函数, 接口是数据标准规范 在硬件(函数)间传输数据.。
