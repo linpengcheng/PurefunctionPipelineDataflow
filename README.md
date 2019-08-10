@@ -209,7 +209,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - Architecture (Organizational Structure): 
     - Pyramid: Classic top-down modular design
     - Flat: The Pure Function Pipeline Data Flow
-    - Matrix: AOP(Aspect-Oriented Programming)
+    - Matrix: AOP (Aspect-Oriented Programming)
+    - Chaos: OOP (Object-Oriented Programming)
   - OS or Resource Management: ERP
   - Type system: Industrial standard system (ISO standard, national standard, industry standard, enterprise standard), 
     The Pure Function Pipeline Data Flow is suitable for the implementation of product specification (data specification) 
@@ -245,6 +246,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     - 金字塔式: 经典的自顶向下模块化设计:
     - 扁平式: 纯函数管道数据流
     - 矩阵式: 面向切面编程(AOP)
+    - 乱麻团: 面向对象编程(OOP)
   - 操作系统或资源管理: ERP
   - 类型系统: 工业标准体系(ISO标准,国家标准，行业标准，企业标准)，纯函数管道数据流适合产品规范(数据规范)工业标准体系的实施,
     就象计算机硬件接口标准规范一样, 硬件是函数, 接口是数据标准规范 在硬件(函数)间传输数据.。
