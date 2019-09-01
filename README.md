@@ -810,6 +810,10 @@ it has been rich and improved a lot.
 
 ### Chinese
 
+- [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
+
+- [万法归宗(国际疾病分类、道、大统一理论哲学)](doc/Tao_ICD.md)
+
 - [Office是数据库服务](doc/office_is_db.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
