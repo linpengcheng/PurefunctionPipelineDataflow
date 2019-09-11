@@ -736,7 +736,7 @@ It must be the ultimate programming methodology.
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
 
-纯函数管道数据流，基于道教和大统一理论的哲学，
+纯函数管道数据流，基于道家和大统一理论的哲学，
 在计算机领域，首次实现了硬件工程与软件工程在逻辑模型上的统一。
 它已从“Lisp语言级代码和数据统一”扩展到“系统工程级软件和硬件统一”。
 无论是代码的外观还是运行时机制，它都与集成电路系统高度一致。
