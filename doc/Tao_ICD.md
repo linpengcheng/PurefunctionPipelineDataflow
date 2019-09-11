@@ -1,8 +1,5 @@
 # 学科大统一(国际疾病分类、AI、数学、会计)
 
-- 福建省泉州市第一医院
-- 林鹏程
-
 [本文原文链接: https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Tao_ICD.md](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Tao_ICD.md)
 
 版权所有 © 2019.09.04 林鹏程，保留所有权利。
