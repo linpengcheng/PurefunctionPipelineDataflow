@@ -812,7 +812,7 @@ it has been rich and improved a lot.
 
 - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
 
-- [万法归宗(国际疾病分类、AI、数学、会计、神话、武侠、道、大统一理论哲学)](doc/Tao_ICD.md)
+- [万法归宗(国际疾病分类、AI、数学、会计、武侠、道、大统一理论哲学)](doc/Tao_ICD.md)
 
 - [Office是数据库服务](doc/office_is_db.md)
 
