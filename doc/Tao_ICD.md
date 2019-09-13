@@ -1,4 +1,4 @@
-# 儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计)
+# 儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)
 
 [本文原文链接: https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Tao_ICD.md](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Tao_ICD.md)
 
