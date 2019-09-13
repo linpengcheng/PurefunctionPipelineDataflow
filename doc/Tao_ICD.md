@@ -1,4 +1,4 @@
-# 学科融合(国际疾病分类、AI、数学、会计)
+# 儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计)
 
 [本文原文链接: https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Tao_ICD.md](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Tao_ICD.md)
 
@@ -86,6 +86,12 @@
 > 今天 “学术腔”“舌尖体”的出现与术语的泛滥
 > 就是先哲们担心的这种情况真实地发生了。
 > 
+
+庄子曰，“道无所不在，在蝼蚁，在稊稗，在瓦甓，在屎溺。” 在科学家、诸子百家中。
+科学家（代表性学说--最强民科爱因斯坦的“大统一理论”）、诸子百家，殊途同归，
+境界到了，在科学家、诸子百家之间自由切换，移花接木、乾坤大挪移，如同吃喝拉撒一般，
+只是日常等闲事摆了。又如大魔法师变戏法，看似神奇，知道原理的人，兴致索然，
+不值一哂。
 
 参考链接：
    
