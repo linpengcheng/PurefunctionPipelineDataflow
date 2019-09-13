@@ -101,6 +101,8 @@
 
 - [君子不器_百度百科](https://baike.baidu.com/item/%E5%90%9B%E5%AD%90%E4%B8%8D%E5%99%A8/3647847)
 
+- [道在屎溺_百度百科](https://baike.baidu.com/item/%E9%81%93%E5%9C%A8%E5%B1%8E%E6%BA%BA)
+
 ## 1.1. 数学
 
 因为：
