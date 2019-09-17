@@ -5,6 +5,22 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
+- Because:
+  - ACM Turing Lecture 1972: Edsger W. Dijkstra: 
+    The Lisp language transmits the full flavour of liberation: 
+    it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts. 
+  - I was a Foxpro, VB, C Sharp amateur programmer, since the use of Clojure, 
+    a short period of time to master Clojure, and created my programming methodology, "Pure Function Pipeline Dataflow", 
+    In the computer field, for the first time, it was realized that the unification of 
+    hardware engineering and software engineering on the logical model. 
+    Further, expand Lisp's thought to all disciplines, perfectly realize the simplicity and unity of my knowledge, 
+    and reach the level of practical theory as follows.
+    - Grand Unified Theory
+    - Tao is simplicity, Tao is the law of nature, Tao is everything.
+    - The Unity of Theory and Practice of Wang Yangming 
+  - So: 
+    - I'm a "most gifted fellow humans" Dijkstra has said. :-)
+
 - 因为:
   - 图灵奖得主 Edsger W. Dijkstra：Lisp语言提供完全的自由：它能帮助我们一些最有天赋的程序员思考以前所不能思考的问题。
   - 我由一个Foxpro,VB,C#业余程序员, 自从使用Clojure(Lisp)后, 短时间内熟练掌握Clojure, 
