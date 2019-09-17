@@ -1,4 +1,4 @@
-# Why Clojuree (Lisp) almost the Tao?
+# Why Clojure (Lisp) almost the Tao?
 # 为什么 Clojure (Lisp) 近乎于道?
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
@@ -19,7 +19,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - Tao is simplicity, Tao is the law of nature, Tao is everything.
     - The Unity of Theory and Practice of Wang Yangming 
 - So: 
-  - Clojuree (Lisp) almost the Tao.
+  - Clojure (Lisp) almost the Tao.
   - I'm a "most gifted fellow humans" Dijkstra has said. :-)
 
 - 因为:
