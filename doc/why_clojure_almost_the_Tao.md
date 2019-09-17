@@ -17,5 +17,5 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - 我是Dijkstra所说的"最有天赋的" 那一小撮人 :-)
 
 ## 参考:
-[图灵奖得主 Edsger W. Dijkstra：谦卑的程序员（1972 年）（上）](https://www.infoq.cn/article/yAIbLpwd62FXW9JiNAHI)
-[ACM Turing Lecture 1972: Edsger W. Dijkstra: The Humble Programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
+- [图灵奖得主 Edsger W. Dijkstra：谦卑的程序员（1972 年）（上）](https://www.infoq.cn/article/yAIbLpwd62FXW9JiNAHI)
+- [ACM Turing Lecture 1972: Edsger W. Dijkstra: The Humble Programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
