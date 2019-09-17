@@ -9,8 +9,9 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - ACM Turing Lecture 1972: Edsger W. Dijkstra: 
     The Lisp language transmits the full flavour of liberation: 
     it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts. 
-  - I was a Foxpro, VB, C Sharp amateur programmer, since the use of Clojure, 
-    a short period of time to master Clojure, and created my programming methodology, "Pure Function Pipeline Dataflow", 
+  - I was a Foxpro, VB, C Sharp amateur programmer, 
+    I mastered Clojure in a short period of time since using Clojure (Lisp), 
+    and created my programming methodology, "Pure Function Pipeline Dataflow", 
     In the computer field, for the first time, it was realized that the unification of 
     hardware engineering and software engineering on the logical model. 
     Further, expand Lisp's thought to all disciplines, perfectly realize the simplicity and unity of my knowledge, 
