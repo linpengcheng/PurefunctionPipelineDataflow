@@ -6,7 +6,7 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
 版权所有 © 2019 林鹏程， 保留所有权利。
 
 - Because:
-  - ACM Turing Lecture 1972: Edsger W. Dijkstra: 
+  - ACM Turing Lecture 1972: `Edsger W. Dijkstra`: 
     The Lisp language transmits the full flavour of liberation: 
     it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts. 
   - I was a Foxpro, VB, C Sharp amateur programmer, 
@@ -34,9 +34,9 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
     - 格物致知, 知行合一
 - 所以:
   - Clojure (Lisp) 近乎于道.
-  - 我是Dijkstra所说的"最有天赋的" 那一小撮人. :-)
+  - 我是`Dijkstra`所说的"最有天赋的" 那一小撮人. :-)
   
 
 ## Reference 参考
-- [(Chinese): 图灵奖得主 Edsger W. Dijkstra：谦卑的程序员（1972 年）（上）](https://www.infoq.cn/article/yAIbLpwd62FXW9JiNAHI)
-- [(English): ACM Turing Lecture 1972: Edsger W. Dijkstra: The Humble Programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
+- [(Chinese): 图灵奖得主 `Edsger W. Dijkstra`：谦卑的程序员（1972 年）（上）](https://www.infoq.cn/article/yAIbLpwd62FXW9JiNAHI)
+- [(English): ACM Turing Lecture 1972: `Edsger W. Dijkstra`: The Humble Programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
