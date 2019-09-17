@@ -800,6 +800,8 @@ it has been rich and improved a lot.
 
 - [Mathathematical and AI 数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
+- [Why Clojure (Lisp) almost the Tao? 为什么 Clojure (Lisp) 近乎于道?](doc/why_clojure_almost_the_Tao.md)
+
 - [The Best Practice of Clojure. Clojure最佳实践](doc/best_practice_of_clojure.md)
 
 - [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
