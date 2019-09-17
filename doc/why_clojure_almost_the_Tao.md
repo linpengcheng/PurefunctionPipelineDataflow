@@ -18,8 +18,9 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - Grand Unified Theory
     - Tao is simplicity, Tao is the law of nature, Tao is everything.
     - The Unity of Theory and Practice of Wang Yangming 
-  - So: 
-    - I'm a "most gifted fellow humans" Dijkstra has said. :-)
+- So: 
+  - Clojuree (Lisp) almost the Tao.
+  - I'm a "most gifted fellow humans" Dijkstra has said. :-)
 
 - 因为:
   - 图灵奖得主 Edsger W. Dijkstra：Lisp语言提供完全的自由：它能帮助我们一些最有天赋的程序员思考以前所不能思考的问题。
@@ -30,8 +31,10 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - 大道至简, 道法自然, 道无所不在
     - 格物致知, 知行合一
 - 所以:
-  - 我是Dijkstra所说的"最有天赋的" 那一小撮人 :-)
+  - Clojure (Lisp) 近乎于道.
+  - 我是Dijkstra所说的"最有天赋的" 那一小撮人. :-)
+  
 
 ## 参考:
-- [图灵奖得主 Edsger W. Dijkstra：谦卑的程序员（1972 年）（上）](https://www.infoq.cn/article/yAIbLpwd62FXW9JiNAHI)
-- [ACM Turing Lecture 1972: Edsger W. Dijkstra: The Humble Programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
+- [Chinese: 图灵奖得主 Edsger W. Dijkstra：谦卑的程序员（1972 年）（上）](https://www.infoq.cn/article/yAIbLpwd62FXW9JiNAHI)
+- [English: ACM Turing Lecture 1972: Edsger W. Dijkstra: The Humble Programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
