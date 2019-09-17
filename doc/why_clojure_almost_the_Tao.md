@@ -1,9 +1,9 @@
 # Why Clojure (Lisp) almost the Tao?
 # 为什么 Clojure (Lisp) 近乎于道?
 
-Copyright © 2018 Lin Pengcheng. All rights reserved.
+Copyright © 2019 Lin Pengcheng. All rights reserved.
 
-版权所有 © 2018 林鹏程， 保留所有权利。
+版权所有 © 2019 林鹏程， 保留所有权利。
 
 - Because:
   - ACM Turing Lecture 1972: Edsger W. Dijkstra: 
