@@ -9,7 +9,7 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
   - ACM Turing Lecture 1972: `Edsger W. Dijkstra`: 
     The Lisp language transmits the full flavour of liberation: 
     it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts. 
-  - I was a Foxpro, VB, C Sharp amateur programmer, 
+  - I was a mediocre Foxpro, VB, C Sharp amateur programmer, 
     I mastered Clojure in a short period of time since using Clojure (Lisp), 
     and created my programming methodology, "Pure Function Pipeline Dataflow", 
     In the computer field, for the first time, it was realized that the unification of 
@@ -26,7 +26,7 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
 - 因为:
   - 图灵奖得主`Edsger W. Dijkstra`：
     Lisp语言提供最大自由度的编程能力：它能帮助我们一些最有天赋的程序员思考以前所不能思考的问题。
-  - 我由一个Foxpro,VB,C#业余程序员, 自从使用Clojure(Lisp)后, 短时间内熟练掌握Clojure, 
+  - 我原来是一个平庸的Foxpro,VB,C#业余程序员, 自从使用Clojure(Lisp)后, 短时间内熟练掌握Clojure, 
     并创造了自己的编程方法学"纯函数管道数据流",在计算机领域，首次实现了硬件工程与软件工程在逻辑模型上的统一。 
     进而, 扩展Lisp思想到所有学科, 实现自身知识的完美的简单性和统一性, 达到了实践如下理论思想的水平.
     - 大统一理论
