@@ -21,6 +21,7 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
     - The Unity of Theory and Practice of Wang Yangming 
 - So: 
   - Clojure (Lisp) almost the Tao.
+  - It's the key of wisdom that Clojure (Lisp)'s thoughts based on simplicity and unity.
   - I'm a "most gifted fellow humans" Dijkstra has said. :-)
 
 - 因为:
@@ -34,6 +35,7 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
     - 格物致知, 知行合一
 - 所以:
   - Clojure (Lisp) 近乎于道.
+  - Clojure (Lisp) 基于简单性和统一性的思想是智慧的钥匙.
   - 我是`Dijkstra`所说的"最有天赋的" 那一小撮人. :-)
   
 
