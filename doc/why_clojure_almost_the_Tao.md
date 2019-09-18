@@ -17,7 +17,7 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
     Further, expand Lisp's thought to all disciplines, perfectly realize the simplicity and unity of my knowledge, 
     and reach the level of practical theory as follows.
     - Grand Unified Theory
-    - Tao is simplicity, Tao is the law of nature, Tao is everything.
+    - Tao is simplicity, Tao is the law of nature, Tao is everything in everywhere.
     - The Unity of Theory and Practice of Wang Yangming 
 - So: 
   - Clojure (Lisp) almost the Tao.
