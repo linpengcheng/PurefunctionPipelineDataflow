@@ -66,7 +66,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 方面取得成绩的人都得诺贝尔奖了, Lisp语言的发明者麦卡锡也获得图灵奖。
 IT领域啥时侯也给我颁个什么大奖来着?
 
-纯函数管道数据流: https://github.com/linpengcheng/PurefunctionPipelineDataflow
+进一步阅读：
+
+- [纯函数管道数据流](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
+
+- [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Tao_ICD.md)
+
+- [Why Clojure (Lisp) almost the Tao?为什么 Clojure (Lisp) 近乎于道?](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_clojure_almost_the_Tao.md)
 
 参考资料:
 
