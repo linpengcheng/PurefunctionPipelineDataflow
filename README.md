@@ -769,6 +769,7 @@ In this way there will be endless cases, there will always be endless ways to so
 
 通过这种方式，将会有无穷无尽的参考案例、无穷无尽的方法来解决问题。这就是“道”。
 
+老子曰：“吾言甚易知甚易行，天下莫能知莫能行。”即：大道至简，易学难精。对本法有兴趣的人，可以坚持多应用，熟能生巧，功到自然成。
 
 I was asked why I didn't create several pipeline dataflow design patterns like OO and FP, and I thought, in Chinese Classic Myth Fiction "The Journey to the West", Bodhi  asked the monkey if he wanted to learn `Tiangang 36 change patterns` or `Disha 72 change patterns`, when the monkey chose `Disha 72 change patterns`, his failure has become a foregone conclusion, Bodhi who is the Taoist great God must understand the nature of the Tao, learn the laws of nature, The ever-changing truth, whether the monkey chose `Tiangang 36 change patterns`, or `Disha 72 change patterns`, his thoughts from then on stifled shackles, put on the invisible Tight curse, from then on can not approach  "Tao ", this is not teaching, but playing monkey. :-)
 
