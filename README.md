@@ -261,32 +261,112 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 Metaphor:
 
-- Warehouse: 
-  - Standardized Data Model
-  - RMDB
-  - Memory
-  - Battery
-- Workshop:
-  - Pure Function Pipeline Data Flow
-  - Industrial Production Line
-  - Ship's Watertight Compartments
-  - CPU, GPU, Sound Card, etc
-  - integrated circuit element (or board), electrical device
-- Standardized Data
-  - Products that meet industrial standards
-    - raw materials
-    - middleware
-    - finished goods
-  - Current
-- Acceptance Check
-  - Quality Control Department
-  - Customs
-  - Motherboard with Standardized Interface（PCI, SATA, USB, etc.)
-- External Standardized Data  
-  - Purchasing department
-  - Supply Chain
-  - Hard Disk, Flash Disk，etc.
-  - Power Plant
+- Information System Integration Model: 
+
+  Many large enterprises have independent information systems produced 
+  by different manufacturers and need to integrate and integrate.
+  
+  - Workshop: individual subsystems  
+  - Warehouse: The information system integration layer acts as a individual system.
+    - A unified abstraction layer (virtual database, virtual data warehouse) 
+      of enterprise global data, external data requests of any subsystem 
+      are requested from this system without knowing from that subsystem.
+      Achieve the unity of the global system.
+    - The middle layer and data routing of system interconnection.
+    - Isolation change: When one subsystem changes, 
+      it does not cause chain changes of other subsystems.
+    - Putting the complexity in one place is better than 
+      putting it in all places.
+    - The subsystems are guaranteed independence, 
+      and the simplicity of each subsystem is realized.
+    - Ultimately, the simplicity and unity of the global system is achieved.
+  - Extended case
+    - The OS provides a large number of APIs for developers to use, 
+      but if the OS API changes may be more frequent, 
+      such as adding methods or variables, but previously developed 
+      applications are likely to use the old OS API. 
+      Solution: Develop directly a version compatibility layer independently, 
+      and freely develop the OS.
+      - Warehouse: individual version compatibility layer
+      - Workshop: OS, applications, programming languages, etc.
+    - Intel's CPU starts with Pentium, the kernel switches to RISC, 
+      and the external CISC compatibility layer
+    - Microsoft's Windows 95/NT system also supports DOS and Windows 3.1 
+      applications with a separate compatibility layer.
+    - Apple's Mac OS X uses an independent compatibility layer to 
+      support legacy applications of System OS.
+    
+- Computer model: 
+  
+  The model uses memory as the core, not the CPU.
+  
+  - Warehouse: Memory
+  - Workshop: CPU, graphics card, sound card, etc.
+  - Standardized data: data transmitted between hardware 
+    that conforms to industry standard interfaces
+  - Acceptance: Motherboard with standardized interfaces
+    such as PCI, SATA, USB, etc.
+  - External standardized data: hard disk, flash drive, etc.
+  
+- Integrated circuit system
+  - Warehouse: Battery
+  - Workshop: Integrated Circuit Components (Chip, Board), Electrical Equipment
+  - Standardized data: current
+  - External standardized data: power plants
+  
+- Programming language platform
+
+  Like julia, a lisp is built into the internal core or internal representation, 
+  and the popular grammar is used externally. Therefore, 
+  the grammar is not a problem at all, and the compiler and the grammar 
+  can evolve independently, go hand in hand, freely, efficiently, and flexibly. 
+  You can do several languages at the same time, 
+  such as Julia native support for julia and lisp syntax, 
+  and third-party implementation of clojure syntax, 
+  performance equivalent to native grammar. 
+  Converting clojure grammar to lisp grammar is simpler than 
+  native julia grammar conversion. Implementing a language on a platform 
+  represented by a lisp is very simple, such as Racket. 
+  Regardless of which one of the developers likes swift, python, ruby, 
+  scala, f`#` and java, all of them are implemented separately, 
+  all of them are satisfied.
+  
+  - Warehouse 
+    - Standard library
+    - Library represented by internal lisp that 
+      compiled from Code written in various external languages.
+    - Native compiler compiled libraries and applications
+    
+  - Workshop
+    - Native compiler: Get the lisp intermediate code from the repository, 
+      compile and output to the repository.
+    - Internal lisp core: Write code in lisp, 
+      or compile output intermediate code in other languages.
+    - External languages: Compile and output each language code to the warehouse. 
+      Each language does not have to interact with each other. 
+      Just interact with the repository. Multi-language on the racket language 
+      is the mechanism.
+
+- Other models 
+
+  - Warehouse
+    - Standardized data model
+    - RMDB
+  - Workshop
+    - The Pure Function Pipeline Data Flow
+    - Industrial production line
+    - Watertight compartment of the vessel
+  - Standardized data
+    - Industry standard products
+      - Raw material
+      - Semi finished product
+      - Finished product
+  - Acceptance
+    - Quality control department
+    - customs
+  - External standardized data
+    - Purchasing department
+    - supply chain
   
 Before entering the warehouse, 
 all data must be acceptance-checked first.
@@ -310,10 +390,6 @@ non-interactive, Like a Lego module or
 a ship's watertight compartment, 
 internal changes or abnormalities 
 in any one workshop do not affect other workshops.  
-
-To make it easier for programmers to understand, 
-using a computer system as a metaphor, 
-the system uses memory as the core, not the CPU.
 
 比喻:
 
