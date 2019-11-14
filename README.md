@@ -6,7 +6,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 版权所有 © 2018 林鹏程， 保留所有权利。
 
 ## Table of Contents
-- [Similar Statements](#Similar-Statements-类似观点)
+- [My and Other People's Related Views](#My-and-Other-People's-Related-Views-我的和其他人的相关观点)
 - [Summary](#Summary-概述)
 - [Classical Model](#Classical-Model-经典模型)
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
@@ -35,7 +35,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ----
 
 ## 目录
-- [类似观点](#Similar-Statements-类似观点)
+- [我的和其他人的相关观点](##My-and-Other-People's-Related-Views-我的和其他人的相关观点)
 - [概述](#Summary-概述)
 - [经典模型](#Classical-Model-经典模型)
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
@@ -66,9 +66,12 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ## Similar Statements 类似观点
 
 ```
+Keep it Simple and Unified.
+        ---- Lin Pengcheng
+
 NASA’s 10 rules for writing mission-critical code: 
 1.Restrict all code to very simple control flow constructs.
-        ----Gerard J. Holzmann, NASA JPL lead scientist.
+        ---- Gerard J. Holzmann, NASA JPL lead scientist.
         
 Minimize control flow complexity and "area under ifs", 
 favoring consistent execution paths and times over "optimally" avoiding unnecessary work.
@@ -104,6 +107,9 @@ Metaphors for a Richer Understanding of Software Development.
         
 Principles-based are better than rules-based.
         ----International Accounting Standards        
+
+大道至简，万法归宗。
+        ---- 林鹏程
 
 NASA的10大编程规则：第一条：用非常简单的控制流结构体来编写程序。
         ---- NASA 喷气推进实验室（JPL）的首席科学家 Gerard J. Holzmann
