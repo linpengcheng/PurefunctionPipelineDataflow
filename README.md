@@ -35,7 +35,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ----
 
 ## 目录
-- [我的和其他人的相关观点](##My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
+- [我的和其他人的相关观点](#My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
 - [概述](#Summary-概述)
 - [经典模型](#Classical-Model-经典模型)
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
