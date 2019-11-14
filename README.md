@@ -63,7 +63,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ----
   
-## Similar Statements 类似观点
+## My-and-Other-People's-Related-Views-我的和其他人的相关观点
 
 ```
 Keep it Simple and Unified.
