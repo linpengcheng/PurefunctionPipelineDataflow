@@ -841,6 +841,22 @@ It must be the ultimate programming methodology.
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
 
+In addition, the IT industry is still a very young and immature discipline. 
+The current software engineering is still at the level of manual workshops.
+`Pure function pipeline data flow` brings large industrial production theory 
+and methods to software engineering. It incorporates IT industry into modern 
+large industrial production systems and brings simple, reliable, standard, unified, 
+and verifiable methods to software development.
+This is an epoch-making innovative theory and method. 
+The modern society is an information society. I believe that with the development of the IT industry, 
+international, national, industrial, and enterprise-level data standards are widely established, 
+Fine-grained, and interconnected. This development process and the development of 
+modern large-scale industrial production systems The journey is exactly the same. 
+`Pure function pipeline data flow` will become the basic idea and method of 
+the large-scale industrialized production of the IT industry and play an 
+increasingly important role, and become the ultimate standard method to 
+enter textbooks and industry.
+
 纯函数管道数据流，基于道家和大统一理论的哲学，
 在计算机领域，首次实现了硬件工程与软件工程在逻辑模型上的统一。
 它已从“Lisp语言级代码和数据统一”扩展到“系统工程级软件和硬件统一”。
@@ -863,6 +879,15 @@ which can prove the practicability of this method.
 整个系统由五个基本组成部分组成。它完美地实现了统一性和简单性。它一定会成为终极编程方法学。
 
 该方法已应用于10万行代码级的纯Clojure项目，足以证明该方法的实用性。
+
+另外,IT业作为一门学科，还很年轻，不够成熟， 目前的软件工程还停留在手工作坊水平， 
+"纯函数管道数据流"方法的出现，为软件工程带来了大工业生产理论和方法，
+把IT业纳入现代大工业生产体系，为软件开发带来简单、可靠、标准、统一、可验证的方法。
+这是一个划时代的创新的理论和方法。 现代社会是信息社会，我认为，随着IT业的发展， 
+国际级、国家级、行业级、企业级数据标准的广泛建立、细化和互联，
+这一发展历程与现代大工业生产体系的发展历程是一模一样的。
+"纯函数管道数据流"将成为IT业大工业化生产的基础理念和方法而发挥越来越重要的地位，
+并成为终极的标准性的方法进入教科书和工业界。
 
 ## Postscript 后记
 
