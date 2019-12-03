@@ -850,8 +850,8 @@ and verifiable methods to software development.
 This is an epoch-making innovative theory and method. 
 The modern society is an information society. I believe that with the development of the IT industry, 
 international, national, industrial, and enterprise-level data standards are widely established, 
-Fine-grained, and interconnected. This development process and the development of 
-modern large-scale industrial production systems The journey is exactly the same. 
+Fine-grained, and interconnected. This development process is exactly the same as 
+the development process of the modern large industrial production system. 
 `Pure function pipeline data flow` will become the basic idea and method of 
 the large-scale industrialized production of the IT industry and play an 
 increasingly important role, and become the ultimate standard method to 
