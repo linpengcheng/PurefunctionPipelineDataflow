@@ -933,6 +933,8 @@ it has been rich and improved a lot.
 
 - [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](doc/Tao_ICD.md)
 
+- [论“立德、立功、立言”三不朽](doc/immortal.md)
+
 - [Office是数据库服务](doc/office_is_db.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
