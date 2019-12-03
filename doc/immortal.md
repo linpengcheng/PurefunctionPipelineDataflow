@@ -1,6 +1,6 @@
 # 论“立德、立功、立言”三不朽
 
-Copyright © 2018 Lin Pengcheng. All rights reserved.
+Copyright © 2019 Lin Pengcheng. All rights reserved.
 
 版权所有 © 2019 林鹏程， 保留所有权利。
 
