@@ -13,6 +13,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
 - [The difference between it and Rx](#The-difference-between-it-and-Rx-它和Rx的区别)
+- [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
 - [Basic quality control](#Basic-quality-control-基本质量控制)
 - [Code Example](#Code-example-代码范例)
 - [Basic construction method](#Basic-construction-method-基本构造方法)
@@ -42,6 +43,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
 - [它和Rx的区别](#The-difference-between-it-and-Rx-它和Rx的区别)
+- [它和传统FP语言里的类unix管道操作符的区别](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
 - [基本质量控制](#Basic-quality-control-基本质量控制)
 - [代码范例](#Code-example-代码范例)
 - [基本构造方法](#Basic-construction-method-基本构造方法)
@@ -552,6 +554,35 @@ It is essentially different between it and [Rx](http://reactivex.io/):
 - 纯函数管道数据流的异步事件流比Rx简单。 我在我的项目中编写了一个异步事件流，它只是一个队列处理，简单到没有必要特别提及它。
 
 - Clojure语言根本不需要[RxClojure](https://github.com/ReactiveX/RxClojure)。
+
+## The difference between it and traditional unix-like pipe operator in FP language 它和传统FP语言里的类unix管道操作符的区别
+
+- Traditional unix-like pipe operator in FP language
+
+   - Just simply  simulate a water pipe.
+  
+   - Just as a tip in a code snippet.
+
+- Pure function pipeline data flow
+
+   - Systematic simulation of integrated circuit systems and large industrial production lines.
+  
+   - Covers all aspects of system architecture, data modeling, data manipulation, data application, etc.
+
+- 传统FP语言里的类unix管道操作符
+
+  - 只是简单地模仿自来水管.
+  
+  - 只作为一个代码片段里的小技巧.
+
+- 纯函数管道数据流
+
+  - 系统性地模拟了集成电路系统和大工业生产流水线.
+  
+  - 涵盖了系统架构, 数据建模, 数据操纵, 数据应用等一切层面.
+  
+
+   
 
 ## Basic quality control 基本质量控制
 
