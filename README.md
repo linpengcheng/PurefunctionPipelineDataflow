@@ -873,7 +873,7 @@ standardizing the output products (data) has the following advantages:
 - Simplicity.
 - reliability
 - Unity
-- Easy to parallel
+- Easy to parallel, Can linearly scale up production (performance).
 - Easy to expand
 - Observable, easy to debug, and verifiable
 - Clarity, non-IT practitioners can understand.
@@ -926,7 +926,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 简单性。
 - 可靠性
 - 统一性
-- 易并行
+- 易并行, 可以线性扩大生产规模(性能).
 - 易扩展
 - 可观测,易调试,可验证
 - 清晰性, 非IT从业人员也可理解.
