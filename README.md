@@ -559,15 +559,15 @@ It is essentially different between it and [Rx](http://reactivex.io/):
 
 - Traditional unix-like pipe operator in FP language
 
-   - Just simply  simulate a water pipe.
+  - Just simply  simulate a water pipe.
   
-   - Just as a tip in a code snippet.
+  - Just as a tip in a code snippet.
 
 - Pure function pipeline data flow
 
-   - Systematic simulation of integrated circuit systems and large industrial production lines.
+  - Systematic simulation of integrated circuit systems and large industrial production lines.
   
-   - Covers all aspects of system architecture, data modeling, data manipulation, data application, etc.
+  - Covers all aspects of system architecture, data modeling, data manipulation, data application, etc.
 
 - 传统FP语言里的类unix管道操作符
 
