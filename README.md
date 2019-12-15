@@ -873,10 +873,11 @@ standardizing the output products (data) has the following advantages:
 - Simplicity.
 - reliability
 - Unity
-- Easy to parallel, Can linearly scale up production (performance).
 - Easy to expand
-- Observable, easy to debug, and verifiable
+- Easy to parallel, Can linearly scale up production (performance).
+- Observable, easy to debug, and verifiable.
 - Clarity, non-IT practitioners can understand.
+- It can refer to the theory of integrated circuits, business management and other disciplines.
 
 The role of the standard system can be seen from 
 the great progress of social productivity after 
@@ -926,10 +927,11 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 简单性。
 - 可靠性
 - 统一性
-- 易并行, 可以线性扩大生产规模(性能).
 - 易扩展
+- 易并行, 可以线性扩大生产规模(性能).
 - 可观测,易调试,可验证
 - 清晰性, 非IT从业人员也可理解.
+- 可以参考集成电路, 企业管理等学科的理论.
 
 标准体系的作用,从传统工业界从手工作坊时代进入大工业生产时代后, 社会生产力的巨大进步可以看出来.
 这也是中国历史上著名的"车同轨,书同文"的作用.
