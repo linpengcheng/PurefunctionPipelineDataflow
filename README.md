@@ -869,7 +869,7 @@ standardizing the output products (data) has the following advantages:
 - Fungibility
 - Standard
 - Interconnectedness
-- Combination
+- Combination, Data combination is better than code (function) combination.
 - Simplicity.
 - reliability
 - Unity
@@ -923,8 +923,8 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 可替代性
 - 标准性
 - 互联性
-- 组合性
-- 简单性。
+- 组合性, 数据组合优于代码(函数)组合.
+- 简单性
 - 可靠性
 - 统一性
 - 易扩展
