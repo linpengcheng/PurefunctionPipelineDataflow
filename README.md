@@ -841,21 +841,47 @@ It must be the ultimate programming methodology.
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
 
-In addition, the IT industry is still a very young and immature discipline. 
-The current software engineering is still at the level of manual workshops.
+In addition, the IT industry is still a very young and immature discipline.
+The current software engineering is still at the level of manual workshops. 
 `Pure function pipeline data flow` brings large industrial production theory 
-and methods to software engineering. It incorporates IT industry into modern 
-large industrial production systems and brings simple, reliable, standard, unified, 
-and verifiable methods to software development.
-This is an epoch-making innovative theory and method. 
-The modern society is an information society. I believe that with the development of the IT industry, 
-international, national, industrial, and enterprise-level data standards are widely established, 
-Fine-grained, and interconnected. This development process is exactly the same as 
-the development process of the modern large industrial production system. 
-`Pure function pipeline data flow` will become the basic idea and method of 
-the large-scale industrialized production of the IT industry and play an 
-increasingly important role, and become the ultimate standard method to 
-enter textbooks and industry.
+and methods to software engineering. It incorporates IT industry into 
+modern large industrial production systems, This is an epoch-making innovative 
+theory and method. 
+
+The modern society is an information society, IT controls everything, 
+penetrates everything. In my opinion, the development of IT is exactly 
+the same as the development of modern large-scale industrial production 
+systems. With the development of the IT industry, 
+With the development of the IT industry, data standard systems will be 
+widely established, improved and interconnected at the international, 
+national, industrial and enterprise levels, It will be precisely standardized 
+to every smallest part. `pure function pipeline data flow` will become 
+the basic theory and Methods have become increasingly important, 
+and have become the ultimate standard method for entering textbooks and industry.
+
+The key to the industrialization of the IT industry is to 
+establish a complete standard system like the traditional industry. 
+From the perspective of large industrial production theory, 
+standardizing the output products (data) has the following advantages:
+
+- Fairness
+- Neutrality
+- Fungibility
+- Standard
+- Interconnectedness
+- Combination
+- Simplicity.
+- reliability
+- Unity
+- Easy to parallel
+- Easy to expand
+- Observable, easy to debug, and verifiable
+- Clarity, non-IT practitioners can understand.
+
+The role of the standard system can be seen from 
+the great progress of social productivity after 
+the traditional industry has entered the era of 
+large industrial production from the era of manual workshops.
 
 纯函数管道数据流，基于道家和大统一理论的哲学，
 在计算机领域，首次实现了硬件工程与软件工程在逻辑模型上的统一。
