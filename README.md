@@ -1,5 +1,5 @@
-# The Pure Function Pipeline Data Flow v2.0
-# 纯函数管道数据流  v2.0
+# The Pure Function Pipeline Data Flow v3.0
+# 纯函数管道数据流  v3.0
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -892,8 +892,16 @@ and have become the ultimate standard method for entering textbooks and industry
 
 The key to the industrialization of the IT industry is to 
 establish a complete standard system like the traditional industry. 
+software is the pipeline for producing products (data), 
+which is no different from traditional industrial production lines.
+Therefore, the software production method will adopt enterprise management ideas, 
+develop software into something similar to a traditional industrial assembly line, 
+input standardized raw materials (data), output standardized products (data), 
+and store them in a warehouse (database).
+
 From the perspective of large industrial production theory, 
-standardizing the output products (data) has the following advantages:
+standardizing the input raw materials (data) and output products (data) 
+has the following advantages:
 
 - Fairness
 - Neutrality
@@ -949,7 +957,11 @@ IT的发展历程与现代大工业生产体系的发展历程是一模一样的
 并成为终极的标准性的方法进入教科书和工业界。
 
 IT界大工业生产化的关键在于建立象传统工业界的完整的标准体系，如ISO,国标，行标，企标等.
-从大工业生产理论来讲，对输出的产品(数据)做标准规范，具有如下优点:
+软件件是生产产品（数据）的流水线，这与传统的工业生产流水线没有什么不同。
+因此，软件生产方法将采用企业管理理念，将软件开发为类似于工业生产流水线的产品，
+输入标准化原材料（数据），输出标准化产品（数据），并将其存储在仓库（数据库）中。
+
+从大工业生产理论来讲，对输入的标准化原材料（数据）和输出的产品(数据)做标准规范，具有如下优点:
 - 公平性, 中立性
 - 可替代性
 - 标准性
