@@ -362,7 +362,7 @@ Metaphor:
   - warehouse: the ring
   
   - workshop: the functions on both sides of the C/S, 
-    and Raw materials (hash diagrams) are transferred to each other 
+    and Raw materials (hash-map) are transferred to each other 
     through warehouses through interactions.
 
   Therefore, I recommend functions with single hash-map type parameters.
