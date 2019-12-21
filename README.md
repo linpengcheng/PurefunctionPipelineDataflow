@@ -355,6 +355,22 @@ Metaphor:
       Just interact with the repository. Multi-language on the racket language 
       is the mechanism.
 
+- Clojure web application model
+
+  - product standard (data interface): the req-map and resp-map of the ring 
+  
+  - warehouse: the ring
+  
+  - workshop: the functions on both sides of the C/S, 
+    and Raw materials (hash diagrams) are transferred to each other 
+    through warehouses through interactions.
+
+  Therefore, I recommend functions with single hash-map type parameters.
+  This parameter can be mapped to standards, datatable, 
+  database (with constraints, stored procedures, schemas, etc.) as needed.
+  The Clojure’s immutable persistent data structure does not cause data cloning, 
+  which is suitable for this scene.
+
 - Other models 
 
   - Warehouse
@@ -375,7 +391,13 @@ Metaphor:
   - External standardized data
     - Purchasing department
     - supply chain
-  
+    
+In industry, the product standard is the interface, 
+the production method (code implementation) is not limited, 
+input the raw materials (data) that conform to the standard, 
+and output the products (data) that conform to the standard,
+that’s all.
+
 Before entering the warehouse, 
 all data must be acceptance-checked first.
 
@@ -448,6 +470,16 @@ in any one workshop do not affect other workshops.
     - 内部lisp核心: 用lisp编写代码, 或其他语言编译输出的中间代码.
     - 外部各种语言: 把各语言代码编译输出到仓库, 各语言不必互相交互, 只要与仓库交互即可. racket语言上的多语言即是如此机制.
 
+- Clojure Web应用程序模型
+
+  - 产品标准（数据接口）：ring的req-map和resp-map格式
+  - 仓库：ring
+  - 车间：C/S两边的函数，通过交互活动通过仓库互相传输原材料（hash-map）。
+
+  因此，我建议使用带有单个hash-map类型参数的函数。
+  该参数可以按需映射为标准，数据表，数据库（具有约束，存储过程，模式等）。
+  Clojure的不可变永久数据结构不会导致数据克隆，很适合这个场景。
+
 - 其他模型：  
   - 仓库
     - 标准化的数据模型
@@ -467,7 +499,10 @@ in any one workshop do not affect other workshops.
   - 外部的标准化数据
     - 采购部门
     - 供应链
-  
+
+在工业上，产品标准就是接口，生产方法（代码实现）则不受限制，
+只要输入符合标准的原材料（数据），输出符合标准的产品（数据）就可以了。
+
 进入仓库前, 所有的数据必须先经过验收.
 
 车间的输入输出只能是标准化数据,
