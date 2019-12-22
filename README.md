@@ -941,7 +941,7 @@ has the following advantages:
 - Fairness
 - Neutrality
 - Fungibility
-- Standard
+- Standard, Data standards (data interfaces, data specifications) are better than code interfaces.
 - Interconnectedness
 - Combination, Data combination is better than code (function) combination.
 - Simplicity.
@@ -999,7 +999,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 从大工业生产理论来讲，对输入的标准化原材料（数据）和输出的产品(数据)做标准规范，具有如下优点:
 - 公平性, 中立性
 - 可替代性
-- 标准性
+- 标准性, 数据标准（数据接口，数据规范）比代码接口更好。
 - 互联性
 - 组合性, 数据组合优于代码(函数)组合.
 - 简单性
@@ -1085,6 +1085,8 @@ it has been rich and improved a lot.
 - [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](doc/Tao_ICD.md)
 
 - [论“立德、立功、立言”三不朽](doc/immortal.md)
+
+- [Differences in FP, OO and Dataflow 函数式编程、面向对象、数据流的差异](doc/fp_oo_dataflow.md)
 
 - [Office是数据库服务](doc/office_is_db.md)
 
