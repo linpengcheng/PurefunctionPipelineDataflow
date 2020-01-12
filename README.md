@@ -218,7 +218,18 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     - Pyramid: Classic top-down modular design
     - Flat: The Pure Function Pipeline Data Flow
     - Matrix: AOP (Aspect-Oriented Programming)
+    - Business Process Outsourcing (BPO): Functional programming (FP), Not only does FP use its own department 
+      functions to complete tasks, but there are also non-working departments such as higher-order functions, 
+      but it can delegate tasks to outsourced company functions as parameters.
+            
+      ```clojure
+      (own-department-function  task-list)
+
+      (apply outsourced-company-function task-list)
+      ```
+
     - Chaos P2P (peer to peer): OOP (Object-Oriented Programming)
+    
   - OS or Resource Management: ERP
   - Type system: Industrial standard system (ISO standard, national standard, industry standard, enterprise standard), 
     The Pure Function Pipeline Data Flow is suitable for the implementation of product specification (data specification) 
@@ -252,8 +263,17 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - 分布式: 集团公司模型, 总分公司模式,母子公司模式, 控股公司模型等.
   - 组织架构: 
     - 金字塔式: 经典的自顶向下模块化设计:
-    - 扁平式: 纯函数管道数据流
+    - 扁平式: 纯函数管道数据流, 代码只有函数和数据两层, 模型也只有仓库和车间两层.
     - 矩阵式: 面向切面编程(AOP)
+    - 业务流程外包: 函数式编程(FP), FP不仅用本公司函数完成任务,而且还存在高阶函数这样不干活的部门,
+      但可以把任务委托给"作为参数的外包公司函数".
+      
+      ```clojure
+      (own-department-function  task-list)
+
+      (apply outsourced-company-function task-list)
+      ```
+      
     - 混乱的P2P (点对点对等网络): 面向对象编程(OOP)
   - 操作系统或资源管理: ERP
   - 类型系统: 工业标准体系(ISO标准,国家标准，行业标准，企业标准)，纯函数管道数据流适合产品规范(数据规范)工业标准体系的实施,
@@ -303,6 +323,11 @@ Metaphor:
       applications with a separate compatibility layer.
     - Apple's Mac OS X uses an independent compatibility layer to 
       support legacy applications of System OS.
+    - The integration layer is similar to an e-commerce platform (warehouse), 
+      and a shop (subsystem) is similar to a workshop, but each shop (or consumer) only 
+      needs to conduct purchase and sales activities and exchanges through the e-commerce 
+      platform.There is no need for direct communication or Pay attention to the details of 
+      how the product (data) is formed or circulated.
     
 - Computer model: 
   
@@ -441,6 +466,8 @@ in any one workshop do not affect other workshops.
     - Intel的CPU从奔腾开始, 内核改用RISC, 外用CISC兼容层也是类似方法。
     - Microsoft的Windows95/nt系统也是以独立兼容层支持DOS和Windows3.1的应用
     - Apple的Mac OS X也是以以独立兼容层支持老产品System OS的应用
+    - 集成层类似电商平台(仓库), 一个店铺(子系统)是一个车间, 但每个店铺(或消费者)都只需要通过
+      电商平台进行购销活动和交流,无需直接交流,也不需要关注商品(数据)如何形成或流通的细节.
     
 - 计算机模型：模型以内存作为核心，而不是CPU。
   - 仓库：内存
@@ -862,14 +889,15 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
-Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything.
+Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything in everywhere on everytime.
+Tao is the great unification of everything.
 Therefore, Integrated Circuit Technology, Industrial Assembly Line Production Technology, 
 Accounting, Management, Architecture etc. 
 everything can be used as Algorithms and Software Engineering Methods.
 They can transform each other.
 
 
-大道至简, 道法自然, 道是算法, 道无处不在。
+大道至简, 道法自然, 道是算法, 道无处不在, 道是一切存在的大统一。
 所以, 集成电路技术、工业流水线生产技术、会计学、管理学、建筑学等,
 一切都可当成算法和软件工程方法使用, 它们可以互相转化.
 
