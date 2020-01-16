@@ -398,9 +398,9 @@ Metaphor:
   
 - Lifecycle management: 
   Chinese algorithm for thousands of years: 
-  Book of life and death in hell
+  The book of life and death in hell
 
-  - Warehouse (Database): Book of life and death in hell,
+  - Warehouse (Database): The book of life and death in hell,
     which saves all matters and status of all living things 
     (components) from life to death, and can trigger triggers 
     to monitor events, and can change the status and lifetime 
@@ -418,7 +418,9 @@ Metaphor:
     - The six great divisions in the wheel of karma: 
       Resource Pool
 
-    - Hell: punishment, destruction, garbage collection  
+    - Hell: punishment, destruction, garbage collection
+    
+  - product (data): soul (component)
 
 - Other models 
 
@@ -542,7 +544,9 @@ in any one workshop do not affect other workshops.
     - 孟婆: 让灵魂(组件)恢复初始状态.
     - 六道轮回: 资源池
     - 地狱: 惩罚,销毁, 垃圾回收
-
+    
+  - 产品(数据): 灵魂(组件)
+  
 - 其他模型：  
   - 仓库
     - 标准化的数据模型
