@@ -408,17 +408,17 @@ Metaphor:
 
   - Workshop
   
-    - Judge: At the end of the component's life, the judge 
+    - Judge: At the end of the component's life, the judge 
       function rewards good and punishes evil according to 
       the book of life and death.
 
-    - Old Lady Mengpo: Restore the soul (component) to its 
+    - Old Lady Mengpo: Restore the soul (component) to its 
       original state.
 
-    - The six great divisions in the wheel of karma: 
+    - The six great divisions in the wheel of karma: 
       Resource Pool
 
-    - Hell: punishment, destruction, garbage collection  
+    - Hell: punishment, destruction, garbage collection  
 
 - Other models 
 
