@@ -397,7 +397,7 @@ Metaphor:
   which is suitable for this scene.
   
 - Lifecycle management: 
-  Chinese algorithm for thousands of years: 
+  Algorithms derived from Chinese myths that have been circulating for thousands of years: 
   The book of life and death in hell
 
   - Warehouse (Database): The book of life and death in hell,
@@ -533,7 +533,7 @@ in any one workshop do not affect other workshops.
   该参数可以按需映射为标准，数据表，数据库（具有约束，存储过程，模式等）。
   Clojure的不可变永久数据结构不会导致数据克隆，很适合这个场景。
 
-- 生命周期管理: 中国流传千百年的算法－－地狱生死簿。
+- 生命周期管理: 源自流传千百年的中国神话的算法----地狱生死簿。
 
   - 仓库(数据库): 生死簿, 保存了所有生物(组件)从生到死的
     一切事项和状态,同时可以开触发器监测事件，可以根据事件
