@@ -395,6 +395,30 @@ Metaphor:
   database (with constraints, stored procedures, schemas, etc.) as needed.
   The Clojure’s immutable persistent data structure does not cause data cloning, 
   which is suitable for this scene.
+  
+- Lifecycle management: 
+  Chinese algorithm for thousands of years: 
+  Book of life and death in hell
+
+  - Warehouse (Database): Book of life and death in hell,
+    which saves all matters and status of all living things 
+    (components) from life to death, and can trigger triggers 
+    to monitor events, and can change the status and lifetime 
+    of living things (components) according to events.
+
+  - Workshop
+  
+    - Judge: At the end of the component's life, the judge 
+      function rewards good and punishes evil according to 
+      the book of life and death.
+
+    - Old Lady Mengpo: Restore the soul (component) to its 
+      original state.
+
+    - The six great divisions in the wheel of karma: 
+      Resource Pool
+
+    - Hell: punishment, destruction, garbage collection  
 
 - Other models 
 
@@ -506,6 +530,18 @@ in any one workshop do not affect other workshops.
   因此，我建议使用带有单个hash-map类型参数的函数。
   该参数可以按需映射为标准，数据表，数据库（具有约束，存储过程，模式等）。
   Clojure的不可变永久数据结构不会导致数据克隆，很适合这个场景。
+
+- 生命周期管理: 中国流传千百年的算法－－地狱生死簿。
+
+  - 仓库(数据库): 生死簿, 保存了所有生物(组件)从生到死的
+    一切事项和状态,同时可以开触发器监测事件，可以根据事件
+    改变生物(组件)的福寿禄(状态和生存期).
+
+  - 车间:   
+    - 判官(法官): 组件生命结束时，判官函数根据生死簿赏善罚恶.
+    - 孟婆: 让灵魂(组件)恢复初始状态.
+    - 六道轮回: 资源池
+    - 地狱: 惩罚,销毁, 垃圾回收
 
 - 其他模型：  
   - 仓库
