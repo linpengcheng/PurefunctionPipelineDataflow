@@ -974,6 +974,9 @@ There are only five basic components:
 The whole system consists of five basic components. 
 It perfectly achieves unity and simplicity.
 It must be the ultimate programming methodology.
+It can be found from the knowledge of various disciplines: 
+the more universally applicable a unified theory, the simpler it is, 
+and the more basic it is, the greater it is.
 
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
@@ -1049,6 +1052,7 @@ large industrial production from the era of manual workshops.
 5. 合流
 
 整个系统由五个基本组成部分组成。它完美地实现了统一性和简单性。它一定会成为终极编程方法学。
+从各种学科知识中可以发现， 越具有普适性的统一理论，就越具有简单性， 这样的理论和方法就越基础越伟大。
 
 该方法已应用于10万行代码级的纯Clojure项目，足以证明该方法的实用性。
 
