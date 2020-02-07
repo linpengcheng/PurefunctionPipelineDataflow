@@ -1193,7 +1193,7 @@ it has been rich and improved a lot.
 
 - [C#愚蠢到我不能理解，兼论UI构造方法](doc/c%23stupid.md)
 
-- [Google Flutter是一种被我淘汰的技术](doc/Flutter_is_outdated.md)
+- [Google Flutter is a technology I created and eliminated / Google Flutter是一种我原创并已淘汰的技术](doc/Flutter_is_outdated.md)
 
 - [例解：抽象、多态、变态](doc/Ii-abstract.md)
 
