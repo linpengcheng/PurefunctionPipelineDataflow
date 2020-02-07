@@ -1,4 +1,4 @@
-# Google Flutter is a technology that I have eliminated.
+# Google Flutter is a technology I created and eliminated
 # Google Flutter是一种我原创并已淘汰的技术
 
 Copyright © 2020.02 Lin Pengcheng. All rights reserved.
