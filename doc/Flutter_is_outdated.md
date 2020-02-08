@@ -17,14 +17,15 @@ Google Flutter 是安卓（andriod）手机新一代的界面框架，并开始�
 不过我美工不好, 界面都是原生朴素的界面. 
 
 因为五六年前纯函数管道数据流还没有完整的体系化, 
-只处于传统方法和纯函数管道数据流方法的中间状态.现在这种方法已淘汰了.
+只处于传统方法和[纯函数管道数据流](https://github.com/linpengcheng/PurefunctionPipelineDataflow)方法的中间状态.现在这种方法已淘汰了.
 
 另外, Google Flutter的方法UI=f(app-state)和我的UI=f(winform-state)还是有差别的,
 我认为app-state范围过大而不必要, 且不能实现UI和逻辑的完美分离.
 
 ----
 
-纯函数管道数据流善长数据变换，我也把所有编程的问题归结为数据变换的问题，实现简单性和统一性的完美结合。
+[纯函数管道数据流](https://github.com/linpengcheng/PurefunctionPipelineDataflow)善长数据变换，
+我也把所有编程的问题归结为数据变换的问题，实现简单性和统一性的完美结合。
 
 现在,我开发财务分析软件使用Web UI, 因为Web UI只是字符串而已, 更简单, 更适合用纯函数管道数据流构造UI. 
 用IT流行的表达方式来说：UI即数据（UI as Data）.
