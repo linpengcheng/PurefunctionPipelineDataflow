@@ -11,17 +11,18 @@ Google Flutter 是安卓（andriod）手机新一代的界面框架，并开始�
 我发现居然是我五六年前开发[林鹏程财务分析软件v0.10.2015.6.1](https://github.com/linpengcheng/fa)时,
 使用clojure-clr写基于.net winform界面时使用的方法. 
 
-我用clojure-clr动态构造.net winform界面时, 经常使用多线程或异步来构造界面, 
-比Flutter简单方便强大多了，数据驱动，也更贴近原生。
+比较一下差异:
 
-不过我美工不好, 界面都是原生朴素的界面. 
+1. 我用clojure-clr动态构造.net winform界面时, 经常使用多线程或异步来构造界面, 比Flutter简单方便强大多了，数据驱动，也更贴近原生。
+
+2. Flutter的UI表达方式更倾向代码化, 更类似OO写法, 代码嵌套比较深, 我的UI表达方式更倾向纯数据表达并组合, 直接当函数参数调用.
+
+3. Google Flutter的方法UI=f(app-state)和我的UI=f(winform-state)还是有差别的, 我认为app-state范围过大而不必要, 且不能实现UI和逻辑的完美分离. 
+
+4. 我美工不好, 界面都是原生朴素的界面.
 
 因为五六年前纯函数管道数据流还没有完整的体系化, 
 只处于传统方法和[纯函数管道数据流](https://github.com/linpengcheng/PurefunctionPipelineDataflow)方法的中间状态.现在这种方法已淘汰了.
-
-另外, Google Flutter的方法UI=f(app-state)和我的UI=f(winform-state)还是有差别的,
-我认为app-state范围过大而不必要, 且不能实现UI和逻辑的完美分离.
-另外, Flutter的UI表达方式更倾向代码化, 我的UI表达方式更倾向纯数据表达并组合, 直接当函数参数调用
 
 ----
 
