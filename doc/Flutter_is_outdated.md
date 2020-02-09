@@ -1,5 +1,5 @@
-# Google Flutter is a technology I created and eliminated
-# Google Flutter是一种我原创并已淘汰的技术
+# Google Flutter is a similar technology I created and eliminated
+# Google Flutter是一种我曾经原创并已淘汰的类似技术
 
 Copyright © 2020.02 Lin Pengcheng. All rights reserved.
 
@@ -21,6 +21,7 @@ Google Flutter 是安卓（andriod）手机新一代的界面框架，并开始�
 
 另外, Google Flutter的方法UI=f(app-state)和我的UI=f(winform-state)还是有差别的,
 我认为app-state范围过大而不必要, 且不能实现UI和逻辑的完美分离.
+另外, Flutter的UI表达方式更倾向代码化, 我的UI表达方式更倾向纯数据表达并组合, 直接当函数参数调用
 
 ----
 
@@ -30,13 +31,3 @@ Google Flutter 是安卓（andriod）手机新一代的界面框架，并开始�
 现在,我开发财务分析软件使用Web UI, 因为Web UI只是字符串而已, 更简单, 更适合用纯函数管道数据流构造UI. 
 用IT流行的表达方式来说：UI即数据（UI as Data）.
 
-----
-
-"有个梨UGlee"的微博说Google剽窃, 如果Google没有声明"自主创新", 也没把这技术申请为自家专利, 不能说它"剽窃", 
-但是, Google作为一家大公司, 它的核心技术采用了别人原创的新技术, 却完全没有提及过原创作者就不厚道了, 
-很容易让大众误解这是Google的技术, 这种行为"近似剽窃".
-另注: 美国专利法是发明时间优先，而不是申请时间优先。
-
-和中科院木兰编程语言之流的项目比,好一点,也只好了一点.
-不能对国内科研项目的评价高标准，对国外项目低标准，双标做法可不行.
-两者都一起批了.
