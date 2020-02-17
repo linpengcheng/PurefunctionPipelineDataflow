@@ -54,7 +54,7 @@ Flutter的第一个版本被称为“Sky”，运行在Android操作系统上。
 
 我的项目代码是闭源, 但大概的思路还是可以说一下:
 
-- 把UI资源文件用数据结构表达, 用代码操纵.
+- 把UI资源文件用数据结构表达, 用代码操纵, 比UI资源文件用灵活.
 - Clojure语言的HTML DSL: [hiccup](https://github.com/weavejester/hiccup)
 - Clojure语言的SQL DSL: [honeysql](https://github.com/jkk/honeysql)
 - 声明式图形库: [Vega](https://vega.github.io/)
