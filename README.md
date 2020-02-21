@@ -946,9 +946,11 @@ They can transform each other.
 
 ## Great Historical Significance 重大历史意义
 
-Simplicity is the ultimate sophistication. ---- Leonardo da Vinci
-
-Everything should be as simple as possible, but not too simple.  ---- Albert Einstein
+> 
+> Simplicity is the ultimate sophistication. ---- Leonardo da Vinci
+> 
+> Everything should be as simple as possible, but not too simple.  ---- Albert Einstein
+> 
 
 The idea of simplicity and unity is an important guiding ideology of scientific research.
 It can be found from the knowledge of various disciplines: 
@@ -1041,9 +1043,11 @@ large industrial production from the era of manual workshops.
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
 
-简单是终极的成熟. ---- 达芬奇
-
-应让事情尽可能简单，且不能再简单。---- 爱因斯坦
+> 
+> 简单是终极的成熟. ---- 达芬奇
+> 
+> 应让事情尽可能简单，且不能再简单。---- 爱因斯坦
+> 
 
 简单性和统一性的思想是科学研究的重要指导思想.
 从各种学科知识中可以发现，越具有普适性的统一理论，就越具有简单性，这样的理论和方法就越基础越伟大。
