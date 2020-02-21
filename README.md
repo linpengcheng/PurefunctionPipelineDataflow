@@ -946,6 +946,15 @@ They can transform each other.
 
 ## Great Historical Significance 重大历史意义
 
+Simplicity is the ultimate sophistication. ---- Leonardo da Vinci
+
+Everything should be as simple as possible, but not too simple.  ---- Albert Einstein
+
+The idea of simplicity and unity is an important guiding ideology of scientific research.
+It can be found from the knowledge of various disciplines: 
+the more universally applicable a unified theory, the simpler it is, 
+and the more basic it is, the greater it is.
+
 The Pure Function Pipeline Data Flow, 
 based on the philosophy of Taoism and the Great Unification Theory, 
 In the computer field, for the first time, 
@@ -974,14 +983,6 @@ There are only five basic components:
 The whole system consists of five basic components. 
 It perfectly achieves unity and simplicity.
 It must be the ultimate programming methodology.
-
-The idea of simplicity and unity is an important guiding ideology of scientific research.
-It can be found from the knowledge of various disciplines: 
-the more universally applicable a unified theory, the simpler it is, 
-and the more basic it is, the greater it is.
-
-This method has been applied to 100,000 lines of code-level pure clojure project, 
-which can prove the practicability of this method.
 
 In addition, the IT industry is still a very young and immature discipline.
 The current software engineering is still at the level of manual workshops. 
@@ -1014,15 +1015,18 @@ From the perspective of large industrial production theory,
 standardizing the input raw materials (data) and output products (data) 
 has the following advantages:
 
-- Fairness
+- Fairness: Use data standard specifications to make it fair to different manufacturers, products, 
+  algorithms and implementations, and to achieve healthy competition.
 - Neutrality
 - Fungibility
 - Standard, Data standards (data interfaces, data specifications) are better than code interfaces.
 - Interconnectedness
 - Combination, Data combination is better than code (function) combination.
 - Simplicity.
-- reliability
 - Unity
+- Predictability. Because the system architecture, design guidelines, and components are simple and unified, 
+  it is very clear, so the future development and changes of the system are predictable.
+- Reliability
 - Easy to expand
 - Easy to parallel, Can linearly scale up production (performance).
 - Observable, easy to debug, and verifiable.
@@ -1033,6 +1037,16 @@ The role of the standard system can be seen from
 the great progress of social productivity after 
 the traditional industry has entered the era of 
 large industrial production from the era of manual workshops.
+
+This method has been applied to 100,000 lines of code-level pure clojure project, 
+which can prove the practicability of this method.
+
+简单是终极的成熟. ---- 达芬奇
+
+应让事情尽可能简单，且不能再简单。---- 爱因斯坦
+
+简单性和统一性的思想是科学研究的重要指导思想.
+从各种学科知识中可以发现，越具有普适性的统一理论，就越具有简单性，这样的理论和方法就越基础越伟大。
 
 纯函数管道数据流，基于道家和大统一理论的哲学，
 在计算机领域，首次实现了硬件工程与软件工程在逻辑模型上的统一。
@@ -1055,11 +1069,6 @@ large industrial production from the era of manual workshops.
 
 整个系统由五个基本组成部分组成。它完美地实现了统一性和简单性。它一定会成为终极编程方法学。
 
-简单性和统一性的思想是科学研究的重要指导思想.
-从各种学科知识中可以发现，越具有普适性的统一理论，就越具有简单性，这样的理论和方法就越基础越伟大。
-
-该方法已应用于10万行代码级的纯Clojure项目，足以证明该方法的实用性。
-
 另外,IT业作为一门学科，还很年轻，不够成熟， 目前的软件工程还停留在手工作坊水平， 
 "纯函数管道数据流"方法的出现，为软件工程带来了大工业生产理论和方法，
 把IT业纳入现代大工业生产体系，这是一个划时代的创新的理论和方法。
@@ -1076,14 +1085,15 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 输入标准化原材料（数据），输出标准化产品（数据），并将其存储在仓库（数据库）中。
 
 从大工业生产理论来讲，对输入的标准化原材料（数据）和输出的产品(数据)做标准规范，具有如下优点:
-- 公平性, 中立性
+- 公平性, 中立性: 使用数据标准规范, 使之对不同的厂家,产品,算法和实现是公平,可以实现良性竞争.
 - 可替代性
 - 标准性, 数据标准（数据接口，数据规范）比代码接口更好。
 - 互联性
 - 组合性, 数据组合优于代码(函数)组合.
 - 简单性
-- 可靠性
 - 统一性
+- 可预测性, 因为系统架构,设计指南,组件具有简单性和统一性, 非常清晰,所以系统未来的发展变化是可以预测的.
+- 可靠性
 - 易扩展
 - 易并行, 可以线性扩大生产规模(性能).
 - 可观测,易调试,可验证
@@ -1093,6 +1103,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 标准体系的作用,从传统工业界从手工作坊时代进入大工业生产时代后, 社会生产力的巨大进步可以看出来.
 这也是中国历史上著名的"车同轨,书同文"的作用.
 
+该方法已应用于10万行代码级的纯Clojure项目，足以证明该方法的实用性。
 
 ## Postscript 后记
 
