@@ -1111,9 +1111,21 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 ## Postscript 后记
 
+```
+Imagination is more important than knowledge.
+Logic will get you from A to B, imagination will take you everywhere.
+        ---- Albert Einstein
+```
+
 Similar to The most valuable chapter of “Code Complete”----Chapter 2 Metaphors for a Richer Understanding of Software Development, I tend to inspire readers to discover useful patterns from life, work and personal interests, which are then used as solutions for development, rather than to apply mechanically other people’s cases.
 
 In this way there will be endless cases, there will always be endless ways to solve the problem. This is "Tao ".
+
+```
+想象力比知识更重要。
+逻辑会把你从A带到B，想象力能带你去任何地方。
+        ---- 爱因斯坦
+```
 
 类似于“代码大全”中最有价值的章节--第2章对软件开发有更深入理解的隐喻，我倾向于激发读者从生活，工作和个人兴趣中发现有用的模式，然后将其作为开发的解决方案，而不是机械地应用其他人的案件。
 
