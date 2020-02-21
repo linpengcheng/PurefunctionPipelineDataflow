@@ -949,7 +949,7 @@ They can transform each other.
 > 
 > Simplicity is the ultimate sophistication. ---- Leonardo da Vinci
 > 
-> Everything should be as simple as possible, but not too simple.  ---- Albert Einstein
+> Everything should be as simple as possible, but not too simpler.  ---- Albert Einstein
 > 
 
 The idea of simplicity and unity is an important guiding ideology of scientific research.
