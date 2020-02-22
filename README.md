@@ -946,11 +946,20 @@ They can transform each other.
 
 ## Great Historical Significance 重大历史意义
 
-> 
-> Simplicity is the ultimate sophistication. ---- Leonardo da Vinci
-> 
-> Everything should be as simple as possible, but not simpler.  ---- Albert Einstein
-> 
+```
+Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
+      ---- Alan Perlis, Epigrams in Programming.
+           the first recipient of the Turing Award (1966)
+           A founding father of Computer Science as a separate discipline
+
+When the solution is simple, God is answering.
+Everything should be as simple as possible, but not simpler.
+Most of the fundamental ideas of science are essentially simple, and may, as a rule, 
+be expressed in a language comprehensible to everyone.
+Any intelligent fool can make things bigger, more complex, and more intense.
+It takes a lot of courage and a lot of courage to move in the opposite direction.    
+      ---- Albert Einstein
+```
 
 The idea of simplicity and unity is an important guiding ideology of scientific research.
 It can be found from the knowledge of various disciplines: 
@@ -1043,11 +1052,18 @@ large industrial production from the era of manual workshops.
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
 
-> 
-> 简单是终极的成熟. ---- 达芬奇
-> 
-> 应让事情尽可能简单，且不能再简单。---- 爱因斯坦
-> 
+```
+傻瓜忽略了复杂性。实用主义者忍受它。有些人可以避免它。天才删除它。
+      ---- Alan Perlis, Epigrams in Programming(编程警句).
+           首届图灵奖得主 (1966)
+           使计算机科学成为独立学科的奠基人
+
+当解决方案很简单时，就是上帝在回答。
+一切都应该尽可能地简单，且不能再简单。
+科学的大多数基本思想本质上都是简单的，通常可以用每个人都可以理解的语言来表达。
+任何一个有智力的笨蛋都可以把事情搞得更大、更复杂、也更严肃。往相反的方向前进则需要天份，以及很大的勇气。
+      ---- Albert Einstein
+```
 
 简单性和统一性的思想是科学研究的重要指导思想.
 从各种学科知识中可以发现，越具有普适性的统一理论，就越具有简单性，这样的理论和方法就越基础越伟大。
@@ -1113,6 +1129,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 ```
 Imagination is more important than knowledge.
+The true sign of intelligence is not knowledge but imagination.
 Logic will get you from A to B, imagination will take you everywhere.
         ---- Albert Einstein
 ```
@@ -1123,6 +1140,7 @@ In this way there will be endless cases, there will always be endless ways to so
 
 ```
 想象力比知识更重要。
+智力的真正标志不是知识，而是想象力。
 逻辑会把你从A带到B，想象力能带你去任何地方。
         ---- 爱因斯坦
 ```
