@@ -950,14 +950,14 @@ They can transform each other.
 Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
       ---- Alan Perlis, Epigrams in Programming.
            the first recipient of the Turing Award (1966)
-           A founding father of Computer Science as a separate discipline
+           A founding father of Computer Science as a separate discipline           
 
 When the solution is simple, God is answering.
 Everything should be as simple as possible, but not simpler.
 Most of the fundamental ideas of science are essentially simple, and may, as a rule, 
 be expressed in a language comprehensible to everyone.
-Any intelligent fool can make things bigger, more complex, and more intense.
-It takes a lot of courage and a lot of courage to move in the opposite direction.    
+Any intelligent fool can make things bigger, more complex, and more violent. 
+It takes a touch of genius -- and a lot of courage -- to move in the opposite direction. 
       ---- Albert Einstein
 ```
 
@@ -1061,8 +1061,8 @@ which can prove the practicability of this method.
 当解决方案很简单时，就是上帝在回答。
 一切都应该尽可能地简单，且不能再简单。
 科学的大多数基本思想本质上都是简单的，通常可以用每个人都可以理解的语言来表达。
-任何一个有智力的笨蛋都可以把事情搞得更大、更复杂、也更严肃。往相反的方向前进则需要天份，以及很大的勇气。
-      ---- Albert Einstein
+任何一个有智力的笨蛋都可以把事情搞得更大、更复杂、更暴力。往相反的方向前进则需要天份，以及很大的勇气。
+      ---- 爱因斯坦
 ```
 
 简单性和统一性的思想是科学研究的重要指导思想.
