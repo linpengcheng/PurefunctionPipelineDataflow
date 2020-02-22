@@ -1053,7 +1053,7 @@ This method has been applied to 100,000 lines of code-level pure clojure project
 which can prove the practicability of this method.
 
 ```
-傻瓜忽略了复杂性。实用主义者忍受它。有些人可以避免它。天才删除它。
+傻瓜忽视复杂性，实用主义者忍受它，有些人能避开它，天才移除它。
       ---- Alan Perlis, Epigrams in Programming(编程警句).
            首届图灵奖得主 (1966)
            使计算机科学成为独立学科的奠基人
