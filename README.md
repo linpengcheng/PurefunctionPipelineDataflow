@@ -956,9 +956,13 @@ When the solution is simple, God is answering.
 Everything should be as simple as possible, but not simpler.
 Most of the fundamental ideas of science are essentially simple, and may, as a rule, 
 be expressed in a language comprehensible to everyone.
+If you can't explain it simply, you don't understand it well enough.
 Any intelligent fool can make things bigger, more complex, and more violent. 
 It takes a touch of genius -- and a lot of courage -- to move in the opposite direction. 
       ---- Albert Einstein
+           The greatest folk scientist in history 
+           A professional clerk in the patent office 
+           An amateur physicist
 ```
 
 The idea of simplicity and unity is an important guiding ideology of scientific research.
@@ -1061,8 +1065,10 @@ which can prove the practicability of this method.
 当解决方案很简单时，就是上帝在回答。
 一切都应该尽可能地简单，且不能再简单。
 科学的大多数基本思想本质上都是简单的，通常可以用每个人都可以理解的语言来表达。
+如果您不能简单地解释它，则说明您不够了解。
 任何一个有智力的笨蛋都可以把事情搞得更大、更复杂、更暴力。往相反的方向前进则需要天份，以及很大的勇气。
       ---- 爱因斯坦
+           史上最强民科, 专业的专利局小职员, 业余的物理学家:-)
 ```
 
 简单性和统一性的思想是科学研究的重要指导思想.
