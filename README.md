@@ -960,9 +960,10 @@ If you can't explain it simply, you don't understand it well enough.
 Any intelligent fool can make things bigger, more complex, and more violent. 
 It takes a touch of genius -- and a lot of courage -- to move in the opposite direction. 
       ---- Albert Einstein
-           The greatest folk scientist in history 
+           The greatest folk scientist in history :-)
            A professional clerk in the patent office 
            An amateur physicist
+           Nobel prize in Physics (1921)
 ```
 
 The idea of simplicity and unity is an important guiding ideology of scientific research.
@@ -1069,6 +1070,7 @@ which can prove the practicability of this method.
 任何一个有智力的笨蛋都可以把事情搞得更大、更复杂、更暴力。往相反的方向前进则需要天份，以及很大的勇气。
       ---- 爱因斯坦
            史上最强民科, 专业的专利局小职员, 业余的物理学家:-)
+           1921年诺贝尔物理奖
 ```
 
 简单性和统一性的思想是科学研究的重要指导思想.
