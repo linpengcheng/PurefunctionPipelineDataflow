@@ -1031,23 +1031,22 @@ From the perspective of large industrial production theory,
 standardizing the input raw materials (data) and output products (data) 
 has the following advantages:
 
-- Fairness: Use data standard specifications to make it fair to different manufacturers, products, 
+- Fairness, Neutrality: Use data standard specifications to make it fair to different manufacturers, products, 
   algorithms and implementations, and to achieve healthy competition.
-- Neutrality
-- Fungibility
+- Fungibility: As long as the pipeline (or product) meets the data standard specifications, it can be directly replaced.
 - Standard, Data standards (data interfaces, data specifications) are better than code interfaces.
-- Interconnectedness
-- Combination, Data combination is better than code (function) combination.
-- Simplicity.
-- Unity
-- Predictability. Because the system architecture, design guidelines, and components are simple and unified, 
+- Interconnectedness: As long as the pipes comply with the data standard specifications, they can be interconnected.
+- Combination: Data combination is better than code (function) combination.
+- Simplicity: Simplicity is the shortest path to a solution. -- Ward Cunningham (Wiki inventor)
+- Unity: Everything is a pipe. It can refer to the theory of integrated circuits, business management and other disciplines.
+- Predictability: Because the system architecture, design guidelines, and components are simple and unified, 
   it is very clear, so the future development and changes of the system are predictable.
-- Reliability
-- Easy to expand
+- Reliability: Simplicity is prerequisite for reliability. -- Edsger W. Dijkstra (Turing Award in 1972)
+- Easy to expand: Just insert or replace pipes.
 - Easy to parallel, Can linearly scale up production (performance).
-- Observable, easy to debug, and verifiable.
-- Clarity, non-IT practitioners can understand.
-- It can refer to the theory of integrated circuits, business management and other disciplines.
+- Observable, easy to debug, and verifiable. The data flowing between the pipes is very easy to observe, 
+  and it is easy to see where the pipes are leaking.
+- Clarity: non-IT practitioners can understand.
 
 The role of the standard system can be seen from 
 the great progress of social productivity after 
@@ -1114,19 +1113,18 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 从大工业生产理论来讲，对输入的标准化原材料（数据）和输出的产品(数据)做标准规范，具有如下优点:
 - 公平性, 中立性: 使用数据标准规范, 使之对不同的厂家,产品,算法和实现是公平,可以实现良性竞争.
-- 可替代性
+- 可替代性: 只要符合数据标准规范的管道(或产品)即可直接替代.
 - 标准性, 数据标准（数据接口，数据规范）比代码接口更好。
-- 互联性
-- 组合性, 数据组合优于代码(函数)组合.
-- 简单性
-- 统一性
-- 可预测性, 因为系统架构,设计指南,组件具有简单性和统一性, 非常清晰,所以系统未来的发展变化是可以预测的.
-- 可靠性
-- 易扩展
-- 易并行, 可以线性扩大生产规模(性能).
-- 可观测,易调试,可验证
-- 清晰性, 非IT从业人员也可理解.
-- 可以参考集成电路, 企业管理等学科的理论.
+- 互联性: 只要符合数据标准规范的管道(或产品)即可互联.
+- 组合性: 数据组合优于代码(函数)组合.
+- 简单性: 简单是解决方案的最短途径。-- Ward Cunningham (wiki发明者)
+- 统一性: 一切都是管道, 可以参考集成电路, 企业管理等学科的理论.
+- 可预测性: 因为系统架构,设计指南,组件具有简单性和统一性, 非常清晰,所以系统未来的发展变化是可以预测的.
+- 可靠性: 简单性是可靠性的前提。-- Edsger W. Dijkstra (1972年获得图灵奖)
+- 易扩展: 仅需插入或替换管道而已.
+- 易并行: 可以线性扩大生产规模(性能).
+- 可观测,易调试,可验证: 管道之间流动的数据非常容易观测, 管道什么位置漏水是一目了然的.
+- 清晰性: 非IT从业人员也可理解.
 
 标准体系的作用,从传统工业界从手工作坊时代进入大工业生产时代后, 社会生产力的巨大进步可以看出来.
 这也是中国历史上著名的"车同轨,书同文"的作用.
