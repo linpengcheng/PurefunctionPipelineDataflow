@@ -965,7 +965,7 @@ It takes a touch of genius -- and a lot of courage -- to move in the opposite di
            An amateur physicist
            Nobel prize in Physics (1921)
            
-Make folk sciences great again.
+Make folk sciences great again :-)
       ---- Lin Pengcheng, Self-taught folk scientist
 ```
 
@@ -1074,7 +1074,7 @@ which can prove the practicability of this method.
            史上最强民科, 专业的专利局小职员, 业余的物理学家:-)
            1921年诺贝尔物理奖
            
-实现民科的伟大复兴!
+实现民科的伟大复兴 :-)
       ---- 林鹏程, 自学成才的民间科学家
 ```
 
