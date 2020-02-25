@@ -964,6 +964,9 @@ It takes a touch of genius -- and a lot of courage -- to move in the opposite di
            A professional clerk in the patent office 
            An amateur physicist
            Nobel prize in Physics (1921)
+           
+Make folk sciences great again.
+      ---- Lin Pengcheng, Self-taught folk scientist
 ```
 
 The idea of simplicity and unity is an important guiding ideology of scientific research.
@@ -1070,6 +1073,9 @@ which can prove the practicability of this method.
       ---- 爱因斯坦
            史上最强民科, 专业的专利局小职员, 业余的物理学家:-)
            1921年诺贝尔物理奖
+           
+实现民科的伟大复兴!
+      ---- 林鹏程, 自学成才的民间科学家
 ```
 
 简单性和统一性的思想是科学研究的重要指导思想.
