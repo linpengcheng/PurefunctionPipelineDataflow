@@ -1073,7 +1073,7 @@ large industrial production from the era of manual workshops.
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
 
-Finally, If you agree with me, please help me nominate "Turing Award".
+Finally, If you agree with me, please help me nominate the "Turing Award".
 
 [HOW TO NOMINATE](https://amturing.acm.org/call_for_nominations.cfm)
 
