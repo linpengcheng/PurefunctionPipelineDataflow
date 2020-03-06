@@ -979,7 +979,7 @@ Make folk sciences great again :-)
    to the era of standardized production in large industries.
 4. It is a particular outstanding and trend-setting technical achievement, 
    It fits perfectly with the principal claim to the "Turing Award".
-5. It should win the "Turing Award", the highest award in the computer field.
+5. I think it should win the "Turing Award", the highest award in the computer field.
       ---- Lin Pengcheng, Self-taught folk scientist
 ```
 
@@ -1098,7 +1098,7 @@ Finally, If you agree with me, please help me nominate "Turing Award".
 2. 实现软硬件在逻辑模型上的统一.
 3. 实现软件生产从手工作坊时代到大工业标准化生产时代的飞跃.
 4. 这是一项杰出的、引领潮流的技术成就，非常符合"图灵奖"的主要要求。
-5. 它应该获得计算机业最高奖--图灵奖.
+5. 我认为它应该获得计算机业最高奖--图灵奖.
       ---- 林鹏程, 自学成才的民科
 ```
 
