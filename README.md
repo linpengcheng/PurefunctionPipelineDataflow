@@ -974,7 +974,7 @@ Make folk sciences great again :-)
 1. Perfectly defeat other messy and complex software engineering methodologies 
    in a simple and unified way.
 2. Realize the unification of software and hardware on the logical model.
-3. Achieve a leap in software production 
+3. Achieve a leap in software production theory 
    from the era of manual workshops 
    to the era of standardized production in large industries.
 4. It is a particular outstanding and trend-setting technical achievement, 
@@ -1096,7 +1096,7 @@ Finally, If you agree with me, please help me nominate "Turing Award".
 实现民科的伟大复兴 :-)
 1. 以简单和统一的方法完美地击败其他混乱和复杂的软件工程方法学.
 2. 实现软硬件在逻辑模型上的统一.
-3. 实现软件生产从手工作坊时代到大工业标准化生产时代的飞跃.
+3. 实现软件生产理论从手工作坊时代到大工业标准化生产时代的飞跃.
 4. 这是一项杰出的、引领潮流的技术成就，非常符合"图灵奖"的主要要求。
 5. 我认为它应该获得计算机业最高奖--图灵奖.
       ---- 林鹏程, 自学成才的民科
