@@ -285,6 +285,9 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ### Warehouse Workshop Model 仓库车间模型
 
+Warehouse(database, pool)/Workshop(pipeline) Model is simple and practical model, 
+and the large industrial assembly line is the mainstream production technology in the world.
+
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
 
 Metaphor:
@@ -472,6 +475,8 @@ non-interactive, Like a Lego module or
 a ship's watertight compartment, 
 internal changes or abnormalities 
 in any one workshop do not affect other workshops.  
+
+仓库（数据库，池）/车间（管道）模型是一个简单实用的模型，而且大型工业流水线是世界上主流的生产技术。
 
 比喻:
 
@@ -966,6 +971,15 @@ It takes a touch of genius -- and a lot of courage -- to move in the opposite di
            Nobel prize in Physics (1921)
            
 Make folk sciences great again :-)
+1. Perfectly defeat other messy and complex software engineering methodologies 
+   in a simple and unified way.
+2. Realize the unification of software and hardware on the logical model.
+3. Achieve a leap in software production 
+   from the era of manual workshops 
+   to the era of standardized production in large industries.
+4. It is a particular outstanding and trend-setting technical achievement, 
+   It fits perfectly with the principal claim to the "Turing Award".
+5. It should win the "Turing Award", the highest award in the computer field.
       ---- Lin Pengcheng, Self-taught folk scientist
 ```
 
@@ -1059,6 +1073,11 @@ large industrial production from the era of manual workshops.
 This method has been applied to 100,000 lines of code-level pure clojure project, 
 which can prove the practicability of this method.
 
+Finally, If you agree with me, please help me nominate "Turing Award".
+
+[HOW TO NOMINATE](https://amturing.acm.org/call_for_nominations.cfm)
+
+
 ```
 傻瓜忽视复杂性，实用主义者忍受它，有些人能避开它，天才移除它。
       ---- Alan Perlis, Epigrams in Programming(编程警句).
@@ -1075,7 +1094,12 @@ which can prove the practicability of this method.
            1921年诺贝尔物理奖
            
 实现民科的伟大复兴 :-)
-      ---- 林鹏程, 自学成才的民间科学家
+1. 以简单和统一的方法完美地击败其他混乱和复杂的软件工程方法学.
+2. 实现软硬件在逻辑模型上的统一.
+3. 实现软件生产从手工作坊时代到大工业标准化生产时代的飞跃.
+4. 这是一项杰出的、引领潮流的技术成就，非常符合"图灵奖"的主要要求。
+5. 它应该获得计算机业最高奖--图灵奖.
+      ---- 林鹏程, 自学成才的民科
 ```
 
 简单性和统一性的思想是科学研究的重要指导思想.
@@ -1137,6 +1161,10 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 该方法已应用于10万行代码级的纯Clojure项目，足以证明该方法的实用性。
 
+最后, 如果你同意我的看法，请帮我提名图灵奖。
+
+[如何提名](https://amturing.acm.org/call_for_nominations.cfm)
+
 ## Postscript 后记
 
 ```
@@ -1149,6 +1177,11 @@ Logic will get you from A to B, imagination will take you everywhere.
 Similar to The most valuable chapter of “Code Complete”----Chapter 2 Metaphors for a Richer Understanding of Software Development, I tend to inspire readers to discover useful patterns from life, work and personal interests, which are then used as solutions for development, rather than to apply mechanically other people’s cases.
 
 In this way there will be endless cases, there will always be endless ways to solve the problem. This is "Tao ".
+
+The pure pipeline system is a simple system. but simplicity does not mean easy. 
+Implementing a pure pipeline system is a systematic engineering. 
+Hard work must be done to build a complex system into a simple and smooth pure pipeline system. 
+This requires great wisdom and pays a lot of difficult Business Process Design (or Reengineering).
 
 ```
 想象力比知识更重要。
@@ -1163,6 +1196,10 @@ In this way there will be endless cases, there will always be endless ways to so
 
 老子曰：“吾言甚易知甚易行，天下莫能知莫能行。”
 即：大道至简，易学难精。
+纯管道系统是一个简单的系统，但简单并不意味着容易。实现纯管道系统是一个系统性的工程,必须进行艰苦的努力,
+才能做到把一个复杂的系统建设成一个简单流畅的纯管道系统.
+这需要大智慧,并且付出很多的艰难的业务流程设计(或重组)工作.
+
 另外，就是要养成并保持良好的开发习惯，
 做一件好事很容易，但一辈子做好事很难，
 写一个管道纯函数很容易，坚持写纯管道系统不容易。
