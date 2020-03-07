@@ -980,6 +980,8 @@ Make folk sciences great again :-)
 4. It is a particular outstanding and trend-setting technical achievement, 
    It fits perfectly with the principal claim to the "Turing Award".
 5. I think it should win the "Turing Award", the highest award in the computer field.
+6. If I cannot win the Turing Award, it must be that ACM lacks the ability to appreciate technology.
+7. History will prove what I said.2020-03-07
       ---- Lin Pengcheng, Self-taught folk scientist
 ```
 
@@ -1099,6 +1101,8 @@ Finally, If you agree with me, please help me nominate the "Turing Award".
 3. 实现软件生产理论从手工作坊时代到大工业标准化生产时代的飞跃.
 4. 这是一项杰出的、引领潮流的技术成就，非常符合"图灵奖"的主要要求。
 5. 我认为它应该获得计算机业最高奖--图灵奖.
+6.如果我不能获得图灵奖,那一定是ACM缺乏技术鉴赏能力。
+7.历史将能证明我所说的。2020-03-07
       ---- 林鹏程, 自学成才的民科
 ```
 
