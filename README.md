@@ -977,7 +977,8 @@ Make folk sciences great again :-)
 3. Achieve a leap in software production theory 
    from the era of manual workshops 
    to the era of standardized production in large industries.
-4. The basics and the only way to automate programming, Automate programming like EDA.   
+4. The basics and the only way to `Software Design Automation (SDA)`, 
+   just like `Electronic Design Automation (EDA)`.   
 5. It is a particular outstanding and trend-setting technical achievement, 
    It fits perfectly with the principal claim to the "Turing Award".
 6. I think it should win the "Turing Award", the highest award in the computer field.
@@ -1067,10 +1068,9 @@ has the following advantages:
 - Observable, easy to debug, and verifiable. The data flowing between the pipes is very easy to observe, 
   and it is easy to see where the pipes are leaking.
 - Clarity: non-IT practitioners can understand.
-- Automate programming like EDA: 
+- `Software Design Automation (SDA)` like `Electronic Design Automation (EDA)`: 
   - Establishing a simple, unified, standardized, and systematic pipeline component library is the basis 
-    of automated programming, which is also the only correct method for automated programming.
-    It's like "Electronic Design automation (EDA)".
+    of SDA, which is also the only correct method for SDA. It's like EDA.
   - AI selects components from the pipeline component library 
     according to the data standard specification of initial state and final state. 
     AI combines pipeline components that meet the data standard specification to complete the task. 
@@ -1109,7 +1109,7 @@ Finally, If you agree with me, please help me nominate the "Turing Award".
 1. 以简单和统一的方法完美地击败其他混乱和复杂的软件工程方法学.
 2. 实现软硬件在逻辑模型上的统一.
 3. 实现软件生产理论从手工作坊时代到大工业标准化生产时代的飞跃.
-4. 自动化编程的基础和唯一正确的方法, 象电子设计自动化（EDA）一样自动化编程.
+4. 软件设计自动化(SDA)的基础和唯一正确的方法, 就象电子设计自动化（EDA）一样.
 5. 这是一项杰出的、引领潮流的技术成就，非常符合"图灵奖"的主要要求。
 6. 我认为它应该获得计算机业最高奖--图灵奖.
 7. 如果我不能获得图灵奖,那一定是ACM缺乏技术鉴赏能力。
@@ -1170,9 +1170,9 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 易并行: 可以线性扩大生产规模(性能).
 - 可观测,易调试,可验证: 管道之间流动的数据非常容易观测, 管道什么位置漏水是一目了然的.
 - 清晰性: 非IT从业人员也可理解.
-- 象电子设计自动化(EDA)一样自动化编程: 
-  - 建立简单、统一、标准化、体系化的管道组件库是自动化编程的基础，这也是自动化编程的唯一正确的方法。
-    就象是电子设计自动化(EDA)一样。
+- 象`电子设计自动化(EDA)`一样`软件设计自动化(SDA)`: 
+  - 建立简单、统一、标准化、体系化的管道组件库是SDA的基础，这也是SDA的唯一正确的方法。
+    就象是EDA一样。
   - AI根据初始状态和最终状态的数据标准规范. AI从管道组件库选择组件, 
     组合符合数据标准规范的管道组件以完成任务, 若缺乏相应的管道组件,
     它可以被AI自动生成(或开发人员手工开发).
