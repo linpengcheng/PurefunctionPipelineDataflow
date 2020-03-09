@@ -1067,7 +1067,7 @@ has the following advantages:
 - Observable, easy to debug, and verifiable. The data flowing between the pipes is very easy to observe, 
   and it is easy to see where the pipes are leaking.
 - Clarity: non-IT practitioners can understand.
-- AI automation programming: 
+- Automate programming like EDA: 
   - Establishing a simple, unified, standardized, and systematic pipeline component library is the basis 
     of automated programming, which is also the only correct method for automated programming.
     It's like "Electronic Design automation (EDA)".
@@ -1170,7 +1170,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 易并行: 可以线性扩大生产规模(性能).
 - 可观测,易调试,可验证: 管道之间流动的数据非常容易观测, 管道什么位置漏水是一目了然的.
 - 清晰性: 非IT从业人员也可理解.
-- AI自动化编程: 
+- 象电子设计自动化(EDA)一样自动化编程: 
   - 建立简单、统一、标准化、体系化的管道组件库是自动化编程的基础，这也是自动化编程的唯一正确的方法。
     就象是电子设计自动化(EDA)一样。
   - AI根据初始状态和最终状态的数据标准规范. AI从管道组件库选择组件, 
