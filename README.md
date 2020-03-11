@@ -24,7 +24,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [5. Confluence(reduce)](#Confluence-合流)
 - [Tao](#Tao-道)
 - [Killer Application](#Killer-Application-杀手级的应用)
-  - [Software Design Automation (SDA)](#Software-Design-Automation-(SDA)-软件设计自动化)
+  - [Software Design Automation (SDA)](#Software-Design-Automation-软件设计自动化)
 - [Great Historical Significance](#Great-Historical-Significance-重大历史意义)
 - [Postscript](#Postscript-后记)
 - Appendix:
@@ -56,7 +56,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [5. 合流, 合一](#Confluence-合流)
 - [道](#Tao-道)
 - [杀手级的应用](#Killer-Application-杀手级的应用)
-  - [软件设计自动化 (SDA)](#Software-Design-Automation-(SDA)-软件设计自动化)
+  - [软件设计自动化 (SDA)](#Software-Design-Automation-软件设计自动化)
 - [重大历史意义](#Great-Historical-Significance-重大历史意义)
 - [后记](#Postscript-后记)
 - 附录:
@@ -955,7 +955,9 @@ They can transform each other.
 
 ## Killer Application 杀手级的应用
 
-### Software Design Automation (SDA) 软件设计自动化
+### Software Design Automation 软件设计自动化
+
+Software Design Automation (SDA)
 
 - `The Pure Function Pipeline Data Flow` is the basics and the only way to SDA.
 - SDA is an innovative and revolutionary approach to develop large-scale software,
