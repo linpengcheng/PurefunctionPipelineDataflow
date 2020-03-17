@@ -24,7 +24,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [5. Confluence(reduce)](#Confluence-合流)
 - [Tao](#Tao-道)
 - [Killer Application](#Killer-Application-杀手级的应用)
-  - [Software Design and Develop Automation (SDA)](#Software-Design-and-Develop-Automation-软件设计和开发自动化)
+  - [Software Design and Develop Automation (SDDA)](#Software-Design-and-Develop-Automation-软件设计和开发自动化)
 - [Great Historical Significance](#Great-Historical-Significance-重大历史意义)
 - [Postscript](#Postscript-后记)
 - Appendix:
