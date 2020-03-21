@@ -706,9 +706,6 @@ It is essentially different between it and [Rx](http://reactivex.io/):
   
   - 涵盖了系统架构, 数据建模, 数据操纵, 数据应用等一切层面.
   
-
-   
-
 ## Basic quality control 基本质量控制
 
 Basic quality control of pure function pipeline data flow. The code must meet the following three basic quality requirements before you can talk about other things. These simple and reliable evaluation criteria are enough to eliminate most unqualified codes.
@@ -981,6 +978,7 @@ Software Design and Develop Automation (SDDA)
 >
 > Software and hardware design is less different than software designers think, 
 > but more different than hardware designers think.
+> 
 >         ---- Fred Brooks, Turing Award (1999), The Mythical Man-Month
 > 
 
@@ -1001,6 +999,7 @@ on the logical model, it solves the problem of Fred Brooks.
 
 > 
 > 软件和硬件设计与软件设计师的想法没有什么不同，但与硬件设计师的想法却有很大的不同。
+> 
 >         ---- Fred Brooks, 图灵奖(1999), 人月神话
 > 
 
