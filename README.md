@@ -1297,7 +1297,7 @@ it has been rich and improved a lot.
 
 - [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](doc/Tao_ICD.md)
 
-- [论“立德、立功、立言”三不朽](doc/immortal.md)
+- [证“立德、立功、立言”三不朽](doc/immortal.md)
 
 - [Differences in FP, OO and Dataflow 函数式编程、面向对象、数据流的差异](doc/fp_oo_dataflow.md)
 
