@@ -99,7 +99,14 @@ Data structures, not algorithms, are central to programming.
 It’s better to have 100 functions operate on one data structure 
 than 10 functions on 10 data structures.        
         ---- Alan Perlis
-
+             the first recipient of the Turing Award (1966)
+             A founding father of Computer Science as a separate discipline
+             
+Show me your flowcharts and conceal your tables, 
+and I shall continue to be mystified. Show me your tables, 
+and I won’t usually need your flowcharts; they’ll be obvious.
+        ---- Fred Brooks, Turing Award (1999), The Mythical Man-Month
+           
 Even the simplest procedural logic is hard for humans to verify, 
 but quite complex data structures are fairly easy to model and reason about. 
 ...
@@ -135,7 +142,11 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
         ---- Rob Pike
 
 围绕一个数据结构开发100个函数, 比设计10个带10个函数的数据结构更好.
-       ---- Alan Perlis
+       ---- Alan Perlis, 首届图灵奖得主 (1966), 使计算机科学成为独立学科的奠基人
+       
+告诉我您的流程图并隐藏数据表，我将继续感到困惑。
+给我看你的数据表，我通常不需要你的流程图。他们会很明显。      
+        ---- Fred Brooks, 图灵奖(1999), 人月神话
 
 即使是最简单的程序逻辑对于人类来说也难以验证，但非常复杂的数据结构却相当容易建模和推理。
 ...
