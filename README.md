@@ -1239,6 +1239,8 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 ## Postscript 后记
 
+### Imagination
+
 ```
 Imagination is more important than knowledge.
 The true sign of intelligence is not knowledge but imagination.
@@ -1250,10 +1252,39 @@ Similar to The most valuable chapter of “Code Complete”----Chapter 2 Metapho
 
 In this way there will be endless cases, there will always be endless ways to solve the problem. This is "Tao ".
 
+### Ever-changing
+
+I was asked why I didn't create several pipeline dataflow design patterns like OO and FP, and I thought, in Chinese Classic Myth Fiction "The Journey to the West", Bodhi  asked the monkey if he wanted to learn `Tiangang 36 change patterns` or `Disha 72 change patterns`, when the monkey chose `Disha 72 change patterns`, his failure has become a foregone conclusion, Bodhi who is the Taoist great God must understand the nature of the Tao, learn the laws of nature, The ever-changing truth, whether the monkey chose `Tiangang 36 change patterns`, or `Disha 72 change patterns`, his thoughts from then on stifled shackles, put on the invisible Tight curse, from then on can not approach  "Tao ", this is not teaching, but playing monkey. :-)
+
+### Simplicity does not mean easy
+
 The pure pipeline system is a simple system. but simplicity does not mean easy. 
 Implementing a pure pipeline system is a systematic engineering. 
 Hard work must be done to build a complex system into a simple and smooth pure pipeline system. 
 This requires great wisdom and pays a lot of difficult Business Process Design (or Reengineering).
+
+### Principles-based are better than rules-based.
+
+- Principles should be few and should not affect flexibility and creativity. 
+  For example: Do not exceed 10 principles.
+
+- Principles should be specific and must be enforced.
+
+- Too many rules are equal to no rules, complicated and difficult to enforce, 
+  increasing the risk of loopholes, affecting flexibility and creativity.
+
+- Simplicity and unity must be parallel. Pure piping systems meet this principle.
+
+- Principles should be consistent with mainstream principles of modern industrial production.
+
+### End message
+
+I spend my spare time developing a financial analysis expert system. 
+Although my writing time is very limited, but I will gradually improve it. 
+compared to the content when I first set up the blog, 
+it has been rich and improved a lot.
+
+### 想象力
 
 ```
 想象力比知识更重要。
@@ -1266,18 +1297,7 @@ This requires great wisdom and pays a lot of difficult Business Process Design (
 
 通过这种方式，将会有无穷无尽的参考案例、无穷无尽的方法来解决问题。这就是“道”。
 
-老子曰：“吾言甚易知甚易行，天下莫能知莫能行。”
-即：大道至简，易学难精。
-纯管道系统是一个简单的系统，但简单并不意味着容易。实现纯管道系统是一个系统性的工程,必须进行艰苦的努力,
-才能做到把一个复杂的系统建设成一个简单流畅的纯管道系统.
-这需要大智慧,并且付出很多的艰难的业务流程设计(或重组)工作.
-
-另外，就是要养成并保持良好的开发习惯，
-做一件好事很容易，但一辈子做好事很难，
-写一个管道纯函数很容易，坚持写纯管道系统不容易。
-对本法有兴趣的人，可以坚持多应用，熟能生巧，功到自然成。
-
-I was asked why I didn't create several pipeline dataflow design patterns like OO and FP, and I thought, in Chinese Classic Myth Fiction "The Journey to the West", Bodhi  asked the monkey if he wanted to learn `Tiangang 36 change patterns` or `Disha 72 change patterns`, when the monkey chose `Disha 72 change patterns`, his failure has become a foregone conclusion, Bodhi who is the Taoist great God must understand the nature of the Tao, learn the laws of nature, The ever-changing truth, whether the monkey chose `Tiangang 36 change patterns`, or `Disha 72 change patterns`, his thoughts from then on stifled shackles, put on the invisible Tight curse, from then on can not approach  "Tao ", this is not teaching, but playing monkey. :-)
+### 道法自然，千变万化
 
 有人问我为什么不象OO和FP一样，搞几个管道流的设计模式，我不禁想到《西游记》中菩提祖师问猴子要学天罡36变，还是地煞72变，
 当猴子选择72变时，他的失败已成定局，作为道家大能的菩提祖师，不会不懂道法自然，千变万化的道理，
@@ -1289,10 +1309,32 @@ I was asked why I didn't create several pipeline dataflow design patterns like O
 最终菩提祖师绝望了，明白了猴子不能悟道继承他的衣钵，达不到做他弟子的标准，
 就把猴子逐出门墙，不许猴子称他为师傅，即猴子是肆业，甚至是不光彩地被劝退，而不是毕业。
 
-I spend my spare time developing a financial analysis expert system. 
-Although my writing time is very limited, but I will gradually improve it. 
-compared to the content when I first set up the blog, 
-it has been rich and improved a lot.
+### 大道至简，易学难精。
+
+老子曰：“吾言甚易知甚易行，天下莫能知莫能行。”
+即：大道至简，易学难精。
+纯管道系统是一个简单的系统，但简单并不意味着容易。实现纯管道系统是一个系统性的工程,必须进行艰苦的努力,
+才能做到把一个复杂的系统建设成一个简单流畅的纯管道系统.
+这需要大智慧,并且付出很多的艰难的业务流程设计(或重组)工作.
+
+另外，就是要养成并保持良好的开发习惯，
+做一件好事很容易，但一辈子做好事很难，
+写一个管道纯函数很容易，坚持写纯管道系统不容易。
+对本法有兴趣的人，可以坚持多应用，熟能生巧，功到自然成。
+
+### 基于原则比基于规则更好。
+
+- 原则应该很少, 不应影响灵活性和创造力, 以达到随心所欲而不逾矩的效果。例如：不要超过10条原则。
+
+- 原则应具体且必须强制执行。
+
+- 太多的规则等于没有规则, 复杂且难以执行, 增加漏洞的概率, 影响了灵活性和创造力。
+
+- 简单性和统一性必须平行。纯管道系统符合此原则。
+
+- 原则应与现代工业生产的主流原则相一致。
+
+### 结尾
 
 我利用业余时间开发财务分析专家系统。虽然我写作时间有限，但我会逐步改进它，
 相比我第一次设置博客时的内容，它已经丰富和改进了很多。
