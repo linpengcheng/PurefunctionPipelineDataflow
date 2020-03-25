@@ -1268,7 +1268,7 @@ This requires great wisdom and pays a lot of difficult Business Process Design (
 - Principles should be few and important, and should not affect flexibility and creativity. 
   For example: Do not exceed 10 principles.
 
-- Principles should be specific and must be enforced.
+- Principles should be simple and clear, and enforcement must be ensured.
 
 - Too many rules are equal to no rules, complicated and difficult to enforce, 
   increasing the risk of loopholes, affecting flexibility and creativity.
@@ -1330,7 +1330,7 @@ it has been rich and improved a lot.
 
 - 原则应该很少且重要, 不应影响灵活性和创造力, 以达到随心所欲而不逾矩的效果。例如：不要超过10条原则。
 
-- 原则应具体且必须强制执行。
+- 原则应该简单、清楚，并且必须确保强制执行。。
 
 - 太多的规则等于没有规则, 复杂且难以执行, 增加漏洞的概率, 影响了灵活性和创造力。
 
