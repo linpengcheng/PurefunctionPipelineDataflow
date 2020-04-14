@@ -378,7 +378,7 @@ Metaphor:
              A founding father of Computer Science as a separate discipline
         
   ```
-  - Warehouse: Data Structure
+  - Warehouse: Data Structure, database. Obviously, the database should be as global and unique as possible.
   
   - Workshop: Algorithms, Functions
   
@@ -555,7 +555,7 @@ in any one workshop do not affect other workshops.
   围绕一个数据结构开发100个函数, 比设计10个带10个函数的数据结构更好.
        ---- Alan Perlis, 首届图灵奖得主 (1966), 使计算机科学成为独立学科的奠基人
   ```
-  - 仓库: 数据结构
+  - 仓库: 数据结构, 数据库. 显然, 数据库应尽可能是全局唯一的.
   - 车间: 算法, 函数 
   
 - 语言平台: 
