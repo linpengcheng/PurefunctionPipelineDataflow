@@ -365,6 +365,23 @@ Metaphor:
   - Standardized data: current
   - External standardized data: power plants
   
+- The unification of programming technology and system architecture
+
+  ```
+  Programs = Algorithm + Data Structures
+        ---- Niklaus Wirth, Turing Award (1984), Father of Pascal
+  
+  It’s better to have 100 functions operate on one data structure 
+  than 10 functions on 10 data structures.        
+        ---- Alan Perlis
+             the first recipient of the Turing Award (1966)
+             A founding father of Computer Science as a separate discipline
+        
+  ```
+  - Warehouse: Data Structure
+  
+  - Workshop: Algorithms, Functions
+  
 - Programming language platform
 
   Like julia, a lisp is built into the internal core or internal representation, 
