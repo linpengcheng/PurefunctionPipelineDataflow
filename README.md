@@ -306,6 +306,23 @@ and the large industrial assembly line is the mainstream production technology i
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
 
 Metaphor:
+  
+- The unification of programming technology and system architecture
+
+  ```
+  Programs = Algorithm + Data Structures
+        ---- Niklaus Wirth, Turing Award (1984), Father of Pascal
+  
+  It’s better to have 100 functions operate on one data structure 
+  than 10 functions on 10 data structures.        
+        ---- Alan Perlis
+             the first recipient of the Turing Award (1966)
+             A founding father of Computer Science as a separate discipline
+        
+  ```
+  - Warehouse: Data Structure, database. Obviously, the database should be as global and unique as possible.
+  
+  - Workshop: Algorithms, Functions
 
 - Information System Integration Model: 
 
@@ -364,23 +381,6 @@ Metaphor:
   - Workshop: Integrated Circuit Components (Chip, Board), Electrical Equipment
   - Standardized data: current
   - External standardized data: power plants
-  
-- The unification of programming technology and system architecture
-
-  ```
-  Programs = Algorithm + Data Structures
-        ---- Niklaus Wirth, Turing Award (1984), Father of Pascal
-  
-  It’s better to have 100 functions operate on one data structure 
-  than 10 functions on 10 data structures.        
-        ---- Alan Perlis
-             the first recipient of the Turing Award (1966)
-             A founding father of Computer Science as a separate discipline
-        
-  ```
-  - Warehouse: Data Structure, database. Obviously, the database should be as global and unique as possible.
-  
-  - Workshop: Algorithms, Functions
   
 - Programming language platform
 
@@ -512,6 +512,18 @@ in any one workshop do not affect other workshops.
 
 比喻:
 
+- 编程技术和系统架构的统一
+
+  ```
+  程序 = 算法 + 数据结构
+       ---- Niklaus Wirth, 图灵奖(1984), Pascal之父
+       
+  围绕一个数据结构开发100个函数, 比设计10个带10个函数的数据结构更好.
+       ---- Alan Perlis, 首届图灵奖得主 (1966), 使计算机科学成为独立学科的奠基人
+  ```
+  - 仓库: 数据结构, 数据库. 显然, 数据库应尽可能是全局唯一的.
+  - 车间: 算法, 函数 
+
 - 信息系统集成模型：很多大企业有不同厂家生产的独立信息系统，需要整合集成。
   - 车间：各个独立的系统  
   - 仓库：信息系统集成层作为独立系统。
@@ -545,18 +557,6 @@ in any one workshop do not affect other workshops.
   - 车间：集成电路元件(芯片,板), 电气设备
   - 标准化的数据：电流 
   - 外部的标准化数据：发电厂
-
-- 编程技术和系统架构的统一
-
-  ```
-  程序 = 算法 + 数据结构
-       ---- Niklaus Wirth, 图灵奖(1984), Pascal之父
-       
-  围绕一个数据结构开发100个函数, 比设计10个带10个函数的数据结构更好.
-       ---- Alan Perlis, 首届图灵奖得主 (1966), 使计算机科学成为独立学科的奠基人
-  ```
-  - 仓库: 数据结构, 数据库. 显然, 数据库应尽可能是全局唯一的.
-  - 车间: 算法, 函数 
   
 - 语言平台: 
   象julia一样搞个lisp为内部核心或内部表示，外用流行语法，这么一来语法特牲完全不是问题，随便增改,
@@ -1067,6 +1067,8 @@ Make folk sciences great again :-)
 1. Perfectly defeat other messy and complex software engineering methodologies 
    in a simple and unified way.
 2. Realize the unification of software and hardware on the logical model.
+   and the unification of programming technology and system architecture 
+   through the innovative Warehouse Workshop Model.
 3. Achieve a leap in software production theory 
    from the era of manual workshops 
    to the era of standardized production in large industries.
@@ -1153,7 +1155,11 @@ has the following advantages:
 - Interconnectedness: As long as the pipes comply with the data standard specifications, they can be interconnected.
 - Combination: Data combination is better than code (function) combination.
 - Simplicity: Simplicity is the shortest path to a solution. -- Ward Cunningham (Wiki inventor)
-- Unity: Everything is a pipe. It can refer to the theory of integrated circuits, business management and other disciplines.
+- Unity: 
+  - Everything is a pipeline.
+  - Realize the unification with the theories of disciplines such as integrated circuits, 
+    business management, hydraulics and electricity, and you can refer to their theories.
+  - Realize the unification of programming technology and system architecture through innovative warehouse/shop model.
 - Predictability: Because the system architecture, design guidelines, and components are simple and unified, 
   it is very clear, so the future development and changes of the system are predictable.
 - Reliability: Simplicity is prerequisite for reliability. -- Edsger W. Dijkstra (Turing Award in 1972)
@@ -1193,7 +1199,7 @@ Finally, If you agree with me, please help me nominate the "Turing Award".
            
 实现民科的伟大复兴 :-)
 1. 以简单和统一的方法完美地击败其他混乱和复杂的软件工程方法学.
-2. 实现软硬件在逻辑模型上的统一.
+2. 实现软硬件在逻辑模型上的统一, 并且通过创新的仓库/车间模型实现编程技术和系统架构的统一.
 3. 实现软件生产理论从手工作坊时代到大工业标准化生产时代的飞跃.
 4. 软件设计自动化(SDA)的基础和唯一正确的方法, SDA是一种创新的、革命性的大型软件开发方法, 就象电子设计自动化（EDA）一样.
 5. 这是一项杰出的、引领潮流的技术成就，非常符合"图灵奖"的主要要求。
@@ -1249,7 +1255,10 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 互联性: 只要符合数据标准规范的管道(或产品)即可互联.
 - 组合性: 数据组合优于代码(函数)组合.
 - 简单性: 简单是解决方案的最短途径。-- Ward Cunningham (wiki发明者)
-- 统一性: 一切都是管道, 可以参考集成电路, 企业管理等学科的理论.
+- 统一性: 
+  - 一切都是管道.
+  - 实现与集成电路, 企业管理, 水力和电力等学科的理论广泛统一, 可以参考它们的理论.
+  - 通过创新的仓库/车间模型实现编程技术和系统架构的统一.
 - 可预测性: 因为系统架构,设计指南,组件具有简单性和统一性, 非常清晰,所以系统未来的发展变化是可以预测的.
 - 可靠性: 简单性是可靠性的前提。-- Edsger W. Dijkstra (1972年获得图灵奖)
 - 易扩展: 仅需插入或替换管道而已.
