@@ -322,7 +322,13 @@ Metaphor:
   ```
   - Warehouse: Data Structure, database. Obviously, the database should be as global and unique as possible.
   
-  - Workshop: Algorithms, Functions
+  - Workshop: Algorithms, Functions.
+  
+  - Extended case
+    - UI architecture: All components interact around an atom state, 
+      which is better than each component managing its own state.
+      - Warehouse: A state that includes all UI components, similar to "a data structure" of Alan Perlis.
+      - Workshop: individual components, similar to "100 functions" of Alan Perlis.
 
 - Information System Integration Model: 
 
@@ -523,7 +529,11 @@ in any one workshop do not affect other workshops.
   ```
   - 仓库: 数据结构, 数据库. 显然, 数据库应尽可能是全局唯一的.
   - 车间: 算法, 函数 
-
+  - 扩展案例
+    - UI架构: 所有的组件围着一个atom状态交互，比各个组件管理自己的状态好。
+      - 仓库: 包括全部界面组件状态atom数据, 类似Alan Perlis的"一个数据结构".
+      - 车间: 各独立组件, 类似Alan Perlis的"100个函数".
+    
 - 信息系统集成模型：很多大企业有不同厂家生产的独立信息系统，需要整合集成。
   - 车间：各个独立的系统  
   - 仓库：信息系统集成层作为独立系统。
