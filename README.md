@@ -327,7 +327,7 @@ Metaphor:
   - Extended case
     - UI architecture: All components interact around an atom state, 
       which is better than each component managing its own state.
-      - Warehouse: A state that includes all UI components, similar to "a data structure" of Alan Perlis.
+      - Warehouse: An atom state that includes all UI components, similar to "a data structure" of Alan Perlis.
       - Workshop: individual components, similar to "100 functions" of Alan Perlis.
 
 - Information System Integration Model: 
