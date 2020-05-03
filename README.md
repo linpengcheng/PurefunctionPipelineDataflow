@@ -374,6 +374,7 @@ Metaphor:
   
   - Warehouse: Core system
   - Workshop:  Plug-in modules
+  - Product: Message, Data
   
 - Computer model: 
   
@@ -563,6 +564,7 @@ in any one workshop do not affect other workshops.
 - 下一代微内核架构
   - 仓库：微内核
   - 车间：插件模块
+  - 产品: 消息, 数据
 
 - 计算机模型：模型以内存作为核心，而不是CPU。
   - 仓库：内存
