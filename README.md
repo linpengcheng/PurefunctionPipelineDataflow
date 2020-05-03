@@ -370,6 +370,11 @@ Metaphor:
       platform.There is no need for direct communication or Pay attention to the details of 
       how the product (data) is formed or circulated.
     
+- The Next-generation Microkernel Architecture
+  
+  - Warehouse: Core system
+  - Workshop:  Plug-in modules
+  
 - Computer model: 
   
   The model uses memory as the core, not the CPU.
@@ -554,7 +559,11 @@ in any one workshop do not affect other workshops.
     - Apple的Mac OS X也是以以独立兼容层支持老产品System OS的应用
     - 集成层类似电商平台(仓库), 一个店铺(子系统)是一个车间, 但每个店铺(或消费者)都只需要通过
       电商平台进行购销活动和交流,无需直接交流,也不需要关注商品(数据)如何形成或流通的细节.
-    
+      
+- 下一代微内核架构
+  - 仓库：微内核
+  - 车间：插件模块
+
 - 计算机模型：模型以内存作为核心，而不是CPU。
   - 仓库：内存
   - 车间：CPU, 显卡，声卡等。
