@@ -388,6 +388,34 @@ Metaphor:
     such as PCI, SATA, USB, etc.
   - External standardized data: hard disk, flash drive, etc.
   
+- The unification of single-threaded, multi-threaded, asynchronous programming technology
+  
+  "Fire-and-Forget" is a guidance bullet with independent guidance capability. It does not need external support, 
+  it will automatically track and strike the target, and do not need to control after launching. 
+  The utility model has the advantages of improving the use efficiency between the missile and the launcher, 
+  and reducing the missile's dependence on other systems to provide its own updated information, 
+  so that the launcher can attack the largest number of targets in the shortest time and improve the survival of the launcher. 
+  The development direction of guidance technology in the future is precisely the "Fire-and-Forget" precision guidance technology.
+  
+  For the same reason, I think the development direction of concurrent and parallel programming technology is also "Fire-and-Forget", 
+  so asynchronous is unnecessary, async / await is a backward and inevitably eliminated model. Change from focusing on 
+  "code and function development" to "data control, data flow management, data lifecycle management, data standardization system, 
+  process improvement (process reengineering), thread collaborative optimization, etc."
+  
+  - Product: Standardized data
+  
+  - Warehouse: data management, sending & receiving
+    - Notify thread production data by order (budget) or inventory level
+    - Send the data to the thread, if the thread does not exist, create a thread.
+    - Fire-and-Forget: Forget after sending the data.
+    
+  - Workshop: Thread
+    - Except for input / output data. It is isolated from the outside world, Forget after the data is sent to the warehouse.
+    - Passive production: Lean Production, JIT (Just In Time) Production, production by order (budget), 
+      pursuit of zero inventory and quick response.
+    - Active lazy production: When the data of the warehouse (cache) is lower than the minimum inventory level, 
+      the thread starts to produce data to fill the warehouse until the optimal inventory level is reached.
+  
 - Integrated circuit system
   - Warehouse: Battery
   - Workshop: Integrated Circuit Components (Chip, Board), Electrical Equipment
@@ -578,6 +606,32 @@ in any one workshop do not affect other workshops.
   - 车间：集成电路元件(芯片,板), 电气设备
   - 标准化的数据：电流 
   - 外部的标准化数据：发电厂
+  
+- 单线程、多线程、异步编程技术大统一
+  
+  “发射后不管”是指导弹有自主引导能力，不需要外界的支持，
+  便会自动跟踪，打击目标，不用发射后再去控制。
+  具有提高武器与发射载具之间的使用效率，降低武器依赖
+  其他系统提供本身的更新资料，让发射载具可以在最短的时间之内
+  攻击数量最多的目标、提高发射载具的生存性等重要性。
+  今后制导技术的发展方向正是“发射后不管”的精确制导技术。
+  同理, 我认为并发、并行编程技术发展方向也是 “发射后不管”，
+  因此异步是不必要的，async/await是一种落后的、必然会被淘汰的模式。
+  从过去关注代码功能开发转变为数据控制、数据流管理、数据生命周期管理、
+  数据标准化体系、流程改进（流程再造）、线程协同优化等。
+  
+  - 产品：标准化的数据
+  
+  - 仓库: 数据管理和收发
+    - 按订单(预算)或库存水平通知线程生产数据
+    - 把数据发送给线程, 如果线程不存在, 则创建一个线程.
+    - 发送数据后不管.
+    
+  - 车间: 线程.
+    - 除了接受输入数据, 输出数据. 与外界隔离, 数据交接后不管.
+    - 被动生产: 精益生产，JIT（Just In Time）生产, 按订单(预算)生产，追求零库存和快速反应.
+    - 主动惰性生产: 当仓库(缓存)数据低于最低库存水平时, 
+      开始生产数据填充仓库，达到最优库存水平为止.  
   
 - 语言平台: 
   象julia一样搞个lisp为内部核心或内部表示，外用流行语法，这么一来语法特牲完全不是问题，随便增改,
