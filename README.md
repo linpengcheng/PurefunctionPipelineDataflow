@@ -14,7 +14,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [Information System Integration Model](#Information-System-Integration-Model)
     - [The Next-generation Microkernel Architecture](#The-Next-generation-Microkernel-Architecture)
     - [Computer Model](#Computer-Model)
-    - [The unification of single-threaded, multi-threaded and asynchronous programming technology](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous programming technology)
+    - [The unification of single-threaded, multi-threaded and asynchronous programming technology](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-programming-technology)
     - [Integrated Circuit System](#Integrated-Circuit-System)    
     - [Programming Language Platform](#Programming-Language-Platform)    
     - [Clojure Web Application Model](#Clojure-Web-Application-Model)    
