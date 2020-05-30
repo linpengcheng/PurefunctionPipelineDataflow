@@ -1,5 +1,5 @@
-# The Pure Function Pipeline Data Flow v3.0
-# 纯函数管道数据流  v3.0
+# The Pure Function Pipeline Data Flow v3.0 ---- the Great Unification Programming Theory
+# 纯函数管道数据流  v3.0 ---- 大统一编程理论
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -10,6 +10,17 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Summary](#Summary-概述)
 - [Classical Model](#Classical-Model-经典模型)
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
+    - [The unification of programming technology and system architecture](#The-unification-of-programming-technology-and-system-architecture)
+    - [Information System Integration Model](#Information-System-Integration-Model)
+    - [The Next-generation Microkernel Architecture](#The-Next-generation-Microkernel-Architecture)
+    - [Computer Model](#Computer-Model)
+    - [The unification of single-threaded, multi-threaded and asynchronous programming technology](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous programming technology)
+    - [Integrated Circuit System](#Integrated-Circuit-System)    
+    - [Programming Language Platform](#Programming-Language-Platform)    
+    - [Clojure Web Application Model](#Clojure-Web-Application-Model)    
+    - [Lifecycle Management](#Lifecycle-Management)    
+    - [Other Models](#Other-Models)    
+    - [Summary](#Summary)    
 - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
 - [The difference between it and Rx](#The-difference-between-it-and-Rx-它和Rx的区别)
@@ -42,6 +53,17 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [概述](#Summary-概述)
 - [经典模型](#Classical-Model-经典模型)
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
+    - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
+    - [信息系统集成模型](#信息系统集成模型)
+    - [下一代微内核架构](#下一代微内核架构)
+    - [计算机模型](#计算机模型)
+    - [集成电路系统](#集成电路系统)
+    - [单线程、多线程、异步编程技术大统一](#单线程、多线程、异步编程技术大统一)    
+    - [语言平台](#语言平台)    
+    - [Clojure Web应用程序模型](#Clojure-Web应用程序模型)    
+    - [生命周期管理](#生命周期管理)    
+    - [其他模型](#其他模型)    
+    - [小结](#小结)    
 - [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
 - [它和Rx的区别](#The-difference-between-it-and-Rx-它和Rx的区别)
@@ -307,7 +329,7 @@ and the large industrial assembly line is the mainstream production technology i
 
 Metaphor:
   
-- The unification of programming technology and system architecture
+#### The unification of programming technology and system architecture
 
   ```
   Programs = Algorithm + Data Structures
@@ -330,7 +352,7 @@ Metaphor:
       - Warehouse: An atom state that includes all UI components, similar to "a data structure" of Alan Perlis.
       - Workshop: individual components, similar to "100 functions" of Alan Perlis.
 
-- Information System Integration Model: 
+#### Information System Integration Model
 
   Many large enterprises have independent information systems produced 
   by different manufacturers and need to integrate and integrate.
@@ -370,13 +392,13 @@ Metaphor:
       platform.There is no need for direct communication or Pay attention to the details of 
       how the product (data) is formed or circulated.
     
-- The Next-generation Microkernel Architecture
+#### The Next-generation Microkernel Architecture
   
   - Warehouse: Core system
   - Workshop:  Plug-in modules
   - Product: Message, Data
   
-- Computer model: 
+#### Computer Model
   
   The model uses memory as the core, not the CPU.
   
@@ -388,7 +410,7 @@ Metaphor:
     such as PCI, SATA, USB, etc.
   - External standardized data: hard disk, flash drive, etc.
   
-- The unification of single-threaded, multi-threaded, asynchronous programming technology
+#### The unification of single-threaded and multi-threaded and asynchronous programming technology
   
   "Fire-and-Forget" is a guidance bullet with independent guidance capability. It does not need external support, 
   it will automatically track and strike the target, and do not need to control after launching. 
@@ -423,13 +445,14 @@ Metaphor:
     - Active lazy production: When the data of the warehouse (cache) is lower than the minimum inventory level, 
       the thread starts to produce data to fill the warehouse until the optimal inventory level is reached.
   
-- Integrated circuit system
+#### Integrated Circuit System
+
   - Warehouse: Battery
   - Workshop: Integrated Circuit Components (Chip, Board), Electrical Equipment
   - Standardized data: current
   - External standardized data: power plants
   
-- Programming language platform
+#### Programming Language Platform
 
   Like julia, a lisp is built into the internal core or internal representation, 
   and the popular grammar is used externally. Therefore, 
@@ -462,7 +485,7 @@ Metaphor:
       Just interact with the repository. Multi-language on the racket language 
       is the mechanism.
 
-- Clojure web application model
+#### Clojure Web Application Model
 
   - product standard (data interface): the req-map and resp-map of the ring 
   
@@ -478,7 +501,7 @@ Metaphor:
   The Clojure’s immutable persistent data structure does not cause data cloning, 
   which is suitable for this scene.
   
-- Lifecycle Management
+#### Lifecycle Management
 
   Algorithms derived from Chinese myths that have been circulating for thousands of years: 
   The book of life and death in hell.
@@ -505,7 +528,7 @@ Metaphor:
 
     - Hell: punishment, destruction, garbage collection
 
-- Other Models 
+#### Other Models 
 
   - Warehouse
     - Standardized data model
@@ -525,7 +548,9 @@ Metaphor:
   - External standardized data
     - Purchasing department
     - supply chain
-    
+ 
+#### Summary
+ 
 In industry, the product standard is the interface, 
 the production method (code implementation) is not limited, 
 input the raw materials (data) that conform to the standard, 
@@ -559,7 +584,7 @@ in any one workshop do not affect other workshops.
 
 比喻:
 
-- 编程技术和系统架构的统一
+#### 编程技术和系统架构的统一
 
   ```
   程序 = 算法 + 数据结构
@@ -575,7 +600,10 @@ in any one workshop do not affect other workshops.
       - 仓库: 包括全部界面组件状态atom数据, 类似Alan Perlis的"一个数据结构".
       - 车间: 各独立组件, 类似Alan Perlis的"100个函数".
     
-- 信息系统集成模型：很多大企业有不同厂家生产的独立信息系统，需要整合集成。
+#### 信息系统集成模型
+
+很多大企业有不同厂家生产的独立信息系统，需要整合集成。
+
   - 车间：各个独立的系统  
   - 仓库：信息系统集成层作为独立系统。
     - 企业全局数据统一的抽象层（虚拟数据库，虚拟数据仓库），
@@ -596,25 +624,31 @@ in any one workshop do not affect other workshops.
     - 集成层类似电商平台(仓库), 一个店铺(子系统)是一个车间, 但每个店铺(或消费者)都只需要通过
       电商平台进行购销活动和交流,无需直接交流,也不需要关注商品(数据)如何形成或流通的细节.
       
-- 下一代微内核架构
+#### 下一代微内核架构
+
   - 仓库：微内核
   - 车间：插件模块
   - 产品: 消息, 数据
 
-- 计算机模型：模型以内存作为核心，而不是CPU。
+#### 计算机模型
+
+模型以内存作为核心，而不是CPU。
+
   - 仓库：内存
   - 车间：CPU, 显卡，声卡等。
   - 标准化的数据：在符合工业标准接口的硬件间传输的数据
   - 验收：主板(带有PCI, SATA, USB等标准化接口)
   - 外部的标准化数据：硬盘，闪存盘等
   
-- 集成电路系统
+#### 集成电路系统
+
   - 仓库：电池
   - 车间：集成电路元件(芯片,板), 电气设备
   - 标准化的数据：电流 
   - 外部的标准化数据：发电厂
   
-- 单线程、多线程、异步编程技术大统一
+#### 单线程、多线程、异步编程技术大统一
+
   
   “发射后不管”是指导弹有自主引导能力，不需要外界的支持，
   便会自动跟踪，打击目标，不用发射后再去控制。
@@ -646,12 +680,14 @@ in any one workshop do not affect other workshops.
     - 主动惰性生产: 当仓库(缓存)数据低于最低库存水平时, 
       开始生产数据填充仓库，达到最优库存水平为止.  
   
-- 语言平台: 
+#### 语言平台
+
   象julia一样搞个lisp为内部核心或内部表示，外用流行语法，这么一来语法特牲完全不是问题，随便增改,
   编译器和语法可以独立演进，齐头并进，自由高效灵活。 可以同时搞几个语言,
   如Julia原生支持julia和lisp语法，还有第三方实现了clojure语法，性能等同原生语法。
   把clojure语法转换成lisp语法，比原生julia语法转换还简单，在一个lisp内部表示的平台上实现一个语言，是很简单的,如Racket.
   不管是喜欢swift,py,ruby,scala,java,f#的哪一种, 统统分别实现一个，统统满足.
+  
   - 仓库: 
     - 标准库
     - 外部各种语言编写的编译后以内部lisp表示的库.
@@ -661,7 +697,7 @@ in any one workshop do not affect other workshops.
     - 内部lisp核心: 用lisp编写代码, 或其他语言编译输出的中间代码.
     - 外部各种语言: 把各语言代码编译输出到仓库, 各语言不必互相交互, 只要与仓库交互即可. racket语言上的多语言即是如此机制.
 
-- Clojure Web应用程序模型
+#### Clojure Web应用程序模型
 
   - 产品标准（数据接口）：ring的req-map和resp-map格式
   - 仓库：ring
@@ -671,7 +707,7 @@ in any one workshop do not affect other workshops.
   该参数可以按需映射为标准，数据表，数据库（具有约束，存储过程，模式等）。
   Clojure的不可变永久数据结构不会导致数据克隆，很适合这个场景。
 
-- 生命周期管理
+#### 生命周期管理
 
   源自流传千百年的中国神话的算法----地狱生死簿。
     
@@ -687,7 +723,8 @@ in any one workshop do not affect other workshops.
     - 六道轮回: 资源池
     - 地狱: 惩罚,销毁, 垃圾回收
   
-- 其他模型：  
+#### 其他模型
+
   - 仓库
     - 标准化的数据模型
     - 关系式数据库
@@ -706,6 +743,8 @@ in any one workshop do not affect other workshops.
   - 外部的标准化数据
     - 采购部门
     - 供应链
+
+#### 小结
 
 在工业上，产品标准就是接口，生产方法（代码实现）则不受限制，
 只要输入符合标准的原材料（数据），输出符合标准的产品（数据）就可以了。
