@@ -434,13 +434,13 @@ Metaphor:
   - Product: Standardized data
   
   - Warehouse: data management, sending & receiving
-    - Notify thread production data by order (budget) or inventory level
+    - Notify thread production data by order (production plan) or inventory level
     - Send the data to the thread, if the thread does not exist, create a thread.
     - Fire-and-Forget: Forget after sending the data.
     
   - Workshop: Thread
     - Except for input / output data. It is isolated from the outside world, Forget after the data is sent to the warehouse.
-    - Passive production: Lean Production, JIT (Just In Time) Production, production by order (budget), 
+    - Passive production: Lean Production, JIT (Just In Time) Production, production by order (production plan), 
       pursuit of zero inventory and quick response.
     - Active lazy production: When the data of the warehouse (cache) is lower than the minimum inventory level, 
       the thread starts to produce data to fill the warehouse until the optimal inventory level is reached.
@@ -670,13 +670,13 @@ in any one workshop do not affect other workshops.
   - 产品：标准化的数据
   
   - 仓库: 数据管理和收发
-    - 按订单(预算)或库存水平通知线程生产数据
+    - 按订单(生产计划)或库存水平通知线程生产数据
     - 把数据发送给线程, 如果线程不存在, 则创建一个线程.
     - 发送数据后不管.
     
   - 车间: 线程.
     - 除了接受输入数据, 输出数据. 与外界隔离, 数据交接后不管.
-    - 被动生产: 精益生产，JIT（Just In Time）生产, 按订单(预算)生产，追求零库存和快速反应.
+    - 被动生产: 精益生产，JIT（Just In Time）生产, 按订单(生产计划)生产，追求零库存和快速反应.
     - 主动惰性生产: 当仓库(缓存)数据低于最低库存水平时, 
       开始生产数据填充仓库，达到最优库存水平为止.  
   
