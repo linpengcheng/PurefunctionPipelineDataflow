@@ -433,7 +433,10 @@ Metaphor:
   
   - Product: Standardized data
   
-  - Warehouse: data management, sending & receiving, like MES (Manufacturing Execution System).
+  - Warehouse: data management, sending & receiving, like: 
+    Enterprise Warehouse（DB） + MES (Manufacturing Execution System) = Database + DBMS.
+    - MES can be used as a workshop, but it is integrated with the warehouse as a DBMS. 
+      The combination of the DBMS and the database is more reasonable and the performance is higher.
     - Notify thread production data by order (production plan) or inventory level
     - Send the data to the thread, if the thread does not exist, create a thread.
     - Fire-and-Forget: Forget after sending the data.
@@ -689,7 +692,8 @@ in any one workshop do not affect other workshops.
   
   - 产品：标准化的数据
   
-  - 仓库: 数据管理和收发, 类似`制造执行系统`（MES，Manufacturing Execution System）
+  - 仓库: 数据管理和收发, 类似: `企业仓库（数据库）` + `制造执行系统`（MES，Manufacturing Execution System）=  数据库 + 数据库管理系统
+    - MES可以做为车间，但与仓库集成在一起做为数据库管理系统，数据库管理系统和数据库的组合在一起比较合理，性能也更高。
     - 按订单(生产计划)或库存水平通知线程生产数据
     - 把数据发送给线程, 如果线程不存在, 则创建一个线程.
     - 发送数据后不管.
