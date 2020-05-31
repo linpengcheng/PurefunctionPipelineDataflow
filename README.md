@@ -463,6 +463,8 @@ Metaphor:
       long-pipeline-function consisting of serially connected pipes. If not, then the side effect is at the end of 
       the series of pipeline, similar to that, consumables such as office supplies or lubricants are sent 
       from the warehouse to the workshop and are consumed.
+      
+    - `Flink Stateful Functions` did not emphasize  two-way "Fire-and-Forget".
 
     - Finally, I think it would be better if `Flink Stateful Functions` adhered to the `Warehouse/Workshop Model` more strictly.
     
@@ -671,7 +673,6 @@ in any one workshop do not affect other workshops.
   - 外部的标准化数据：发电厂
   
 #### 单线程 多线程 异步 分布式大统一
-
   
   “发射后不管”是指导弹有自主引导能力，不需要外界的支持，
   便会自动跟踪，打击目标，不用发射后再去控制。
@@ -716,6 +717,8 @@ in any one workshop do not affect other workshops.
 
     - 在`仓库/车间模型`中，绝大多数车间是管道（纯函数）或由串联的管道组成的长管道。如果不是，那么，副作用处于“串联的管道”的末尾，
       类似于，办公用品或润滑油等消耗品从仓库发送到车间后，被消耗了。
+      
+    - `Flink Stateful Functions` 没有强调双向“发射后不管”。
       
     - 最后，我认为如果 `Flink Stateful Functions` 更严格地遵循`仓库/车间模型`，它的架构会更好。
     
