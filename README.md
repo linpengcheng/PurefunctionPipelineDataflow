@@ -456,14 +456,14 @@ Metaphor:
       It is a state server, which is more similar to Clojure ring web server. 
       [Clojure Web Application Model: Ring is also a `Warehouse/Workshop Model`](#Clojure-Web-Application-Model)
 
-    - In the `Warehouse/Workshop Model`, the vast majority of the workshops are pipeline (pure functions) or 
-      long-pipeline consisting of serially connected pipes. If not, then the side effect is at the end of 
+    - In the `Warehouse/Workshop Model`, the vast majority of the workshop is a pipeline-function (pure function) or 
+      long-pipeline-function consisting of serially connected pipes. If not, then the side effect is at the end of 
       the series of pipeline, similar to that, consumables such as office supplies or lubricants are sent 
       from the warehouse to the workshop and are consumed.
 
     - Finally, I think it would be better if `Flink Stateful Functions` adhered to the `Warehouse/Workshop Model` more strictly.
     
-    - [Related discussions](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
+    - [Related discussions on clojureverse](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
   
 #### Integrated Circuit System
 
@@ -701,8 +701,8 @@ in any one workshop do not affect other workshops.
       开始生产数据填充仓库，达到最优库存水平为止.  
       
   - 分布式案例：[`Flink Stateful Functions`](https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.0/concepts/distributed_architecture.html)
-  
-    - `Flink Stateful Functions`更像我以前的文章：
+  
+    - `Flink Stateful Functions`更像我以前的文章：
       [一切都是RMDB](./doc/Everything_is_RMDB.md)。
 
     - 在`仓库/车间模型`中，每个车间之间是严格没有交互的，而`Flink Stateful Functions`的示意图好象是有交互的。
@@ -712,10 +712,10 @@ in any one workshop do not affect other workshops.
 
     - 在`仓库/车间模型`中，绝大多数车间是管道（纯函数）或由串联的管道组成的长管道。如果不是，那么，副作用处于“串联的管道”的末尾，
       类似于，办公用品或润滑油等消耗品从仓库发送到车间后，被消耗了。
-
+      
     - 最后，我认为如果 `Flink Stateful Functions` 更严格地遵循`仓库/车间模型`，它的架构会更好。
-    
-    -[相关讨论]（https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032）
+    
+    - [在 clojureverse 论坛上的相关讨论](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
 #### 语言平台
 
