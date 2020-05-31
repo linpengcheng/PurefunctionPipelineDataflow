@@ -14,7 +14,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [Information System Integration Model](#Information-System-Integration-Model)
     - [The Next-generation Microkernel Architecture](#The-Next-generation-Microkernel-Architecture)
     - [Computer Model](#Computer-Model)
-    - [The unification of single-threaded, multi-threaded and asynchronous programming technology](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-programming-technology)
+    - [The unification of single-threaded, multi-threaded, asynchronous and distributed](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
     - [Integrated Circuit System](#Integrated-Circuit-System)    
     - [Programming Language Platform](#Programming-Language-Platform)    
     - [Clojure Web Application Model](#Clojure-Web-Application-Model)    
@@ -58,7 +58,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [下一代微内核架构](#下一代微内核架构)
     - [计算机模型](#计算机模型)
     - [集成电路系统](#集成电路系统)
-    - [单线程、多线程、异步编程技术大统一](#单线程-多线程-异步编程技术大统一)    
+    - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)    
     - [语言平台](#语言平台)    
     - [Clojure Web应用程序模型](#Clojure-Web应用程序模型)    
     - [生命周期管理](#生命周期管理)    
@@ -410,7 +410,7 @@ Metaphor:
     such as PCI, SATA, USB, etc.
   - External standardized data: hard disk, flash drive, etc.
   
-#### The unification of single-threaded and multi-threaded and asynchronous programming technology
+#### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
   "Fire-and-Forget" is a guidance bullet with independent guidance capability. It does not need external support, 
   it will automatically track and strike the target, and do not need to control after launching. 
@@ -444,6 +444,26 @@ Metaphor:
       pursuit of zero inventory and quick response.
     - Active lazy production: When the data of the warehouse (cache) is lower than the minimum inventory level, 
       the thread starts to produce data to fill the warehouse until the optimal inventory level is reached.
+      
+  - Distributed case: [`Flink Stateful Functions`](https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.0/concepts/distributed_architecture.html)
+  
+    - `Flink Stateful Functions` is more like my previous article: 
+      [Everything is RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Everything_is_RMDB.md).
+
+    - In the `Warehouse/Workshop Model`, There is strictly no interaction between each workshop, 
+      and the "Flink Stateful Functions" diagram seems to be interactive. From this perspective, 
+      `Flink Stateful Functions` only defines the warehouse, and does not strictly define the workshop. 
+      It is a state server, which is more similar to Clojure ring web server. 
+      [Clojure Web Application Model: Ring is also a `Warehouse/Workshop Model`](#Clojure-Web-Application-Model)
+
+    - In the `Warehouse/Workshop Model`, the vast majority of the workshops are pipeline (pure functions) or 
+      long-pipeline consisting of serially connected pipes. If not, then the side effect is at the end of 
+      the series of pipeline, similar to that, consumables such as office supplies or lubricants are sent 
+      from the warehouse to the workshop and are consumed.
+
+    - Finally, I think it would be better if `Flink Stateful Functions` adhered to the `Warehouse/Workshop Model` more strictly.
+    
+    - [Related discussions](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
   
 #### Integrated Circuit System
 
@@ -647,7 +667,7 @@ in any one workshop do not affect other workshops.
   - 标准化的数据：电流 
   - 外部的标准化数据：发电厂
   
-#### 单线程 多线程 异步编程技术大统一
+#### 单线程 多线程 异步 分布式大统一
 
   
   “发射后不管”是指导弹有自主引导能力，不需要外界的支持，
@@ -679,7 +699,24 @@ in any one workshop do not affect other workshops.
     - 被动生产: 精益生产，JIT（Just In Time）生产, 按订单(生产计划)生产，追求零库存和快速反应.
     - 主动惰性生产: 当仓库(缓存)数据低于最低库存水平时, 
       开始生产数据填充仓库，达到最优库存水平为止.  
-  
+      
+  - 分布式案例：[`Flink Stateful Functions`](https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.0/concepts/distributed_architecture.html)
+  
+    - `Flink Stateful Functions`更像我以前的文章：
+      [一切都是RMDB](./doc/Everything_is_RMDB.md)。
+
+    - 在`仓库/车间模型`中，每个车间之间是严格没有交互的，而`Flink Stateful Functions`的示意图好象是有交互的。
+      从这个角度来看， `Flink Stateful Functions` 仅定义了仓库，而没有严格定义车间。
+      它是一个状态服务器，与Clojure ring Web服务器更相似。
+      [Clojure Web应用程序模型：Ring也是`仓库/车间模型`](#Clojure-Web-Application-Model)
+
+    - 在`仓库/车间模型`中，绝大多数车间是管道（纯函数）或由串联的管道组成的长管道。如果不是，那么，副作用处于“串联的管道”的末尾，
+      类似于，办公用品或润滑油等消耗品从仓库发送到车间后，被消耗了。
+
+    - 最后，我认为如果 `Flink Stateful Functions` 更严格地遵循`仓库/车间模型`，它的架构会更好。
+    
+    -[相关讨论]（https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032）
+
 #### 语言平台
 
   象julia一样搞个lisp为内部核心或内部表示，外用流行语法，这么一来语法特牲完全不是问题，随便增改,
