@@ -433,7 +433,7 @@ Metaphor:
   
   - Product: Standardized data
   
-  - Warehouse: data management, sending & receiving
+  - Warehouse: data management, sending & receiving, like MES (Manufacturing Execution System).
     - Notify thread production data by order (production plan) or inventory level
     - Send the data to the thread, if the thread does not exist, create a thread.
     - Fire-and-Forget: Forget after sending the data.
@@ -689,7 +689,7 @@ in any one workshop do not affect other workshops.
   
   - 产品：标准化的数据
   
-  - 仓库: 数据管理和收发
+  - 仓库: 数据管理和收发, 类似`制造执行系统`（MES，Manufacturing Execution System）
     - 按订单(生产计划)或库存水平通知线程生产数据
     - 把数据发送给线程, 如果线程不存在, 则创建一个线程.
     - 发送数据后不管.
