@@ -11,15 +11,15 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Classical Model](#Classical-Model-经典模型)
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
     - [The unification of programming technology and system architecture](#The-unification-of-programming-technology-and-system-architecture)
-    - [Information System Integration Model](#Information-System-Integration-Model)
-    - [The Next-generation Microkernel Architecture](#The-Next-generation-Microkernel-Architecture)
-    - [Computer Model](#Computer-Model)
     - [The unification of single-threaded, multi-threaded, asynchronous and distributed](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
-    - [Integrated Circuit System](#Integrated-Circuit-System)    
-    - [Programming Language Platform](#Programming-Language-Platform)    
-    - [Clojure Web Application Model](#Clojure-Web-Application-Model)    
-    - [Lifecycle Management](#Lifecycle-Management)    
-    - [Other Models](#Other-Models)    
+    - [The unification with Information System Integration Model](#The-unification-with-Information-System-Integration-Model)
+    - [The unification with Microkernel Architecture](#The-unification-with-Microkernel-Architecture)
+    - [The unification with Computer Hardware Architecture](#The-unification-with-Computer-Hardware-Architecture)
+    - [The unification with Integrated Circuit System](#The-unification-with-Integrated-Circuit-System)    
+    - [The unification with Programming Language Platform](#The-unification-with-Programming-Language-Platform)    
+    - [The unification with Clojure Web Application Model](#The-unification-with-Clojure-Web-Application-Model)    
+    - [The unification with Lifecycle Management](#The-unification-with-Lifecycle-Management)    
+    - [The unification with Other Models](#The-unification-with-Other-Models)    
     - [Summary](#Summary)    
 - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
@@ -54,15 +54,15 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [经典模型](#Classical-Model-经典模型)
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
-    - [信息系统集成模型](#信息系统集成模型)
-    - [下一代微内核架构](#下一代微内核架构)
-    - [计算机模型](#计算机模型)
-    - [集成电路系统](#集成电路系统)
     - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)    
-    - [语言平台](#语言平台)    
-    - [Clojure Web应用程序模型](#Clojure-Web应用程序模型)    
-    - [生命周期管理](#生命周期管理)    
-    - [其他模型](#其他模型)    
+    - [和`信息系统集成模型`的统一](#和信息系统集成模型的统一)
+    - [和`微内核架构`的统一](#和微内核架构的统一)
+    - [和`计算机硬件体系`的统一](#和计算机硬件体系的统一)
+    - [和`集成电路系统`的统一](#和集成电路系统的统一)
+    - [和`语言平台`的统一](#和语言平台的统一)    
+    - [和`Clojure Web应用程序模型`的统一](#和Clojure-Web应用程序模型的统一)    
+    - [和`生命周期管理`的统一](#和生命周期管理的统一)    
+    - [和`其他模型`的统一](#和其他模型的统一)    
     - [小结](#小结)    
 - [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
 - [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
@@ -327,7 +327,7 @@ and the large industrial assembly line is the mainstream production technology i
 
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
 
-Metaphor:
+Everything is unified:
   
 #### The unification of programming technology and system architecture
 
@@ -351,65 +351,7 @@ Metaphor:
       which is better than each component managing its own state.
       - Warehouse: An atom state that includes all UI components, similar to "a data structure" of Alan Perlis.
       - Workshop: individual components, similar to "100 functions" of Alan Perlis.
-
-#### Information System Integration Model
-
-  Many large enterprises have independent information systems produced 
-  by different manufacturers and need to integrate and integrate.
-  
-  - Workshop: individual subsystems  
-  - Warehouse: The information system integration layer acts as a individual system.
-    - A unified abstraction layer (virtual database, virtual data warehouse) 
-      of enterprise global data, external data requests of any subsystem 
-      are requested from this system without knowing from that subsystem.
-      Achieve the unity of the global system.
-    - The middle layer and data routing of system interconnection.
-    - Isolation change: When one subsystem changes, 
-      it does not cause chain changes of other subsystems.
-    - Putting the complexity in one place is better than 
-      putting it in all places.
-    - The subsystems are guaranteed independence, 
-      and the simplicity of each subsystem is realized.
-    - Ultimately, the simplicity and unity of the global system is achieved.
-  - Extended case
-    - The OS provides a large number of APIs for developers to use, 
-      but if the OS API changes may be more frequent, 
-      such as adding methods or variables, but previously developed 
-      applications are likely to use the old OS API. 
-      Solution: Develop directly a version compatibility layer independently, 
-      and freely develop the OS.
-      - Warehouse: individual version compatibility layer
-      - Workshop: OS, applications, programming languages, etc.
-    - Intel's CPU starts with Pentium, the kernel switches to RISC, 
-      and the external CISC compatibility layer
-    - Microsoft's Windows 95/NT system also supports DOS and Windows 3.1 
-      applications with a separate compatibility layer.
-    - Apple's Mac OS X uses an independent compatibility layer to 
-      support legacy applications of System OS.
-    - The integration layer is similar to an e-commerce platform (warehouse), 
-      and a shop (subsystem) is similar to a workshop, but each shop (or consumer) only 
-      needs to conduct purchase and sales activities and exchanges through the e-commerce 
-      platform.There is no need for direct communication or Pay attention to the details of 
-      how the product (data) is formed or circulated.
-    
-#### The Next-generation Microkernel Architecture
-  
-  - Warehouse: Core system
-  - Workshop:  Plug-in modules
-  - Product: Message, Data
-  
-#### Computer Model
-  
-  The model uses memory as the core, not the CPU.
-  
-  - Warehouse: Memory
-  - Workshop: CPU, graphics card, sound card, etc.
-  - Standardized data: data transmitted between hardware 
-    that conforms to industry standard interfaces
-  - Acceptance: Motherboard with standardized interfaces
-    such as PCI, SATA, USB, etc.
-  - External standardized data: hard disk, flash drive, etc.
-  
+      
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
   "Fire-and-Forget" is a guidance bullet with independent guidance capability. It does not need external support, 
@@ -469,15 +411,73 @@ Metaphor:
     - Finally, I think it would be better if `Flink Stateful Functions` adhered to the `Warehouse/Workshop Model` more strictly.
     
     - [Related discussions on clojureverse](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
+
+#### The unification with Information System Integration Model
+
+  Many large enterprises have independent information systems produced 
+  by different manufacturers and need to integrate and integrate.
   
-#### Integrated Circuit System
+  - Workshop: individual subsystems  
+  - Warehouse: The information system integration layer acts as a individual system.
+    - A unified abstraction layer (virtual database, virtual data warehouse) 
+      of enterprise global data, external data requests of any subsystem 
+      are requested from this system without knowing from that subsystem.
+      Achieve the unity of the global system.
+    - The middle layer and data routing of system interconnection.
+    - Isolation change: When one subsystem changes, 
+      it does not cause chain changes of other subsystems.
+    - Putting the complexity in one place is better than 
+      putting it in all places.
+    - The subsystems are guaranteed independence, 
+      and the simplicity of each subsystem is realized.
+    - Ultimately, the simplicity and unity of the global system is achieved.
+  - Extended case
+    - The OS provides a large number of APIs for developers to use, 
+      but if the OS API changes may be more frequent, 
+      such as adding methods or variables, but previously developed 
+      applications are likely to use the old OS API. 
+      Solution: Develop directly a version compatibility layer independently, 
+      and freely develop the OS.
+      - Warehouse: individual version compatibility layer
+      - Workshop: OS, applications, programming languages, etc.
+    - Intel's CPU starts with Pentium, the kernel switches to RISC, 
+      and the external CISC compatibility layer
+    - Microsoft's Windows 95/NT system also supports DOS and Windows 3.1 
+      applications with a separate compatibility layer.
+    - Apple's Mac OS X uses an independent compatibility layer to 
+      support legacy applications of System OS.
+    - The integration layer is similar to an e-commerce platform (warehouse), 
+      and a shop (subsystem) is similar to a workshop, but each shop (or consumer) only 
+      needs to conduct purchase and sales activities and exchanges through the e-commerce 
+      platform.There is no need for direct communication or Pay attention to the details of 
+      how the product (data) is formed or circulated.
+    
+#### The unification with Microkernel Architecture
+  
+  - Warehouse: Core system
+  - Workshop:  Plug-in modules
+  - Product: Message, Data
+  
+#### The unification with Computer Hardware Architecture
+  
+  The model uses memory as the core, not the CPU.
+  
+  - Warehouse: Memory
+  - Workshop: CPU, graphics card, sound card, etc.
+  - Standardized data: data transmitted between hardware 
+    that conforms to industry standard interfaces
+  - Acceptance: Motherboard with standardized interfaces
+    such as PCI, SATA, USB, etc.
+  - External standardized data: hard disk, flash drive, etc.
+  
+#### The unification with Integrated Circuit System
 
   - Warehouse: Battery
   - Workshop: Integrated Circuit Components (Chip, Board), Electrical Equipment
   - Standardized data: current
   - External standardized data: power plants
   
-#### Programming Language Platform
+#### The unification with Programming Language Platform
 
   Like julia, a lisp is built into the internal core or internal representation, 
   and the popular grammar is used externally. Therefore, 
@@ -510,7 +510,7 @@ Metaphor:
       Just interact with the repository. Multi-language on the racket language 
       is the mechanism.
 
-#### Clojure Web Application Model
+#### The unification with Clojure Web Application Model
 
   - product standard (data interface): the req-map and resp-map of the ring 
   
@@ -526,7 +526,7 @@ Metaphor:
   The Clojure’s immutable persistent data structure does not cause data cloning, 
   which is suitable for this scene.
   
-#### Lifecycle Management
+#### The unification with Lifecycle Management
 
   Algorithms derived from Chinese myths that have been circulating for thousands of years: 
   The book of life and death in hell.
@@ -553,7 +553,7 @@ Metaphor:
 
     - Hell: punishment, destruction, garbage collection
 
-#### Other Models 
+#### The unification with Other Models 
 
   - Warehouse
     - Standardized data model
@@ -607,7 +607,7 @@ in any one workshop do not affect other workshops.
 
 仓库（数据库，池）/车间（管道）模型是一个简单实用的模型，而且大型工业流水线是世界上主流的生产技术。
 
-比喻:
+万法归宗 ---- 一切的终极大统一:
 
 #### 编程技术和系统架构的统一
 
@@ -624,54 +624,7 @@ in any one workshop do not affect other workshops.
     - UI架构: 所有的组件围着一个atom状态交互，比各个组件管理自己的状态好。
       - 仓库: 包括全部界面组件状态atom数据, 类似Alan Perlis的"一个数据结构".
       - 车间: 各独立组件, 类似Alan Perlis的"100个函数".
-    
-#### 信息系统集成模型
 
-很多大企业有不同厂家生产的独立信息系统，需要整合集成。
-
-  - 车间：各个独立的系统  
-  - 仓库：信息系统集成层作为独立系统。
-    - 企业全局数据统一的抽象层（虚拟数据库，虚拟数据仓库），
-      任一系统的外部数据请求皆向此系统求，而无需知道来自那个系统，实现全局系统的统一性。
-    - 系统互联与数据路由的中间层。
-    - 隔离变化：当一个系统变动时，不会导致其他系统的连锁变动。
-    - 把复杂性集中在一个地方，比在所有地方束手束脚，按了葫芦起了瓢好。
-    - 使各系统保证独立性，进而实现各系统的简单性。
-    - 最终达到全局系统的简单性和统一性。
-  - 扩展案例
-    - OS提供了大量的编程接口给开发者使用，但如果os接口变更可能比较频繁，如添加方法或者变量等，
-      但以前开发的应用很可能使用OS老版本的API。方案：直接独立开发一个版本兼容层，放开手脚干OS
-      - 仓库：独立的版本兼容层
-      - 车间：OS, 应用, 编程语言等
-    - Intel的CPU从奔腾开始, 内核改用RISC, 外用CISC兼容层也是类似方法。
-    - Microsoft的Windows95/nt系统也是以独立兼容层支持DOS和Windows3.1的应用
-    - Apple的Mac OS X也是以以独立兼容层支持老产品System OS的应用
-    - 集成层类似电商平台(仓库), 一个店铺(子系统)是一个车间, 但每个店铺(或消费者)都只需要通过
-      电商平台进行购销活动和交流,无需直接交流,也不需要关注商品(数据)如何形成或流通的细节.
-      
-#### 下一代微内核架构
-
-  - 仓库：微内核
-  - 车间：插件模块
-  - 产品: 消息, 数据
-
-#### 计算机模型
-
-模型以内存作为核心，而不是CPU。
-
-  - 仓库：内存
-  - 车间：CPU, 显卡，声卡等。
-  - 标准化的数据：在符合工业标准接口的硬件间传输的数据
-  - 验收：主板(带有PCI, SATA, USB等标准化接口)
-  - 外部的标准化数据：硬盘，闪存盘等
-  
-#### 集成电路系统
-
-  - 仓库：电池
-  - 车间：集成电路元件(芯片,板), 电气设备
-  - 标准化的数据：电流 
-  - 外部的标准化数据：发电厂
-  
 #### 单线程 多线程 异步 分布式大统一
   
   “发射后不管”是指导弹有自主引导能力，不需要外界的支持，
@@ -720,11 +673,58 @@ in any one workshop do not affect other workshops.
       
     - `Flink Stateful Functions` 没有强调双向“发射后不管”。
       
-    - 最后，我认为如果 `Flink Stateful Functions` 更严格地遵循`仓库/车间模型`，它的架构会更好。
+    - 最后，我认为如果 `Flink Stateful Functions` 更严格地遵循`仓库/车间模型`，它的架构会更好更简单。
     
     - [在 clojureverse 论坛上的相关讨论](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
-#### 语言平台
+#### 和信息系统集成模型的统一
+
+很多大企业有不同厂家生产的独立信息系统，需要整合集成。
+
+  - 车间：各个独立的系统  
+  - 仓库：信息系统集成层作为独立系统。
+    - 企业全局数据统一的抽象层（虚拟数据库，虚拟数据仓库），
+      任一系统的外部数据请求皆向此系统求，而无需知道来自那个系统，实现全局系统的统一性。
+    - 系统互联与数据路由的中间层。
+    - 隔离变化：当一个系统变动时，不会导致其他系统的连锁变动。
+    - 把复杂性集中在一个地方，比在所有地方束手束脚，按了葫芦起了瓢好。
+    - 使各系统保证独立性，进而实现各系统的简单性。
+    - 最终达到全局系统的简单性和统一性。
+  - 扩展案例
+    - OS提供了大量的编程接口给开发者使用，但如果os接口变更可能比较频繁，如添加方法或者变量等，
+      但以前开发的应用很可能使用OS老版本的API。方案：直接独立开发一个版本兼容层，放开手脚干OS
+      - 仓库：独立的版本兼容层
+      - 车间：OS, 应用, 编程语言等
+    - Intel的CPU从奔腾开始, 内核改用RISC, 外用CISC兼容层也是类似方法。
+    - Microsoft的Windows95/nt系统也是以独立兼容层支持DOS和Windows3.1的应用
+    - Apple的Mac OS X也是以以独立兼容层支持老产品System OS的应用
+    - 集成层类似电商平台(仓库), 一个店铺(子系统)是一个车间, 但每个店铺(或消费者)都只需要通过
+      电商平台进行购销活动和交流,无需直接交流,也不需要关注商品(数据)如何形成或流通的细节.
+      
+#### 和微内核架构的统一
+
+  - 仓库：微内核
+  - 车间：插件模块
+  - 产品: 消息, 数据
+
+#### 和计算机硬件体系的统一
+
+模型以内存作为核心，而不是CPU。
+
+  - 仓库：内存
+  - 车间：CPU, 显卡，声卡等。
+  - 标准化的数据：在符合工业标准接口的硬件间传输的数据
+  - 验收：主板(带有PCI, SATA, USB等标准化接口)
+  - 外部的标准化数据：硬盘，闪存盘等
+  
+#### 和集成电路系统的统一
+
+  - 仓库：电池
+  - 车间：集成电路元件(芯片,板), 电气设备
+  - 标准化的数据：电流 
+  - 外部的标准化数据：发电厂
+
+#### 和语言平台的统一
 
   象julia一样搞个lisp为内部核心或内部表示，外用流行语法，这么一来语法特牲完全不是问题，随便增改,
   编译器和语法可以独立演进，齐头并进，自由高效灵活。 可以同时搞几个语言,
@@ -741,7 +741,7 @@ in any one workshop do not affect other workshops.
     - 内部lisp核心: 用lisp编写代码, 或其他语言编译输出的中间代码.
     - 外部各种语言: 把各语言代码编译输出到仓库, 各语言不必互相交互, 只要与仓库交互即可. racket语言上的多语言即是如此机制.
 
-#### Clojure Web应用程序模型
+#### 和Clojure Web应用程序模型的统一
 
   - 产品标准（数据接口）：ring的req-map和resp-map格式
   - 仓库：ring
@@ -751,7 +751,7 @@ in any one workshop do not affect other workshops.
   该参数可以按需映射为标准，数据表，数据库（具有约束，存储过程，模式等）。
   Clojure的不可变永久数据结构不会导致数据克隆，很适合这个场景。
 
-#### 生命周期管理
+#### 和生命周期管理的统一
 
   源自流传千百年的中国神话的算法----地狱生死簿。
     
@@ -767,7 +767,7 @@ in any one workshop do not affect other workshops.
     - 六道轮回: 资源池
     - 地狱: 惩罚,销毁, 垃圾回收
   
-#### 其他模型
+#### 和其他模型的统一
 
   - 仓库
     - 标准化的数据模型
