@@ -1255,6 +1255,8 @@ Make folk sciences great again :-)
 ```
 
 The idea of simplicity and unity is an important guiding ideology of scientific research.
+Unification of theories is the long-standing goal of the natural sciences; 
+and modern physics offers a spectacular paradigm of its achievement. 
 It can be found from the knowledge of various disciplines: 
 the more universally applicable a unified theory, the simpler it is, 
 and the more basic it is, the greater it is.
@@ -1381,6 +1383,7 @@ Finally, If you agree with me, please help me nominate the "Turing Award".
 ```
 
 简单性和统一性的思想是科学研究的重要指导思想.
+理论的统一是自然科学的长期目标。现代物理学为其成就提供了壮观的范例。
 从各种学科知识中可以发现，越具有普适性的统一理论，就越具有简单性，这样的理论和方法就越基础越伟大。
 
 纯函数管道数据流，基于道家和大统一理论的哲学，
