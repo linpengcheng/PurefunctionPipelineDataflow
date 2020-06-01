@@ -12,6 +12,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
+      - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
     - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
     - [The unification with `Microkernel Architecture`](#The-unification-with-Microkernel-Architecture)
     - [The unification with `Computer Hardware Architecture`](#The-unification-with-Computer-Hardware-Architecture)
@@ -54,7 +55,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [经典模型](#Classical-Model-经典模型)
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
-    - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)    
+    - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)
+      - [`微服务`和`智能线程`的统一](#微服务和智能线程的统一)
     - [和`信息系统集成模型`的统一](#和信息系统集成模型的统一)
     - [和`微内核架构`的统一](#和微内核架构的统一)
     - [和`计算机硬件体系`的统一](#和计算机硬件体系的统一)
@@ -383,7 +385,8 @@ Everything is unified:
     - Send the data to the thread, if the thread does not exist, create a thread.
     - Fire-and-Forget: Forget after sending the data.
     
-  - Workshop: Thread
+  - Workshop: Intelligent-thread,  Super-Microservice
+    - Because `Fire-and-Forget`, the thread should have autonomy and intelligence, so it is called `Intelligent-thread`.
     - Except for input / output data. It is isolated from the outside world, Forget after the data is sent to the warehouse.
     - Passive production: Lean Production, JIT (Just In Time) Production, production by order (production plan), 
       pursuit of zero inventory and quick response.
@@ -411,6 +414,16 @@ Everything is unified:
     - Finally, I think it would be better if `Flink Stateful Functions` adhered to the `Warehouse/Workshop Model` more strictly.
     
     - [Related discussions on clojureverse](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
+
+##### The unification of Microservice and Intelligent-thread
+
+Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed), Every Intelligent-thread is a microservice.
+
+  - Product: Standardized data
+  
+  - Warehouse: data management
+
+  - Workshop: Intelligent-thread,  Microservice
 
 #### The unification with Information System Integration Model
 
@@ -652,7 +665,8 @@ in any one workshop do not affect other workshops.
     - 把数据发送给线程, 如果线程不存在, 则创建一个线程.
     - 发送数据后不管.
     
-  - 车间: 线程.
+  - 车间: 智能线程, 超微服务.
+    - 因为`发射后不管`, 线程应具有自主性和智能性, 所以称为`智能线程`.
     - 除了接受输入数据, 输出数据. 与外界隔离, 数据交接后不管.
     - 被动生产: 精益生产，JIT（Just In Time）生产, 按订单(生产计划)生产，追求零库存和快速反应.
     - 主动惰性生产: 当仓库(缓存)数据低于最低库存水平时, 
@@ -677,6 +691,16 @@ in any one workshop do not affect other workshops.
     
     - [在 clojureverse 论坛上的相关讨论](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
+##### 微服务和智能线程的统一
+
+参考[和`微服务架构`的统一](#和微服务架构的统一), 每一个智能线程都是一个微服务.
+  
+  - 产品：标准化的数据
+  
+  - 仓库: 数据管理
+    
+  - 车间: 智能线程, 微服务.
+  
 #### 和信息系统集成模型的统一
 
 很多大企业有不同厂家生产的独立信息系统，需要整合集成。
