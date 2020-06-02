@@ -237,6 +237,14 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 
 ## Classical Model 经典模型
 
+```
+Analogy is an applied algebra.
+      ---- Lin Pengcheng
+
+The true sign of intelligence is not knowledge but imagination (analogy).
+      ---- Albert Einstein
+```
+
 This is a typical application of the philosophy of the `Tao` and the `Grand Unified Theory`.
 
 - data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
@@ -286,6 +294,14 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 ![Gantt chart](./doc/image/GanttChart.jpeg) 
 
 ![River](./doc/image/river.jpeg) 
+
+```
+类比是一种应用代数。
+        ---- 林鹏程
+
+智力的真正标志不是知识，而是想象力(类比)。
+        ---- 爱因斯坦
+```
 
 这是`道`和`大统一理论`的哲学的典型应用:
 
