@@ -243,7 +243,7 @@ The true sign of intelligence is not knowledge but imagination (analogy).
 ```
 
 Analogy is an application of algebraic thinking. Unlike the real world, in the virtual software world, 
-it is easy to map an old model to a new model, and implement upgrades according to the new model's standard specifications.
+it is very easy to map an old model to a new model and upgrade according to the standard specifications of the new model.
 
 This is a typical application of the philosophy of the `Tao` and the `Grand Unified Theory`.
 
