@@ -238,7 +238,7 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 ## Classical Model 经典模型
 
 ```
-Analogy is an applied algebra. these are very easy to implement to simulate substituting, transforming, 
+Analogy is an applied algebra. these are very easy to implement to simulate, substituting, transforming, 
 and standardizing between different models in the virtual software world.
       ---- Lin Pengcheng
 
