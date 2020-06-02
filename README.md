@@ -238,7 +238,8 @@ The sea sails by the helmsman and the programming moves toward the data. Initial
 ## Classical Model 经典模型
 
 ```
-Analogy is an applied algebra.
+Analogy is an applied algebra. these are very easy to implement to simulate substituting, transforming, 
+and standardizing between different models in the virtual software world.
       ---- Lin Pengcheng
 
 The true sign of intelligence is not knowledge but imagination (analogy).
@@ -296,7 +297,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 ![River](./doc/image/river.jpeg) 
 
 ```
-类比是一种应用代数。
+类比是一种应用代数。在不同的模型之间模拟、代入、转化和规范, 这些操作在虚拟的软件世界里是很容易实现的.
         ---- 林鹏程
 
 智力的真正标志不是知识，而是想象力(类比)。
