@@ -242,7 +242,8 @@ The true sign of intelligence is not knowledge but imagination (analogy).
       ---- Albert Einstein
 ```
 
-Analogy is an application of algebraic thinking. Unlike the real world, in the virtual software world, 
+Analogy is an application of algebraic thinking. An analogy may not be established in the real world, 
+but it must be established in the virtual software world,
 it is very easy to map an old model to a new model and upgrade according to the standard specifications of the new model.
 
 This is a typical application of the philosophy of the `Tao` and the `Grand Unified Theory`.
@@ -300,8 +301,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
         ---- 爱因斯坦
 ```
 
-类比是一种代数思维的应用。与真实世界不同, 在虚拟的软件世界里，把一个旧模型映射为一个新模型, 
-并按新模型的标准规范实现升级改造, 这是很容易的.
+类比是一种代数思维的应用。类比在真实世界不一定能成立, 但在虚拟的软件世界里它一定能成立，
+把一个旧模型映射为一个新模型, 并按新模型的标准规范实现升级改造, 这是很容易的.
 
 这是`道`和`大统一理论`的哲学的典型应用:
 
