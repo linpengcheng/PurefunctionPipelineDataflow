@@ -1634,6 +1634,8 @@ it has been rich and improved a lot.
 
 - [Differences in FP, OO and Dataflow 函数式编程、面向对象、数据流的差异](doc/fp_oo_dataflow.md)
 
+- [`纯函数管道数据流`与《天龙八部》逍遥派武学体系](doc/dataflow_xiaoyao.md)
+
 - [Office是数据库服务](doc/office_is_db.md)
 
 - [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
