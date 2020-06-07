@@ -245,7 +245,7 @@ The true sign of intelligence is not knowledge but imagination (analogy).
 Analogy is an application of algebraic thinking. An analogy may not be established in the real world, 
 but it must be established in the virtual software world,
 it is very easy to map an old model to a new model and upgrade according to the standard specifications of the new model.
-In management, it is called "absorption and merger". 
+In management, it is called "merger by absorption". 
 
 This is a typical application of the philosophy of the `Tao` and the `Grand Unified Theory`.
 
