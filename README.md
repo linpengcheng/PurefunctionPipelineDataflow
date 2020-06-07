@@ -192,13 +192,13 @@ Dataflow is formed by a series of pure functions in series.
 A dataflow code block as a function, equivalent to an integrated circuit element (or board)。
 A complete integrated system is formed by serial or parallel dataflow.
 
+Can also be said, Data and logic are strictly separated, 
+Element level separation of data and logic, data stream processing.
+
 利用纯函数的输入输出特性当作管道（导线）使用。
 数据经过一系列串联的纯函数形成数据流。
 一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
 通过串联或并联数据流，形成一个完整的集成系统。
-
-Can also be said, Data and logic are strictly separated, 
-Element level separation of data and logic, data stream processing.
 
 也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。
 
@@ -224,6 +224,10 @@ each step is simple, verifiable, replaceable, testable, pluggable, extensible,
 and easy to implement multithreading. 
 The clojure threading macro provides language-level support for PurefunctionPipeline&Dataflow.
 
+The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. 
+
+The design philosophy of industrial pipeline and pure function pipeline data flow is the same. In essence, they are: "Towards the goal, step by step until the final goal is reached." This method is really a boring activity after being proficient. This is the simplicity and repetition pursued by large industrial production lines.
+
 对我来说，编程就是设计一个操纵简单流畅的数据模型的过程，
 在我的项目里，80%以上的函数是由`->>`这类数据流线程宏代码块组成。
 每一步都是很简单、可验证、可测试、可替换、可插入、可扩展，
@@ -231,9 +235,9 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作函数，
 对纯函数管道数据流提供了语言级的支持。
 
-The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. 
-
 大海航行靠舵手，编程朝着数据走。初始状态，最终状态，两点间直线距离最短。简单直接是快速稳定可靠的根本。
+
+曾国潘打仗的要诀:"结硬寨，打呆仗。" 与工业流水线、纯函数管道数据流的设计哲学是一致的，本质上都是对准目标，步步为营，直至达到最后目标。这种方法用熟了，真是一项的无聊活动，这就是大工业生产线追求的简单与重复。
 
 ## Classical Model 经典模型
 
@@ -1518,6 +1522,18 @@ Implementing a pure pipeline system is a systematic engineering.
 Hard work must be done to build a complex system into a simple and smooth pure pipeline system. 
 This requires great wisdom and pays a lot of difficult Business Process Design (or Reengineering).
 
+```
+Everyone thinks that the sage has secret technology, dislikes simple technology, 
+and blindly pursues and uses complex technology.
+        ---- Wang Yangming, 
+             the most famous and well-known thinker, philosopher, calligrapher, 
+             strategist, and educator in China
+```
+
+In addition, As long as you have carefully read the "pure function pipeline data flow", 
+you will find that I only use the most basic common sense to solve the problem, 
+and did not use any too complicated and delicate technology.
+
 ### Principles-based are better than rules-based.
 
 - Principles should be few and important, and should not affect flexibility and creativity. 
@@ -1580,6 +1596,9 @@ it has been rich and improved a lot.
 做一件好事很容易，但一辈子做好事很难，
 写一个管道纯函数很容易，坚持写纯管道系统不容易。
 对本法有兴趣的人，可以坚持多应用，熟能生巧，功到自然成。
+
+王阳明：“尽道圣贤须有秘，翻嫌易简却求难。” 大家只要认真看过“纯函数管道数据流”，
+就会发现我只使用最基础的常识来解决问题，并没有使用任何太过复杂精巧的技术。
 
 ### 基于原则比基于规则更好。
 
