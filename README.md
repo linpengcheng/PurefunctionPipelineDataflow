@@ -226,7 +226,10 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 
 The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. 
 
-The design philosophy of industrial pipeline and pure function pipeline data flow is the same. In essence, they are: "Towards the goal, step by step until the final goal is reached." This method is really a boring activity after being proficient. This is the simplicity and repetition pursued by large industrial production lines.
+The design philosophy of industrial pipeline and pure function pipeline data flow is the same. 
+In essence, they are: "Towards the goal, step by step until the final goal is reached." 
+After using this method proficiently, it is a simple and repeated boring technique. 
+This is the simplicity and repetition pursued by large industrial production lines.
 
 对我来说，编程就是设计一个操纵简单流畅的数据模型的过程，
 在我的项目里，80%以上的函数是由`->>`这类数据流线程宏代码块组成。
@@ -237,7 +240,9 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 大海航行靠舵手，编程朝着数据走。初始状态，最终状态，两点间直线距离最短。简单直接是快速稳定可靠的根本。
 
-曾国潘打仗的要诀:"结硬寨，打呆仗。" 与工业流水线、纯函数管道数据流的设计哲学是一致的，本质上都是对准目标，步步为营，直至达到最后目标。这种方法用熟了，真是一项的无聊活动，这就是大工业生产线追求的简单与重复。
+曾国潘打仗的要诀:"结硬寨，打呆仗。" 与工业流水线、纯函数管道数据流的设计哲学是一致的，
+本质上都是对准目标，步步为营，直至达到最后目标。这种方法用熟了，真是一项简单和重复的无聊技术，
+这就是大工业生产线追求的简单与重复。
 
 ## Classical Model 经典模型
 
@@ -1515,16 +1520,17 @@ In this way there will be endless cases, there will always be endless ways to so
 
 I was asked why I didn't create several pipeline dataflow design patterns like OO and FP, and I thought, in Chinese Classic Myth Fiction "The Journey to the West", Bodhi  asked the monkey if he wanted to learn `Tiangang 36 change patterns` or `Disha 72 change patterns`, when the monkey chose `Disha 72 change patterns`, his failure has become a foregone conclusion, Bodhi who is the Taoist great God must understand the nature of the Tao, learn the laws of nature, The ever-changing truth, whether the monkey chose `Tiangang 36 change patterns`, or `Disha 72 change patterns`, his thoughts from then on stifled shackles, put on the invisible Tight curse, from then on can not approach  "Tao ", this is not teaching, but playing monkey. :-)
 
-### Simplicity does not mean easy
+### Simplicity
 
+Simplicity does not mean easy.
 The pure pipeline system is a simple system. but simplicity does not mean easy. 
 Implementing a pure pipeline system is a systematic engineering. 
 Hard work must be done to build a complex system into a simple and smooth pure pipeline system. 
 This requires great wisdom and pays a lot of difficult Business Process Design (or Reengineering).
 
 ```
-Everyone thinks that the sage has secret technology, dislikes simple technology, 
-and blindly pursues and uses complex technology.
+Many people think that sages have secret tricks, despise simple technology, and pursue complex, 
+difficult, and sophisticated technology, but this idea is completely contrary to the facts.
         ---- Wang Yangming, 
              the most famous and well-known thinker, philosopher, calligrapher, 
              strategist, and educator in China
@@ -1597,8 +1603,12 @@ it has been rich and improved a lot.
 写一个管道纯函数很容易，坚持写纯管道系统不容易。
 对本法有兴趣的人，可以坚持多应用，熟能生巧，功到自然成。
 
-王阳明：“尽道圣贤须有秘，翻嫌易简却求难。” 大家只要认真看过“纯函数管道数据流”，
-就会发现我只使用最基础的常识来解决问题，并没有使用任何太过复杂精巧的技术。
+```
+尽道圣贤须有秘，翻嫌易简却求难。
+        ---- 王阳明
+```
+
+大家只要认真看过“纯函数管道数据流”，就会发现我只使用最基础的常识来解决问题，并没有使用任何太过复杂精巧的技术。
 
 ### 基于原则比基于规则更好。
 
