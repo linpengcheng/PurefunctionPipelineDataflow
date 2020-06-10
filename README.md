@@ -22,10 +22,11 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)    
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
     - [Summary](#Summary)    
-- [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
-- [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
-- [The difference between it and Rx](#The-difference-between-it-and-Rx-它和Rx的区别)
-- [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
+- [The difference between it and others](#The-difference-between-it-and-others-它和其它方法的区别)
+  - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
+  - [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
+  - [The difference between it and Rx](#The-difference-between-it-and-Rx-它和Rx的区别)
+  - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
 - [Basic quality control](#Basic-quality-control-基本质量控制)
 - [Code Example](#Code-example-代码范例)
 - [Basic construction method](#Basic-construction-method-基本构造方法)
@@ -65,11 +66,12 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [和`Clojure Web应用程序模型`的统一](#和Clojure-Web应用程序模型的统一)    
     - [和`生命周期管理`的统一](#和生命周期管理的统一)    
     - [和`其他模型`的统一](#和其他模型的统一)    
-    - [小结](#小结)    
-- [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
-- [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
-- [它和Rx的区别](#The-difference-between-it-and-Rx-它和Rx的区别)
-- [它和传统FP语言里的类unix管道操作符的区别](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
+    - [小结](#小结)
+- [它和其它方法的区别](#The-difference-between-it-and-others-它和其它方法的区别)    
+  - [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
+  - [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
+  - [它和Rx的区别](#The-difference-between-it-and-Rx-它和Rx的区别)
+  - [它和传统FP语言里的类unix管道操作符的区别](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
 - [基本质量控制](#Basic-quality-control-基本质量控制)
 - [代码范例](#Code-example-代码范例)
 - [基本构造方法](#Basic-construction-method-基本构造方法)
@@ -860,24 +862,26 @@ in any one workshop do not affect other workshops.
 就象是乐高组件或船只的水密隔舱,
 任何一个车间的内部变动或异常不会影响其他车间.
 
-## Disadvantages of FP and OO 函数式编程和面向对象编程的缺点
+## The difference between it and others 它和其它方法的区别
+
+### Disadvantages of FP and OO 函数式编程和面向对象编程的缺点
 
 FP and OO are overly complicated, and it is not feasible in large industries. It is also a kind of production method that emphasizes personal technology in hand workshops. Personal technology greatly affects product quality and extremely unreliable production methods.FP and OO are actually taking a detour, highly embellished and ineffectual, and produce all kinds of fail.
-
-FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
 
 Excessive application of OO and FP design patterns, in addition to increasing complexity 
 and error probability, reduce performance, without any benefit. 
 Complex networks of relationships between objects in the OO system are also difficult to maintain..
 
+I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.. There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. I hope that my code can be understood by the junior programmer even in the most complicated system.
+
+FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
+
 过多的应用OO和FP的各种模式, 除了增加复杂性和出错概率,降低性能, 没有任何好处,
 OO系统中对象之间复杂的关系网也是难以维护的.
 
-I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.. There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. I hope that my code can be understood by the junior programmer even in the most complicated system.
-
 我倾向于用最简单的概念和最基本的技术、语法和函数构建系统，用来实现我的思想，纯函数管道数据流是最简单、稳定、可靠、可读性强. 在中国有一位伟大的诗人白居易，甚至文盲也理解和欣赏他的诗歌。 我希望即使在最复杂的系统中，初级程序员也能理解我的代码。
 
-## The difference between it and middleware 它和中间件的区别
+### The difference between it and middleware 它和中间件的区别
 
 The code looks similar, but the idea is essentially different.
 
@@ -902,7 +906,7 @@ only the data (current) can flow, which is the essential difference.
 我不能认同中间件的理念，和集成电路思想是冲突的。电路里，元件（电路板）是无法流转的，
 只有数据（电流）才能流转，这是本质的区别。
 
-## The difference between it and Rx 它和Rx的区别
+### The difference between it and Rx 它和Rx的区别
 
 It is essentially different between it and [Rx](http://reactivex.io/):
 
@@ -932,7 +936,7 @@ It is essentially different between it and [Rx](http://reactivex.io/):
 
 - Clojure语言根本不需要[RxClojure](https://github.com/ReactiveX/RxClojure)。
 
-## The difference between it and traditional unix-like pipe operator in FP language 它和传统FP语言里的类unix管道操作符的区别
+### The difference between it and traditional unix-like pipe operator in FP language 它和传统FP语言里的类unix管道操作符的区别
 
 - Traditional unix-like pipe operator in FP language
 
@@ -1199,15 +1203,7 @@ Confluence（reduce）: reduce the result of the shunt
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
 
-上善若水, 水能按需呈现任何形状, 随心所欲, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
-纯函数管道数据流就象水流一样, 近乎于道.
-
 Clojure just adds four persistent collections and some core functions to the JVM, and expresses the code with four persistent collections. It has no syntax, It can change as needed, like water flow, almost the Tao.
-
-Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四个持久集合表示代码。
-它没有语法, 它可以象水流那样, 随需变化, 近乎于道。
-
-![TaoTaiji](./doc/TaoTaiji.gif)
 
 Tao is simplicity, Tao is the law of nature, Tao is algorithm, Tao is everything in everywhere on everytime.
 Tao is the great unification of everything.
@@ -1216,6 +1212,13 @@ Accounting, Management, Architecture etc.
 everything can be used as Algorithms and Software Engineering Methods.
 They can transform each other.
 
+![TaoTaiji](./doc/TaoTaiji.gif)
+
+上善若水, 水能按需呈现任何形状, 随心所欲, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
+纯函数管道数据流就象水流一样, 近乎于道.
+
+Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四个持久集合表示代码。
+它没有语法, 它可以象水流那样, 随需变化, 近乎于道。
 
 大道至简, 道法自然, 道是算法, 道无处不在, 道是一切存在的大统一。
 所以, 集成电路技术、工业流水线生产技术、会计学、管理学、建筑学等,
@@ -1539,6 +1542,7 @@ difficult, and sophisticated technology, but this idea is completely contrary to
 In addition, As long as you have carefully read the "pure function pipeline data flow", 
 you will find that I only use the most basic common sense to solve the problem, 
 and did not use any too complicated and delicate technology.
+`Common sense` is `human best practice` or `the most widely used and reliable theory`.
 
 ### Principles-based are better than rules-based.
 
@@ -1609,6 +1613,7 @@ it has been rich and improved a lot.
 ```
 
 大家只要认真看过“纯函数管道数据流”，就会发现我只使用最基础的常识来解决问题，并没有使用任何太过复杂精巧的技术。
+常识是人类最佳实践或应用最广泛和最可靠的理论。
 
 ### 基于原则比基于规则更好。
 
