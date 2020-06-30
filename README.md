@@ -15,6 +15,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
     - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
     - [The unification with `Microkernel Architecture`](#The-unification-with-Microkernel-Architecture)
+    - [The unification with `AOP`](#The-unification-with-AOP)
     - [The unification with `Computer Hardware Architecture`](#The-unification-with-Computer-Hardware-Architecture)
     - [The unification with `Integrated Circuit System`](#The-unification-with-Integrated-Circuit-System)    
     - [The unification with `Programming Language Platform`](#The-unification-with-Programming-Language-Platform)    
@@ -60,6 +61,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
       - [`微服务`和`智能线程`的统一](#微服务和智能线程的统一)
     - [和`信息系统集成模型`的统一](#和信息系统集成模型的统一)
     - [和`微内核架构`的统一](#和微内核架构的统一)
+    - [和`AOP`的统一](#和AOP的统一)
     - [和`计算机硬件体系`的统一](#和计算机硬件体系的统一)
     - [和`集成电路系统`的统一](#和集成电路系统的统一)
     - [和`语言平台`的统一](#和语言平台的统一)    
@@ -501,6 +503,24 @@ Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronou
   - Workshop:  Plug-in modules
   - Product: Message, Data
   
+### The unification with AOP
+
+- Warehouse: stores two types of products.
+   - Data queue: Receive external data.
+   - Middleware queue: 
+     - Single queue or hash-map (classified queue), 
+     - Support dynamic modification,
+     - Contains pipe functions (middleware) 
+       that conform to data interface standards, 
+     - Similar to sewage treatment plants,
+       classify and treat the sewage flowing in from the outside.
+- Workshop
+   - Receive external data.
+   - According to the metadata carried by the input data, 
+     call the corresponding middleware queue for processing.
+   - Based on the metadata carried in the output data, 
+     call the externally received pipeline function. 
+  
 #### The unification with Computer Hardware Architecture
   
   The model uses memory as the core, not the CPU.
@@ -760,6 +780,18 @@ in any one workshop do not affect other workshops.
   - 仓库：微内核
   - 车间：插件模块
   - 产品: 消息, 数据
+  
+#### 和AOP的统一
+
+- 仓库：存储有两类产品
+  - 数据队列: 接收外部数据.
+  - 中间件队列: 单队列或hash-map(分类队列),支持动态修改,
+    容纳符合数据接口标准的管件函数(中间件), 类似于污水处理厂,
+    对外部流入的污水分类处理.
+- 车间
+  - 接收外部数据, 
+  - 根据输入数据所带的元数据, 调用相应的中间件队列处理.
+  - 根据输出数据所带的元数据, 调用外部接收的管道函数 
 
 #### 和计算机硬件体系的统一
 
