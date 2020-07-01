@@ -231,11 +231,17 @@ The clojure threading macro provides language-level support for PurefunctionPipe
 The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, 
 the shortest linear distance between two points. Simplicity is the root of fast, stable and reliable. 
 
+```
+Those who are good at war have no surprising victory, no reputation for wisdom, no honor for courage.
+        ---- Sun Wu, The Art of War
+             Famous Chinese military and politician, 
+             sage of military science, 
+             ancestor of Eastern military science
+```
+
 The design philosophy of industrial pipeline and pure function pipeline data flow is the same. 
 In essence, they are: "Towards the goal, Step by step, every step moves forward to the final goal 
-until the final goal is reached." Therefore, its success is inevitable, not surprising, 
-the process is a simple repetition, so "The Art of War" said: 
-Those who are good at fighting have no surprising military victories.
+until the final goal is reached." Therefore, its success is inevitable, not surprising, the process is a simple repetition.
 After using this method proficiently, it is a simple and repeated boring technique. 
 This is the simplicity and repetition pursued by large industrial production lines.
 
@@ -248,9 +254,15 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 大海航行靠舵手，编程朝着数据走。初始状态，最终状态，两点间直线距离最短。简单直接是快速稳定可靠的根本。
 
+```
+故善战者之胜也，无智名，无勇功，故其战胜不忒。
+(曹操批注: 善战者无赫赫之功。)
+        ---- 《孙子兵法.形篇》
+```
+
 曾国藩打仗的要诀:"结硬寨，打呆仗。" 与工业流水线、纯函数管道数据流的设计哲学是一致的，
 本质上都是对准目标，步步为营，每一步都向最终目标前进一步, 直至达到最后目标。
-因此, 它的成功是必然的, 毫不令人惊奇的, 过程是平淡的简单重复, 故《孙子兵法.形篇》曰: 善战者无赫赫之功.
+因此, 它的成功是必然的, 毫不令人惊奇的, 过程是平淡的简单重复.
 这种方法用熟了，真是一项简单和重复的无聊技术，这就是大工业生产线追求的简单与重复。
 
 
