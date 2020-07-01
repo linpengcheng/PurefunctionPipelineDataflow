@@ -8,6 +8,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ## Table of Contents
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
 - [Summary](#Summary-概述)
+- [Code Example](#Code-example-代码范例)
+- [Basic construction method](#Basic-construction-method-基本构造方法)
+  - [1. Pipeline Component](#Pipeline-Component-管道组件)
+  - [2. Branch](#Branch-分支)
+  - [3. Feedback circuit (reflow, whirlpool, recursive)](#Feedback-Circuit-反馈电路)
+  - [4. shunt (concurrent, parallel)](#Shunt-分流)
+  - [5. Confluence(reduce)](#Confluence-合流)
 - [Classical Model](#Classical-Model-经典模型)
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
@@ -29,13 +36,6 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [The difference between it and Rx](#The-difference-between-it-and-Rx-它和Rx的区别)
   - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
 - [Basic quality control](#Basic-quality-control-基本质量控制)
-- [Code Example](#Code-example-代码范例)
-- [Basic construction method](#Basic-construction-method-基本构造方法)
-  - [1. Pipeline Component](#Pipeline-Component-管道组件)
-  - [2. Branch](#Branch-分支)
-  - [3. Feedback circuit (reflow, whirlpool, recursive)](#Feedback-Circuit-反馈电路)
-  - [4. shunt (concurrent, parallel)](#Shunt-分流)
-  - [5. Confluence(reduce)](#Confluence-合流)
 - [Tao](#Tao-道)
 - [Killer Application](#Killer-Application-杀手级的应用)
   - [Software Design and Develop Automation (SDDA)](#Software-Design-and-Develop-Automation-软件设计和开发自动化)
@@ -54,6 +54,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ## 目录
 - [我的和其他人的相关观点](#My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
 - [概述](#Summary-概述)
+- [代码范例](#Code-example-代码范例)
+- [基本构造方法](#Basic-construction-method-基本构造方法)
+  - [1. 管道组件](#Pipeline-Component-管道组件)
+  - [2. 分支](#Branch-分支)
+  - [3. 反馈电路（回流, 漩涡, 递归）](#Feedback-Circuit-反馈电路)
+  - [4. 分流(并发, 并行)](#Shunt-分流)
+  - [5. 合流, 合一](#Confluence-合流)
 - [经典模型](#Classical-Model-经典模型)
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
@@ -75,13 +82,6 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [它和Rx的区别](#The-difference-between-it-and-Rx-它和Rx的区别)
   - [它和传统FP语言里的类unix管道操作符的区别](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
 - [基本质量控制](#Basic-quality-control-基本质量控制)
-- [代码范例](#Code-example-代码范例)
-- [基本构造方法](#Basic-construction-method-基本构造方法)
-  - [1. 管道组件](#Pipeline-Component-管道组件)
-  - [2. 分支](#Branch-分支)
-  - [3. 反馈电路（回流, 漩涡, 递归）](#Feedback-Circuit-反馈电路)
-  - [4. 分流(并发, 并行)](#Shunt-分流)
-  - [5. 合流, 合一](#Confluence-合流)
 - [道](#Tao-道)
 - [杀手级的应用](#Killer-Application-杀手级的应用)
   - [软件设计和开发自动化 (SDDA)](#Software-Design-and-Develop-Automation-软件设计和开发自动化)
@@ -252,6 +252,220 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 本质上都是对准目标，步步为营，每一步都向最终目标前进一步, 直至达到最后目标。
 因此, 它的成功是必然的, 毫不令人惊奇的, 过程是平淡的简单重复, 故《孙子兵法.形篇》曰: 善战者无赫赫之功.
 这种方法用熟了，真是一项简单和重复的无聊技术，这就是大工业生产线追求的简单与重复。
+
+
+## Code example 代码范例
+
+### Code example 01
+
+```clojure
+;Traditional expression, chaotic logic, unreadable.
+(if (and (> x1 x2)
+         (or (< x3 x4) 
+             (and (or (> y1 y2) 
+                      (< y3 y4))
+                  (not= x5 x6)))
+         (keyword? x7)) 
+  :t
+  :f)
+
+;Pure Function Pipeline Dataflow
+;Unrestricted expression, just read in order. 
+;Closer to the order of execution of the machine.
+(->  (> y1 y2)
+     (or  , (< y3 y4))
+     (and , (not= x5 x6))
+     (or  , (< x3 x4))
+     (and , (> x1 x2))
+     (and , (keyword? x7))       
+     (if  , :t :f))
+```
+
+### Code example 02
+
+```clojure
+(def data
+  {:a [[:b :c :d]
+       [:e :f :g]
+       [:h :i :j]]
+   :k [[:l :m :n]
+       [:o :p :q]
+       [:r :s :t]]})
+
+(defn f1 [[k v]]
+  (let [[h & t] v
+        f   (fn [x] (mapv #(vector :td %) x))
+        tds (map #(->> % f (into [:tr] ,)) t)]
+     (->> (f h)
+          (into [:tr [:td {:rowspan (count v)} k]] ,)
+          (conj tds ,))))
+
+(->> data
+     (reduce #(->> %2 f1 (into %1 ,)) [:tbody] ,)
+     (conj [:table] ,)
+     hiccup/html)
+
+```
+
+<table>
+    <tbody>
+       <tr><td rowspan=3>a</td>
+           <td>b</td>
+           <td>c</td>
+           <td>d</td></tr>
+       <tr><td>e</td>
+           <td>f</td>
+           <td>g</td></tr>
+       <tr><td>h</td>
+           <td>i</td>
+           <td>j</td></tr>
+       <tr><td rowspan=3>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td></tr>
+       <tr><td>o</td>
+            <td>p</td>
+            <td>q</td></tr>
+       <tr><td>r</td>
+            <td>s</td>
+            <td>t</td></tr>
+    </tbody>
+</table>
+
+
+## Basic construction method 基本构造方法
+
+### Pipeline Component 管道组件
+
+A ->> block function is equivalent to an integrated circuit component (or board).
+A series of functions in a ->> block can only have one function with side effects 
+and can only be at the end. 
+In addition, we must pay attention to the data standardization work, 
+verify the data at the entrance and exit, 
+and run at full speed in the middle, 
+which is simple, smooth, stable and efficient.
+
+一个->>块函数相当于一个集成电路元件（或板）,
+一个->>块里面的一系列函数，最多只能有一个带副作用的函数且只能处于末尾。
+另外，要注意做好数据标准化工作，在出入口检查，中间就可以极限裸奔，
+这样做简洁、流畅、稳定、高效。
+
+In the clojure language, it is recommended that the function be designed as 
+a single-parameter function with a hash-map type. 
+Like most functions in the R language, you can design many named parameters with default values, 
+which are highly scalable. 
+In addition, clojure has many core functions for operating hash-map, it's easy to operate,
+not only it may don't write parentheses when using ->> macro, 
+it can be integrated that parameter formation, verification, transformation and serial pipeline functions, 
+It is also convenient to deconstruct in clojure. 
+which is as convenient as multi-parameter functions.
+
+在clojure语言里，建议函数尽量设计成参数为hash-map类型的单参数函数，
+象R语言大多数函数那样，可以设计很多带默认值的命名参数，有很强的可扩展性。
+另外，clojure操作hash-map的核心函数很多，操作方便，不仅在使用->>宏时可以不用写括号，
+而且参数的形成，校验，变换与函数调用一体化、一条龙数据流处理。
+还有clojure解构方便，在使用上与多参数函数是一样方便的。
+
+```clojure
+(defn f [x]
+  (->> x
+       f1
+       f2))
+```
+
+```clojure
+(defn f [{:keys [x y] :as m}]
+  (->> x
+       (f1 y ,)
+       f2))
+```
+
+### Branch 分支
+
+A (cond) or (if) block as a function.
+
+一个(cond)或(if)块作为一个函数。
+
+```clojure
+(defn f [x]
+  (cond
+    (= x 1) (f1)
+    (= x 2) (f2)
+    :else   (f3)))
+```
+```clojure
+(defn f2 [x y]
+  (-> (> x 2)
+      (and , (< y 6))
+      (if , 25 30)))
+```
+```clojure
+(defn path-combine [s1 s2]
+  (cond
+    (string/starts-with? s2 "/") 
+      s2
+    (not (string/ends-with? s1 "/"))
+      (-> (string/split s1 #"[\\/]")
+          butlast
+          (#(string/join "/" %))
+          (str , "/")
+          (path-combine , s2)) 
+    :else  
+      (-> (string/join "/" [s1 s2])
+          (string/replace ,  #"[\\/]+" "/")))) 
+```
+
+### Feedback Circuit 反馈电路
+
+Feedback circuit (reflow, whirlpool, recursive): 
+A tail recursive function is equivalent to a feedback circuit. 
+
+Note: The map is batch processing. it can be regarded as similar to a queue of tourists. 
+Repeating the ticket checking action at the entrance is a forward action, 
+not feedback or reflow.
+
+反馈电路（回流, 漩涡, 递归）:
+一个尾递归函数相当于一个反馈电路。
+
+备注：map是批处理，可以看成类似对一个游客队列，在入口重复进行验票动作，
+是一个前进动作，不是反馈或回流。
+
+```clojure
+(defn f [i]
+  (if-not (zero? i)
+    (f1)
+    (-> i dec recur)))
+```
+
+### Shunt 分流
+
+Shunt（concurrent，parallel）,
+For example: data partitioning, parallel processing
+
+分流（并发，并行）,例如：对数据进行分块，并行处理
+
+```clojure
+(->> data
+     (partition n ,)
+     (pmap f ,))
+```
+```clojure
+(->> [pipe-f1 pipe-f2 pipe-f3]
+     (pmap #(% data) ,))
+```
+
+### Confluence 合流
+
+Confluence（reduce）: reduce the result of the shunt
+
+合流，合一: 对分流的结果进行reduce： 
+
+```clojure
+(->> data
+     (partition n ,)
+     (pmap f1 ,)
+     (reduce f2 ,))   
+```
 
 ## Classical Model 经典模型
 
@@ -512,8 +726,8 @@ Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronou
   
 ### The unification with AOP
 
-Similar to sewage treatment plants, the inflow of sewage 
-from outside is treated separately.
+Similar to in an industrial zone, there is a global professional sewage treatment plant, 
+the input sewage is treated separately.
 
 - Warehouse
    - Two types of data (products) are stored
@@ -800,7 +1014,7 @@ in any one workshop do not affect other workshops.
   
 #### 和AOP的统一
 
-类似于污水处理厂, 对外部流入的污水分类处理.
+类似于在一个工业区里, 有一个全局的专业的污水处理厂, 对外部流入的污水分类处理.
 
 - 仓库：
   - 存储有两类数据(产品)
@@ -1046,219 +1260,6 @@ Basic quality control of pure function pipeline data flow. The code must meet th
   - 如果山峦高度不高,且海拔高度值相近,意味着代码质量是好的.
   - 对于非Lisp语言, 则可以先把源代码转换为抽象语法树(AST)，再转换成等高线图,或3D山峦图.
 
-## Code example 代码范例
-
-### Code example 01
-
-```clojure
-;Traditional expression, chaotic logic, unreadable.
-(if (and (> x1 x2)
-         (or (< x3 x4) 
-             (and (or (> y1 y2) 
-                      (< y3 y4))
-                  (not= x5 x6)))
-         (keyword? x7)) 
-  :t
-  :f)
-
-;Pure Function Pipeline Dataflow
-;Unrestricted expression, just read in order. 
-;Closer to the order of execution of the machine.
-(->  (> y1 y2)
-     (or  , (< y3 y4))
-     (and , (not= x5 x6))
-     (or  , (< x3 x4))
-     (and , (> x1 x2))
-     (and , (keyword? x7))       
-     (if  , :t :f))
-```
-
-### Code example 02
-
-```clojure
-(def data
-  {:a [[:b :c :d]
-       [:e :f :g]
-       [:h :i :j]]
-   :k [[:l :m :n]
-       [:o :p :q]
-       [:r :s :t]]})
-
-(defn f1 [[k v]]
-  (let [[h & t] v
-        f   (fn [x] (mapv #(vector :td %) x))
-        tds (map #(->> % f (into [:tr] ,)) t)]
-     (->> (f h)
-          (into [:tr [:td {:rowspan (count v)} k]] ,)
-          (conj tds ,))))
-
-(->> data
-     (reduce #(->> %2 f1 (into %1 ,)) [:tbody] ,)
-     (conj [:table] ,)
-     hiccup/html)
-
-```
-
-<table>
-    <tbody>
-       <tr><td rowspan=3>a</td>
-           <td>b</td>
-           <td>c</td>
-           <td>d</td></tr>
-       <tr><td>e</td>
-           <td>f</td>
-           <td>g</td></tr>
-       <tr><td>h</td>
-           <td>i</td>
-           <td>j</td></tr>
-       <tr><td rowspan=3>k</td>
-            <td>l</td>
-            <td>m</td>
-            <td>n</td></tr>
-       <tr><td>o</td>
-            <td>p</td>
-            <td>q</td></tr>
-       <tr><td>r</td>
-            <td>s</td>
-            <td>t</td></tr>
-    </tbody>
-</table>
-
-
-## Basic construction method 基本构造方法
-
-### Pipeline Component 管道组件
-
-A ->> block function is equivalent to an integrated circuit component (or board).
-A series of functions in a ->> block can only have one function with side effects 
-and can only be at the end. 
-In addition, we must pay attention to the data standardization work, 
-verify the data at the entrance and exit, 
-and run at full speed in the middle, 
-which is simple, smooth, stable and efficient.
-
-一个->>块函数相当于一个集成电路元件（或板）,
-一个->>块里面的一系列函数，最多只能有一个带副作用的函数且只能处于末尾。
-另外，要注意做好数据标准化工作，在出入口检查，中间就可以极限裸奔，
-这样做简洁、流畅、稳定、高效。
-
-In the clojure language, it is recommended that the function be designed as 
-a single-parameter function with a hash-map type. 
-Like most functions in the R language, you can design many named parameters with default values, 
-which are highly scalable. 
-In addition, clojure has many core functions for operating hash-map, it's easy to operate,
-not only it may don't write parentheses when using ->> macro, 
-it can be integrated that parameter formation, verification, transformation and serial pipeline functions, 
-It is also convenient to deconstruct in clojure. 
-which is as convenient as multi-parameter functions.
-
-在clojure语言里，建议函数尽量设计成参数为hash-map类型的单参数函数，
-象R语言大多数函数那样，可以设计很多带默认值的命名参数，有很强的可扩展性。
-另外，clojure操作hash-map的核心函数很多，操作方便，不仅在使用->>宏时可以不用写括号，
-而且参数的形成，校验，变换与函数调用一体化、一条龙数据流处理。
-还有clojure解构方便，在使用上与多参数函数是一样方便的。
-
-```clojure
-(defn f [x]
-  (->> x
-       f1
-       f2))
-```
-
-```clojure
-(defn f [{:keys [x y] :as m}]
-  (->> x
-       (f1 y ,)
-       f2))
-```
-
-### Branch 分支
-
-A (cond) or (if) block as a function.
-
-一个(cond)或(if)块作为一个函数。
-
-```clojure
-(defn f [x]
-  (cond
-    (= x 1) (f1)
-    (= x 2) (f2)
-    :else   (f3)))
-```
-```clojure
-(defn f2 [x y]
-  (-> (> x 2)
-      (and , (< y 6))
-      (if , 25 30)))
-```
-```clojure
-(defn path-combine [s1 s2]
-  (cond
-    (string/starts-with? s2 "/") 
-      s2
-    (not (string/ends-with? s1 "/"))
-      (-> (string/split s1 #"[\\/]")
-          butlast
-          (#(string/join "/" %))
-          (str , "/")
-          (path-combine , s2)) 
-    :else  
-      (-> (string/join "/" [s1 s2])
-          (string/replace ,  #"[\\/]+" "/")))) 
-```
-
-### Feedback Circuit 反馈电路
-
-Feedback circuit (reflow, whirlpool, recursive): 
-A tail recursive function is equivalent to a feedback circuit. 
-
-Note: The map is batch processing. it can be regarded as similar to a queue of tourists. 
-Repeating the ticket checking action at the entrance is a forward action, 
-not feedback or reflow.
-
-反馈电路（回流, 漩涡, 递归）:
-一个尾递归函数相当于一个反馈电路。
-
-备注：map是批处理，可以看成类似对一个游客队列，在入口重复进行验票动作，
-是一个前进动作，不是反馈或回流。
-
-```clojure
-(defn f [i]
-  (if-not (zero? i)
-    (f1)
-    (-> i dec recur)))
-```
-
-### Shunt 分流
-
-Shunt（concurrent，parallel）,
-For example: data partitioning, parallel processing
-
-分流（并发，并行）,例如：对数据进行分块，并行处理
-
-```clojure
-(->> data
-     (partition n ,)
-     (pmap f ,))
-```
-```clojure
-(->> [pipe-f1 pipe-f2 pipe-f3]
-     (pmap #(% data) ,))
-```
-
-### Confluence 合流
-
-Confluence（reduce）: reduce the result of the shunt
-
-合流，合一: 对分流的结果进行reduce： 
-
-```clojure
-(->> data
-     (partition n ,)
-     (pmap f1 ,)
-     (reduce f2 ,))   
-```
-
 ## Tao 道
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
@@ -1326,7 +1327,6 @@ on the logical model, it solves the problem of Fred Brooks.
 - AI根据初始状态和最终状态的数据标准规范. AI从管道组件库选择组件, 
   组合符合数据标准规范的管道组件以完成任务, 若缺乏相应的管道组件,
   它可以被AI自动生成(或开发人员手工开发).
-
 
 ## Great Historical Significance 重大历史意义
 
