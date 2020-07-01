@@ -235,7 +235,7 @@ The design philosophy of industrial pipeline and pure function pipeline data flo
 In essence, they are: "Towards the goal, Step by step, every step moves forward to the final goal 
 until the final goal is reached." Therefore, its success is inevitable, not surprising, 
 the process is a simple repetition, so "The Art of War" said: 
-Those who are good at fighting do not have brilliant military achievements.
+Those who are good at fighting have no surprising military victories.
 After using this method proficiently, it is a simple and repeated boring technique. 
 This is the simplicity and repetition pursued by large industrial production lines.
 
