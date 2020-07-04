@@ -8,13 +8,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ## Table of Contents
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
 - [Summary](#Summary-概述)
-- [Code Example](#Code-example-代码范例)
 - [Basic construction method](#Basic-construction-method-基本构造方法)
   - [1. Pipeline Component](#Pipeline-Component-管道组件)
   - [2. Branch](#Branch-分支)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#Feedback-Circuit-反馈电路)
   - [4. shunt (concurrent, parallel)](#Shunt-分流)
   - [5. Confluence(reduce)](#Confluence-合流)
+- [Code Example](#Code-example-代码范例)
 - [Classical Model](#Classical-Model-经典模型)
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
@@ -23,6 +23,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
     - [The unification with `Microkernel Architecture`](#The-unification-with-Microkernel-Architecture)
     - [The unification with `AOP`](#The-unification-with-AOP)
+    - [The unification with `Event-driven Architecture`](#The-unification-with-Event-driven-Architecture)
     - [The unification with `Computer Hardware Architecture`](#The-unification-with-Computer-Hardware-Architecture)
     - [The unification with `Integrated Circuit System`](#The-unification-with-Integrated-Circuit-System)    
     - [The unification with `Programming Language Platform`](#The-unification-with-Programming-Language-Platform)    
@@ -54,13 +55,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ## 目录
 - [我的和其他人的相关观点](#My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
 - [概述](#Summary-概述)
-- [代码范例](#Code-example-代码范例)
 - [基本构造方法](#Basic-construction-method-基本构造方法)
   - [1. 管道组件](#Pipeline-Component-管道组件)
   - [2. 分支](#Branch-分支)
   - [3. 反馈电路（回流, 漩涡, 递归）](#Feedback-Circuit-反馈电路)
   - [4. 分流(并发, 并行)](#Shunt-分流)
   - [5. 合流, 合一](#Confluence-合流)
+- [代码范例](#Code-example-代码范例)
 - [经典模型](#Classical-Model-经典模型)
   - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
@@ -69,6 +70,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [和`信息系统集成模型`的统一](#和信息系统集成模型的统一)
     - [和`微内核架构`的统一](#和微内核架构的统一)
     - [和`AOP`的统一](#和AOP的统一)
+    - [和`事件驱动架构`的统一](#和事件驱动架构的统一)
     - [和`计算机硬件体系`的统一](#和计算机硬件体系的统一)
     - [和`集成电路系统`的统一](#和集成电路系统的统一)
     - [和`语言平台`的统一](#和语言平台的统一)    
@@ -265,86 +267,6 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 因此, 它的成功是必然的, 毫不令人惊奇的, 过程是平淡的简单重复.
 这种方法用熟了，真是一项简单和重复的无聊技术，这就是大工业生产线追求的简单与重复。
 
-
-## Code example 代码范例
-
-### Code example 01
-
-```clojure
-;Traditional expression, chaotic logic, unreadable.
-(if (and (> x1 x2)
-         (or (< x3 x4) 
-             (and (or (> y1 y2) 
-                      (< y3 y4))
-                  (not= x5 x6)))
-         (keyword? x7)) 
-  :t
-  :f)
-
-;Pure Function Pipeline Dataflow
-;Unrestricted expression, just read in order. 
-;Closer to the order of execution of the machine.
-(->  (> y1 y2)
-     (or  , (< y3 y4))
-     (and , (not= x5 x6))
-     (or  , (< x3 x4))
-     (and , (> x1 x2))
-     (and , (keyword? x7))       
-     (if  , :t :f))
-```
-
-### Code example 02
-
-```clojure
-(def data
-  {:a [[:b :c :d]
-       [:e :f :g]
-       [:h :i :j]]
-   :k [[:l :m :n]
-       [:o :p :q]
-       [:r :s :t]]})
-
-(defn f1 [[k v]]
-  (let [[h & t] v
-        f   (fn [x] (mapv #(vector :td %) x))
-        tds (map #(->> % f (into [:tr] ,)) t)]
-     (->> (f h)
-          (into [:tr [:td {:rowspan (count v)} k]] ,)
-          (conj tds ,))))
-
-(->> data
-     (reduce #(->> %2 f1 (into %1 ,)) [:tbody] ,)
-     (conj [:table] ,)
-     hiccup/html)
-
-```
-
-<table>
-    <tbody>
-       <tr><td rowspan=3>a</td>
-           <td>b</td>
-           <td>c</td>
-           <td>d</td></tr>
-       <tr><td>e</td>
-           <td>f</td>
-           <td>g</td></tr>
-       <tr><td>h</td>
-           <td>i</td>
-           <td>j</td></tr>
-       <tr><td rowspan=3>k</td>
-            <td>l</td>
-            <td>m</td>
-            <td>n</td></tr>
-       <tr><td>o</td>
-            <td>p</td>
-            <td>q</td></tr>
-       <tr><td>r</td>
-            <td>s</td>
-            <td>t</td></tr>
-    </tbody>
-</table>
-
-
 ## Basic construction method 基本构造方法
 
 ### Pipeline Component 管道组件
@@ -478,6 +400,84 @@ Confluence（reduce）: reduce the result of the shunt
      (pmap f1 ,)
      (reduce f2 ,))   
 ```
+
+## Code example 代码范例
+
+### Code example 01
+
+```clojure
+;Traditional expression, chaotic logic, unreadable.
+(if (and (> x1 x2)
+         (or (< x3 x4) 
+             (and (or (> y1 y2) 
+                      (< y3 y4))
+                  (not= x5 x6)))
+         (keyword? x7)) 
+  :t
+  :f)
+
+;Pure Function Pipeline Dataflow
+;Unrestricted expression, just read in order. 
+;Closer to the order of execution of the machine.
+(->  (> y1 y2)
+     (or  , (< y3 y4))
+     (and , (not= x5 x6))
+     (or  , (< x3 x4))
+     (and , (> x1 x2))
+     (and , (keyword? x7))       
+     (if  , :t :f))
+```
+
+### Code example 02
+
+```clojure
+(def data
+  {:a [[:b :c :d]
+       [:e :f :g]
+       [:h :i :j]]
+   :k [[:l :m :n]
+       [:o :p :q]
+       [:r :s :t]]})
+
+(defn f1 [[k v]]
+  (let [[h & t] v
+        f   (fn [x] (mapv #(vector :td %) x))
+        tds (map #(->> % f (into [:tr] ,)) t)]
+     (->> (f h)
+          (into [:tr [:td {:rowspan (count v)} k]] ,)
+          (conj tds ,))))
+
+(->> data
+     (reduce #(->> %2 f1 (into %1 ,)) [:tbody] ,)
+     (conj [:table] ,)
+     hiccup/html)
+
+```
+
+<table>
+    <tbody>
+       <tr><td rowspan=3>a</td>
+           <td>b</td>
+           <td>c</td>
+           <td>d</td></tr>
+       <tr><td>e</td>
+           <td>f</td>
+           <td>g</td></tr>
+       <tr><td>h</td>
+           <td>i</td>
+           <td>j</td></tr>
+       <tr><td rowspan=3>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td></tr>
+       <tr><td>o</td>
+            <td>p</td>
+            <td>q</td></tr>
+       <tr><td>r</td>
+            <td>s</td>
+            <td>t</td></tr>
+    </tbody>
+</table>
 
 ## Classical Model 经典模型
 
@@ -763,6 +763,15 @@ the input sewage is treated separately.
        the key (type) of the input data and  the middleware.
    - Based on the metadata carried in the output data, 
      call the external receiving pipeline function.
+     
+### The unification with Event-driven Architecture
+
+- Warehouse
+   - The database has a trigger mechanism
+   - Clojure has `add-watch`
+- Workshop
+   - Database trigger
+   - Clojure's `watch` function     
   
 #### The unification with Computer Hardware Architecture
   
@@ -1046,6 +1055,15 @@ in any one workshop do not affect other workshops.
     - 单队列: 根据输入数据所带的元数据
     - hash-map(分类队列): 根据输入数据和中间件的键(类型)
   - 根据输出数据所带的元数据, 调用外部的接收的管道函数 
+  
+#### 和事件驱动架构的统一
+
+- 仓库
+  - 数据库有触发器机制
+  - Clojure有`add-watch`
+- 车间
+  - 数据库的触发器
+  - Clojure的`watch`函数
 
 #### 和计算机硬件体系的统一
 
