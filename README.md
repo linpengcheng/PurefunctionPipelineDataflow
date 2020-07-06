@@ -640,6 +640,8 @@ Everything is unified:
   until the task is completed. There is no waiting in the entire process, but the production plan is generated according to the order, 
   with the warehouse as the center, and each workshop independently produces in parallel.
   
+  Existing pragmatic "Fire-and-Forget" concurrency and parallel technology: software transactional memory (STM), multi-versioned concurrency control (MVCC), git.  
+  
   - Product: Standardized data
   
   - Warehouse: data management, sending & receiving, like: 
@@ -958,6 +960,8 @@ in any one workshop do not affect other workshops.
   例如在工厂里，不会发生一个车间在生产流程中途停下来, 蹲在另一个车间门口等米下锅，每个车间都只与仓库交互，
   主线程（也是车间）发出订单数据后，由仓库生成生产计划，据此发送数据（消息）到相关车间生产，
   直至完成任务， 在整个过程中没有发生等待，只是根据订单生成生产计划，以仓库为中心，各车间独立并行生产。
+  
+  现有的务实的 “发射后不管”并发、并行技术: 软件事务内存(STM), 多版本并发控制(MVCC), git.  
   
   - 产品：标准化的数据
   
