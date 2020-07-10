@@ -1,4 +1,4 @@
-[goto Chinese edition](#Readme_Chinese.md)
+[goto Chinese edition (中文版)](./Readme_Chinese.md)
 
 # The Pure Function Pipeline Data Flow v3.0 ---- the Great Unification Programming Theory
 
