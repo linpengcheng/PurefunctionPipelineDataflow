@@ -6,17 +6,17 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 版权所有 © 2018 林鹏程， 保留所有权利。
 
 ## Table of Contents
-- [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
-- [Summary](#Summary-概述)
-- [Basic construction method](#Basic-construction-method-基本构造方法)
-  - [1. Pipeline Component](#Pipeline-Component-管道组件)
-  - [2. Branch](#Branch-分支)
-  - [3. Feedback circuit (reflow, whirlpool, recursive)](#Feedback-Circuit-反馈电路)
-  - [4. shunt (concurrent, parallel)](#Shunt-分流)
-  - [5. Confluence(reduce)](#Confluence-合流)
-- [Code Example](#Code-example-代码范例)
-- [Classical Model](#Classical-Model-经典模型)
-  - [Warehouse/Workshop Model](#Warehouse-Workshop-Model-仓库车间模型)
+- [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
+- [Summary](#Summary)
+- [Basic construction method](#Basic-construction-method)
+  - [1. Pipeline Component](#1-Pipeline-Component)
+  - [2. Branch](#2-Branch)
+  - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
+  - [4. shunt (concurrent, parallel)](#4-Shunt)
+  - [5. Confluence(reduce)](#5-Confluence)
+- [Code Example](#Code-example)
+- [Classical Model](#Classical-Model)
+  - [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
@@ -53,17 +53,17 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 ----
 
 ## 目录
-- [我的和其他人的相关观点](#My-and-Other-Peoples-Related-Views-我的和其他人的相关观点)
-- [概述](#Summary-概述)
-- [基本构造方法](#Basic-construction-method-基本构造方法)
-  - [1. 管道组件](#Pipeline-Component-管道组件)
-  - [2. 分支](#Branch-分支)
-  - [3. 反馈电路（回流, 漩涡, 递归）](#Feedback-Circuit-反馈电路)
-  - [4. 分流(并发, 并行)](#Shunt-分流)
-  - [5. 合流, 合一](#Confluence-合流)
-- [代码范例](#Code-example-代码范例)
-- [经典模型](#Classical-Model-经典模型)
-  - [仓库/车间模型](#Warehouse-Workshop-Model-仓库车间模型)
+- [我的和其他人的相关观点](#我的和其他人的相关观点)
+- [概述](#概述)
+- [基本构造方法](#基本构造方法)
+  - [1. 管道组件](#1-管道组件)
+  - [2. 分支](#2-分支)
+  - [3. 反馈电路（回流, 漩涡, 递归）](#3-反馈电路)
+  - [4. 分流(并发, 并行)](#4-分流)
+  - [5. 合流, 合一](#5-合流)
+- [代码范例](#Code-example)
+- [经典模型](#经典模型)
+  - [仓库/车间模型](#仓库车间模型)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
     - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)
       - [`微服务`和`智能线程`的统一](#微服务和智能线程的统一)
@@ -99,7 +99,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ----
   
-## My and Other Peoples Related Views 我的和其他人的相关观点
+## My and Other Peoples Related Views
 
 ```
 Keep it Simple and Unified.
@@ -150,7 +150,11 @@ Metaphors for a Richer Understanding of Software Development.
         
 Principles-based are better than rules-based.
         ----International Accounting Standards        
+```
 
+## 我的和其他人的相关观点
+
+```
 大道至简，万法归宗。
         ---- 林鹏程
 
@@ -191,7 +195,7 @@ Clojure格言：交织的变化网意味着，代码的任何变化都可能会�
        ----国际会计准则
 ``` 
 
-## Summary 概述
+## Summary
 
 Using the input and output characteristics of pure functions, pure functions are used as pipelines.
 Dataflow is formed by a series of pure functions in series.
@@ -200,13 +204,6 @@ A complete integrated system is formed by serial or parallel dataflow.
 
 Can also be said, Data and logic are strictly separated, 
 Element level separation of data and logic, data stream processing.
-
-利用纯函数的输入输出特性当作管道（导线）使用。
-数据经过一系列串联的纯函数形成数据流。
-一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
-通过串联或并联数据流，形成一个完整的集成系统。
-
-也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。
 
 ```clojure
 (defn f [[evens odds total amax amin] x]
@@ -247,6 +244,31 @@ until the final goal is reached." Therefore, its success is inevitable, not surp
 After using this method proficiently, it is a simple and repeated boring technique. 
 This is the simplicity and repetition pursued by large industrial production lines.
 
+## 概述
+
+利用纯函数的输入输出特性当作管道（导线）使用。
+数据经过一系列串联的纯函数形成数据流。
+一个数据流代码块作为一个函数，相当于一个集成电路元件（或板）。
+通过串联或并联数据流，形成一个完整的集成系统。
+
+也可以换种说法，数据和逻辑严格分离，数据和逻辑的元素级分离，数据流处理。
+
+```clojure
+(defn f [[evens odds total amax amin] x]
+  (let [[evens odds] (cond 
+                       (even? x) [(inc evens ) odds]
+                       (odd? x)  [evens (inc odds)]
+                       :else     [evens odds])
+        total (+ total x)
+        amax  (max amax x)
+        amin  (min amin x)]   
+     [evens odds total amax amin]))
+
+(reduce f [0 0 0 ##-Inf ##Inf] [5 6 8 -3 -9 11 156 6 7])
+
+;;[4 5 187 156 -9]
+```
+
 对我来说，编程就是设计一个操纵简单流畅的数据模型的过程，
 在我的项目里，80%以上的函数是由`->>`这类数据流线程宏代码块组成。
 每一步都是很简单、可验证、可测试、可替换、可插入、可扩展，
@@ -267,9 +289,9 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 因此, 它的成功是必然的, 毫不令人惊奇的, 过程是平淡的简单重复.
 这种方法用熟了，真是一项简单和重复的无聊技术，这就是大工业生产线追求的简单与重复。
 
-## Basic construction method 基本构造方法
+## Basic construction method
 
-### Pipeline Component 管道组件
+### 1 Pipeline Component
 
 A ->> block function is equivalent to an integrated circuit component (or board).
 A series of functions in a ->> block can only have one function with side effects 
@@ -278,11 +300,6 @@ In addition, we must pay attention to the data standardization work,
 verify the data at the entrance and exit, 
 and run at full speed in the middle, 
 which is simple, smooth, stable and efficient.
-
-一个->>块函数相当于一个集成电路元件（或板）,
-一个->>块里面的一系列函数，最多只能有一个带副作用的函数且只能处于末尾。
-另外，要注意做好数据标准化工作，在出入口检查，中间就可以极限裸奔，
-这样做简洁、流畅、稳定、高效。
 
 In the clojure language, it is recommended that the function be designed as 
 a single-parameter function with a hash-map type. 
@@ -293,6 +310,104 @@ not only it may don't write parentheses when using ->> macro,
 it can be integrated that parameter formation, verification, transformation and serial pipeline functions, 
 It is also convenient to deconstruct in clojure. 
 which is as convenient as multi-parameter functions.
+
+```clojure
+(defn f [x]
+  (->> x
+       f1
+       f2))
+```
+
+```clojure
+(defn f [{:keys [x y] :as m}]
+  (->> x
+       (f1 y ,)
+       f2))
+```
+
+### 2 Branch
+
+A (cond) or (if) block as a function.
+
+```clojure
+(defn f [x]
+  (cond
+    (= x 1) (f1)
+    (= x 2) (f2)
+    :else   (f3)))
+```
+```clojure
+(defn f2 [x y]
+  (-> (> x 2)
+      (and , (< y 6))
+      (if , 25 30)))
+```
+```clojure
+(defn path-combine [s1 s2]
+  (cond
+    (string/starts-with? s2 "/") 
+      s2
+    (not (string/ends-with? s1 "/"))
+      (-> (string/split s1 #"[\\/]")
+          butlast
+          (#(string/join "/" %))
+          (str , "/")
+          (path-combine , s2)) 
+    :else  
+      (-> (string/join "/" [s1 s2])
+          (string/replace ,  #"[\\/]+" "/")))) 
+```
+
+### 3 Feedback Circuit
+
+Feedback circuit (reflow, whirlpool, recursive): 
+A tail recursive function is equivalent to a feedback circuit. 
+
+Note: The map is batch processing. it can be regarded as similar to a queue of tourists. 
+Repeating the ticket checking action at the entrance is a forward action, 
+not feedback or reflow.
+
+```clojure
+(defn f [i]
+  (if-not (zero? i)
+    (f1)
+    (-> i dec recur)))
+```
+
+### 4 Shunt
+
+Shunt（concurrent，parallel）,
+For example: data partitioning, parallel processing
+
+```clojure
+(->> data
+     (partition n ,)
+     (pmap f ,))
+```
+```clojure
+(->> [pipe-f1 pipe-f2 pipe-f3]
+     (pmap #(% data) ,))
+```
+
+### 5 Confluence
+
+Confluence（reduce）: reduce the result of the shunt
+
+```clojure
+(->> data
+     (partition n ,)
+     (pmap f1 ,)
+     (reduce f2 ,))   
+```
+
+## 基本构造方法
+
+### 1 管道组件
+
+一个->>块函数相当于一个集成电路元件（或板）,
+一个->>块里面的一系列函数，最多只能有一个带副作用的函数且只能处于末尾。
+另外，要注意做好数据标准化工作，在出入口检查，中间就可以极限裸奔，
+这样做简洁、流畅、稳定、高效。
 
 在clojure语言里，建议函数尽量设计成参数为hash-map类型的单参数函数，
 象R语言大多数函数那样，可以设计很多带默认值的命名参数，有很强的可扩展性。
@@ -314,9 +429,7 @@ which is as convenient as multi-parameter functions.
        f2))
 ```
 
-### Branch 分支
-
-A (cond) or (if) block as a function.
+### 2 分支
 
 一个(cond)或(if)块作为一个函数。
 
@@ -349,14 +462,7 @@ A (cond) or (if) block as a function.
           (string/replace ,  #"[\\/]+" "/")))) 
 ```
 
-### Feedback Circuit 反馈电路
-
-Feedback circuit (reflow, whirlpool, recursive): 
-A tail recursive function is equivalent to a feedback circuit. 
-
-Note: The map is batch processing. it can be regarded as similar to a queue of tourists. 
-Repeating the ticket checking action at the entrance is a forward action, 
-not feedback or reflow.
+### 3 反馈电路
 
 反馈电路（回流, 漩涡, 递归）:
 一个尾递归函数相当于一个反馈电路。
@@ -371,10 +477,7 @@ not feedback or reflow.
     (-> i dec recur)))
 ```
 
-### Shunt 分流
-
-Shunt（concurrent，parallel）,
-For example: data partitioning, parallel processing
+### 4 分流
 
 分流（并发，并行）,例如：对数据进行分块，并行处理
 
@@ -388,9 +491,7 @@ For example: data partitioning, parallel processing
      (pmap #(% data) ,))
 ```
 
-### Confluence 合流
-
-Confluence（reduce）: reduce the result of the shunt
+### 5 合流
 
 合流，合一: 对分流的结果进行reduce： 
 
@@ -401,7 +502,7 @@ Confluence（reduce）: reduce the result of the shunt
      (reduce f2 ,))   
 ```
 
-## Code example 代码范例
+## Code example
 
 ### Code example 01
 
@@ -479,7 +580,7 @@ Confluence（reduce）: reduce the result of the shunt
     </tbody>
 </table>
 
-## Classical Model 经典模型
+## Classical Model
 
 ```
 The true sign of intelligence is not knowledge but imagination (analogy).
@@ -541,6 +642,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ![River](./doc/image/river.jpeg) 
 
+## 经典模型
+
 ```
 智力的真正标志不是知识，而是想象力(类比)。
         ---- 爱因斯坦
@@ -586,7 +689,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     流程中的每一个节点就是管道函数(纯函数), 这就是`纯函数管道数据流`.
   - 波音公司的脉动生产线技术, 就象长江从源头出发, 沿途汇流, 百川东到海. 它也是**甘特图**的一个变种.
 
-### Warehouse Workshop Model 仓库车间模型
+### Warehouse Workshop Model
 
 Warehouse(database, pool)/Workshop(pipeline) Model is simple and practical model, 
 and the large industrial assembly line is the mainstream production technology in the world.
@@ -922,7 +1025,11 @@ a ship's watertight compartment,
 internal changes or abnormalities 
 in any one workshop do not affect other workshops.  
 
+###  仓库车间模型
+
 仓库（数据库，池）/车间（管道）模型是一个简单实用的模型，而且大型工业流水线是世界上主流的生产技术。
+
+![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
 
 万法归宗 ---- 一切的终极大统一:
 
