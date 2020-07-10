@@ -1,4 +1,4 @@
-[goto English edition](#README.md)
+[goto English edition (英文版)](./README.md)
 
 # 纯函数管道数据流  v3.0 ---- 大统一编程理论
 
