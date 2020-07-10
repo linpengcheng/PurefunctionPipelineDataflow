@@ -48,7 +48,7 @@
   - [一切都是RMDB](doc/Everything_is_RMDB.md)
   - [在hash-map(NoSQL)的基础上实现关系式数据模型和编程](doc/relational_model_on_hashmap.md)
   - [不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
-  - [其他文章目录](#Other-Articles-Table-of-Contents-其他文章目录)
+  - [其他文章目录](#其他文章目录)
 
 ----
 
@@ -895,7 +895,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 相比我第一次设置博客时的内容，它已经丰富和改进了很多。
 
 
-## Other Articles Table of Contents 其他文章目录
+## 其他文章目录
 
 ### English + Chinese
 
