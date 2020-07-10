@@ -31,17 +31,17 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)    
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
     - [Summary](#Summary)    
-- [The difference between it and others](#The-difference-between-it-and-others-它和其它方法的区别)
-  - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
-  - [The difference between it and middleware](#The-difference-between-it-and-middleware-它和中间件的区别)
-  - [The difference between it and Rx](#The-difference-between-it-and-Rx-它和Rx的区别)
-  - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
-- [Basic quality control](#Basic-quality-control-基本质量控制)
-- [Tao](#Tao-道)
-- [Killer Application](#Killer-Application-杀手级的应用)
-  - [Software Design and Develop Automation (SDDA)](#Software-Design-and-Develop-Automation-软件设计和开发自动化)
-- [Great Historical Significance](#Great-Historical-Significance-重大历史意义)
-- [Postscript](#Postscript-后记)
+- [The difference between it and others](#The-difference-between-it-and-others)
+  - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO)
+  - [The difference between it and middleware](#The-difference-between-it-and-middleware)
+  - [The difference between it and Rx](#The-difference-between-it-and-Rx)
+  - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language)
+- [Basic quality control](#Basic-quality-control)
+- [Tao](#Tao)
+- [Killer Application](#Killer-Application)
+  - [Software Design and Develop Automation (SDDA)](#Software-Design-and-Develop-Automation)
+- [Great Historical Significance](#Great-Historical-Significance)
+- [Postscript](#Postscript)
 - Appendix:
   - [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
@@ -78,17 +78,17 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [和`生命周期管理`的统一](#和生命周期管理的统一)    
     - [和`其他模型`的统一](#和其他模型的统一)    
     - [小结](#小结)
-- [它和其它方法的区别](#The-difference-between-it-and-others-它和其它方法的区别)    
-  - [函数式编程和面向对象编程的缺点](#Disadvantages-of-FP-and-OO-函数式编程和面向对象编程的缺点)
-  - [它和中间件的区别](#The-difference-between-it-and-middleware-它和中间件的区别)
-  - [它和Rx的区别](#The-difference-between-it-and-Rx-它和Rx的区别)
-  - [它和传统FP语言里的类unix管道操作符的区别](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language-它和传统FP语言里的类unix管道操作符的区别)
-- [基本质量控制](#Basic-quality-control-基本质量控制)
-- [道](#Tao-道)
-- [杀手级的应用](#Killer-Application-杀手级的应用)
-  - [软件设计和开发自动化 (SDDA)](#Software-Design-and-Develop-Automation-软件设计和开发自动化)
-- [重大历史意义](#Great-Historical-Significance-重大历史意义)
-- [后记](#Postscript-后记)
+- [它和其它方法的区别](#它和其它方法的区别)    
+  - [函数式编程和面向对象编程的缺点](#函数式编程和面向对象编程的缺点)
+  - [它和中间件的区别](#它和中间件的区别)
+  - [它和Rx的区别](#它和Rx的区别)
+  - [它和传统FP语言里的类unix管道操作符的区别](#它和传统FP语言里的类unix管道操作符的区别)
+- [基本质量控制](#基本质量控制)
+- [道](#道)
+- [杀手级的应用](#杀手级的应用)
+  - [软件设计和开发自动化 (SDDA)](#软件设计和开发自动化)
+- [重大历史意义](#重大历史意义)
+- [后记](#后记)
 - 附录:
   - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
   - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
@@ -1277,9 +1277,9 @@ in any one workshop do not affect other workshops.
 就象是乐高组件或船只的水密隔舱,
 任何一个车间的内部变动或异常不会影响其他车间.
 
-## The difference between it and others 它和其它方法的区别
+## The difference between it and others
 
-### Disadvantages of FP and OO 函数式编程和面向对象编程的缺点
+### Disadvantages of FP and OO
 
 FP and OO are overly complicated, and it is not feasible in large industries. It is also a kind of production method that emphasizes personal technology in hand workshops. Personal technology greatly affects product quality and extremely unreliable production methods.FP and OO are actually taking a detour, highly embellished and ineffectual, and produce all kinds of fail.
 
@@ -1289,14 +1289,7 @@ Complex networks of relationships between objects in the OO system are also diff
 
 I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.. There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. I hope that my code can be understood by the junior programmer even in the most complicated system.
 
-FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
-
-过多的应用OO和FP的各种模式, 除了增加复杂性和出错概率,降低性能, 没有任何好处,
-OO系统中对象之间复杂的关系网也是难以维护的.
-
-我倾向于用最简单的概念和最基本的技术、语法和函数构建系统，用来实现我的思想，纯函数管道数据流是最简单、稳定、可靠、可读性强. 在中国有一位伟大的诗人白居易，甚至文盲也理解和欣赏他的诗歌。 我希望即使在最复杂的系统中，初级程序员也能理解我的代码。
-
-### The difference between it and middleware 它和中间件的区别
+### The difference between it and middleware
 
 The code looks similar, but the idea is essentially different.
 
@@ -1312,16 +1305,7 @@ It is in conflict with the idea of integrated circuits.
 In the circuit, the component (board) cannot be circulated, 
 only the data (current) can flow, which is the essential difference.
 
-代码外形看起来相似，但理念是本质上的差别。
-
-- 中间件函数的输入输出是函数，流转的是层层打包的函数，是同心圆，middleware调试是很麻烦的。
-
-- 纯函数管道数据流输入输出是数据，流转的是数据，是线性的串并联。
-
-我不能认同中间件的理念，和集成电路思想是冲突的。电路里，元件（电路板）是无法流转的，
-只有数据（电流）才能流转，这是本质的区别。
-
-### The difference between it and Rx 它和Rx的区别
+### The difference between it and Rx
 
 It is essentially different between it and [Rx](http://reactivex.io/):
 
@@ -1337,6 +1321,44 @@ It is essentially different between it and [Rx](http://reactivex.io/):
 
 - The Clojure language doesn't require [RxClojure](https://github.com/ReactiveX/RxClojure) at all.
 
+### The difference between it and traditional unix-like pipe operator in FP language
+
+- Traditional unix-like pipe operator in FP language
+
+  - Just simply  simulate a water pipe.
+  
+  - Just as a tip in a code snippet.
+
+- Pure function pipeline data flow
+
+  - Systematic simulation of integrated circuit systems and large industrial production lines.
+  
+  - Covers all aspects of system architecture, data modeling, data manipulation, data application, etc.
+
+## 它和其它方法的区别
+
+### 函数式编程和面向对象编程的缺点
+
+FP和OO过度复杂了，在大工业上是行不通的，还是属于手工作坊那种强调个人技术的生产方式, 个人技术极大影响了产品质量，极不可靠的生产方式。FP和OO其实全是在走弯路, 花拳秀腿,花样作死。
+
+过多的应用OO和FP的各种模式, 除了增加复杂性和出错概率,降低性能, 没有任何好处,
+OO系统中对象之间复杂的关系网也是难以维护的.
+
+我倾向于用最简单的概念和最基本的技术、语法和函数构建系统，用来实现我的思想，纯函数管道数据流是最简单、稳定、可靠、可读性强. 在中国有一位伟大的诗人白居易，甚至文盲也理解和欣赏他的诗歌。 我希望即使在最复杂的系统中，初级程序员也能理解我的代码。
+
+### 它和中间件的区别
+
+代码外形看起来相似，但理念是本质上的差别。
+
+- 中间件函数的输入输出是函数，流转的是层层打包的函数，是同心圆，middleware调试是很麻烦的。
+
+- 纯函数管道数据流输入输出是数据，流转的是数据，是线性的串并联。
+
+我不能认同中间件的理念，和集成电路思想是冲突的。电路里，元件（电路板）是无法流转的，
+只有数据（电流）才能流转，这是本质的区别。
+
+### 它和Rx的区别
+
 它与[Rx](http://reactivex.io/)本质上是不同的：
 
 - 编程方法之间的本质区别在于内在的思想和模型。 纯函数流水线数据流的思想和模型与集成电路高度一致。
@@ -1351,19 +1373,7 @@ It is essentially different between it and [Rx](http://reactivex.io/):
 
 - Clojure语言根本不需要[RxClojure](https://github.com/ReactiveX/RxClojure)。
 
-### The difference between it and traditional unix-like pipe operator in FP language 它和传统FP语言里的类unix管道操作符的区别
-
-- Traditional unix-like pipe operator in FP language
-
-  - Just simply  simulate a water pipe.
-  
-  - Just as a tip in a code snippet.
-
-- Pure function pipeline data flow
-
-  - Systematic simulation of integrated circuit systems and large industrial production lines.
-  
-  - Covers all aspects of system architecture, data modeling, data manipulation, data application, etc.
+### 它和传统FP语言里的类unix管道操作符的区别
 
 - 传统FP语言里的类unix管道操作符
 
@@ -1377,7 +1387,7 @@ It is essentially different between it and [Rx](http://reactivex.io/):
   
   - 涵盖了系统架构, 数据建模, 数据操纵, 数据应用等一切层面.
   
-## Basic quality control 基本质量控制
+## Basic quality control
 
 Basic quality control of pure function pipeline data flow. The code must meet the following three basic quality requirements before you can talk about other things. These simple and reliable evaluation criteria are enough to eliminate most unqualified codes.
 - **Function evaluation:** Just look at the shape of the code (pipeline structure weight), and whether the function is a pure function.
@@ -1390,6 +1400,8 @@ Basic quality control of pure function pipeline data flow. The code must meet th
     it means that the quality of the code is good.
   - For non-Lisp languages, you can convert the source code into an abstract syntax tree (AST), 
     and then into a contour map, or a 3D mountain map.
+    
+## 基本质量控制
 
 纯函数管道数据流的基本质量控制, 只有代码达到下面三条基本质量要求, 才可以继续谈其他.
 这些简单可靠的评价标准, 足以淘汰绝大多数不合格代码:
@@ -1401,7 +1413,7 @@ Basic quality control of pure function pipeline data flow. The code must meet th
   - 如果山峦高度不高,且海拔高度值相近,意味着代码质量是好的.
   - 对于非Lisp语言, 则可以先把源代码转换为抽象语法树(AST)，再转换成等高线图,或3D山峦图.
 
-## Tao 道
+## 道
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
 
@@ -1416,6 +1428,8 @@ They can transform each other.
 
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
+## 道
+
 上善若水, 水能按需呈现任何形状, 随心所欲, 千变万化, 顺序前进, 直到完成使命, 到达终点. 
 纯函数管道数据流就象水流一样, 近乎于道.
 
@@ -1426,9 +1440,9 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 所以, 集成电路技术、工业流水线生产技术、会计学、管理学、建筑学等,
 一切都可当成算法和软件工程方法使用, 它们可以互相转化.
 
-## Killer Application 杀手级的应用
+## Killer Application
 
-### Software Design and Develop Automation 软件设计和开发自动化
+### Software Design and Develop Automation
 
 Software Design and Develop Automation (SDDA)
 
@@ -1453,6 +1467,11 @@ on the logical model, it solves the problem of Fred Brooks.
   If there is no corresponding pipeline component, It can be automatically generated by AI 
   (or developed manually by developers).
 
+## 杀手级的应用
+
+### 软件设计和开发自动化
+
+
 ```
 软件和硬件设计与软件设计师的想法没有什么不同，但与硬件设计师的想法却有很大的不同。
         ---- Fred Brooks, 图灵奖(1999), 人月神话
@@ -1469,7 +1488,7 @@ on the logical model, it solves the problem of Fred Brooks.
   组合符合数据标准规范的管道组件以完成任务, 若缺乏相应的管道组件,
   它可以被AI自动生成(或开发人员手工开发).
 
-## Great Historical Significance 重大历史意义
+## Great Historical Significance
 
 ```
 Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
@@ -1610,6 +1629,7 @@ Finally, If you agree with me, please help me nominate the "Turing Award".
 
 [HOW TO NOMINATE](https://amturing.acm.org/call_for_nominations.cfm)
 
+## 重大历史意义
 
 ```
 傻瓜忽视复杂性，实用主义者忍受它，有些人能避开它，天才移除它。
@@ -1705,7 +1725,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 [如何提名](https://amturing.acm.org/call_for_nominations.cfm)
 
-## Postscript 后记
+## Postscript
 
 ### Imagination
 
@@ -1769,6 +1789,8 @@ I spend my spare time developing a financial analysis expert system.
 Although my writing time is very limited, but I will gradually improve it. 
 compared to the content when I first set up the blog, 
 it has been rich and improved a lot.
+
+## 后记
 
 ### 想象力
 
