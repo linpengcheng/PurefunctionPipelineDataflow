@@ -29,7 +29,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `Clojure Web Application Model`](#The-unification-with-Clojure-Web-Application-Model)    
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)    
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
-    - [Summary](#Summary)    
+    - [Warehouse/Workshop Model Summary](#Warehouse-Workshop-Model-Summary)    
 - [The difference between it and others](#The-difference-between-it-and-others)
   - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO)
   - [The difference between it and middleware](#The-difference-between-it-and-middleware)
@@ -708,7 +708,7 @@ the input sewage is treated separately.
     - Purchasing department
     - supply chain
  
-#### Summary
+#### Warehouse Workshop Model Summary
  
 In industry, the product standard is the interface, 
 the production method (code implementation) is not limited, 
