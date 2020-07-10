@@ -47,7 +47,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Everything is RMDB.](doc/Everything_is_RMDB.md)
   - [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
   - [Markdown Literary Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
-  - [Other Articles Table of Contents](#Other-Articles-Table-of-Contents-其他文章目录)
+  - [Other Articles Table of Contents](#Other-Articles-Table-of-Contents)
 
 ----
   
@@ -1059,7 +1059,7 @@ Although my writing time is very limited, but I will gradually improve it.
 compared to the content when I first set up the blog, 
 it has been rich and improved a lot.
 
-## Other Articles Table of Contents 其他文章目录
+## Other Articles Table of Contents
 
 ### English + Chinese
 
