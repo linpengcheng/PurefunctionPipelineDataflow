@@ -1413,7 +1413,7 @@ Basic quality control of pure function pipeline data flow. The code must meet th
   - 如果山峦高度不高,且海拔高度值相近,意味着代码质量是好的.
   - 对于非Lisp语言, 则可以先把源代码转换为抽象语法树(AST)，再转换成等高线图,或3D山峦图.
 
-## 道
+## Tao
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
 
