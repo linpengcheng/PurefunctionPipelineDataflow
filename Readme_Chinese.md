@@ -899,27 +899,27 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 ### English + Chinese
 
-- [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
+- [不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
 
-- [~~Introduction： Basic Methods (Old version) 引论: 基本构造方法(老版本)~~](doc/IntroductionBasicMethods.md)
+- [~~引论: 基本构造方法(老版本)~~](doc/IntroductionBasicMethods.md)
 
-- [Annotation is an unnecessary technique 注解是不必要的技术](doc/annotation_is_unnecessary.md)
+- [注解是不必要的技术](doc/annotation_is_unnecessary.md)
 
-- [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
+- [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
 
-- [Everything is RMDB. 一切都是RMDB](doc/Everything_is_RMDB.md)
+- [一切都是RMDB](doc/Everything_is_RMDB.md)
 
-- [Mathathematical and AI 数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
+- [数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
-- [Why Clojure (Lisp) almost the Tao? 为什么 Clojure (Lisp) 近乎于道?](doc/why_clojure_almost_the_Tao.md)
+- [为什么 Clojure (Lisp) 近乎于道?](doc/why_clojure_almost_the_Tao.md)
 
-- [The Best Practice of Clojure. Clojure最佳实践](doc/best_practice_of_clojure.md)
+- [Clojure最佳实践](doc/best_practice_of_clojure.md)
 
-- [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
+- [动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
 
-- [Rust: Mathematics can't save programming, but finance can do. Rust: 数学不能救编程，但财务可以](doc/rust.md)
+- [Rust: 数学不能救编程，但财务可以](doc/rust.md)
 
-- [React is terrible. React很糟糕](doc/react_is_terrible.md)
+- [React很糟糕](doc/react_is_terrible.md)
 
 ### Chinese
 
@@ -929,7 +929,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [证“立德、立功、立言”三不朽](doc/immortal.md)
 
-- [Differences in FP, OO and Dataflow 函数式编程、面向对象、数据流的差异](doc/fp_oo_dataflow.md)
+- [函数式编程、面向对象、数据流的差异](doc/fp_oo_dataflow.md)
 
 - [`纯函数管道数据流`与《天龙八部》逍遥派武学体系](doc/dataflow_xiaoyao.md)
 
@@ -959,7 +959,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [C#愚蠢到我不能理解，兼论UI构造方法](doc/c%23stupid.md)
 
-- [Google Flutter is a similar technology I created and eliminated / Google Flutter是一种我曾原创并已淘汰的类似技术](doc/Flutter_is_outdated.md)
+- [Google Flutter是一种我曾原创并已淘汰的类似技术](doc/Flutter_is_outdated.md)
 
 - [例解：抽象、多态、变态](doc/Ii-abstract.md)
 
