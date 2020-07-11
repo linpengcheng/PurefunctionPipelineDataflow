@@ -1064,69 +1064,69 @@ it has been rich and improved a lot.
 
 ### English + Chinese
 
-- [Markdown Literary Programming that don't break the syntax of any programming language 不破坏编程语言语法的Markdown文学编程](doc/markdown_literary_programming.md)
+- [Markdown Literary Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
 
-- [~~Introduction： Basic Methods (Old version) 引论: 基本构造方法(老版本)~~](doc/IntroductionBasicMethods.md)
+- [~~Introduction： Basic Methods (Old version)~~](doc/IntroductionBasicMethods.md)
 
-- [Annotation is an unnecessary technique 注解是不必要的技术](doc/annotation_is_unnecessary.md)
+- [Annotation is an unnecessary technique](doc/annotation_is_unnecessary.md)
 
-- [Clojure is a FP based on RMDB. clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
+- [Clojure is a FP based on RMDB. ](doc/Clojure_is_FP_based_on_RMDB.md)
 
-- [Everything is RMDB. 一切都是RMDB](doc/Everything_is_RMDB.md)
+- [Everything is RMDB.](doc/Everything_is_RMDB.md)
 
-- [Mathathematical and AI 数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
+- [Mathathematical and AI](doc/math-xiaoyao.md)
 
-- [Why Clojure (Lisp) almost the Tao? 为什么 Clojure (Lisp) 近乎于道?](doc/why_clojure_almost_the_Tao.md)
+- [Why Clojure (Lisp) almost the Tao? ](doc/why_clojure_almost_the_Tao.md)
 
-- [The Best Practice of Clojure. Clojure最佳实践](doc/best_practice_of_clojure.md)
+- [The Best Practice of Clojure.](doc/best_practice_of_clojure.md)
 
-- [Interaction of Static and Dynamic (Taiji and Table Tennis) 动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
+- [Interaction of Static and Dynamic (Taiji and Table Tennis) ](doc/interaction_of_static_and_dynamic.md)
 
-- [Rust: Mathematics can't save programming, but finance can do. Rust: 数学不能救编程，但财务可以](doc/rust.md)
+- [Rust: Mathematics can't save programming, but finance can do. ](doc/rust.md)
 
-- [React is terrible. React很糟糕](doc/react_is_terrible.md)
+- [React is terrible.](doc/react_is_terrible.md)
 
 ### Chinese
 
-- [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
+- [Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
 
-- [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](doc/Tao_ICD.md)
+- [The unification of disciplines (Tao, AI, Mathematics, Accounting, Pure function pipeline data flow, International disease classification, etc.)](doc/Tao_ICD.md)
 
-- [证“立德、立功、立言”三不朽](doc/immortal.md)
+- [Reach the three immortality of `Worth, Work, Words`](doc/immortal.md)
 
-- [Differences in FP, OO and Dataflow 函数式编程、面向对象、数据流的差异](doc/fp_oo_dataflow.md)
+- [Differences in FP, OO and Dataflow](doc/fp_oo_dataflow.md)
 
-- [`纯函数管道数据流`与《天龙八部》逍遥派武学体系](doc/dataflow_xiaoyao.md)
+- [`Pure Function Pipeline Data Flow` and Jin Yong's "Dragon of the Eight Divisions" Xiaoyao School Martial Arts System](doc/dataflow_xiaoyao.md)
 
-- [Office是数据库服务](doc/office_is_db.md)
+- [Office as a database service](doc/office_is_db.md)
 
-- [数据模型是全局的、战略的，而函数实现只是局部的、战术的](doc/datamodel-vs-function.md)
+- [The data model is global and strategic, while the function implementation is only local and tactical.](doc/datamodel-vs-function.md)
 
-- [英雄所见略同：Rob Pike，Linus Torvalds，Alan Perlis 和我](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
+- [The hero sees the same: Rob Pike，Linus Torvalds，Alan Perlis and me](doc/RobPike-LinusTorvalds-AlanPerlis-Me.md)
 
-- [纯函数管道数据流串并联集成系统法](doc/DataflowIC.md)
+- [Pure function pipeline data flow and Integrated circuit](doc/DataflowIC.md)
 
-- [论纯函数管道数据流方法，兼评：左耳朵耗子 《什么是函数式编程？》](doc/AboutDataflow.md)
+- [On the pure function pipeline data flow method, and a comment: the left ear mouse "What is functional programming?"](doc/AboutDataflow.md)
 
-- [函数式编程学套路还是学无限法？](doc/infinite.md)
+- [Functional programming learning: mode method or infinite method?](doc/infinite.md)
 
-- [代码也是头等公民](doc/code-is-first-class.md)
+- [Code is also a first-class citizen](doc/code-is-first-class.md)
 
-- [《代码大全》与“想像力编程”](doc/CodeComplete.md)
+- ["Code Complete" and "Imagination Programming"](doc/CodeComplete.md)
 
-- [《计算机编程的艺术》与想象力编程](doc/TAOCP.md)
+- ["The Art of Computer Programming" and Imagination Programming](doc/TAOCP.md)
 
-- [神话编程：生死簿、轮回、地狱](doc/LifecycleManagement.md)
+- [Myth programming: life and death book, reincarnation, hell](doc/LifecycleManagement.md)
 
-- [半自动步枪、批处理和Lazy](doc/lazy.md)
+- [Semi-automatic rifle, batch processing and Lazy](doc/lazy.md)
 
-- [如来神掌与tree-seq](doc/tree-seq-and-The-Hand-of-God.md)
+- [Rulai God Palm and tree-seq](doc/tree-seq-and-The-Hand-of-God.md)
 
-- [C#愚蠢到我不能理解，兼论UI构造方法](doc/c%23stupid.md)
+- [C# is so stupid that I can't understand it, and on the UI construction method](doc/c%23stupid.md)
 
-- [Google Flutter is a similar technology I created and eliminated / Google Flutter是一种我曾原创并已淘汰的类似技术](doc/Flutter_is_outdated.md)
+- [Google Flutter is a similar technology I created and eliminated](doc/Flutter_is_outdated.md)
 
-- [例解：抽象、多态、变态](doc/Ii-abstract.md)
+- [Example: abstraction, polymorphism, metamorphosis](doc/Ii-abstract.md)
 
-- [我的项目技术架构：AI、统计、杀毒软件](doc/TechnicalFramework.md)
+- [Technical architecture of my project: AI, accounting, statistics, legal, anti-virus software](doc/TechnicalFramework.md)
 
