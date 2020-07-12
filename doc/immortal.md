@@ -7,8 +7,8 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
 ## 目录
 
 0. 序言
-1. 立言1：纯函数管道数据流
-2. 立言2：基于数学的现代化科学ICD编码
+1. 立言1：[纯函数管道数据流](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
+2. 立言2：[基于数学的现代化科学ICD编码](https://github.com/linpengcheng/icd10faq)
 3. 后记
 
 ## 0. 序言
@@ -39,7 +39,7 @@ Copyright © 2019 Lin Pengcheng. All rights reserved.
 目前已取得的两个小小的阶段性成绩，以再接再励。我发现我好象不经
 意之间就达到了最低级的不朽----"立言"级了:-)
 
-## 1. 立言1：纯函数管道数据流
+## 1. 立言1：[纯函数管道数据流](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
 
 ```
 傻瓜忽视复杂性，实用主义者忍受它，有些人能避开它，天才移除它。
@@ -131,7 +131,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 该方法已应用于10万行代码级的纯Clojure项目，足以证明该方法的实用性。
 
-## 2. 立言2：基于数学的现代化科学ICD编码
+## 2. 立言2：[基于数学的现代化科学ICD编码](https://github.com/linpengcheng/icd10faq)
 
 我参加2018年福州ICD10提高班，只上了几节课，
 我就发现ICD(国际疾病分类)编码是
