@@ -964,3 +964,5 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - [例解：抽象、多态、变态](doc/Ii-abstract.md)
 
 - [我的项目技术架构：AI、统计、杀毒软件](doc/TechnicalFramework.md)
+
+- [`吾道一以贯之`与`至诚之道`](doc/sincerity.md)
