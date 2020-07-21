@@ -25,7 +25,9 @@ Therefore, I suggest that computer science should classify financial knowledge a
 which has great reference significance for building a safe, efficient and stable system.
 
 Postscript:
-Mar 31, 2018, this article was created,
+
+Mar 31, 2018, this article was created.
+
 In July 2020, Tsinghua University, China's number one, opened a "double degree in computer and finance"
 
 我很欣喜地看到新的以安全高效著称的系统编程语言Rust出现，并且反响很好，很成功，它通过模拟银行的借贷行为来实现安全高效地编程，
@@ -43,5 +45,7 @@ Rust只学了一点皮毛并带错误的知识，居然也能获得巨大成功�
 所以，我建议计算机专业把财务金融知识列为必修课，这对构建安全、高效、稳定的系统有极大的参考意义。
 
 后记:
-2018年3月31日, 这篇文章被创建, 
+
+2018年3月31日, 这篇文章被创建.
+
 2020年7月,中国排名第一的清华大学开设"计算机与金融双学位"。
