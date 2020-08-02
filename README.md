@@ -577,12 +577,15 @@ the input sewage is treated separately.
 - Workshop
    - Receive external data
    - Apply middleware to process data
-     - Single queue: According to the metadata carried by 
-       the input data.
-     - hash-map (classified queue): According to 
-       the key (type) of the input data and  the middleware.
-   - Based on the metadata carried in the output data, 
-     call the external receiving pipeline function.
+     - Single queue: According to the metadata carried by the input data, 
+       choose to call middleware.
+     - hash-map (classified queue): According to the key (type) mapping of input data and middleware, 
+       choose to call middleware.
+   - Output to external pipeline function
+     - Single queue: According to the metadata of the output data, 
+       choose the external pipeline function for the output.
+     - hash-map (classified queue):  According to the key (type) mapping of input data and middleware, 
+       choose the external pipeline function for the output.
      
 ### The unification with Event-driven Architecture
 
