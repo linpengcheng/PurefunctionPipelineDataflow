@@ -917,6 +917,8 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [Clojure最佳实践](doc/best_practice_of_clojure.md)
 
+- [Clojure的一种可能的路线图.](doc/clj_possible.md)
+
 - [动静态交互(太极与乒乓球)](doc/interaction_of_static_and_dynamic.md)
 
 - [Rust: 数学不能救编程，但财务可以](doc/rust.md)
