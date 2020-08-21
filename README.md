@@ -1083,6 +1083,8 @@ it has been rich and improved a lot.
 
 - [The Best Practice of Clojure.](doc/best_practice_of_clojure.md)
 
+- [A possible roadmap for Clojure.](doc/clj_possible.md)
+
 - [Interaction of Static and Dynamic (Taiji and Table Tennis) ](doc/interaction_of_static_and_dynamic.md)
 
 - [Rust: Mathematics can't save programming, but finance can do. ](doc/rust.md)
