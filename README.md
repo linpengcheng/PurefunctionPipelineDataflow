@@ -28,7 +28,10 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `Integrated Circuit System`](#The-unification-with-Integrated-Circuit-System)    
     - [The unification with `Programming Language Platform`](#The-unification-with-Programming-Language-Platform)    
     - [The unification with `Clojure Web Application Model`](#The-unification-with-Clojure-Web-Application-Model)    
-    - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)    
+    - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)
+    - [The unification with `classic AI and modern AI technology`](#The-unification-with-classic-AI-and-modern-AI-technology)
+    - [The unification with `energy system`](#The-unification-with-energy-system)
+    - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
     - [Warehouse/Workshop Model Summary](#Warehouse-Workshop-Model-Summary)    
 - [The difference between it and others](#The-difference-between-it-and-others)
@@ -690,6 +693,37 @@ the input sewage is treated separately.
       Resource Pool
 
     - Hell: punishment, destruction, garbage collection
+
+#### The unification with classic AI and modern AI technology
+
+- Warehouse
+  - Rule base: classic AI, expert system, logic programming
+  - Big data: modern AI, machine learning
+- Workshop
+  - Problem solving: classic AI, expert system, logic programming
+  - Machine learning: dynamic rule base to generate new rules.
+
+  
+#### The unification with energy system
+
+- Standardized product: Electric energy.
+- Warehouse: Power plant, battery.
+- Workshop
+  - Input workshop: 
+    Convert chemical energy, wind energy, solar energy, 
+    mechanical energy, and other energy into standard energy 
+    -- "electric energy".
+  - Output workshop: 
+    Various electrical equipment such as computers, 
+    household appliances, communication equipment, etc. 
+    convert standard electrical energy into signals, 
+    mechanical energy, sound, etc.
+
+#### The unification with modern economic and social operating system
+
+- Standardized product: Currency, general equivalent.
+- Warehouse: Bank and other financial institutions.
+- Workshop: Various government agencies, enterprises, individuals.
 
 #### The unification with Other Models 
 
