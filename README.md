@@ -698,10 +698,12 @@ the input sewage is treated separately.
 
 - Warehouse
   - Rule base: classic AI, expert system, logic programming
+    - statute law, identify known patterns, more accurate
   - Big data: modern AI, machine learning
 - Workshop
   - Problem solving: classic AI, expert system, logic programming
   - Machine learning: dynamic rule base to generate new rules.
+    - case law, identifying unknown patterns, more uncertainties
 
   
 #### The unification with energy system
