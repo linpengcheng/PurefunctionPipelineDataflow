@@ -726,6 +726,10 @@ the input sewage is treated separately.
 - Standardized product: Currency, general equivalent.
 - Warehouse: Bank and other financial institutions.
 - Workshop: Various government agencies, enterprises, individuals.
+- Extended case: Enterprise
+  - Standardized products: currency, general equivalent
+  - Warehouse: Finance department
+  - Workshop: various production departments, administrative departments, and individuals.
 
 #### The unification with Other Models 
 
