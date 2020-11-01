@@ -969,6 +969,8 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [证“立德、立功、立言”三不朽](doc/immortal.md)
 
+- [国际疾病分类(ICD)编码、主诊选择、DRGs费用结算、医疗服务、医学知识大统一 ---- 纯函数管道数据流和仓库/车间模型大统一系列](doc/unification_ICD_dataflow.md)
+
 - [函数式编程、面向对象、数据流的差异](doc/fp_oo_dataflow.md)
 
 - [`纯函数管道数据流`与《天龙八部》逍遥派武学体系](doc/dataflow_xiaoyao.md)
