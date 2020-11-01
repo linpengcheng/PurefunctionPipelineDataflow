@@ -1142,6 +1142,8 @@ it has been rich and improved a lot.
 
 - [Reach the three immortality of `Worth, Work, Words`](doc/immortal.md)
 
+- [The unification with ICD and Warehouse/Workshop Model](doc/unification_ICD_dataflow.md)
+
 - [Differences in FP, OO and Dataflow](doc/fp_oo_dataflow.md)
 
 - [`Pure Function Pipeline Data Flow` and Jin Yong's "Dragon of the Eight Divisions" Xiaoyao School Martial Arts System](doc/dataflow_xiaoyao.md)
