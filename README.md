@@ -796,6 +796,8 @@ which the mathematical sciences demonstrate in a special degree.
 ```
 
 Only `The Pure Function Pipeline Data Flow with Warehouse/Workshop Model` perfectly meets the requirements.
+It is the best example of the beauty of programming.
+
 Object-oriented and functional programming completely do not meet these three beauty requirements.
 The strange shapes and chaotic logic of OO&FP are not only unsightly, difficult to read and understand, 
 and completely incompatible with the simple and repeatable requirements of industrial production.
@@ -1039,6 +1041,15 @@ has the following advantages:
 - Observable, easy to debug, and verifiable. The data flowing between the pipes is very easy to observe, 
   and it is easy to see where the pipes are leaking.
 - Clarity: non-IT practitioners can understand.
+- The best example of the beauty of programming.
+  ```
+  The chief forms of beauty are order and symmetry and definiteness, 
+  which the mathematical sciences demonstrate in a special degree.
+        ---- Aristotle, "Metaphysica"
+  ```
+
+  Only `The Pure Function Pipeline Data Flow with Warehouse/Workshop Model` perfectly meets the requirements.
+  It is the best example of the beauty of programming.
 
 The role of the standard system can be seen from 
 the great progress of social productivity after 
