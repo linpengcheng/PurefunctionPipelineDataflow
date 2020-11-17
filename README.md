@@ -789,6 +789,17 @@ in any one workshop do not affect other workshops.
 
 ### Disadvantages of FP and OO
 
+```
+The chief forms of beauty are order and symmetry and definiteness, 
+which the mathematical sciences demonstrate in a special degree.
+        ---- Aristotle, "Metaphysica"
+```
+
+Only `The Pure Function Pipeline Data Flow with Warehouse/Workshop Model` perfectly meets the requirements.
+Object-oriented and functional programming completely do not meet these three beauty requirements.
+The strange shapes and chaotic logic of OO&FP are not only unsightly, difficult to read and understand, 
+and completely incompatible with the simple and repeatable requirements of industrial production.
+
 FP and OO are overly complicated, and it is not feasible in large industries. It is also a kind of production method that emphasizes personal technology in hand workshops. Personal technology greatly affects product quality and extremely unreliable production methods.FP and OO are actually taking a detour, highly embellished and ineffectual, and produce all kinds of fail.
 
 Excessive application of OO and FP design patterns, in addition to increasing complexity 
