@@ -453,7 +453,7 @@ Everything is unified:
   "code and function development" to "data control, data flow management, data lifecycle management, data standardization system, 
   process improvement (process reengineering), thread collaborative optimization, etc."
   
-  The abolition of `async/await` is essentially "**`Operations Research`**". When waiting, this thread should be over. 
+  From the perspective of **`Operations Research`**, async/await should be abolished. When waiting, this thread should be over. 
   For example, in a factory, it will not happen that one workshop stops in the middle of the production process 
   and waits for its products at the door of another workshop to continue the production process.
   Each workshop only interacts with the warehouse. After the main thread (also the workshop) sends out order data, 
