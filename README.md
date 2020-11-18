@@ -945,12 +945,13 @@ Make folk sciences great again :-)
    to the era of standardized production in large industries.
 4. The basics and the only way to `Software Design and Develop Automation (SDDA)`, 
    SDDA is an innovative and revolutionary approach to develop large-scale software,
-   just like `Electronic Design Automation (EDA)`.   
-5. It is a particular outstanding and trend-setting technical achievement, 
+   just like `Electronic Design Automation (EDA)`.
+5. Defines the programming aesthetic standards as order, symmetry and definiteness.
+6. It is a particular outstanding and trend-setting technical achievement, 
    It fits perfectly with the principal claim to the "Turing Award".
-6. I think it should win the "Turing Award", the highest award in the computer field.
-7. If I cannot win the Turing Award, it must be that ACM lacks the ability to appreciate technology.
-8. History will prove what I said.2020-03-07
+   I think it should win the "Turing Award", the highest award in the computer field.
+   If I cannot win the Turing Award, it must be that ACM lacks the ability to appreciate technology.
+   History will prove what I said.2020-03-07
       ---- Lin Pengcheng, Self-taught folk scientist
 ```
 
@@ -1030,6 +1031,7 @@ has the following advantages:
 - Simplicity: Simplicity is the shortest path to a solution. -- Ward Cunningham (Wiki inventor)
 - Unity: 
   - Everything is a pipeline.
+  - Simple and uniform form is the basis of large-scale industrial production.
   - Realize the unification with the theories of disciplines such as integrated circuits, 
     business management, hydraulics and electricity, and you can refer to their theories.
   - Realize the unification of programming technology and system architecture through innovative warehouse/shop model.
