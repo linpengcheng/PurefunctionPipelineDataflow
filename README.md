@@ -551,6 +551,14 @@ which is also the principle of ForkJoinPool
 but the ForkJoinPool's designer did not realize this 
 and did not provide guidance in the ForkJoinPool's user guide.
 
+In the "Gantt Chart", there is no waiting inside a task (a bar in the chart. Thread, fiber), 
+and all waiting is global. When waiting, the task (a bar in the chart. Thread, fiber) ends. 
+When the resource is obtained to continue working, it is already a new task (a bar in the chart. Thread, fiber) . 
+"async/wait" has a wait inside a task (a bar in the chart. Thread, fiber), which is completely wrong. 
+"async/wait" completely does not conform to the most basic principles of "**Operations Research Science**"([ref01: wiki](https://en.wikipedia.org/wiki/Operations_research), 
+[ref02](https://whatis.techtarget.com/definition/operations-research-OR)). 
+I don't think the unscientific model can produce higher efficiency.
+
 The most typical case: 
 Amazon actually used AI to monitor and dispatch employees, 
 which was inefficient and fired on the spot.
@@ -587,6 +595,7 @@ There is no direct relationship between fibers and asynchrony.
 A fiber is made of two components — a continuation and a scheduler. As Java already has an excellent scheduler in the form of ForkJoinPool, fibers will be implemented by adding continuations to the JVM.
 
 ForkJoinPool uses the warehouse/workshop model and the scientific management of operations research, which has been mentioned above.
+My algorithm is similar to "Project Loom", which is equivalent to the data-driven version of "Project Loom".
 
 Fiber is more like an uber driver, 
 not an uber employee (system thread). 
