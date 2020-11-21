@@ -498,6 +498,8 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 在这种模式里, 系统调度中心(仓库)可以安全地以最优的算法统筹安排任务的完成顺序.
 
+这是一个[`制造执行系统`（MES，Manufacturing Execution System）](https://wikimili.com/en/Manufacturing_execution_system).
+
 "async/wait"只是一种无组织的、无纪律的、不严谨的、不安全的做法。
 
 最典型的案例：
