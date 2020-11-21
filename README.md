@@ -559,6 +559,14 @@ When the resource is obtained to continue working, it is already a new task (a b
 [ref02](https://whatis.techtarget.com/definition/operations-research-OR)). 
 I don't think the unscientific model can produce higher efficiency.
 
+In the Gantt chart, the waiting point divides a large task into many smallest independent small tasks. A small task is a bar, a bar is a workshop, a workshop is a pipeline, and a pipeline is a pure function or equivalent pure function.
+
+In addition to obtaining input parameters from the warehouse at the beginning and submitting output data to the warehouse at the end of the workshop, the workshops are independent of each other, and the workshop has nothing to do with the external environment. They do not need to know whether there is waiting or whether there is a previous step or a next step.
+
+In this mode, the system dispatch center (warehouse) can safely arrange the order of completion of tasks with the optimal algorithm.
+
+"async/wait" is just an unorganized, undisciplined, imprecise, and unsafe practice.
+
 The most typical case: 
 Amazon actually used AI to monitor and dispatch employees, 
 which was inefficient and fired on the spot.
