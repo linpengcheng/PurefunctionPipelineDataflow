@@ -563,7 +563,9 @@ In the Gantt chart, the waiting point divides a large task into many smallest in
 
 In addition to obtaining input parameters from the warehouse at the beginning and submitting output data to the warehouse at the end of the workshop, the workshops are independent of each other, and the workshop has nothing to do with the external environment. They do not need to know whether there is waiting or whether there is a previous step or a next step.
 
-In this mode, the system dispatch center (warehouse) can safely arrange the order of completion of tasks with the optimal algorithm.
+In this model, the system dispatch center (warehouse) can safely arrange the order of completion of tasks with the optimal algorithm.
+
+This's a [Manufacturing Execution System (MES)](https://wikimili.com/en/Manufacturing_execution_system).
 
 "async/wait" is just an unorganized, undisciplined, imprecise, and unsafe practice.
 
