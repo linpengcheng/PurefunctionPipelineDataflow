@@ -459,13 +459,21 @@ Everything is unified:
   
   - Warehouse: data management, sending & receiving, like: 
     Enterprise Warehouse（DB） + [MES (Manufacturing Execution System)](https://wikimili.com/en/Manufacturing_execution_system) = Database + DBMS.
-    - MES can be used as a workshop, but it is integrated with the warehouse as a DBMS. 
-      The combination of the DBMS and the database is more reasonable and the performance is higher.
-    - Notify thread production data by order (production plan) or inventory level
-    - Send the data to the thread, if the thread does not exist, create a thread.
-    - Fire-and-Forget: Forget after sending the data.
+    - MES: Dispatch center
+      - It is equivalent to the ForkJoinPool that enhances support for operations research.
+        It can optimize the execution order and resource allocation of tasks according to the task relationship, 
+        complete tasks at the fastest speed and use resources with the highest efficiency.
+      - It can be used as a workshop, but it is integrated with the warehouse as a DBMS. 
+        The combination of the DBMS and the database is more reasonable and the performance is higher.
+      - Notify thread production data by order (production plan) or inventory level
+      - Send the data to the thread, if the thread does not exist, create a thread.
+      - Fire-and-Forget: Forget after sending the data.
+    - Data storage
+      - Task data queue
+      - Customized task relationship and optimization strategy
+      - Order (production plan)
     
-  - Workshop: Intelligent-thread,  Super-Microservice
+  - Workshop: Intelligent-thread,  Super-Microservice. They can be processes, system threads, Project Loom fibers.
     - Because `Fire-and-Forget`, the thread should have autonomy and intelligence, so it is called `Intelligent-thread`.
     - Except for input / output data. It is isolated from the outside world, Forget after the data is sent to the warehouse.
     - Passive production: Lean Production, JIT (Just In Time) Production, production by order (production plan), 
