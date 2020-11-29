@@ -162,23 +162,40 @@ This is the simplicity and repetition pursued by large industrial production lin
 
 ### 1 Pipeline Component
 
-A ->> block function is equivalent to an integrated circuit component (or board).
-A series of functions in a ->> block can only have one function with side effects 
-and can only be at the end. 
-In addition, we must pay attention to the data standardization work, 
-verify the data at the entrance and exit, 
-and run at full speed in the middle, 
-which is simple, smooth, stable and efficient.
+Pipe functions are pure functions. 
+A `->>` block function is equivalent to 
+an integrated circuit component (or board). 
 
-In the clojure language, it is recommended that the function be designed as 
-a single-parameter function with a hash-map type. 
-Like most functions in the R language, you can design many named parameters with default values, 
-which are highly scalable. 
-In addition, clojure has many core functions for operating hash-map, it's easy to operate,
-not only it may don't write parentheses when using ->> macro, 
-it can be integrated that parameter formation, verification, transformation and serial pipeline functions, 
-It is also convenient to deconstruct in clojure. 
-which is as convenient as multi-parameter functions.
+- side effects
+  - Most of the functions in a `->>` block are pure functions.
+  - There can only be at most two functions with side effects 
+    and only at the beginning and the end.
+  - In the `warehouse/workshop model`, the side effects are 
+    handled by the dedicated IO department 
+    (purchasing department, sales department). 
+    Therefore, all workshops (pipes) are pure functions, 
+    only interact with the warehouse 
+    and are scheduled by the warehouse.  
+    
+- Parameter
+  - Check and standardize the data at the entrance, 
+    and then run at the extreme speed, which is simple, 
+    smooth, stable and efficient.
+  - In Clojure language, it is recommended to design the 
+    function as a hash-map type single parameter function 
+    as much as possible.
+    - Like most functions of the R language, 
+      many named parameters with default values can be 
+      designed, which has strong scalability.
+    - Clojure has many core functions for operating hash-map, 
+      which is very convenient.  
+    - It is not necessary to write parentheses when using 
+      the `->>` macro. In this way, Clojure becomes the 
+      programming language with the fewest parentheses :-)
+    - Parameter formation, verification, transformation 
+      and function call integration, one-stop data flow processing.  
+    - Clojure is easy to deconstruct, and it is as convenient 
+      to use as multi-parameter functions.
 
 ```clojure
 (defn f [x]
