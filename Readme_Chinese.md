@@ -391,7 +391,7 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 仓库（数据库，池）/车间（管道）模型是一个简单实用的模型，而且大型工业流水线是世界上主流的生产技术。
 
-![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model_v2.svg)
+![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
 
 万法归宗 ---- 一切的终极大统一:
 
