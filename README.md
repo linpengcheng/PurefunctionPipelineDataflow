@@ -430,7 +430,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 Warehouse(database, pool)/Workshop(pipeline) Model is simple and practical model, 
 and the large industrial assembly line is the mainstream production technology in the world.
 
-![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model.svg)
+![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model_v2.svg)
 
 Everything is unified:
   
