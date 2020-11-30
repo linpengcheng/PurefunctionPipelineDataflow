@@ -73,20 +73,19 @@
       <tspan x="471.824" y="77.9">External standardized data</tspan>
     </text>
   </g>
-  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="30.0238" y="73">
-    <tspan x="30.0238" y="73">        Workshop</tspan>
-    <tspan x="30.0238" y="92.7556">(pipeline, pure function)</tspan>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="21.0238" y="99">
+    <tspan x="21.0238" y="99">(pipeline, pure function)</tspan>
   </text>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="471.824" y1="93" x2="471.035" y2="124.829"/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="466.229,116.944 470.979,127.065 476.226,117.192 "/>
   </g>
   <g>
-    <path style="fill: #ffffff" d="M 392.649 129 L 559.399,129 C 582.423,129 601.087,137.507 601.087,148 C 601.087,158.493 582.423,167 559.399,167 L 392.649,167 C 369.626,167 350.962,158.493 350.962,148 C 350.962,137.507 369.626,129 392.649,129z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 392.649 129 L 559.399,129 C 582.423,129 601.087,137.507 601.087,148 C 601.087,158.493 582.423,167 559.399,167 L 392.649,167 C 369.626,167 350.962,158.493 350.962,148 C 350.962,137.507 369.626,129 392.649,129"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="476.024" y="144">
-      <tspan x="476.024" y="144">Side effects: Input </tspan>
-      <tspan x="476.024" y="160">(purchasing department)</tspan>
+    <path style="fill: #ffffff" d="M 392.65 129 L 559.399,129 C 582.423,129 601.087,137.507 601.087,148 C 601.087,158.493 582.423,167 559.399,167 L 392.65,167 C 369.626,167 350.962,158.493 350.962,148 C 350.962,137.507 369.626,129 392.65,129z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 392.65 129 L 559.399,129 C 582.423,129 601.087,137.507 601.087,148 C 601.087,158.493 582.423,167 559.399,167 L 392.65,167 C 369.626,167 350.962,158.493 350.962,148 C 350.962,137.507 369.626,129 392.65,129"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="476.025" y="144">
+      <tspan x="476.025" y="144">Side effects: Input </tspan>
+      <tspan x="476.025" y="160">(purchasing department)</tspan>
     </text>
   </g>
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="467.4" y="286.986">
@@ -94,7 +93,7 @@
   </text>
   <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="361.424" y="286.986">
     <tspan x="361.424" y="286.986">Warehouse(AppDataCenter)</tspan>
-    <tspan x="361.424" y="305.33"> like RMDB, Pool</tspan>
+    <tspan x="361.424" y="305.33">       like RMDB, Pool</tspan>
   </text>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="359.026" y1="271" x2="359.026" y2="314"/>
@@ -121,11 +120,11 @@
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="472.026" y1="312" x2="472.004" y2="336.778"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="467.011,329.01 472.002,339.014 477.011,329.019 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="467.011,329.009 472.002,339.014 477.011,329.018 "/>
   </g>
   <g>
-    <path style="fill: #ffffff" d="M 400.948 344 L 539.098,344 C 558.173,344 573.636,353.452 573.636,365.111 C 573.636,376.77 558.173,386.222 539.098,386.222 L 400.948,386.222 C 381.873,386.222 366.411,376.77 366.411,365.111 C 366.411,353.452 381.873,344 400.948,344z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 400.948 344 L 539.098,344 C 558.173,344 573.636,353.452 573.636,365.111 C 573.636,376.77 558.173,386.222 539.098,386.222 L 400.948,386.222 C 381.873,386.222 366.411,376.77 366.411,365.111 C 366.411,353.452 381.873,344 400.948,344"/>
+    <path style="fill: #ffffff" d="M 400.948 344 L 539.098,344 C 558.172,344 573.635,353.452 573.635,365.111 C 573.635,376.77 558.172,386.222 539.098,386.222 L 400.948,386.222 C 381.873,386.222 366.41,376.77 366.41,365.111 C 366.41,353.452 381.873,344 400.948,344z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 400.948 344 L 539.098,344 C 558.172,344 573.635,353.452 573.635,365.111 C 573.635,376.77 558.172,386.222 539.098,386.222 L 400.948,386.222 C 381.873,386.222 366.41,376.77 366.41,365.111 C 366.41,353.452 381.873,344 400.948,344"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470.023" y="361.111">
       <tspan x="470.023" y="361.111"> Side effects: Output</tspan>
       <tspan x="470.023" y="377.111">(sales department)</tspan>
@@ -139,7 +138,7 @@
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="473" y1="389" x2="473.851" y2="414.531"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="473" y1="389" x2="473.851" y2="414.53"/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="468.595,406.937 473.926,416.765 478.59,406.604 "/>
   </g>
   <g>
@@ -183,5 +182,8 @@
   </text>
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="382.026" y="282.072">
     <tspan x="382.026" y="282.072">  </tspan>
+  </text>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="77" y="77">
+    <tspan x="77" y="77">Workshop</tspan>
   </text>
 </svg>
