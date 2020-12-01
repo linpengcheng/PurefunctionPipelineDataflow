@@ -427,8 +427,12 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ### Warehouse Workshop Model
 
-Warehouse(database, pool)/Workshop(pipeline) Model is simple and practical model, 
-and the large industrial assembly line is the mainstream production technology in the world.
+- Because software is a factory that produces data, so modern industrial systems are suitable for software systems.
+
+- Warehouse(database, pool)/Workshop(pipeline) Model is simple and practical model, 
+  and the large industrial assembly line is the mainstream production technology in the world.
+  
+- The best task planning tool is the Gantt chart, and the best implementation method is the warehouse/workshop model implemented by the factory.
 
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
 
