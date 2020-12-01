@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="40cm" height="23cm" viewBox="63 22 796 446" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="40cm" height="23cm" viewBox="63 21 796 447" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="167" y="118">
     <tspan x="167" y="118"></tspan>
   </text>
@@ -177,8 +177,8 @@
     <tspan x="63.0258" y="418.9">https://github.com/linpengcheng/PurefunctionPipelineDataflow</tspan>
     <tspan x="63.0258" y="431.6">Copyright © 2018 Lin Pengcheng. All rights reserved.</tspan>
   </text>
-  <text font-size="20.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="200.026" y="41.0722">
-    <tspan x="200.026" y="41.0722">Warehouse/Workshop Model</tspan>
+  <text font-size="20.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="176.026" y="40.0722">
+    <tspan x="176.026" y="40.0722">Warehouse/Workshop Model</tspan>
   </text>
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="461.026" y="274.072">
     <tspan x="461.026" y="274.072">  </tspan>
@@ -208,4 +208,11 @@
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="598.905" y1="379.19" x2="663.47" y2="421.835"/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="654.236,421.728 665.336,423.068 659.748,413.384 "/>
   </g>
+  <text font-size="10.16" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="64" y="450.5">
+    <tspan x="64" y="450.5">My programming aesthetic standards:</tspan>
+    <tspan x="64" y="463.2">Simplicity, unity, order, symmetry and definiteness.</tspan>
+  </text>
+  <text font-size="11.2889" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="508.916" y="40.2222">
+    <tspan x="508.916" y="40.2222">Software is a factory that produces data.</tspan>
+  </text>
 </svg>
