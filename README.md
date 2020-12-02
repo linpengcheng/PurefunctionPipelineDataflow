@@ -427,6 +427,40 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ### Warehouse Workshop Model
 
+- **Everything is a pipeline**: the perfect way to achieve the simplicity and unity of the software ecosystem.
+
+  - **Pipeline combination**: The cascade of `simple pipelines` forms a `workshop pipeline`
+  
+  - **Workshop combination**: Parallel independent `workshop pipelines` 
+    form `warehouse/workshop model pipelines (data factory)` 
+    through `warehouse` collaboration (scheduling).
+    
+  - **Warehouse/Workshop Model combination**: Various independent 
+    `Warehouse/Workshop Model pipelines (data factory)` 
+    can be used as a 
+    `packaged integrated pipeline (data factory, integrated chip)` 
+    and then combined into a larger 
+    `Warehouse/Workshop Model pipeline (data factory)`, 
+    This is the method of interconnection, collaboration, 
+    and integration of different developers and 
+    different software products, and is also the basis 
+    for software development and standardization of 
+    large-scale industrial production.
+    
+  - Finally, the pipeline is like a cell, 
+    combined into a software ecosystem that conforms to 
+    the modern industrial system model. This is the 
+    perfect embodiment of simplicity and unity.
+    
+  - Contrast with `Everything is an object`
+    - The object is a furry ball, and there is a chaotic 
+      point-to-point network between the objects. 
+      It is a complex unorganized system.
+    - The pipeline is a one-way ray, 
+      and it's the simplest that data standardization 
+      and combination. It is a simple, reliable, orderly, 
+      observable and verifiable system.
+
 - Because software is a factory that produces data, so modern industrial systems are suitable for software systems.
 
 - Warehouse(database, pool)/Workshop(pipeline) Model is simple and practical model, 
