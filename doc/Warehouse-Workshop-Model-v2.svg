@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="40cm" height="23cm" viewBox="63 21 800 445" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="37cm" height="19cm" viewBox="73 21 738 361" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="167" y="118">
     <tspan x="167" y="118"></tspan>
   </text>
@@ -70,149 +70,130 @@
     <tspan x="73.0238" y="89">(pipeline, pure function)</tspan>
   </text>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="498.224" y1="90.3004" x2="527.741" y2="117.566"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="518.645,115.97 529.383,119.083 525.43,108.625 "/>
-  </g>
-  <g>
-    <path style="fill: #ffffff" d="M 383.439 123 L 764.339,123 C 816.93,123 859.564,131.507 859.564,142 C 859.564,152.493 816.93,161 764.339,161 L 383.439,161 C 330.847,161 288.214,152.493 288.214,142 C 288.214,131.507 330.847,123 383.439,123z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 383.439 123 L 764.339,123 C 816.93,123 859.564,131.507 859.564,142 C 859.564,152.493 816.93,161 764.339,161 L 383.439,161 C 330.847,161 288.214,152.493 288.214,142 C 288.214,131.507 330.847,123 383.439,123"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="573.889" y="138">
-      <tspan x="573.889" y="138">Virtual Unified Warehouse, Integration Layer (Unified DAL)</tspan>
-      <tspan x="573.889" y="154">Side Effects: Input Data, Trading (Purchasing) Platform</tspan>
+    <path style="fill: #ffffff" d="M 333.439 147 L 714.339,147 C 766.93,147 809.564,155.507 809.564,166 C 809.564,176.493 766.93,185 714.339,185 L 333.439,185 C 280.848,185 238.214,176.493 238.214,166 C 238.214,155.507 280.848,147 333.439,147z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 333.439 147 L 714.339,147 C 766.93,147 809.564,155.507 809.564,166 C 809.564,176.493 766.93,185 714.339,185 L 333.439,185 C 280.848,185 238.214,176.493 238.214,166 C 238.214,155.507 280.848,147 333.439,147"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="523.889" y="162">
+      <tspan x="523.889" y="162">Virtual Unified Warehouse, Integration Layer (Unified DAL)</tspan>
+      <tspan x="523.889" y="178">Side Effects: I/O Data, Trading (Purchasing/Sales) Platform</tspan>
     </text>
   </g>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="544.4" y="262.986">
-    <tspan x="544.4" y="262.986"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="505.4" y="268.986">
+    <tspan x="505.4" y="268.986"></tspan>
   </text>
-  <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="438.424" y="262.986">
-    <tspan x="438.424" y="262.986">Warehouse(AppDataCenter)</tspan>
-    <tspan x="438.424" y="281.33">       like RMDB, Pool</tspan>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="397.026" y="273.5">
+    <tspan x="397.026" y="273.5">Warehouse(AppDataCenter)</tspan>
+    <tspan x="397.026" y="291.845">       like RMDB, Pool</tspan>
   </text>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="436.026" y1="247" x2="436.026" y2="290"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="436.026" y1="247" x2="682.026" y2="247"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="436.026" y1="290" x2="682.026" y2="290"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="565.176" y="273.575">
-      <tspan x="565.176" y="273.575"></tspan>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="395.026" y1="256" x2="395.026" y2="299"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="395.026" y1="256" x2="641.026" y2="256"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="395.026" y1="299" x2="641.026" y2="299"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="524.176" y="282.575">
+      <tspan x="524.176" y="282.575"></tspan>
     </text>
   </g>
   <g>
-    <path style="fill: #ffffff" d="M 470.849 212.634 L 635,212.634 C 657.664,212.634 676.037,220.469 676.037,230.134 C 676.037,239.799 657.664,247.634 635,247.634 L 470.849,247.634 C 448.185,247.634 429.812,239.799 429.812,230.134 C 429.812,220.469 448.185,212.634 470.849,212.634z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 470.849 212.634 L 635,212.634 C 657.664,212.634 676.037,220.469 676.037,230.134 C 676.037,239.799 657.664,247.634 635,247.634 L 470.849,247.634 C 448.185,247.634 429.812,239.799 429.812,230.134 C 429.812,220.469 448.185,212.634 470.849,212.634"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="552.925" y="234.134">
-      <tspan x="552.925" y="234.134">Acceptance check (pipe)</tspan>
+    <path style="fill: #ffffff" d="M 430.849 220.634 L 594.999,220.634 C 617.664,220.634 636.037,228.469 636.037,238.134 C 636.037,247.799 617.664,255.634 594.999,255.634 L 430.849,255.634 C 408.185,255.634 389.812,247.799 389.812,238.134 C 389.812,228.469 408.185,220.634 430.849,220.634z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 430.849 220.634 L 594.999,220.634 C 617.664,220.634 636.037,228.469 636.037,238.134 C 636.037,247.799 617.664,255.634 594.999,255.634 L 430.849,255.634 C 408.185,255.634 389.812,247.799 389.812,238.134 C 389.812,228.469 408.185,220.634 430.849,220.634"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="512.924" y="242.134">
+      <tspan x="512.924" y="242.134">Acceptance check (pipe)</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="552.524" y1="162.318" x2="552.888" y2="208.162"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="547.827,200.438 552.906,210.398 557.827,200.359 "/>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="550.554" y1="288.3" x2="551.78" y2="328.752"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="546.547,321.143 551.848,330.987 556.543,320.84 "/>
-  </g>
-  <g>
-    <path style="fill: #ffffff" d="M 385.14 332.112 L 766.039,332.112 C 818.631,332.112 861.265,340.619 861.265,351.112 C 861.265,361.605 818.631,370.112 766.039,370.112 L 385.14,370.112 C 332.548,370.112 289.915,361.605 289.915,351.112 C 289.915,340.619 332.548,332.112 385.14,332.112z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 385.14 332.112 L 766.039,332.112 C 818.631,332.112 861.265,340.619 861.265,351.112 C 861.265,361.605 818.631,370.112 766.039,370.112 L 385.14,370.112 C 332.548,370.112 289.915,361.605 289.915,351.112 C 289.915,340.619 332.548,332.112 385.14,332.112"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="575.59" y="347.112">
-      <tspan x="575.59" y="347.112">Virtual Unified Warehouse, Integration Layer (Unified DAL)</tspan>
-      <tspan x="575.59" y="363.112">Side Effects: Output Data, Trading (Sales) Platform</tspan>
+    <path style="fill: #ffffff" d="M 266.839 238 L 349.539,238 C 360.957,238 370.214,245.163 370.214,254 C 370.214,262.837 360.957,270 349.539,270 L 266.839,270 C 255.421,270 246.164,262.837 246.164,254 C 246.164,245.163 255.421,238 266.839,238z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 266.839 238 L 349.539,238 C 360.957,238 370.214,245.163 370.214,254 C 370.214,262.837 360.957,270 349.539,270 L 266.839,270 C 255.421,270 246.164,262.837 246.164,254 C 246.164,245.163 255.421,238 266.839,238"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="308.189" y="258">
+      <tspan x="308.189" y="258">Workshop A</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="508.554" y1="371.3" x2="477.212" y2="413.704"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="477.806,404.488 475.883,415.502 485.848,410.432 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="364.158" y1="242.686" x2="385.409" y2="238.915"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="378.638,245.195 387.61,238.525 376.891,235.349 "/>
   </g>
   <g>
-    <path style="fill: #ffffff" d="M 305.839 232 L 388.539,232 C 399.957,232 409.214,239.163 409.214,248 C 409.214,256.837 399.957,264 388.539,264 L 305.839,264 C 294.421,264 285.164,256.837 285.164,248 C 285.164,239.163 294.421,232 305.839,232z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 305.839 232 L 388.539,232 C 399.957,232 409.214,239.163 409.214,248 C 409.214,256.837 399.957,264 388.539,264 L 305.839,264 C 294.421,264 285.164,256.837 285.164,248 C 285.164,239.163 294.421,232 305.839,232"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="347.189" y="252">
-      <tspan x="347.189" y="252">Workshop A</tspan>
+    <path style="fill: #ffffff" d="M 695.101 241 L 785.351,241 C 797.811,241 807.913,247.492 807.913,255.5 C 807.913,263.508 797.811,270 785.351,270 L 695.101,270 C 682.64,270 672.538,263.508 672.538,255.5 C 672.538,247.492 682.64,241 695.101,241z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 695.101 241 L 785.351,241 C 797.811,241 807.913,247.492 807.913,255.5 C 807.913,263.508 797.811,270 785.351,270 L 695.101,270 C 682.64,270 672.538,263.508 672.538,255.5 C 672.538,247.492 682.64,241 695.101,241"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="740.226" y="259.5">
+      <tspan x="740.226" y="259.5">Workshop B</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="403.158" y1="236.686" x2="425.469" y2="231.202"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="419.123,237.91 427.641,230.668 416.736,228.199 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="683.147" y1="244.247" x2="640.472" y2="238.709"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="648.815,234.75 638.254,238.422 647.528,244.667 "/>
   </g>
   <g>
-    <path style="fill: #ffffff" d="M 738.1 234 L 828.351,234 C 840.811,234 850.913,240.492 850.913,248.5 C 850.913,256.508 840.811,263 828.351,263 L 738.1,263 C 725.64,263 715.538,256.508 715.538,248.5 C 715.538,240.492 725.64,234 738.1,234z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 738.1 234 L 828.351,234 C 840.811,234 850.913,240.492 850.913,248.5 C 850.913,256.508 840.811,263 828.351,263 L 738.1,263 C 725.64,263 715.538,256.508 715.538,248.5 C 715.538,240.492 725.64,234 738.1,234"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="783.225" y="252.5">
-      <tspan x="783.225" y="252.5">Workshop B</tspan>
-    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="395.026" y1="277.5" x2="368.318" y2="266.956"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="377.376,265.156 366.238,266.135 373.703,274.458 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="722.146" y1="238.248" x2="680.44" y2="230.909"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="688.953,227.33 678.238,230.522 687.22,237.179 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="641.026" y1="277.5" x2="674.873" y2="267.07"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="668.926,274.135 677.01,266.411 665.981,264.578 "/>
   </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="436.026" y1="268.5" x2="407.465" y2="260.518"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="416.288,257.792 405.312,259.916 413.597,267.423 "/>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="682.026" y1="268.5" x2="717.8" y2="259.808"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="711.436,266.5 719.973,259.28 709.075,256.782 "/>
-  </g>
-  <text font-size="10.16" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="63.0258" y="393.5">
-    <tspan x="63.0258" y="393.5">The Grand Unified Programming Theory:</tspan>
-    <tspan x="63.0258" y="406.2">The Pure Function Pipeline Data Flow with Warehouse/Workshop Model </tspan>
-    <tspan x="63.0258" y="418.9">https://github.com/linpengcheng/PurefunctionPipelineDataflow</tspan>
-    <tspan x="63.0258" y="431.6">Copyright © 2018 Lin Pengcheng. All rights reserved.</tspan>
+  <text font-size="10.16" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="250.026" y="315.5">
+    <tspan x="250.026" y="315.5">The Grand Unified Programming Theory:</tspan>
+    <tspan x="250.026" y="328.2">The Pure Function Pipeline Data Flow with Warehouse/Workshop Model </tspan>
+    <tspan x="250.026" y="340.9">https://github.com/linpengcheng/PurefunctionPipelineDataflow</tspan>
+    <tspan x="250.026" y="353.6">Copyright © 2018 Lin Pengcheng. All rights reserved.</tspan>
   </text>
   <text font-size="20.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="176.026" y="40.0722">
     <tspan x="176.026" y="40.0722">Warehouse/Workshop Model</tspan>
   </text>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="461.026" y="274.072">
-    <tspan x="461.026" y="274.072">  </tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="420.026" y="283.072">
+    <tspan x="420.026" y="283.072">  </tspan>
   </text>
   <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="126" y="67">
     <tspan x="126" y="67">Workshop</tspan>
   </text>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="613.624" y1="89.6004" x2="577.312" y2="120.122"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="580.038,111.299 575.6,121.561 586.472,118.954 "/>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="595.244" y1="371.12" x2="640.42" y2="417.11"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="631.412,415.075 641.987,418.705 638.546,408.067 "/>
-  </g>
-  <text font-size="10.16" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="64" y="450.5">
-    <tspan x="64" y="450.5">My programming aesthetic standards:</tspan>
-    <tspan x="64" y="463.2">Simplicity, unity, order, symmetry and definiteness.</tspan>
+  <text font-size="10.16" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="251" y="366.5">
+    <tspan x="251" y="366.5">My programming aesthetic standards:</tspan>
+    <tspan x="251" y="379.2">Simplicity, unity, order, symmetry and definiteness.</tspan>
   </text>
   <text font-size="11.2889" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="508.916" y="40.2222">
     <tspan x="508.916" y="40.2222">Software is a factory that produces data.</tspan>
   </text>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="379.21" y1="50.3004" x2="379.21" y2="90.3004"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="379.21" y1="50.3004" x2="537.894" y2="50.3004"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="379.21" y1="90.3004" x2="537.894" y2="90.3004"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="462.519" y="75.3004">
-      <tspan x="462.519" y="75.3004">External Warehouse M</tspan>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="313.21" y1="52.3004" x2="313.21" y2="92.3004"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="313.21" y1="52.3004" x2="471.894" y2="52.3004"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="313.21" y1="92.3004" x2="471.894" y2="92.3004"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="396.519" y="77.3004">
+      <tspan x="396.519" y="77.3004">External Warehouse M</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="573.952" y1="49.6004" x2="573.952" y2="89.6004"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="573.952" y1="49.6004" x2="732.636" y2="49.6004"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="573.952" y1="89.6004" x2="732.636" y2="89.6004"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="657.261" y="74.6004">
-      <tspan x="657.261" y="74.6004">External Warehouse N</tspan>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="565.952" y1="51.6004" x2="565.952" y2="91.6004"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="565.952" y1="51.6004" x2="724.636" y2="51.6004"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="565.952" y1="91.6004" x2="724.636" y2="91.6004"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="649.261" y="76.6004">
+      <tspan x="649.261" y="76.6004">External Warehouse N</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="382.952" y1="419.3" x2="382.952" y2="462.1"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="382.952" y1="419.3" x2="541.636" y2="419.3"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="382.952" y1="462.1" x2="541.636" y2="462.1"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="466.261" y="445.77">
-      <tspan x="466.261" y="445.77">External Warehouse X</tspan>
+    <path style="fill: #ffffff" d="M 305.438 91.3 L 469.588,91.3 C 492.252,91.3 510.625,96.2249 510.625,102.3 C 510.625,108.375 492.252,113.3 469.588,113.3 L 305.438,113.3 C 282.773,113.3 264.4,108.375 264.4,102.3 C 264.4,96.2249 282.773,91.3 305.438,91.3z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 305.438 91.3 L 469.588,91.3 C 492.252,91.3 510.625,96.2249 510.625,102.3 C 510.625,108.375 492.252,113.3 469.588,113.3 L 305.438,113.3 C 282.773,113.3 264.4,108.375 264.4,102.3 C 264.4,96.2249 282.773,91.3 305.438,91.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="387.513" y="106.3">
+      <tspan x="387.513" y="106.3">Acceptance check (pipe)</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="579.952" y1="419.1" x2="579.952" y2="460.3"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="579.952" y1="419.1" x2="738.636" y2="419.1"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="579.952" y1="460.3" x2="738.636" y2="460.3"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="663.261" y="444.73">
-      <tspan x="663.261" y="444.73">External Warehouse Y</tspan>
+    <path style="fill: #ffffff" d="M 568.437 92.3 L 732.587,92.3 C 755.252,92.3 773.625,97.2249 773.625,103.3 C 773.625,109.375 755.252,114.3 732.587,114.3 L 568.437,114.3 C 545.773,114.3 527.4,109.375 527.4,103.3 C 527.4,97.2249 545.773,92.3 568.437,92.3z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 568.437 92.3 L 732.587,92.3 C 755.252,92.3 773.625,97.2249 773.625,103.3 C 773.625,109.375 755.252,114.3 732.587,114.3 L 568.437,114.3 C 545.773,114.3 527.4,109.375 527.4,103.3 C 527.4,97.2249 545.773,92.3 568.437,92.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="650.512" y="107.3">
+      <tspan x="650.512" y="107.3">Acceptance check (pipe)</tspan>
     </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="387.519" y1="117.772" x2="387.559" y2="143.75"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="392.531,125.528 387.516,115.536 382.531,125.544 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="382.547,135.994 387.563,145.986 392.547,135.978 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="650.519" y1="118.772" x2="650.559" y2="145.75"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="655.531,126.529 650.516,116.536 645.531,126.544 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="645.548,137.994 650.563,147.986 655.548,137.979 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="523.848" y1="189.472" x2="523.607" y2="215.75"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="528.777,197.281 523.868,187.236 518.777,197.19 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="518.678,207.941 523.587,217.986 528.678,208.032 "/>
   </g>
 </svg>
