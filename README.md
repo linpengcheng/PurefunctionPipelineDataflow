@@ -41,6 +41,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [The difference between it and Rx](#The-difference-between-it-and-Rx)
   - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language)
 - [Basic quality control](#Basic-quality-control)
+- [Programming Aesthetics](#Programming-Aesthetics)
 - [Tao](#Tao)
 - [Killer Application](#Killer-Application)
   - [Software Design and Develop Automation (SDDA)](#Software-Design-and-Develop-Automation)
@@ -431,30 +432,30 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
   - **Pipeline combination**: The cascade of `simple pipelines` forms a `workshop pipeline`
   
-  - **Workshop combination**: Parallel independent `workshop pipelines` 
-    form `warehouse/workshop model pipelines (data factory)` 
-    through `warehouse` collaboration (scheduling).
+  - **Workshop combination**: 
+    - Parallel independent `workshop pipelines` 
+      form `warehouse/workshop model pipelines (data factory)` 
+      through `warehouse` collaboration (scheduling).
+    - The `workshop pipeline` can be used as a `packaged integrated pipeline (integrated chip)` 
+      to independently provide services to the outside world, which is a microservice.
+  
+  - **Warehouse**: It can provide services as an independent entity, similar warehousing industry.
+  
+  - **Warehouse/Workshop Model combination**: 
+    - Various independent `Warehouse/Workshop Model pipelines (data factory)` can be used as a
+      `packaged integrated pipeline (data factory, integrated chip)` and then combined into a larger 
+      `Warehouse/Workshop Model pipeline (data factory)`, 
+    - This is the method of interconnection, collaboration, and integration of different developers and 
+      different software products, and is also the basis for software development and standardization of 
+      large-scale industrial production.
     
-  - **Warehouse/Workshop Model combination**: Various independent 
-    `Warehouse/Workshop Model pipelines (data factory)` 
-    can be used as a 
-    `packaged integrated pipeline (data factory, integrated chip)` 
-    and then combined into a larger 
-    `Warehouse/Workshop Model pipeline (data factory)`, 
-    This is the method of interconnection, collaboration, 
-    and integration of different developers and 
-    different software products, and is also the basis 
-    for software development and standardization of 
-    large-scale industrial production.
-    
-  - Finally, the pipeline is like a cell, 
-    combined into a software ecosystem that conforms to 
-    the modern industrial system model. This is the 
-    perfect embodiment of simplicity and unity.
+  - Finally, the pipeline is like a cell, combined into a pipeline software ecosystem 
+    that meets the requirements of the modern industrial ecosystem. 
+    This is the perfect combination of simplicity and unity.
     
   - Contrast with `Everything is an object`
     - The object is a furry ball, and there is a chaotic 
-      point-to-point network between the objects. 
+      P2P (peer to peer) network between the objects. 
       It is a complex unorganized system.
     - The pipeline is a one-way ray, 
       and it's the simplest that data standardization 
@@ -1054,7 +1055,26 @@ Basic quality control of pure function pipeline data flow. The code must meet th
     it means that the quality of the code is good.
   - For non-Lisp languages, you can convert the source code into an abstract syntax tree (AST), 
     and then into a contour map, or a 3D mountain map.
-    
+
+## Programming Aesthetics
+
+```
+Simplicity, Unity, order, symmetry and definiteness.
+      ---- Lin Pengcheng, Programming aesthetics
+      
+The chief forms of beauty are order and symmetry and definiteness, 
+which the mathematical sciences demonstrate in a special degree.
+      ---- Aristotle, "Metaphysica"
+```
+
+My programming aesthetic standards are derived from the basic principles of science. 
+Newton, Einstein, Heisenberg, Aristotle and other major scientists hold this view.
+
+The aesthetics of non-art subjects are often complicated and mysterious, 
+making it difficult to understand and learn. 
+
+The pure function pipeline data flow provides a simple, clear, scientific and operable demonstration.
+
 ## Tao
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
