@@ -439,7 +439,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     - The `workshop pipeline` can be used as a `packaged integrated pipeline (integrated chip)` 
       to independently provide services to the outside world, which is a microservice.
   
-  - **Warehouse**: It can provide services as an independent entity, similar warehousing industry.
+  - **Warehouse**: It can provide services as an independent entity, which is a warehousing industry or database server.
   
   - **Warehouse/Workshop Model combination**: 
     - Various independent `Warehouse/Workshop Model pipelines (data factory)` can be used as a
@@ -448,6 +448,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     - This is the method of interconnection, collaboration, and integration of different developers and 
       different software products, and is also the basis for software development and standardization of 
       large-scale industrial production.
+    - This is the corporate group or the entire industrial ecosystem.
     
   - Finally, the pipeline is like a cell, combined into a pipeline software ecosystem 
     that meets the requirements of the modern industrial ecosystem. 
