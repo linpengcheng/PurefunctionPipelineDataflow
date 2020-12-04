@@ -437,7 +437,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
       form `warehouse/workshop model pipelines (data factory)` 
       through `warehouse` collaboration (scheduling).
     - The `workshop pipeline` can be used as a `packaged integrated pipeline (integrated chip)` 
-      to independently provide services to the outside world, which is a microservice.
+      to independently provide services to the outside world, which is a microservice or service industry.
   
   - **Warehouse**: It can provide services as an independent entity, which is a warehousing industry or database server.
   
@@ -1070,6 +1070,8 @@ which the mathematical sciences demonstrate in a special degree.
 
 My programming aesthetic standards are derived from the basic principles of science. 
 Newton, Einstein, Heisenberg, Aristotle and other major scientists hold this view.
+
+[ref: Simplicity and Unity](#Great-Historical-Significance)
 
 The aesthetics of non-art subjects are often complicated and mysterious, 
 making it difficult to understand and learn. 
