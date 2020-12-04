@@ -19,7 +19,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
-      - [`async/wait` and `fiber`](#async-wait-fiber)
+      - [async/await, Project Loom fiber, Gantt Chart and Scientific Management](#async-await-Project-Loom-fiber-Gantt-Chart-Scientific-Management)
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
     - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
     - [The unification with `Microkernel Architecture`](#The-unification-with-Microkernel-Architecture)
@@ -560,7 +560,7 @@ Everything is unified:
     
     - [Related discussions on clojureverse](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
-##### async wait fiber
+##### async await Project Loom fiber Gantt Chart Scientific Management
 
 Asynchronous is unnecessary, `async/await` is a backward 
 and inevitably eliminated model.
@@ -619,8 +619,8 @@ and did not provide guidance in the ForkJoinPool's user guide.
 In the "Gantt Chart", there is no waiting inside a task (a bar in the chart. Thread, fiber), 
 and all waiting is global. When waiting, the task (a bar in the chart. Thread, fiber) ends. 
 When the resource is obtained to continue working, it is already a new task (a bar in the chart. Thread, fiber) . 
-"async/wait" has a wait inside a task (a bar in the chart. Thread, fiber), which is completely wrong. 
-"async/wait" completely does not conform to the most basic principles of "**Operations Research Science**"([ref01: wiki](https://en.wikipedia.org/wiki/Operations_research), 
+"async/await" has a wait inside a task (a bar in the chart. Thread, fiber), which is completely wrong. 
+"async/await" completely does not conform to the most basic principles of "**Operations Research Science**"([ref01: wiki](https://en.wikipedia.org/wiki/Operations_research), 
 [ref02](https://whatis.techtarget.com/definition/operations-research-OR)). 
 I don't think the unscientific model can produce higher efficiency.
 
@@ -632,7 +632,7 @@ In this model, the system dispatch center (warehouse) can safely arrange the ord
 
 This's a [Manufacturing Execution System (MES)](https://wikimili.com/en/Manufacturing_execution_system).
 
-"async/wait" is just an unorganized, undisciplined, imprecise, and unsafe practice.
+"async/await" is just an unorganized, undisciplined, imprecise, and unsafe practice.
 
 The most typical case: 
 Amazon actually used AI to monitor and dispatch employees, 
