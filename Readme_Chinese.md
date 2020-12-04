@@ -19,7 +19,7 @@
   - [仓库/车间模型](#仓库车间模型)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
     - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)
-      - [`async/wait`和`纤程`](#异步和等待和纤程)
+      - [`async/await`, `Project Loom 纤程`, `甘特图`和`科学管理`](#async-await-和-Project-Loom-纤程-和-甘特图-和-科学管理)
       - [`微服务`和`智能线程`的统一](#微服务和智能线程的统一)
     - [和`信息系统集成模型`的统一](#和信息系统集成模型的统一)
     - [和`微内核架构`的统一](#和微内核架构的统一)
@@ -495,9 +495,9 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
     
     - [在 clojureverse 论坛上的相关讨论](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
-##### 异步和等待和纤程
+##### async await 和 Project Loom 纤程 和 甘特图 和 科学管理
 
-我认为异步是不必要的，async/await是一种落后的、必然会被淘汰的模式。
+我认为异步是不必要的，`async/await`是一种落后的、必然会被淘汰的模式。
 
 从**运筹学**的角度看, 应该废除`async/await`.。当需要等待时，本线程该结束了.
 例如在工厂里，不会发生一个车间在生产流程中途停下来, 蹲在另一个车间门口等米下锅，每个车间都只与仓库交互，
@@ -527,8 +527,8 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 在“甘特图”里一个任务（图里的一个条块，线程，纤程）内部是不存在等待的，所有的等待都是全局的.
 当等待时，那个任务（图里的一个条块，线程，纤程）就结束了，
 当获得资源继续工作时，已经是一个新的任务了（图里的一个条块，线程，纤程）。
-“async/wait”在一个任务（图里的一个条块，线程，纤程）内部存在wait，完全是错误的。
-“async/wait”完全不符合“运筹学科学”([ref01: wiki](https://en.wikipedia.org/wiki/Operations_research), 
+“async/await”在一个任务（图里的一个条块，线程，纤程）内部存在wait，完全是错误的。
+“async/await”完全不符合“运筹学科学”([ref01: wiki](https://en.wikipedia.org/wiki/Operations_research), 
 [ref02](https://whatis.techtarget.com/definition/operations-research-OR))
 的最基本的原则，我不认为不科学的模式能产生更高的效率。
 
@@ -544,7 +544,7 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 这是一个[`制造执行系统`（MES，Manufacturing Execution System）](https://wikimili.com/en/Manufacturing_execution_system).
 
-"async/wait"只是一种无组织的、无纪律的、不严谨的、不安全的做法。
+"async/await"只是一种无组织的、无纪律的、不严谨的、不安全的做法。
 
 最典型的案例：
 亚马逊竟用AI监控和调度员工，效率低当场开除。
