@@ -797,6 +797,20 @@ the input sewage is treated separately.
   - Acceptance: Motherboard with standardized interfaces
     such as PCI, SATA, USB, etc.
   - External standardized data: hard disk, flash drive, etc.
+  - Case: Apple M1 chip adopts "warehouse/workshop model"
+
+    - Warehouse: unified memory
+    - Workshop: CPU, GPU and other cores
+
+there's also a new unified memory architecture 
+that lets the CPU, GPU, and other cores exchange information 
+between one another, and with unified memory, 
+the CPU and GPU can access memory simultaneously 
+rather than copying data between one area and another. 
+Accessing the same pool of memory without the need 
+for copying speeds up information exchange 
+for faster overall performance.
+[reference: Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
   
 #### The unification with Integrated Circuit System
 
