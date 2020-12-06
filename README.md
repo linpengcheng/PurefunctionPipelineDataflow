@@ -524,8 +524,8 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   ;1. According to the new status (such as orders, etc.) 
   ;   scheduling workshops to complete tasks.
   ;2. Side effects: 
-  ;   2.1. access goods to other warehouses as needed 
-  ;        (distributed, obtain data from other databases), 
+  ;   2.1. access data to other warehouses as needed 
+  ;        (distributed, access data from other databases, disk, etc.), 
   ;   2.2. persist data, etc.
 )
 
