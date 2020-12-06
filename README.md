@@ -435,9 +435,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 #### Overview of the model
 
 The basic principle of the system is similar to an in-memory database system. 
-All tasks of this system are completed by the in-memory database scheduling 
-stored procedure (workshop), and all side effects (similar to persistence, distributed, etc.) 
-are completed by the in-memory database.
+like  the in-memory database, all tasks of the system are completed by scheduling stored procedure (workshop),  
+and all side effects (similar to persistence, distributed, etc.) are completed by the in-memory database.
 
 Do everything possible to write pure functions (pipe), and they can only be chained together 
 using the "pipe symbol", as long as this is done, it will eventually evolve into this result.
