@@ -471,7 +471,7 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
   ;   2.2. persist data, etc.
 )
 
-(add-watch a :scheduler scheduler)
+(add-watch warehouse :scheduler scheduler)
 
 ```
 
