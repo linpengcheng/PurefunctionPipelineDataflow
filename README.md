@@ -17,6 +17,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Code Example](#Code-example)
 - [Classical Model](#Classical-Model)
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
+    - [Overview of the model](#Overview-of-the-model)
+    - [Framework code of the model](#Framework-code-of-the-model)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
       - [async/await, Project Loom fiber, Gantt Chart and Scientific Management](#async-await-Project-Loom-fiber-Gantt-Chart-Scientific-Management)
@@ -428,20 +430,54 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ### Warehouse Workshop Model
 
+![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
+
+#### Overview of the model
+
+The basic principle of the system is similar to an in-memory database system. 
+All tasks of this system are completed by the in-memory database scheduling 
+stored procedure (workshop), and all side effects (similar to persistence, distributed, etc.) 
+are completed by the in-memory database.
+
+Do everything possible to write pure functions (pipe), and they can only be chained together 
+using the "pipe symbol", as long as this is done, it will eventually evolve into this result.
+
+If there is no "pipe symbol", you can use "assignment statement", which is available in any language.
+
 - **Everything is a pipeline**: the perfect way to achieve the simplicity and unity of the software ecosystem.
 
   - **Pipeline combination**: The cascade of `simple pipelines` forms a `workshop pipeline`
   
-  - **Workshop combination**: 
+  - **Workshop combination**
+  
     - Parallel independent `workshop pipelines` 
       form `warehouse/workshop model pipelines (data factory)` 
       through `warehouse` collaboration (scheduling).
     - The `workshop pipeline` can be used as a `packaged integrated pipeline (integrated chip)` 
       to independently provide services to the outside world, which is a microservice or service industry.
+    - All workshops are independent black boxes (pure function), 
+      it does not need to know where the data comes from 
+      and where it is going, It only needs to complete its functions
+      according to the data assigned to it by the warehouse.
+    - They are all independent and can be safely paralleled.
   
-  - **Warehouse**: It can provide services as an independent entity, which is a warehousing industry or database server.
+  - **Warehouse**
   
-  - **Warehouse/Workshop Model combination**: 
+    - It can provide services as an independent entity, which is a warehousing industry or database server.
+
+    - The warehouse uses the best algorithm of the Gantt chart 
+      to arrange the workshop to complete tasks according to 
+      the status changes (such as orders, etc.).
+
+    - The warehouse saves the global state. If the system fails, 
+      it is easy to find the fault by analyzing the warehouse snapshot.
+    
+    - All side effects are done by the warehouse agent. such as get data from other warehouses as needed 
+      (distributed DB, disk, etc), persist data, etc. side effects can be regarded as a special workshop, 
+      such as purchasing department, sales department, etc.
+  
+  - **Warehouse/Workshop Model combination**
+  
     - Various independent `Warehouse/Workshop Model pipelines (data factory)` can be used as a
       `packaged integrated pipeline (data factory, integrated chip)` and then combined into a larger 
       `Warehouse/Workshop Model pipeline (data factory)`, 
@@ -470,7 +506,32 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   
 - The best task planning tool is the Gantt chart, and the best implementation method is the warehouse/workshop model implemented by the factory.
 
-![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
+#### Framework code of the model
+
+```clojure
+
+;workshop is pipeline(pure function)
+(defn workshop [init_data_from_warehouse]
+  (->> init_data_from_warehouse
+       pure_func_01
+       pure_func_02
+       pure_func_03
+       commit_data_to_warehouse))
+
+(def warehouse (atom {}))
+
+(defn scheduler [key reference old-state new-state]
+  ;1. According to the new status (such as orders, etc.) 
+  ;   scheduling workshops to complete tasks.
+  ;2. Side effects: 
+  ;   2.1. access goods to other warehouses as needed 
+  ;        (distributed, obtain data from other databases), 
+  ;   2.2. persist data, etc.
+)
+
+(add-watch a :scheduler scheduler)
+       
+``` 
 
 Everything is unified:
   
