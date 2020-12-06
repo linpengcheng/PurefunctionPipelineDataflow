@@ -529,7 +529,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   ;   2.2. persist data, etc.
 )
 
-(add-watch a :scheduler scheduler)
+(add-watch warehouse :scheduler scheduler)
        
 ``` 
 
