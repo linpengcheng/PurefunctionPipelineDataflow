@@ -452,12 +452,13 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 ```clojure
 
 ;workshop is pipeline(pure function)
-(defn workshop [init_data_from_warehouse]
-  (->> init_data_from_warehouse
+;It is run after the scheduler allocates the initial data (parameter), 
+;and its output data (return value) is also "received" and "processed" by the scheduler.
+(defn workshop [init_data]
+  (->> init_data
        pure_func_01
        pure_func_02
-       pure_func_03
-       commit_data_to_warehouse))
+       pure_func_03))
        
 
 (def warehouse (atom {}))
