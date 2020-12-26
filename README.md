@@ -1,7 +1,6 @@
 [goto Chinese edition (中文版)](./Readme_Chinese.md)
 
-# The Pure Function Pipeline Data Flow v3.0
-# ---- the Grand Unified Programming Theory
+# The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Warehouse/Workshop Model
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -12,7 +11,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [1. Pipeline Component](#1-Pipeline-Component)
   - [2. Branch](#2-Branch)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
-  - [4. shunt (concurrent, parallel)](#4-Shunt)
+  - [4. Shunt (concurrent, parallel)](#4-Shunt)
   - [5. Confluence(reduce)](#5-Confluence)
 - [Code Example](#Code-example)
 - [Classical Model](#Classical-Model)
@@ -21,7 +20,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [Framework code of the model](#Framework-code-of-the-model)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
-      - [async/await, Project Loom fiber, Gantt Chart and Scientific Management](#async-await-Project-Loom-fiber-Gantt-Chart-Scientific-Management)
+      - [async/await, Project Loom fiber, Gantt Chart, and Scientific Management](#async)
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
     - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
     - [The unification with `Microkernel Architecture`](#The-unification-with-Microkernel-Architecture)
@@ -381,20 +380,34 @@ In management, it is called "merger by absorption".
 
 This is a typical application of the philosophy of the `Tao` and the `Grand Unified Theory`.
 
-- data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, and the entire system is an integrated circuit that is energized.
-- Data (flow) is raw material (flow), pure function is machine, the thread macro (->>, -> etc.) is the conveyor belt, and the entire system is a large industrial pipeline.
+- data-flow is current-flow, function is chip, thread macro (->>, -> etc.) is a wire, 
+  and the entire system is an integrated circuit that is energized.
+
+- Data (flow) is raw material (flow), pure function is machine, 
+  the thread macro (->>, -> etc.) is the conveyor belt, 
+  and the entire system is a large industrial pipeline.
+
 - Communication modes, data signals and control signals (annotations or metadata) flow through the pipeline.
-- The compiler is essentially a data transformation, starting with the source code, through a series of pure function pipeline transformation optimization, up to the machine code. It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
+
+- The compiler is essentially a data transformation, starting with the source code, 
+  through a series of pure function pipeline transformation optimization, up to the machine code. 
+  It's very easy to insert enhanced optimizations or features, and parallel compilation is also very simple.
+
 - Urban water network
-- Management is the best and most vivid treasure trove of computer science
+
+- Management Science is the best and most vivid treasure trove of computer science
   (algorithm, architecture, asynchronous, parallel, distributed and etc.).
-  My programming approach is a fusion of “functional programming” and “enterprise management”. 
+  My programming approach is a fusion of “Functional Programming” and “Management Science”. 
   It has an added benefit，It is very helpful for the communication 
   between the information technology department and the management of the company.
-  - The **Gantt chart** in management, with the timeline as the main axis, multiple data flows running in parallel. 
+  
+  - The **Gantt chart** in management science, with the timeline as the main axis, multiple data flows running in parallel. 
     It is also a good data flow , parallel and asynchronous programming tool. 
+    
   - Parallel: Large industrial pipelines can be expanded linearly in parallel.
+  
   - Distributed: group company model, total branch model, parent-subsidiary model, holding company model, etc.
+  
   - Architecture (Organizational Structure): 
     - Pyramid: Classic top-down modular design
     - Flat: The Pure Function Pipeline Data Flow
@@ -412,15 +425,19 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     - Chaos P2P (peer to peer): OOP (Object-Oriented Programming)
     
   - OS or Resource Management: ERP
+  
   - Type system: Industrial standard system (ISO standard, national standard, industry standard, enterprise standard), 
     The Pure Function Pipeline Data Flow is suitable for the implementation of product specification (data specification) 
     industry standard system, Just like the computer hardware interface standard specification, Hardware is a function, 
     interface is a data standard specification. Data is transferred between hardware (functions).
+    
   - Storage Management(buffers, caches, databases, etc.): Inventory management
+  
   - In a large business, `process first thinking` is based on the credential(evidence). This credential is data.
     Credentials (data) flow through the nodes in the process to form a dataflow.
     Every node in the process is a pipe-function (pure function).
     This is the `Pure Function Pipeline Data Flow`.
+    
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
     It's also a variant of the **Gantt Chart**.
        
@@ -428,7 +445,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ![River](./doc/image/river.jpeg) 
 
-### Warehouse Workshop Model
+<h3 id="Warehouse-Workshop-Model">Warehouse/Workshop Model</h3>
 
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
 
@@ -621,7 +638,7 @@ Everything is unified:
     
     - [Related discussions on clojureverse](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
-##### async await Project Loom fiber Gantt Chart Scientific Management
+<h5 id="async">async/await, Project Loom fiber, Gantt Chart, and Scientific Management</h5>
 
 Asynchronous is unnecessary, `async/await` is a backward 
 and inevitably eliminated model.
@@ -1016,7 +1033,7 @@ for faster overall performance.
     - Purchasing department
     - supply chain
  
-#### Warehouse Workshop Model Summary
+<h4 id="Warehouse-Workshop-Model-Summary">Warehouse/Workshop Model Summary</h4>
  
 In industry, the product standard is the interface, 
 the production method (code implementation) is not limited, 
