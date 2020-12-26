@@ -1,6 +1,6 @@
 [goto English edition (英文版)](./README.md)
 
-# 纯函数管道数据流  v3.0 ---- 大统一编程理论
+# 大统一编程理论：纯函数管道数据流和仓库/车间模型
 
 版权所有 © 2018 林鹏程， 保留所有权利。
 
@@ -21,7 +21,7 @@
     - [模型的框架代码](#模型的框架代码)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
     - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)
-      - [`async/await`, `Project Loom 纤程`, `甘特图`和`科学管理`](#async-await-和-Project-Loom-纤程-和-甘特图-和-科学管理)
+      - [`async/await`, `Project Loom 纤程`, `甘特图`和`科学管理`](#async)
       - [`微服务`和`智能线程`的统一](#微服务和智能线程的统一)
     - [和`信息系统集成模型`的统一](#和信息系统集成模型的统一)
     - [和`微内核架构`的统一](#和微内核架构的统一)
@@ -390,7 +390,7 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 ![River](./doc/image/river.jpeg) 
 
 
-### 仓库车间模型
+<h3 id="仓库车间模型">仓库/车间模型</h3>
 
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
 
@@ -549,7 +549,7 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
     
     - [在 clojureverse 论坛上的相关讨论](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
-##### async await 和 Project Loom 纤程 和 甘特图 和 科学管理
+<h5 id="async">async/await, Project Loom 纤程, 甘特图和科学管理</h5>
 
 我认为异步是不必要的，`async/await`是一种落后的、必然会被淘汰的模式。
 
