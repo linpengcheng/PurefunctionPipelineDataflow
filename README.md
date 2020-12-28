@@ -17,6 +17,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Classical Model](#Classical-Model)
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
     - [Overview of the model](#Overview-of-the-model)
+    - [Principles of the model](#Principles-of-the-model)
     - [Framework code of the model](#Framework-code-of-the-model)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
@@ -521,6 +522,71 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   and the large industrial assembly line is the mainstream production technology in the world.
   
 - The best task planning tool is the Gantt chart, and the best implementation method is the warehouse/workshop model implemented by the factory.
+
+#### Principles of the model
+
+- Division of tasks
+  - Divide tasks by Gantt chart.
+  - A type of task is only responsible for 
+    the corresponding type of workshop.
+  - Data management is handled by the warehouse.
+  - Task scheduling is in charge of the scheduling 
+    function of warehouse.
+
+- Unified scheduling
+  - Unified scheduling by the scheduling function of warehouse.
+  - The scheduling function dynamically plans 
+    the order of completion of tasks according to 
+    the Gantt chart algorithm, and calls the workshop 
+    to complete the assigned tasks.
+  - This approach is the easiest to optimize 
+    the overall efficiency of the system.
+
+- Concentration and decentralization
+  - Data is centrally managed by the warehouse.
+  - Data processing is independently produced by each workshop, 
+    there is no interaction between each workshop, 
+    and each workshop is only responsible for the warehouse.
+  
+- Level chain
+  - In a warehouse/workshop model, 
+    all workshops are managed by one warehouse.
+  - Each warehouse/workshop model can be used as 
+    a workshop component (like an integrated chip) 
+    and managed by the upper-level warehouse.
+    
+- Definiteness
+  - Each workshop should have definiteness standard 
+    specifications for initial state (parameters) 
+    and target state (return value).
+  - Each warehouse has a definiteness standard 
+    specification for input/output data.
+   
+- Order
+  - Each workshop transforms the initial state to the 
+    target state step by step through a series of pipelines 
+    (pure functions), and finally returns to the warehouse.
+  - The tasks of the entire system are dynamically planned 
+    by the scheduling function according to the Gantt chart 
+    algorithm to execute the order, and the workshop is 
+    called to complete the assigned tasks.
+
+- Standardization
+  - All data are produced and organized according to 
+    standard specifications.
+  - The logic of the workshop can be kept simple and efficient.
+
+- Exception handling
+  - Exceptional situations and problems refer to 
+    new situations and problems that are difficult 
+    for each workshop to adjust by itself 
+    or not included in the original design.
+  - The top management (warehouse) should avoid dealing 
+    with small problems in the work, which is the 
+    responsibility of the workshop.
+  - Exceptional situations and problems are handled by the 
+    top management (warehouse) dispatched (or established) 
+    "specialized workshop for handling exceptions".
 
 #### Framework code of the model
 
