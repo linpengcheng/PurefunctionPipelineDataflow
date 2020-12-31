@@ -547,7 +547,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     have and only one leader (`the scheduling function of warehouse`).
   - A single leader helps to enhance the certainty and predictability of task execution.
   - Multiple leaders will cause any leader to lose control of the execution of the task, 
-    resulting in unpredictable results, And destroy the results of using dynamic programming 
+    produce unpredictable results, and destroy the results of using dynamic programming 
     to achieve global optimization.
 
 - Single form
