@@ -1275,7 +1275,8 @@ Everyone’s knowledge, experience, and interests are different.
 Everyone’s Tao also has an iconic personal characteristics, that is: 
 only the personality is the Tao, similar to only the nation is the world.
 
-This level of achievement is traditionally called "enlightenment", and Einstein called it "true wisdom".
+This level of achievement is traditionally known as comprehending the true meaning of "Tao",
+and Einstein called it "true wisdom".
 
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
