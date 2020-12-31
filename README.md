@@ -604,7 +604,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - The manager (scheduling function) should avoid dealing with specific tasks, 
     which is the responsibility of the workshop.
   - Exceptional situations and problems are handled by the 
-    top management (warehouse) dispatched (or established) 
+    management (scheduling function) dispatched (or established) 
     "specialized workshop for handling exceptions".
 
 #### Framework code of the model
