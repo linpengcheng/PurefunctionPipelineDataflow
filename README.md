@@ -1273,7 +1273,7 @@ There are countless people who know this concept, but in history, only a few peo
 They all have a strong imagination, creativity and understanding. 
 Everyone’s knowledge, experience, and interests are different. 
 Everyone’s Tao also has an iconic personal characteristics, that is: 
-only personality is the Tao, similar to only the nation is the world.
+only the personality is the Tao, similar to only the nation is the world.
 
 This level of achievement is traditionally called "enlightenment", and Einstein called it "true wisdom".
 
