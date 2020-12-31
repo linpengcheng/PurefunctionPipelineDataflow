@@ -530,11 +530,11 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - A type of task is only responsible for 
     the corresponding type of workshop.
   - Data management is handled by the warehouse.
-  - Task scheduling is in charge of the scheduling 
-    function of warehouse.
+  - Task scheduling is in charge of `the scheduling 
+    function of warehouse`.
 
 - Unified scheduling
-  - Unified scheduling by the scheduling function of warehouse.
+  - Unified scheduling by `the scheduling function of warehouse`.
   - The scheduling function dynamically plans 
     the order of completion of tasks according to 
     the Gantt chart algorithm, and calls the workshop 
@@ -542,48 +542,67 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
 
+- Single leader
+  - Except for the root warehouse, all components (workshops, warehouses, models) 
+    have and only one leader (`the scheduling function of warehouse`).
+  - A single leader helps to enhance the certainty and predictability of task execution.
+  - Multiple leaders will cause any leader to lose control of the execution of the task, 
+    resulting in unpredictable results, And destroy the results of using dynamic programming 
+    to achieve global optimization.
+
+- Single form
+  - All components (workshops, warehouses, models) are pipelines.
+  - Realize the perfect combination of system simplicity and unity.
+  - Similar
+    - A complex life form is composed of countless simplest cells.
+    - A complex CPU is composed of hundreds of millions of simplest transistors.
+
 - Concentration and decentralization
   - Data is centrally managed by the warehouse.
   - Data processing is independently produced by each workshop, 
     there is no interaction between each workshop, 
     and each workshop is only responsible for the warehouse.
+  - Scheduling workshops to complete system tasks with the most optimized algorithm, 
+    which is the responsibility of `the scheduling function of warehouse`.
   
 - Level chain
   - In a warehouse/workshop model, 
-    all workshops are managed by one warehouse.
+    all workshops are managed by one `scheduling function of warehouse`.
   - Each warehouse/workshop model can be used as 
-    a workshop component (like an integrated chip) 
-    and managed by the upper-level warehouse.
+    a workshop component (integrated pipeline, like an integrated chip) 
+    and managed by `the scheduling function of upper-level warehouse`.
     
 - Definiteness
-  - Each workshop should have definiteness standard 
-    specifications for initial state (parameters) 
-    and target state (return value).
-  - Each warehouse has a definiteness standard 
-    specification for input/output data.
+  - Each workshop should have definite standard specifications 
+    for input data (parameters) and output data (return values).
+  - Each `warehouse/workshop model (warehouse)` has a definite standard specification 
+    for input/output data to the external environment.
    
 - Order
   - Each workshop transforms the initial state to the 
     target state step by step through a series of pipelines 
     (pure functions), and finally returns to the warehouse.
   - The tasks of the entire system are dynamically planned 
-    by the scheduling function according to the Gantt chart 
-    algorithm to execute the order, and the workshop is 
-    called to complete the assigned tasks.
+    by the scheduling function according to the Gantt chart algorithm 
+    to dynamically plan the execution order of the tasks, 
+    and the workshop is called to complete the assigned tasks.
 
 - Standardization
   - All data are produced and organized according to 
     standard specifications.
-  - The logic of the workshop can be kept simple and efficient.
+  - It can reduce unnecessary data verification, cleaning, 
+    conversion, and abnormal processing during execution, 
+    and keep the logic of the workshop simple and efficient.
 
 - Exception handling
   - Exceptional situations and problems refer to 
     new situations and problems that are difficult 
     for each workshop to adjust by itself 
     or not included in the original design.
-  - The top management (warehouse) should avoid dealing 
-    with small problems in the work, which is the 
-    responsibility of the workshop.
+  - The workshop should solve the exceptions and problems that can be solved by itself, 
+    and only submit the exceptions and problems that can't be handled to the direct manager (scheduling function).    
+  - The manager (scheduling function) should avoid dealing with specific tasks, 
+    which is the responsibility of the workshop.
   - Exceptional situations and problems are handled by the 
     top management (warehouse) dispatched (or established) 
     "specialized workshop for handling exceptions".
