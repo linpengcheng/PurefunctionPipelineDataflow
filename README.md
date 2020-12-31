@@ -1268,6 +1268,15 @@ Accounting, Management, Architecture etc.
 everything can be used as Algorithms and Software Engineering Methods.
 They can transform each other.
 
+In traditional Chinese culture, there is an unremitting pursuit of the ultimate grand unification (Tao). 
+There are countless people who know this concept, but in history, only a few people have achieved creative results. 
+They all have a strong imagination, creativity and understanding. 
+Everyone’s knowledge, experience, and interests are different. 
+Everyone’s Tao also has an iconic personal characteristics, that is: 
+only personality is the Tao, similar to only the nation is the world.
+
+This level of achievement is traditionally called "enlightenment", and Einstein called it "true wisdom".
+
 ![TaoTaiji](./doc/TaoTaiji.gif)
 
 ## Killer Application
