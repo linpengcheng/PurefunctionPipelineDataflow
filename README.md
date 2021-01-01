@@ -545,7 +545,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
 - Single leader
   - Except for the root warehouse, all components (workshops, warehouses, models) 
     have and only one leader (`the scheduling function of warehouse`).
-  - A single leader helps to enhance the certainty and predictability of task execution.
+  - A single leader helps to enhance the certainty and predictability of task execution (paths, times and result).
   - Multiple leaders will cause any leader to lose control of the execution of the task, 
     produce unpredictable results, and destroy the results of using dynamic programming 
     to achieve global optimization.
@@ -595,17 +595,19 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     and keep the logic of the workshop simple and efficient.
 
 - Exception handling
-  - Exceptional situations and problems refer to 
-    new situations and problems that are difficult 
-    for each workshop to adjust by itself 
-    or not included in the original design.
-  - The workshop should solve the exceptions and problems that can be solved by itself, 
-    and only submit the exceptions and problems that can't be handled to the direct manager (scheduling function).    
+  - Exceptions refer to new situations and problems that are difficult 
+    for each workshop to adjust by itself or not included in the original design.
+    - There are no exceptional situations and problems in the normal standardized production workshop.
+    - The special "side effect workshop" interacting with the external environment is responsible 
+      for input and output, which may cause abnormalities. The workshop should try its best to resolve the exceptions 
+      that it can solve. Only exceptions that the workshop cannot handle are submitted to the direct manager (scheduling function). 
+      The workshop should provide detailed exception information and possible solutions when submitting the exception.
+    - The scheduling function may need to coordinate exceptions between workshops, similar to transaction management and deadlock handling in RMDB.   
   - The manager (scheduling function) should avoid dealing with specific tasks, 
     which is the responsibility of the workshop.
-  - Exceptional situations and problems are handled by the 
-    management (scheduling function) dispatched (or established) 
+  - Exceptions are handled by the management (scheduling function) dispatched (or established) 
     "specialized workshop for handling exceptions".
+    - Special workshop for handling exceptions: similar to the transaction manager and deadlock handler in RMDB.
 
 #### Framework code of the model
 
