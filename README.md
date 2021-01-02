@@ -591,6 +591,9 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     by the scheduling function according to the Gantt chart algorithm 
     to dynamically plan the execution order of the tasks, 
     and the workshop is called to complete the assigned tasks.
+  - It's like a river diagram that the sequential rendering of the entire continuously running system. 
+    It is also a variant of the Gantt chart. This is Boeing's pulsation production line technology.
+    ![River](./doc/image/river.jpeg) 
 
 - Standardization
   - All data are produced and organized according to 
