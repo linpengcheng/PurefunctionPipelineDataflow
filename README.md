@@ -452,6 +452,11 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 #### Overview of the model
 
+If you understand that software is a factory that produces data, 
+then you can understand the warehouse/workshop model, 
+understand the separation of production lines (pure functions, pipelines, workshop) and production materials (data), 
+and continuous production on the production line forms a data flow.
+
 The basic principle of the system is similar to an in-memory database system. 
 like  the in-memory database, all tasks of the system are completed by scheduling stored procedure (workshop),  
 and all side effects (similar to persistence, distributed, etc.) are completed by the in-memory database.
