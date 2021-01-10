@@ -538,22 +538,69 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - Task scheduling is in charge of `the scheduling 
     function of warehouse`.
 
-- Unified scheduling
-  - Unified scheduling by `the scheduling function of warehouse`.
-  - The scheduling function dynamically plans 
-    the order of completion of tasks according to 
-    the Gantt chart algorithm, and calls the workshop 
-    to complete the assigned tasks.
-  - This approach is the easiest to optimize 
-    the overall efficiency of the system.
+- Single Leader and Unified Scheduling
+  - Single leader
+    - Except for the root warehouse, all components (workshops, warehouses, models) 
+      have and only one leader (`the scheduling function of warehouse`).
+    - A single leader helps to enhance the certainty and predictability of task execution (paths, times and result).
+    - Multiple leaders will cause any leader to lose control of the execution of the task, 
+      produce unpredictable results, and destroy the results of using dynamic programming 
+      to achieve global optimization.
+  - Unified scheduling
+    - Unified scheduling by `the scheduling function of warehouse`.
+    - The scheduling function dynamically plans 
+      the order of completion of tasks according to 
+      the Gantt chart algorithm, and calls the workshop 
+      to complete the assigned tasks.
+    - This approach is the easiest to optimize 
+      the overall efficiency of the system.
 
-- Single leader
-  - Except for the root warehouse, all components (workshops, warehouses, models) 
-    have and only one leader (`the scheduling function of warehouse`).
-  - A single leader helps to enhance the certainty and predictability of task execution (paths, times and result).
-  - Multiple leaders will cause any leader to lose control of the execution of the task, 
-    produce unpredictable results, and destroy the results of using dynamic programming 
-    to achieve global optimization.
+- Empowerment and Management by Objective
+  - Empowerment
+    - I think that full empowerment is to achieve the 
+      effect of the missile's "Fire-and-Forget" technology.
+      "Fire-and-Forget" is a guidance bullet with 
+      independent guidance capability. It does not need 
+      external support, it will automatically track and 
+      strike the target, and do not need to control after 
+      launching. The utility model has the advantages of 
+      improving the use efficiency between the missile and 
+      the launcher, and reducing the missile's dependence 
+      on other systems to provide its own updated 
+      information, so that the launcher can attack the 
+      largest number of targets in the shortest time and 
+      improve the survival of the launcher. The development 
+      direction of guidance technology in the future is 
+      precisely the "Fire-and-Forget" precision guidance 
+      technology.
+    - If the workshop cannot achieve "Fire-and-Forget" and 
+      still needs to participate in management and control 
+      with the manager (scheduling function), then the task 
+      division is unreasonable, and the task should be 
+      divided at the intervention point of the manager 
+      (scheduling function).
+    - Advantage
+      - Reduce the complexity of the system (overall and components)
+      - Enhance the independence of each component, 
+        perform its own duties, don't interfere with each other, 
+        and enhance the simplicity and parallelism of the components.
+      - Make the task division reach the maximum granularity 
+        under the premise of ensuring independence, and 
+        ensure the continuity and efficiency of task execution.
+      - Improve the efficiency of parallel, concurrency, 
+        distributed, asynchronous, etc.
+      - Unified the architecture of parallel, concurrent, 
+        distributed, asynchronous, etc. 
+      - Enhance the optimization effect of global scheduling
+      - Unified form of Manager (scheduling function) 
+        manages and controls the workshop.
+      - Achieve the simplicity and unity of the system.
+  - Management by Objective
+    - Empowerment isn't laissez-faire, it is mainly to 
+      carry out strict and standardized total quality 
+      management of work results.
+    - The acceptance function of warehouse is responsible 
+      for management by objective.
 
 - Single form
   - All components (workshops, warehouses, models) are pipelines.
