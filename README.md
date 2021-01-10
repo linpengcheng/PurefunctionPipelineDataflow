@@ -1,6 +1,6 @@
 [goto Chinese edition (中文版)](./Readme_Chinese.md)
 
-# The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Warehouse/Workshop Model
+# The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with principle-based Warehouse/Workshop Model
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
