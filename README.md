@@ -599,6 +599,10 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     - Empowerment isn't laissez-faire, it is mainly to 
       carry out strict and standardized total quality 
       management of work results.
+    - As long as the accuracy of the data in the warehouse 
+      is ensured, the accuracy of the input and output data 
+      of the workshop can be guaranteed, and the accuracy 
+      of the system can be guaranteed.
     - The acceptance function of warehouse is responsible 
       for management by objective.
 
@@ -639,7 +643,25 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     to dynamically plan the execution order of the tasks, 
     and the workshop is called to complete the assigned tasks.
   - It's like a river diagram that the sequential rendering of the entire continuously running system. 
-    It is also a variant of the Gantt chart. This is Boeing's pulsation production line technology.
+    It is also a variant of the Gantt chart. This is Boeing's aircraft pulsating assembly line, 
+    which is essentially an optimized assembly line.
+    - The main river is the main production line
+    - Every branch river is a large part production line
+    - If we divide the river (production line, workshop) 
+      into several important stages, every time a stage 
+      of the river (production line, workshop) is 
+      completed, one step closer to the final product. 
+      Finally, until the end, the final product is obtained.
+    - Modular design and manufacturing. The point where 
+      the branching river merges into the upper-level 
+      river is the point where large parts are 
+      assembled to the upper-level product.
+    - The output data of each workshop is checked and 
+      accepted by the warehouse's acceptance function, 
+      so as to ensure the correctness and standard of 
+      the input data of each workshop and improve the 
+      efficiency and quality of the system.
+    
     ![River](./doc/image/river.jpeg) 
 
 - Standardization
