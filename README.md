@@ -1031,7 +1031,8 @@ the input sewage is treated separately.
 #### The unification with Computer Hardware Architecture
   
   The model uses memory as the core, not the CPU.
-  Finally, we can achieve the grand unification of all IT fields such as hardware, software, Internet, and Internet of Things.
+  Finally, we can achieve the grand unification of all IT fields 
+  such as hardware, software, Internet, and Internet of Things.
   
   - Warehouse: Memory
   - Workshop: CPU, graphics card, sound card, etc.
@@ -1040,8 +1041,8 @@ the input sewage is treated separately.
   - Acceptance: Motherboard with standardized interfaces
     such as PCI, SATA, USB, etc.
   - External standardized data: hard disk, flash drive, etc.
-  - Case: One or two years after the publication of my computer hardware architecture design, 
-    the Apple M1 chip adopts the "warehouse/workshop model" design.
+  - Case: One or two years after my computer hardware architecture design was published, 
+    the Apple M1 chip adopted a "warehouse/workshop model" design.
     The type of workshop supported by my architecture is wider than that of the Apple M1, 
     with greater efficiency, scalability, and flexibility.
 
