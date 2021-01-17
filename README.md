@@ -1048,9 +1048,10 @@ the input sewage is treated separately.
 
     - Warehouse: unified memory
     - Workshop: CPU, GPU and other cores
+    - Products (raw materials): information, data
 
-there's also a new unified memory architecture 
-that lets the CPU, GPU, and other cores exchange information 
+there's also a new **unified memory** architecture 
+that lets the **CPU, GPU, and other cores** exchange **information** 
 between one another, and with unified memory, 
 the CPU and GPU can access memory simultaneously 
 rather than copying data between one area and another. 
