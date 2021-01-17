@@ -1040,7 +1040,8 @@ the input sewage is treated separately.
   - Acceptance: Motherboard with standardized interfaces
     such as PCI, SATA, USB, etc.
   - External standardized data: hard disk, flash drive, etc.
-  - Case: A year or two after my point was put forward, Apple M1 chip adopts "warehouse/workshop model",
+  - Case: One or two years after the publication of my computer hardware architecture design, 
+    the Apple M1 chip adopts the "warehouse/workshop model" design.
     The type of workshop supported by my architecture is wider than that of the Apple M1, 
     with greater efficiency, scalability, and flexibility.
 
