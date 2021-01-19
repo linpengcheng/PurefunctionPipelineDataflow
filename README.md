@@ -1030,37 +1030,60 @@ the input sewage is treated separately.
   
 #### The unification with Computer Hardware Architecture
   
-  The model uses memory as the core, not the CPU.
-  Finally, we can achieve the grand unification of all IT fields 
-  such as hardware, software, Internet, and Internet of Things.
+The model uses memory as the core, not the CPU.
+Finally, we can achieve the grand unification of all IT fields 
+such as hardware, software, Internet, and Internet of Things.
   
-  - Warehouse: Memory
-  - Workshop: CPU, graphics card, sound card, etc.
-  - Standardized data: data transmitted between hardware 
-    that conforms to industry standard interfaces
-  - Acceptance: Motherboard with standardized interfaces
-    such as PCI, SATA, USB, etc.
-  - External standardized data: hard disk, flash drive, etc.
-  - Case: One or two years after my computer hardware architecture design was published, 
-    the Apple M1 chip adopted a "warehouse/workshop model" design.
-    The type of workshop supported by my architecture is wider than that of the Apple M1, 
-    with greater efficiency, scalability, and flexibility.
+- Warehouse: Memory
+- Workshop: CPU, graphics card, sound card, etc.
+- Standardized data: data transmitted between hardware 
+  that conforms to industry standard interfaces
+- Acceptance: Motherboard with standardized interfaces
+  such as PCI, SATA, USB, etc.
+- External standardized data: hard disk, flash drive, etc.
+- Follow-up Case: One or two years after my computer hardware architecture design was published, 
+  the Apple M1 chip adopted a "warehouse/workshop model" design.
+  The type of workshop supported by my architecture is wider than that of the Apple M1, 
+  with greater efficiency, scalability, and flexibility.
 
-    - Warehouse: unified memory
-    - Workshop: CPU, GPU and other cores
-    - Products (raw materials): information, data
+  - Warehouse: unified memory
+  - Workshop: CPU, GPU and other cores
+  - Products (raw materials): information, data
 
-there's also a new **unified memory** architecture 
-that lets the **CPU, GPU, and other cores** exchange **information** 
-between one another, and with unified memory, 
-the CPU and GPU can access memory simultaneously 
-rather than copying data between one area and another. 
-Accessing the same pool of memory without the need 
-for copying speeds up information exchange 
-for faster overall performance.
-[reference: Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
+  > there's also a new **unified memory** architecture 
+  > that lets the **CPU, GPU, and other cores** exchange **information** 
+  > between one another, and with unified memory, 
+  > the CPU and GPU can access memory simultaneously 
+  > rather than copying data between one area and another. 
+  > Accessing the same pool of memory without the need 
+  > for copying speeds up information exchange 
+  > for faster overall performance.
+  > [reference: Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
 
+- Forecast: I think Intel and AMD will adopt "warehouse/workshop model"
 
+  In the past, the performance of the CPU played a decisive 
+  role in the performance of the computer. There were few 
+  CPU cores and the number and types of peripherals. 
+  Therefore, the CPU became the center of the computer 
+  hardware architecture.
+
+  Now, with more and more CPU and GPU cores, and the number 
+  and types of peripherals, the communication, coordination, 
+  and management of cores (or components, peripherals) 
+  have become more and more important, They become a key 
+  factor in computer performance.
+
+  The core views of management science and computer science 
+  are the same: Use all available resources to complete the 
+  goal with the highest efficiency. It is the best field of 
+  management science to accomplish production goals through 
+  communication, coordination, and management of various 
+  available resources. The most effective, reliable, and 
+  absolutely mainstream way is the "warehouse/workshop model".
+
+  So I think Intel and AMD will adopt the "warehouse/workshop model", 
+  which is an inevitable trend in the development of computer hardware.
 
 #### The unification with Integrated Circuit System
 
