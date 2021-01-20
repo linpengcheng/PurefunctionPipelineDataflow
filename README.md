@@ -1634,7 +1634,7 @@ and did not use any too complicated and delicate technology.
 "Eating your own dog food" is a good way to demonstrate a theory. 
 If you cann't use a simple logical model 
 (or example) to fully demonstrate a theory, 
-it means that the theory isn't a complete and systematic 
+it means that the theory isn't a practical, complete and systematic 
 theoretical system, but can only be regarded as loose and 
 messy practical experience. 
 
@@ -1652,7 +1652,7 @@ This theory consists of the following five parts:
 
 Each component of this theory is perfectly applied and 
 demonstrated other components, which shows that this 
-theory is a complete and systematic theoretical system.
+theory is a practical, complete and systematic theoretical system.
 
 ### End message
 
