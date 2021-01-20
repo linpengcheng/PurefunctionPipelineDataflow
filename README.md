@@ -1643,7 +1643,7 @@ This theory consists of the following five parts:
 
 - Aesthetics: Simplicity, Unity, order, symmetry and definiteness.
 
-"Eat your own dog food" is a good way to demonstrate the theory. 
+"Eating your own dog food" is a good way to demonstrate the theory. 
 
 If you cann't use a simple logical model 
 (or example) to fully demonstrate the theory, 
