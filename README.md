@@ -1629,6 +1629,32 @@ and did not use any too complicated and delicate technology.
 
 - Principles should be consistent with mainstream principles of modern industrial production.
 
+### Eating your own dog food
+
+This theory consists of the following five parts:
+
+- Programming: pure function pipeline data flow
+
+- Architecture: Warehouse/Workshop model
+
+- Principles: Principle-based methodology
+
+- Quality control: simple mountain map or contour map, pure function ratio
+
+- Aesthetics: Simplicity, Unity, order, symmetry and definiteness.
+
+"Eat your own dog food" is a good way to demonstrate the theory. 
+
+If you cann't use a simple logical model 
+(or example) to fully demonstrate the theory, 
+it means that the theory isn't a complete and systematic 
+theoretical system, but can only be regarded as loose and 
+messy practical experience. 
+
+Each component of this theory is perfectly applied and 
+demonstrated other components, which shows that this 
+theory is a complete and systematic theoretical system.
+
 ### End message
 
 I spend my spare time developing a financial analysis expert system. 
