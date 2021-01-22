@@ -1060,7 +1060,7 @@ such as hardware, software, Internet, and Internet of Things.
   > for faster overall performance.
   > [reference: Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
 
-- Forecast(2021-01-19): I think Intel, AMD,ARM, supercomputing, etc. will adopt the "warehouse/workshop model"
+- Forecast(2021-01-19): I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model"
 
   In the past, the performance of the CPU played a decisive 
   role in the performance of the computer. There were few 
@@ -1082,7 +1082,7 @@ such as hardware, software, Internet, and Internet of Things.
   available resources. The most effective, reliable, and 
   absolutely mainstream way is the "warehouse/workshop model".
 
-  So I think Intel and AMD will adopt the "warehouse/workshop model", 
+  So I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model", 
   which is an inevitable trend in the development of computer hardware.
 
 #### The unification with Integrated Circuit System
