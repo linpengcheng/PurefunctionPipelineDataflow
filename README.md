@@ -1041,7 +1041,7 @@ such as hardware, software, Internet, and Internet of Things.
 - Acceptance: Motherboard with standardized interfaces
   such as PCI, SATA, USB, etc.
 - External standardized data: hard disk, flash drive, etc.
-- Follow-up Case: One or two years after my computer hardware architecture design was published, 
+- Follower Case: One or two years after my computer hardware architecture design was published, 
   the Apple M1 chip adopted a "warehouse/workshop model" design.
   The type of workshop supported by my architecture is wider than that of the Apple M1, 
   with greater efficiency, scalability, and flexibility.
