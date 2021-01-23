@@ -609,6 +609,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
 - Single form
   - All components (workshops, warehouses, models) are pipelines.
   - Realize the perfect combination of system simplicity and unity.
+    It's the ultimate simplicity and unity when all elements (including architecture) have the same form.
   - Similar
     - A complex life form is composed of countless simplest cells.
     - A complex CPU is composed of hundreds of millions of simplest transistors.
