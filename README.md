@@ -528,6 +528,10 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   
 - The best task planning tool is the Gantt chart, and the best implementation method is the warehouse/workshop model implemented by the factory.
 
+- I think some data flow theories have only rivers (input workshops), 
+  no clouds and rain (output workshops), no oceans and lakes (warehouses), 
+  it is not a closed-loop system, so it is theoretically incomplete.
+
 #### Principles of the model
 
 - Division of tasks
