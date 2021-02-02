@@ -1200,7 +1200,11 @@ such as hardware, software, Internet, and Internet of Things.
     - Functional components or or combat components
     - Other robots or transformers: 
       Because the model is a fractal system, they can form a larger robot or transformers, 
-      or they can form a robot army.
+      or they can form a robot army. After all, no one stipulates that the components of 
+      a big Transformer must be physically connected together. 
+      Just like Monkey King (Sun Wukong), you can turn the chewed vellus hair into a monkey army 
+      to gather and scatter like you want. The vellus hair can do it, and other body tissues can do it better. 
+      It can be considered that Monkey King (Sun Wukong) is a fractal system composed of countless little Monkey Kings (Sun Wukong).
   
 #### The unification with energy system
 
