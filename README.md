@@ -614,6 +614,8 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - All components (workshops, warehouses, models) are pipelines.
   - Realize the perfect combination of system simplicity and unity.
     It's the ultimate simplicity and unity when all elements (including architecture) have the same form.
+  - Because the system is a fractal system, the growth of the system will not increase the complexity of the system, 
+    and it can still remain simple and unified.
   - Similar
     - A complex life form is composed of countless simplest cells.
     - A complex CPU is composed of hundreds of millions of simplest transistors.
@@ -1194,7 +1196,11 @@ such as hardware, software, Internet, and Internet of Things.
     - Task data
     - Environmental data
     - Available functional components data
-  - Workshop: functional components 
+  - Workshop: 
+    - Functional components or or combat components
+    - Other robots or transformers: 
+      Because the model is a fractal system, they can form a larger robot or transformers, 
+      or they can form a robot army.
   
 #### The unification with energy system
 
