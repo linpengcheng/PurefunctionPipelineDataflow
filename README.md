@@ -1183,7 +1183,14 @@ such as hardware, software, Internet, and Internet of Things.
   - Problem solving: classic AI, expert system, logic programming
   - Machine learning: dynamic rule base to generate new rules.
     - case law, identifying unknown patterns, more uncertainties
-
+- Extended case: robots and transformers
+  - Warehouse: Its scheduling function is the core of AI, 
+    based on the data in the warehouse, combining functional components to complete tasks.
+    - Robot status data
+    - Task data
+    - Environmental data
+    - Available functional components data
+  - Workshop: functional components 
   
 #### The unification with energy system
 
