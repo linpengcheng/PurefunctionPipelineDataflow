@@ -1187,8 +1187,12 @@ such as hardware, software, Internet, and Internet of Things.
     - case law, identifying unknown patterns, more uncertainties
 - Extended case: robots and transformers
   
-  This architecture can speed up the robot's response time 
-  and increase the ability to respond to changes.
+  - Advantage
+    - Speed up the robot's response time
+    - Enhance the ability to respond to change
+    - Fractal systems are easy to combine and have consistent combination methods
+    - Fractal systems have consistent management (scheduling) methods
+    - Fractal system is convenient for standardization
   
   - Warehouse: Its scheduling function is the core of AI, 
     based on the data in the warehouse, combining functional components to complete tasks.
@@ -1196,6 +1200,7 @@ such as hardware, software, Internet, and Internet of Things.
     - Task data
     - Environmental data
     - Available functional components data
+    
   - Workshop: 
     - Functional components or or combat components
     - Other robots or transformers: 
