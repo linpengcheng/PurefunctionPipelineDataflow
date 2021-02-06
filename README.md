@@ -1190,9 +1190,13 @@ such as hardware, software, Internet, and Internet of Things.
   - Advantage
     - Speed up the robot's response time
     - Enhance the ability to respond to change
+    - The components of the fractal system are highly independent, and have a strong group or independent task performance.
+    - The fractal system has strong survivability. As long as the smallest component survives, it can evolve into a fractal system again.
     - Fractal systems are easy to combine and have consistent combination methods
     - Fractal systems have consistent management (scheduling) methods
     - Fractal system is convenient for standardization
+    - In a sense, the data management of a Transformer can be similar to a git repository,
+      and the data management of all Transformers is the management of all github repositories.
   
   - Warehouse: Its scheduling function is the core of AI, 
     based on the data in the warehouse, combining functional components to complete tasks.
@@ -1200,6 +1204,7 @@ such as hardware, software, Internet, and Internet of Things.
     - Task data
     - Environmental data
     - Available functional components data
+    - Knowledge base
     
   - Workshop: 
     - Functional components or or combat components
@@ -1433,8 +1438,18 @@ but more different than hardware designers think.
         ---- Fred Brooks, Turing Award (1999), The Mythical Man-Month
 ```
 
-Because the `pure function pipeline data flow` realizes the unity of software and hardware 
-on the logical model, it solves the problem of Fred Brooks.
+Because binary makes calculations reach the ultimate simplicity and uniformity, 
+digital logic circuits are produced, and then a large-scale industrial production method of computer hardware is produced. 
+
+Therefore, if software is to be realized as large-scale industrial production as computer hardware, 
+software design and development is necessary to achieve the ultimate simplicity and unity.
+
+Because `the pure function pipeline data flow and the principle-based warehouse/workshop model`
+not only realize the ultimate simplicity and unification of software development, 
+but also make the software a simple and unified fractal system, 
+and realize the unification of software and hardware in the logical model, 
+Therefore, software can use computer hardware design and development methods for large-scale industrial production.
+Therefore, it solves the problem of Fred Brooks.
 
 - `The Pure Function Pipeline Data Flow` is the basics and the only way to SDDA.
 - SDDA is an innovative and revolutionary approach to develop large-scale software.
