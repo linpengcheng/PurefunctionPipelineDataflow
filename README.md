@@ -1067,7 +1067,7 @@ such as hardware, software, Internet, and Internet of Things.
   > for faster overall performance.
   > [reference: Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
 
-- Forecast(2021-01-19): I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model"
+- Forecast(2021-01-19): I think Intel, AMD, ARM, supercomputer, etc. will adopt the "warehouse/workshop model"
 
   In the past, the performance of the CPU played a decisive 
   role in the performance of the computer. There were few 
@@ -1091,6 +1091,8 @@ such as hardware, software, Internet, and Internet of Things.
 
   So I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model", 
   which is an inevitable trend in the development of computer hardware.
+  
+  Finally, "Warehouse/Workshop Model" and "Von Neumann Architecture" will become the two major architectures in the IT field.
 
 #### The unification with Integrated Circuit System
 
@@ -1197,6 +1199,11 @@ such as hardware, software, Internet, and Internet of Things.
     - Fractal system is convenient for standardization
     - In a sense, the data management of a Transformer can be similar to a git repository,
       and the data management of all Transformers is the management of all github repositories.
+      Git's distributed version control method allows each component of Transformers 
+      to maintain commonality and characteristics. Each component can fork and develop its own personalized version, 
+      or contribute its own parts to enhance the main version (public version).
+      When other components (versions) are destroyed, as long as there is one component alive, 
+      it can continue to develop into a Transformer with its version.
   
   - Warehouse: Its scheduling function is the core of AI, 
     based on the data in the warehouse, combining functional components to complete tasks.
@@ -1394,12 +1401,30 @@ which the mathematical sciences demonstrate in a special degree.
 My programming aesthetic standards are derived from the basic principles of science. 
 Newton, Einstein, Heisenberg, Aristotle and other major scientists hold this view.
 
-[ref: Simplicity and Unity](#Great-Historical-Significance)
-
 The aesthetics of non-art subjects are often complicated and mysterious, 
 making it difficult to understand and learn. 
 
 The pure function pipeline data flow provides a simple, clear, scientific and operable demonstration.
+
+Simplicity and Unity are the two guiding principles of scientific research and industrial production. 
+
+- Unification of theories is the long-standing goal of the natural sciences; 
+  and modern physics offers a spectacular paradigm of its achievement. 
+  It can be found from the knowledge of various disciplines: 
+  the more universally applicable a unified theory, the simpler it is, 
+  and the more basic it is, the greater it is.
+
+- The more simple and unified things, the more suitable for large-scale industrial production.
+
+In the IT field, only two systems fully comply with these 5 programming aesthetics:
+
+- Binary system
+
+  The biggest advantage is that it makes the calculations reach the ultimate simplicity and unity, 
+  so digital logic circuits are produced, 
+  and then the large-scale industrial production methods of computer hardware are produced.
+
+- The pure function pipeline data flow with principle-based warehouse/workshop model
 
 ## Tao
 
@@ -1438,6 +1463,8 @@ but more different than hardware designers think.
         ---- Fred Brooks, Turing Award (1999), The Mythical Man-Month
 ```
 
+The more simple and unified things, 
+the more suitable for large-scale industrial production.
 Because binary makes calculations reach the ultimate simplicity and uniformity, 
 digital logic circuits are produced, and then a large-scale industrial production method of computer hardware is produced. 
 
@@ -1513,6 +1540,8 @@ and modern physics offers a spectacular paradigm of its achievement.
 It can be found from the knowledge of various disciplines: 
 the more universally applicable a unified theory, the simpler it is, 
 and the more basic it is, the greater it is.
+In addition, the more simple and unified things, 
+the more suitable for large-scale industrial production.
 
 The Pure Function Pipeline Data Flow, 
 based on the philosophy of Taoism and the Great Unification Theory, 
