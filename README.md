@@ -1428,7 +1428,7 @@ In the IT field, only two systems fully comply with these 5 programming aestheti
 
 ### Comments
 
-- UnreasonableEconomy's comments on reddit
+- UnreasonableEconomy's comments at reddit
 
   > if you can generate a certain design language,
   > a certain symmetry among components, 
