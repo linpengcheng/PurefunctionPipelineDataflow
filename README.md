@@ -1426,6 +1426,33 @@ In the IT field, only two systems fully comply with these 5 programming aestheti
 
 - The pure function pipeline data flow with principle-based warehouse/workshop model
 
+### Comments
+
+- UnreasonableEconomy comments on reddit
+
+  > if you can generate a certain design language,
+  > a certain symmetry among components, 
+  > and if the different levels of abstraction reflect each other 
+  > to an extent it's much easier to communicate intent 
+  > to the implementers, and for the implementing teams 
+  > to communicate with each other. If you have a fluid, 
+  > coherent design strategy which you can boil down 
+  > into reusable tactics you can build out any system 
+  > of any size and complexity because it will take 
+  > on a certain fractal shape that anyone within 
+  > (even if they are only concerned with a tiny part) 
+  > can easily and fully navigate and understand, 
+  > and one glance is all it takes to know whether you're clean, 
+  > or approaching a death star.
+
+  > of course, form should serve function, but I think that 
+  > as humans we have evolved the concept of aesthetics 
+  > as a subconscious, intuitive understanding of order. 
+  > if we satisfy this intuition, we may be more certain that 
+  > what we produced isn't a heap of chaos.
+
+  > [Link](https://www.reddit.com/r/softwarearchitecture/comments/lffh8m/architecture_aesthetics/)
+
 ## Tao
 
 According to Taoism, water flow is the perfect substance. The water flow is always able to assume any shape as needed, sequential processing, until the mission is completed, reaching the end. The pure function pipeline data flow is like a water flow, almost the Tao.
