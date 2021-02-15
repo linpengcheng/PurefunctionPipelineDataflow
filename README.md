@@ -748,18 +748,23 @@ Everything is unified:
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
-  "Fire-and-Forget" is a guidance bullet with independent guidance capability. It does not need external support, 
-  it will automatically track and strike the target, and do not need to control after launching. 
-  The utility model has the advantages of improving the use efficiency between the missile and the launcher, 
-  and reducing the missile's dependence on other systems to provide its own updated information, 
-  so that the launcher can attack the largest number of targets in the shortest time and improve the survival of the launcher. 
-  The development direction of guidance technology in the future is precisely the "Fire-and-Forget" precision guidance technology.
+"Fire-and-Forget" is a guidance bullet with independent guidance capability. It does not need external support, 
+it will automatically track and strike the target, and do not need to control after launching. 
+The utility model has the advantages of improving the use efficiency between the missile and the launcher, 
+and reducing the missile's dependence on other systems to provide its own updated information, 
+so that the launcher can attack the largest number of targets in the shortest time and improve the survival of the launcher. 
+The development direction of guidance technology in the future is precisely the "Fire-and-Forget" precision guidance technology.
   
-  For the same reason, I think the development direction of concurrent and parallel programming technology is also "Fire-and-Forget", 
-  Change from focusing on "code and function development" to "data control, data flow management, data lifecycle management, 
-  data standardization system, process improvement (process reengineering), thread collaborative optimization, etc."
+For the same reason, I think the development direction of concurrent and parallel programming technology is also "Fire-and-Forget", 
+Change from focusing on "code and function development" to "data control, data flow management, data lifecycle management, 
+data standardization system, process improvement (process reengineering), thread collaborative optimization, etc."
     
-  Existing pragmatic "Fire-and-Forget" concurrency and parallel technology: software transactional memory (STM), multi-versioned concurrency control (MVCC), git.  
+Existing pragmatic "Fire-and-Forget" concurrency and parallel technology: 
+software transactional memory (STM), multi-versioned concurrency control (MVCC), git.  
+Compared with them, the advantage of the warehouse/workshop model is that 
+all tasks and resources are dynamically planned and globally deployed by the scheduling function, 
+so there is no resource competition and transaction (version) conflicts, 
+and optimal efficiency can be achieved.
   
   - Product: Standardized data
   
