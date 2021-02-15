@@ -1097,7 +1097,22 @@ such as hardware, software, Internet, and Internet of Things.
   So I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model", 
   which is an inevitable trend in the development of computer hardware.
   
-  Finally, "Warehouse/Workshop Model" and "Von Neumann Architecture" will become the two major architectures in the IT field.
+- Out-of-order execution
+  
+  Out-of-order execution is a product of 
+  wrong programming methodology, 
+  wrong computer architecture and 
+  weak compiler conditions.
+
+  In the "warehouse/workshop model", 
+  the workshop is an orderly and high-speed ray. 
+  The warehouse scheduling function performs 
+  dynamic planning and unified scheduling 
+  for all workshops and resources, 
+  without conflict and competition, 
+  and runs in the optimal order and efficiency.
+  
+Finally, "Warehouse/Workshop Model" and "Von Neumann Architecture" will become the two major architectures in the IT field.
 
 #### The unification with Integrated Circuit System
 
