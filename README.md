@@ -760,7 +760,7 @@ Change from focusing on "code and function development" to "data control, data f
 data standardization system, process improvement (process reengineering), thread collaborative optimization, etc."
     
 Existing pragmatic "Fire-and-Forget" concurrency and parallel technology: 
-software transactional memory (STM), multi-versioned concurrency control (MVCC), git.  
+software transactional memory (STM), multi-versioned concurrency control (MVCC), git.
 Compared with them, the advantage of the warehouse/workshop model is that 
 all tasks and resources are dynamically planned and globally deployed by the scheduling function, 
 so there is no resource competition and transaction (version) conflicts, 
