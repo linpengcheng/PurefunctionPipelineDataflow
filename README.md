@@ -1779,10 +1779,14 @@ theory is a practical, complete and systematic theoretical system.
 
 ### End message
 
-I spend my spare time developing a financial analysis expert system. 
+I spend my spare time developing [my personal amateur project: `Lin Pengcheng Financial Analyser`](https://github.com/linpengcheng/fa). 
 Although my writing time is very limited, but I will gradually improve it. 
 compared to the content when I first set up the blog, 
 it has been rich and improved a lot.
+
+- On February 13, 2018, I published the content of `the pure function pipeline data flow` blog on Sina Weibo.
+- On March 18, 2018, I opened and published `the pure function pipeline data flow` blog content on github.
+- Years before 2018, I introduced and demonstrated `the Pure Function Pipeline Data Flow` in QQ and WeChat groups.
 
 ## Other Articles Table of Contents
 
