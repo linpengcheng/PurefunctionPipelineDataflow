@@ -1053,8 +1053,9 @@ such as hardware, software, Internet, and Internet of Things.
 - Acceptance: Motherboard with standardized interfaces
   such as PCI, SATA, USB, etc.
 - External standardized data: hard disk, flash drive, etc.
-- Follower Case: One or two years after my computer hardware architecture design was published, 
-  the Apple M1 chip adopted a "warehouse/workshop model" design.
+- Follower Case: My computer hardware architecture design was published on 2019.02.06. 
+  One or two years later, the Apple M1 chip adopted the "warehouse/workshop model" design 
+  and was released on November 11, 2020.
   The type of workshop supported by my architecture is wider than that of the Apple M1, 
   with greater efficiency, scalability, and flexibility.
 
