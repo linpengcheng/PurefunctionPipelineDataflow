@@ -1069,7 +1069,7 @@ such as hardware, software, Internet, and Internet of Things.
   such as PCI, SATA, USB, etc.
 - External standardized data: hard disk, flash drive, etc.
   
-- The out-of-order execution technology of modern CPUs is a mistake
+- The out-of-order execution technology of modern CPUs is a mistake (February 16, 2021)
   
   Out-of-order execution is a product of 
   wrong programming methodology, 
