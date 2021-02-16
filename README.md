@@ -670,6 +670,21 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
       efficiency and quality of the system.
     
     ![River](./doc/image/river.jpeg) 
+    
+  - The out-of-order execution technology of modern CPUs is a mistake
+  
+    Out-of-order execution is a product of 
+    wrong programming methodology, 
+    wrong computer architecture and 
+    weak compiler conditions.
+
+    In the "warehouse/workshop model", 
+    the workshop is an orderly and high-speed ray. 
+    The warehouse scheduling function performs 
+    dynamic planning and unified scheduling 
+    for all workshops and resources, 
+    without conflict and competition, 
+    and runs in the optimal order and efficiency.
 
 - Standardization
   - All data are produced and organized according to 
@@ -1053,7 +1068,25 @@ such as hardware, software, Internet, and Internet of Things.
 - Acceptance: Motherboard with standardized interfaces
   such as PCI, SATA, USB, etc.
 - External standardized data: hard disk, flash drive, etc.
-- Follower Case: My computer hardware architecture design was published on February 06, 2019. 
+  
+- The out-of-order execution technology of modern CPUs is a mistake
+  
+  Out-of-order execution is a product of 
+  wrong programming methodology, 
+  wrong computer architecture and 
+  weak compiler conditions.
+
+  In the "warehouse/workshop model", 
+  the workshop is an orderly and high-speed ray. 
+  The warehouse scheduling function performs 
+  dynamic planning and unified scheduling 
+  for all workshops and resources, 
+  without conflict and competition, 
+  and runs in the optimal order and efficiency.
+
+- Follower Case
+  
+  My computer hardware architecture design was published on February 06, 2019. 
   One or two years later, the Apple M1 chip adopted the "warehouse/workshop model" design 
   and was released on November 11, 2020.
   The type of workshop supported by my architecture is wider than that of the Apple M1, 
@@ -1097,21 +1130,6 @@ such as hardware, software, Internet, and Internet of Things.
 
   So I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model", 
   which is an inevitable trend in the development of computer hardware.
-  
-- Out-of-order execution
-  
-  Out-of-order execution is a product of 
-  wrong programming methodology, 
-  wrong computer architecture and 
-  weak compiler conditions.
-
-  In the "warehouse/workshop model", 
-  the workshop is an orderly and high-speed ray. 
-  The warehouse scheduling function performs 
-  dynamic planning and unified scheduling 
-  for all workshops and resources, 
-  without conflict and competition, 
-  and runs in the optimal order and efficiency.
   
 Finally, "Warehouse/Workshop Model" and "Von Neumann Architecture" will become the two major architectures in the IT field.
 
@@ -1446,6 +1464,21 @@ In the IT field, only two systems fully comply with these 5 programming aestheti
   and then the large-scale industrial production methods of computer hardware are produced.
 
 - The pure function pipeline data flow with principle-based warehouse/workshop model
+
+The out-of-order execution technology of modern CPUs is a mistake:
+  
+- Out-of-order execution is a product of 
+  wrong programming methodology, 
+  wrong computer architecture and 
+  weak compiler conditions.
+
+- In the "warehouse/workshop model", 
+  the workshop is an orderly and high-speed ray. 
+  The warehouse scheduling function performs 
+  dynamic planning and unified scheduling 
+  for all workshops and resources, 
+  without conflict and competition, 
+  and runs in the optimal order and efficiency.
 
 ### Comments
 
