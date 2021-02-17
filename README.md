@@ -18,6 +18,16 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
     - [Overview of the model](#Overview-of-the-model)
     - [Principles of the model](#Principles-of-the-model)
+      - [Division of tasks](#Division-of-tasks)
+      - [Single Leader and Unified Scheduling](#Single-Leader-and-Unified-Scheduling)
+      - [Empowerment and Management by Objective](#Empowerment-and-Management-by-Objective)
+      - [Single form (pipeline fractal system)](#Single-form)
+      - [Concentration and decentralization](#Concentration-and-decentralization)
+      - [Level chain](#Level-chain)
+      - [Definiteness](#Definiteness)
+      - [Order](#Order)
+      - [Standardization](#Standardization)
+      - [Exception handling](#Exception-handling)
     - [Framework code of the model](#Framework-code-of-the-model)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
@@ -534,179 +544,206 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
 
 #### Principles of the model
 
-- Division of tasks
-  - Divide tasks by Gantt chart.
-  - A type of task is only responsible for 
-    the corresponding type of workshop.
-  - Data management is handled by the warehouse.
-  - Task scheduling is in charge of `the scheduling 
-    function of warehouse`.
+##### Division of tasks
 
-- Single Leader and Unified Scheduling
-  - Single leader
-    - Except for the root warehouse, all components (workshops, warehouses, models) 
-      have and only one leader (`the scheduling function of warehouse`).
-    - A single leader helps to enhance the certainty and predictability of task execution (paths, times and result).
-    - Multiple leaders will cause any leader to lose control of the execution of the task, 
-      produce unpredictable results, and destroy the results of using dynamic programming 
-      to achieve global optimization.
-  - Unified scheduling
-    - Unified scheduling by `the scheduling function of warehouse`.
-    - The scheduling function dynamically plans 
-      the order of completion of tasks according to 
-      the Gantt chart algorithm, and calls the workshop 
-      to complete the assigned tasks.
-    - This approach is the easiest to optimize 
-      the overall efficiency of the system.
+- Divide tasks by Gantt chart.
+- A type of task is only responsible for 
+  the corresponding type of workshop.
+- Data management is handled by the warehouse.
+- Task scheduling is in charge of `the scheduling 
+  function of warehouse`.
 
-- Empowerment and Management by Objective
-  - Empowerment
-    - I think that full empowerment is to achieve the 
-      effect of the missile's "Fire-and-Forget" technology.
-      "Fire-and-Forget" is a guidance bullet with 
-      independent guidance capability. It does not need 
-      external support, it will automatically track and 
-      strike the target, and do not need to control after 
-      launching. The utility model has the advantages of 
-      improving the use efficiency between the missile and 
-      the launcher, and reducing the missile's dependence 
-      on other systems to provide its own updated 
-      information, so that the launcher can attack the 
-      largest number of targets in the shortest time and 
-      improve the survival of the launcher. The development 
-      direction of guidance technology in the future is 
-      precisely the "Fire-and-Forget" precision guidance 
-      technology.
-    - If the workshop cannot achieve "Fire-and-Forget" and 
-      still needs to participate in management and control 
-      with the manager (scheduling function), then the task 
-      division is unreasonable, and the task should be 
-      divided at the intervention point of the manager 
-      (scheduling function).
-    - Advantage
-      - Reduce the complexity of the system (overall and components)
-      - Enhance the independence of each component, 
-        perform its own duties, don't interfere with each other, 
-        and enhance the simplicity and parallelism of the components.
-      - Make the task division reach the maximum granularity 
-        under the premise of ensuring independence, and 
-        ensure the continuity and efficiency of task execution.
-      - Improve the efficiency of parallel, concurrency, 
-        distributed, asynchronous, etc.
-      - Unified the architecture of parallel, concurrent, 
-        distributed, asynchronous, etc. 
-      - Enhance the optimization effect of global scheduling
-      - Unified form of Manager (scheduling function) 
-        manages and controls the workshop.
-      - Achieve the simplicity and unity of the system.
-  - Management by Objective
-    - Empowerment isn't laissez-faire, it is mainly to 
-      carry out strict and standardized total quality 
-      management of work results.
-    - As long as the accuracy of the data in the warehouse 
-      is ensured, the accuracy of the input and output data 
-      of the workshop can be guaranteed, and the accuracy 
-      of the system can be guaranteed.
-    - The acceptance function of warehouse is responsible 
-      for management by objective.
+##### Single Leader and Unified Scheduling
 
-- Single form
-  - All components (workshops, warehouses, models) are pipelines.
-  - Realize the perfect combination of system simplicity and unity.
-    It's the ultimate simplicity and unity when all elements (including architecture) have the same form.
-  - Because the system is a fractal system, the growth of the system will not increase the complexity of the system, 
-    and it can still remain simple and unified.
-  - Similar
-    - A complex life form is composed of countless simplest cells.
-    - A complex CPU is composed of hundreds of millions of simplest transistors.
-
-- Concentration and decentralization
-  - Data is centrally managed by the warehouse.
-  - Data processing is independently produced by each workshop, 
-    there is no interaction between each workshop, 
-    and each workshop is only responsible for the warehouse.
-  - Scheduling workshops to complete system tasks with the most optimized algorithm, 
-    which is the responsibility of `the scheduling function of warehouse`.
-  
-- Level chain
-  - In a warehouse/workshop model, 
-    all workshops are managed by one `scheduling function of warehouse`.
-  - Each warehouse/workshop model can be used as 
-    a workshop component (integrated pipeline, like an integrated chip) 
-    and managed by `the scheduling function of upper-level warehouse`.
+- Single leader
+  - Except for the root warehouse, all components (workshops, warehouses, models) 
+    have and only one leader (`the scheduling function of warehouse`).
+  - A single leader helps to enhance the certainty and predictability of task execution (paths, times and result).
+  - Multiple leaders will cause any leader to lose control of the execution of the task, 
+    produce unpredictable results, and destroy the results of using dynamic programming 
+    to achieve global optimization.
     
-- Definiteness
-  - Each workshop should have definite standard specifications 
-    for input data (parameters) and output data (return values).
-  - Each `warehouse/workshop model (warehouse)` has a definite standard specification 
-    for input/output data to the external environment.
+- Unified scheduling
+  - Unified scheduling by `the scheduling function of warehouse`.
+  - The scheduling function dynamically plans 
+    the order of completion of tasks according to 
+    the Gantt chart algorithm, and calls the workshop 
+    to complete the assigned tasks.
+  - This approach is the easiest to optimize 
+    the overall efficiency of the system.
+
+##### Empowerment and Management by Objective
+
+- Empowerment
+
+  - I think that full empowerment is to achieve the 
+    effect of the missile's "Fire-and-Forget" technology.
+    "Fire-and-Forget" is a guidance bullet with 
+    independent guidance capability. It does not need 
+    external support, it will automatically track and 
+    strike the target, and do not need to control after 
+    launching. The utility model has the advantages of 
+    improving the use efficiency between the missile and 
+    the launcher, and reducing the missile's dependence 
+    on other systems to provide its own updated 
+    information, so that the launcher can attack the 
+    largest number of targets in the shortest time and 
+    improve the survival of the launcher. The development 
+    direction of guidance technology in the future is 
+    precisely the "Fire-and-Forget" precision guidance 
+    technology.
+    
+  - If the workshop cannot achieve "Fire-and-Forget" and 
+    still needs to participate in management and control 
+    with the manager (scheduling function), then the task 
+    division is unreasonable, and the task should be 
+    divided at the intervention point of the manager 
+    (scheduling function).
+    
+  - Advantage
+    - Reduce the complexity of the system (overall and components)
+    - Enhance the independence of each component, 
+      perform its own duties, don't interfere with each other, 
+      and enhance the simplicity and parallelism of the components.
+    - Make the task division reach the maximum granularity 
+      under the premise of ensuring independence, and 
+      ensure the continuity and efficiency of task execution.
+    - Improve the efficiency of parallel, concurrency, 
+      distributed, asynchronous, etc.
+    - Unified the architecture of parallel, concurrent, 
+      distributed, asynchronous, etc. 
+    - Enhance the optimization effect of global scheduling
+    - Unified form of Manager (scheduling function) 
+      manages and controls the workshop.
+    - Achieve the simplicity and unity of the system.
+    
+- Management by Objective
+
+  - Empowerment isn't laissez-faire, it is mainly to 
+    carry out strict and standardized total quality 
+    management of work results.
+    
+  - As long as the accuracy of the data in the warehouse 
+    is ensured, the accuracy of the input and output data 
+    of the workshop can be guaranteed, and the accuracy 
+    of the system can be guaranteed.
+    
+  - The acceptance function of warehouse is responsible 
+    for management by objective.
+
+##### Single form
+
+- All components (workshops, warehouses, models) are pipelines.
+- Realize the perfect combination of system simplicity and unity.
+  It's the ultimate simplicity and unity when all elements (including architecture) have the same form.
+- Because the system is a fractal system, the growth of the system will not increase the complexity of the system, 
+  and it can still remain simple and unified.
+- Similar
+  - A complex life form is composed of countless simplest cells.
+  - A complex CPU is composed of hundreds of millions of simplest transistors.
+
+##### Concentration and decentralization
+
+- Data is centrally managed by the warehouse.
+- Data processing is independently produced by each workshop, 
+  there is no interaction between each workshop, 
+  and each workshop is only responsible for the warehouse.
+- Scheduling workshops to complete system tasks with the most optimized algorithm, 
+  which is the responsibility of `the scheduling function of warehouse`.
+  
+##### Level chain
+
+- In a warehouse/workshop model, 
+  all workshops are managed by one `scheduling function of warehouse`.
+- Each warehouse/workshop model can be used as 
+  a workshop component (integrated pipeline, like an integrated chip) 
+  and managed by `the scheduling function of upper-level warehouse`.
+    
+##### Definiteness
+
+- Each workshop should have definite standard specifications 
+  for input data (parameters) and output data (return values).
+  
+- Each `warehouse/workshop model (warehouse)` has a definite 
+  standard specification for input/output data to the 
+  external environment.
    
-- Order
-  - Each workshop transforms the initial state to the 
-    target state step by step through a series of pipelines 
-    (pure functions), and finally returns to the warehouse.
-  - The tasks of the entire system are dynamically planned 
-    by the scheduling function according to the Gantt chart algorithm 
-    to dynamically plan the execution order of the tasks, 
-    and the workshop is called to complete the assigned tasks.
-  - It's like a river diagram that the sequential rendering of the entire continuously running system. 
-    It is also a variant of the Gantt chart. This is Boeing's aircraft pulsating assembly line, 
-    which is essentially an optimized assembly line.
-    - The main river is the main production line
-    - Every branch river is a large part production line
-    - If we divide the river (production line, workshop) 
-      into several important stages, every time a stage 
-      of the river (production line, workshop) is 
-      completed, one step closer to the final product. 
-      Finally, until the end, the final product is obtained.
-    - Modular design and manufacturing. The point where 
-      the branching river merges into the upper-level 
-      river is the point where large parts are 
-      assembled to the upper-level product.
-    - The output data of each workshop is checked and 
-      accepted by the warehouse's acceptance function, 
-      so as to ensure the correctness and standard of 
-      the input data of each workshop and improve the 
-      efficiency and quality of the system.
-    
-    ![River](./doc/image/river.jpeg) 
-    
-  - The out-of-order execution technology of modern CPUs is a mistake
+##### Order
+
+- Each workshop transforms the initial state to the 
+  target state step by step through a series of pipelines 
+  (pure functions), and finally returns to the warehouse.
+
+- The tasks of the entire system are dynamically planned 
+  by the scheduling function according to the Gantt chart algorithm 
+  to dynamically plan the execution order of the tasks, 
+  and the workshop is called to complete the assigned tasks.
+
+- It's like a river diagram that the sequential rendering 
+  of the entire continuously running system. 
+  It is also a variant of the Gantt chart. 
+  This is Boeing's aircraft pulsating assembly line, 
+  which is essentially an optimized assembly line.
+  - The main river is the main production line
+  - Every branch river is a large part production line
+  - If we divide the river (production line, workshop) 
+    into several important stages, every time a stage 
+    of the river (production line, workshop) is 
+    completed, one step closer to the final product. 
+    Finally, until the end, the final product is obtained.
+  - Modular design and manufacturing. The point where 
+    the branching river merges into the upper-level 
+    river is the point where large parts are 
+    assembled to the upper-level product.
+  - The output data of each workshop is checked and 
+    accepted by the warehouse's acceptance function, 
+    so as to ensure the correctness and standard of 
+    the input data of each workshop and improve the 
+    efficiency and quality of the system.
   
-    Out-of-order execution is a product of 
-    wrong programming methodology, 
-    wrong computer architecture and 
-    weak compiler conditions.
+  ![River](./doc/image/river.jpeg) 
+  
+- The out-of-order execution technology of modern CPUs is a mistake
 
-    In the "warehouse/workshop model", 
-    the workshop is an orderly and high-speed ray. 
-    The warehouse scheduling function performs 
-    dynamic planning and unified scheduling 
-    for all workshops and resources, 
-    without conflict and competition, 
-    and runs in the optimal order and efficiency.
+  Out-of-order execution is a product of 
+  wrong programming methodology, 
+  wrong computer architecture and 
+  weak compiler conditions.
 
-- Standardization
-  - All data are produced and organized according to 
-    standard specifications.
-  - It can reduce unnecessary data verification, cleaning, 
-    conversion, and abnormal processing during execution, 
-    and keep the logic of the workshop simple and efficient.
+  In the "warehouse/workshop model", 
+  the workshop is an orderly and high-speed ray. 
+  The warehouse scheduling function performs 
+  dynamic planning and unified scheduling 
+  for all workshops and resources, 
+  without conflict and competition, 
+  and runs in the optimal order and efficiency.
 
-- Exception handling
-  - Exceptions refer to new situations and problems that are difficult 
-    for each workshop to adjust by itself or not included in the original design.
-    - There are no exceptional situations and problems in the normal standardized production workshop.
-    - The special "side effect workshop" interacting with the external environment is responsible 
-      for input and output, which may cause abnormalities. The workshop should try its best to resolve the exceptions 
-      that it can solve. Only exceptions that the workshop cannot handle are submitted to the direct manager (scheduling function). 
-      The workshop should provide detailed exception information and possible solutions when submitting the exception.
-    - The scheduling function may need to coordinate exceptions between workshops, similar to transaction management and deadlock handling in RMDB.   
-  - The manager (scheduling function) should avoid dealing with specific tasks, 
-    which is the responsibility of the workshop.
-  - Exceptions are handled by the management (scheduling function) dispatched (or established) 
-    "specialized workshop for handling exceptions".
-    - Special workshop for handling exceptions: similar to the transaction manager and deadlock handler in RMDB.
+##### Standardization
+
+- All data are produced and organized according to 
+  standard specifications.
+  
+- It can reduce unnecessary data verification, cleaning, 
+  conversion, and abnormal processing during execution, 
+  and keep the logic of the workshop simple and efficient.
+
+##### Exception handling
+
+- Exceptions refer to new situations and problems that are difficult 
+  for each workshop to adjust by itself or not included in the original design.
+  - There are no exceptional situations and problems in the normal standardized production workshop.
+  - The special "side effect workshop" interacting with the external environment is responsible 
+    for input and output, which may cause abnormalities. The workshop should try its best to resolve the exceptions 
+    that it can solve. Only exceptions that the workshop cannot handle are submitted to the direct manager (scheduling function). 
+    The workshop should provide detailed exception information and possible solutions when submitting the exception.
+  - The scheduling function may need to coordinate exceptions between workshops, similar to transaction management and deadlock handling in RMDB.   
+
+- The manager (scheduling function) should avoid dealing with specific tasks, 
+  which is the responsibility of the workshop.
+
+- Exceptions are handled by the management (scheduling function) dispatched (or established) 
+  "specialized workshop for handling exceptions".
+  - Special workshop for handling exceptions: similar to the transaction manager and deadlock handler in RMDB.
 
 #### Framework code of the model
 
