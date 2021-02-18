@@ -15,20 +15,21 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [5. Confluence(reduce)](#5-Confluence)
 - [Code Example](#Code-example)
 - [Classical Model](#Classical-Model)
-  - [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
-    - [Overview of the model](#Overview-of-the-model)
-    - [Principles of the model](#Principles-of-the-model)
-      - [Division of tasks](#Division-of-tasks)
-      - [Single Leader and Unified Scheduling](#Single-Leader-and-Unified-Scheduling)
-      - [Empowerment and Management by Objective](#Empowerment-and-Management-by-Objective)
-      - [Single form (pipeline fractal system)](#Single-form)
-      - [Concentration and decentralization](#Concentration-and-decentralization)
-      - [Level chain](#Level-chain)
-      - [Definiteness](#Definiteness)
-      - [Order](#Order)
-      - [Standardization](#Standardization)
-      - [Exception handling](#Exception-handling)
-    - [Framework code of the model](#Framework-code-of-the-model)
+- [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
+  - [Overview of the model](#Overview-of-the-model)
+  - [Principles of the model](#Principles-of-the-model)
+    - [Division of tasks](#Division-of-tasks)
+    - [Single Leader and Unified Scheduling](#Single-Leader-and-Unified-Scheduling)
+    - [Empowerment and Management by Objective](#Empowerment-and-Management-by-Objective)
+    - [Single form (pipeline fractal system)](#Single-form)
+    - [Concentration and decentralization](#Concentration-and-decentralization)
+    - [Level chain](#Level-chain)
+    - [Definiteness](#Definiteness)
+    - [Order](#Order)
+    - [Standardization](#Standardization)
+    - [Exception handling](#Exception-handling)
+  - [Framework code of the model](#Framework-code-of-the-model)
+  - [Everything is unified](#Everything-is-unified)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
       - [async/await, Project Loom fiber, Gantt Chart, and Scientific Management](#async)
@@ -46,7 +47,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `energy system`](#The-unification-with-energy-system)
     - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
-    - [Warehouse/Workshop Model Summary](#Warehouse-Workshop-Model-Summary)    
+  - [Warehouse/Workshop Model Summary](#Warehouse-Workshop-Model-Summary)    
 - [The difference between it and others](#The-difference-between-it-and-others)
   - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO)
   - [The difference between it and middleware](#The-difference-between-it-and-middleware)
@@ -456,11 +457,11 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ![River](./doc/image/river.jpeg) 
 
-<h3 id="Warehouse-Workshop-Model">Warehouse/Workshop Model</h3>
+<h2 id="Warehouse-Workshop-Model">Warehouse/Workshop Model</h2>
 
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
 
-#### Overview of the model
+### Overview of the model
 
 If you understand that software is a factory that produces data, 
 then you can understand the warehouse/workshop model, 
@@ -542,9 +543,9 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   no clouds and rain (output workshops), and no oceans and lakes (warehouses), 
   then it is not a closed-loop system, so it is theoretically incomplete.
 
-#### Principles of the model
+### Principles of the model
 
-##### Division of tasks
+#### Division of tasks
 
 - Divide tasks by Gantt chart.
 - A type of task is only responsible for 
@@ -553,7 +554,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
 - Task scheduling is in charge of `the scheduling 
   function of warehouse`.
 
-##### Single Leader and Unified Scheduling
+#### Single Leader and Unified Scheduling
 
 - Single leader
   - Except for the root warehouse, all components (workshops, warehouses, models) 
@@ -572,7 +573,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
 
-##### Empowerment and Management by Objective
+#### Empowerment and Management by Objective
 
 - Empowerment
 
@@ -631,7 +632,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - The acceptance function of warehouse is responsible 
     for management by objective.
 
-##### Single form
+#### Single form
 
 - All components (workshops, warehouses, models) are pipelines.
 - Realize the perfect combination of system simplicity and unity.
@@ -642,7 +643,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   - A complex life form is composed of countless simplest cells.
   - A complex CPU is composed of hundreds of millions of simplest transistors.
 
-##### Concentration and decentralization
+#### Concentration and decentralization
 
 - Data is centrally managed by the warehouse.
 - Data processing is independently produced by each workshop, 
@@ -651,7 +652,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
 - Scheduling workshops to complete system tasks with the most optimized algorithm, 
   which is the responsibility of `the scheduling function of warehouse`.
   
-##### Level chain
+#### Level chain
 
 - In a warehouse/workshop model, 
   all workshops are managed by one `scheduling function of warehouse`.
@@ -659,7 +660,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   a workshop component (integrated pipeline, like an integrated chip) 
   and managed by `the scheduling function of upper-level warehouse`.
     
-##### Definiteness
+#### Definiteness
 
 - Each workshop should have definite standard specifications 
   for input data (parameters) and output data (return values).
@@ -668,7 +669,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   standard specification for input/output data to the 
   external environment.
    
-##### Order
+#### Order
 
 - Each workshop transforms the initial state to the 
   target state step by step through a series of pipelines 
@@ -718,7 +719,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   without conflict and competition, 
   and runs in the optimal order and efficiency.
 
-##### Standardization
+#### Standardization
 
 - All data are produced and organized according to 
   standard specifications.
@@ -727,7 +728,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   conversion, and abnormal processing during execution, 
   and keep the logic of the workshop simple and efficient.
 
-##### Exception handling
+#### Exception handling
 
 - Exceptions refer to new situations and problems that are difficult 
   for each workshop to adjust by itself or not included in the original design.
@@ -745,7 +746,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
   "specialized workshop for handling exceptions".
   - Special workshop for handling exceptions: similar to the transaction manager and deadlock handler in RMDB.
 
-#### Framework code of the model
+### Framework code of the model
 
 ```clojure
 
@@ -773,7 +774,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
        
 ``` 
 
-Everything is unified:
+### Everything is unified
   
 #### The unification of programming technology and system architecture
 
@@ -1347,7 +1348,7 @@ Finally, "Warehouse/Workshop Model" and "Von Neumann Architecture" will become t
     - Purchasing department
     - supply chain
  
-<h4 id="Warehouse-Workshop-Model-Summary">Warehouse/Workshop Model Summary</h4>
+<h3 id="Warehouse-Workshop-Model-Summary">Warehouse/Workshop Model Summary</h3>
  
 In industry, the product standard is the interface, 
 the production method (code implementation) is not limited, 
