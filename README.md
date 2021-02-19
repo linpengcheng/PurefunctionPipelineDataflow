@@ -1290,6 +1290,10 @@ Finally, "Warehouse/Workshop Model" and "Von Neumann Architecture" will become t
       or contribute its own parts to enhance the main version (public version).
       When other components (versions) are destroyed, as long as there is one component alive, 
       it can continue to develop into a Transformer with its version.
+    - If a factory (battlestar, army, etc.) is used as a Transformer, 
+      then Transformers has a metabolic function and can develop and maintain itself 
+      until it completes its mission. For example, sending several sub-Battlestars (sub-factories) 
+      to conquer the sea of stars, Even if a sub-Battlestar fails, it can still shout: "I will be back!"
   
   - Warehouse: Its scheduling function is the core of AI, 
     based on the data in the warehouse, combining functional components to complete tasks.
