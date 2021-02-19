@@ -708,8 +708,8 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     then the entire task flow chart (water system diagram) forms a Tree Gantt chart.
   - Complex data structure: It is a very simple that data structure is manipulated 
     by the method of manufacturing an airplane. Divide the data, manipulate the data from bottom to top, 
-    combine layer by layer, and finally complete the task. After all, It hasn't appeared in the IT field yet 
-    that the data structure is more complicated than that of manufacturing airplanes .
+    combine layer by layer, and finally complete the task. After all, 
+    there is no data structure more complicated than airplanes in the IT field.
   
   ![River](./doc/image/river.jpeg) 
   
