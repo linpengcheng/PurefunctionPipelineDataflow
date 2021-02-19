@@ -645,7 +645,9 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
 
 #### Concentration and decentralization
 
-- Data is centrally managed by the warehouse.
+- Data is centrally managed by the warehouse. Data verification and constraints are very convenient, 
+  which helps maintain the integrity and correctness of the data, and also helps to understand the data correctly, 
+  with the least maintenance cost and the simplest management.
 - Data processing is independently produced by each workshop, 
   there is no interaction between each workshop, 
   and each workshop is only responsible for the warehouse.
@@ -701,6 +703,13 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     so as to ensure the correctness and standard of 
     the input data of each workshop and improve the 
     efficiency and quality of the system.
+  - Tree Gantt chart: Taking the main task (main river, main production and assembly line) as the time axis, 
+    the end point of the branch task is connected to the meeting point with the upper-level task, 
+    then the entire task flow chart (water system diagram) forms a Tree Gantt chart.
+  - Complex data structure: It is a very simple that data structure is manipulated 
+    by the method of manufacturing an airplane. Divide the data, manipulate the data from bottom to top, 
+    combine layer by layer, and finally complete the task. After all, It hasn't appeared in the IT field yet 
+    that the data structure is more complicated than that of manufacturing airplanes .
   
   ![River](./doc/image/river.jpeg) 
   
