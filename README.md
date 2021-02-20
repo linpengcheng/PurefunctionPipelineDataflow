@@ -210,6 +210,7 @@ an integrated circuit component (or board).
       and function call integration, one-stop data flow processing.  
     - Clojure is easy to deconstruct, and it is as convenient 
       to use as multi-parameter functions.
+    - See also: [Principles: Concentration and decentralization](#Concentration-and-decentralization)
 
 ```clojure
 (defn f [x]
@@ -647,8 +648,10 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
 #### Concentration and decentralization
 
 - Data is centrally managed by the warehouse. Data verification and constraints are very convenient, 
-  which helps maintain the integrity and correctness of the data, and also helps to understand the data correctly, 
-  with the least maintenance cost and the simplest management.
+  which helps maintain the integrity and correctness of the data
+- It completely displays the standard specifications of the data 
+  and helps to understand the data correctly and comprehensively.
+- The maintenance cost is the smallest and the management is the simplest.
 - Data processing is independently produced by each workshop, 
   there is no interaction between each workshop, 
   and each workshop is only responsible for the warehouse.
