@@ -570,6 +570,7 @@ If there is no "pipe symbol", you can use "assignment statement", which is avail
     the order of completion of tasks according to 
     the Gantt chart algorithm, and calls the workshop 
     to complete the assigned tasks.
+  - No resource competition and transaction (version) conflicts
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
 
