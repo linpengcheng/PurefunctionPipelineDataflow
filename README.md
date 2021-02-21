@@ -60,6 +60,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Software Design and Develop Automation (SDDA)](#Software-Design-and-Develop-Automation)
 - [Great Historical Significance](#Great-Historical-Significance)
 - [Postscript](#Postscript)
+  - [Imagination](#Imagination)
+  - [Ever-changing](#Ever-changing)
+  - [Simplicity](#Simplicity)
+  - [The easiest way to learn](#The-easiest-way-to-learn)
+  - [Principles-based are better than rules-based](#Principles-based-are-better-than-rules-based)
+  - [Eating your own dog food](#Eating-your-own-dog-food)
+  - [End message](#End-message)
 - Appendix:
   - [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
@@ -472,11 +479,6 @@ and continuous production on the production line forms a data flow.
 The basic principle of the system is similar to an in-memory database system. 
 like  the in-memory database, all tasks of the system are completed by scheduling stored procedure (workshop),  
 and all side effects (similar to persistence, distributed, etc.) are completed by the in-memory database.
-
-Do everything possible to write pure functions (pipe), and they can only be chained together 
-using the "pipe symbol", as long as this is done, it will eventually evolve into this result.
-
-If there is no "pipe symbol", you can use "assignment statement", which is available in any language.
 
 - **Everything is a pipeline**: the perfect way to achieve the simplicity and unity of the software ecosystem.
 
@@ -1833,7 +1835,7 @@ It will eventually evolve into this programming methodology ----
 If there is no "pipe symbol", you can use the "assignment statement", 
 which is applicable in any programming language.
 
-### Principles-based are better than rules-based.
+### Principles-based are better than rules-based
 
 - Principles should be few and important, and should not affect flexibility and creativity. 
   For example: Do not exceed 10 principles.
