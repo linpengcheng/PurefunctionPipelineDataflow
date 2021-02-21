@@ -1822,6 +1822,17 @@ you will find that I only use the most basic common sense to solve the problem,
 and did not use any too complicated and delicate technology.
 `Common sense` is `human best practice` or `the most widely used and reliable theory`.
 
+### The easiest way to learn
+
+Write pure functions (pipes) as much as possible, and only use "pipe symbols" to link them together. 
+As long as this is done, the old programming thinking will naturally gradually change 
+and gradually become a new programming thinking that focuses on changes in data flow, 
+It will eventually evolve into this programming methodology ---- 
+`the pure functional pipeline data flow and principle-based warehouse/workshop model`.
+
+If there is no "pipe symbol", you can use the "assignment statement", 
+which is applicable in any programming language.
+
 ### Principles-based are better than rules-based.
 
 - Principles should be few and important, and should not affect flexibility and creativity. 
