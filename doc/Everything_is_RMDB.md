@@ -43,6 +43,12 @@ If you're having trouble modeling your data, you can refer to posgtresql how to 
 - Relational data model, recommended design as the 3NF (third normal form)
 - For non-critical information, for simplicity and flexibility, 
   it can be designed as a hash-map (json) type in a small range. 
+- Avoid deep nesting of data structures. Generally, the nesting depth is no more than 3 levels, 
+  and no more than 5 levels at most.
+  - Recursive (or loop) operations can be avoided, 
+    and low nesting depth can be easily converted to single-level operations, 
+    especially hash-map is more convenient.
+  - The data is readable and easy to display and debug.
 
 Finally, I think that RMDB is the most scientific, simplest 
 and most reliable in theory and practice, and it has withstood the most rigorous, 
@@ -72,6 +78,9 @@ Dataframe类似于DB，它不需要保持顺序，因此，它不需要使用向
 - 关系数据模型，推荐设计为第三范式
 - 非关键信息，为简便灵活，小范围地使用的 hash-map(json), 
   如同pgsql一样，只可做调味，不可当饭吃。
+- 避免数据结构深度嵌套，一般嵌套深度不超过3层，最多不超过5层。
+  - 可避免递归（或循环）操作，低嵌套深度可以很方便变换为单层深度的操作，特别是hash-map更方便。
+  - 数据可读性强，方便显示和调试。
 
 最后, 我认为RMDB在理论和实践中是最科学、最简单和最可靠的，
 并且它在各种至关重要的关键场景中经受最严格的、高压力的、长期的考验。
