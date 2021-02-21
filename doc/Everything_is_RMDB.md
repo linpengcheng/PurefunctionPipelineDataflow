@@ -44,8 +44,9 @@ If you're having trouble modeling your data, you can refer to posgtresql how to 
 - For non-critical information, for simplicity and flexibility, 
   it can be designed as a hash-map (json) type in a small range. 
 
-Finally, I think that RMDB is the simplest and most reliable in theory and practice, 
-and it is the most rigorous, long-term, high-stress test in critical situations. 
+Finally, I think that RMDB is the most scientific, simplest 
+and most reliable in theory and practice, and it has withstood the most rigorous, 
+high-pressure, and long-term tests in various critical situations.
   
 # 一切都是RMDB
 
@@ -72,5 +73,5 @@ Dataframe类似于DB，它不需要保持顺序，因此，它不需要使用向
 - 非关键信息，为简便灵活，小范围地使用的 hash-map(json), 
   如同pgsql一样，只可做调味，不可当饭吃。
 
-最后, 我认为RMDB在理论和实践中是最简单和最可靠的，
-并且它是在危急情况下最严格，长期，高压力的测试。
+最后, 我认为RMDB在理论和实践中是最科学、最简单和最可靠的，
+并且它在各种至关重要的关键场景中经受最严格的、高压力的、长期的考验。
