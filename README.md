@@ -50,6 +50,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Warehouse/Workshop Model Summary](#Warehouse-Workshop-Model-Summary)    
 - [The difference between it and others](#The-difference-between-it-and-others)
   - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO)
+  - [The difference between it, Data-oriented, Data-driven](#The-difference-between-it-Data-oriented-Data-driven)
   - [The difference between it and middleware](#The-difference-between-it-and-middleware)
   - [The difference between it and Rx](#The-difference-between-it-and-Rx)
   - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language)
@@ -1422,6 +1423,8 @@ and error probability, reduce performance, without any benefit.
 Complex networks of relationships between objects in the OO system are also difficult to maintain..
 
 I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.. There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. I hope that my code can be understood by the junior programmer even in the most complicated system.
+
+### [The difference between Dataflow, Data-oriented, Data-driven](./doc/DataFlow_dataOriented_DataDriven_en.md)
 
 ### The difference between it and middleware
 
