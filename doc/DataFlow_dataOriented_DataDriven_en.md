@@ -84,7 +84,9 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
   - It is a system theory, including a series of 
     complete, simple and unified theories including 
     architecture, programming, principles, quality control, 
-    and aesthetics. The other two methods lack this complete, 
+    and aesthetics. It is highly consistent with the system theory 
+    of manufacturing and integrated circuits.
+    The other two methods lack this complete, 
     simple and unified system theory.
     
   - optimization approach
