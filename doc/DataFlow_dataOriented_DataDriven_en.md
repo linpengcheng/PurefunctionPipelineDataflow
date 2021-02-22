@@ -111,7 +111,7 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
     
     - `Data-driven programming`: There is no such content.
     
-  - It can naturally tolerate and utilize the technologies of 
+  - It can naturally embody and utilize the technologies of 
     `Data-Oriented design (programming)` and 
     `Data-driven programming`.
     
