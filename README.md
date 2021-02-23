@@ -650,16 +650,23 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 
 #### Concentration and decentralization
 
-- Data is centrally managed by the warehouse. Data verification and constraints are very convenient, 
-  which helps maintain the integrity and correctness of the data
-- It completely displays the standard specifications of the data 
-  and helps to understand the data correctly and comprehensively.
-- The maintenance cost is the smallest and the management is the simplest.
-- Data processing is independently produced by each workshop, 
-  there is no interaction between each workshop, 
-  and each workshop is only responsible for the warehouse.
-- Scheduling workshops to complete system tasks with the most optimized algorithm, 
-  which is the responsibility of `the scheduling function of warehouse`.
+- Concentration: Data Concentration
+  - Data is centrally managed by the warehouse. Data verification and constraints are very convenient, 
+    which helps maintain the integrity and correctness of the data
+  - It completely displays the standard specifications of the data 
+    and helps to understand the data correctly and comprehensively.
+  - It is conducive to obtaining comprehensive information and optimizing the system 
+    from a global perspective as the basis for unified scheduling.
+  - When debugging, you can easily save the global information of the warehouse when it is running, 
+    and analyze the cause of the failure.
+  - The maintenance cost is the smallest and the management is the simplest.
+  
+- decentralization: independent and parallel execution units (workshops)
+  - Data processing is independently produced by each workshop, 
+    there is no interaction between each workshop, 
+    and each workshop is only responsible for the warehouse.
+  - Scheduling workshops to complete system tasks with the most optimized algorithm, 
+    which is the responsibility of `the scheduling function of warehouse`.
   
 #### Level chain
 
