@@ -109,7 +109,8 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
     - Warehouse/workshop model is conducive to global optimization
       
     - `Data-Oriented design (programming)`: 
-      focus on the data layout, transformations.
+      focus on the data layout, separating and sorting fields according to 
+      when they are needed, and to think about transformations of data. 
     
     - `Data-driven programming`: There is no such content.
     
