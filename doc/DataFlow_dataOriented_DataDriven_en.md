@@ -125,6 +125,6 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
     for macros and S expressions in the lisp community.
     
   - It is derived from Clojure's data-oriented programming ideas and pipeline functions (->>, ->), 
-    but unfortunately, some people in the Clojure community do not like to use the two together.
-    When it published related topics in the Clojure community, it was often complained, 
+    but unfortunately, some people in the Clojure community really don't like to use the two together in a systematic way.
+    When it published related topics in the Clojure community, It is often complained of off-topic, 
     so that it was hidden and deleted.
