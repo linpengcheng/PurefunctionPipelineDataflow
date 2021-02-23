@@ -124,7 +124,7 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
   - Like lisp, it pursues simplicity and unity, but it seems that it has only become the publicity slogan 
     for macros and S expressions in the lisp community.
     
-  - It is derived from Clojure's data-oriented programming and pipe function(->>, ->), 
-    but unfortunately, some people in Clojure don't like it to use the two together, 
-    and often complain about it, thinking that it is off topic when it is published in the Clojure community. 
-    It is hidden and deleted.
+  - It is derived from Clojure's data-oriented programming ideas and pipeline functions (->>, ->), 
+    but unfortunately, some people in the Clojure community do not like to use the two together.
+    When it published related topics in the Clojure community, it was often complained, 
+    so that it was hidden and deleted.
