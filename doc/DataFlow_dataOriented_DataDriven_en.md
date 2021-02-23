@@ -1,4 +1,4 @@
-# The difference between Dataflow, Data-oriented, Data-driven
+# The difference between Data-oriented, Data-driven, The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
 
 Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
 
@@ -94,7 +94,8 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
     - The scheduling function dynamically plans 
       the order of completion of tasks according to 
       the Gantt chart algorithm, and calls the workshop 
-      to complete the assigned tasks.
+      to complete the assigned tasks. This approach is the most efficient, 
+      and there is no resource competition and transaction conflict. 
       
     - System continuity: Software is a factory that produces data. 
       By designing an excellent product (data) standard specification, 
