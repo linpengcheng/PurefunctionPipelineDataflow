@@ -118,3 +118,8 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
   - It can be compatible with and absorb `Data-Oriented design (programming)` 
     and `Data-driven programming` as a technical means.
     
+  - It is strongly related to RMDB, MVCC, and its goal is similar to Clojure's early concept STM, 
+    but unfortunately, STM does not seem to be popular in the clojure community now.
+
+  - Like lisp, it pursues simplicity and unity, but it seems that it has only become the publicity slogan 
+    for macros and S expressions in the lisp community.
