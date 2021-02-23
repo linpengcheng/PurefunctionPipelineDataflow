@@ -96,13 +96,14 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
       the Gantt chart algorithm, and calls the workshop 
       to complete the assigned tasks.
       
-    - Software is a factory that produces data. 
-      By designing an excellent product (data) standard 
-      specification, the software is designed into a 
-      simple, efficient, reliable, and smooth data 
-      manufacturing production line. The entire runtime 
-      system is a continuous flow of the River, 
-      It is essentially a tree Gantt chart.
+    - System continuity: Software is a factory that produces data. 
+      By designing an excellent product (data) standard specification, 
+      the software is designed into a simple, efficient, reliable, 
+      and smooth data manufacturing production line. 
+      The entire runtime system is a continual flow of the river system, 
+      or a running integrated circuit system, in the system, 
+      the data flow (water flow, current) continues to flow smoothly. 
+      It is essentially a continuous running tree Gantt chart.
       
     - Warehouse/workshop model is conducive to global optimization
       
