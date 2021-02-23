@@ -84,8 +84,8 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
   - It is a system theory, including a series of 
     complete, simple and unified theories including 
     architecture, programming, principles, quality control, 
-    and aesthetics. It is highly consistent with the system theory 
-    of manufacturing and integrated circuits.
+    and aesthetics. It is highly unified with the theory of manufacturing, 
+    integrated circuits, and computer hardware architecture.
     The other two methods lack this complete, 
     simple and unified system theory.
     
@@ -100,6 +100,7 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
       By designing an excellent product (data) standard specification, 
       the software is designed into a simple, efficient, reliable, 
       and smooth data manufacturing production line. 
+      It pays attention to the continuity of the data flow of the entire system,
       The entire runtime system is a continual flow of the river system, 
       or a running integrated circuit system, in the system, 
       the data flow (water flow, current) continues to flow smoothly. 
@@ -112,7 +113,6 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
     
     - `Data-driven programming`: There is no such content.
     
-  - It can naturally embody and utilize the technologies of 
-    `Data-Oriented design (programming)` and 
-    `Data-driven programming`.
+  - It can be compatible with and absorb `Data-Oriented design (programming)` 
+    and `Data-driven programming` as a technical means.
     
