@@ -125,7 +125,7 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
   - It can be compatible with and absorb `Data-Oriented design (programming)` 
     and `Data-driven programming` as a technical means.
     
-  - Relation to functional programming
+  - Relation with functional programming
     - I advocate simplicity. The current FP theory is too complicated, 
       so I only used the simplest, most basic, and core part: pure functions, first-class function.
     - Replace "type theory" with "manufacturing standard specification system", 
@@ -133,13 +133,16 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
       I think this should be the development direction of Clojure's spec, 
       but I think the spec is too ugly now, and the readability is very poor.
       
-  - Relationship with relational databases
+  - Relationship with relational databases 
     - Use hash-map to implement relational data model
     - Use Clojure core API functions to implement relational data manipulation.
     - Parallel (transaction) method: replace "MVCC (STM) or lock mechanism" 
       with a dynamic plan based on Gantt chart algorithm, 
       avoid resource competition and transaction (version) conflict, 
       and combine manufacturing best practices and management science to create This method.
+    - See also
+      - [Implement relational data model and programming based on hash-map (NoSQL)](./relational_model_on_hashmap.md)
+      - [Everything is RMDB](./Everything_is_RMDB.md)
       
   - Relationship with Clojure
     - In terms of task scheduling, its goal is similar to Clojure's early concept STM, 
