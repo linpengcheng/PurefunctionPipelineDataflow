@@ -93,6 +93,9 @@
     - 用Clojure核心API函数实现关系式数据操纵。
     - 并行（事务）方法：把"MVCC（STM）或锁机制"替换为基于 Gantt 图表算法的动态计划，避免了资源竞争和事务(版本)冲突, 
       并结合制造业最佳实践和管理科学，最终创造此方法。
+    - 另见
+      - [在hash-map(NoSQL)的基础上实现关系式数据模型和编程](./relational_model_on_hashmap.md)
+      - [一切都是RMDB](./Everything_is_RMDB.md)
  
   - 和Clojure的关系 
     - 它和Clojure的早期理念STM的目标是相似的, 但很遗憾, 现在STM好象在clojure社区里并不流行。
