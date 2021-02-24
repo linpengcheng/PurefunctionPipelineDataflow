@@ -61,7 +61,14 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
   > for well-formed data where the criteria for well-formed 
   > is guided by the target hardware and the patterns 
   > and types of transforms that need to operate on it. 
-  
+
+- Clojure's data-oriented programming
+
+  - Use Clojure's core API functions to manipulate data. 
+    Most of Clojure's core API functions are used to manipulate data, 
+    and other API functions are auxiliary and platform-specific.
+  - The development work revolves around Clojure's 4 immutable persistent data structures.
+
 ## Difference 
 
 - Data-driven programming
@@ -118,13 +125,28 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
   - It can be compatible with and absorb `Data-Oriented design (programming)` 
     and `Data-driven programming` as a technical means.
     
-  - It is strongly related to RMDB, MVCC, and its goal is similar to Clojure's early concept STM, 
-    but unfortunately, STM does not seem to be popular in the clojure community now.
-
-  - Like lisp, it pursues simplicity and unity, but it seems that it has only become the publicity slogan 
-    for macros and S expressions in the lisp community.
-    
-  - It is derived from Clojure's data-oriented programming ideas and pipeline functions (->>, ->), 
-    but unfortunately, some people in the Clojure community really don't like to use the two together in a systematic way.
-    When it published related topics in the Clojure community, It is often complained of off-topic, 
-    so that it was hidden and deleted.
+  - Relation to functional programming
+    - I advocate simplicity. The current FP theory is too complicated, 
+      so I only used the simplest, most basic, and core part: pure functions, first-class function.
+    - Replace "type theory" with "manufacturing standard specification system", 
+      using the manufacturing method of manufacturing standardized products. 
+      I think this should be the development direction of Clojure's spec, 
+      but I think the spec is too ugly now, and the readability is very poor.
+      
+  - Relationship with relational databases
+    - Use hash-map to implement relational data model
+    - Use Clojure core API functions to implement relational data manipulation.
+    - Parallel (transaction) method: replace "MVCC (STM) or lock mechanism" 
+      with a dynamic plan based on Gantt chart algorithm, 
+      avoid resource competition and transaction (version) conflict, 
+      and combine manufacturing best practices and management science to create This method.
+      
+  - Relationship with Clojure
+    - In terms of task scheduling, its goal is similar to Clojure's early concept STM, 
+      but unfortunately, STM does not seem to be popular in the clojure community now.
+    - It is the same as lisp, pursuing simplicity and unity, but unfortunately,
+      it seems that in the lisp community this is just a publicity slogan for macros and S expressions.
+    - It is derived from Clojure's data-oriented programming ideas and pipeline functions (->>, ->), 
+      but unfortunately, some people in the Clojure community really don't like to use the two together in a systematic way.
+      When it published related topics in the Clojure community, It is often complained of off-topic, 
+      so that it was hidden and deleted.
