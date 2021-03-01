@@ -481,6 +481,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     The Pure Function Pipeline Data Flow is suitable for the implementation of product specification (data specification) 
     industry standard system, Just like the computer hardware interface standard specification, Hardware is a function, 
     interface is a data standard specification. Data is transferred between hardware (functions).
+    - See also: [Principles: Order](#Order)
     
   - Storage Management(buffers, caches, databases, etc.): Inventory management
   
@@ -491,6 +492,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
     It's also a variant of the **Gantt Chart**.
+    - See also: [Principles: Standardization](#Standardization)
        
 ![Gantt chart](./doc/image/GanttChart.jpeg) 
 
@@ -780,6 +782,17 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 - It can reduce unnecessary data verification, cleaning, 
   conversion, and abnormal processing during execution, 
   and keep the logic of the workshop simple and efficient.
+  
+- By learning the methods of standardized production in the manufacturing industry, 
+  before software development, formulate complete product (data) standard specifications, 
+  and then produce products (data) according to product (data) standards. 
+  This method is simple, reliable, and reusable. Bugs in the software industry emerge endlessly. 
+  In the final analysis, they are not standardized enough. Just like the manufacturing industry, 
+  even the smallest screws have detailed standard specifications and quality control methods 
+  in terms of size, shape, material, and craftsmanship. 
+  This kind of production method is The ultimate way to eliminate bugs. 
+  The gap between the two industries is the gap between the era of handicraft industry 
+  and the era of modern standardization.  
 
 #### Exception handling
 
