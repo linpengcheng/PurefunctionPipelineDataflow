@@ -481,7 +481,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     The Pure Function Pipeline Data Flow is suitable for the implementation of product specification (data specification) 
     industry standard system, Just like the computer hardware interface standard specification, Hardware is a function, 
     interface is a data standard specification. Data is transferred between hardware (functions).
-    - See also: [Principles: Order](#Order)
+    - See also: [Principles: Standardization](#Standardization)
     
   - Storage Management(buffers, caches, databases, etc.): Inventory management
   
@@ -492,7 +492,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     
   - Boeing aircraft pulse production line technology, just like confluence technology of rivers from the source to the sea. 
     It's also a variant of the **Gantt Chart**.
-    - See also: [Principles: Standardization](#Standardization)
+    - See also: [Principles: Order](#Order)
        
 ![Gantt chart](./doc/image/GanttChart.jpeg) 
 
