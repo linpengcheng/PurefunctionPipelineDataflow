@@ -359,8 +359,34 @@ Confluence（reduce）: reduce the result of the shunt
      (reduce #(->> %2 f1 (into %1 ,)) [:tbody] ,)
      (conj [:table] ,)
      hiccup/html)
+     
+; hiccup DSL
 
+[:table 
+  [:tbody 
+    [:tr [:td {:rowspan 3} :a] 
+         [:td :b] 
+         [:td :c] 
+         [:td :d]] 
+    [:tr [:td :e] 
+         [:td :f] 
+         [:td :g]] 
+    [:tr [:td :h] 
+         [:td :i] 
+         [:td :j]] 
+    [:tr [:td {:rowspan 3} :k] 
+         [:td :l] 
+         [:td :m] 
+         [:td :n]] 
+    [:tr [:td :o] 
+         [:td :p] 
+         [:td :q]] 
+    [:tr [:td :r] 
+         [:td :s]
+         [:td :t]]]]     
 ```
+
+HTML Table:
 
 <table>
     <tbody>
@@ -386,6 +412,10 @@ Confluence（reduce）: reduce the result of the shunt
             <td>t</td></tr>
     </tbody>
 </table>
+
+### Code example 03
+
+See also: [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
 
 ## Classical Model
 
@@ -1024,11 +1054,13 @@ issuing new threads as needed.
 
 Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed), Every Intelligent-thread is a microservice.
 
-  - Product: Standardized data
+- Product: Standardized data
   
-  - Warehouse: data management
+- Warehouse: data management
 
-  - Workshop: Intelligent-thread,  Microservice
+- Workshop: Intelligent-thread,  Microservice
+
+![Microservice Architecture](./doc/Microservice_Architecture.png) 
 
 #### The unification with Information System Integration Model
 
@@ -1072,9 +1104,9 @@ Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronou
     
 #### The unification with Microkernel Architecture
   
-  - Warehouse: Core system
-  - Workshop:  Plug-in modules
-  - Product: Message, Data
+- Warehouse: Core system
+- Workshop:  Plug-in modules
+- Product: Message, Data
   
 ### The unification with AOP
 
