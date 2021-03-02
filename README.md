@@ -789,7 +789,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
   This method is simple, reliable, and reusable. Bugs in the software industry emerge endlessly. 
   In the final analysis, they are not standardized enough. Just like the manufacturing industry, 
   even the smallest screws have detailed standard specifications and quality control methods 
-  in terms of size, shape, material, and craftsmanship. 
+  in terms of size, shape, material, strength, hardness, corrosion resistance, and craftsmanship. 
   This kind of production method is The ultimate way to eliminate bugs. 
   The gap between the two industries is the gap between the era of handicraft industry 
   and the era of modern standardization.  
