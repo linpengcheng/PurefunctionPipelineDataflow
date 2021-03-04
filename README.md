@@ -1195,9 +1195,7 @@ such as hardware, software, Internet, and Internet of Things.
   My computer hardware architecture design was published on February 06, 2019. 
   One or two years later, the Apple M1 chip adopted the "warehouse/workshop model" design 
   and was released on November 11, 2020.
-  The type of workshop supported by my architecture is wider than that of the Apple M1, 
-  with greater efficiency, scalability, and flexibility.
-
+  
   - Warehouse: unified memory
   - Workshop: CPU, GPU and other cores
   - Products (raw materials): information, data
@@ -1211,6 +1209,21 @@ such as hardware, software, Internet, and Internet of Things.
   > for copying speeds up information exchange 
   > for faster overall performance.
   > [reference: Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
+
+  - From the introduction
+    - Apple M1 has not done global optimization 
+      of various core (workshop) scheduling.
+    - Apple M1 only optimizes the access to memory data 
+      (materials and products in the warehouse).
+    - Apple needs to further improve the programming language 
+      and compiler to support and promote my programming methodology.
+    - My architecture supports a wider range of workshop types 
+      than Apple M1, with greater efficiency, scalability and flexibility.
+  - Conclusion
+    - Apple M1 chip still needs a lot of optimization work, 
+      now its optimization level is still very simple, 
+      after all, it is only the first generation of works, 
+      released in stages.
 
 - Forecast(2021-01-19): I think Intel, AMD, ARM, supercomputer, etc. will adopt the "warehouse/workshop model"
 
@@ -1233,6 +1246,11 @@ such as hardware, software, Internet, and Internet of Things.
   communication, coordination, and management of various 
   available resources. The most effective, reliable, and 
   absolutely mainstream way is the "warehouse/workshop model".
+  
+  Only changing the architecture, 
+  not changing or only expanding the CPU instruction set, 
+  not only will not affect the CPU compatibility, 
+  but also bring huge optimization space.
 
   So I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model", 
   which is an inevitable trend in the development of computer hardware.
