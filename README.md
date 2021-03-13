@@ -597,7 +597,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
     have and only one leader (`the scheduling function of warehouse`).
   - A single leader helps to enhance the certainty and predictability of task execution (paths, times and result).
   - Multiple leaders will cause any leader to lose control of the execution of the task, 
-    produce unpredictable results, and destroy the results of using dynamic programming 
+    produce unpredictable results, and destroy the results of using `dynamic programming` 
     to achieve global optimization.
     
 - Unified scheduling
@@ -784,8 +784,9 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
   and keep the logic of the workshop simple and efficient.
   
 - By learning the methods of standardized production in the manufacturing industry, 
-  before software development, formulate complete product (data) standard specifications, 
-  and then produce products (data) according to product (data) standards. 
+  the software is regarded as a factory for producing data. With data as the center, 
+  before development, the standard specifications of data (products, parts, raw materials) are fully 
+  and accurately defined, and then the production data is standardized according to the data standards.
   This method is simple, reliable, and reusable. Bugs in the software industry emerge endlessly. 
   In the final analysis, they are not standardized enough. Just like the manufacturing industry, 
   even the smallest screws have detailed standard specifications and quality control methods 
@@ -1163,6 +1164,8 @@ the input sewage is treated separately.
   
 #### The unification with Computer Hardware Architecture
   
+Computer hardware is also a factory that produces data, 
+so it can also apply the "warehouse/workshop model",
 The model uses memory as the core, not the CPU.
 Finally, we can achieve the grand unification of all IT fields 
 such as hardware, software, Internet, and Internet of Things.
@@ -1254,8 +1257,12 @@ such as hardware, software, Internet, and Internet of Things.
 
   So I think Intel, AMD, ARM, supercomputing, etc. will adopt the "warehouse/workshop model", 
   which is an inevitable trend in the development of computer hardware.
+  My unified architecture and programming methodology will be vigorously promoted by these CPU companies, 
+  sweeping the world from the bottom up.
   
-Finally, "Warehouse/Workshop Model" and "Von Neumann Architecture" will become the two major architectures in the IT field.
+Finally, the "warehouse/workshop model" will surely replace the "von Neumann architecture" 
+and become the first architecture in the computer field, 
+and it is the first architecture to achieve a unified software and hardware.
 
 #### The unification with Integrated Circuit System
 
@@ -1490,9 +1497,21 @@ FP and OO are overly complicated, and it is not feasible in large industries. It
 
 Excessive application of OO and FP design patterns, in addition to increasing complexity 
 and error probability, reduce performance, without any benefit. 
-Complex networks of relationships between objects in the OO system are also difficult to maintain..
+Complex networks of relationships between objects in the OO system are also difficult to maintain.
 
-I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.. There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. I hope that my code can be understood by the junior programmer even in the most complicated system.
+The type system advocated by FP uses the HM type system to derive the types of parameters 
+and return values in order not to write types by hand.
+This approach violates my programming aesthetic "definiteness",
+It is a big mistake that it creates a complex type system only to avoid doing one correct and simple thing.
+I think the type of handwriting is still too simple. My method is to refer to manufacturing practices, 
+treat software as a factory that produces data, use data as the center, 
+precisely define data (products, parts, raw materials) standards, 
+and produce according to standards, everything It's all very simple.
+
+I tend to construct systems with the simplest concepts and the most basic techniques, syntax, and functions. 
+Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest, stable, reliable and readable.
+There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. 
+I hope that my code can be understood by the junior programmer even in the most complicated system.
 
 ### The difference between it Data-oriented Data-driven
 
@@ -1605,7 +1624,7 @@ The out-of-order execution technology of modern CPUs is a mistake:
   weak compiler conditions.
 
 - In the "warehouse/workshop model", 
-  the workshop is an orderly and high-speed ray. 
+  the workshop is an orderly and high-speed ray (pipeline). 
   The warehouse scheduling function performs 
   dynamic planning and unified scheduling 
   for all workshops and resources, 
@@ -1787,10 +1806,14 @@ It must be the ultimate programming methodology.
 
 In addition, the IT industry is still a very young and immature discipline.
 The current software engineering is still at the level of manual workshops. 
-`Pure function pipeline data flow` brings large industrial production theory 
-and methods to software engineering. It incorporates IT industry into 
-modern large industrial production systems, This is an epoch-making innovative 
-theory and method. 
+`Pure function pipeline data flow` considers that computer hardware and software 
+are both a factory that produces data. It unifies the architecture of computer hardware 
+and software into the architecture of the manufacturing industry ("warehouse/workshop model"),
+It brings a next-generation architecture ("warehouse/workshop model") to computer hardware, 
+It has verified its excellent performance through the Apple M1 chip.
+It brings large-scale industrial production theories and methods to software engineering.
+It incorporates IT industry into modern large industrial production systems, 
+This is an epoch-making innovative theory and method. 
 
 The modern society is an information society, IT controls everything, 
 penetrates everything. In my opinion, the development of IT is exactly 
