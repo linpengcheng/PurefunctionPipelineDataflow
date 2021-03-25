@@ -208,6 +208,12 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 ```
 
 ```clojure
+
+; R语言风格函数: 
+; - 多个命名参数
+; - 调用函数时参数可以乱序
+; - 大多数参数有缺省值
+
 (def ^:pravite defa-opt-map {:a 0 :b 9})
 
 (defn f [opt-map]
