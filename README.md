@@ -235,6 +235,12 @@ an integrated circuit component (or board).
 ```
 
 ```clojure
+
+; R language style functions: 
+; - multiple named parameters
+; - the parameters can be out of order when calling the function
+; - most of the parameters have default values
+
 (def ^:pravite defa-opt-map {:a 0 :b 9})
 
 (defn f [opt-map]
