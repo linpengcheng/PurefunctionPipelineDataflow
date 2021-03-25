@@ -234,6 +234,19 @@ an integrated circuit component (or board).
        f2))
 ```
 
+```clojure
+(def ^:pravite defa-opt-map {:a 0 :b 9})
+
+(defn f [opt-map]
+  (let [opt-map (merge defa-opt-map opt-map)
+        {:keys [a b c]} opt-map]
+    ; doing something
+    [a b c opt-map]))
+
+(f {:a 3 :c 15})
+;=> [3 9 15 {:a 3, :b 9, :c 15}]  
+```
+
 ### 2 Branch
 
 A (cond) or (if) block as a function.
@@ -767,7 +780,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
   weak compiler conditions.
 
   In the "warehouse/workshop model", 
-  the workshop is an orderly and high-speed ray. 
+  the workshop is an orderly and high-speed ray(pipeline). 
   The warehouse scheduling function performs 
   dynamic planning and unified scheduling 
   for all workshops and resources, 
@@ -1186,7 +1199,7 @@ such as hardware, software, Internet, and Internet of Things.
   weak compiler conditions.
 
   In the "warehouse/workshop model", 
-  the workshop is an orderly and high-speed ray. 
+  the workshop is an orderly and high-speed ray(pipeline). 
   The warehouse scheduling function performs 
   dynamic planning and unified scheduling 
   for all workshops and resources, 
