@@ -1237,8 +1237,8 @@ such as hardware, software, Internet, and Internet of Things.
       of various core (workshop) scheduling.
     - Apple M1 only optimizes the access to memory data 
       (materials and products in the warehouse).
-    - Apple needs to further improve the programming language 
-      and compiler to support and promote my programming methodology.
+    - Apple needs to further improve the programming language, compiler,
+      and OS to support and promote my programming methodology.
     - My architecture supports a wider range of workshop types 
       than Apple M1, with greater efficiency, scalability and flexibility.
   - Conclusion
