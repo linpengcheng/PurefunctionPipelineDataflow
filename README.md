@@ -1586,7 +1586,7 @@ It is essentially different between it and [Rx](http://reactivex.io/):
 
 Basic quality control of pure function pipeline data flow. The code must meet the following three basic quality requirements before you can talk about other things. These simple and reliable evaluation criteria are enough to eliminate most unqualified codes.
 - **Function evaluation:** Just look at the shape of the code (pipeline structure weight), and whether the function is a pure function.
-- **Dataflow evaluation:** A data flow has at most one side effect and can only be placed at the end.
+- **Dataflow evaluation:** A data flow has at most two functions with side effects and only at the beginning and the end.
 - **System evaluation:** Just look at the circuit diagram, you can treat the function as a black box like an electronic component.
 - **Code Quality Visualization:** 
   - For Lisp languages, S expression is contour graph, 
@@ -1994,6 +1994,23 @@ This theory consists of the following five parts:
 Each component of this theory is perfectly applied and 
 demonstrated other components, which shows that this 
 theory is a practical, complete and systematic theoretical system.
+
+### Clojure officially advocates pipeline programming
+
+In State of Clojure 2021 Results, it recommends pure functional pipeline programming.
+
+> First, Clojure programmers value a functional style of 
+> programming facilitating a separation of data and process. 
+> Coupled with its suite of immutable data structures, 
+> Clojure applications are often built as pipelines of 
+> data transformation functions that can be composed 
+> to implement higher-level business concepts in software.
+>  [Link: State of Clojure 2021 Results at clojure.org](https://clojure.org/news/2021/04/06/state-of-clojure-2021)
+
+Regarding pure functional pipeline programming, 
+this article is the simplest, most comprehensive, 
+and most systematic article. It has industrial-grade 
+reliability, simplicity and unity.
 
 ### End message
 
