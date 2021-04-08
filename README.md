@@ -67,6 +67,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [The easiest way to learn](#The-easiest-way-to-learn)
   - [Principles-based are better than rules-based](#Principles-based-are-better-than-rules-based)
   - [Eating your own dog food](#Eating-your-own-dog-food)
+  - [Clojure officially advocates pipeline programming in 2021](#Clojure-officially-advocates-pipeline-programming-in-2021)
   - [End message](#End-message)
 - Appendix:
   - [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
@@ -1995,9 +1996,9 @@ Each component of this theory is perfectly applied and
 demonstrated other components, which shows that this 
 theory is a practical, complete and systematic theoretical system.
 
-### Clojure officially advocates pipeline programming
+### Clojure officially advocates pipeline programming in 2021
 
-In State of Clojure 2021 Results, it recommends pure functional pipeline programming.
+In State of Clojure 2021 Results, it advocates pure functional pipeline programming.
 
 > First, Clojure programmers value a functional style of 
 > programming facilitating a separation of data and process. 
