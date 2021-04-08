@@ -1,6 +1,6 @@
 [goto Chinese edition (中文版)](./Readme_Chinese.md)
 
-# The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with principle-based Warehouse/Workshop Model
+# The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -189,9 +189,9 @@ Pipe functions are pure functions.
 A `->>` block function is equivalent to 
 an integrated circuit component (or board). 
 
-- side effects
+- Side effects
   - Most of the functions in a `->>` block are pure functions.
-  - There can only be at most two functions with side effects 
+  - A data flow has at most two functions with side effects 
     and only at the beginning and the end.
   - In the `warehouse/workshop model`, the side effects are 
     handled by the dedicated IO department 
