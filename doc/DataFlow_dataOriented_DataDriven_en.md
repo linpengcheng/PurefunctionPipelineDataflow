@@ -69,6 +69,16 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
     and other API functions are auxiliary and platform-specific.
   - The development work revolves around Clojure's 4 immutable persistent data structures.
 
+- dBase's (Foxpro's) data-oriented programming
+
+  - it is the first practical "database-first" 
+    programming language. Applications are 
+    developed around databases.
+  - It has a large number of data set commands. 
+    Programming with these commands not only makes 
+    the code easy to read and concise, but also 
+    has the high performance of C implementation.
+  
 ## Difference 
 
 - Data-driven programming
@@ -140,6 +150,8 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
       with a dynamic plan based on Gantt chart algorithm, 
       avoid resource competition and transaction (version) conflict, 
       and combine manufacturing best practices and management science to create This method.
+    - My "Pure function pipeline data flow and principle-based warehouse/workshop model" 
+      originated from dBase 3 (Foxpro).
     - See also
       - [Implement relational data model and programming based on hash-map (NoSQL)](./relational_model_on_hashmap.md)
       - [Everything is RMDB](./Everything_is_RMDB.md)
@@ -153,3 +165,6 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
       but unfortunately, some people in the Clojure community really don't like to use the two together in a systematic way.
       When it published related topics in the Clojure community, It is often complained of off-topic, 
       so that it was hidden and deleted.
+    - After Foxpro stopped developing, I kept looking for alternatives until I found a database in high-level languages ---- Clojure, 
+      a FP (Lisp) language based on the relational database model. Clojure is particularly convenient to manipulate data sets. 
+      It is simply a super Foxpro, which can be regarded as a DB with S expressions as a query language.
