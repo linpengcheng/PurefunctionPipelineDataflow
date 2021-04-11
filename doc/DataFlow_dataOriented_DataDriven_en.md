@@ -168,3 +168,7 @@ Copyright © 2021.02.22 Lin Pengcheng. All rights reserved.
     - After Foxpro stopped developing, I kept looking for alternatives until I found a database in high-level languages ---- Clojure, 
       a FP (Lisp) language based on the relational database model. Clojure is particularly convenient to manipulate data sets. 
       It is simply a super Foxpro, which can be regarded as a DB with S expressions as a query language.
+    - See also
+      - [Clojure is a FP based on RMDB](./Clojure_is_FP_based_on_RMDB.md)
+      - [Implement relational data model and programming based on hash-map (NoSQL)](./relational_model_on_hashmap.md)
+      - [Everything is RMDB](./Everything_is_RMDB.md)
