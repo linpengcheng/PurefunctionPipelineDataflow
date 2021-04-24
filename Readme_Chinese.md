@@ -1004,6 +1004,12 @@ ForkJoinPool使用的就是仓库/车间模型，及科学管理的运筹学，�
   这是计算机硬件发展的必然趋势。我的大统一架构和编程方法学就会被这些CPU公司大力推广，自底向上席卷天下.
   
 最后, "仓库/车间模型"必将代替"冯·诺依曼体系结构", 成为计算机领域的第一架构, 并且是第一个实现软件和硬件大统一的架构.
+
+注: 2021-04-24, HPE Cray 超级计算机官方推特在 twitter 点赞本理论. 这意味着:
+继 Apple M1 芯片采用"仓库/车间模型"之后, 它将继续进军超级计算机领域.
+
+![HPE Cray Supercomputer likes it at twitter](./doc/HPE-Cray-Like.png) 
+![HPE Cray Supercomputer twitter](./doc/HPE-Cray-twitter.png) 
   
 #### 和集成电路系统的统一
 
