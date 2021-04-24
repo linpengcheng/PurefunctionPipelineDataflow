@@ -1284,7 +1284,7 @@ Finally, the "warehouse/workshop model" will surely replace the "von Neumann arc
 and become the first architecture in the computer field, 
 and it is the first architecture to achieve a unified software and hardware.
 
-Note: HPE Cray Supercomputer likes it at twitter. It means:
+Note: 2021-04-24, HPE Cray Supercomputer likes it at twitter. It means:
 After the Apple M1 chip adopts it, it will continue to enter the field of supercomputers.
 
 ![HPE Cray Supercomputer likes it at twitter](./doc/HPE-Cray-Like.png) 
