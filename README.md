@@ -18,7 +18,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Classical Model](#Classical-Model)
 - [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
   - [Overview of the model](#Overview-of-the-model)
-  - [Principles of the model](#Principles-of-the-model)
+  - [10 Principles of the model](#Principles-of-the-model)
     - [Division of tasks](#Division-of-tasks)
     - [Single Leader and Unified Scheduling](#Single-Leader-and-Unified-Scheduling)
     - [Empowerment and Management by Objective](#Empowerment-and-Management-by-Objective)
@@ -82,27 +82,27 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ## Key point
 
-- Software and hardware are factories that manufacture data, 
+- [Software and hardware are factories that manufacture data, 
   so they have the same "warehouse/workshop model" and management methods 
-  as the manufacturing industry.
+  as the manufacturing industry.](#Warehouse-Workshop-Model)
 
-- Software and hardware are a unified architecture: "warehouse/workshop model".
+- [Software and hardware are a unified architecture: "warehouse/workshop model".](#The-unification-with-Computer-Hardware-Architecture)
 
-- The scheduler (scheduling function) dynamically plans the order of completion of tasks 
+- [The scheduler (scheduling function) dynamically plans the order of completion of tasks 
   according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
-  This approach is the most efficient, and there is no resource competition and transaction conflict.
+  This approach is the most efficient, and there is no resource competition and transaction conflict.](#Single-Leader-and-Unified-Scheduling)
 
-- It is a warehouse/workshop model fractal system.
+- [It is a warehouse/workshop model fractal system.](#Overview-of-the-model)
 
-- It is also a pure function pipeline fractal system.
+- [It is also a pure function pipeline fractal system.](#Single-form)
 
-- 10 Principles
+- [10 Principles of the model](#Principles-of-the-model)
 
-- 5 Aesthetics
+- [5 Aesthetics](#Programming-Aesthetics)
 
-- 5 basic data flow components
+- [5 basic data flow components](#Five-basic-data-flow-components)
 
-- Basic quality control
+- [Basic quality control](#Basic-quality-control)
   
 ## My and Other Peoples Related Views
 
@@ -549,6 +549,10 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ### Overview of the model
 
+Warehouse: It is a container for storing data (status, data, and functions are also data).
+
+Workshop: Tt is an independent unit that performs tasks within the system.
+
 If you understand that software is a factory that produces data, 
 then you can understand the warehouse/workshop model, 
 understand the separation of production lines (pure functions, pipelines, workshop) and production materials (data), 
@@ -654,6 +658,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
   - No resource competition and transaction (version) conflicts
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
+  - The global unified scheduling system is the most efficient, which is a common sense.
 
 #### Empowerment and Management by Objective
 
@@ -727,7 +732,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 
 #### Concentration and decentralization
 
-- Concentration: Data Concentration
+- Concentration: Data Concentration, Global unified scheduling of tasks.
   - Data is centrally managed by the warehouse. Data verification and constraints are very convenient, 
     which helps maintain the integrity and correctness of the data
   - It completely displays the standard specifications of the data 
@@ -737,6 +742,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
   - When debugging, you can easily save the global information of the warehouse when it is running, 
     and analyze the cause of the failure.
   - The maintenance cost is the smallest and the management is the simplest.
+  - Global unified scheduling of tasks: The global unified scheduling system is the most efficient, which is a common sense.
   
 - decentralization: independent and parallel execution units (workshops)
   - Data processing is independently produced by each workshop, 
