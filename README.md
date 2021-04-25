@@ -1340,7 +1340,7 @@ and it is the first architecture to achieve a unified software and hardware.
 
 ```
 Anyone can build a fast CPU. The trick is to build a fast system." 
-       ---- Seymour Cray
+       ---- Seymour Cray, the father of supercomputing
 ```
 
 Note: 2021-04-24, HPE Cray Supercomputer likes it at twitter. It means:
