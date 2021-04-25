@@ -1338,8 +1338,14 @@ Finally, the "warehouse/workshop model" will surely replace the "von Neumann arc
 and become the first architecture in the computer field, 
 and it is the first architecture to achieve a unified software and hardware.
 
+```
+Anyone can build a fast CPU. The trick is to build a fast system." 
+       ---- Seymour Cray
+```
+
 Note: 2021-04-24, HPE Cray Supercomputer likes it at twitter. It means:
 After the Apple M1 chip adopts it, it will continue to enter the field of supercomputers.
+My fast system is `The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model`.
 
 ![HPE Cray Supercomputer likes it at twitter](./doc/HPE-Cray-Like.png) 
 ![HPE Cray Supercomputer twitter](./doc/HPE-Cray-twitter.png) 
