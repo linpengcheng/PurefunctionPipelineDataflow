@@ -5,9 +5,10 @@
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ## Table of Contents
+- [Key point](#Key-point)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
-- [Basic construction method](#Basic-construction-method)
+- [5 basic data flow components](#Five-basic-data-flow-components)
   - [1. Pipeline Component](#1-Pipeline-Component)
   - [2. Branch](#2-Branch)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
@@ -78,6 +79,30 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Other Articles Table of Contents](#Other-Articles-Table-of-Contents)
 
 ----
+
+## Key point
+
+- Software and hardware are factories that manufacture data, 
+  so they have the same "warehouse/workshop model" and management methods 
+  as the manufacturing industry.
+
+- Software and hardware are a unified architecture: "warehouse/workshop model".
+
+- The scheduler (scheduling function) dynamically plans the order of completion of tasks 
+  according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
+  This approach is the most efficient, and there is no resource competition and transaction conflict.
+
+- It is a warehouse/workshop model fractal system.
+
+- It is also a pure function pipeline fractal system.
+
+- 10 Principles
+
+- 5 Aesthetics
+
+- 5 basic data flow components
+
+- Basic quality control
   
 ## My and Other Peoples Related Views
 
@@ -181,7 +206,7 @@ until the final goal is reached." Therefore, its success is inevitable, not surp
 After using this method proficiently, it is a simple and repeated boring technique. 
 This is the simplicity and repetition pursued by large industrial production lines.
 
-## Basic construction method
+## Five basic data flow components
 
 ### 1 Pipeline Component
 
@@ -1988,11 +2013,11 @@ messy practical experience.
 
 This theory consists of the following five parts:
 
-- Programming: pure function pipeline data flow
+- Programming: pure function pipeline data flow, 5 basic data flow components
 
 - Architecture: Warehouse/Workshop model
 
-- Principles: Principle-based methodology
+- Principles: Principle-based methodology, 10 Principles
 
 - Quality control: simple mountain map or contour map, pure function ratio
 
