@@ -246,6 +246,29 @@ Clojure的提供的很多种类线程宏，还有极简单流畅的数据操作�
 
 (f {:a 3 :c 15})
 ;=> [3 9 15 {:a 3, :b 9, :c 15}]  
+
+;opt-map can provide both unix and windows 
+;style parameters at the same time, and the 
+;performance loss is negligible.
+;dos copy
+(def ^:private defa-opt-map
+  {:src  ""   :dest ""
+   :A    nil  :B    nil
+   :D    nil  :L    nil
+   :V    nil  :N    nil  
+   :Y    nil  :Z    nil
+   :target nil})
+(defn copy 
+  ([opt-map]
+    (->> (merge defa-opt-map opt-map)
+         ;do sth.
+         ))
+  ([src dest]
+    (->> (assoc defa-opt-map 
+                :src src 
+                :dest dest)
+         copy)))
+
 ```
 
 ### 2 分支
