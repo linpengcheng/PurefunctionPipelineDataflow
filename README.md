@@ -98,10 +98,11 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [From the component point of view, it is a pure function pipeline fractal system.](#Single-form)
   - [5 basic data flow components](#Five-basic-data-flow-components)
   - [A pipeline interconnection system based on a fully standardized data interface.](#Standardization)
+  - [Like EDA, the design and development of integrated software and hardware are automated](#Software-Design-and-Develop-Automation)
 
-- [5 Aesthetics](#Programming-Aesthetics)
+- [5 Aesthetics: In the IT field, only it and binary system fully comply with these 5 aesthetics.](#Programming-Aesthetics)
 
-- [Basic quality control](#Basic-quality-control)
+- [Basic quality control: Non-IT professionals can also perform basic quality control.](#Basic-quality-control)
   
 ## My and Other Peoples Related Views
 
