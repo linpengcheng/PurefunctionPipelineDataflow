@@ -1077,8 +1077,10 @@ ForkJoinPool使用的就是仓库/车间模型，及科学管理的运筹学，�
 继 Apple M1 芯片采用"仓库/车间模型"之后, 它将继续进军超级计算机领域.
 我的快速系统就是《大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型》.
 
-![HPE Cray Supercomputer likes it at twitter](./doc/HPE-Cray-Like.png) 
-![HPE Cray Supercomputer twitter](./doc/HPE-Cray-twitter.png) 
+<table><tr>
+<td><img src="./doc/HPE-Cray-Like.png" width = 80%></td>
+<td><img src="./doc/HPE-Cray-twitter.png" width = 80%></td>
+</tr></table>  
   
 #### 和集成电路系统的统一
 
