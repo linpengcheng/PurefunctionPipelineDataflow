@@ -9,8 +9,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
 - [5 basic data flow components](#Five-basic-data-flow-components)
-  - [1. Pipeline Component](#1-Pipeline-Component)
-  - [2. Branch](#2-Branch)
+  - [1. Pipeline Component (forward flow)](#1-Pipeline-Component)
+  - [2. Conditional Branch](#2-Conditional-Branch)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
   - [4. Shunt (concurrent, parallel)](#4-Shunt)
   - [5. Confluence(reduce)](#5-Confluence)
@@ -92,15 +92,14 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
   This approach is the most efficient, and there is no resource competition and transaction conflict.](#Single-Leader-and-Unified-Scheduling)
 
-- [It is a warehouse/workshop model fractal system.](#Overview-of-the-model)
+- [From the perspective of system architecture, it is a warehouse/workshop model fractal system.](#Overview-of-the-model)
+  - [10 Principles of the model](#Principles-of-the-model)
 
-- [It is also a pure function pipeline fractal system.](#Single-form)
-
-- [10 Principles of the model](#Principles-of-the-model)
+- [From the component point of view, it is a pure function pipeline fractal system.](#Single-form)
+  - [5 basic data flow components](#Five-basic-data-flow-components)
+  - [A pipeline interconnection system based on a fully standardized data interface.](#Standardization)
 
 - [5 Aesthetics](#Programming-Aesthetics)
-
-- [5 basic data flow components](#Five-basic-data-flow-components)
 
 - [Basic quality control](#Basic-quality-control)
   
@@ -210,6 +209,8 @@ This is the simplicity and repetition pursued by large industrial production lin
 
 ### 1 Pipeline Component
 
+Pipeline Component (forward flow)
+
 Pipe functions are pure functions. 
 A `->>` block function is equivalent to 
 an integrated circuit component (or board). 
@@ -302,7 +303,7 @@ an integrated circuit component (or board).
 
 ```
 
-### 2 Branch
+### 2 Conditional Branch
 
 A (cond) or (if) block as a function.
 
@@ -572,9 +573,14 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ### Overview of the model
 
-Warehouse: It is a container for storing data (status, data, and functions are also data).
+- Warehouse
 
-Workshop: Tt is an independent unit that performs tasks within the system.
+  It is a container for storing data (status, data, and functions are also data). 
+  It has a scheduler that uses Gantt chart algorithm to dynamically plan and schedule the workshop to complete tasks. 
+
+- Workshop
+  
+  It is an independent unit that performs tasks within the system.
 
 If you understand that software is a factory that produces data, 
 then you can understand the warehouse/workshop model, 
