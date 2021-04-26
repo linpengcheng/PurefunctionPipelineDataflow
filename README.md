@@ -8,7 +8,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Key innovative ideas](#Key-innovative-ideas)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
-- [5 basic data flow components](#Five-basic-data-flow-components)
+- [5 basic pure function pipeline data flow components](#Five-basic-pure-function-pipeline-data-flow-components)
   - [1. Pipeline Component (forward flow)](#1-Pipeline-Component)
   - [2. Conditional Branch](#2-Conditional-Branch)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
@@ -96,13 +96,13 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [10 Principles of the model](#Principles-of-the-model)
 
 - [From the component point of view, it is a pure function pipeline fractal system.](#Single-form)
-  - [5 basic data flow components](#Five-basic-data-flow-components)
-  - [A pipeline interconnection system based on a fully standardized data interface.](#Standardization)
+  - [5 basic pure function pipeline data flow components](#Five-basic-pure-function-pipeline-data-flow-components)
+  - [An interconnected pipeline world based on a fully standardized data interface .](#Standardization)
   - [Like EDA, it is integrated and automated that the design and development of software and hardware.](#Software-Design-and-Develop-Automation)
 
 - [5 Aesthetics: In the IT field, only it and binary system fully comply with these 5 aesthetics.](#Programming-Aesthetics)
 
-- [Basic quality control: Non-IT professionals can also perform basic quality control.](#Basic-quality-control)
+- [Basic quality control: Like the manufacturing industry, Non-IT professionals can also perform basic quality control.](#Basic-quality-control)
   
 ## My and Other Peoples Related Views
 
@@ -206,7 +206,7 @@ until the final goal is reached." Therefore, its success is inevitable, not surp
 After using this method proficiently, it is a simple and repeated boring technique. 
 This is the simplicity and repetition pursued by large industrial production lines.
 
-## Five basic data flow components
+## Five basic pure function pipeline data flow components
 
 ### 1 Pipeline Component
 
@@ -582,6 +582,14 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 - Workshop
   
   It is an independent unit that performs tasks within the system.
+  each workshop is an independent pipeline with a single function.
+  they are small, simple and clear.
+  
+- Warehouse/Workshop Model
+  
+  - From a static point of view, it is a star, and 
+
+  - From the perspective of dynamic runtime, it is a dynamic tree-shaped Gantt chart, like a rushing river. 
 
 If you understand that software is a factory that produces data, 
 then you can understand the warehouse/workshop model, 
@@ -752,6 +760,8 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 #### Single form
 
 - All components (workshops, warehouses, models) are pipelines.
+- From the component point of view, it is a pure function pipeline fractal system.
+- From the perspective of system architecture, it is a warehouse/workshop model fractal system.
 - Realize the perfect combination of system simplicity and unity.
   It's the ultimate simplicity and unity when all elements (including architecture) have the same form.
 - Because the system is a fractal system, the growth of the system will not increase the complexity of the system, 
@@ -2055,7 +2065,7 @@ messy practical experience.
 
 This theory consists of the following five parts:
 
-- Programming: pure function pipeline data flow, 5 basic data flow components
+- Programming: pure function pipeline data flow, 5 basic pure function pipeline data flow components
 
 - Architecture: Warehouse/Workshop model
 
