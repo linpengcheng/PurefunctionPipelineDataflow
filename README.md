@@ -1365,8 +1365,8 @@ After the Apple M1 chip adopts it, it will continue to enter the field of superc
 My fast system is `The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model`.
 
 <table><tr>
-<td><img src="./doc/HPE-Cray-Like.png" width = 60%></td>
-<td><img src="./doc/HPE-Cray-twitter.png" width = 60%></td>
+<td><img src="./doc/HPE-Cray-Like.png" width = 80%></td>
+<td><img src="./doc/HPE-Cray-twitter.png" width = 80%></td>
 </tr></table>  
 
 #### The unification with Integrated Circuit System
