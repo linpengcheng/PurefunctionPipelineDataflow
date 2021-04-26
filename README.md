@@ -1364,8 +1364,10 @@ Note: 2021-04-24, HPE Cray Supercomputer likes it at twitter. It means:
 After the Apple M1 chip adopts it, it will continue to enter the field of supercomputers.
 My fast system is `The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model`.
 
-<img src="./doc/HPE-Cray-Like.png" width = 25%>
-<img src="./doc/HPE-Cray-twitter.png" width = 25%>
+<table><tr>
+<td><img src="./doc/HPE-Cray-Like.png" width = 40%></td>
+<td><img src="./doc/HPE-Cray-twitter.png" width = 40%></td>
+</tr></table>  
 
 #### The unification with Integrated Circuit System
 
