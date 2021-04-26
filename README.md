@@ -5,7 +5,7 @@
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ## Table of Contents
-- [Key point](#Key-point)
+- [Key innovative ideas](#Key-innovative-ideas)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
 - [5 basic data flow components](#Five-basic-data-flow-components)
@@ -80,7 +80,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 
 ----
 
-## Key point
+## Key innovative ideas
 
 - [Software and hardware are factories that manufacture data, 
   so they have the same "warehouse/workshop model" and management methods 
