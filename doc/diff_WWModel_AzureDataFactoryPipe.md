@@ -54,7 +54,7 @@ Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
     - According to the activity dependency scheduling 
       used in traditional concurrent systems, 
       it is not scheduled in an optimized order.
-    - It does not comply with the following principles
+  - It does not comply with the following principles
       - Single Leader and Unified Scheduling
       - Order
       - Definiteness
