@@ -52,6 +52,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [The difference between it and others](#The-difference-between-it-and-others)
   - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO)
   - [The difference between it, Data-oriented, Data-driven](#The-difference-between-it-Data-oriented-Data-driven)
+  - [The difference between it and Microsoft Azure DataFactory/DataPipelines Architecture](#The-difference-between-it-and-Microsoft-Azure-DataFactory-DataPipelines-Architecture)
   - [The difference between it and middleware](#The-difference-between-it-and-middleware)
   - [The difference between it and Rx](#The-difference-between-it-and-Rx)
   - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language)
@@ -1641,11 +1642,11 @@ I hope that my code can be understood by the junior programmer even in the most 
 
 ### The difference between it Data-oriented Data-driven
 
-[The difference between Dataflow, Data-oriented, Data-driven](./doc/DataFlow_dataOriented_DataDriven_en.md)
+See also: [The difference between Dataflow, Data-oriented, Data-driven](./doc/DataFlow_dataOriented_DataDriven_en.md)
 
-### The difference between it and Microsoft Azure DataFactory/DataPipelines Architecture
+### The difference between it and Microsoft Azure DataFactory-DataPipelines Architecture
 
-[The difference between Warehouse/Workshop Model and Microsoft Azure DataFactory/DataPipelines Architecture](./doc/diff_WWModel_AzureDataFactoryPipe.md)
+See also: [The difference between Warehouse/Workshop Model and Microsoft Azure DataFactory/DataPipelines Architecture](./doc/diff_WWModel_AzureDataFactoryPipe.md)
 
 ### The difference between it and middleware
 
