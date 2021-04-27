@@ -575,9 +575,21 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 ### Overview of the model
 
 - Warehouse
-
-  It is a container for storing data (status, data, and functions are also data). 
-  It has a scheduler that uses Gantt chart algorithm to dynamically plan and schedule the workshop to complete tasks. 
+  
+  - It is a special pipeline, a container for all resources 
+    (status, data, and functions are also data). 
+    It has two special side-effect pipelines (I/O) 
+    that are connected to the outside world.
+  
+  - It has a scheduler, the warehouse scheduler and 
+    the workshop are **1: n relationship**, 
+    the warehouse scheduler uses Gantt chart algorithm 
+    to dynamically plan and schedule the workshop 
+    to complete tasks for global optimization.
+    
+  - It may not have an ordinary workshop, 
+    at this time it is just a data center 
+    (warehousing industry).
 
 - Workshop
   
@@ -585,9 +597,18 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   each workshop is an independent pipeline with a single function.
   they are small, simple and clear.
   
+  - It is a larger execution unit than a data pipeline 
+    and consists of a series of data pipelines.
+  - There is no interaction between the workshops, 
+    and each workshop is only uniformly scheduled by the warehouse.
+  - It is the atomic unit when dividing independent tasks, 
+    corresponding to a bar of the Gantt chart.
+  - It can have no warehouse, at this time it is just a microservice 
+    (service industry).  
+  
 - Warehouse/Workshop Model
   
-  - From a static point of view, it is a star, and 
+  - From a static point of view, it is a star
 
   - From the perspective of dynamic runtime, it is a dynamic tree-shaped Gantt chart, like a rushing river. 
 
@@ -1621,6 +1642,10 @@ I hope that my code can be understood by the junior programmer even in the most 
 ### The difference between it Data-oriented Data-driven
 
 [The difference between Dataflow, Data-oriented, Data-driven](./doc/DataFlow_dataOriented_DataDriven_en.md)
+
+### The difference between it and Microsoft Azure DataFactory/DataPipelines Architecture
+
+[The difference between Warehouse/Workshop Model and Microsoft Azure DataFactory/DataPipelines Architecture](./doc/diff_WWModel_AzureDataFactoryPipe.md)
 
 ### The difference between it and middleware
 
