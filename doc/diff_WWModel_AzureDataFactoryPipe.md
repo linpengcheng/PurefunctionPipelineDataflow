@@ -1,10 +1,96 @@
-# The difference between `Warehouse/Workshop Model` and `Azure DataFactory/DataPipelines Architecture`
+# Defects and improvement measures of Microsoft `Azure DataFactory/DataPipelines Architecture` ---- The difference between `Warehouse/Workshop Model` and Microsoft `Azure DataFactory/DataPipelines Architecture`
 
 Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
 
-come soon ...
+## Difference
 
-# `Azure数据工厂/数据管道架构`的缺陷和改进措施----兼论`仓库/车间模型`与`Azure数据工厂/数据管道架构`的差别
+### Workshop vs DataPipeline
+
+- Workshop
+
+  - It is a larger execution unit than a data pipeline 
+    and consists of a series of data pipelines.
+  - There is no interaction between the workshops, 
+    and each workshop is only uniformly scheduled by the warehouse.
+  - It is the atomic unit when dividing independent tasks, 
+    corresponding to a bar of the Gantt chart.
+  - It can have no warehouse, at this time it is just a microservice 
+    (service industry).
+
+- DataPipeline
+
+  - Execute Pipeline	Execute: Pipeline activity allows 
+    a Data Factory pipeline to invoke another pipeline.
+  - Scheduling pipelines  [new feature in current version (2019-11-19)]
+    - Pipelines & triggers have an **n:m relationship**.
+  - It does not comply with the following principles
+    - Single Leader and Unified Scheduling
+    - Order
+
+### Warehouse vs DataFactory
+
+- Warehouse
+
+  - It is a special pipeline, a container for all resources 
+    (status, data, and functions are also data). 
+    It has two special side-effect pipelines (I/O) 
+    that are connected to the outside world.
+  
+  - It has a scheduler, the warehouse scheduler and 
+    the workshop are **1: n relationship**, 
+    the warehouse scheduler uses Gantt chart algorithm 
+    dynamic planning for global optimization.
+    
+  - It may not have an ordinary workshop, 
+    at this time it is just a data center 
+    (warehousing industry).
+  
+- Azure DataFactory
+
+  - Azure Data Factory is the cloud-based ETL and data integration service，
+  - Scheduling pipelines  [new feature in current version (2019-11-19)]
+    - Pipelines & triggers have an **n:m relationship**.
+    - According to the activity dependency scheduling 
+      used in traditional concurrent systems, 
+      it is not scheduled in an optimized order.
+    - It does not comply with the following principles
+      - Single Leader and Unified Scheduling
+      - Order
+      - Definiteness
+
+## Defects and improvement measures of Microsoft `Azure DataFactory/DataPipelines Architecture`
+
+From the comparison of the above differences, 
+Microsoft `Azure DataFactory/DataPipelines Architecture` 
+has the following shortcomings:
+
+- Because
+  - Execute Pipeline Execute: Pipeline activity allows 
+    a Data Factory pipeline to invoke another pipeline.
+  - Pipelines & triggers have an **n:m relationship**.
+- So
+  - Since it has no workshop encapsulation,
+    multiple data pipelines call each other, 
+    intertwined into a complex and chaotic network.
+  - It is like a factory without workshops, 
+    all machines (data pipelines) are connected together 
+    in an open field, There is no unified scheduler, 
+    they are in a chaotic, unorganized state.
+  - It is not a strict star system and fractal system.
+  - It does not comply with the following principles
+    - Single Leader and Unified Scheduling
+    - Order
+    - Definiteness
+  
+The improvement measure is to use my `Warehouse/Workshop Model`.
+
+## Reference
+
+- [Pipelines and activities in Azure Data Factory (current version 2019-11-19) at docs.microsoft.com](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities)
+
+----
+
+# 微软`Azure数据工厂/数据管道架构`的缺陷和改进措施----兼论`仓库/车间模型`与微软`Azure数据工厂/数据管道架构`的差别
 
 版权所有 © 2021-04-27 林鹏程， 保留所有权利。
 
@@ -30,17 +116,20 @@ Warehouse/Workshop Model", 有个用户(Humble_Welder6049)
 
 - 车间
 
-  比数据管道更大的执行单元，由串联的数据管道组成，
-  车间之间没有任何交互，每个车间只被仓库统一调度。
-  它是任务分割的原子单位，对应甘特图的一个条。
-  它可以没有仓库，这时它只是微服务（专用处理芯片，服务业）。
+  - 它是比数据管道更大的执行单元，由串联的数据管道组成.
+  - 车间之间没有任何交互，每个车间只被仓库统一调度。
+  - 它是划分独立任务时的原子单位，对应甘特图的一个条。 
+  - 它可以没有仓库，这时它只是微服务（专用处理芯片，服务业）。
+
   
 - 数据管道
 
   - 执行管道活动允许数据工厂管道调用另一个管道。
   - 调度管道[当前版本(2019-11-19)新增]: 
     - 管道和触发器具有**n:m关系**
-  - 它不遵守：单一领导和统一调度原则，有序原则
+  - 它不遵守如下原则
+    - 单一领导和统一调度原则
+    - 有序原则
 
 ###  仓库 vs 数据工厂
 
@@ -49,7 +138,7 @@ Warehouse/Workshop Model", 有个用户(Humble_Welder6049)
   - 它是一个特殊的管道，一切资源的容器（状态，数据，函数也是数据），
     它有两个特殊的副作用管道（I/O）与外部互联.
   - 它有一个调度器, 仓库调度器和车间是**1：n关系**，仓库调度器使用甘特图算法动态规划进行全局优化。
-  - 它可以没有普能车间，这时它只是数据中心（仓储业）。
+  - 它可以没有普通车间，这时它只是数据中心（仓储业）。
   
 - Azure数据工厂
 
@@ -58,7 +147,10 @@ Warehouse/Workshop Model", 有个用户(Humble_Welder6049)
   - 调度管道[当前版本(2019-11-19)新增]: 
     - 管道和触发器具有**n:m关系**, 
     - 按传统并发系统使用的活动依赖关系调度，并没有按优化顺序调度。
-    - 它不遵守：有序原则，单一领导和统一调度原则，明确原则
+  - 它不遵守如下原则
+    - 单一领导和统一调度原则
+    - 有序原则
+    - 明确原则
 
 ## `Azure数据工厂/数据管道架构`的缺陷和改进措施
 
@@ -72,10 +164,13 @@ Warehouse/Workshop Model", 有个用户(Humble_Welder6049)
   - 它象是一个没有车间的工厂, 所有机器(数据管道)在露天工场上联接在一起,
     也没有统一的调度器, 它们处于混乱的无组织状态.
   - 它不是一个严格的星形系统和分形系统。
-  - 它不遵守：单一领导和统一调度原则，明确原则
+  - 它不遵守如下原则
+    - 单一领导和统一调度原则
+    - 有序原则
+    - 明确原则
   
 改进措施就是使用我的`仓库/车间模型`.
 
 ## 参考
 
-- [Azure数据工厂中的管道和活动(当前版本2019-11-19)](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities)
+- [Azure数据工厂中的管道和活动(当前版本2019-11-19) docs.microsoft.com](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities)
