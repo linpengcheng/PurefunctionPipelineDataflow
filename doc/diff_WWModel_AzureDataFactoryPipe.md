@@ -18,7 +18,7 @@ Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
   - It can have no warehouse, at this time it is just a microservice 
     (service industry).
 
-- DataPipeline
+- Azure DataPipeline
 
   - Execute Pipeline Execute: Pipeline activity allows 
     a Data Factory pipeline to invoke another pipeline.
