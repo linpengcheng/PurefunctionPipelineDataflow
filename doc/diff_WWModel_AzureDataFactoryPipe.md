@@ -12,6 +12,7 @@ Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
     and consists of a series of data pipelines.
   - There is no interaction between the workshops, 
     and each workshop is only uniformly scheduled by the warehouse.
+    - the warehouse scheduler and the workshop are **1: n relationship**
   - It is the atomic unit when dividing independent tasks, 
     corresponding to a bar of the Gantt chart.
   - It can have no warehouse, at this time it is just a microservice 
@@ -19,7 +20,7 @@ Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
 
 - DataPipeline
 
-  - Execute Pipeline	Execute: Pipeline activity allows 
+  - Execute Pipeline Execute: Pipeline activity allows 
     a Data Factory pipeline to invoke another pipeline.
   - Scheduling pipelines  [new feature in current version (2019-11-19)]
     - Pipelines & triggers have an **n:m relationship**.
@@ -118,6 +119,7 @@ Warehouse/Workshop Model", 有个用户(Humble_Welder6049)
 
   - 它是比数据管道更大的执行单元，由串联的数据管道组成.
   - 车间之间没有任何交互，每个车间只被仓库统一调度。
+    - 调度和车间具有**1:n关系** 
   - 它是划分独立任务时的原子单位，对应甘特图的一个条。 
   - 它可以没有仓库，这时它只是微服务（专用处理芯片，服务业）。
 
@@ -137,7 +139,7 @@ Warehouse/Workshop Model", 有个用户(Humble_Welder6049)
 
   - 它是一个特殊的管道，一切资源的容器（状态，数据，函数也是数据），
     它有两个特殊的副作用管道（I/O）与外部互联.
-  - 它有一个调度器, 仓库调度器和车间是**1：n关系**，仓库调度器使用甘特图算法动态规划进行全局优化。
+  - 它有一个调度器, 仓库调度器和车间是**1:n关系**，仓库调度器使用甘特图算法动态规划进行全局优化。
   - 它可以没有普通车间，这时它只是数据中心（仓储业）。
   
 - Azure数据工厂
