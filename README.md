@@ -90,6 +90,9 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Software and hardware are a unified architecture: "warehouse/workshop model".](#The-unification-with-Computer-Hardware-Architecture)
   - From a static point of view, it is a star.
   - From the perspective of dynamic runtime, it is a dynamic tree Gantt chart, like a rushing river system. 
+  - the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" 
+    and become the first architecture in the computer field, 
+    and it is the first architecture to achieve a unified software and hardware.
 
 - [The scheduler (scheduling function) dynamically plans the order of completion of tasks 
   according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
@@ -1885,7 +1888,10 @@ Make folk sciences great again :-)
    in a simple and unified way.
 2. Realize the unification of software and hardware on the logical model.
    and the unification of programming technology and system architecture 
-   through the innovative Warehouse Workshop Model.
+   through the innovative "Warehouse/Workshop Model".
+   the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" 
+   and become the first architecture in the computer field, 
+   and it is the first architecture to achieve a unified software and hardware.
 3. Achieve a leap in software production theory 
    from the era of manual workshops 
    to the era of standardized production in large industries.
