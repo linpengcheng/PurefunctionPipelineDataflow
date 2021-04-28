@@ -88,6 +88,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   as the manufacturing industry.](#Warehouse-Workshop-Model)
 
 - [Software and hardware are a unified architecture: "warehouse/workshop model".](#The-unification-with-Computer-Hardware-Architecture)
+  - From a static point of view, it is a star.
+  - From the perspective of dynamic runtime, it is a dynamic tree Gantt chart, like a rushing river system. 
 
 - [The scheduler (scheduling function) dynamically plans the order of completion of tasks 
   according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
@@ -609,9 +611,9 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   
 - Warehouse/Workshop Model
   
-  - From a static point of view, it is a star
+  - From a static point of view, it is a star.
 
-  - From the perspective of dynamic runtime, it is a dynamic tree-shaped Gantt chart, like a rushing river. 
+  - From the perspective of dynamic runtime, it is a dynamic tree Gantt chart, like a rushing river system. 
 
 If you understand that software is a factory that produces data, 
 then you can understand the warehouse/workshop model, 
@@ -841,7 +843,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
   to dynamically plan the execution order of the tasks, 
   and the workshop is called to complete the assigned tasks.
 
-- It's like a river diagram that the sequential rendering 
+- It's like a rushing river system diagram that the sequential rendering 
   of the entire continuously running system. 
   It is also a variant of the Gantt chart. 
   This is Boeing's aircraft pulsating assembly line, 
@@ -862,9 +864,9 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
     so as to ensure the correctness and standard of 
     the input data of each workshop and improve the 
     efficiency and quality of the system.
-  - Tree Gantt chart: Taking the main task (main river, main production and assembly line) as the time axis, 
+  - Dynamic tree Gantt chart: Taking the main task (main river, main production and assembly line) as the time axis, 
     the end point of the branch task is connected to the meeting point with the upper-level task, 
-    then the entire task flow chart (water system diagram) forms a Tree Gantt chart.
+    then the entire task flow chart (a rushing river system diagram) forms a dynamic tree Gantt chart.
   - Complex data structure: It is a very simple that data structure is manipulated 
     by the method of manufacturing an airplane. Divide the data, manipulate the data from bottom to top, 
     combine layer by layer, and finally complete the task. After all, 
@@ -1382,12 +1384,14 @@ Anyone can build a fast CPU. The trick is to build a fast system."
        ---- Seymour Cray, the father of supercomputing
 ```
 
-Note: 2021-04-24, HPE Cray Supercomputer likes it at twitter. It means:
+Note: 2021-04-24 and 2021-04-27, HPE Cray Supercomputer likes it at twitter. It means:
 After the Apple M1 chip adopts it, it will continue to enter the field of supercomputers.
 My fast system is `The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model`.
 
 <table><tr>
 <td><img src="./doc/HPE-Cray-Like.png" width = 80%></td>
+<td><img src="./doc/HPE-Cray-like2.png" width = 80%></td>
+<td><img src="./doc/HPE-Cray-post2.png" width = 80%></td>
 <td><img src="./doc/HPE-Cray-twitter.png" width = 80%></td>
 </tr></table>  
 
