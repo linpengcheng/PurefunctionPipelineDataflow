@@ -53,6 +53,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - [Disadvantages of FP and OO](#Disadvantages-of-FP-and-OO)
   - [The difference between it, Data-oriented, Data-driven](#The-difference-between-it-Data-oriented-Data-driven)
   - [The difference between it and Microsoft Azure DataFactory/DataPipelines Architecture](#The-difference-between-it-and-Microsoft-Azure-DataFactory-DataPipelines-Architecture)
+  - [The difference between it and Flow-based programming (FBP)](#The-difference-between-it-and-Flow-based-programming)
   - [The difference between it and middleware](#The-difference-between-it-and-middleware)
   - [The difference between it and Rx](#The-difference-between-it-and-Rx)
   - [The difference between it and traditional unix-like pipe operator in FP language](#The-difference-between-it-and-traditional-unix-like-pipe-operator-in-FP-language)
@@ -1654,6 +1655,37 @@ See also: [The difference between Dataflow, Data-oriented, Data-driven](./doc/Da
 ### The difference between it and Microsoft Azure DataFactory-DataPipelines Architecture
 
 See also: [The difference between Warehouse/Workshop Model and Microsoft Azure DataFactory/DataPipelines Architecture](./doc/diff_WWModel_AzureDataFactoryPipe.md)
+
+### The difference between it and Flow-based programming
+
+- [Flow-based programming (FBP)](https://www.wikiwand.com/en/Flow-based_programming)
+
+  - FBP is based on a network model,
+    The logic chain is long and chaotic.
+    
+  - FBP pursues diagram programming,
+    Programming efficiency is low, 
+    a very niche programming method.
+    
+  - FBP is very complicated. 
+  
+- The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
+  
+  - It simulates integrated circuit method.
+  
+  - It simulates manufacturing industry
+    - management thinking.
+    - Warehouse/Workshop Model, 
+      It is a star in static state, 
+      and a river system (dynamic tree Gantt chart) in dynamic state.
+      
+  - Only 5 basic flow components
+  
+  - Strict adherence to 10 system architecture design principles
+    
+  - It's simpler and more reliable.
+  
+- See also: [The difference between Warehouse/Workshop Model and Microsoft Azure DataFactory/DataPipelines Architecture](./doc/diff_WWModel_AzureDataFactoryPipe.md)
 
 ### The difference between it and middleware
 
