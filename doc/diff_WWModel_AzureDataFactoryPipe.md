@@ -2,6 +2,17 @@
 
 Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
 
+<table>
+<tr>
+<td>Microsoft Azure DataFactory/DataPipelines Architecture</td>
+<td>Warehouse/Workshop Model</td>
+</tr>
+<tr>
+<td><img src=./image/MsAzureDataFactoryPipe.jpg width="80%"></td>
+<td><img src=./Microservice_Architecture.png width="80%"></td>
+</tr>
+</table>
+
 ## Difference
 
 ### Workshop vs DataPipeline
