@@ -8,7 +8,7 @@ Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
 <td>Warehouse/Workshop Model</td>
 </tr>
 <tr>
-<td><img src=./image/MsAzureDataFactoryPipe.jpg width="80%"></td>
+<td width="40%"><img src=./image/MsAzureDataFactoryPipe.jpg></td>
 <td><img src=./Microservice_Architecture.png></td>
 </tr>
 </table>
