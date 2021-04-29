@@ -2,6 +2,17 @@
 
 版权所有 © 2021-04-27 林鹏程， 保留所有权利。
 
+<table>
+<tr>
+<td>Microsoft Azure DataFactory/DataPipelines Architecture</td>
+<td>Warehouse/Workshop Model</td>
+</tr>
+<tr>
+<td width="40%"><img src=./image/MsAzureDataFactoryPipe.jpg></td>
+<td><img src=./Microservice_Architecture.png></td>
+</tr>
+</table>
+
 ## 发表这篇文章的起因
 
 在2021-04-24, 我在reddit的clojure论坛发了一个贴子
