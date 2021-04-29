@@ -1665,7 +1665,7 @@ See also: [The difference between Warehouse/Workshop Model and Microsoft Azure D
     
   - FBP pursues diagram programming,
     Programming efficiency is low, 
-    a very niche programming method.
+    Practicality is poor, very few people use it.
     
   - FBP is very complicated. 
   
