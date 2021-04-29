@@ -40,6 +40,11 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `AOP`](#The-unification-with-AOP)
     - [The unification with `Event-driven Architecture`](#The-unification-with-Event-driven-Architecture)
     - [The unification with `Computer Hardware Architecture`](#The-unification-with-Computer-Hardware-Architecture)
+      - [Intro](#Intro)
+      - [The out-of-order execution technology of modern CPUs is a mistake on February 16, 2021](#The-out-of-order-execution-technology-of-modern-CPUs-is-a-mistake-on-February-16-2021)
+      - [Follower Case Apple M1 chip](#Follower-Case-Apple-M1-chip)
+      - [Forecast on 2021-01-19](#Forecast-on-2021-01-19)
+      - [HPE Cray Supercomputer likes it at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
     - [The unification with `Integrated Circuit System`](#The-unification-with-Integrated-Circuit-System)    
     - [The unification with `Programming Language Platform`](#The-unification-with-Programming-Language-Platform)    
     - [The unification with `Clojure Web Application Model`](#The-unification-with-Clojure-Web-Application-Model)    
@@ -578,6 +583,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 <h2 id="Warehouse-Workshop-Model">Warehouse/Workshop Model</h2>
 
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
+
+![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
 ### Overview of the model
 
@@ -1193,7 +1200,7 @@ Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronou
 
 - Workshop: Intelligent-thread,  Microservice
 
-![Microservice Architecture](./doc/Microservice_Architecture.png) 
+![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
 #### The unification with Information System Integration Model
 
@@ -1282,6 +1289,10 @@ the input sewage is treated separately.
    - Clojure's `watch` function     
   
 #### The unification with Computer Hardware Architecture
+
+##### Intro
+
+![Computer Hardware Architecture](./doc/Computer_Hardware_Architecture.png) 
   
 Computer hardware is also a factory that produces data, 
 so it can also apply the "warehouse/workshop model",
@@ -1297,7 +1308,9 @@ such as hardware, software, Internet, and Internet of Things.
   such as PCI, SATA, USB, etc.
 - External standardized data: hard disk, flash drive, etc.
   
-- The out-of-order execution technology of modern CPUs is a mistake (February 16, 2021)
+##### The out-of-order execution technology of modern CPUs is a mistake on February 16 2021
+
+  The out-of-order execution technology of modern CPUs is a mistake (February 16, 2021)
   
   Out-of-order execution is a product of 
   wrong programming methodology, 
@@ -1312,7 +1325,7 @@ such as hardware, software, Internet, and Internet of Things.
   without conflict and competition, 
   and runs in the optimal order and efficiency.
 
-- Follower Case
+##### Follower Case Apple M1 chip
   
   My computer hardware architecture design was published on February 06, 2019. 
   One or two years later, the Apple M1 chip adopted the "warehouse/workshop model" design 
@@ -1347,7 +1360,9 @@ such as hardware, software, Internet, and Internet of Things.
       after all, it is only the first generation of works, 
       released in stages.
 
-- Forecast(2021-01-19): I think Intel, AMD, ARM, supercomputer, etc. will adopt the "warehouse/workshop model"
+##### Forecast on 2021-01-19
+
+  Forecast(2021-01-19): I think Intel, AMD, ARM, supercomputer, etc. will adopt the "warehouse/workshop model"
 
   In the past, the performance of the CPU played a decisive 
   role in the performance of the computer. There were few 
@@ -1382,6 +1397,8 @@ such as hardware, software, Internet, and Internet of Things.
 Finally, the "warehouse/workshop model" will surely replace the "von Neumann architecture" 
 and become the first architecture in the computer field, 
 and it is the first architecture to achieve a unified software and hardware.
+
+##### HPE Cray Supercomputer likes it at twitter in 2021-04
 
 ```
 Anyone can build a fast CPU. The trick is to build a fast system." 
