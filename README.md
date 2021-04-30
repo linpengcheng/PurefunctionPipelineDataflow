@@ -1506,14 +1506,20 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
 #### The unification with classic AI and modern AI technology
 
 - Warehouse
-  - Rule base: classic AI, expert system, logic programming
+  - Rule base: for classic AI, expert system, logic programming
     - statute law, like signature scanning technology of antivirus software, identify known patterns, more accurate
-  - Big data: data for modern AI(machine learning)
+  - Big data: for modern AI(machine learning)
   
 - Workshop
   - Problem solving: classic AI, expert system, logic programming
   - Machine learning: Dynamically generate rules to the rule base.
     - case law, like behavior recognition techniques of antivirus software, identifying unknown patterns, more uncertainties
+
+- Because
+  - In modern legal society, statutory law occupies an absolute dominant position.
+  - In anti-virus software, signature recognition technology is simple, efficient, reliable, and accurate, and it is dominant.
+- So
+  - AI must also do the same to achieve optimal results.
     
 - Extended case: robots and transformers
   
