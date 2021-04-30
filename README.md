@@ -4,7 +4,7 @@
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
-[It's a `Arctic Code Vault Repository` in the `2020 GitHub Archive Program`.](https://archiveprogram.github.com/)
+It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](https://archiveprogram.github.com/)
 
 ## Table of Contents
 - [Key innovative ideas](#Key-innovative-ideas)
