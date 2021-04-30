@@ -118,6 +118,8 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 
 - [5 Aesthetics: In the IT field, only it and binary system fully comply with these 5 aesthetics.](#Programming-Aesthetics)
 
+- [The unification with `classic AI, modern AI, and explainable AI technology`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
+
 - [Basic quality control: Like the manufacturing industry, Non-IT professionals can also perform basic quality control.](#Basic-quality-control)
   
 ## My and Other Peoples Related Views
