@@ -4,6 +4,8 @@
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
+[It's a `Arctic Code Vault Repository` in the `2020 GitHub Archive Program`.](https://archiveprogram.github.com/)
+
 ## Table of Contents
 - [Key innovative ideas](#Key-innovative-ideas)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
@@ -42,7 +44,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
     - [The unification with `Computer Hardware Architecture`](#The-unification-with-Computer-Hardware-Architecture)
       - [Intro](#Intro)
       - [The out-of-order execution technology of modern CPUs is a mistake on February 16, 2021](#The-out-of-order-execution-technology-of-modern-CPUs-is-a-mistake-on-February-16-2021)
-      - [Follower Case Apple M1 chip](#Follower-Case-Apple-M1-chip)
+      - [Follower Case: Apple M1 chip](#Follower-Case-Apple-M1-chip)
       - [Forecast on 2021-01-19](#Forecast-on-2021-01-19)
       - [HPE Cray Supercomputer likes it at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
     - [The unification with `Integrated Circuit System`](#The-unification-with-Integrated-Circuit-System)    
@@ -99,6 +101,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
   - the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" 
     and become the first architecture in the computer field, 
     and it is the first architecture to achieve a unified software and hardware.
+    - [Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
+    - [HPE Cray Supercomputer likes it twice at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
 
 - [The scheduler (scheduling function) dynamically plans the order of completion of tasks 
   according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
@@ -1503,12 +1507,14 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
 
 - Warehouse
   - Rule base: classic AI, expert system, logic programming
-    - statute law, identify known patterns, more accurate
-  - Big data: modern AI, machine learning
+    - statute law, like signature scanning technology of antivirus software, identify known patterns, more accurate
+  - Big data: data for modern AI(machine learning)
+  
 - Workshop
   - Problem solving: classic AI, expert system, logic programming
-  - Machine learning: dynamic rule base to generate new rules.
-    - case law, identifying unknown patterns, more uncertainties
+  - Machine learning: Dynamically generate rules to the rule base.
+    - case law, like behavior recognition techniques of antivirus software, identifying unknown patterns, more uncertainties
+    
 - Extended case: robots and transformers
   
   - Advantage
