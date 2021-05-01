@@ -7,7 +7,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](https://archiveprogram.github.com/)
 
 ## Table of Contents
-- [Key innovative ideas](#Key-innovative-ideas)
+- [Key innovative ideas (for TL;DR)](#Key-innovative-ideas)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
 - [5 basic pure function pipeline data flow components](#Five-basic-pure-function-pipeline-data-flow-components)
