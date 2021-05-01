@@ -52,6 +52,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [The unification with `Clojure Web Application Model`](#The-unification-with-Clojure-Web-Application-Model)    
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)
     - [The unification with `classic AI, modern AI, and explainable AI technology`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
+      - [Explainable AI System on 2021-04-30](#Explainable-AI-System)
     - [The unification with `energy system`](#The-unification-with-energy-system)
     - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
@@ -1516,6 +1517,10 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
   - Problem solving: classic AI, expert system, logic programming
   - Machine learning: Dynamically generate rules to the rule base.
     - Case law, like behavior recognition techniques of antivirus software, identifying unknown patterns, more uncertainties
+
+#### Explainable AI System 
+
+Concise and complete method for AI application warehouse/workshop model (2021-04-30).
 
 - Because
   - In modern legal society, statute law occupies an absolute dominant position.
