@@ -1521,7 +1521,7 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
 
 ##### Explainable AI System 
 
-Concise and complete method for AI application warehouse/workshop model (2021-04-30).
+2021-04-30, It is described succinctly and completely that the method of AI application warehouse/workshop model written many years ago:
 
 - Because
   - In modern legal society, statute law occupies an absolute dominant position.
