@@ -53,6 +53,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)
     - [The unification with `classic AI, modern AI, and explainable AI technology`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
       - [Explainable AI System on 2021-04-30](#Explainable-AI-System)
+      - [Robots and transformers](#Robots-and-transformers)
     - [The unification with `energy system`](#The-unification-with-energy-system)
     - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
@@ -1518,7 +1519,7 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
   - Machine learning: Dynamically generate rules to the rule base.
     - Case law, like behavior recognition techniques of antivirus software, identifying unknown patterns, more uncertainties
 
-#### Explainable AI System 
+##### Explainable AI System 
 
 Concise and complete method for AI application warehouse/workshop model (2021-04-30).
 
@@ -1544,7 +1545,9 @@ Concise and complete method for AI application warehouse/workshop model (2021-04
       and whether to adopt dynamic rules (case law).
     - In short, if you want an AI system to be a reasonable, responsible and explainable AI system, 
       you must take up the weapon of law.
-    
+
+##### Robots and transformers
+
 - Extended case: robots and transformers
   
   - Advantage
