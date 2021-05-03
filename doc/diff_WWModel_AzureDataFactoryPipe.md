@@ -9,7 +9,7 @@ Copyright © 2021-04-27 Lin Pengcheng. All rights reserved.
 </tr>
 <tr>
 <td width="40%"><img src=./image/MsAzureDataFactoryPipe.jpg></td>
-<td><img src=./Microservice_Architecture.png></td>
+<td><img src=./Microservice_Architecture-v1r1.png></td>
 </tr>
 </table>
 
