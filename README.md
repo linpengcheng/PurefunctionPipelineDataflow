@@ -1951,9 +1951,9 @@ Therefore, it solves the problem of Fred Brooks.
   (or developed manually by developers).
 - Furthermore, it is integrated and automated that the design and development of software and hardware.(HSDDA).
 
-### See also: [Computer Hardware Architecture, Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
+### [Computer Hardware Architecture, Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
 
-### See also: [Explainable AI System use the law model and the Warehouse/Workshop Model](#Explainable-AI-System)
+### [Explainable AI System use the law model and the Warehouse/Workshop Model](#Explainable-AI-System)
 
 ## Great Historical Significance
 
