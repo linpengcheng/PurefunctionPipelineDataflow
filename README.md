@@ -81,6 +81,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [The easiest way to learn](#The-easiest-way-to-learn)
   - [Principles-based are better than rules-based](#Principles-based-are-better-than-rules-based)
   - [Eating your own dog food](#Eating-your-own-dog-food)
+  - [Computer science is essentially a management science, and vice versa.](#Computer-science-is-management-science)
   - [Clojure officially advocates pipeline programming in 2021](#Clojure-officially-advocates-pipeline-programming-in-2021)
   - [End message](#End-message)
 - Appendix:
@@ -2217,6 +2218,21 @@ This theory consists of the following five parts:
 Each component of this theory is perfectly applied and 
 demonstrated other components, which shows that this 
 theory is a practical, complete and systematic theoretical system.
+
+<h3 id="Computer-science-is-management-science">Computer science is essentially a management science, and vice versa.</h3> 
+
+```
+Computer science is essentially a management science, and vice versa.
+    ---- Lin Pengcheng
+         Creator of Computer Science Management School
+         Creator of Management Science Computer School
+```         
+
+In the field of computer science, I applied technologies such as management principles, warehouse/workshop model, and large-scale industrial standardization assembly lines to the fields of computer software, hardware, and AI, and realized the unification of computer theory.
+
+In the field of management science, my discussion of management principles and warehouse/workshop model is the most scientific, systematic, simple, reliable, clear, and operable.
+
+Whether it is an IT practitioner who takes up a management position, or a manager who becomes an IT industry executive, they can use my theory as a basis. I am truly of immense merit!
 
 ### Clojure officially advocates pipeline programming in 2021
 
