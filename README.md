@@ -779,6 +779,8 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
     - Make the task division reach the maximum granularity 
       under the premise of ensuring independence, and 
       ensure the continuity and efficiency of task execution.
+    - Communication, coordination and conflict management have great damage to performance, 
+      and it can minimize these damages.
     - Improve the efficiency of parallel, concurrency, 
       distributed, asynchronous, etc.
     - Unified the architecture of parallel, concurrent, 
