@@ -780,7 +780,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
       under the premise of ensuring independence, and 
       ensure the continuity and efficiency of task execution.
     - Communication, coordination and conflict management have great damage to performance, 
-      and it can minimize these damages.
+      and it can reduce these damages to a minimum through unified scheduling and Empowerment ("Fire-and-Forget").
     - Improve the efficiency of parallel, concurrency, 
       distributed, asynchronous, etc.
     - Unified the architecture of parallel, concurrent, 
