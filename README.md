@@ -915,6 +915,11 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 - All data are produced and organized according to 
   standard specifications.
   
+- Refer to the standard system of the manufacturing industry, 
+  and take the data interface standard system as the type system. 
+  The acceptance check is performed and centrally managed by the warehouse, 
+  and the system logic will be simple, short and reliable.
+  
 - It can reduce unnecessary data verification, cleaning, 
   conversion, and abnormal processing during execution, 
   and keep the logic of the workshop simple and efficient.
