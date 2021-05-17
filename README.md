@@ -781,7 +781,8 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
       under the premise of ensuring independence, and 
       ensure the continuity and efficiency of task execution.
     - Communication, coordination and conflict management have great damage to performance, 
-      and it can reduce these damages to a minimum through unified scheduling and Empowerment ("Fire-and-Forget").
+      and it can reduce these damages to a minimum through 
+      division of tasks, unified scheduling and empowerment ("Fire-and-Forget").
     - Improve the efficiency of parallel, concurrency, 
       distributed, asynchronous, etc.
     - Unified the architecture of parallel, concurrent, 
@@ -2232,7 +2233,7 @@ In the field of computer science, I applied technologies such as management prin
 
 In the field of management science, my discussion of management principles and warehouse/workshop model is the most scientific, systematic, simple, reliable, clear, and operable.
 
-Whether it is an IT practitioner who takes up a management position, or a manager who becomes an IT industry executive, they can use my theory as a basis. I am truly of immense merit!
+Whether it is an IT practitioner who takes up a management position, or a manager who becomes an IT industry executive, they can use my theory as a bridge to another kind of science.
 
 ### Clojure officially advocates pipeline programming in 2021
 
