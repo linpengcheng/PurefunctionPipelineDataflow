@@ -473,7 +473,11 @@ HTML Table:
 
 ### 代码范例 03
 
-另见: [在hash-map(NoSQL)的基础上实现关系式数据模型和编程](./doc/relational_model_on_hashmap.md)
+另见: 
+
+- [在hash-map(NoSQL)的基础上实现关系式数据模型和编程](./doc/relational_model_on_hashmap.md)
+- [Babashka脚本: Notepad++带预览窗口的Markdown文学编程（不破坏任何编程语言的语法）](https://github.com/linpengcheng/ClojureBoxNpp/blob/master/Notepad++/tools/clj/mlp.clj)
+- [Babashka脚本: Notepad++带预览窗口编辑Clojure hiccup (HTML DSL)](https://github.com/linpengcheng/ClojureBoxNpp/blob/master/Notepad%2B%2B/tools/clj/hiccup2html.clj)
 
 ## 经典模型
 
