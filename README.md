@@ -508,7 +508,10 @@ HTML Table:
 
 ### Code example 03
 
-See also: [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
+See also: 
+- [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
+- [Babashka Script: Notepad++ Markdown Literary Programming with live preview for Clojure that don't break the syntax of any programming language](https://github.com/linpengcheng/ClojureBoxNpp/blob/master/Notepad++/tools/clj/mlp.clj)
+- [Babashka Script: Notepad++ Edit Clojure hiccup (HTML DSL) with live preview](https://github.com/linpengcheng/ClojureBoxNpp/blob/master/Notepad%2B%2B/tools/clj/hiccup2html.clj)
 
 ## Classical Model
 
