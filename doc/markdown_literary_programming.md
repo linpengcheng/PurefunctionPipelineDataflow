@@ -124,7 +124,13 @@ programming Widely used as possible.
   
 ## NotepadPlusPlus Solutions
 
-### patch for Notepad++ literary programming
+### Notepad++ markdown literary programming v3.0 (clojure, live Preview)
+
+- github repo: [ClojureBoxNpp](https://github.com/linpengcheng/ClojureBoxNpp)
+
+- [patch 3.0 (Clojure edition) 7z file](./NppMarkdownLiteraryProgramming_v3_clojure_live_preview.7z)
+
+### Notepad++ markdown literary programming v2.0 (pythonscript, semi-live Preview)
 
 [patch 2.0 (PythonScript edition) file](./NppMarkdownLiteraryProgramming_v2_pythonscript.7z)
 
