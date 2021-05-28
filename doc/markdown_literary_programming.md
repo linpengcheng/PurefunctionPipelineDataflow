@@ -1,4 +1,4 @@
-# Markdown Literary programming that don't break the syntax of any programming language
+# Markdown Literate programming that don't break the syntax of any programming language
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -6,7 +6,7 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Comment Area Markup Method](#Comment-Area-Markup-Method)
 - [Live Preview Panel of editor do the following work](#Live-Preview-Panel-of-editor-do-the-following-work)
 - [Advantages](#Advantages)
-- [Disadvantages of traditional literary programming](#Disadvantages-of-traditional-literary-programming)
+- [Disadvantages of traditional literate programming](#Disadvantages-of-traditional-literary-programming)
 - [Notepad++ Solutions](#NotepadPlusPlus-Solutions)
 - [Example](#Example)
 - [Live Preview Effects](#Live-Preview-Effects)
@@ -95,15 +95,15 @@ Editing literary code has a live preview panel like most markdown editors.
   and gray comment area can reduce the amount of information in the source code file, 
   conducive to reading code.
   
-## Disadvantages of traditional literary programming
+## Disadvantages of traditional literate programming
 
-- because traditional literary programming users 
+- because traditional literate programming users 
   are mainly technical writers, speakers, 
   technical document Maintainers, 
   Style is the document priority, greatly increase 
   the amount of information in the code, 
   interfere with the code reading,
-  especially for non-literary programming programmers 
+  especially for non-literate programming programmers 
   are unfriendly, or even unreadable, 
   so there are very few applications in the field of programming.
   
@@ -119,18 +119,18 @@ Therefore, the method described in this paper,
 in addition to the document-first genre of 
 traditional literary programming, 
 has innovated a new genre ---- code-first genre, 
-so that literary programming in the field of 
+so that literate programming in the field of 
 programming Widely used as possible.
   
 ## NotepadPlusPlus Solutions
 
-### Notepad++ markdown literary programming v3.0 (clojure, live Preview)
+### Notepad++ markdown literate programming v3.0 (clojure, live Preview)
 
 - github repo: [ClojureBoxNpp](https://github.com/linpengcheng/ClojureBoxNpp)
 
 - [patch 3.0 (Clojure edition) 7z file](./NppMarkdownLiteraryProgramming_v3_clojure_live_preview.7z)
 
-### Notepad++ markdown literary programming v2.0 (pythonscript, semi-live Preview)
+### Notepad++ markdown literate programming v2.0 (pythonscript, semi-live Preview)
 
 [patch 2.0 (PythonScript edition) file](./NppMarkdownLiteraryProgramming_v2_pythonscript.7z)
 
@@ -247,7 +247,7 @@ the path starts with the root path, for example:
 
 ```clojure
 
-;### Markdown literary programming Example
+;### Markdown literate programming Example
 
 ;#### example01: Code with syntax highlighting.
 
