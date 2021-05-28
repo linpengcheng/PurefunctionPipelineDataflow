@@ -89,7 +89,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
   - [Everything is RMDB.](doc/Everything_is_RMDB.md)
   - [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
-  - [Markdown Literary Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
+  - [Markdown Literate Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
   - [Other Articles Table of Contents](#Other-Articles-Table-of-Contents)
 
 ----
