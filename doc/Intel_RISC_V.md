@@ -5,13 +5,13 @@ Copyright © 2021.06.14 Lin Pengcheng. All rights reserved.
 Prediction: Intel will use RISC-V plus x86 compatibility layer to develop a new generation of "warehouse/workshop model" CPU. 
 It will not only reverse the competitive situation with Apple M1, but also open up the market for IoT CPUs.
 
-Intel has been in a lot of trouble recently. Previously, Apple adopted the M1 chip of my warehouse/workshop model, 
+Intel has been in a lot of trouble recently. There is an Apple M1 chip using my warehouse/workshop model on the front, 
 which not only greatly beats Intel’s CPU in performance, but also maintains a greater energy-saving advantage. 
 In addition, as I said in the blog post, M1 also There is a lot of space for optimization. 
 The new M2 is said to be coming out soon, and AMD is catching up. Intel is in a hurry to change its CEO.
 
 Intel’s original technology accumulation and development route can be said to be useless. 
-If it is useful, it has been put into the market long ago, and now it can only be updated in a big way.
+If it is useful, it has been put into the market long ago, and now it can only be completely updated..
 
 Now the only architecture that fully surpasses the "von Neumann architecture" is my "warehouse/workshop model". 
 I think Intel has no choice but to "warehouse/workshop model".
