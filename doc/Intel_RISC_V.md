@@ -1,6 +1,6 @@
 # Prediction: Intel will use RISC-V plus x86 compatibility layer to develop a new generation of "warehouse/workshop model" CPU
 
-Copyright © 2021.06.24 Lin Pengcheng. All rights reserved.
+Copyright © 2021.06.14 Lin Pengcheng. All rights reserved.
 
 Prediction: Intel will use RISC-V plus x86 compatibility layer to develop a new generation of "warehouse/workshop model" CPU. 
 It will not only reverse the competitive situation with Apple M1, but also open up the market for IoT CPUs.
@@ -24,7 +24,7 @@ Reference: [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](h
 
 # 预测Intel将用RISC-V加x86兼容层开发新一代"仓库/车间模型"的CPU
 
-版权所有 © 2021.06.24 林鹏程， 保留所有权利。
+版权所有 © 2021.06.14 林鹏程， 保留所有权利。
 
 Intel应该是准备以RISC-V为核心，加x86兼容层，对标Apple M1开发新一代"仓库/车间模型"的CPU，同时还能开拓占领物联网CPU的市场。
 
