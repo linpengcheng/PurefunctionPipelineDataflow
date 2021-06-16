@@ -53,7 +53,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)
     - [The unification with `classic AI, modern AI, and explainable AI technology`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
       - [Explainable AI System on 2021-04-30](#Explainable-AI-System)
-      - [Robots and transformers](#Robots-and-transformers)
+      - [Robots and transformers on 2021-02-02](#Robots-and-transformers)
     - [The unification with `energy system`](#The-unification-with-energy-system)
     - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
@@ -73,6 +73,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Software Design and Develop Automation (SDDA)](#Software-Design-and-Develop-Automation)
   - [Computer Hardware Architecture, Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
   - [Explainable AI System use the law model and the Warehouse/Workshop Model](#Explainable-AI-System)
+  - [Robots and transformers on 2021-02-02](#Robots-and-transformers)
 - [Great Historical Significance](#Great-Historical-Significance)
 - [Postscript](#Postscript)
   - [Imagination](#Imagination)
@@ -1565,7 +1566,7 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
 
 ##### Robots and transformers
 
-- Extended case: robots and transformers
+- Extended case: robots and transformers on 2021-02-02
   
   - Advantage
     - Speed up the robot's response time
@@ -1969,6 +1970,8 @@ Therefore, it solves the problem of Fred Brooks.
 ### [Computer Hardware Architecture, Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
 
 ### [Explainable AI System use the law model and the Warehouse/Workshop Model](#Explainable-AI-System)
+
+### [Robots and transformers on 2021-02-02](#Robots-and-transformers)
 
 ## Great Historical Significance
 
