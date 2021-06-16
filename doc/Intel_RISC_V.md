@@ -5,6 +5,10 @@ Copyright © 2021.06.14 Lin Pengcheng. All rights reserved.
 Prediction: Intel will use RISC-V plus x86 compatibility layer to develop a new generation of "warehouse/workshop model" CPU. 
 It will not only reverse the competitive situation with Apple M1, but also open up the market for IoT CPUs.
 
+If developing the x86 compatibility layer is too troublesome, there is a quick solution, 
+because my "warehouse/workshop model" naturally supports heterogeneous computing and can 
+provide 1 or 2 x86 cores in the CPU to execute x86 instructions specifically to provide compatibility.
+
 Intel has been in a lot of trouble recently. There is an Apple M1 chip using my warehouse/workshop model on the front, 
 which not only greatly beats Intel’s CPU in performance, but also maintains a greater energy-saving advantage. 
 In addition, as I said in the blog post, M1 also There is a lot of space for optimization. 
@@ -34,6 +38,8 @@ Reference: [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](h
 版权所有 © 2021.06.14 林鹏程， 保留所有权利。
 
 Intel应该是准备以RISC-V为核心，加x86兼容层，对标Apple M1开发新一代"仓库/车间模型"的CPU，同时还能开拓占领物联网CPU的市场。
+
+如果开发x86兼容层太麻烦，有一个快速解决方案，因为我的“仓库/车间模型”对天然支持异构计算，可以在CPU内提供1~2个x86核心专门执行x86指令，提供兼容能力。
 
 Intel最近麻烦挺大，前有Apple采用我的仓库/车间模型的M1芯片，不仅在性能大胜Intel的CPU,而且还保持更大的节能优势，
 另外，我以前在博文上讲过，M1还有很大的优化空间，新的M2据说也快出来了，后有AMD赶超，可谓前有虎后有狼，Intel都急得临阵换帅（CEO）了。
