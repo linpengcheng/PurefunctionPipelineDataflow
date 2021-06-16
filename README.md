@@ -1319,11 +1319,12 @@ the input sewage is treated separately.
 Computer hardware is also a factory that produces data, 
 so it can also apply the "warehouse/workshop model",
 The model uses memory as the core, not the CPU.
-Finally, we can achieve the grand unification of all IT fields 
+Finally, we can naturally support heterogeneous computing, 
+and achieve the grand unification of all IT fields 
 such as hardware, software, Internet, and Internet of Things.
   
 - Warehouse: Memory
-- Workshop: CPU, graphics card, sound card, etc.
+- Workshop: heterogeneous computing, CPU, GPU (graphics card), sound card, etc.
 - Standardized data: data transmitted between hardware 
   that conforms to industry standard interfaces
 - Acceptance: Motherboard with standardized interfaces
@@ -1374,7 +1375,7 @@ such as hardware, software, Internet, and Internet of Things.
       (materials and products in the warehouse).
     - Apple needs to further improve the programming language, compiler,
       and OS to support and promote my programming methodology.
-    - My architecture supports a wider range of workshop types 
+    - My architecture naturally supports heterogeneous computing, supports a wider range of workshop types 
       than Apple M1, with greater efficiency, scalability and flexibility.
   - Conclusion
     - Apple M1 chip still needs a lot of optimization work, 
@@ -1419,6 +1420,8 @@ such as hardware, software, Internet, and Internet of Things.
 Finally, the "warehouse/workshop model" will surely replace the "von Neumann architecture" 
 and become the first architecture in the computer field, 
 and it is the first architecture to achieve a unified software and hardware.
+
+##### [2021-01-19 Prediction: Intel will use "RISC-V plus x86 compatibility layer" or "RISC-V plus x86 heterogeneous computing architecture" to develop a new generation of "warehouse/workshop model" CPU](./doc/Intel_RISC_V.md)
 
 ##### HPE Cray Supercomputer likes it at twitter in 2021-04
 
