@@ -1422,7 +1422,7 @@ Finally, the "warehouse/workshop model" will surely replace the "von Neumann arc
 and become the first architecture in the computer field, 
 and it is the first architecture to achieve a unified software and hardware.
 
-##### [2021-01-19 Prediction: Intel will use "RISC-V plus x86 compatibility layer" or "RISC-V plus x86 heterogeneous computing architecture" to develop a new generation of "warehouse/workshop model" CPU](./doc/Intel_RISC_V.md)
+##### [2021-06-14 Prediction: Intel will use "RISC-V plus x86 compatibility layer" or "RISC-V plus x86 heterogeneous computing architecture" to develop a new generation of "warehouse/workshop model" CPU](./doc/Intel_RISC_V.md)
 
 ##### HPE Cray Supercomputer likes it at twitter in 2021-04
 
