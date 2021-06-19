@@ -20,6 +20,21 @@ If it is useful, it has been put into the market long ago, and now it can only b
 Now the only architecture that fully surpasses the "von Neumann architecture" is my "warehouse/workshop model". 
 I think Intel has no choice but to "warehouse/workshop model".
 
+If ARM and RISC-V manufacturers join the "warehouse/workshop model" CPU competition, it will pose a serious threat to Intel. 
+I have not seen any news in this regard, but at least one or two major manufacturers should join the competition,
+The market has entered a stage of fierce competition. In addition, Microsoft's support is very important, 
+especially Microsoft and Qualcomm have a close cooperative relationship to jointly develop the "Windows/ARM PC".
+
+The huge x86 stock market will still give Intel a period of funding and buffer space, 
+and the future Internet of Things market will be even broader. 
+About news of "Intel Offers $2 Billion for RISC-V Chip Startup SiFive",
+RISC-V is open source and can be extended proprietary. 
+It is the best choice for Intel with excellent CPU design talents, 
+and it is also the best choice for Intel to strive for market leadership. 
+
+Danger and opportunity coexist. This is the moment that determines the life and death of Intel, 
+just like the phoenix nirvana, or rebirth from ashes, or burned to death.
+
 Intel CEO Pat Gelsinger's recent announcement that the company would begin licensing its own x86 processor designs 
 to other firms as part of its new IDM 2.0 initiative was surprising. 
 In view of Intel's previous licensing policy, I think this is Intel's preparation to abandon x86.
@@ -31,6 +46,7 @@ Reference: [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](h
 
 - 2021-06-14, I published it on Chinese Sina Weibo.
 - 2021-06-15, I published it on github, twitter, reddit/programming.
+- There is a good discussion in reddit r/programming. [Link](https://www.reddit.com/r/programming/comments/o0gxy3/prediction_intel_will_use_riscv_plus_x86/)
 
 
 # 预测: Intel将用“RISC-V加x86兼容层”或“RISC-V加x86异构计算架构”开发新一代"仓库/车间模型"的CPU
@@ -59,7 +75,8 @@ Intel这个牙膏厂，它的原有的技术积累和开发路线可以说是不
 危险与机遇并存，这是决定Intel生死存亡的时刻，如同凤凰涅槃，或浴火重生，或烧成死灰。
 
 Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自己的x86处理器设计许可，作为其新的IDM 2.0计划的一部分。
-鉴于Intel以前的许可政策，我认为这是Intel准备放弃x86. Intel发放的x86处理器设计许可的目标对象很可能是中国公司，我认为x86是一种过时的即将被淘汰的设计，中国公司不应出价太高，避免成为冤大头。
+鉴于Intel以前的许可政策，我认为这是Intel准备放弃x86. Intel发放的x86处理器设计许可的目标对象很可能是中国公司，
+我认为x86是一种过时的即将被淘汰的设计，中国公司不应出价太高，避免成为冤大头。
 
 参考：[Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
 
