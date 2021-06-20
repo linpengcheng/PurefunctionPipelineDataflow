@@ -539,6 +539,8 @@ HTML Table:
 
 ![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
+![Computer-Hardware-Star-WWM](./doc/Computer-Hardware-Star-WWM.svg)
+
 ### 模型的概述
 
 - 仓库是存放数据(状态,数据, 函数也是数据)的容器, 它拥有一个调度器, 以甘特图算法动态规划调度车间完成任务.
@@ -1040,12 +1042,14 @@ ForkJoinPool使用的就是仓库/车间模型，及科学管理的运筹学，�
 
 ![Computer Hardware Architecture](./doc/Computer_Hardware_Architecture.png) 
 
+![Computer-Hardware-Star-WWM](./doc/Computer-Hardware-Star-WWM.svg)
+
 计算机硬件也是一个生产数据的工厂, 因此也可以应用仓库/车间模型,
 模型以内存作为核心，而不是CPU。
 最后,我们可以天然支持异构计算,并实现硬件、软件、互联网、物联网等IT全领域的大统一。
 
 - 仓库：内存
-- 车间：异构计算, CPU, 显卡，声卡等。
+- 车间：异构计算, CPU, 显卡，声卡, DSP, ASIC, FPGA 等。
 - 标准化的数据：在符合工业标准接口的硬件间传输的数据
 - 验收：主板(带有PCI, SATA, USB等标准化接口)
 - 外部的标准化数据：硬盘，闪存盘等
