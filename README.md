@@ -601,6 +601,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
+![Computer-Hardware-Star-WWM](./doc/Computer-Hardware-Star-WWM.svg)
+
 ### Overview of the model
 
 - Warehouse
@@ -1316,6 +1318,8 @@ the input sewage is treated separately.
 ##### Intro
 
 ![Computer Hardware Architecture](./doc/Computer_Hardware_Architecture.png) 
+
+![Computer-Hardware-Star-WWM](./doc/Computer-Hardware-Star-WWM.svg)
   
 Computer hardware is also a factory that produces data, 
 so it can also apply the "warehouse/workshop model",
