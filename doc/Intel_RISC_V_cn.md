@@ -59,7 +59,7 @@ x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
 在不同类处理器之间的任务转移是复杂和困难的，效果也不会太好。
 我认为它远远不如我的仓库/车间模型简单、可靠、灵活、扩展性强，
 以仓库（数据）为中心，数据存取效率高，大致类似我以前发的[微软数据工厂/管道架构和仓库/车间模型的比较](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/diff_WWModel_AzureDataFactoryPipe_cn.md)
-实际上,尽管Apple M1尚未完全实现仓库/车间模型，但Apple M1的表现非常优秀。
+实际上,尽管Apple M1尚未完全实现仓库/车间模型，但它已经是第一名了。
 
 ![AMD fabric 1](./image/AMD_fabric.jpg)
 
