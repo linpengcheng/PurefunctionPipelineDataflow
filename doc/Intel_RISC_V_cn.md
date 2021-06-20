@@ -35,7 +35,7 @@ Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自
 
 ----
 
-附文
+附文: 评：AMD Infinity Fabric 架构
 
 x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
 我2021年6月15日在github的博客发表，隔几天发现这篇AMD专利申请文章了。
