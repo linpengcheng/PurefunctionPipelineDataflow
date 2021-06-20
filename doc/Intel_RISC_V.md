@@ -99,8 +99,7 @@ data access efficiency is high,
 which is roughly similar to the 
 [Comparison of Microsoft Data Factory/Pipeline Architecture and Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/diff_WWModel_AzureDataFactoryPipe.md)
 In fact, although Apple M1 has not yet fully realized 
-the `warehouse/workshop model`, the performance of 
-Apple M1 is very good.
+the `warehouse/workshop model`, the Apple M1 is already No. 1.
 
 ![AMD fabric 1](./image/AMD_fabric.jpg)
 
