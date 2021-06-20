@@ -1329,7 +1329,7 @@ and achieve the grand unification of all IT fields
 such as hardware, software, Internet, and Internet of Things.
   
 - Warehouse: Memory
-- Workshop: heterogeneous computing, CPU, GPU (graphics card), sound card, etc.
+- Workshop: heterogeneous computing, CPU, GPU (graphics card), sound card, DSP,ASIC, FPGA, etc.
 - Standardized data: data transmitted between hardware 
   that conforms to industry standard interfaces
 - Acceptance: Motherboard with standardized interfaces
