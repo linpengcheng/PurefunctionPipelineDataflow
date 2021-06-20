@@ -117,6 +117,6 @@ x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
 
 ![AMD fabric 2](./image/AMD_fabric2.jpg)
 
-![Computer Hardware Architecture.png](./Computer_Hardware_Architecture.png)
+![Computer-Hardware-Star-WWM](./Computer-Hardware-Star-WWM.svg)
 
 
