@@ -83,3 +83,40 @@ Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自
 - 2021-06-14, 首发在新浪微博.
 - 2021-06-15, 发布在 github, twitter, reddit/programming.
 - 在reddit r/programming有一个很好的讨论。[链接](https://www.reddit.com/r/programming/comments/o0gxy3/prediction_intel_will_use_riscv_plus_x86/)
+
+----
+
+附文
+
+x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
+我2021年6月15日在github的博客发表，隔几天发现这篇AMD专利申请文章了。
+由`Joel Hruska`于2021年6月15日写的
+[《AMD Is Working on Its Own Hybrid x86 CPU: Patent Filing》](https://www.extremetech.com/computing/323713-amd-is-working-on-its-own-hybrid-x86-cpu-patent-filing)
+这篇文章的最早评论2021-06-16，这篇是根据以前的旧文章修改的，
+以前的旧文章只是类似于ARM的`big.Little`核，专利的内容是在big核与Little核之间的任务转移方法。
+该文仅在开头和结尾增加一小段`Hybrid x86 CPU`表述，非常突兀和不协调。
+
+
+这篇文章提到了AMD的[“"METHOD OF TASK TRANSITION BETWEEN HETEROGENOUS PROCESSORS"”](https://www.freepatentsonline.com/y2021/0173715.html)
+专利，它的内容是在big核与Little核之间的任务转移方法，
+依据我的“仓库/车间模型”的10原则，AMD的这项专利技术是毫无必要的，
+违反了任务分工原则、有序原则、明确原则。
+
+从文章示意图上看，AMD以Infinity Fabric总线为中心，
+实现CPU-CPU之间的任务转移，未来打算实现GPU-GPU，CPU-GPU之间的任务转移，
+即车间之间的互联，我在制造工业内，还未见到过这种车间任意互联的架构。
+这是个网状结构，非常混乱和复杂，扩展性差，灵活性差，数据利用效率差。
+我认为它在同类处理器之间的任务转移相对容易，
+在不同类处理器之间的任务转移是复杂和困难的，效果也不会太好。
+我认为它远远不如我的仓库/车间模型简单、可靠、灵活、扩展性强，
+以仓库（数据）为中心，数据存取效率高，大致类似我以前发的[微软数据工厂/管道架构和仓库/车间模型的比较](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/diff_WWModel_AzureDataFactoryPipe_cn.md)
+实际上,尽管Apple M1尚未完全实现仓库/车间模型，但Apple M1的表现非常优秀。
+
+
+![AMD fabric 1](./image/AMD_fabric.jpg)
+
+![AMD fabric 2](./image/AMD_fabric2.jpg)
+
+![Computer Hardware Architecture.png](./Computer_Hardware_Architecture.png)
+
+
