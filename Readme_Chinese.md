@@ -1868,3 +1868,5 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [科研、软件工程、中医](doc/SR_SE_TraditionalChineseMedicine.md)
 
+- [评：华为IOT的标准物模型](doc/HW_IOT_cn.md)
+
