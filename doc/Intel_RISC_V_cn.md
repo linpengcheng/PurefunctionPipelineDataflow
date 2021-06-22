@@ -35,7 +35,47 @@ Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自
 
 ----
 
-附文: 评：AMD Infinity Fabric 架构
+# 预测: Intel和Microsoft都在向“仓库/车间模型”过渡(2021-06-22)
+
+从[《测试：Windows 11 提升了 big.LITTLE x86 CPU 的性能》(2021-06-21)](https://os.51cto.com/art/202106/667326.htm)
+这篇文章看，Intel即将推出类似ARM big.LITTLE设计的x86 CPU，
+AMD也有类似计划。
+我认为是这是Intel向Apple M1（ARM）“仓库/车间模型”CPU过渡，
+同时，微软泄露的 Windows 11 也改进调度设计，以支持Intel和AMD。
+
+我认为Intel本来CPU在性能和节能都输给了Apple M1，
+这时再搞大小核，恐怕性能与Apple M1的差距越来越大，
+缩小一点节能差距没有什么大意义，
+再说Apple 都准备推出 M2了。
+只能解释这个新CPU仅是用来先模仿Apple M1的ARM设计，
+再继续演化为“仓库/车间模型”CPU的过渡产品。
+
+在除Apple M1外的其他ARM和RISC-V的仓库/车间模型CPU出现前,
+MS与Intel和AMD一荣俱荣一损俱损，只能死撑，
+在 Windows 11 中继续给予支持，
+反正“仓库/车间模型”也是早晚要支持的，
+顺手为，也不费事。
+
+如果Intel、AMD和其它ARM和RISC-V生产商不生产“仓库/车间模型”CPU，
+MS就算学Apple自己上阵开发CPU，也不可能跑去跪求Apple让M1运行Windows,
+就算去了Apple也不答应. 最终导致windows失败。
+
+当可运行Windows的ARM和RISC-V的“仓库/车间模型”CPU出现后，
+微软就随时可以甩开Intel和AMD，
+因为Apple用M1仿真运行以前的x86应用也非常好，
+证明了从x86移到“仓库/车间模型”CPU很容易。
+以前MS Windows运行在x86主要是因为x86比其他CPU性能好，
+高通这个ARM生产商不给力，合作多年，Windows on ARM 一直表现不佳。
+但现在这个障碍不存在了，而且x86明显过时了，
+Intel硬生生地在一个RISC内核上再加一层x86马甲完全是画蛇添足，
+该淘汰时就淘汰，留来留去留成绞索带。
+
+intel都准备开放x86许可，以前可是严封死守的，
+看来是真的是放弃了，准备回收点残余价值。
+
+----
+
+# 评：AMD Infinity Fabric 架构
 
 x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
 我2021年6月15日在github的博客发表，隔几天发现这篇AMD专利申请文章了。
