@@ -110,7 +110,16 @@ Intel oneAPI号称为“一个跨行业、开放、基于标准的统一编程�
 
 - [(2021-4-12) The evolution of XPU and the critical role of software](https://medium.com/intel-tech/the-evolution-of-xpu-and-the-critical-role-of-software-c46970dfcbe9)
 
-![Intel XPU oneAPI](./image/Intel_XPU_oneAPI.png)
+<table>
+<tr>
+<td>Microsoft Azure DataFactory/DataPipelines Architecture</td>
+<td>Warehouse/Workshop Model</td>
+</tr>
+<tr>
+<td><img src=./image/Intel_XPU_oneAPI.png></td>
+<td><img src=./Computer-Hardware-Star-WWM.svg></td>
+</tr>
+</table>
 
 ----
 
@@ -140,9 +149,14 @@ x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
 以仓库（数据）为中心，数据存取效率高，大致类似我以前发的[微软数据工厂/管道架构和仓库/车间模型的比较](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/diff_WWModel_AzureDataFactoryPipe_cn.md)
 实际上,尽管Apple M1尚未完全实现仓库/车间模型，但它已经是第一名了。
 
-![AMD fabric 1](./image/AMD_fabric.jpg)
-
-![AMD fabric 2](./image/AMD_fabric2.jpg)
-
-![Computer-Hardware-Star-WWM](./Computer-Hardware-Star-WWM.svg)
-
+<table>
+<tr>
+<td>Microsoft Azure DataFactory/DataPipelines Architecture</td>
+<td>Warehouse/Workshop Model</td>
+</tr>
+<tr>
+<td><img src=./image/AMD_fabric.jpg></td>
+<td><img src=./image/AMD_fabric2.jpg></td>  
+<td><img src=./Computer-Hardware-Star-WWM.svg></td>
+</tr>
+</table>
