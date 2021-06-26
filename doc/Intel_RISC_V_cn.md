@@ -112,11 +112,11 @@ Intel oneAPI号称为“一个跨行业、开放、基于标准的统一编程�
 
 <table>
 <tr>
-<td>Microsoft Azure DataFactory/DataPipelines Architecture</td>
+<td width="40%">Intel XPU and oneAPI</td>
 <td>Warehouse/Workshop Model</td>
 </tr>
 <tr>
-<td><img src=./image/Intel_XPU_oneAPI.png></td>
+<td width="40%"><img src=./image/Intel_XPU_oneAPI.png></td>
 <td><img src=./Computer-Hardware-Star-WWM.svg></td>
 </tr>
 </table>
@@ -151,7 +151,8 @@ x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
 
 <table>
 <tr>
-<td>Microsoft Azure DataFactory/DataPipelines Architecture</td>
+<td>AMD fabric 1</td>
+<td>AMD fabric 2</td>  
 <td>Warehouse/Workshop Model</td>
 </tr>
 <tr>
