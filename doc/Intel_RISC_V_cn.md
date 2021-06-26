@@ -78,6 +78,42 @@ intel都准备开放x86许可，以前可是严封死守的，
 
 ----
 
+# 评论：Intel的XPU和oneAPI （2021-06-26）
+
+2020-11-11, Intel宣布XPU和oneAPI计划, 和Apple M1同一天发布。
+我发现XPU计划的异构计算的表述和我的“仓库/车间模型”是一致的，
+除了这些XPU组合没有指明“仓库”这个中心，
+只是把这些XPU并列地放在一起，把相关的API打包在一起，
+叫做oneAPI。
+
+我一开始以为Intel已经准备象Apple M1一样使用我的“仓库/车间模型”,
+没想到只是一个Intel微改良的计划。
+XPU和oneAPI计划只标准化了调用车间的接口（相当于供调度器使用的接口），
+因为缺乏仓库定义，却没有对车间的输入输出，协作，管理，调度做出定义。
+因此，从软硬件上都比不上我的“仓库/车间模型”。
+
+Intel oneAPI号称为“一个跨行业、开放、基于标准的统一编程模型”，
+开发人员可以自由选择最佳架构以满足其工作量/应用程序需求，
+同时在多个架构中使用单个代码库。
+这使得开发人员能够最大限度地提高跨架构性能并最大限度地降低开发成本，
+同时允许他们自由地在不同的 XPU 架构中展示和利用尖端功能。
+通过用 OneAPI 抽象硬件异质性。
+
+其实，总结起来，Intel的方案和以前的异构计算没有什么不同，
+只是把不同API重构，尽量让各类不同的API看起来相似，
+然后象大杂烩一样，把API打包在一起而已。
+大概类似于R语言的tidyverse系列包而已。
+
+参考：
+
+- [(2020-11-11) Intel Executing toward XPU Vision with oneAPI and Intel Server GPU](https://www.intel.com/content/www/us/en/newsroom/news/xpu-vision-oneapi-server-gpu.html#gs.4t5vlr)
+
+- [(2021-4-12) The evolution of XPU and the critical role of software](https://medium.com/intel-tech/the-evolution-of-xpu-and-the-critical-role-of-software-c46970dfcbe9)
+
+![Intel XPU oneAPI](./image/Intel_XPU_oneAPI.png)
+
+----
+
 # 评：AMD Infinity Fabric 架构
 
 x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
