@@ -1870,3 +1870,5 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [评：华为IOT的标准物模型](doc/HW_IOT_cn.md)
 
+- [评：《免费午餐结束：软件并发的根本转变 by Herb Sutter, 2005》](doc/HerbSutterConcurrency2005.md)
+
