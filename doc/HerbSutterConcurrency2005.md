@@ -45,5 +45,5 @@ Apple M1 芯片及 MacOS 虽然尚未完全实现“仓库/车间模型”,
 参考
 
 - [The Free Lunch Is Over, A Fundamental Turn Toward Concurrency in Software](http://www.gotw.ca/publications/concurrency-ddj.htm)
-- 
+
 - [Rust: 数学不能救编程，但财务可以](./rust.md)
