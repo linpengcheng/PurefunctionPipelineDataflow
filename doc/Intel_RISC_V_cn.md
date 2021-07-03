@@ -100,6 +100,47 @@ CPU和GPU更加向独立不交互的车间定义演进，更加以内存（仓�
 
 ----
 
+# 预测："高通"将使用我的"仓库/车间模型"，以对标Apple M1 (2021-07-03)
+
+2021年7月3日
+《Qualcomm's new CEO eyes dominance in the laptop markets》，
+从内容上看, 对标的是Apple M1, 
+
+《Qualcomm plans to design an M1 competitor for PCs—sans ARM》，
+高通新任CEO Amon表示，
+该公司在生产笔记本电脑芯片以直接与苹果M1竞争方面没有问题，
+这主要是因为高通现在雇佣了苹果高度宣传的突破背后的一些关键人才.
+
+今年，高通以14亿美元收购了初创公司Nuvia。
+Nuvia 是由前苹果员工创立的，
+他们在 M1 推出之前曾参与过苹果硅的转型。
+
+另外, 《Samsung and AMD will reportedly take on Apple’s M1 SoC later this year》，
+三星将采用AMD GPU + ARM CPU也来凑热闹, 
+但它自家的ARM CPU水平不够. 
+
+评论
+
+我想"高通"眼红Apple M1的成就, 这个拖微软后腿的队友, 
+终于开始动弹一下了, 看样子, 也是会使用我的"仓库/车间模型", 从文章上看,至少可以确定的是, 
+高通要把它的5G芯片和Nuvia CPU核心都作为车间塞进整个芯片里。
+
+如果Intel和AMD如果不加快"仓库/车间模型"的开发速度, 
+微软真要转向高通了, 这时就真没这哥俩什么事了! 
+
+参考
+
+- [高通首个采用 Nuvia 架构设计笔记本芯片有望明年发布](https://www.cnbeta.com/articles/tech/1148359.htm)
+
+- [Qualcomm plans to design an M1 competitor for PCs—sans ARM](
+https://arstechnica.com/gadgets/2021/07/qualcomm-ceo-we-can-beat-apple-because-we-poached-talent-from-them/)
+
+- [Qualcomm's new CEO eyes dominance in the laptop markets](https://www.reuters.com/technology/qualcomms-new-ceo-eyes-dominance-laptop-markets-2021-07-01/)
+
+- [Samsung and AMD will reportedly take on Apple’s M1 SoC later this year](https://arstechnica.com/gadgets/2021/05/report-the-samsung-amd-exynos-soc-will-be-out-for-laptops-this-year/?itm_source=parsely-api)
+
+----
+
 # 评论：Intel的XPU和oneAPI （2021-06-26）
 
 2020-11-11, Intel宣布XPU和oneAPI计划, 和Apple M1同一天发布。
