@@ -1338,7 +1338,7 @@ such as hardware, software, Internet, and Internet of Things.
 - External standardized data: hard disk, flash drive, etc.
 
 Modern computers (especially HPC) are often heterogeneous computing with many cores. 
-From the theory of "warehouse/workshop model", 
+From the theory of "warehouse/workshop model", It's the evaluation method of the manufacturing industry.
 system performance should be evaluated from two aspects:
 
 1. A simple summation of the maximum computing power of all workshops.
