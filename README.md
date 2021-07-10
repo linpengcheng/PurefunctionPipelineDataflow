@@ -52,7 +52,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [The unification with `Clojure Web Application Model`](#The-unification-with-Clojure-Web-Application-Model)    
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)
     - [The unification with `classic AI, modern AI, and explainable AI technology`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
-      - [Explainable AI System on 2021-04-30](#Explainable-AI-System)
+      - [Explainable AI System use the law model and the Warehouse/Workshop Model on 2021-04-30](#Explainable-AI-System)
       - [Robots and transformers on 2021-02-02](#Robots-and-transformers)
     - [The unification with `energy system`](#The-unification-with-energy-system)
     - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
@@ -1324,7 +1324,8 @@ the input sewage is treated separately.
 Computer hardware is also a factory that produces data, 
 so it can also apply the "warehouse/workshop model",
 The model uses memory as the core, not the CPU.
-Finally, we can naturally support heterogeneous computing, 
+Finally, We can naturally support heterogeneous parallel computing, 
+and the manufacturing industry system is good at mass production.
 and achieve the grand unification of all IT fields 
 such as hardware, software, Internet, and Internet of Things.
   
@@ -1335,6 +1336,13 @@ such as hardware, software, Internet, and Internet of Things.
 - Acceptance: Motherboard with standardized interfaces
   such as PCI, SATA, USB, etc.
 - External standardized data: hard disk, flash drive, etc.
+
+Modern computers (especially HPC) are often heterogeneous computing with many cores. 
+From the theory of "warehouse/workshop model", 
+system performance should be evaluated from two aspects:
+
+1. A simple summation of the maximum computing power of all workshops.
+2. The speed at which the entire system (warehouse/workshop) cooperates with each other to complete a complex calculation task.
   
 ##### The out-of-order execution technology of modern CPUs is a mistake on February 16 2021
 
@@ -1544,6 +1552,7 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
 ##### Explainable AI System 
 
 2021-04-30, It is described succinctly and completely that the method of AI application warehouse/workshop model written many years ago:
+"Explainable AI System use the law model and the Warehouse/Workshop Model"
 
 - Because
   - In modern legal society, statute law occupies an absolute dominant position.
