@@ -1341,7 +1341,7 @@ Modern computers (especially HPC) are often heterogeneous computing with many co
 From the theory of "warehouse/workshop model", It's the evaluation method of the manufacturing industry.
 system performance should be evaluated from two aspects:
 
-1. A simple summation of the maximum computing power of all workshops.
+1. Maximum computing power of all workshops by type.
 2. The speed at which the entire system (warehouse/workshop) cooperates with each other to complete a complex calculation task.
   
 ##### The out-of-order execution technology of modern CPUs is a mistake on February 16 2021
