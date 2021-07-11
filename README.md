@@ -1863,6 +1863,8 @@ Simplicity and Unity are the two guiding principles of scientific research and i
 
 - The more simple and unified things, the more suitable for large-scale industrial production.
 
+- Only simple can unity, only unity can be truly simple.
+
 In the IT field, only two systems fully comply with these 5 programming aesthetics:
 
 - Binary system
