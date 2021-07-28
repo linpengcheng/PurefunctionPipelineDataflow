@@ -30,9 +30,9 @@ From the perspective of use effect, these ASICs added by Apple M1 are suitable.
 
 > Linus (Linux author): I hope AVX-512 dies a painful death, and that Intel starts fixing real problems instead of trying to create magic instructions to then create benchmarks that they can look good on ... I think they are largely a complete waste of transistors and effort, and I think the amount of time spent on them – both by hardware people and by software people trying to use them – has been largely time wasted
 
-Linux author Linus believes that in order to improve CPU performance evaluation scores, Intel forcibly stuffed things like AVX-512 into the CPU, which caused the CPU core to be bloated. In order to improve the computing performance in a few specific usage scenarios, most of the ordinary ones were affected. User experience. And this part of the task is more suitable to be done with GPU, it is not necessary to put it on the CPU, the purpose is only to run the score, the realization is too wasteful.
+The task of AVX-512 is more suitable to be done with GPU, it is not necessary to put it on the CPU, the purpose is only to run the score, the realization is too wasteful.
 
-  The application scenarios of AVX-512 are mainly large-scale operations such as image/audio and video processing, data analysis, scientific computing, data encryption and compression, and deep learning. Apple M1 uses ASIC to specifically higher performance and lower power consumption.
+The application scenarios of AVX-512 are mainly large-scale operations such as image/audio and video processing, data analysis, scientific computing, data encryption and compression, and deep learning. Apple M1 uses ASIC to specifically higher performance and lower power consumption.
   
 ## Qualcomm
 
