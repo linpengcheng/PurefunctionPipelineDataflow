@@ -45,6 +45,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
       - [Intro](#Intro)
       - [The out-of-order execution technology of modern CPUs is a mistake on February 16, 2021](#The-out-of-order-execution-technology-of-modern-CPUs-is-a-mistake-on-February-16-2021)
       - [Follower Case: Apple M1 chip](#Follower-Case-Apple-M1-chip)
+      - [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./doc/why_wwmodel_fast_en.md)
       - [Forecast on 2021-01-19](#Forecast-on-2021-01-19)
       - [HPE Cray Supercomputer likes it at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
     - [The unification with `Integrated Circuit System`](#The-unification-with-Integrated-Circuit-System)    
@@ -621,6 +622,23 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   - It may not have an ordinary workshop, 
     at this time it is just a data center 
     (warehousing industry).
+    
+  - It can have no container, at this time it is just a dispatch center 
+    (integration layer or platform, the parent company of the enterprise group).
+    - Its workshops are all lower-level warehouses/workshop models (subsidiaries). 
+      It does not directly schedule the resources of the sub-models (subsidiaries), 
+      but indirectly schedule them through the schedulers of the sub-models (subsidiaries), 
+      simplifying the scheduling system. 
+      Ensure the independence of the sub-model (subsidiary). 
+      Enhance the certainty and predictability of the execution path, time, and results.
+    - Conducive to promoting the adjustment of the architecture.
+    - Conducive to the formation of group advantages and comprehensive functions, 
+      and enhance the integration of the system.
+    - Conducive to professional collaboration.
+    - Conducive to achieving economies of scale.
+    - Conducive to improving the level of dispatch.
+    - Conducive to improving the efficiency of resource utilization 
+      and promoting the optimal allocation of resources.
 
 - Workshop
   
@@ -1396,6 +1414,8 @@ system performance should be evaluated from two aspects:
       now its optimization level is still very simple, 
       after all, it is only the first generation of works, 
       released in stages.
+
+##### [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./doc/why_wwmodel_fast_en.md)
 
 ##### Forecast on 2021-01-19
 
