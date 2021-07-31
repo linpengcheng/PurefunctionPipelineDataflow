@@ -624,7 +624,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     (warehousing industry).
     
   - It can have no container, at this time it is just a dispatch center 
-    (integration layer or platform, the parent company of the enterprise group).
+    (Virtual Unified Warehouse, integration layer or platform, the parent company of the enterprise group).
     - Its workshops are all lower-level warehouses/workshop models (subsidiaries). 
       It does not directly schedule the resources of the sub-models (subsidiaries), 
       but indirectly schedule them through the schedulers of the sub-models (subsidiaries), 
