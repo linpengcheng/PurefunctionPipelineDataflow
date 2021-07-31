@@ -63,7 +63,9 @@ From the perspective of use effect, these ASICs added by Apple M1 are suitable.
 
 The main scenarios of AVX-512 are image/audio and video processing, data analysis, 
 scientific computing, data encryption and compression, and deep learning. 
-For the CPU evaluation score, it is too wasteful.
+It can do better with the existing GPU，
+If this is only used as a component to obtain higher benchmarks scores, 
+it would be too wasteful.
 
 For these scenarios, Apple M1 separates them as a Application Specific　Integrated Workshop, 
 using ASICs to achieve higher performance and low power consumption.
@@ -88,6 +90,8 @@ I think：
   and it should be used as an external chip (workshop).
 
 ## Reference
+
+- [The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
 
 - [Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
 
