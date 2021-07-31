@@ -5,7 +5,7 @@ Copyright © 2021-07-28 Lin Pengcheng, all rights reserved.
 ## Summary
 
 The "Warehouse/Workshop Model" is derived from the large-scale industrial production of the manufacturing industry, 
-and is most suitable for large-scale and high-load computing scenarios. Although when it is used in Apple M1 chip, 
+and is most suitable for large-scale and high-load heterogeneous parallel computing scenarios. Although when it is used in Apple M1 chip, 
 Apple M1 chip not only becomes the fastest chip in the world, but also maintains an extremely low Power consumption. 
 But in fact, its best application scenarios are supercomputers or cloud computing. 
 Consumer-grade chips such as the Apple M1 chip cannot reach its potential.
