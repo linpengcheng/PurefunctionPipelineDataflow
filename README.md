@@ -1661,6 +1661,14 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
 - Warehouse: Bank and other financial institutions.
 - Workshop: Various government agencies, enterprises, individuals.
 - Extended case: Enterprise
+  
+  Finance is the simplest, unified and abstract profession. 
+  Currency as a general equivalent is an abstraction of the value of all commodities. 
+  Finance is uniformly measured by currency, calculated in accordance with accounting standards, 
+  and standardized and unified financial statements reflect financial status and operating results.
+  From a financial point of view, the entire continuously operating enterprise is 
+  a pure function pipeline **cash flow** system based on the warehouse/workshop model.
+  
   - Standardized products: currency, general equivalent
   - Warehouse: 
     - Finance department: Currency, general equivalent.
