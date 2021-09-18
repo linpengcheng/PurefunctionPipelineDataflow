@@ -1667,7 +1667,7 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
   Finance is uniformly measured by currency, calculated in accordance with accounting standards, 
   and standardized and unified financial statements reflect financial status and operating results.
   From a financial point of view, the entire continuously operating enterprise is 
-  a pure function pipeline **cash flow** system based on the warehouse/workshop model.
+  a `pure function pipeline "cash flow" system based on the warehouse/workshop model`.
   
   - Standardized products: currency, general equivalent
   - Warehouse: 
