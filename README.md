@@ -212,6 +212,9 @@ For me, programming is the process of designing a data model that is simple and 
 More than 80% functions of my project is `->>` threading macro code block, 
 each step is simple, verifiable, replaceable, testable, pluggable, extensible,
 and easy to implement multithreading. 
+My article makes development a simple task of serial and parallel functional pipelined "CRUD". 
+
+
 The clojure threading macro provides language-level support for PurefunctionPipeline&Dataflow.
 
 The sea sails by the helmsman and the programming moves toward the data. Initial state, final state, 
@@ -1668,6 +1671,14 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
   and standardized and unified financial statements reflect financial status and operating results.
   From a financial point of view, the entire continuously operating enterprise is 
   a `pure function pipeline "cash flow" system based on the warehouse/workshop model`.
+  
+  The role of the model: With this model, it can be like medical angiography,
+  It can be found whether the blood vessel is hardened, narrowed, occluded, 
+  whether there is thrombosis, etc., whether it is necessary to 
+  perform vascular stent placement, vascular bypass, thrombus removal and other treatments.
+  It can discover business management problems in a simple and intuitive way, 
+  provide directions for improving management, 
+  and introduce the best optimization algorithms for computer science.
   
   - Standardized products: currency, general equivalent
   - Warehouse: 
