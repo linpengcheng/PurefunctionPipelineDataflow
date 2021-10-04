@@ -32,6 +32,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [Standardization](#Standardization)
     - [Exception handling](#Exception-handling)
   - [Framework code of the model](#Framework-code-of-the-model)
+  - [Mathematical prototype (primary school level)](#Mathematical-prototype)
   - [Everything is unified](#Everything-is-unified)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
@@ -1012,6 +1013,15 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 (add-watch warehouse :scheduler scheduler)
        
 ``` 
+
+### Mathematical prototype
+
+Its mathematical prototype is the "water in/out of a pool" problem in elementary school mathematics. 
+When we increase the number of pools and water pipes, the combination of different types of liquids, 
+the time and speed of input and output, and other factors in this mathematical problem. 
+It forms a warehouse/workshop model in the form of a dynamic tree Gantt chart.
+
+![math_pool.jpg](./doc/image/math_pool.jpg)
 
 ### Everything is unified
   
