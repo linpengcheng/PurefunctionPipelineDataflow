@@ -120,6 +120,8 @@
 
 - [5个美学标准: 在IT领域, 只有它和二进制系统完全符合这5个编程美学](#编程美学)
 
+- [具有最简单最形象的**数学原型**的IT架构: 小学级的“水池进排水问题”](#数学原型)
+
 - [与`经典AI、现代AI、可解释AI、法律架构`的统一](#与经典AI和现代AI和可解释AI技术的统一)
 
 - [基本质量控制: 类似制造工业, 非IT专业人员也可进行基本的质控.](#基本质量控制)
@@ -808,7 +810,9 @@ HTML Table:
 
 ### 数学原型
 
-它的数学原型就是小学数学的“水池进排水问题”，当我们在这个数学问题上增加水池和进出水管的数量、液体不同成分组合、进出水时间和速度等多种因素，就形成一个动态树形甘特图形态的仓库／车间模型。
+它的数学原型就是小学数学的“水池进排水问题”，当我们在这个数学问题上增加水池和进出水管的数量、
+不同种类液体的组合、进出水时间和速度等多种因素，就形成一个动态树形甘特图形态的仓库／车间模型。
+它应该是数学原型最简单最形象的IT架构。
 
 ![math_pool.jpg](./doc/image/math_pool.jpg)
 
@@ -1826,6 +1830,9 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 2018年2月13日在新浪微博开始发布`纯函数管道数据流`博客内容.
 - 2018年3月18日在github开设并发布`纯函数管道数据流`博客内容.
 - 在2018年之前的几年，我在QQ和微信群中介绍并演示了`纯功能管道数据流`。
+- [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
+- [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
+
 
 
 ## 其他文章目录
