@@ -126,6 +126,8 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 
 - [5 Aesthetics: In the IT field, only it and binary system fully comply with these 5 aesthetics.](#Programming-Aesthetics)
 
+- [the IT architecture with the simplest and most vivid **mathematical prototype**: the "water in/out of a pool" problem in elementary school mathematics. ](#Mathematical-prototype)
+
 - [The unification with `classic AI, modern AI, explainable AI, and law model`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
 
 - [Basic quality control: Like the manufacturing industry, Non-IT professionals can also perform basic quality control.](#Basic-quality-control)
@@ -1020,6 +1022,7 @@ Its mathematical prototype is the "water in/out of a pool" problem in elementary
 When we increase the number of pools and water pipes, the combination of different types of liquids, 
 the time and speed of input and output, and other factors in this mathematical problem. 
 It forms a warehouse/workshop model in the form of a dynamic tree Gantt chart.
+It should be the IT architecture with the simplest and most vivid mathematical prototype.
 
 ![math_pool.jpg](./doc/image/math_pool.jpg)
 
@@ -2336,6 +2339,8 @@ it has been rich and improved a lot.
 - On February 13, 2018, I published the content of `the pure function pipeline data flow` blog on Sina Weibo.
 - On March 18, 2018, I opened and published `the pure function pipeline data flow` blog content on github.
 - Years before 2018, I introduced and demonstrated `the Pure Function Pipeline Data Flow` in QQ and WeChat groups.
+- [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
+- [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
 
 ## Other Articles Table of Contents
 
