@@ -1851,6 +1851,8 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
 
+- [AI也要兼听则明](./doc/hybrid_AI.md)
+
 - [为什么 Clojure (Lisp) 近乎于道?](doc/why_clojure_almost_the_Tao.md)
 
 - [Clojure最佳实践](doc/best_practice_of_clojure.md)
