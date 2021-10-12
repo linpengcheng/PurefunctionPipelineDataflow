@@ -10,10 +10,12 @@ They are the most important way to improve AI:
 
 Tesla only uses visual technology. Although it is currently leading, but I believe that this is a narrow path. In order to save a little cost at the moment, it is taking the wrong path in the general direction.
 
-My explainable AI framework based on `legal models` and 
-`warehouse/workshop models based on management principles` 
+[My explainable AI framework](https://github.com/linpengcheng/PurefunctionPipelineDataflow#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology) 
+based on `legal models` and `warehouse/workshop models based on management principles` 
 is best at organizing and coordinating multiple hybrid technologies to solve problems in the best way. 
 Because law and management science are best at solving this problem.
+It is similar to the heterogeneous parallel computing of the computer, 
+and this is the gifted magical power of the warehouse/workshop model.
 
 # AI也要兼听则明
 
@@ -27,6 +29,7 @@ Because law and management science are best at solving this problem.
 
 特斯拉只使用视觉技术, 虽然目前暂时领先, 可偏听偏信这是路子是走窄了, 为了当下节约一点成本，在大方向上走错路了.
 
-我的基于法律模型和基于管理原则的仓库/车间模型的可解释AI框架，
+我的[基于法律模型和基于管理原则的仓库/车间模型的可解释AI框架](https://github.com/linpengcheng/PurefunctionPipelineDataflow#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)，
 最善长组织和协调多种混合技术以最优方法解决问题。
 因为法学和管理科学最善长解决这方面的问题。
+它类似于计算机的异构并行计算, 它是仓库/车间模型的天赋神通.
