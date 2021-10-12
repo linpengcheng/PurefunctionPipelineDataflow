@@ -1614,6 +1614,8 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
     - In short, if you want an AI system to be a reasonable, responsible and explainable AI system, 
       you must take up the weapon of law.
 
+2021-10-12, [AI must use hybrid technology](./doc/hybrid_AI.md)
+
 ##### Robots and transformers
 
 - Extended case: robots and transformers on 2021-02-02
