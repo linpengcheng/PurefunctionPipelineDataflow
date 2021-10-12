@@ -2358,6 +2358,8 @@ it has been rich and improved a lot.
 
 - [Mathathematical and AI](doc/math-xiaoyao.md)
 
+- [AI must use hybrid technology](./doc/hybrid_AI.md)
+
 - [Why Clojure (Lisp) almost the Tao? ](doc/why_clojure_almost_the_Tao.md)
 
 - [The Best Practice of Clojure.](doc/best_practice_of_clojure.md)
