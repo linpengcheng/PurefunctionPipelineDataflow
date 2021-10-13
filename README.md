@@ -99,6 +99,8 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 
 ## Key innovative ideas
 
+- [Mathematical prototype: It's a IT architecture with the simplest and most vivid mathematical prototype: the "water in/out of a pool" problem in elementary school mathematics. ](#Mathematical-prototype)
+
 - [Software and hardware are factories that manufacture data, 
   so they have the same "warehouse/workshop model" and management methods 
   as the manufacturing industry.](#Warehouse-Workshop-Model)
@@ -125,8 +127,6 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Like EDA, it is integrated and automated that the design and development of software and hardware.](#Software-Design-and-Develop-Automation)
 
 - [5 Aesthetics: In the IT field, only it and binary system fully comply with these 5 aesthetics.](#Programming-Aesthetics)
-
-- [the IT architecture with the simplest and most vivid **mathematical prototype**: the "water in/out of a pool" problem in elementary school mathematics. ](#Mathematical-prototype)
 
 - [The unification with `classic AI, modern AI, explainable AI, and law model`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
 
@@ -1591,6 +1591,9 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
 2021-04-30, It is described succinctly and completely that the method of AI application warehouse/workshop model written many years ago:
 "Explainable AI System use the law model and the Warehouse/Workshop Model"
 
+- The Warehouse/Workshop Model base on management principles is good at organizing and coordinating, 
+  complementing each other's strengths, and cooperating to complete tasks. 
+- The law is good at resolving the differences and conflicts of different subjects.
 - Because
   - In modern legal society, statute law occupies an absolute dominant position.
     - Statute law is higher than case law
@@ -1614,7 +1617,7 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
     - In short, if you want an AI system to be a reasonable, responsible and explainable AI system, 
       you must take up the weapon of law.
 
-2021-10-12, [AI must use hybrid technology](./doc/hybrid_AI.md)
+2021-10-12, [AI must use hybrid technology (Take Tesla Autopilot as an example)](./doc/hybrid_AI.md)
 
 ##### Robots and transformers
 
@@ -2360,7 +2363,7 @@ it has been rich and improved a lot.
 
 - [Mathathematical and AI](doc/math-xiaoyao.md)
 
-- [AI must use hybrid technology](./doc/hybrid_AI.md)
+- [AI must use hybrid technology (Take Tesla Autopilot as an example)](./doc/hybrid_AI.md)
 
 - [Why Clojure (Lisp) almost the Tao? ](doc/why_clojure_almost_the_Tao.md)
 
