@@ -1,4 +1,4 @@
-# AI must use hybrid technology
+# AI must use hybrid technology (Take Tesla Autopilot as an example)
 
 Copyright © 2021.10.12 Lin Pengcheng. All rights reserved.
 
@@ -28,7 +28,7 @@ complementing each other's strengths, and cooperating to complete tasks.
 It is similar to the heterogeneous parallel computing of the computer, 
 and this is the gifted magical power of the warehouse/workshop model.
 
-# AI也要兼听则明
+# AI也要兼听则明（以特斯拉自动驾驶为例）
 
 版权所有 © 2021.10.12 林鹏程， 保留所有权利。
 
