@@ -2377,6 +2377,8 @@ it has been rich and improved a lot.
 
 - [React is terrible.](doc/react_is_terrible.md)
 
+- [Comment: two Turing Award winners David Patterson and John Hennessey co-published 《A New Golden Age for Computer Architecture》](./doc/CommentANewGoldenAge4CompArch_en.md)
+
 ### Chinese
 
 - [Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
