@@ -4,7 +4,7 @@ Copyright © 2021.10.14 Lin Pengcheng. All rights reserved.
 
 In Communications of the ACM, February 2019, David Patterson 
 and John Hennessey co-published a paper: 
-"A New Golden Decade of Computer Architecture", 
+《A New Golden Age for Computer Architecture》, 
 explaining their analysis and prospects 
 for the development of computing architecture 
 in the next ten years. The paper points out that 
@@ -16,19 +16,19 @@ as Moore's Law is coming to an end.
 
 ## Comment
 
-Just discover the advantages of DSA (Google TPU, etc.) 
-currently on the market and predict that 
-DSA will generate significant performance 
-and energy efficiency benefits, 
-But it did not specify what architecture 
-should be used to organize, coordinate, 
-and control these DSAs to complete tasks, 
-Because the DSA application field is very limited, 
-a new architecture must be designed to combine 
-general-purpose CPUs and multiple DSAs 
-to complete the task together. That is, 
-a new computer architecture is not 
-proposed to solve the problem.
+- Just discover the advantages of DSA (Google TPU, etc.) 
+  currently on the market and predict that 
+  DSA will generate significant performance 
+  and energy efficiency benefits, 
+  But it did not specify what architecture 
+  should be used to organize, coordinate, 
+  and control these DSAs to complete tasks, 
+  Because the DSA application field is very limited, 
+  a new architecture must be designed to combine 
+  general-purpose CPUs and multiple DSAs 
+  to complete the task together. That is, 
+  a new computer architecture is not 
+  proposed to solve the problem.
 
 - If it is an article about DSA, 
   it should cite Google TPU, 
