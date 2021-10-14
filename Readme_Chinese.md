@@ -1869,6 +1869,8 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 - [React很糟糕](doc/react_is_terrible.md)
 
+- [评: 两位图灵奖得主 David Patterson 与 John Hennessey 共同发表的“计算机架构的新黄金十年”](./doc/CommentANewGoldenAge4CompArch.md)
+
 ### Chinese
 
 - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
