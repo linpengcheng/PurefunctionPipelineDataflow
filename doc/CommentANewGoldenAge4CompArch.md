@@ -1,4 +1,4 @@
-# 评: 两位图灵奖得主 David Patterson 与 John Hennessey 共同发表的“计算机架构的新黄金十年”
+# 评: 两位图灵奖得主 David Patterson 与 John Hennessey 共同发表的《计算机架构的新黄金时代》
 
 版权所有 © 2021.10.14 林鹏程， 保留所有权利。
 
@@ -35,6 +35,6 @@
 
 ## 参考
 
-- [为多样性算力软件开发铺就平坦大道：华为北冥融合架构全面解析, 万佳](https://www.infoq.cn/article/h8yElVd995fv4dCvZiuB)
+- [为多样性算力软件开发铺就平坦大道：华为北冥融合架构全面解析, 万佳，2021-10-12](https://www.infoq.cn/article/h8yElVd995fv4dCvZiuB)
 
 - [A New Golden Age for Computer Architecture, By John L. Hennessy, David A. Patterson, Communications of the ACM, February 2019, Vol. 62 No. 2, Pages 48-60, 10.1145/3282307](https://cacm.acm.org/magazines/2019/2/234352-a-new-golden-age-for-computer-architecture/fulltext)
