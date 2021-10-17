@@ -60,7 +60,7 @@ Anyone with ambition
 
 ## Reference
 
-- [Chinese: Paving a smooth road for the development of diverse computing power software: a comprehensive analysis of Huawei's Beiming integration architecture, by Wan Jia](https://www.infoq.cn/article/h8yElVd995fv4dCvZiuB)
+- [Chinese: Paving a smooth road for the development of diverse computing power software: a comprehensive analysis of Huawei's Beiming integration architecture, by Wan Jia, 2021-10-12](https://www.infoq.cn/article/h8yElVd995fv4dCvZiuB)
 
 - [A New Golden Age for Computer Architecture, By John L. Hennessy, David A. Patterson, Communications of the ACM, February 2019, Vol. 62 No. 2, Pages 48-60, 10.1145/3282307](https://cacm.acm.org/magazines/2019/2/234352-a-new-golden-age-for-computer-architecture/fulltext)
 
