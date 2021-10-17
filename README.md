@@ -48,6 +48,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
       - [Follower Case: Apple M1 chip](#Follower-Case-Apple-M1-chip)
       - [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./doc/why_wwmodel_fast_en.md)
       - [Forecast on 2021-01-19](#Forecast-on-2021-01-19)
+      - [Mathematics (science)-based "Warehouse/Workshop Model" VS. "Von Neumann Architecture" that cannot prove its scientificity](#wwmodel_vs_vonNeumann)
       - [HPE Cray Supercomputer likes it at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
     - [The unification with `Integrated Circuit System`](#The-unification-with-Integrated-Circuit-System)    
     - [The unification with `Programming Language Platform`](#The-unification-with-Programming-Language-Platform)    
@@ -111,6 +112,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" 
     and become the first architecture in the computer field, 
     and it is the first architecture to achieve a unified software and hardware.
+    Because "von Neumann architecture" lacks mathematical model support, it is impossible to prove its scientificity.
     - [Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
     - [HPE Cray Supercomputer likes it twice at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
 
@@ -1466,8 +1468,20 @@ system performance should be evaluated from two aspects:
   which is an inevitable trend in the development of computer hardware.
   My unified architecture and programming methodology will be vigorously promoted by these CPU companies, 
   sweeping the world from the bottom up.
-  
-Finally, the "warehouse/workshop model" will surely replace the "von Neumann architecture" 
+
+<h5 id="wwmodel_vs_vonNeumann">
+  Mathematics (science)-based "Warehouse/Workshop Model" VS. "Von Neumann Architecture" that cannot prove its scientificity
+</h5>
+
+The "von Neumann architecture" used by computers now has no mathematical model support. 
+So it cannot prove its scientific nature.
+
+The biggest advantage of my "warehouse/workshop model" relative to the "von Neumann architecture": 
+It is based on the simple, classic, and widely used in social production practice, 
+elementary school mathematics "water input/output of the pool" as a mathematical prototype, 
+Therefore, it is scientific.
+
+Therefore, my "warehouse/workshop model" will surely replace the "von Neumann architecture" 
 and become the first architecture in the computer field, 
 and it is the first architecture to achieve a unified software and hardware.
 
