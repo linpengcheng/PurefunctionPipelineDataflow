@@ -1474,7 +1474,7 @@ system performance should be evaluated from two aspects:
 </h5>
 
 The "von Neumann architecture" used by computers now has no mathematical model support. 
-So it cannot prove its scientific nature.
+So it cannot prove its scientificity. 
 
 The biggest advantage of my "warehouse/workshop model" relative to the "von Neumann architecture": 
 It is based on the simple, classic, and widely used in social production practice, 
