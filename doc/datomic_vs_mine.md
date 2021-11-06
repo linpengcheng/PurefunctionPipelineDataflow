@@ -15,6 +15,7 @@ Copyright © 2021.11.06 Lin Pengcheng. All rights reserved.
     suitable for constructing complex queries, 
     with a complete system.
   - Disadvantages: more redundant data
+  - Datomic = DB-atom ? Persist Clojure atom to PostgreSQL (RMDB) ? :-)
    
 - Mine: Relational data model based on hash-map
 
@@ -56,6 +57,7 @@ Copyright © 2021.11.06 Lin Pengcheng. All rights reserved.
     - 它相当于一个持久化在RMDB之上的NoSQL(hash-map), schema相当于一个数据列值的键
     - 优点: 统一查询方式（datalog）, 适合构造复杂查询, 有一个完整的系统．
     - 缺点: 冗余数据多
+    - Datomic = DB-atom ? 把Clojure atom持久化到PostgreSQL(RMDB)
   - 我的: 基于hash-map之上的关系数据模型
   　- 优点: 简单, 没有冗余数据, Clojure的原生数据类型和数据操纵方式.
     - 缺点: 需要用户在自定义的数据模型上构造查询函数和派生索引.
