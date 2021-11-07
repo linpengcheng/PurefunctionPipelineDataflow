@@ -34,6 +34,20 @@ People may be curious to search and understand Foxpro,
 so it improves Foxpro's ranking. In addition, 
 it seems that there is no outstanding application case or theory to improve Foxpro's ranking.
 
+Reference
+
+- [The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
+
+  Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, elementary school mathematics "water input/output of the pool".
+
+- [Implement relational data model and programming based on hash-map (NoSQL)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/relational_model_on_hashmap.md)
+
+- [Everything is RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Everything_is_RMDB.md)
+
+- [Clojure is a FP based on RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Clojure_is_FP_based_on_RMDB.md)
+
+- [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md)
+
 <table>
 <tr>
 <td>Foxpro in 2021.11 TIOBE Index</td>
@@ -72,3 +86,18 @@ Foxpro是互联网史前化石, 早就死透了, 没人用, 也没人提及了,
 近几年就只有我的理论一再鼓吹, 人们可能因为好奇去搜索和了解Foxpro, 
 因此提高了Foxpro的排名.
 除此之外, 好象没有什么出色的应用案例或理论来提高Foxpro的排名了.
+
+参考
+
+- [The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
+
+  Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, elementary school mathematics "water input/output of the pool".
+
+- [Implement relational data model and programming based on hash-map (NoSQL)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/relational_model_on_hashmap.md)
+
+- [Everything is RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Everything_is_RMDB.md)
+
+- [Clojure is a FP based on RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Clojure_is_FP_based_on_RMDB.md)
+
+- [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md)
+
