@@ -8,7 +8,7 @@ one place ahead of October 2021, and entering the first echelon next month?
 People in the language world are going to be stunned.
 
 In fact, this is unexpected and reasonable. The Apple M1 chip shows my 
-"The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model" 
+[`The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model`](https://github.com/linpengcheng/PurefunctionPipelineDataflow) 
 unparalleled high performance and low power consumption advantages, 
 other A group of chip manufacturers began to follow and invest in research.
 
@@ -51,7 +51,7 @@ it seems that there is no outstanding application case or theory to improve Foxp
 比10月份前进一位, 下个月进入第一梯队(1-20名)?一众编程语言界的人要目瞪狗呆了.
 
 其实这是意料之外, 情理之中的事. 苹果M1芯片展示了我的
-"大统一编程理论: 纯函数管道数据流和基于仓库/车间模型"
+[`大统一编程理论: 纯函数管道数据流和基于仓库/车间模型`](https://github.com/linpengcheng/PurefunctionPipelineDataflow) 
 无以伦比的高性能低功耗优势, 其他一众芯片厂商开始追随投入研究.
 
 编程语言应该发展成什么模样才能适应这种新理论和新芯片的发展潮流. Foxpro编程模型最适合我的理论了, 
