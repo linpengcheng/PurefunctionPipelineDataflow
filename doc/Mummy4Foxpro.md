@@ -30,6 +30,9 @@ People may be curious to search and understand Foxpro,
 so it improves Foxpro's ranking. In addition, 
 it seems that there is no outstanding application case or theory to improve Foxpro's ranking.
 
+![](./image/foxpro21_202111.png)
+![](./image/TheMummyReturns.jpg)
+
 # 木乃伊归来4: Foxpro编程模型是未来编程语言的发展方向
 
 版权所有 © 2021.11.07 林鹏程， 保留所有权利。
