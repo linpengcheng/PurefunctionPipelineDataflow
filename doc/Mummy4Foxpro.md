@@ -1,4 +1,4 @@
-# The mummy returns 4: Foxpro programming model is the development direction of the future programming language
+# The mummy returns 4: Foxpro Database-oriented programming paradigm is the development direction of the future programming language
 
 Copyright © 2021.11.07 Lin Pengcheng, all rights reserved.
 
@@ -47,7 +47,7 @@ it seems that there is no outstanding application case or theory to improve Foxp
 
 ----
 
-# 木乃伊归来4: Foxpro编程模型是未来编程语言的发展方向
+# 木乃伊归来4: Foxpro面向数据库的编程范式是未来编程语言的发展方向
 
 版权所有 © 2021.11.07 林鹏程， 保留所有权利。
 
