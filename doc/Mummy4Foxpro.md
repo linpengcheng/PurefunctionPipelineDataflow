@@ -13,15 +13,19 @@ unparalleled high performance and low power consumption advantages,
 other A group of chip manufacturers began to follow and invest in research.
 
 What kind of programming language should be developed to adapt 
-to this new theory and the development trend of new chips. 
-The Foxpro programming model is the most suitable for my theory, 
-as long as it simply supports memory tables and pipeline operators. 
-The more difficult thing is the scheduling mechanism. 
-This aspect can be gradually optimized. 
-Then grafted onto a popular platform to be compatible with the existing development ecosystem.
+to the development trend of this new programming theory and new computer architecture?
 
-I think it is time for Microsoft to consider redeveloping Foxpro 
-and stage an IT version of "The mummy returns".
+- The Foxpro programming model is the most suitable for my theory, 
+  as long as it simply supports memory tables and pipeline operators. 
+  The more difficult thing is the scheduling mechanism. 
+  This aspect can be gradually optimized. 
+  Then grafted onto a popular platform to be compatible with the existing development ecosystem.
+  I think it is time for Microsoft to consider redeveloping Foxpro 
+  and stage an IT version of "The mummy returns".
+  
+- Clojure only needs to integrate H2 (or SQLite) and SQL into the core of the language, 
+  and let all core APIs natively support H2 (or SQLite), 
+  and then gradually improve the scheduling mechanism.  
 
 Foxpro is a prehistoric fossil of the Internet. It has long been dead, 
 no one uses it, and no one mentions it. In recent years, 
@@ -54,11 +58,15 @@ it seems that there is no outstanding application case or theory to improve Foxp
 [`大统一编程理论: 纯函数管道数据流和基于仓库/车间模型`](https://github.com/linpengcheng/PurefunctionPipelineDataflow) 
 无以伦比的高性能低功耗优势, 其他一众芯片厂商开始追随投入研究.
 
-编程语言应该发展成什么模样才能适应这种新理论和新芯片的发展潮流. Foxpro编程模型最适合我的理论了, 
-只要简单地支持内存表, 管道操作符就行了, 困难一点的是调度机制, 这方面可以慢慢优化. 
-然后嫁接到一个流行的平台上以兼容利用现有的开发生态就可以了.
+编程语言应该发展成什么模样才能适应这种新的编程理论和新的计算机架构的发展潮流?
 
-我想微软是时侯考虑重新开发Foxpro, 上演一场IT版的《木乃伊归来》.
+- Foxpro编程模型最适合我的理论了, 只要简单地支持内存表, 管道操作符就行了, 
+  困难一点的是调度机制, 这方面可以慢慢优化. 
+  然后嫁接到一个流行的平台上以兼容利用现有的开发生态就可以了.
+  我想微软是时侯考虑重新开发Foxpro, 上演一场IT版的《木乃伊归来》.
+ 
+- Clojure只需要把H2(或SQLite)和SQL整合到语言核心, 并让所有核心API原生支持H2(或SQLite)，
+  然后逐步改进调度机制。
 
 Foxpro是互联网史前化石, 早就死透了, 没人用, 也没人提及了, 
 近几年就只有我的理论一再鼓吹, 人们可能因为好奇去搜索和了解Foxpro, 
