@@ -23,8 +23,8 @@ to the development trend of this new programming theory and new computer archite
   I think it is time for Microsoft to consider redeveloping Foxpro 
   and stage an IT version of "The mummy returns".
   
-- Clojure only needs to integrate H2 (or SQLite) and SQL into the core of the language, 
-  and let all core APIs natively support H2 (or SQLite), 
+- Clojure only needs to integrate H2 (or SQLite), JDBC, and SQL into the core of the language, 
+  and let all core APIs natively support H2 (or SQLite) and JDBC, 
   and then gradually improve the scheduling mechanism.  
 
 Foxpro is a prehistoric fossil of the Internet. It has long been dead, 
@@ -79,7 +79,7 @@ Reference
   然后嫁接到一个流行的平台上以兼容利用现有的开发生态就可以了.
   我想微软是时侯考虑重新开发Foxpro, 上演一场IT版的《木乃伊归来》.
  
-- Clojure只需要把H2(或SQLite)和SQL整合到语言核心, 并让所有核心API原生支持H2(或SQLite)，
+- Clojure只需要把H2(或SQLite), JDBC和SQL整合到语言核心, 并让所有核心API原生支持H2(或SQLite)和JDBC，
   然后逐步改进调度机制。
 
 Foxpro是互联网史前化石, 早就死透了, 没人用, 也没人提及了, 
