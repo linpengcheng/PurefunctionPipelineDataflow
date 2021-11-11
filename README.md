@@ -1,6 +1,6 @@
 [goto Chinese edition (中文版)](./Readme_Chinese.md)
 
-# Math-based The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
+# The Math-based Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
