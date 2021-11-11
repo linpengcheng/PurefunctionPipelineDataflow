@@ -1,6 +1,6 @@
 [goto Chinese edition (中文版)](./Readme_Chinese.md)
 
-# The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
+# Math-based The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
 
 Copyright © 2018 Lin Pengcheng. All rights reserved.
 
@@ -47,6 +47,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
       - [The out-of-order execution technology of modern CPUs is a mistake on February 16, 2021](#The-out-of-order-execution-technology-of-modern-CPUs-is-a-mistake-on-February-16-2021)
       - [Follower Case: Apple M1 chip](#Follower-Case-Apple-M1-chip)
       - [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./doc/why_wwmodel_fast_en.md)
+      - [Foxpro Database-oriented programming paradigm is the development direction of the future programming language (2021.11.07)](./doc/Mummy4Foxpro.md)
       - [Forecast on 2021-01-19](#Forecast-on-2021-01-19)
       - [Mathematics (science)-based "Warehouse/Workshop Model" VS. "Von Neumann Architecture" that cannot prove its scientificity](#wwmodel_vs_vonNeumann)
       - [HPE Cray Supercomputer likes it at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
@@ -93,6 +94,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
   - [Everything is RMDB.](doc/Everything_is_RMDB.md)
   - [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
+  - [Datomic vs. my relational data model based on hash-map](./doc/datomic_vs_mine.md)
   - [Markdown Literate Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
   - [Other Articles Table of Contents](#Other-Articles-Table-of-Contents)
 
@@ -100,7 +102,15 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 
 ## Key innovative ideas
 
-- [Mathematical prototype: It's a IT architecture with the simplest and most vivid mathematical prototype: the "water in/out of a pool" problem in elementary school mathematics. ](#Mathematical-prototype)
+- [Mathematical prototype](#Mathematical-prototype): 
+  Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, 
+  elementary school mathematics "water input/output of the pool". 
+  My theory rebuilt the theoretical foundation of the IT industry, 
+  It makes the computer theory system fully & perfectly related to mathematics in a simple and unified way: 
+  from hardware integrated circuits and computer architecture, 
+  to software programming methodology, architecture, programming language and so on. 
+  It solve the most fundamental and core major problems in the IT industry: 
+  The foundation and core of the IT theory lack mathematical support. 
 
 - [Software and hardware are factories that manufacture data, 
   so they have the same "warehouse/workshop model" and management methods 
@@ -133,7 +143,13 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 - [The unification with `classic AI, modern AI, explainable AI, and law model`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
 
 - [Basic quality control: Like the manufacturing industry, Non-IT professionals can also perform basic quality control.](#Basic-quality-control)
-  
+
+- It has a wide range of applications, from SOC to supercomputer, from software to hardware, 
+  from stand-alone to network, from application layer to system layer, from single thread to distributed, 
+  from general programming to explainable AI, from manufacturing industry to IT industry, 
+  from energy to finance, from cash flow to medical angiography, from myth to Transformers, 
+  from the missile's "Fire-and-Forget" technology to Boeing aircraft pulse production line technology.
+
 ## My and Other Peoples Related Views
 
 ```
@@ -647,6 +663,17 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     - Conducive to improving the level of dispatch.
     - Conducive to improving the efficiency of resource utilization 
       and promoting the optimal allocation of resources.
+    - The standard Warehouse/Workshop Model is of course the most efficient, 
+      but the fractal system is necessary in the following situations. 
+      It is not the optimal solution for the ideal world, 
+      but it is the optimal solution for the real world. 
+      There are many things in this world that we cannot fully control 
+      and pursue the maximization of our interests. We can only cooperate and win-win.
+      - When the scale is too large to control, This situation may only exist in the hardware system.
+        In the software system, this situation generally does not happen, 
+        because it is just a bunch of simple workshop functions surrounding a DB, which is very simple.
+      - Integrate&Compatible with old systems
+      - Integrate third-party systems
 
 - Workshop
   
@@ -1020,11 +1047,22 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 
 ### Mathematical prototype
 
-Its mathematical prototype is the "water in/out of a pool" problem in elementary school mathematics. 
+Its mathematical prototype is the simple, classic, vivid, 
+and widely used in social production practice, 
+elementary school mathematics "water input/output of the pool". 
+
 When we increase the number of pools and water pipes, the combination of different types of liquids, 
 the time and speed of input and output, and other factors in this mathematical problem. 
 It forms a warehouse/workshop model in the form of a dynamic tree Gantt chart.
 It should be the IT architecture with the simplest and most vivid mathematical prototype.
+
+My theory rebuilt the theoretical foundation of the IT industry, 
+It makes the computer theory system fully & perfectly related 
+to mathematics in a simple and unified way: 
+from hardware integrated circuits and computer architecture, 
+to software programming methodology, architecture, programming language and so on. 
+It solve the most fundamental and core major problems in the IT industry: 
+The foundation and core of the theory lack mathematical support. 
 
 ![math_pool.jpg](./doc/image/math_pool.jpg)
 
@@ -1434,6 +1472,8 @@ system performance should be evaluated from two aspects:
       released in stages.
 
 ##### [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./doc/why_wwmodel_fast_en.md)
+
+##### [Foxpro Database-oriented programming paradigm is the development direction of the future programming language (2021.11.07)](./doc/Mummy4Foxpro.md)
 
 ##### Forecast on 2021-01-19
 
@@ -2002,6 +2042,13 @@ Accounting, Management, Architecture etc.
 everything can be used as Algorithms and Software Engineering Methods.
 They can transform each other.
 
+My theory has a wide range of applications, from SOC to supercomputer, 
+from software to hardware, from stand-alone to network, from application layer to system layer, 
+from single thread to distributed, from general programming to explainable AI, 
+from manufacturing industry to IT industry, from energy to finance, 
+from cash flow to medical angiography, from myth to Transformers, 
+from the missile's "Fire-and-Forget" technology to Boeing aircraft pulse production line technology.
+
 In traditional Chinese culture, there is an unremitting pursuit of the ultimate grand unification (Tao). 
 There are countless people who know this concept, but in history, only a few people have achieved creative results. 
 They all have a strong imagination, creativity and understanding. 
@@ -2083,22 +2130,35 @@ It takes a touch of genius -- and a lot of courage -- to move in the opposite di
            
 Make folk sciences great again :-)
 0. It is the first grand unified theory in the field of natural sciences.
-1. Perfectly defeat other messy and complex software engineering methodologies 
+1. Its mathematical prototype is the simple, classic, vivid, 
+   and widely used in social production practice, 
+   elementary school mathematics "water input/output of the pool". 
+   My theory rebuilt the theoretical foundation of the IT industry, 
+   It makes the computer theory system fully & perfectly related 
+   to mathematics in a simple and unified way: 
+   from hardware integrated circuits and computer architecture, 
+   to software programming methodology, architecture, programming language and so on. 
+   It solve the most fundamental and core major problems in the IT industry: 
+   The foundation and core of the IT theory lack mathematical support.
+2. Perfectly defeat other messy and complex software engineering methodologies 
    in a simple and unified way.
-2. Realize the unification of software and hardware on the logical model.
+3. Realize the unification of software and hardware on the logical model.
    and the unification of programming technology and system architecture 
    through the innovative "Warehouse/Workshop Model".
    the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" 
    and become the first architecture in the computer field, 
    and it is the first architecture to achieve a unified software and hardware.
-3. Achieve a leap in software production theory 
+   Because "von Neumann architecture" lacks mathematical model support, 
+   it is impossible to prove its scientificity.
+4. Achieve a leap in software production theory 
    from the era of manual workshops 
    to the era of standardized production in large industries.
-4. The basics and the only way to `Software Design and Develop Automation (SDDA)`, 
+5. The basics and the only way to `Software Design and Develop Automation (SDDA)`, 
    SDDA is an innovative and revolutionary approach to develop large-scale software,
    just like `Electronic Design Automation (EDA)`.
-5. Defines the programming aesthetic standards as simplicity, Unity, order, symmetry and definiteness.
-6. It is a particular outstanding and trend-setting technical achievement, 
+6. Defines the programming aesthetic standards as simplicity, Unity, order, symmetry and definiteness.
+   In the IT field, only it and binary system fully comply with these 5 aesthetics.
+7. It is a particular outstanding and trend-setting technical achievement, 
    It fits perfectly with the principal claim to the "Turing Award".
    I think it should win the "Turing Award", the highest award in the computer field.
    If I cannot win the Turing Award, it must be that ACM lacks the ability to appreciate technology.
@@ -2117,7 +2177,7 @@ the more suitable for large-scale industrial production.
 
 The Pure Function Pipeline Data Flow, 
 based on the philosophy of Taoism and the Great Unification Theory, 
-In the computer field, for the first time, 
+In the computer field, Based on mathematical models and manufacturing industry best practices, for the first time, 
 it was realized that the unification of hardware engineering and software engineering on the logical model.
 It has been extended from `Lisp language-level code and data unification` 
 to `system engineering-level software and hardware unification`. 
@@ -2179,6 +2239,8 @@ From the perspective of large industrial production theory,
 standardizing the input raw materials (data) and output products (data) 
 has the following advantages:
 
+- Mathematical model support: Its mathematical prototype is the simple, classic, vivid, 
+  and widely used in social production practice, elementary school mathematics "water input/output of the pool". 
 - Fairness, Neutrality: Use data standard specifications to make it fair to different manufacturers, products, 
   algorithms and implementations, and to achieve healthy competition.
 - Fungibility: As long as the pipeline (or product) meets the data standard specifications, it can be directly replaced.
@@ -2325,9 +2387,23 @@ Computer science is essentially a management science, and vice versa.
          Creator of Management Science Computer School
 ```         
 
-In the field of computer science, I applied technologies such as management principles, warehouse/workshop model, and large-scale industrial standardization assembly lines to the fields of computer software, hardware, and AI, and realized the unification of computer theory.
+In the field of computer science, I applied technologies such as management principles, 
+warehouse/workshop model, and large-scale industrial standardization assembly lines 
+to the fields of computer software, hardware, and AI, and realized the unification of computer theory.
 
-In the field of management science, my discussion of management principles and warehouse/workshop model is the most scientific, systematic, simple, reliable, clear, and operable.
+In management science, I take the simple, classic, vivid, 
+and widely used in social production practice, 
+elementary school mathematics "water input/output of the pool" as the mathematical prototype, 
+take the absolute mainstream production model (warehouse/workshop model) as an example, 
+define and elaborate the management principles (core of management science). 
+
+It is the first mathematical define and elaborate of management principles and warehouse/workshop models, 
+and it is the most scientific, systematic, simple, reliable, clear and operable. 
+It uses mathematics to change management science from soft science to hard science, 
+it has important guiding significance for management science, warehouse/workshop model optimization design, 
+it will create great economic benefits for enterprises. 
+For example: It can be used as a scientific basis to further optimize 
+the pulsation production line technology of Boeing aircraft.
 
 Whether it is an IT practitioner who takes up a management position, or a manager who becomes an IT industry executive, they can use my theory as a bridge to another kind of science.
 
