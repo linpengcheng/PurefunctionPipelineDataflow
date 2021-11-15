@@ -21,8 +21,9 @@
   <g>
     <path style="fill: #ffffff" d="M 469.463 145.3 L 573.713,145.3 C 588.106,145.3 599.775,156.045 599.775,169.3 C 599.775,182.555 588.106,193.3 573.713,193.3 L 469.463,193.3 C 455.069,193.3 443.4,182.555 443.4,169.3 C 443.4,156.045 455.069,145.3 469.463,145.3z"/>
     <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 469.463 145.3 L 573.713,145.3 C 588.106,145.3 599.775,156.045 599.775,169.3 C 599.775,182.555 588.106,193.3 573.713,193.3 L 469.463,193.3 C 455.069,193.3 443.4,182.555 443.4,169.3 C 443.4,156.045 455.069,145.3 469.463,145.3"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="521.588" y="173.3">
-      <tspan x="521.588" y="173.3">Workshop: APP</tspan>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="521.588" y="165.3">
+      <tspan x="521.588" y="165.3">Workshop: </tspan>
+      <tspan x="521.588" y="181.3">APP Software</tspan>
     </text>
   </g>
   <g>
@@ -33,10 +34,11 @@
     </text>
   </g>
   <g>
-    <path style="fill: #ffffff" d="M 472.7 241.3 L 577.9,241.3 C 592.425,241.3 604.2,252.045 604.2,265.3 C 604.2,278.555 592.425,289.3 577.9,289.3 L 472.7,289.3 C 458.175,289.3 446.4,278.555 446.4,265.3 C 446.4,252.045 458.175,241.3 472.7,241.3z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 472.7 241.3 L 577.9,241.3 C 592.425,241.3 604.2,252.045 604.2,265.3 C 604.2,278.555 592.425,289.3 577.9,289.3 L 472.7,289.3 C 458.175,289.3 446.4,278.555 446.4,265.3 C 446.4,252.045 458.175,241.3 472.7,241.3"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="525.3" y="269.3">
-      <tspan x="525.3" y="269.3">Workshop: APP</tspan>
+    <path style="fill: #ffffff" d="M 458 231.3 L 576.45,231.3 C 592.805,231.3 606.063,242.045 606.063,255.3 C 606.063,268.555 592.805,279.3 576.45,279.3 L 458,279.3 C 441.645,279.3 428.388,268.555 428.388,255.3 C 428.388,242.045 441.645,231.3 458,231.3z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 458 231.3 L 576.45,231.3 C 592.805,231.3 606.063,242.045 606.063,255.3 C 606.063,268.555 592.805,279.3 576.45,279.3 L 458,279.3 C 441.645,279.3 428.388,268.555 428.388,255.3 C 428.388,242.045 441.645,231.3 458,231.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="517.225" y="251.3">
+      <tspan x="517.225" y="251.3">Workshop: </tspan>
+      <tspan x="517.225" y="267.3"> Service Software</tspan>
     </text>
   </g>
   <g>
@@ -74,43 +76,43 @@
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="304.357" y1="198.522" x2="304.544" y2="225.778"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="309.41,206.251 304.341,196.286 299.41,206.32 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="299.491,218.049 304.56,228.014 309.491,217.98 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="304.357" y1="198.522" x2="304.543" y2="225.778"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="309.41,206.252 304.341,196.286 299.41,206.32 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="299.49,218.048 304.559,228.014 309.49,217.98 "/>
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.559" y1="191.282" x2="216.145" y2="247.022"/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="174.479,193.671 164.057,189.626 167.074,200.392 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="207.224,244.633 217.647,248.677 214.629,237.912 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="207.224,244.633 217.647,248.678 214.63,237.913 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="448.073" y1="189.622" x2="392.961" y2="252.003"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="448.073" y1="189.622" x2="392.961" y2="252.002"/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="446.679,198.751 449.553,187.946 439.185,192.13 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="394.354,242.874 391.48,253.678 401.849,249.495 "/>
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="176.603" y1="262.351" x2="215.035" y2="278.707"/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="185.704,260.791 174.545,261.476 181.789,269.992 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="205.933,280.268 217.093,279.583 209.849,271.066 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="205.933,280.267 217.092,279.582 209.849,271.066 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="394.319" y1="279.298" x2="442.081" y2="266.461"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.519,272.454 392.159,279.878 403.114,282.111 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.881,273.305 444.241,265.88 433.286,263.647 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="393.74" y1="278.007" x2="424.647" y2="257.751"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="397.493,269.569 391.87,279.232 402.975,277.933 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.894,266.189 426.517,256.526 415.413,257.825 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="307.299" y1="389.589" x2="304.888" y2="355.211"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="301.768,382.194 307.456,391.819 311.744,381.494 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="310.419,362.606 304.731,352.981 300.443,363.306 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="307.299" y1="389.589" x2="304.887" y2="355.211"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="301.768,382.194 307.455,391.819 311.743,381.494 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="310.418,362.606 304.731,352.981 300.443,363.306 "/>
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="181.229" y1="325.009" x2="215.171" y2="307.603"/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="185.856,317.017 179.24,326.03 190.419,325.915 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="210.544,315.595 217.16,306.583 205.981,306.697 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="210.544,315.595 217.16,306.582 205.981,306.697 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="394" y1="307.563" x2="447.462" y2="334.3"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="403.18,306.564 392,306.563 398.707,315.508 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="394" y1="307.562" x2="447.462" y2="334.3"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="403.18,306.563 392,306.562 398.707,315.507 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="438.282,335.299 449.462,335.3 442.755,326.355 "/>
   </g>
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="21" y="476.75">
@@ -147,21 +149,21 @@
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="152.576" y1="391.532" x2="215.849" y2="333.684"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="154.932,382.603 150.925,393.041 161.68,389.984 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="213.493,342.613 217.5,332.175 206.745,335.233 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="154.932,382.603 150.925,393.041 161.679,389.984 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="213.493,342.613 217.5,332.175 206.746,335.232 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="392.9" y1="334.071" x2="446.66" y2="397.176"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="401.741,336.739 391.45,332.369 394.129,343.223 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="392.9" y1="334.07" x2="446.66" y2="397.176"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="401.741,336.738 391.45,332.368 394.129,343.223 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="437.819,394.508 448.11,398.878 445.431,388.023 "/>
   </g>
   <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="525.326" y="417.55">
     <tspan x="525.326" y="417.55"></tspan>
   </text>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.575" y="290.5">
-    <tspan x="304.575" y="290.5"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.574" y="290.5">
+    <tspan x="304.574" y="290.5"></tspan>
   </text>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.575" y="290.5">
-    <tspan x="304.575" y="290.5"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.574" y="290.5">
+    <tspan x="304.574" y="290.5"></tspan>
   </text>
 </svg>
