@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="30cm" height="24cm" viewBox="12 65 598 463" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffff" d="M 219.15 250.333 C 253.32,235.271 270.405,230.25 304.575,230.25 C 338.745,230.25 355.83,235.271 390,250.333 L 390,330.667 C 355.83,345.729 338.745,350.75 304.575,350.75 C 270.405,350.75 253.32,345.729 219.15,330.667 L 219.15,250.333z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 219.15 250.333 C 253.32,235.271 270.405,230.25 304.575,230.25 C 338.745,230.25 355.83,235.271 390,250.333 L 390,330.667 C 355.83,345.729 338.745,350.75 304.575,350.75 C 270.405,350.75 253.32,345.729 219.15,330.667 L 219.15,250.333"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 219.15 250.333 C 253.32,265.396 270.405,270.417 304.575,270.417 C 338.745,270.417 355.83,265.396 390,250.333"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.575" y="288.542">
+      <tspan x="304.575" y="288.542">Warehouse (Memory)</tspan>
+      <tspan x="304.575" y="304.542">with a scheduler (OS)</tspan>
+      <tspan x="304.575" y="320.542">= DBMS</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 39.875 147 L 144.125,147 C 158.519,147 170.187,157.745 170.187,171 C 170.187,184.255 158.519,195 144.125,195 L 39.875,195 C 25.4811,195 13.8125,184.255 13.8125,171 C 13.8125,157.745 25.4811,147 39.875,147z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 39.875 147 L 144.125,147 C 158.519,147 170.187,157.745 170.187,171 C 170.187,184.255 158.519,195 144.125,195 L 39.875,195 C 25.4811,195 13.8125,184.255 13.8125,171 C 13.8125,157.745 25.4811,147 39.875,147"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="92" y="175">
+      <tspan x="92" y="175">Workshop: CPU</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 469.463 145.3 L 573.713,145.3 C 588.106,145.3 599.775,156.045 599.775,169.3 C 599.775,182.555 588.106,193.3 573.713,193.3 L 469.463,193.3 C 455.069,193.3 443.4,182.555 443.4,169.3 C 443.4,156.045 455.069,145.3 469.463,145.3z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 469.463 145.3 L 573.713,145.3 C 588.106,145.3 599.775,156.045 599.775,169.3 C 599.775,182.555 588.106,193.3 573.713,193.3 L 469.463,193.3 C 455.069,193.3 443.4,182.555 443.4,169.3 C 443.4,156.045 455.069,145.3 469.463,145.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="521.588" y="173.3">
+      <tspan x="521.588" y="173.3">Workshop: APP</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 40.9875 236.6 L 146.188,236.6 C 160.713,236.6 172.488,247.345 172.488,260.6 C 172.488,273.855 160.713,284.6 146.188,284.6 L 40.9875,284.6 C 26.4624,284.6 14.6875,273.855 14.6875,260.6 C 14.6875,247.345 26.4624,236.6 40.9875,236.6z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 40.9875 236.6 L 146.188,236.6 C 160.713,236.6 172.488,247.345 172.488,260.6 C 172.488,273.855 160.713,284.6 146.188,284.6 L 40.9875,284.6 C 26.4624,284.6 14.6875,273.855 14.6875,260.6 C 14.6875,247.345 26.4624,236.6 40.9875,236.6"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="93.5875" y="264.6">
+      <tspan x="93.5875" y="264.6">Workshop: GPU</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 472.7 241.3 L 577.9,241.3 C 592.425,241.3 604.2,252.045 604.2,265.3 C 604.2,278.555 592.425,289.3 577.9,289.3 L 472.7,289.3 C 458.175,289.3 446.4,278.555 446.4,265.3 C 446.4,252.045 458.175,241.3 472.7,241.3z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 472.7 241.3 L 577.9,241.3 C 592.425,241.3 604.2,252.045 604.2,265.3 C 604.2,278.555 592.425,289.3 577.9,289.3 L 472.7,289.3 C 458.175,289.3 446.4,278.555 446.4,265.3 C 446.4,252.045 458.175,241.3 472.7,241.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="525.3" y="269.3">
+      <tspan x="525.3" y="269.3">Workshop: APP</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 477.45 312.3 L 581.399,312.3 C 595.752,312.3 607.387,323.045 607.387,336.3 C 607.387,349.555 595.752,360.3 581.399,360.3 L 477.45,360.3 C 463.097,360.3 451.462,349.555 451.462,336.3 C 451.462,323.045 463.097,312.3 477.45,312.3z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 477.45 312.3 L 581.399,312.3 C 595.752,312.3 607.387,323.045 607.387,336.3 C 607.387,349.555 595.752,360.3 581.399,360.3 L 477.45,360.3 C 463.097,360.3 451.462,349.555 451.462,336.3 C 451.462,323.045 463.097,312.3 477.45,312.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="529.424" y="340.3">
+      <tspan x="529.424" y="340.3">Workshop: DSP</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 42.375 303.05 L 150.275,303.05 C 165.173,303.05 177.25,313.795 177.25,327.05 C 177.25,340.305 165.173,351.05 150.275,351.05 L 42.375,351.05 C 27.4771,351.05 15.4,340.305 15.4,327.05 C 15.4,313.795 27.4771,303.05 42.375,303.05z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 42.375 303.05 L 150.275,303.05 C 165.173,303.05 177.25,313.795 177.25,327.05 C 177.25,340.305 165.173,351.05 150.275,351.05 L 42.375,351.05 C 27.4771,351.05 15.4,340.305 15.4,327.05 C 15.4,313.795 27.4771,303.05 42.375,303.05"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="96.325" y="331.05">
+      <tspan x="96.325" y="331.05">Workshop: ASIC</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="96.325" y="327.05">
+    <tspan x="96.325" y="327.05"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="515" y="360">
+    <tspan x="515" y="360"></tspan>
+  </text>
+  <g>
+    <path style="fill: #ffffff" d="M 228.85 146.05 L 379.8,146.05 C 400.642,146.05 417.538,156.795 417.538,170.05 C 417.538,183.305 400.642,194.05 379.8,194.05 L 228.85,194.05 C 208.008,194.05 191.113,183.305 191.113,170.05 C 191.113,156.795 208.008,146.05 228.85,146.05z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 228.85 146.05 L 379.8,146.05 C 400.642,146.05 417.538,156.795 417.538,170.05 C 417.538,183.305 400.642,194.05 379.8,194.05 L 228.85,194.05 C 208.008,194.05 191.113,183.305 191.113,170.05 C 191.113,156.795 208.008,146.05 228.85,146.05"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.325" y="174.05">
+      <tspan x="304.325" y="174.05">Workshop: Sound card</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 225.587 394.05 L 389.638,394.05 C 412.288,394.05 430.65,404.795 430.65,418.05 C 430.65,431.305 412.288,442.05 389.638,442.05 L 225.587,442.05 C 202.937,442.05 184.575,431.305 184.575,418.05 C 184.575,404.795 202.937,394.05 225.587,394.05z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 225.587 394.05 L 389.638,394.05 C 412.288,394.05 430.65,404.795 430.65,418.05 C 430.65,431.305 412.288,442.05 389.638,442.05 L 225.587,442.05 C 202.937,442.05 184.575,431.305 184.575,418.05 C 184.575,404.795 202.937,394.05 225.587,394.05"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="307.613" y="422.05">
+      <tspan x="307.613" y="422.05">Workshop: Network card</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="304.357" y1="198.522" x2="304.544" y2="225.778"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="309.41,206.251 304.341,196.286 299.41,206.32 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="299.491,218.049 304.56,228.014 309.491,217.98 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.559" y1="191.282" x2="216.145" y2="247.022"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="174.479,193.671 164.057,189.626 167.074,200.392 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="207.224,244.633 217.647,248.677 214.629,237.912 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="448.073" y1="189.622" x2="392.961" y2="252.003"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="446.679,198.751 449.553,187.946 439.185,192.13 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="394.354,242.874 391.48,253.678 401.849,249.495 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="176.603" y1="262.351" x2="215.035" y2="278.707"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="185.704,260.791 174.545,261.476 181.789,269.992 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="205.933,280.268 217.093,279.583 209.849,271.066 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="394.319" y1="279.298" x2="442.081" y2="266.461"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.519,272.454 392.159,279.878 403.114,282.111 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.881,273.305 444.241,265.88 433.286,263.647 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="307.299" y1="389.589" x2="304.888" y2="355.211"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="301.768,382.194 307.456,391.819 311.744,381.494 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="310.419,362.606 304.731,352.981 300.443,363.306 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="181.229" y1="325.009" x2="215.171" y2="307.603"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="185.856,317.017 179.24,326.03 190.419,325.915 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="210.544,315.595 217.16,306.583 205.981,306.697 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="394" y1="307.563" x2="447.462" y2="334.3"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="403.18,306.564 392,306.563 398.707,315.508 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="438.282,335.299 449.462,335.3 442.755,326.355 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="21" y="476.75">
+    <tspan x="21" y="476.75">The Grand Unified Programming Theory: </tspan>
+    <tspan x="21" y="492.75">The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model</tspan>
+    <tspan x="21" y="508.75">https://github.com/linpengcheng/PurefunctionPipelineDataflow</tspan>
+    <tspan x="21" y="524.75">Copyright © 2018 Lin Pengcheng. All rights reserved.</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="91" y="482.75">
+    <tspan x="91" y="482.75"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="95" y="499.75">
+    <tspan x="95" y="499.75"></tspan>
+  </text>
+  <text font-size="32.7378" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="65" y="95.75">
+    <tspan x="65" y="95.75">Warehouse/Workshop Model</tspan>
+  </text>
+  <text font-size="20.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="94" y="125.75">
+    <tspan x="94" y="125.75">Compute is a factory that produces data</tspan>
+  </text>
+  <g>
+    <path style="fill: #ffffff" d="M 41.375 394.55 L 149.275,394.55 C 164.173,394.55 176.25,405.295 176.25,418.55 C 176.25,431.805 164.173,442.55 149.275,442.55 L 41.375,442.55 C 26.4771,442.55 14.4,431.805 14.4,418.55 C 14.4,405.295 26.4771,394.55 41.375,394.55z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 41.375 394.55 L 149.275,394.55 C 164.173,394.55 176.25,405.295 176.25,418.55 C 176.25,431.805 164.173,442.55 149.275,442.55 L 41.375,442.55 C 26.4771,442.55 14.4,431.805 14.4,418.55 C 14.4,405.295 26.4771,394.55 41.375,394.55"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="95.325" y="422.55">
+      <tspan x="95.325" y="422.55">Workshop: Disk</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 469.35 393.55 L 581.299,393.55 C 596.757,393.55 609.287,404.295 609.287,417.55 C 609.287,430.805 596.757,441.55 581.299,441.55 L 469.35,441.55 C 453.892,441.55 441.362,430.805 441.362,417.55 C 441.362,404.295 453.892,393.55 469.35,393.55z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 469.35 393.55 L 581.299,393.55 C 596.757,393.55 609.287,404.295 609.287,417.55 C 609.287,430.805 596.757,441.55 581.299,441.55 L 469.35,441.55 C 453.892,441.55 441.362,430.805 441.362,417.55 C 441.362,404.295 453.892,393.55 469.35,393.55"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="525.324" y="421.55">
+      <tspan x="525.324" y="421.55">Workshop: FPGA</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="152.576" y1="391.532" x2="215.849" y2="333.684"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="154.932,382.603 150.925,393.041 161.68,389.984 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="213.493,342.613 217.5,332.175 206.745,335.233 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="392.9" y1="334.071" x2="446.66" y2="397.176"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="401.741,336.739 391.45,332.369 394.129,343.223 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="437.819,394.508 448.11,398.878 445.431,388.023 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="525.326" y="417.55">
+    <tspan x="525.326" y="417.55"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.575" y="290.5">
+    <tspan x="304.575" y="290.5"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.575" y="290.5">
+    <tspan x="304.575" y="290.5"></tspan>
+  </text>
+</svg>
