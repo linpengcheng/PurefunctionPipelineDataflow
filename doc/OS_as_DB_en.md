@@ -41,43 +41,10 @@ It must use the following `Warehouse/Workshop Model`:
     - In the future, it would be better to have an ASIC to replace the CPU to cooperate with the OS, 
       because this workshop is highly used and important, 
       and it is necessary to become an `independent internal workshop`.
-      [see also: Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md)
-      
       This ASIC is mainly responsible for scheduling and memory management (The OS kernel has only these features), 
-      all workshops are directly linked to memory. The workshop is independent of each other.
-      The interconnection between workshops is too complex and confusing. 
-      I've written [an article criticizing this kind of technology  (AMD Infinity Fabric Architecture)](./Intel_RISC_V.md) before,
-      From the schematic diagram of the article, AMD is centered on the Infinity Fabric bus. 
-      Realize the task transition between CPU-CPU, and plan to realize the task transition between GPU-GPU 
-      and CPU-GPU in the future. That is, the interconnection between workshops. In the manufacturing industry, 
-      I have not seen this kind of architecture for arbitrary interconnection of workshops. 
-      This is a network structure, very chaotic and complicated, with poor scalability, poor flexibility, 
-      and poor data utilization efficiency. I think it’s relatively easy to transfer tasks between similar processors, 
-      Task transfer between different types of processors is complicated and difficult, and the effect is not very good. 
-      I think it is far inferior to my warehouse/workshop model which is simple, reliable, flexible and extensible. 
-      With warehouse (data) as the center, data access efficiency is high, which is roughly similar to 
-      [the Comparison of Microsoft Data Factory/Pipeline Architecture and Warehouse/Workshop Model](./diff_WWModel_AzureDataFactoryPipe.md). 
-      In fact, although Apple M1 [unified memory architecture](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/) 
-      has not yet fully realized the warehouse/workshop model, the Apple M1 is already No. 1.
-      
-      In [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md), 
-      If a task is independently used as a workshop, and its scale benefit exceeds the cost of opening it, 
-      then it should be set up as a workshop, paying attention to exceeding a certain production scale (computing amount). 
-      Professional workshops have lower production costs (power consumption) and higher production efficiency (performance).
-
-      For computer SOC chips, its space is very limited. Unlike software projects, the cost of increasing the workshop is very low. 
-      It is necessary to divide the workshop into internal (integrated) workshops and external workshops. 
-      As long as the added ASIC (Application Specific　Integrated Workshop) is frequently used enough, 
-      and the overall benefit generated exceeds the benefit of using this part of the space as a general-purpose core (CPU, general workshop), 
-      the ASIC (Application Specific　Integrated Workshop) can be used Join the SOC chip and become an internal workshop. 
-      ASIC has the advantages of smaller size, lower power consumption, higher reliability, higher performance, 
-      stronger confidentiality, and lower cost.
-      
+      all internal (integrated) workshops are directly linked to memory. The workshop is independent of each other.
       Unimportant, infrequently used, slow external workshops can use bus. But the workshop should still not be interconnected.
-      
-      Apple M1 unified memory architecture(published on November 11, 2020.) is 
-      my "warehouse/workshop model"(hardware architecture section published on February 06, 2019), 
-      It is an architecture supported by mathematical models, unlike "von Neumann architecture". 
+      [see also: Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md)
 
   - DML: Just let Clojure integrate JDBC and SQL, 
     and let all core APIs natively support JDBC and OSDB, 
@@ -91,7 +58,41 @@ It must use the following `Warehouse/Workshop Model`:
 
   - Hardware: CPU, GPU, ASIC, various peripherals, etc
   - Software: Various applications & Service software
-  
+
+Note
+
+- The interconnection between workshops is too complex and confusing. 
+  I've written [an article criticizing this kind of technology  (AMD Infinity Fabric Architecture)](./Intel_RISC_V.md) before,
+  From the schematic diagram of the article, AMD is centered on the Infinity Fabric bus. 
+  Realize the task transition between CPU-CPU, and plan to realize the task transition between GPU-GPU 
+  and CPU-GPU in the future. That is, the interconnection between workshops. In the manufacturing industry, 
+  I have not seen this kind of architecture for arbitrary interconnection of workshops. 
+  This is a network structure, very chaotic and complicated, with poor scalability, poor flexibility, 
+  and poor data utilization efficiency. I think it’s relatively easy to transfer tasks between similar processors, 
+  Task transfer between different types of processors is complicated and difficult, and the effect is not very good. 
+  I think it is far inferior to my warehouse/workshop model which is simple, reliable, flexible and extensible. 
+  With warehouse (data) as the center, data access efficiency is high, which is roughly similar to 
+  [the Comparison of Microsoft Data Factory/Pipeline Architecture and Warehouse/Workshop Model](./diff_WWModel_AzureDataFactoryPipe.md). 
+  In fact, although Apple M1 [unified memory architecture](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/) 
+  has not yet fully realized the warehouse/workshop model, the Apple M1 is already No. 1.
+      
+- In [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md), 
+  If a task is independently used as a workshop, and its scale benefit exceeds the cost of opening it, 
+  then it should be set up as a workshop, paying attention to exceeding a certain production scale (computing amount). 
+  Professional workshops have lower production costs (power consumption) and higher production efficiency (performance).
+
+  For computer SOC chips, its space is very limited. Unlike software projects, the cost of increasing the workshop is very low. 
+  It is necessary to divide the workshop into internal (integrated) workshops and external workshops. 
+  As long as the added ASIC (Application Specific　Integrated Workshop) is frequently used enough, 
+  and the overall benefit generated exceeds the benefit of using this part of the space as a general-purpose core (CPU, general workshop), 
+  the ASIC (Application Specific　Integrated Workshop) can be used Join the SOC chip and become an internal workshop. 
+  ASIC has the advantages of smaller size, lower power consumption, higher reliability, higher performance, 
+  stronger confidentiality, and lower cost.
+       
+- Apple M1 unified memory architecture(published on November 11, 2020.) is 
+  my "warehouse/workshop model"(hardware architecture section published on February 06, 2019), 
+  It is an architecture supported by mathematical models, unlike "von Neumann architecture". 
+
 Reference
 
 - [A good discussion on r/programming](https://www.reddit.com/r/programming/comments/quk3xq/in_the_future_os_will_be_a_db_and_clojure_will_be/)
@@ -100,13 +101,13 @@ Reference
 
   Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, elementary school mathematics "water input/output of the pool".
 
-- [Implement relational data model and programming based on hash-map (NoSQL)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/relational_model_on_hashmap.md)
+- [Implement relational data model and programming based on hash-map (NoSQL)](./relational_model_on_hashmap.md)
 
-- [Everything is RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Everything_is_RMDB.md)
+- [Everything is RMDB](./Everything_is_RMDB.md)
 
-- [Clojure is a FP based on RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Clojure_is_FP_based_on_RMDB.md)
+- [Clojure is a FP based on RMDB](./Clojure_is_FP_based_on_RMDB.md)
 
-- [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md)
+- [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md)
 
 - [The difference between it and Microsoft Azure DataFactory/DataPipelines Architecture](./diff_WWModel_AzureDataFactoryPipe.md)
 
