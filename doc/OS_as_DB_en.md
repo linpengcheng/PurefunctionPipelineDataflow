@@ -31,10 +31,42 @@ It must use the following `Warehouse/Workshop Model`:
 - Warehouse
 
   - Memory: Store data, control information for various resources.
+  
   - OS: Scheduler, memory management, equivalent to DB engine.
+  
+    - At present, the CPU is used to boot into the OS, 
+      and then the OS obtains the full scheduling capability (including the CPU), 
+      and the scheduling capability of the OS requires the CPU to execute.
+
+    - In the future, it would be better to have an ASIC to replace the CPU to cooperate with the OS, 
+      because this workshop is highly used and important, 
+      and it is necessary to become an `independent internal workshop`.
+      [see also: Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md)
+      
+      This ASIC is mainly responsible for scheduling and memory management(The OS kernel has only these features), 
+      all workshops are directly linked to memory. The workshop is independent of each other.
+      The interconnection between workshops is too complex and confusing. 
+      I've written [an article criticizing this kind of technology  (AMD Infinity Fabric Architecture)](./Intel_RISC_V.md) before,
+      From the schematic diagram of the article, AMD is centered on the Infinity Fabric bus. 
+      Realize the task transition between CPU-CPU, and plan to realize the task transition between GPU-GPU 
+      and CPU-GPU in the future. That is, the interconnection between workshops. In the manufacturing industry, 
+      I have not seen this kind of architecture for arbitrary interconnection of workshops. 
+      This is a network structure, very chaotic and complicated, with poor scalability, poor flexibility, 
+      and poor data utilization efficiency. I think it’s relatively easy to transfer tasks between similar processors, 
+      Task transfer between different types of processors is complicated and difficult, and the effect is not very good. 
+      I think it is far inferior to my warehouse/workshop model which is simple, reliable, flexible and extensible. 
+      With warehouse (data) as the center, data access efficiency is high, which is roughly similar to 
+      [the Comparison of Microsoft Data Factory/Pipeline Architecture and Warehouse/Workshop Model](./diff_WWModel_AzureDataFactoryPipe.md). 
+      In fact, although Apple M1 [unified memory architecture](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/) 
+      has not yet fully realized the warehouse/workshop model, the Apple M1 is already No. 1.
+
   - DML: Just let Clojure integrate JDBC and SQL, 
     and let all core APIs natively support JDBC and OSDB, 
     and Clojure can instantly become the best DML.
+    - At the application layer and script layer, Clojure is sufficient.
+    - At the system layer, Clojure has a rust implementation: [ClojuRust](https://github.com/clojurust/clojurust). 
+      If necessary, implementing a native compiler for a programming language is not a problem at all. 
+      In addition, the JVM has GraalVM to support native compilation.
     
 - Workshop
 
