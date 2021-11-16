@@ -77,6 +77,18 @@ Note
   has not yet fully realized the warehouse/workshop model, the Apple M1 is already No. 1.
       
 - In [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md), 
+  The "Warehouse/Workshop Model" is derived from the large-scale industrial production of the manufacturing industry, 
+  and is most suitable for large-scale and high-load heterogeneous parallel computing scenarios. 
+  Although when it is used in Apple M1 chip, Apple M1 chip not only becomes the fastest chip in the world, 
+  but also maintains an extremely low Power consumption. But in fact, 
+  its best application scenarios are supercomputers or cloud computing. 
+  Consumer-grade chips such as the Apple M1 chip cannot reach its potential.
+
+  Why my "warehouse/workshop model" can achieve high performance and low power consumption? 
+  This is the display of the advantages of large-scale   production and task division in the computer field. 
+  In addition, the warehouse is the center and the workshop is uniformly scheduled. 
+  The overall optimization effect is good, and the data access and exchange performance is high.
+
   If a task is independently used as a workshop, and its scale benefit exceeds the cost of opening it, 
   then it should be set up as a workshop, paying attention to exceeding a certain production scale (computing amount). 
   Professional workshops have lower production costs (power consumption) and higher production efficiency (performance).
@@ -95,17 +107,26 @@ Note
 
 Reference
 
-- [A good discussion on r/programming](https://www.reddit.com/r/programming/comments/quk3xq/in_the_future_os_will_be_a_db_and_clojure_will_be/)
+- [A good discussion on reddit r/programming](https://www.reddit.com/r/programming/comments/quk3xq/in_the_future_os_will_be_a_db_and_clojure_will_be/)
 
-- [The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
+- [The Math-based Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
 
-  Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, elementary school mathematics "water input/output of the pool".
+  Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, 
+  elementary school mathematics "water input/output of the pool". 
+  My theory rebuilt the theoretical foundation of the IT industry, 
+  It makes the computer theory system fully & perfectly related to mathematics in a simple and unified way: 
+  from hardware integrated circuits and computer architecture, 
+  to software programming methodology, architecture, programming language and so on. 
+  It solve the most fundamental and core major problems in the IT industry: 
+  The foundation and core of the IT theory lack mathematical support.
 
 - [Implement relational data model and programming based on hash-map (NoSQL)](./relational_model_on_hashmap.md)
 
 - [Everything is RMDB](./Everything_is_RMDB.md)
 
 - [Clojure is a FP based on RMDB](./Clojure_is_FP_based_on_RMDB.md)
+
+- [Foxpro Database-oriented programming paradigm is the development direction of the future programming language](./Mummy4Foxpro.md)
 
 - [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md)
 
