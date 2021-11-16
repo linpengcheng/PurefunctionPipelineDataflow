@@ -59,6 +59,25 @@ It must use the following `Warehouse/Workshop Model`:
       [the Comparison of Microsoft Data Factory/Pipeline Architecture and Warehouse/Workshop Model](./diff_WWModel_AzureDataFactoryPipe.md). 
       In fact, although Apple M1 [unified memory architecture](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/) 
       has not yet fully realized the warehouse/workshop model, the Apple M1 is already No. 1.
+      
+      In [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md), 
+      If a task is independently used as a workshop, and its scale benefit exceeds the cost of opening it, 
+      then it should be set up as a workshop, paying attention to exceeding a certain production scale (computing amount). 
+      Professional workshops have lower production costs (power consumption) and higher production efficiency (performance).
+
+      For computer SOC chips, its space is very limited. Unlike software projects, the cost of increasing the workshop is very low. 
+      It is necessary to divide the workshop into internal (integrated) workshops and external workshops. 
+      As long as the added ASIC (Application Specific　Integrated Workshop) is frequently used enough, 
+      and the overall benefit generated exceeds the benefit of using this part of the space as a general-purpose core (CPU, general workshop), 
+      the ASIC (Application Specific　Integrated Workshop) can be used Join the SOC chip and become an internal workshop. 
+      ASIC has the advantages of smaller size, lower power consumption, higher reliability, higher performance, 
+      stronger confidentiality, and lower cost.
+      
+      Unimportant, infrequently used, slow external workshops can use bus. But the workshop should still not be interconnected.
+      
+      Apple M1 unified memory architecture(published on November 11, 2020.) is 
+      my "warehouse/workshop model"(hardware architecture section published on February 06, 2019), 
+      It is an architecture supported by mathematical models, unlike "von Neumann architecture". 
 
   - DML: Just let Clojure integrate JDBC and SQL, 
     and let all core APIs natively support JDBC and OSDB, 
@@ -74,6 +93,8 @@ It must use the following `Warehouse/Workshop Model`:
   - Software: Various applications & Service software
   
 Reference
+
+- [A good discussion on r/programming](https://www.reddit.com/r/programming/comments/quk3xq/in_the_future_os_will_be_a_db_and_clojure_will_be/)
 
 - [The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
 
