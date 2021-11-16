@@ -43,7 +43,7 @@ It must use the following `Warehouse/Workshop Model`:
       and it is necessary to become an `independent internal workshop`.
       [see also: Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./why_wwmodel_fast_en.md)
       
-      This ASIC is mainly responsible for scheduling and memory management(The OS kernel has only these features), 
+      This ASIC is mainly responsible for scheduling and memory management (The OS kernel has only these features), 
       all workshops are directly linked to memory. The workshop is independent of each other.
       The interconnection between workshops is too complex and confusing. 
       I've written [an article criticizing this kind of technology  (AMD Infinity Fabric Architecture)](./Intel_RISC_V.md) before,
@@ -73,4 +73,23 @@ It must use the following `Warehouse/Workshop Model`:
   - Hardware: CPU, GPU, ASIC, various peripherals, etc
   - Software: Various applications & Service software
   
+Reference
+
+- [The Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
+
+  Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, elementary school mathematics "water input/output of the pool".
+
+- [Implement relational data model and programming based on hash-map (NoSQL)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/relational_model_on_hashmap.md)
+
+- [Everything is RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Everything_is_RMDB.md)
+
+- [Clojure is a FP based on RMDB](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Clojure_is_FP_based_on_RMDB.md)
+
+- [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md)
+
+- [The difference between it and Microsoft Azure DataFactory/DataPipelines Architecture](./diff_WWModel_AzureDataFactoryPipe.md)
+
+- [Comment: Intel, RISC-V, and AMD Infinity Fabric Architecture](./Intel_RISC_V.md)
+  
 ![OS-Star-WWM](./image/OS-Star-WWM.svg)
+
