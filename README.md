@@ -2348,8 +2348,9 @@ If there is no "pipe symbol", you can use the "assignment statement",
 which is applicable in any programming language.
 
 Trying to develop an "complex parallel and concurrent systems" project,
-It allows people to learn to divide tasks correctly 
-and complete them in optimal order. This will allow you to learn the correct system design.
+It will enable you to learn to divide tasks correctly and determine the best execution 
+sequence (parallel and concurrent) for sub-tasks based on the "operational research".
+This will allow you to learn the correct system design.
 discover the wrong practices that general programming can't find.
 
 ### Principles-based are better than rules-based
