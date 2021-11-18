@@ -40,6 +40,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
     - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
     - [The unification with `Microkernel Architecture`](#The-unification-with-Microkernel-Architecture)
+      - [The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram) (2021.11.15)](./doc/OS_as_DB_en.md)
     - [The unification with `AOP`](#The-unification-with-AOP)
     - [The unification with `Event-driven Architecture`](#The-unification-with-Event-driven-Architecture)
     - [The unification with `Computer Hardware Architecture`](#The-unification-with-Computer-Hardware-Architecture)
@@ -48,6 +49,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
       - [Follower Case: Apple M1 chip](#Follower-Case-Apple-M1-chip)
       - [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](./doc/why_wwmodel_fast_en.md)
       - [Foxpro Database-oriented programming paradigm is the development direction of the future programming language (2021.11.07)](./doc/Mummy4Foxpro.md)
+      - [In the future, OS will be a DB, and Clojure will be the best DML (2021.11.15)](./doc/OS_as_DB_en.md)
       - [Forecast on 2021-01-19](#Forecast-on-2021-01-19)
       - [Mathematics (science)-based "Warehouse/Workshop Model" VS. "Von Neumann Architecture" that cannot prove its scientificity](#wwmodel_vs_vonNeumann)
       - [HPE Cray Supercomputer likes it at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
@@ -145,7 +147,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 - [Basic quality control: Like the manufacturing industry, Non-IT professionals can also perform basic quality control.](#Basic-quality-control)
 
 - It has a wide range of applications, from SOC to supercomputer, from software to hardware, 
-  from stand-alone to network, from application layer to system layer, from single thread to distributed, 
+  from stand-alone to network, from application layer to system layer, from single thread to distributed & heterogeneous parallel computing, 
   from general programming to explainable AI, from manufacturing industry to IT industry, 
   from energy to finance, from cash flow to medical angiography, from myth to Transformers, 
   from the missile's "Fire-and-Forget" technology to Boeing aircraft pulse production line technology.
@@ -626,7 +628,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 
 ![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
-![Computer-Hardware-Star-WWM](./doc/Computer-Hardware-Star-WWM.svg)
+![Computer-Hardware&Software-Star-WWM](./doc/image/OS-Star-WWM.svg)
 
 ### Overview of the model
 
@@ -1346,6 +1348,10 @@ Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronou
 - Warehouse: Core system
 - Workshop:  Plug-in modules
 - Product: Message, Data
+
+See also: [In the future, OS will be a DB, and Clojure will be the best DML (2021.11.15)](./doc/OS_as_DB_en.md)
+
+The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram)
   
 ### The unification with AOP
 
@@ -1475,6 +1481,10 @@ system performance should be evaluated from two aspects:
 
 ##### [Foxpro Database-oriented programming paradigm is the development direction of the future programming language (2021.11.07)](./doc/Mummy4Foxpro.md)
 
+##### [In the future, OS will be a DB, and Clojure will be the best DML (2021.11.15)](./doc/OS_as_DB_en.md)
+
+The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram)
+
 ##### Forecast on 2021-01-19
 
   Forecast(2021-01-19): I think Intel, AMD, ARM, supercomputer, etc. will adopt the "warehouse/workshop model"
@@ -1584,6 +1594,8 @@ My fast system is `The Grand Unified Programming Theory: The Pure Function Pipel
       Each language does not have to interact with each other. 
       Just interact with the repository. Multi-language on the racket language 
       is the mechanism.
+      
+See also: [Foxpro Database-oriented programming paradigm is the development direction of the future programming language (2021.11.07)](./doc/Mummy4Foxpro.md)      
 
 #### The unification with Clojure Web Application Model
 
@@ -2044,7 +2056,7 @@ They can transform each other.
 
 My theory has a wide range of applications, from SOC to supercomputer, 
 from software to hardware, from stand-alone to network, from application layer to system layer, 
-from single thread to distributed, from general programming to explainable AI, 
+from single thread to distributed & heterogeneous parallel computing, from general programming to explainable AI, 
 from manufacturing industry to IT industry, from energy to finance, 
 from cash flow to medical angiography, from myth to Transformers, 
 from the missile's "Fire-and-Forget" technology to Boeing aircraft pulse production line technology.
@@ -2334,6 +2346,11 @@ It will eventually evolve into this programming methodology ----
 
 If there is no "pipe symbol", you can use the "assignment statement", 
 which is applicable in any programming language.
+
+Trying to develop an "complex parallel and concurrent systems" project,
+It allows people to learn to divide tasks correctly 
+and complete them in optimal order. This will allow you to learn the correct system design.
+discover the wrong practices that general programming can't find.
 
 ### Principles-based are better than rules-based
 
