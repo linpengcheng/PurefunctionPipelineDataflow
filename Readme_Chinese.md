@@ -1603,8 +1603,12 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 
 这一层次的成就传统上叫"悟道", 爱因斯坦称之为"真正的智慧". 
 
-![TaoTaiji](./doc/TaoTaiji.gif)
-
+<table border="1">
+  <tr>
+    <td>![TaoTaiji](./doc/TaoTaiji.gif)</td>
+    <td>![TaoTaiji_IT](./doc/image/Taiji_IT_cn.jpg)</td>
+  </tr>
+</table>
 
 ## 杀手级的应用
 
