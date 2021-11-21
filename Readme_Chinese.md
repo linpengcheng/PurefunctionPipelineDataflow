@@ -1606,6 +1606,7 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 <table><tr>
 <td><img src="./doc/TaoTaiji.gif"></td>
 <td><img src="./doc/image/Taiji_IT_cn.jpg"></td>
+<td><img src="./doc/image/OS-Star-WWM.svg"></td>  
 </tr></table>  
 
 ## 杀手级的应用
