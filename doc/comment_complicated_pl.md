@@ -19,7 +19,7 @@ these problems are very simple.
 - Data is centrally managed by the warehouse. they are simple such as access, verification, type, standardization, and etc.
 
 - The logic of each workshop is very simple, short, independent, 
-  They are simple & natural such as heterogeneous parallel, module system, and etc.
+  They are simple & natural such as heterogeneous parallel, Coroutines, async/await, effect systems, module system, Errors, and etc.
 
 - Use the scheduler to achieve global optimization.
 
@@ -49,7 +49,7 @@ Reference
 
 - 数据由仓库集中管理,存取,校验,类型和标准化等问题就简单了
 
-- 每个车间逻辑都非常简单, 短,独立, 异构并行和模块等是很简单和自然的
+- 每个车间逻辑都非常简单, 短,独立. 异构并行、异步、协程和模块等是很简单和自然的
 
 - 使用调度器可以实现全局统一优化.
 
