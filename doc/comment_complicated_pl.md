@@ -8,6 +8,14 @@ Copyright © 2021.11.22 Lin Pengcheng. All rights reserved.
 The reason why all the questions in this article are too complicated is because they try to solve all the problems in a programming language.
 
 If you use the correct programming paradigm and architecture, these problems are very simple. 
+If the programming paradigm and architecture are wrong, you don't want to correct it, 
+you just want to solve the resulting problem with a bunch of programming language complex features.
+If a programming language pursues such a goal, it must be too complex to use.
+This is a macro strategy and method is wrong, do not want to correct it,
+but just want to solve the problem with a variety of micro-tactical techniques,
+This results in painstaking but extremely ineffective results.
+It's like a building with the wrong architecture and construction methods, 
+not only is it dangerous, but the hard - working remedies will not have good results. .
 
 In terms of common sense in management science, the entire development tool chain 
 should also follow the principle of professional division of labor, otherwise things will be complicated.
@@ -41,6 +49,10 @@ Reference
 这是很多复杂的编程语言所犯的错误.
 
 这些问题如果使用正确的编程范式和架构, 它就是一个很简单的问题. 
+如果编程范式和架构错了, 不去纠正, 而只想用一堆复杂的编程语言特性解决由此引发的问题，
+如果一种编程语言追求实现这样的目标, 那它一定复杂得无法使用.
+这属于宏观的战略和方法错了，不想着去纠正, 而只想以各种花样的微观的战术技术解决问题，
+费尽心力, 效果惨淡。就象一座建筑, 架构和建筑方法错了, 再好的建筑工具也无济于事.
 
 用管理科学的常识来说, 就是整个开发工具链也要遵循专业分工原则, 否则就是自讨苦吃, 吃力不讨好, 事倍功半.
 
