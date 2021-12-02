@@ -35,6 +35,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Mathematical prototype (primary school level)](#Mathematical-prototype)
   - [Everything is unified](#Everything-is-unified)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
+    - [The unification with object-oriented](#The-unification-with-object-oriented)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
       - [async/await, Project Loom fiber, Gantt Chart, and Scientific Management](#async)
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
@@ -106,7 +107,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 
 - [Mathematical prototype](#Mathematical-prototype): 
   Its mathematical prototype is the simple, classic, vivid, and widely used in social production practice, 
-  elementary school mathematics "water input/output of the pool". 
+  elementary school mathematics "water inflow/outflow of the pool". 
   My theory rebuilt the theoretical foundation of the IT industry, 
   It makes the computer theory system fully & perfectly related to mathematics in a simple and unified way: 
   from hardware integrated circuits and computer architecture, 
@@ -119,7 +120,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   as the manufacturing industry.](#Warehouse-Workshop-Model)
 
 - [Software and hardware are a unified architecture: "warehouse/workshop model".](#The-unification-with-Computer-Hardware-Architecture)
-  - From a static point of view, it is a star.
+  - From the perspective of static, it is a star.
   - From the perspective of dynamic runtime, it is a dynamic tree Gantt chart, like a rushing river system. 
   - the "Warehouse/Workshop Model" will surely replace the "von Neumann architecture" 
     and become the first architecture in the computer field, 
@@ -135,7 +136,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 - [From the perspective of system architecture, it is a warehouse/workshop model fractal system.](#Overview-of-the-model)
   - [10 Principles of the model](#Principles-of-the-model)
 
-- [From the component point of view, it is a pure function pipeline fractal system.](#Single-form)
+- [From the perspective of the component, it is a pure function pipeline fractal system.](#Single-form)
   - [5 basic pure function pipeline data flow components](#Five-basic-pure-function-pipeline-data-flow-components)
   - [An interconnected pipeline world based on a fully standardized data interface .](#Standardization)
   - [Like EDA, it is integrated and automated that the design and development of software and hardware.](#Software-Design-and-Develop-Automation)
@@ -694,9 +695,24 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
   
 - Warehouse/Workshop Model
   
-  - From a static point of view, it is a star.
+  - From the perspective of stati, it is a star.
 
   - From the perspective of dynamic runtime, it is a dynamic tree Gantt chart, like a rushing river system. 
+  
+  - When the scheduler calls the workshop, 
+    a data (raw material) is assigned to a workshop. 
+    
+    - when the data (raw material) enters the 
+      production (change, computing) process as consumables, 
+      it is exclusive to the workshop. 
+      The scheduler will no longer assign it to other workshops,
+      because it makes no sense to refer to dirty data
+      that is in the production (change, computing) process. 
+      
+    - Workshop as a pure function, 
+      It no longer gets data from the outside world, 
+      except for the data assigned to it 
+      by the scheduler at the beginning of the task. 
 
 If you understand that software is a factory that produces data, 
 then you can understand the warehouse/workshop model, 
@@ -1051,7 +1067,7 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 
 Its mathematical prototype is the simple, classic, vivid, 
 and widely used in social production practice, 
-elementary school mathematics "water input/output of the pool". 
+elementary school mathematics "water inflow/outflow of the pool". 
 
 When we increase the number of pools and water pipes, the combination of different types of liquids, 
 the time and speed of input and output, and other factors in this mathematical problem. 
@@ -1092,6 +1108,29 @@ The foundation and core of the theory lack mathematical support.
       which is better than each component managing its own state.
       - Warehouse: An atom state that includes all UI components, similar to "a data structure" of Alan Perlis.
       - Workshop: individual components, similar to "100 functions" of Alan Perlis.
+
+#### The unification with object-oriented
+
+The `warehouse/workshop model` is equivalent to treating the whole system as an object, 
+and is the only object of the system.
+
+- Warehouse: Object state
+- Workshop: Object method
+
+The best object-oriented system is a system with only one object 
+---- `warehouse/workshop model`.
+
+This is fully consistent with the following quote:
+
+```
+
+It’s better to have 100 functions operate on one data structure 
+than 10 functions on 10 data structures.        
+      ---- Alan Perlis
+           the first recipient of the Turing Award (1966)
+           A founding father of Computer Science as a separate discipline
+           
+``` 
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
@@ -1950,6 +1989,26 @@ Basic quality control of pure function pipeline data flow. The code must meet th
 - **Function evaluation:** Just look at the shape of the code (pipeline structure weight), and whether the function is a pure function.
 - **Dataflow evaluation:** A data flow has at most two functions with side effects and only at the beginning and the end.
 - **System evaluation:** Just look at the circuit diagram, you can treat the function as a black box like an electronic component.
+  
+  - Static
+
+    - The entire warehouse/workshop model architecture diagram: 
+      
+      It is a simple star diagram consisting of a warehouse and several workshops.
+      
+    - Each workshop diagram: 
+      
+      A workshop diagram is a series of pipelines, 
+      which reflect the flow of a independent execution unit.
+      
+  - Dynamic
+  
+    - Assembly line diagram (flowchart) for each product (task): 
+      
+      It is a traditional Gant diagram (or tree Gant diagram),
+      which reflect the scheduler assembles the process 
+      of completing tasks by combining various workshops.
+
 - **Code Quality Visualization:** 
   - For Lisp languages, S expression is contour graph, 
     can be very simple transformation into contour map, or 3D mountain map.
@@ -2348,6 +2407,8 @@ and gradually become a new programming thinking that focuses on changes in data 
 It will eventually evolve into this programming methodology ---- 
 `the pure functional pipeline data flow and principle-based warehouse/workshop model`.
 
+Moreover, it can reconstitut a complex system into a neat straight line hanging from a warehouse.
+
 If there is no "pipe symbol", you can use the "assignment statement", 
 which is applicable in any programming language.
 
@@ -2384,7 +2445,10 @@ it means that the theory isn't a practical, complete and systematic
 theoretical system, but can only be regarded as loose and 
 messy practical experience. 
 
-This theory consists of the following five parts:
+This theory consists of the following six parts:
+
+- Mathematical prototype: the simple, classic, vivid, and widely used in social production practice, 
+  elementary school mathematics "water inflow/outflow of the pool". 
 
 - Programming: pure function pipeline data flow, 5 basic pure function pipeline data flow components
 
