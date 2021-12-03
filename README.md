@@ -934,6 +934,20 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 - Each `warehouse/workshop model (warehouse)` has a definite 
   standard specification for input/output data to the 
   external environment.
+
+- Architecture's definiteness
+
+  - Based on mathematical models, 
+    operations research, management science
+  - With 10 principles, 5 aesthetics, 
+    and 5 basic components
+  - The architecture can be visualized with 
+    a simple star chart and Gantt chart
+  - In the same case, the architecture designed 
+    by different people will be consistent and clear. 
+    The pros and cons of different people's design schemes 
+    can be accurately judged by mathematical models and operations research. For this situation, 
+    it is generally called science.
    
 #### Order
 
@@ -1151,6 +1165,33 @@ than 10 functions on 10 data structures.
   - [Overview of the Warehouse/Workshop Model](#Overview-of-the-model)
     - Warehouse ...
       - It can have no container, ... 
+
+`Traditional OO architecture` VS. `Warehouse/Workshop Model`
+
+- Traditional OO architecture
+
+  There is no definite, operational theoretical basis 
+  for design and evaluation, the design is very random, 
+  and there are not many good OO architectures. 
+  
+  In the same case, the OO architectures designed 
+  by different people are very different, 
+  and it is difficult to evaluate the pros and cons. 
+  For this situation, it is generally called lack of scientificity.
+
+- Warehouse/Workshop Model
+
+  - Based on mathematical models, 
+    operations research, management science
+  - With 10 principles, 5 aesthetics, 
+    and 5 basic components
+  - The architecture can be visualized with 
+    a simple star chart and Gantt chart
+  - In the same case, the architecture designed 
+    by different people will be consistent and clear. 
+    The pros and cons of different people's design schemes 
+    can be accurately judged by mathematical models and operations research. For this situation, 
+    it is generally called science.
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
@@ -2341,6 +2382,18 @@ has the following advantages:
 
 - Mathematical model support: Its mathematical prototype is the simple, classic, vivid, 
   and widely used in social production practice, elementary school mathematics "water input/output of the pool". 
+- Architecture's definiteness
+  - Based on mathematical models, 
+    operations research, management science
+  - With 10 principles, 5 aesthetics, 
+    and 5 basic components
+  - The architecture can be visualized with 
+    a simple star chart and Gantt chart
+  - In the same case, the architecture designed 
+    by different people will be consistent and clear. 
+    The pros and cons of different people's design schemes 
+    can be accurately judged by mathematical models and operations research. For this situation, 
+    it is generally called science.
 - Fairness, Neutrality: Use data standard specifications to make it fair to different manufacturers, products, 
   algorithms and implementations, and to achieve healthy competition.
 - Fungibility: As long as the pipeline (or product) meets the data standard specifications, it can be directly replaced.
