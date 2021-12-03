@@ -677,6 +677,7 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
         because it is just a bunch of simple workshop functions surrounding a DB, which is very simple.
       - Integrate&Compatible with old systems
       - Integrate third-party systems
+    - See also: [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
 
 - Workshop
   
@@ -1069,9 +1070,16 @@ Its mathematical prototype is the simple, classic, vivid,
 and widely used in social production practice, 
 elementary school mathematics "water inflow/outflow of the pool". 
 
-When we increase the number of pools and water pipes, the combination of different types of liquids, 
-the time and speed of input and output, and other factors in this mathematical problem. 
-It forms a warehouse/workshop model in the form of a dynamic tree Gantt chart.
+- When we increase the number of water pipes, the combination of different types of liquids, 
+  the time and speed of input and output, and other factors in this mathematical problem. 
+  Taking the timeline of the main process as the main axis, dynamic rendering of the system 
+  will form a warehouse/workshop model in the form of a dynamic tree Gantt chart.
+
+- When we continue to add more "water inflow/outflow of the pool" systems, 
+  it will constitute a warehouse/workshop model fractal system. 
+  For a certain "water inflow/outflow of the pool" system, 
+  other systems can be abstracted as pipes.
+
 It should be the IT architecture with the simplest and most vivid mathematical prototype.
 
 My theory rebuilt the theoretical foundation of the IT industry, 
@@ -1131,6 +1139,18 @@ than 10 functions on 10 data structures.
            A founding father of Computer Science as a separate discipline
            
 ``` 
+
+- We can split a large system and evolve it into a microservice system.
+
+  See also: [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
+
+- We can integrate many independent systems and evolve it into an integrated system.
+
+  See also: 
+  - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
+  - [Overview of the Warehouse/Workshop Model](#Overview-of-the-model)
+    - Warehouse ...
+      - It can have no container, ... 
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
@@ -1381,7 +1401,12 @@ Reference: [The unification of `single-threaded`, `multi-threaded`, `asynchronou
       needs to conduct purchase and sales activities and exchanges through the e-commerce 
       platform.There is no need for direct communication or Pay attention to the details of 
       how the product (data) is formed or circulated.
-    
+
+See also: 
+- [Overview of the Warehouse/Workshop Model](#Overview-of-the-model)
+  - Warehouse ...
+    - It can have no container, ... 
+      
 #### The unification with Microkernel Architecture
   
 - Warehouse: Core system
