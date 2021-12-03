@@ -899,9 +899,9 @@ HTML Table:
   另见: 
   
   - [和信息系统集成模型的统一](#和信息系统集成模型的统一)
-  - [Overview of the Warehouse/Workshop Model](#Overview-of-the-model)
-    - Warehouse
-      - It can have no container, ... 
+  - [模型的概述](#模型的概述)
+    - 仓库 ... 
+      - 它可以没有容器, ... 
 
 #### 单线程 多线程 异步 分布式大统一
   
@@ -1086,9 +1086,9 @@ ForkJoinPool使用的就是仓库/车间模型，及科学管理的运筹学，�
     - 集成层类似电商平台(仓库), 一个店铺(子系统)是一个车间, 但每个店铺(或消费者)都只需要通过
       电商平台进行购销活动和交流,无需直接交流,也不需要关注商品(数据)如何形成或流通的细节.
 
-另见: [Overview of the Warehouse/Workshop Model](#Overview-of-the-model)
-- Warehouse
-  - It can have no container, ... 
+另见: [模型的概述](#模型的概述)
+- 仓库 ... 
+  - 它可以没有容器, ... 
       
 #### 和微内核架构的统一
 
