@@ -899,6 +899,9 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
 
 #### Concentration and decentralization
 
+Workshops are decentralized and independent, 
+but each workshop is connected with warehouse to form a system.
+
 - Concentration: Data Concentration, Global unified scheduling of tasks.
   - Data is centrally managed by the warehouse. Data verification and constraints are very convenient, 
     which helps maintain the integrity and correctness of the data
@@ -1165,6 +1168,9 @@ than 10 functions on 10 data structures.
   - [Overview of the Warehouse/Workshop Model](#Overview-of-the-model)
     - Warehouse ...
       - It can have no container, ... 
+
+so, Workshops (object method, microservices, independent systems) are decentralized and independent, 
+but The workshop is connected with data services (object status, warehouse) to form a system (large object).
 
 `Traditional OO architecture` VS. `Warehouse/Workshop Model`
 
