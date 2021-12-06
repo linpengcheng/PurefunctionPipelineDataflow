@@ -50,20 +50,6 @@ Reference: [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](h
 
 ----
 
-Attachment: RISC-V VS. ARM (by 2021.12.06)
-
-I think the expandable architecture of RISC-V is excellent. 
-It is equivalent to an expandable version of ARM (e.g. Apple M1 chip).
-As long as the extended standardization work is done well, 
-the prospects are quite good.
-
-I think other ARM manufacturers also want to replicate the success of Apple M1 chip, 
-but I have not heard that they have any standard work, 
-which will lead to fragmentation of ARM-based SOC systems. 
-In the end, it will lose to RISC-V, which worked hard to standardize the extension.
-
-----
-
 Attachment: Comment: AMD Infinity Fabric Architecture
 
 x86+RISC-V heterogeneous computing architecture 
@@ -120,3 +106,18 @@ the `warehouse/workshop model`, the Apple M1 is already No. 1.
 ![AMD fabric 2](./image/AMD_fabric2.jpg)
 
 ![Computer-Hardware-Star-WWM](./Computer-Hardware-Star-WWM.svg)
+
+----
+
+Attachment: RISC-V VS. ARM (by 2021.12.06)
+
+I think the expandable architecture of RISC-V is excellent. 
+It is equivalent to an expandable version of ARM (e.g. Apple M1 chip).
+As long as the extended standardization work is done well, 
+the prospects are quite good.
+
+I think other ARM manufacturers also want to replicate the success of Apple M1 chip, 
+but I have not heard that they have any standard work, 
+which will lead to fragmentation of ARM-based SOC systems. 
+In the end, it will lose to RISC-V, which worked hard to standardize the extension.
+
