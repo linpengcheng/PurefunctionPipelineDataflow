@@ -50,7 +50,7 @@ Reference: [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](h
 
 ----
 
-Attachment: RISC-V VS. ARM
+Attachment: RISC-V VS. ARM (by 2021.12.06)
 
 I think the expandable architecture of RISC-V is excellent. 
 It is equivalent to an expandable version of ARM (e.g. Apple M1 chip).
