@@ -2135,6 +2135,10 @@ In the IT field, only two systems fully comply with these 5 programming aestheti
 
 - The pure function pipeline data flow with principle-based warehouse/workshop model
 
+See also: 
+- [Definiteness Principle](#Definiteness)
+- [Order Principle](#Order)
+
 The out-of-order execution technology of modern CPUs is a mistake:
   
 - Out-of-order execution is a product of 
