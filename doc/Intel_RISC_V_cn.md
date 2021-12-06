@@ -226,3 +226,15 @@ x86+RISC-V异构计算架构是我的创新，2021年6月14日发表在微博，
 <td><img src=./Computer-Hardware-Star-WWM.svg></td>
 </tr>
 </table>
+
+----
+
+# RISC-V VS. ARM
+
+RISC-V的可扩展架构非常出色。它相当于ARM的可扩展版本（例如Apple M1芯片）。
+只要扩展的标准化工作做得好，前景就相当不错。
+
+其他ARM制造商也想复制Apple M1的成功，但我还没有听说他们有任何标准工作，
+这将导致基于ARM的soc系统的碎片化。这种局面不改变的话, 
+最终将导致它输给RISC-V，RISC-V正在努力使扩展标准化。
+
