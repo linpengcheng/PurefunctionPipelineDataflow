@@ -101,11 +101,18 @@ which is roughly similar to the
 In fact, although Apple M1 has not yet fully realized 
 the `warehouse/workshop model`, the Apple M1 is already No. 1.
 
-![AMD fabric 1](./image/AMD_fabric.jpg)
-
-![AMD fabric 2](./image/AMD_fabric2.jpg)
-
-![Computer-Hardware-Star-WWM](./Computer-Hardware-Star-WWM.svg)
+<table>
+<tr>
+<td>AMD fabric 1</td>
+<td>AMD fabric 2</td>  
+<td>Warehouse/Workshop Model</td>
+</tr>
+<tr>
+<td><img src=./image/AMD_fabric.jpg></td>
+<td><img src=./image/AMD_fabric2.jpg></td>  
+<td><img src=./Computer-Hardware-Star-WWM.svg></td>
+</tr>
+</table>
 
 ----
 
