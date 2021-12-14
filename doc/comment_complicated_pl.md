@@ -5,7 +5,7 @@
 
 Copyright © 2021.11.22 Lin Pengcheng. All rights reserved.
 
-If programming languages are a tool, there is no absolute security tool in this world, 
+If programming language is a tool, there is no absolute security tool in this world, 
 only scientific methods, architecture and systems are the guarantee of security.
 
 The reason why all the questions in this article are too complicated 
