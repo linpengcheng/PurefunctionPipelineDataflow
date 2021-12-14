@@ -5,7 +5,11 @@
 
 Copyright © 2021.11.22 Lin Pengcheng. All rights reserved.
 
-The reason why all the questions in this article are too complicated is because they try to solve all the problems in a programming language.
+If programming languages are a tool, there is no absolute security tool in this world, 
+only scientific methods, architecture and systems are the guarantee of security.
+
+The reason why all the questions in this article are too complicated 
+is because they try to solve all the problems in a programming language.
 
 If you use the correct programming paradigm and architecture, these problems are very simple. 
 If the programming paradigm and architecture are wrong, you don't want to correct it, 
@@ -44,6 +48,9 @@ Reference
 -- 评: [What's next for language design? (2017)](https://graydon2.dreamwidth.org/253769.html#cutid1)
 
 版权所有 © 2021.11.22 林鹏程， 保留所有权利。
+
+如果说编程语言是一种工具, 这世界上没有绝对保证安全的工具, 
+只有科学的使用方法、架构和制度才是安全的保证.
 
 该文章的所有问题之所以太复杂是因为试图用编程语言解决所有问题.
 这是很多复杂的编程语言所犯的错误.
