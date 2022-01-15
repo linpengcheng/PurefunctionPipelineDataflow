@@ -93,6 +93,7 @@
   - [计算机科学本质上是一门管理科学，反之也然。](#计算机科学本质上是一门管理科学)
   - [在2021年Clojure官方提倡管道编程](#在2021年Clojure官方提倡管道编程) 
   - [结尾](#结尾) 
+  - [参考文献](参考文献)
 - 附录:
   - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
   - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
@@ -832,6 +833,8 @@ HTML Table:
 - 管理者(仓库的调度函数)应避免处理具体的工作，这由车间负责。
 - “例外”情况和问题可以由管理者(仓库的调度函数)派遣(或设立)专门处理例外的车间处理。
   - 处理例外的车间: 类似RMDB里的事务管理器和死锁处理器.
+  
+参考文献: [管理原则 Henri Fayol: Principles of management, wikipedia](https://en.wikipedia.org/wiki/Henri_Fayol#Principles_of_management)
 
 ### 模型的框架代码
 
@@ -902,15 +905,21 @@ t：时间
   
 - 仓库：水池，流入和流出之间的缓冲, 流入的目标，流出的来源。
   带有一个全局优化的, 组合车间的调度器.
-  完成一个任务(产品), 需要组合各种不同的车间完成(异构并行), 仓库的调度器利用运筹学, 
-  实现供应(输入), 生产(计算), 销售(输出),存储(仓库)的最佳平衡, 实现最小成本和最高效率.
+  完成一个任务(产品), 需要组合各种不同的车间完成(异构并行计算), 仓库的调度器利用运筹学, 
+  实现供应(输入), 生产(各种不同的车间异构并行计算), 销售(输出),存储(仓库)的最佳平衡, 
+  实现最小成本和最高效率.
   
   ```
-  最小最佳仓库存储量 = 最小的必要流入量 + 最小的必要的计算量 - 最大化的输出量
+  最小最佳仓库存储量 = 最小的必要流入量 
+                   + 最小的必要的计算量 
+                   - 最大化的输出量
   result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
   ```
 
 - 车间：管道 
+
+- [运筹学 Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
+
 
 ### 万法归宗
 
@@ -2097,7 +2106,14 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
 - [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
 
+### 参考文献
 
+- [科学管理 Scientific Management, wikipedia](https://en.wikipedia.org/wiki/Scientific_management)
+- [科学管理的优缺点 Scientific Management Theory: Advantages and Disadvantages, Chitra Reddy](https://content.wisestep.com/advantage-disadvantage-scientific-management-theory/)
+- [管理原则 Henri Fayol: Principles of management](https://en.wikipedia.org/wiki/Henri_Fayol#Principles_of_management)
+- [运筹学 Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
+- [运筹学 Operations research, Sarah Lewis](https://whatis.techtarget.com/definition/operations-research-OR)
+- [制造执行系统 MES (Manufacturing Execution System), WikiMili](https://wikimili.com/en/Manufacturing_execution_system)
 
 ## 其他文章目录
 
