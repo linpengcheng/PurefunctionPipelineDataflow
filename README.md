@@ -1066,6 +1066,8 @@ but each workshop is connected with warehouse to form a system.
   "specialized workshop for handling exceptions".
   - Special workshop for handling exceptions: similar to the transaction manager and deadlock handler in RMDB.
 
+Reference: [Henri Fayol: Principles of management, wikipedia](https://en.wikipedia.org/wiki/Henri_Fayol#Principles_of_management)
+
 ### Framework code of the model
 
 ```clojure
@@ -1144,16 +1146,20 @@ Note:
   
 - warehouse: pool, buffering between inflow and outflow, the target of the inflow, the source of the outflow.
   with a globally optimized scheduler for the combined workshops.
-  To complete a task (product), it is necessary to combine various workshop production (heterogeneous parallelism),
+  To complete a task (product), it is necessary to combine various workshop production (Heterogeneous Parallel Computing),
   The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
-  production (computing), sales (output), and storage (warehouse), achieve minimum cost and maximum efficiency.
+  production (various workshop, Heterogeneous Parallel Computing), sales (output), and storage (warehouse), 
+  achieve minimum cost and maximum efficiency.
   
   ```
-  Minimum optimal warehouse storage = minimum necessary inflow + minimum necessary computing - maximum outflow
+  Minimum optimal warehouse storage = minimum necessary inflow 
+                                      + minimum necessary computing 
+                                      - maximum outflow
   result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
   ```
 
 - workshop: pipeline  
+- [Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
 
 ### Everything is unified
   
@@ -2690,6 +2696,15 @@ it has been rich and improved a lot.
 - Years before 2018, I introduced and demonstrated `the Pure Function Pipeline Data Flow` in QQ and WeChat groups.
 - [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
 - [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
+
+Reference
+
+- [Scientific Management, wikipedia](https://en.wikipedia.org/wiki/Scientific_management)
+- [Scientific Management Theory: Advantages and Disadvantages, Chitra Reddy](https://content.wisestep.com/advantage-disadvantage-scientific-management-theory/)
+- [Henri Fayol: Principles of management](https://en.wikipedia.org/wiki/Henri_Fayol#Principles_of_management)
+- [Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
+- [Operations research, Sarah Lewis](https://whatis.techtarget.com/definition/operations-research-OR)
+- [MES (Manufacturing Execution System), WikiMili](https://wikimili.com/en/Manufacturing_execution_system)
 
 ## Other Articles Table of Contents
 
