@@ -822,6 +822,9 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
   - The global unified scheduling system is the most efficient, which is a common sense.
+  - To complete a task (product), it is necessary to combine various workshop production (heterogeneous parallelism),
+    The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
+    production (computing), sales (output), and storage (warehouse), achieve minimum cost and maximum efficiency.
 
 #### Empowerment and Management by Objective
 
@@ -1132,6 +1135,9 @@ Note:
   
 - warehouse: pool, buffering between inflow and outflow, the target of the inflow, the source of the outflow.
   with a globally optimized scheduler for the combined workshops.
+  To complete a task (product), it is necessary to combine various workshop production (heterogeneous parallelism),
+  The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
+  production (computing), sales (output), and storage (warehouse), achieve minimum cost and maximum efficiency.
 
 - workshop: pipeline  
 
