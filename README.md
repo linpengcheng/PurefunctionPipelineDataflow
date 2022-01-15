@@ -153,6 +153,15 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   from general programming to explainable AI, from manufacturing industry to IT industry, 
   from energy to finance, from cash flow to medical angiography, from myth to Transformers, 
   from the missile's "Fire-and-Forget" technology to Boeing aircraft pulse production line technology.
+  
+- After I created the "Warehouse/Workshop Model", I became enlightened and achieved what Confucius said, 
+  "My Tao is consistent." That is: My doctrine can be connected by a fundamental principle (or ideology).
+  Throughout human history:
+  - There are very few people who can use a fundamental principle (or ideology) to penetrate an industry theoretical system.
+  - Fewer people can use a fundamental principle (or ideology) to penetrate multiple industry theoretical systems.
+  - It is even rarer to be able to prove this fundamental principle (or ideology) with a mathematical model.
+  - A person who enables elementary school children to understand this fundamental principle (or ideology). Only me.
+  Therefore, my theory is the closest to the "Tao" theory.  
 
 ## My and Other Peoples Related Views
 
@@ -2237,6 +2246,15 @@ from manufacturing industry to IT industry, from energy to finance,
 from cash flow to medical angiography, from myth to Transformers, 
 from the missile's "Fire-and-Forget" technology to Boeing aircraft pulse production line technology.
 
+After I created the "Warehouse/Workshop Model", I became enlightened and achieved what Confucius said, 
+"My Tao is consistent." That is: My doctrine can be connected by a fundamental principle (or ideology).
+Throughout human history:
+- There are very few people who can use a fundamental principle (or ideology) to penetrate an industry theoretical system.
+- Fewer people can use a fundamental principle (or ideology) to penetrate multiple industry theoretical systems.
+- It is even rarer to be able to prove this fundamental principle (or ideology) with a mathematical model.
+- A person who enables elementary school children to understand this fundamental principle (or ideology). Only me.
+Therefore, my theory is the closest to the "Tao" theory. 
+
 In traditional Chinese culture, there is an unremitting pursuit of the ultimate grand unification (Tao). 
 There are countless people who know this concept, but in history, only a few people have achieved creative results. 
 They all have a strong imagination, creativity and understanding. 
@@ -2366,6 +2384,22 @@ the more universally applicable a unified theory, the simpler it is,
 and the more basic it is, the greater it is.
 In addition, the more simple and unified things, 
 the more suitable for large-scale industrial production.
+
+My theory has a wide range of applications, from SOC to supercomputer, 
+from software to hardware, from stand-alone to network, from application layer to system layer, 
+from single thread to distributed & heterogeneous parallel computing, from general programming to explainable AI, 
+from manufacturing industry to IT industry, from energy to finance, 
+from cash flow to medical angiography, from myth to Transformers, 
+from the missile's "Fire-and-Forget" technology to Boeing aircraft pulse production line technology.
+
+After I created the "Warehouse/Workshop Model", I became enlightened and achieved what Confucius said, 
+"My Tao is consistent." That is: My doctrine can be connected by a fundamental principle (or ideology).
+Throughout human history:
+- There are very few people who can use a fundamental principle (or ideology) to penetrate an industry theoretical system.
+- Fewer people can use a fundamental principle (or ideology) to penetrate multiple industry theoretical systems.
+- It is even rarer to be able to prove this fundamental principle (or ideology) with a mathematical model.
+- A person who enables elementary school children to understand this fundamental principle (or ideology). Only me.
+Therefore, my theory is the closest to the "Tao" theory. 
 
 The Pure Function Pipeline Data Flow, 
 based on the philosophy of Taoism and the Great Unification Theory, 
