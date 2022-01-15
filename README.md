@@ -1124,13 +1124,13 @@ t: time
 
 Note: 
 
-- inflow/outflow volume consists of bits. The warehouse stores everything.
+- example: inflow/outflow volume consists of bits. The warehouse stores everything.
 
 - register is an implementation trick within the workshop (CPU, pure functions, pipelines) 
   that is equivalent to local variables. Because soc already have integrated memory, 
   it is theoretically possible not to use register.
   
-- warehouse: pool, buffering between inflow and outflow, the source of the inflow, the target of the outflow.
+- warehouse: pool, buffering between inflow and outflow, the target of the inflow, the source of the outflow.
   with a globally optimized scheduler for the combined workshops.
 
 - workshop: pipeline  
