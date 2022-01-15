@@ -1138,6 +1138,10 @@ Note:
   To complete a task (product), it is necessary to combine various workshop production (heterogeneous parallelism),
   The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
   production (computing), sales (output), and storage (warehouse), achieve minimum cost and maximum efficiency.
+  
+  ```
+  s_min_pool = s_min_inflow - s_max_outflow
+  ```
 
 - workshop: pipeline  
 
