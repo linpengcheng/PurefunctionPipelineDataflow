@@ -1130,7 +1130,7 @@ Note:
   that is equivalent to local variables. Because soc already have integrated memory, 
   it is theoretically possible not to use register.
   
-- warehouse: pool, the source of the inflow, the target of the outflow.
+- warehouse: pool, buffering between inflow and outflow, the source of the inflow, the target of the outflow.
 
 - workshop: pipeline  
 
