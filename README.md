@@ -1131,6 +1131,7 @@ Note:
   it is theoretically possible not to use register.
   
 - warehouse: pool, buffering between inflow and outflow, the source of the inflow, the target of the outflow.
+  with a globally optimized scheduler for the combined workshops.
 
 - workshop: pipeline  
 
