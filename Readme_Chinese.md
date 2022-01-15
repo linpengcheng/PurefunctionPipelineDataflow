@@ -906,7 +906,8 @@ t：时间
   实现供应(输入), 生产(计算), 销售(输出),存储(仓库)的最佳平衡, 实现最小成本和最高效率.
   
   ```
-  最小最佳仓库存储量 = 最小的必要流入量 - 最大化的输出量
+  最小最佳仓库存储量 = 最小的必要流入量 + 最小的必要的计算量 - 最大化的输出量
+  result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
   ```
 
 - 车间：管道 
