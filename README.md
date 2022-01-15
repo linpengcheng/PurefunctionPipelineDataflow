@@ -1110,6 +1110,30 @@ The foundation and core of the theory lack mathematical support.
 
 ![math_pool.jpg](./doc/image/math_pool.jpg)
 
+#### Basic Mathematics Formula
+
+```
+
+s = vt
+
+s: inflow/outflow volume, computing amount, etc.
+v: velocity
+t: time
+
+```
+
+Note: 
+
+- inflow/outflow volume consists of bits. The warehouse stores everything.
+
+- register is an implementation trick within the workshop (CPU, pure functions, pipelines) 
+  that is equivalent to local variables. Because soc already have integrated memory, 
+  it is theoretically possible not to use register.
+  
+- warehouse: pool, the source of the inflow, the target of the outflow.
+
+- workshop: pipeline  
+
 ### Everything is unified
   
 #### The unification of programming technology and system architecture
