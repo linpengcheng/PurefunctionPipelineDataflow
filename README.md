@@ -1124,7 +1124,7 @@ t: time
 
 Note: 
 
-- example: inflow/outflow volume consists of bits. The warehouse stores everything.
+- example: inflow/outflow volume can be composed of bits. The warehouse stores everything.
 
 - register is an implementation trick within the workshop (CPU, pure functions, pipelines) 
   that is equivalent to local variables. Because soc already have integrated memory, 
