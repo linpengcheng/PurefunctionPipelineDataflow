@@ -1140,7 +1140,8 @@ Note:
   production (computing), sales (output), and storage (warehouse), achieve minimum cost and maximum efficiency.
   
   ```
-  s_min_pool = s_min_inflow - s_max_outflow
+  Minimum optimal warehouse storage = minimum necessary inflow + minimum necessary computing - maximum outflow
+  result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
   ```
 
 - workshop: pipeline  
