@@ -93,7 +93,7 @@
   - [计算机科学本质上是一门管理科学，反之也然。](#计算机科学本质上是一门管理科学)
   - [在2021年Clojure官方提倡管道编程](#在2021年Clojure官方提倡管道编程) 
   - [结尾](#结尾) 
-  - [参考文献](#参考文献)
+- [参考文献](#参考文献)
 - 附录:
   - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
   - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
@@ -894,7 +894,8 @@ v：速度
 t：时间
 
 每一个仓库或车间都是一个管道(函数式管道化数据流),
-所以, 每一个管道都是一个s=vt方程式.
+每一个管道(函数式管道化数据流)都是一个s=vt方程式.
+所以, 每一个仓库或车间都是一个s=vt方程式.
 
 每一个系统都是由许多个管道(仓库或车间)构成的分形系统,
 每一个管道都是一个s=vt方程式,
@@ -2125,7 +2126,7 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
 - [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
 
-### 参考文献
+## 参考文献
 
 - [科学管理 Scientific Management, wikipedia](https://en.wikipedia.org/wiki/Scientific_management)
 - [科学管理的优缺点 Scientific Management Theory: Advantages and Disadvantages, Chitra Reddy](https://content.wisestep.com/advantage-disadvantage-scientific-management-theory/)
