@@ -1142,7 +1142,7 @@ Every system is a fractal system composed of many pipelines (warehouses or works
 Every pipeline is an s=vt equation,
 Therefore, every system is a fractal system composed of many s=vt equations.
 
-Every system is a warehouse/shop model,
+Every system is a warehouse/workshop model,
 Every warehouse/workshop model is a pool/pipeline system,
 Every pool/pipeline system can be abstracted as a pipeline,
 Every pipeline is an s=vt equation,
@@ -1158,10 +1158,11 @@ Note:
   
 - warehouse: pool, buffering between inflow and outflow, the target of the inflow, the source of the outflow.
   with a globally optimized scheduler for the combined workshops.
-  To complete a task (product), it is necessary to combine various workshop production (Heterogeneous Parallel Computing),
+  To complete a task (product), it is necessary to combine various workshop production 
+  (heterogeneous parallel computing forms a parallel dataflow),
   The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
-  production (various workshop, Heterogeneous Parallel Computing), sales (output), and storage (warehouse), 
-  achieve minimum cost and maximum efficiency.
+  production (various workshop, heterogeneous parallel computing forms a parallel dataflow), 
+  sales (output), and storage (warehouse), achieve minimum cost and maximum efficiency.
   
   ```
   Minimum optimal warehouse storage = minimum necessary inflow 
@@ -1171,7 +1172,8 @@ Note:
   result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
   
   This function decomposes the task into a dynamic tree Gantt chart (s=vt equation fractal system) 
-  according to the resource conditions, and then heterogeneous parallel computing until the end.
+  according to the resource conditions, and then heterogeneous parallel computing forms a parallel dataflow,
+  which is like a rushing river system. until the end.
   
   ```
   
