@@ -919,16 +919,15 @@ t：时间
   带有一个全局优化的, 组合车间的调度器.
   完成一个任务(产品), 需要组合各种不同的车间完成(异构并行计算形成并行数据流), 仓库的调度器利用运筹学, 
   实现供应(输入), 生产(各种不同的车间异构并行计算形成并行数据流), 销售(输出),存储(仓库)的最佳平衡, 
-  实现最小成本和最高效率.
+  充分利用一切可利用资源, 减少资源竞争、等待、事务冲突, 实现最小成本和最高效率.
   
   ```
-  最小最佳仓库存储量 = 最小的必要流入量 
-                   + 最小的必要的计算量 
-                   - 最大化的输出量
-                   - 
+                  
   result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
+  
   这个函数根据资源状况, 把任务分解为一个动态树形甘特图(s=vt方程式分形系统), 
   然后异构并行计算形成并行数据流, 它就象一条奔腾不息的河流水系, 直到结束.
+  
   ```
 
   - [运筹学 Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
