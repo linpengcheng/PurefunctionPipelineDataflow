@@ -1135,8 +1135,9 @@ s: inflow/outflow volume, computing amount, etc.
 v: velocity
 t: time
 
-Every warehouse or workshop is a pipeline,
-Every pipeline is an s=vt equation.
+Every warehouse or workshop is a pipeline (functional pipelined data flow),
+Every pipeline (functional pipelined data flow) is an s=vt equation.
+Therefore, every warehouse or workshop is an s=vt equation.
 
 Every system is a fractal system composed of many pipelines (warehouses or workshops),
 Every pipeline is an s=vt equation,
