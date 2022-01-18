@@ -1138,19 +1138,19 @@ t: time
 Every warehouse or workshop is a pipeline,
 Every pipeline is an s=vt equation.
 
-Each system is a fractal system composed of many pipelines (warehouses or workshops),
-Each pipeline is an s=vt equation,
-Therefore, each system is a fractal system composed of many s=vt equations.
+Every system is a fractal system composed of many pipelines (warehouses or workshops),
+Every pipeline is an s=vt equation,
+Therefore, every system is a fractal system composed of many s=vt equations.
 
-Each system is a warehouse/shop model,
+Every system is a warehouse/shop model,
 Every warehouse/workshop model is a pool/pipeline system,
 Every pool/pipeline system can be abstracted as a pipeline,
-Each pipeline is an s=vt equation,
+Every pipeline is an s=vt equation,
 Therefore, every system is an s=vt equation.
 
-Each system dynamic runtime can be rendered as a dynamic tree Gantt chart,
+Every system dynamic runtime can be rendered as a dynamic tree Gantt chart,
 Every dynamic tree Gantt chart is a pool/pipeline fractal system,
-Therefore, each system dynamic runtime is a fractal system of s=vt equations.
+Therefore, every system dynamic runtime is a fractal system of s=vt equations.
 
 ```
 
