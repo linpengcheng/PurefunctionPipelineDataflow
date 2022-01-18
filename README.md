@@ -1163,13 +1163,12 @@ Note:
   (heterogeneous parallel computing forms a parallel dataflow),
   The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
   production (various workshop, heterogeneous parallel computing forms a parallel dataflow), 
-  sales (output), and storage (warehouse), achieve minimum cost and maximum efficiency.
+  sales (output), and storage (warehouse), Make full use of all available resources, 
+  reduce resource competition, waiting, and transaction conflicts,
+  achieve minimum cost and maximum efficiency.
   
   ```
-  Minimum optimal warehouse storage = minimum necessary inflow 
-                                      + minimum necessary computing 
-                                      - maximum outflow
-                                      - 
+
   result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
   
   This function decomposes the task into a dynamic tree Gantt chart (s=vt equation fractal system) 
