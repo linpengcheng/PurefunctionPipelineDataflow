@@ -93,7 +93,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Computer science is essentially a management science, and vice versa.](#Computer-science-is-management-science)
   - [Clojure officially advocates pipeline programming in 2021](#Clojure-officially-advocates-pipeline-programming-in-2021)
   - [End message](#End-message)
-  - [Reference](#Reference)
+- [Reference](#Reference)
 - Appendix:
   - [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
@@ -1135,15 +1135,26 @@ s: inflow/outflow volume, computing amount, etc.
 v: velocity
 t: time
 
+Every warehouse or workshop is a pipeline,
+Every pipeline is an s=vt equation.
+
+Each system is a fractal system composed of many pipelines (warehouses or workshops),
+Each pipeline is an s=vt equation,
+Therefore, each system is a fractal system composed of many s=vt equations.
+
+Each system is a warehouse/shop model,
+Every warehouse/workshop model is a pool/pipeline system,
+Every pool/pipeline system can be abstracted as a pipeline,
+Each pipeline is an s=vt equation,
+Therefore, every system is an s=vt equation.
+
+Each system dynamic runtime can be rendered as a dynamic tree Gantt chart,
+Every dynamic tree Gantt chart is a pool/pipeline fractal system,
+Therefore, each system dynamic runtime is a fractal system of s=vt equations.
+
 ```
 
 Note: 
-
-- example: inflow/outflow volume can be composed of bits. The warehouse stores everything.
-
-- register is an implementation trick within the workshop (CPU, pure functions, pipelines) 
-  that is equivalent to local variables. Because soc already have integrated memory, 
-  it is theoretically possible not to use register.
   
 - warehouse: pool, buffering between inflow and outflow, the target of the inflow, the source of the outflow.
   with a globally optimized scheduler for the combined workshops.
@@ -1156,11 +1167,23 @@ Note:
   Minimum optimal warehouse storage = minimum necessary inflow 
                                       + minimum necessary computing 
                                       - maximum outflow
+                                      - 
   result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
+  
+  This function decomposes the task into a dynamic tree Gantt chart (s=vt equation fractal system) 
+  according to the resource conditions, and then heterogeneous parallel computing until the end.
+  
   ```
+  
+  - [Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
 
 - workshop: pipeline  
-- [Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
+
+- example: inflow/outflow volume can be composed of bits. The warehouse stores everything.
+
+- register is an implementation trick within the workshop (CPU, pure functions, pipelines) 
+  that is equivalent to local variables. Because soc already have integrated memory, 
+  it is theoretically possible not to use register.
 
 ### Everything is unified
   
@@ -2698,7 +2721,7 @@ it has been rich and improved a lot.
 - [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
 - [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
 
-### Reference
+## Reference
 
 - [Scientific Management, wikipedia](https://en.wikipedia.org/wiki/Scientific_management)
 - [Scientific Management Theory: Advantages and Disadvantages, Chitra Reddy](https://content.wisestep.com/advantage-disadvantage-scientific-management-theory/)
