@@ -1218,7 +1218,7 @@ The `warehouse/workshop model` is equivalent to treating the whole system as an 
 and is the only object of the system.
 
 - Warehouse: Object state
-- Workshop: Object method
+- Workshop: Object method, pure function, functional pipeline
 
 The best object-oriented system is a system with only one object 
 ---- `warehouse/workshop model`.
@@ -1236,13 +1236,33 @@ than 10 functions on 10 data structures.
 ``` 
 
 - We can split a large system and evolve it into a microservice system.
+  
+  - Warehouse: Object state, dataservice, data management
+
+  - Workshop: Object method, Microservice, Various independent systems.
 
   See also: [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
 
 - We can integrate many independent systems and evolve it into an integrated system.
 
+  Many large enterprises have independent information systems produced by different manufacturers and need to integrate. 
+  We can integrate many independent systems and evolve it into an integrated system.:
+
+  - Workshop: Object method, individual subsystems
+
+  - Warehouse: Object state
+
+    - The information system integration layer acts as a individual system
+
+    - A unified abstraction layer (virtual database, virtual data warehouse) of enterprise global data, 
+      external data requests for any subsystem are requested from warehouse(virtual unified db) 
+      without knowing which other subsystem to obtain them from. Achieve the unity of the global system.
+
+    - The middle layer and data routing of system interconnection.
+  
   See also: 
   - [The unification with `Information System Integration Model`](#The-unification-with-Information-System-Integration-Model)
+  - [10 Principles: Single Leader and Unified Scheduling](#Single-Leader-and-Unified-Scheduling)
   - [Overview of the Warehouse/Workshop Model](#Overview-of-the-model)
     - Warehouse ...
       - It can have no container, ... 
@@ -1278,6 +1298,19 @@ but The workshop is connected with data services (object status, warehouse) to f
     The pros and cons of different people's design schemes 
     can be accurately judged by mathematical models and operations research. For this situation, 
     it is generally called science.
+  - It is a best practice that has been used in the manufacturing industry for hundreds of years.
+    - We should be based on a centrally managed large data standard system, not many simple types that manage confusion, 
+    - Validate centrally instead of everywhere. 
+    - The large data standard system is managed by the warehouse.
+    - The input data of each workshop (pure function, pipeline) is given 
+      by the warehouse scheduler to the data that has been checked to meet the standard.
+    - The output data of each workshop (pure function, pipeline) is checked 
+      by the warehouse and saved after meeting the standard.
+    - The workshops are independent, short, logically simple, clear, 
+      they do not interact with each other, only with the warehouse, 
+      which guarantees simplicity, correctness and high efficiency.
+    - Change "the complex and chaotic m*n interactive network of objects" to 
+      "the 1:n global unified scheduling of scheduling functions to the workshops (pure functions, pipelines)".
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
