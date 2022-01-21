@@ -1299,9 +1299,10 @@ but The workshop is connected with data services (object status, warehouse) to f
     can be accurately judged by mathematical models and operations research. For this situation, 
     it is generally called science.
   - It is a best practice that has been used in the manufacturing industry for hundreds of years.
-    - We should be based on a centrally managed large data standard system, not many simple types that manage confusion, 
+    - We should be based on a centrally managed large data model standard system, 
+      not many simple types (or objects) that manage confusion, 
     - Validate centrally instead of everywhere. 
-    - The large data standard system is managed by the warehouse.
+    - The large data model standard system is managed by the warehouse.
     - The input data of each workshop (pure function, pipeline) is given 
       by the warehouse scheduler to the data that has been checked to meet the standard.
     - The output data of each workshop (pure function, pipeline) is checked 
@@ -1310,7 +1311,7 @@ but The workshop is connected with data services (object status, warehouse) to f
       they do not interact with each other, only with the warehouse, 
       which guarantees simplicity, correctness and high efficiency.
     - Change "the complex and chaotic m*n interactive network of objects" to 
-      "the 1:n global unified scheduling of scheduling functions to the workshops (pure functions, pipelines)".
+      "the 1:n global unified scheduling of the warehouse's scheduler to the workshops (pure functions, pipelines)".
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
