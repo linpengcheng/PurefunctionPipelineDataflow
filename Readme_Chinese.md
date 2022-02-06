@@ -34,6 +34,9 @@
     - [例外处理](#例外处理)
   - [模型的框架代码](#模型的框架代码)
   - [数学原型(小学级)](#数学原型)
+    - [简介](#数学原型简介)
+    - [](#)
+    - [](#)
   - [万法归宗](#万法归宗)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
     - [与面向对象的统一](#与面向对象的统一)
@@ -152,6 +155,10 @@
   请在[Discussions](https://github.com/linpengcheng/PurefunctionPipelineDataflow/discussions)
   留言告诉我, 如果能简介一下更好)
   所以, 我的理论是最接近"道"的理论.
+  
+- 最科学、最简单、最生动、最形象、最完美的IT理论体系图，高端大气上档次，通俗易懂接地气。
+  
+  ![IT Theory System](./doc/image/My-IT-TheoryCN.jpg)
 
 ## 我的和其他人的相关观点
 
@@ -867,6 +874,8 @@ HTML Table:
 
 ### 数学原型
 
+<h4 id="数学原型简介">简介</h4>
+
 它的数学原型是简单的、经典的、在社会生产实践中广泛应用的小学数学的“水池进排水问题”， 
 
 - 当我们在这个数学问题上增加进出水管的数量、不同种类液体的组合、进出水时间和速度等多种因素，
@@ -914,31 +923,29 @@ t：时间
 ```
 
 备注：
-  
-- 仓库：水池，流入和流出之间的缓冲, 流入的目标，流出的来源。
-  带有一个全局优化的, 组合车间的调度器.
-  完成一个任务(产品), 需要组合各种不同的车间完成(异构并行计算形成并行数据流), 仓库的调度器利用运筹学, 
-  实现供应(输入), 生产(各种不同的车间异构并行计算形成并行数据流), 销售(输出),存储(仓库)的最佳平衡, 
-  充分利用一切可利用资源, 减少资源竞争、等待、事务冲突, 实现最小成本和最高效率.
-  
-  ```
-                  
-  result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
-  
-  这个函数根据资源状况, 把任务分解为一个动态树形甘特图(s=vt方程式分形系统), 
-  然后异构并行计算形成并行数据流, 它就象一条奔腾不息的河流水系, 直到结束.
-  
-  ```
-
-  - [运筹学 Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
-
-- 车间：管道 
 
 - 例如: 流入/流出量可以由位组成。仓库存储一切。
 
-- 寄存器是车间（CPU，纯函数，管道）内的一个实现技巧,
-  它相当于局部变量。因为 SOC 已经有了集成内存，
-  理论上可以不使用寄存器。
+#### 调度
+
+仓库：水池，流入和流出之间的缓冲, 流入的目标，流出的来源。
+带有一个全局优化的, 组合车间的调度器.
+完成一个任务(产品), 需要组合各种不同的车间完成(异构并行计算形成并行数据流), 仓库的调度器利用运筹学, 
+实现供应(输入), 生产(各种不同的车间异构并行计算形成并行数据流), 销售(输出),存储(仓库)的最佳平衡, 
+充分利用一切可利用资源, 减少资源竞争、等待、事务冲突, 实现最小成本和最高效率.
+  
+```
+                  
+result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
+ 
+这个函数根据资源状况, 把任务分解为一个动态树形甘特图(s=vt方程式分形系统), 
+然后异构并行计算形成并行数据流, 它就象一条奔腾不息的河流水系, 直到结束.
+  
+```
+
+Reference:
+
+- [运筹学 Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
 
 ### 万法归宗
 
@@ -1303,6 +1310,12 @@ ForkJoinPool使用的就是仓库/车间模型，及科学管理的运筹学，�
 
 1. 所有车间最大计算能力的简单分类加总, 这是最大的零件生产能力.
 2. 整个系统(仓库/车间)互相配合完成一件复杂计算任务的速度, 这是最大的产品生产能力.
+
+备注:
+
+- 寄存器是车间（CPU，纯函数，管道）内的一个实现技巧,
+  它相当于局部变量。因为 SOC 已经有了集成内存，
+  理论上可以不使用寄存器。
   
 ##### 2021-02-16现代CPU的乱序执行技术是一个错误
 
@@ -1857,6 +1870,10 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 
 ## 重大历史意义
 
+最科学、最简单、最生动、最形象、最完美的IT理论体系图，高端大气上档次，通俗易懂接地气。
+  
+![IT Theory System](./doc/image/My-IT-TheoryCN.jpg)
+
 ```
 傻瓜忽视复杂性，实用主义者忍受它，有些人能避开它，天才移除它。
       ---- Alan Perlis, Epigrams in Programming(编程警句).
@@ -2152,6 +2169,8 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - 在2018年之前的几年，我在QQ和微信群中介绍并演示了`纯功能管道数据流`。
 - [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
 - [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
+- [My twitter: @LinPengchengFA](https://twitter.com/LinPengchengFA)
+- [My reddit: @linpengcheng](https://www.reddit.com/user/linpengcheng)
 
 ## 参考文献
 
