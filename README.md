@@ -33,6 +33,9 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [Exception handling](#Exception-handling)
   - [Framework code of the model](#Framework-code-of-the-model)
   - [Mathematical prototype (primary school level)](#Mathematical-prototype)
+    - [Introduce](#Mathematical-prototype-introduce) 
+    - [Basic Mathematics Formula](#Basic-Mathematics-Formula) 
+    - [Scheduler](#Scheduler) 
   - [Everything is unified](#Everything-is-unified)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification with object-oriented](#The-unification-with-object-oriented)
@@ -163,6 +166,10 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - It is even rarer to be able to prove this fundamental principle (or ideology) with a mathematical model.
   - A person who enables elementary school children to understand this fundamental principle (or ideology). Only me.
   Therefore, my theory is the closest to the "Tao" theory.  
+  
+- The simplest, most scientific, most vivid, and most perfect IT theoretical system diagram. 
+  
+  ![IT Theory System](./doc/image/My-IT-TheoryEN.jpg)
 
 ## My and Other Peoples Related Views
 
@@ -1099,6 +1106,8 @@ Reference: [Henri Fayol: Principles of management, wikipedia](https://en.wikiped
 
 ### Mathematical prototype
 
+<h4 id="Mathematical-prototype-introduce">Introduce</h4>
+
 Its mathematical prototype is the simple, classic, vivid, 
 and widely used in social production practice, 
 elementary school mathematics "water inflow/outflow of the pool". 
@@ -1156,36 +1165,34 @@ Therefore, every system dynamic runtime is a fractal system of s=vt equations.
 ```
 
 Note: 
-  
-- warehouse: pool, buffering between inflow and outflow, the target of the inflow, the source of the outflow.
-  with a globally optimized scheduler for the combined workshops.
-  To complete a task (product), it is necessary to combine various workshop production 
-  (heterogeneous parallel computing forms a parallel dataflow),
-  The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
-  production (various workshop, heterogeneous parallel computing forms a parallel dataflow), 
-  sales (output), and storage (warehouse), Make full use of all available resources, 
-  reduce resource competition, waiting, and transaction conflicts,
-  achieve minimum cost and maximum efficiency.
-  
-  ```
-
-  result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
-  
-  This function decomposes the task into a dynamic tree Gantt chart (s=vt equation fractal system) 
-  according to the resource conditions, and then heterogeneous parallel computing forms a parallel dataflow,
-  which is like a rushing river system. until the end.
-  
-  ```
-  
-  - [Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
-
-- workshop: pipeline  
 
 - example: inflow/outflow volume can be composed of bits. The warehouse stores everything.
 
-- register is an implementation trick within the workshop (CPU, pure functions, pipelines) 
-  that is equivalent to local variables. Because soc already have integrated memory, 
-  it is theoretically possible not to use register.
+#### Scheduler
+  
+warehouse: pool, buffering between inflow and outflow, the target of the inflow, the source of the outflow.
+with a globally optimized scheduler for the combined workshops.
+To complete a task (product), it is necessary to combine various workshop production 
+(heterogeneous parallel computing forms a parallel dataflow),
+The warehouse scheduler uses operations research to achieve the optimal balance of supply (input), 
+production (various workshop, heterogeneous parallel computing forms a parallel dataflow), 
+sales (output), and storage (warehouse), Make full use of all available resources, 
+reduce resource competition, waiting, and transaction conflicts,
+achieve minimum cost and maximum efficiency.
+  
+```
+
+result = scheduler_operations_research_strategy(warehouse, various_workshop_inflow_outflow)
+  
+This function decomposes the task into a dynamic tree Gantt chart (s=vt equation fractal system) 
+according to the resource conditions, and then heterogeneous parallel computing forms a parallel dataflow,
+which is like a rushing river system. until the end.
+  
+```
+
+Reference:
+
+- [Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
 
 ### Everything is unified
   
@@ -1649,6 +1656,12 @@ system performance should be evaluated from two aspects:
 1. Maximum computing power of all workshops by type, This is the largest part production capacity.
 2. The speed at which the entire system (warehouse/workshop) cooperates with each other to complete a complex calculation task,
    This is the largest product production capacity. 
+
+Note:
+
+- register is an implementation trick within the workshop (CPU, pure functions, pipelines) 
+  that is equivalent to local variables. Because soc already have integrated memory, 
+  it is theoretically possible not to use register.
   
 ##### The out-of-order execution technology of modern CPUs is a mistake on February 16 2021
 
@@ -2385,6 +2398,10 @@ Therefore, it solves the problem of Fred Brooks.
 
 ## Great Historical Significance
 
+The simplest, most scientific, most vivid, and most perfect IT theoretical system diagram. 
+  
+![IT Theory System](./doc/image/My-IT-TheoryEN.jpg)
+
 ```
 Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
       ---- Alan Perlis, Epigrams in Programming.
@@ -2756,6 +2773,8 @@ it has been rich and improved a lot.
 - Years before 2018, I introduced and demonstrated `the Pure Function Pipeline Data Flow` in QQ and WeChat groups.
 - [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
 - [ebookfoundation.github.io: programming paradigms: The Pure Function Pipeline Data Flow v3.0 ---- the Grand Unified Programming Theory - Lin Pengcheng](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-subjects.html#programming-paradigms)
+- [My twitter: @LinPengchengFA](https://twitter.com/LinPengchengFA)
+- [My reddit: @linpengcheng](https://www.reddit.com/user/linpengcheng)
 
 ## Reference
 
