@@ -42,7 +42,22 @@ Intel’s x86 processor design license is likely to target Chinese companies.
 I think x86 is an outdated design that is about to be phased out.
 Chinese companies should not bid too high.
 
-Reference: [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
+postscript:
+
+- 2022.2.14 News: "Intel's plan to license x86 cores for chips with Arm, RISC-V and more inside"
+
+  I think Intel should use my solution, 
+  Because if Intel wants to implement this solution it has to use my "Warehouse/Shop Model",
+  Because Intel's process is not as precise as the Apple M1's process, 
+  So it can't integrate as much memory as the Apple M1, ie: can't use the standard warehouse/shop model, 
+  can only use variant "dispatch center (virtual global unified warehouse, 
+  integration layer or platform, the parent company of the enterprise group)" model, 
+  and improve the shortcomings of not integrating large memory by increasing the cache.
+
+Reference: 
+
+- 2021-06-11,  Paul Alcorn, [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
+- 2022-02-14, Agam Shah, [Intel's plan to license x86 cores for chips with Arm, RISC-V and more inside](https://www.theregister.com/2022/02/14/intel_x86_licensing/)
 
 - 2021-06-14, I published it on Chinese Sina Weibo.
 - 2021-06-15, I published it on github, twitter, reddit/programming.
