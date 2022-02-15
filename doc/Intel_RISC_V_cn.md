@@ -29,16 +29,17 @@ Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自
 
 后记:
 
-2022.2.14新闻:《Intel计划将x86内核授权用于内置Arm，RISC-V等的芯片》,
-我想Intel应该是使用我的方案, 
-因为实现这个方案须使用我的"仓库/车间模型", 因为Intel的制程没有Apple M1精密, 
-所以没办法象 Apple M1 那样集成大内存, 使用标准的仓库/车间模型, 
-只能使用没有集成大内存的变种"调度中心（虚拟的全局统一仓库, 集成层或平台, 企业集团的母公司）"模式, 
-并通过加大缓存改善没有集成大内存的缺点.
+- 2022.2.14新闻:《Intel计划将x86内核授权用于内置Arm，RISC-V等的芯片》
+
+  我想Intel应该是使用我的方案, 
+  因为实现这个方案须使用我的"仓库/车间模型", 因为Intel的制程没有Apple M1精密, 
+  所以没办法象 Apple M1 那样集成大内存, 使用标准的仓库/车间模型, 
+  只能使用没有集成大内存的变种"调度中心（虚拟的全局统一仓库, 集成层或平台, 企业集团的母公司）"模式, 
+  并通过加大缓存改善没有集成大内存的缺点.
 
 参考：
-- 2021-06-11, [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
-- 2022-02-14, [Intel's plan to license x86 cores for chips with Arm, RISC-V and more inside](https://www.theregister.com/2022/02/14/intel_x86_licensing/)
+- 2021-06-11, Paul Alcorn, [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
+- 2022-02-14, Agam Shah, [Intel's plan to license x86 cores for chips with Arm, RISC-V and more inside](https://www.theregister.com/2022/02/14/intel_x86_licensing/)
 
 - 2021-06-14, 首发在新浪微博.
 - 2021-06-15, 发布在 github, twitter, reddit/programming.
