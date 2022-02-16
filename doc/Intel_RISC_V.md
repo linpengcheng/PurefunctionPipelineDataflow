@@ -52,12 +52,16 @@ postscript:
   So it can't integrate as much memory as the Apple M1, ie: can't use the standard warehouse/shop model, 
   can only use variant "dispatch center (virtual global unified warehouse, 
   integration layer or platform, the parent company of the enterprise group)" model, 
-  and improve the shortcomings of not integrating large memory by increasing the cache.
+  and improve the shortcomings of not integrating large memory by increasing the cache, 
+  This seems to implement a large repository as a two-level repository: 
+  a small integrated warehouse (cache) and a large external warehouse (memory).
 
 Reference: 
 
 - 2021-06-11,  Paul Alcorn, [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
 - 2022-02-14, Agam Shah, [Intel's plan to license x86 cores for chips with Arm, RISC-V and more inside](https://www.theregister.com/2022/02/14/intel_x86_licensing/)
+- [The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/OS_as_DB_en.md)
+- [Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md)
 
 - 2021-06-14, I published it on Chinese Sina Weibo.
 - 2021-06-15, I published it on github, twitter, reddit/programming.
