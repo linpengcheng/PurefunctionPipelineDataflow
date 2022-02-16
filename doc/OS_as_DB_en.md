@@ -1,4 +1,6 @@
-# In the future, OS will be a DB, and Clojure will be the best DML
+# The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram)
+
+---- In the future, OS will be a DB-like, and Clojure will be the best DML
 
 Copyright © 2021.11.15 Lin Pengcheng, all rights reserved.
 
