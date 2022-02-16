@@ -77,6 +77,8 @@ AVX-512 的主要场景为图像/音视频处理、数据分析、科学计算�
 
 - 2018-2-13, [大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md)
 
+- [未来的OS内核将是一个面向数据的调度器（带有计算机硬件和软件集成架构图）](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/OS_as_DB_cn.md)
+
 - 2020-11-30, [Developer Delves Into Reasons Why Apple's M1 Chip is So Fast](https://www.macrumors.com/2020/11/30/m1-chip-speed-explanation-developer/)
 
 - 2020-7-13, [Linus Torvalds: I hope Intel's AVX-512 'dies a painful death'](https://www.zdnet.com/article/linus-torvalds-i-hope-intels-avx-512-dies-a-painful-death/)
