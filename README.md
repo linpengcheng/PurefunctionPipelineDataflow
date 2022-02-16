@@ -2614,6 +2614,10 @@ Imagination is more important than knowledge.
 The true sign of intelligence is not knowledge but imagination.
 Logic will get you from A to B, imagination will take you everywhere.
         ---- Albert Einstein
+        
+The key to interdisciplinary research and innovation:
+Catch the simple and unified thing.
+        ---- Lin Pengcheng
 ```
 
 Similar to The most valuable chapter of “Code Complete”----Chapter 2 Metaphors for a Richer Understanding of Software Development, I tend to inspire readers to discover useful patterns from life, work and personal interests, which are then used as solutions for development, rather than to apply mechanically other people’s cases.
