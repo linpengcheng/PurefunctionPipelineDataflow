@@ -47,9 +47,9 @@ postscript:
 - 2022.2.14 News: "Intel's plan to license x86 cores for chips with Arm, RISC-V and more inside"
 
   I think Intel should use my solution, 
-  Because if Intel wants to implement this solution it has to use my "Warehouse/Shop Model",
-  Because Intel's process is not as precise as the Apple M1's process, 
-  So it can't integrate as much memory as the Apple M1, ie: can't use the standard warehouse/shop model, 
+  Because if Intel wants to implement this solution it has to use my "Warehouse/Workshop Model",
+  Because Intel's 10nm process is not as precise as the Apple M1's 5nm process, 
+  So it can't integrate as much memory as the Apple M1, ie: can't use the standard warehouse/workshop model, 
   can only use variant "dispatch center (virtual global unified warehouse, 
   integration layer or platform, the parent company of the enterprise group)" model, 
   and improve the shortcomings of not integrating large memory by increasing the cache, 
