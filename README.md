@@ -2101,7 +2101,7 @@ Used to implement my mind, The Pure Function Pipeline Data Flow is the simplest,
 There is a great poet Bai Juyi in China. even illiteracy understands and appreciates his poetry. 
 I hope that my code can be understood by the junior programmer even in the most complicated system.
 
-See also: [`Traditional OO architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-architecture-VS-Warehouse-Workshop-Model)
+See also: [`Traditional OO&FP architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
 
 ### The difference between it Data-oriented Data-driven
 
