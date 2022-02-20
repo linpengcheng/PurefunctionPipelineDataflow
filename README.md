@@ -39,7 +39,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Everything is unified](#Everything-is-unified)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification with object-oriented](#The-unification-with-object-oriented)
-      - [`Traditional OO architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-architecture-VS-Warehouse-Workshop-Model)
+      - [`Traditional OO&FP architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
       - [async/await, Project Loom fiber, Gantt Chart, and Scientific Management](#async)
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
@@ -250,12 +250,16 @@ Element level separation of data and logic, data stream processing.
 ;;[4 5 187 156 -9]
 ```
 
-For me, programming is the process of designing a data model that is simple and fluent in manipulation. 
+```
+The programming is the process of designing a data model that is simple and fluent in manipulation. 
+        ---- Lin Pengcheng
+```
+
+For me, The programming is the process of designing a data model that is simple and fluent in manipulation. 
 More than 80% functions of my project is `->>` threading macro code block, 
 each step is simple, verifiable, replaceable, testable, pluggable, extensible,
 and easy to implement multithreading. 
 My article makes development a simple task of serial and parallel functional pipelined "CRUD". 
-
 
 The clojure threading macro provides language-level support for PurefunctionPipeline&Dataflow.
 
@@ -1279,15 +1283,15 @@ but The workshop is connected with data services (object status, warehouse) to f
 
 ![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
-<h5 id="Traditional-OO-architecture-VS-Warehouse-Workshop-Model">Traditional OO architecture VS. Warehouse/Workshop Model</h5>
+<h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model">Traditional OO&FP architecture VS. Warehouse/Workshop Model</h5>
 
-- Traditional OO architecture
+- Traditional OO&FP architecture
 
   There is no definite, operational theoretical basis 
   for design and evaluation, the design is very random, 
-  and there are not many good OO architectures. 
+  and there are not many good OO&FP architectures. 
   
-  In the same case, the OO architectures designed 
+  In the same case, the OO&FP architectures designed 
   by different people are very different, 
   and it is difficult to evaluate the pros and cons. 
   For this situation, it is generally called lack of scientificity.
