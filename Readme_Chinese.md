@@ -1644,7 +1644,7 @@ FP推崇的类型系统，为了不手写类型而用HM类型系统“推导”�
 我倾向于用最简单的概念和最基本的技术、语法和函数构建系统，用来实现我的思想，纯函数管道数据流是最简单、稳定、可靠、可读性强. 
 在中国有一位伟大的诗人白居易，甚至文盲也理解和欣赏他的诗歌。 我希望即使在最复杂的系统中，初级程序员也能理解我的代码。
 
-另见: [`传统OO系统架构`与`仓库/车间模型`的比较](#Traditional-OO-architecture-VS-Warehouse-Workshop-Model-CN)
+另见: [`传统OO&FP系统架构`与`仓库/车间模型`的比较](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN)
 
 ### 它和数据驱动编程及面向数据编程的区别
 
