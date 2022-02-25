@@ -47,8 +47,8 @@ Dharma Shukla, and etc.(Microsoft),
   因此它和我的架构图都是树形，
   它的表达方式容易让人误解它的架构形状。
   
-- 备注: 红字是我增加的标注，读者可以看出它与我的架构图是高度一致的。
-  我的标注把它缺失的微服务架构信息也补足了, 更完美.
+- **备注: 红字是我增加的标注，读者可以看出它与我的架构图是高度一致的。
+  我的标注把它缺失的微服务架构信息也补足了, 更完美.**
 
 - **重要提醒: 他们忘记了在参考文献加上我的文章的引用。**
 
@@ -92,7 +92,8 @@ Dharma Shukla, and etc.(Microsoft),
   - [和信息系统集成模型的统一](../Readme_Chinese.md#和信息系统集成模型的统一)
   - [与面向对象的统一](../Readme_Chinese.md#与面向对象的统一)
     - [传统OO&FP系统架构与仓库/车间模型的比较](../Readme_Chinese.md#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN)
-
+  - 2021.11.15, [未来OS内核将是一个面向数据的调度器(附带计算机软硬件集成架构图)](./OS_as_DB_cn.md)
+  
 - 2022-02-16(v1), 2022-02-21(v2), arxiv.org, [Singularity: Planet-Scale, Preemptive and Elastic Scheduling of AI Workloads](https://arxiv.org/abs/2202.07848)
   
   作者: Dharma Shukla, Muthian Sivathanu, Srinidhi Viswanatha, Bhargav Gulavani, Rimma Nehme, Amey Agrawal, 
