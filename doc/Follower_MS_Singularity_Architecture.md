@@ -61,7 +61,7 @@ Dharma Shukla, and etc.(Microsoft),
 
 ![Computer_Hardware_Architecture](./Computer_Hardware_Architecture.png)
 
-2. 集成服务(调度中心, 虚拟仓库)与微服务架构图
+2. 集成服务(调度中心, 虚拟仓库)与微服务架构图(2021-03-01 v1, 2021-04-29 v1r1)
 
 ![Microservice_Architecture](./Microservice_Architecture-v1r1.png)
 
