@@ -33,7 +33,7 @@ Dharma Shukla, and etc.(Microsoft),
   注意：它的上下层次关系是1:n的关系，
   因此它和我的架构图都是树形，
   它的表达方式容易让人误解它的架构形状。
-- 备注: 红字是我增加的标注，方便读者比较。
+- 备注: 红字是我增加的标注，读者可以看出它与我的架构图是高度一致的。
 
 ![MS_Singularity_Architecture_With_Note](./image/MS_Singularity_Architecture_With_Note.jpg)
 
@@ -53,12 +53,13 @@ Dharma Shukla, and etc.(Microsoft),
   - [和计算机硬件体系的统一](../Readme_Chinese.md#和计算机硬件体系的统一)
   - [和信息系统集成模型的统一](../Readme_Chinese.md#和信息系统集成模型的统一)
 
-- 2022-02-16(v1), 2022-02-21(v2), Dharma Shukla, and etc. (Microsoft), [Singularity: Planet-Scale, Preemptive and Elastic Scheduling of AI Workloads](https://arxiv.org/abs/2202.07848)
+- 2022-02-16(v1), 2022-02-21(v2), arxiv.org, Dharma Shukla, Muthian Sivathanu, Srinidhi Viswanatha, Bhargav Gulavani, Rimma Nehme, Amey Agrawal, Chen Chen, Nipun Kwatra, Ramachandran Ramjee, Pankaj Sharma, Atul Katiyar, Vipul Modi, Vaibhav Sharma, Abhishek Singh, Shreshth Singhal, Kaustubh Welankar, Lu Xun, Ravi Anupindi, Karthik Elangovan, Hasibur Rahman, Zhou Lin, Rahul Seetharaman, Cheng Xu, Eddie Ailijiang, Suresh Krishnappa, Mark Russinovich (Microsoft), [Singularity: Planet-Scale, Preemptive and Elastic Scheduling of AI Workloads](https://arxiv.org/abs/2202.07848)
 
-  这篇论文的作者包括 Azure 首席技术官 Mark Russinovich；
-  合作伙伴架构师 Rimma Nehme，他曾在 Azure Cosmos DB 工作，
-  直到 2019 年转到 Azure 从事人工智能和深度学习工作；
-  以及技术研究员 Dharma Shukla等。
+  这篇论文的作者包括:
+  - Azure 首席技术官 Mark Russinovich；
+  - 合作伙伴架构师 Rimma Nehme，他曾在 Azure Cosmos DB 工作，
+    直到 2019 年转到 Azure 从事人工智能和深度学习工作；
+  - 技术研究员 Dharma Shukla等。
 
 - 2022-02-23，新智元，[「奇点」AI计算平台细节曝光！竟是微软四年前老项目重生](https://www.51cto.com/article/702316.html)
 
