@@ -2,7 +2,7 @@
 
 版权所有 © 2022-02-25 林鹏程， 保留所有权利。
 
-在[「奇点」AI计算平台细节曝光！竟是微软四年前老项目重生](https://www.51cto.com/article/702316.html)中,
+在2022-02-23，[「奇点」AI计算平台细节曝光！竟是微软四年前老项目重生](https://www.51cto.com/article/702316.html)中,
 
 > ZD Net报道称，Singularity 可能是将微软此前推出的 Brainwave 项目推向商业化的下一个阶段。
 > 
