@@ -53,7 +53,7 @@ Dharma Shukla, and etc.(Microsoft),
 
 2022-02-16(v1), 2022-02-21(v2), 微软Singularity AI计算平台的架构
 
-![MS_Singularity_Architecture_With_Note](./image/MS_Singularity_Architecture_With_Note_v1r1.jpg)
+![MS_Singularity_Architecture_With_Note](./image/MS_Singularity_Architecture_With_Note_v1r2.jpg)
 
 我在2021-04-29画的两张最相似的架构图
 
@@ -65,9 +65,11 @@ Dharma Shukla, and etc.(Microsoft),
 
 ![Microservice_Architecture](./Microservice_Architecture-v1r1.png)
 
-2021-06-20, 标准仓库/车间模型硬件架构图
+2021-06-20, v1, [标准仓库/车间模型硬件架构图](./Computer-Hardware-Star-WWM.svg)
 
-![Computer-Hardware-Star-Architecture](./Computer-Hardware-Star-WWM.svg)
+2021-11-15, v2, 计算机软硬件集成架构图
+
+![计算机软硬件集成架构图](./image/OS-Star-WWM.svg)
 
 微软2018年Brainwave项目架构图
 
@@ -85,8 +87,10 @@ Dharma Shukla, and etc.(Microsoft),
         - ...
   - [单一领导和统一调度](../Readme_Chinese.md#单一领导和统一调度)
   - [和计算机硬件体系的统一](../Readme_Chinese.md#和计算机硬件体系的统一)
-  - [微服务和智能线程的统一](#微服务和智能线程的统一)
+  - [微服务和智能线程的统一](../Readme_Chinese.md#微服务和智能线程的统一)
   - [和信息系统集成模型的统一](../Readme_Chinese.md#和信息系统集成模型的统一)
+  - [与面向对象的统一](../Readme_Chinese.md#与面向对象的统一)
+    - [传统OO&FP系统架构与仓库/车间模型的比较](../Readme_Chinese.md#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN)
 
 - 2022-02-16(v1), 2022-02-21(v2), arxiv.org, [Singularity: Planet-Scale, Preemptive and Elastic Scheduling of AI Workloads](https://arxiv.org/abs/2202.07848)
   
