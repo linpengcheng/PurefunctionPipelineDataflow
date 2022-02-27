@@ -75,10 +75,10 @@ and [my Warehouse/Workshop Model diagram I drew on 2021-04-29](./Computer_Hardwa
   > of scheduling `micro-services` at the global, 
   > regional and workload scopes.
 
-  Note: Its hierarchical relationship is a 1:n relationship, 
+  **Note: Its hierarchical relationship is a 1:n relationship, 
   so it and my Warehouse/Workshop Model diagram are tree-shaped, 
   and its expression is easy to misunderstand 
-  its architectural shape.
+  its architectural shape.**
   
 - **Note: The red text is the annotation I added, 
   and the reader can see that it is highly consistent 
