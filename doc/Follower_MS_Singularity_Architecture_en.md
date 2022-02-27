@@ -16,8 +16,9 @@ Dharma Shukla, and etc.(Microsoft),
 > of AI accelerators (e.g., GPUs, FPGAs). 
 
 From its architecture diagram, 
-its architecture is highly consistent with the 
-**`"dispatch center (Virtual Unified Warehouse, 
+its architecture is highly consistent with 
+a variant of my Warehouse/Workshop Model: 
+the **`"dispatch center (Virtual Unified Warehouse, 
 integration layer or platform, the parent company 
 of the enterprise group)" model`**, 
 which only adds content about transparently preempt
