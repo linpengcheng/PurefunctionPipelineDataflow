@@ -31,7 +31,7 @@ which is also a helpless choice for large-scale
 distributed cloud services, if you can, 
 try not to have too many levels.
 
-2022-02-22, [Microsoft goes public with details on its 'Singularity' AI infrastructure service](https://www.zdnet.com/article/microsoft-goes-public-with-details-on-its-singularity-ai-infrastructure-service/)
+2022-02-22, Mary Jo Foley @ www.zdnet.com, [Microsoft goes public with details on its 'Singularity' AI infrastructure service](https://www.zdnet.com/article/microsoft-goes-public-with-details-on-its-singularity-ai-infrastructure-service/)
 
 > Microsoft officials previously have discussed plans 
 > to make FPGAs, or field-programmable gate arrays, 
@@ -92,14 +92,14 @@ and [my Warehouse/Workshop Model diagram I drew on 2021-04-29](./Computer_Hardwa
 2022-02-16(v1), 2022-02-21(v2), Microsoft's AI computing platform Singularity's architecture
 
 <table>
-	<tr align="middle">
-		<th>2018 MS Brainwave Architecture</th>
-		<th>2022.02 MS Singularity Architecture</th>
-	</tr>
-	<tr>
-		<td><img src="./image/MS_Brainwave_Architecture.png" /></td>
-		<td><img src="./image/MS_Singularity_Architecture.jpg" /></td>
-	</tr>
+  <tr align="middle">
+    <th>2018 MS Brainwave Architecture</th>
+    <th>2022.02 MS Singularity Architecture</th>
+  </tr>
+  <tr>
+    <td><img src="./image/MS_Brainwave_Architecture.png" /></td>
+    <td><img src="./image/MS_Singularity_Architecture.jpg" /></td>
+  </tr>
 </table>
 
 Microsoft Singularity Architecture with my annotations.
@@ -119,11 +119,18 @@ Microsoft Singularity Architecture with my annotations.
 
 ![Microservice_Architecture](./Microservice_Architecture-v1r1.png)
 
-2021-06-20, v1, [Standard Warehouse/Workshop Model hardware architecture diagram](./Computer-Hardware-Star-WWM.svg)
+Standard Warehouse/Workshop Model architecture diagram
 
-2021-11-15, v2, Computer hardware and software integration architecture diagram
-
-![Computer hardware and software integration architecture diagram](./image/OS-Star-WWM.svg)
+<table>
+  <tr align="middle">
+    <th>2021-06-20, hardware architecture diagram</th>
+    <th>2021-11-15, hardware and software integration architecture diagram</th>
+  </tr>
+  <tr>
+    <td><img src="./Computer-Hardware-Star-WWM.svg" /></td>
+    <td><img src="./image/OS-Star-WWM.svg" /></td>
+  </tr>
+</table>
 
 ## Reference
 
@@ -175,4 +182,4 @@ Microsoft Singularity Architecture with my annotations.
   **Important Note: They forgot to add citations 
   to my articles in the references.**
   
-- 2022-02-22, [Microsoft goes public with details on its 'Singularity' AI infrastructure service](https://www.zdnet.com/article/microsoft-goes-public-with-details-on-its-singularity-ai-infrastructure-service/)
+- 2022-02-22, Mary Jo Foley @ www.zdnet.com, [Microsoft goes public with details on its 'Singularity' AI infrastructure service](https://www.zdnet.com/article/microsoft-goes-public-with-details-on-its-singularity-ai-infrastructure-service/)
