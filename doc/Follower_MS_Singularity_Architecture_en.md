@@ -132,6 +132,19 @@ Standard Warehouse/Workshop Model architecture diagram
   </tr>
 </table>
 
+Standard Warehouse/Workshop Model software architecture diagram
+
+<table>
+  <tr align="middle">
+    <th>2019-02-04, v1</th>
+    <th>2020-12-03, v2</th>
+  </tr>
+  <tr>
+    <td><img src="./Warehouse-Workshop-Model.svg" /></td>
+    <td><img src="./Warehouse-Workshop-Model-v2.svg" /></td>
+  </tr>
+</table>
+
 ## Reference
 
 - 2018-02-13, Lin Pengcheng, [The Math-based Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
