@@ -676,13 +676,14 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
       it is difficult to guarantee that they can do this.
       - Traditional computer science uses 
         preemptive multitasking to schedule tasks, 
-        forcing division of labor in resource competition, 
+        forcing division of tasks in resource competition, 
         preventing inappropriate or long-term computing tasks 
         from occupying resources and causing other services 
         to wait for a long time. both service providers and
         external users cannot control and optimize tasks well, 
         and lack certainty and predictability of task execution 
         (path, timing, and results).
+        So it's not a high-performance method, just a simple and crude method.
       - If the method of manufacturing industry is adopted, 
         the service provider will provide a list of various 
         types of products (resource use rights), 
@@ -881,13 +882,14 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
       it is difficult to guarantee that they can do this.
       - Traditional computer science uses 
         preemptive multitasking to schedule tasks, 
-        forcing division of labor in resource competition, 
+        forcing division of tasks in resource competition, 
         preventing inappropriate or long-term computing tasks 
         from occupying resources and causing other services 
         to wait for a long time. both service providers and
         external users cannot control and optimize tasks well, 
         and lack certainty and predictability of task execution 
         (path, timing, and results).
+        So it's not a high-performance method, just a simple and crude method.
       - If the method of manufacturing industry is adopted, 
         the service provider will provide a list of various 
         types of products (resource use rights), 
