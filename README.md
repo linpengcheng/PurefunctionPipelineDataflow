@@ -689,6 +689,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
         types of products (resource use rights), 
         Or to put it another way, if tasks cannot be standardized, 
         then standardize various resource usage rights to the task level.
+        That is, if standardized products cannot be provided, 
+        then standardized production raw materials should be provided.
         and external users will issue orders to 
         purchase products (resource use rights) 
         according to the needs of the task, 
@@ -895,6 +897,8 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
         types of products (resource use rights), 
         Or to put it another way, if tasks cannot be standardized, 
         then standardize various resource usage rights to the task level.
+        That is, if standardized products cannot be provided, 
+        then standardized production raw materials should be provided.
         and external users will issue orders to 
         purchase products (resource use rights) 
         according to the needs of the task, 
