@@ -684,25 +684,22 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
         and lack certainty and predictability of task execution 
         (path, timing, and results).
         So it's not a high-performance method, just a simple and crude method.
-      - If the method of manufacturing industry is adopted, 
-        the service provider will provide a list of various 
-        types of products (resource use rights), 
-        Or to put it another way, if tasks cannot be standardized, 
-        then standardize various resource usage rights to the task level.
-        That is, if standardized products cannot be provided, 
-        then standardized production raw materials should be provided.
-        and external users will issue orders to 
-        purchase products (resource use rights) 
-        according to the needs of the task, 
-        and after the transaction is successful, 
-        the resource use rights will be obtained 
-        to run the task , this active control is 
-        handed over to external users, 
-        both service providers and external users 
-        can better control and optimize tasks, 
-        and help to enhance the certainty and 
-        predictability of task execution 
-        (path, timing, and results).
+      - If the manufacturing industry method is adopted, 
+        various types of standardized products (resource use rights) lists 
+        are provided by service providers, because tasks are difficult to unify and standardize, 
+        so it is difficult to measure and schedule, while resources can be simplified, 
+        Unification and standardization, standardized resources and data flow units can be used as 
+        calculation units for quantitative analysis according to the formula of mathematical prototypes, 
+        so it is natural to change scheduling tasks to scheduling resources. 
+        This idea is consistent with the idea of data flow. 
+        the external user program issues the purchase product (resource use right) order 
+        according to the needs of the task plan during the running period, 
+        obtains the resource use right to run the task after the transaction is successful, 
+        and finally returns the result to the external user. 
+        This kind of active control is handed over to the external user, 
+        both service providers and external users can better control and optimize tasks, 
+        and help to enhance the certainty and predictability of task execution 
+        (path, timing, and results). 
 
   - It may not have an ordinary workshop, 
     at this time it is just a data center 
@@ -892,25 +889,22 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
         and lack certainty and predictability of task execution 
         (path, timing, and results).
         So it's not a high-performance method, just a simple and crude method.
-      - If the method of manufacturing industry is adopted, 
-        the service provider will provide a list of various 
-        types of products (resource use rights), 
-        Or to put it another way, if tasks cannot be standardized, 
-        then standardize various resource usage rights to the task level.
-        That is, if standardized products cannot be provided, 
-        then standardized production raw materials should be provided.
-        and external users will issue orders to 
-        purchase products (resource use rights) 
-        according to the needs of the task, 
-        and after the transaction is successful, 
-        the resource use rights will be obtained 
-        to run the task , this active control is 
-        handed over to external users, 
-        both service providers and external users 
-        can better control and optimize tasks, 
-        and help to enhance the certainty and 
-        predictability of task execution 
-        (path, timing, and results).    
+      - If the manufacturing industry method is adopted, 
+        various types of standardized products (resource use rights) lists 
+        are provided by service providers, because tasks are difficult to unify and standardize, 
+        so it is difficult to measure and schedule, while resources can be simplified, 
+        Unification and standardization, standardized resources and data flow units can be used as 
+        calculation units for quantitative analysis according to the formula of mathematical prototypes, 
+        so it is natural to change scheduling tasks to scheduling resources. 
+        This idea is consistent with the idea of data flow. 
+        the external user program issues the purchase product (resource use right) order 
+        according to the needs of the task plan during the running period, 
+        obtains the resource use right to run the task after the transaction is successful, 
+        and finally returns the result to the external user. 
+        This kind of active control is handed over to the external user, 
+        both service providers and external users can better control and optimize tasks, 
+        and help to enhance the certainty and predictability of task execution 
+        (path, timing, and results).   
   - No resource competition and transaction (version) conflicts
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
