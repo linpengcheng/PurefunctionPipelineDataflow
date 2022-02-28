@@ -667,7 +667,40 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     the warehouse scheduler uses Gantt chart algorithm 
     to dynamically plan and schedule the workshop 
     to complete tasks for global optimization.
-    
+    - The task designer is an internal user 
+      who can correctly estimate task time, 
+      dependencies between tasks, 
+      and divide tasks correctly.
+    - If the task designer is an external user, 
+      such as the task designer of a cloud service provider, 
+      it is difficult to guarantee that they can do this.
+      - Traditional computer science uses 
+        preemptive multitasking to schedule tasks, 
+        forcing division of labor in resource competition, 
+        preventing inappropriate or long-term computing tasks 
+        from occupying resources and causing other services 
+        to wait for a long time. both service providers and
+        external users cannot control and optimize tasks well, 
+        and lack certainty and predictability of task execution 
+        (path, timing, and results).
+      - If the method of manufacturing industry is adopted, 
+        the service provider will provide a list of various 
+        types of products (resource use rights), 
+        Or to put it another way, if tasks cannot be standardized, 
+        then standardize various resource usage rights to the task level.
+        and external users will issue orders to 
+        purchase products (resource use rights) 
+        according to the needs of the task, 
+        and after the transaction is successful, 
+        the resource use rights will be obtained 
+        to run the task , this active control is 
+        handed over to external users, 
+        both service providers and external users 
+        can better control and optimize tasks, 
+        and help to enhance the certainty and 
+        predictability of task execution 
+        (path, timing, and results).
+
   - It may not have an ordinary workshop, 
     at this time it is just a data center 
     (warehousing industry).
@@ -839,6 +872,39 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
     the order of completion of tasks according to 
     the Gantt chart algorithm, and calls the workshop 
     to complete the assigned tasks.
+    - The task designer is an internal user 
+      who can correctly estimate task time, 
+      dependencies between tasks, 
+      and divide tasks correctly.
+    - If the task designer is an external user, 
+      such as the task designer of a cloud service provider, 
+      it is difficult to guarantee that they can do this.
+      - Traditional computer science uses 
+        preemptive multitasking to schedule tasks, 
+        forcing division of labor in resource competition, 
+        preventing inappropriate or long-term computing tasks 
+        from occupying resources and causing other services 
+        to wait for a long time. both service providers and
+        external users cannot control and optimize tasks well, 
+        and lack certainty and predictability of task execution 
+        (path, timing, and results).
+      - If the method of manufacturing industry is adopted, 
+        the service provider will provide a list of various 
+        types of products (resource use rights), 
+        Or to put it another way, if tasks cannot be standardized, 
+        then standardize various resource usage rights to the task level.
+        and external users will issue orders to 
+        purchase products (resource use rights) 
+        according to the needs of the task, 
+        and after the transaction is successful, 
+        the resource use rights will be obtained 
+        to run the task , this active control is 
+        handed over to external users, 
+        both service providers and external users 
+        can better control and optimize tasks, 
+        and help to enhance the certainty and 
+        predictability of task execution 
+        (path, timing, and results).    
   - No resource competition and transaction (version) conflicts
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
