@@ -1147,6 +1147,22 @@ Alan Perlis的这个名言可以看成是IT版的"一个和尚挑水吃, 两个�
     
     - [在 clojureverse 论坛上的相关讨论](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
+备注（2022-03-10）：
+
+- 数据流就像河流和电流，是地球上最大的分布式系统之一。
+
+- 整个仓库/车间模型的所有部件（仓库，调度程序，车间，模型）都可以是分布式的。
+  数据流在它们之间流动。数据流是整个架构的基础，也是第一类。从架构图中可以看出。
+
+- 制造工业中的子公司，分工厂，母公司都是分布式的，资源流(人,财,物)在它们之间流转。
+
+- 制造业中的仓库，有专门的独立外部仓储行业，也有分布式子公司的仓库，它们都可以映射到分布式数据，
+  它们都可以根据我的理论计算出最优配置，我的理论完全支持这类应用场景。
+
+- 2022-03-09 21:42 (UTC+8)，[在r/HPC的讨论](https://www.reddit.com/r/HPC/comments/ta81oa/hpc_on_apple_m1/)
+
+  - 2022-03-09 18：45 （UTC+8）， [我在推特@LinPengchengFA上预测:苹果M1超级计算将发布](https://twitter.com/LinPengchengFA)
+
 <h5 id="async">async/await, Project Loom 纤程, 甘特图和科学管理</h5>
 
 我认为异步是不必要的，`async/await`是一种落后的、必然会被淘汰的模式。
