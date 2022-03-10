@@ -1475,7 +1475,7 @@ Note (2022-03-10):
   which is completely supported by my theory.
   
 - 2022-03-10, [a discussion at r/HPC](https://www.reddit.com/r/HPC/comments/ta81oa/hpc_on_apple_m1/) 
-  - 2022-03-09, [My prediction Apple M1 Super computing will be released on my twitter @LinPengchengFA](https://twitter.com/LinPengchengFA)
+  - 2022-03-09 18:45 (UTC+8), [My prediction Apple M1 Super computing will be released on my twitter @LinPengchengFA](https://twitter.com/LinPengchengFA)
 
 <h5 id="async">async/await, Project Loom fiber, Gantt Chart, and Scientific Management</h5>
 
