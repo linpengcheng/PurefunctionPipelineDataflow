@@ -1458,6 +1458,25 @@ and optimal efficiency can be achieved.
     
     - [Related discussions on clojureverse](https://clojureverse.org/t/fire-and-forget-the-unification-of-single-threaded-multi-threaded-and-asynchronous-programming-technology/6032)
 
+Note (2022-03-10):
+
+- Data flow is like rivers and electricity, one of the largest distributed systems on earth.
+
+- All parts (Warehouse,Scheduler, Workshop, Model) of the entire model can be distributed. 
+  Dataflows flow among them. Data flow is the foundation of the entire architecture and is the first class. 
+  It can be seen from the architecture diagram.
+
+- Manufacturing subsidiaries, sub-plants, parent companies are all distributed, 
+  Material flow and cash flow circulate between them.
+
+- Warehouses in the manufacturing industry, which have specialized independent external warehousing industries, 
+  and there are also distributed subsidiary warehouses, which you can map to distributed data, 
+  and they can all calculate optimal configurations according to my theory, 
+  which is completely supported by my theory.
+  
+- 2022-03-10, [a discussion at r/HPC](https://www.reddit.com/r/HPC/comments/ta81oa/hpc_on_apple_m1/) 
+  - 2022-03-09, [My prediction Apple M1 Super computing will be released on my twitter @LinPengchengFA](https://twitter.com/LinPengchengFA)
+
 <h5 id="async">async/await, Project Loom fiber, Gantt Chart, and Scientific Management</h5>
 
 Asynchronous is unnecessary, `async/await` is a backward 
