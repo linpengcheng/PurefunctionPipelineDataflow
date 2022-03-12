@@ -661,6 +661,18 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     (status, data, and functions are also data). 
     It has two special side-effect pipelines (I/O) 
     that are connected to the outside world.
+    
+    2022-03-12 Note: My theory is built under the architecture of Principle-based Warehouse/Workshop Model, 
+    The separation of data and logic is the basis for implementation, 
+    but It does not recommend "Defer Side Effects Until the Last Possible Step", 
+    it just treats side effects as a special professional 
+    workshop according to the principle of [Division of tasks](#Division-of-tasks), 
+    and is scheduled by the scheduler like ordinary workshops. 
+    It simply divides tasks at resource contention points 
+    according to their professions and the Gantt chart algorithm, 
+    and allows professional people (departments, workshops) to do professional things 
+    and unify the scheduling in an optimal way, not delaying but optimal.
+    [A discussion in r/programming](https://www.reddit.com/r/programming/comments/tayy1m/some_benefits_of_simple_software_architectures/i06ipgb/?context=3)
   
   - It has a scheduler, the warehouse scheduler and 
     the workshop are **1: n relationship**, 
