@@ -181,6 +181,8 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   
   - Why would they stand against a great truth? 
   
+  - What role do they play in this act?
+  
   I have always believed that such irrational and unscientific attitudes and behaviors can be ignored.
 
 ## My and Other Peoples Related Views
