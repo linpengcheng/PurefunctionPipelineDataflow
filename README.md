@@ -175,9 +175,13 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   this picture and the self-aggrandizing language. 
   but it is also my claim or argument, I don't mind being downvoted,
   I just prefer that they prove my argument wrong at the same time. 
-  If they can't prove me wrong, I don't quite understand why they hate a great truth so much, 
-  This is unreasonable and unscientific attitude and behavior. 
-  I have always believed that such attitudes or behaviors can be ignored.
+  If they can't prove me wrong, They should reflect: 
+  
+  - Why do they hate a great truth so much? 
+  
+  - Why would they stand against a great truth? 
+  
+  I have always believed that such irrational and unscientific attitudes and behaviors can be ignored.
 
 ## My and Other Peoples Related Views
 
