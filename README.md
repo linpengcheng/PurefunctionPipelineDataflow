@@ -1,4 +1,4 @@
-[goto Chinese edition (中文版)](./Readme_Chinese.md)
+[goto Chinese edition (中文版)](./Readme_Chinese.md) &ensp;&ensp;&ensp;&ensp;
 [Success Story](./doc/SuccessStory.md)
 
 # The Math-based Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
