@@ -1,4 +1,5 @@
-[goto English edition (英文版)](./README.md)
+[goto English edition (英文版)](./README.md) &ensp;&ensp;&ensp;&ensp;
+[Success Story](./doc/SuccessStory.md)
 
 # 基于数学的大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型
 
@@ -124,6 +125,7 @@
     因为"冯·诺依曼体系结构"缺乏数学模型支持, 无法证明其科学性.
     - [追随者案例: 苹果M1芯片](#追随者案例苹果M1芯片)
     - [2021-04 HPE Cray超级计算机官方推特2次点赞本理论](#2021-04-HPE-Cray超级计算机官方推特2次点赞本理论)
+    - [Success Story](./doc/SuccessStory.md)
 
 - [调度器（调度函数）根据甘特图算法动态规划任务的完成顺序，并调用车间以完成分配的任务。这种方法是最有效的，并且没有资源竞争和事务冲突。](#单一领导和统一调度)
 
@@ -156,7 +158,7 @@
   留言告诉我, 如果能简介一下更好)
   所以, 我的理论是最接近"道"的理论.
   
-- 最科学、最简单、最生动、最形象、最完美的IT理论体系图，高端大气上档次，通俗易懂接地气。
+- 最科学、最简单、最生动、最形象、最完美的IT理论体系图，高端大气上档次，通俗易懂接地气。[Success Story](./doc/SuccessStory.md)
   
   ![IT Theory System](./doc/image/My-IT-TheoryCN.jpg)
   
@@ -1950,7 +1952,7 @@ Clojure只是向JVM添加了四个持久集合和一些核心函数，并用四�
 
 ## 重大历史意义
 
-最科学、最简单、最生动、最形象、最完美的IT理论体系图，高端大气上档次，通俗易懂接地气。
+最科学、最简单、最生动、最形象、最完美的IT理论体系图，高端大气上档次，通俗易懂接地气。[Success Story](./doc/SuccessStory.md)
   
 ![IT Theory System](./doc/image/My-IT-TheoryCN.jpg)
 
