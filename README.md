@@ -693,14 +693,17 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
     the warehouse scheduler uses Gantt chart algorithm 
     to dynamically plan and schedule the workshop 
     to complete tasks for global optimization.
-    - The task designer is an internal user 
+    - **Standard Gantt chart algorithm dynamic programming scheduling**: 
+      The task designer is an internal user 
       who can correctly estimate task time, 
       dependencies between tasks, 
       and divide tasks correctly.
+      This is the optimal scheduling algorithm.
     - If the task designer is an external user, 
       such as the task designer of a cloud service provider, 
       it is difficult to guarantee that they can do this.
-      - Traditional computer science uses 
+      - **Preemptive multitasking scheduling**: 
+        Traditional computer science uses 
         preemptive multitasking to schedule tasks, 
         forcing division of tasks in resource competition, 
         preventing inappropriate or long-term computing tasks 
@@ -710,7 +713,14 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
         and lack certainty and predictability of task execution 
         (path, timing, and results).
         So it's not a high-performance method, just a simple and crude method.
-      - If the manufacturing industry method is adopted, 
+        It schedules tasks by priority and time slice, 
+        which is usually short (5ms-800ms on Linux), 
+        resulting in a lot of unnecessary task switching overhead.
+        [Preemption (computing)- Wikipedia](https://en.wikipedia.org/wiki/Preemption_(computing))
+      - **Contract Scheduling (Mixed Mode Scheduling, Scheduling by Resource)**(2022-02-28): 
+        If the manufacturing industry method is adopted, 
+        Cloud service providers customize resources into data flow and 
+        computing flow services in standard units of different levels and types. 
         various types of standardized products (resource use rights) lists 
         are provided by service providers, because tasks are difficult to unify and standardize, 
         so it is difficult to measure and schedule, while resources can be simplified, 
@@ -726,6 +736,11 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
         both service providers and external users can better control and optimize tasks, 
         and help to enhance the certainty and predictability of task execution 
         (path, timing, and results). 
+        Its optimization effect is close to the standard standard Gantt chart algorithm 
+        dynamic programming scheduling, far exceeding preemptive multitasking scheduling. 
+        Cloud service providers and users strictly trade according to the contract, 
+        which is also a more accurate measurement, more guaranteed service quality, 
+        and more rigorous business transaction method.
 
   - It may not have an ordinary workshop, 
     at this time it is just a data center 
@@ -898,14 +913,17 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
     the order of completion of tasks according to 
     the Gantt chart algorithm, and calls the workshop 
     to complete the assigned tasks.
-    - The task designer is an internal user 
+    - **Standard Gantt chart algorithm dynamic programming scheduling**: 
+      The task designer is an internal user 
       who can correctly estimate task time, 
       dependencies between tasks, 
       and divide tasks correctly.
+      This is the optimal scheduling algorithm.
     - If the task designer is an external user, 
       such as the task designer of a cloud service provider, 
       it is difficult to guarantee that they can do this.
-      - Traditional computer science uses 
+      - **Preemptive multitasking scheduling**: 
+        Traditional computer science uses 
         preemptive multitasking to schedule tasks, 
         forcing division of tasks in resource competition, 
         preventing inappropriate or long-term computing tasks 
@@ -915,7 +933,14 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
         and lack certainty and predictability of task execution 
         (path, timing, and results).
         So it's not a high-performance method, just a simple and crude method.
-      - If the manufacturing industry method is adopted, 
+        It schedules tasks by priority and time slice, 
+        which is usually short (5ms-800ms on Linux), 
+        resulting in a lot of unnecessary task switching overhead.
+        [Preemption (computing)- Wikipedia](https://en.wikipedia.org/wiki/Preemption_(computing))
+      - **Contract Scheduling (Mixed Mode Scheduling, Scheduling by Resource)**(2022-02-28): 
+        If the manufacturing industry method is adopted, 
+        Cloud service providers customize resources into data flow and 
+        computing flow services in standard units of different levels and types. 
         various types of standardized products (resource use rights) lists 
         are provided by service providers, because tasks are difficult to unify and standardize, 
         so it is difficult to measure and schedule, while resources can be simplified, 
@@ -930,7 +955,12 @@ and all side effects (similar to persistence, distributed, etc.) are completed b
         This kind of active control is handed over to the external user, 
         both service providers and external users can better control and optimize tasks, 
         and help to enhance the certainty and predictability of task execution 
-        (path, timing, and results).   
+        (path, timing, and results). 
+        Its optimization effect is close to the standard standard Gantt chart algorithm 
+        dynamic programming scheduling, far exceeding preemptive multitasking scheduling. 
+        Cloud service providers and users strictly trade according to the contract, 
+        which is also a more accurate measurement, more guaranteed service quality, 
+        and more rigorous business transaction method.
   - No resource competition and transaction (version) conflicts
   - This approach is the easiest to optimize 
     the overall efficiency of the system.
@@ -1236,7 +1266,7 @@ The foundation and core of the theory lack mathematical support.
 
 s = vt
 
-s: inflow/outflow volume, computing amount, etc.
+s: Data flow (inflow/outflow volume), computing flow (computing amount), etc.
 v: velocity
 t: time
 
