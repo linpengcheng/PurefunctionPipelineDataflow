@@ -1,4 +1,5 @@
 [goto Chinese edition (中文版)](./Readme_Chinese.md)
+[Success Story](./doc/SuccessStory.md)
 
 # The Math-based Grand Unified Programming Theory: The Pure Function Pipeline Data Flow with Principle-based Warehouse/Workshop Model
 
@@ -133,6 +134,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     Because "von Neumann architecture" lacks mathematical model support, it is impossible to prove its scientificity.
     - [Follower: Apple M1 chip](#Follower-Case-Apple-M1-chip)
     - [HPE Cray Supercomputer likes it twice at twitter in 2021-04](#HPE-Cray-Supercomputer-likes-it-at-twitter-in-2021-04)
+    - [Success Story](./doc/SuccessStory.md)
 
 - [The scheduler (scheduling function) dynamically plans the order of completion of tasks 
   according to the Gantt chart algorithm, and calls the workshop to complete the assigned tasks. 
@@ -168,6 +170,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   Therefore, my theory is the closest to the "Tao" theory.  
   
 - The simplest, most scientific, most vivid, and most perfect IT theoretical system diagram. 
+  [Success Story](./doc/SuccessStory.md)
   
   ![IT Theory System](./doc/image/My-IT-TheoryEN.jpg)
   
@@ -2544,6 +2547,7 @@ Therefore, it solves the problem of Fred Brooks.
 ## Great Historical Significance
 
 The simplest, most scientific, most vivid, and most perfect IT theoretical system diagram. 
+[Success Story](./doc/SuccessStory.md)
   
 ![IT Theory System](./doc/image/My-IT-TheoryEN.jpg)
 
