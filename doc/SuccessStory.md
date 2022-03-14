@@ -91,7 +91,10 @@ I think:
 - Apple & TSMC's chip interconnection method is a mistake. 
   The correct method should be memory interconnection, 
   splicing the memory of two M1 Max into one large memory (or virtual large memory). 
-  Then M1 Ultra is not only A fractal system of warehouse/workshop model, but also a standard warehouse/workshop model.
+  Then M1 Ultra is not only A fractal system of warehouse/workshop model, 
+  but also a standard warehouse/workshop model.
+  It is also a simple and high-performance approach.
+  It can be used as the realization scheme of future M1 Supercomputing.
 
 - In the future, Apple must implement my dispatching center technology 
   and implement OS kernel as DBMS-like ASIC. Currently, only Apple has a complete basic ecosystem. 
