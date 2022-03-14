@@ -7,7 +7,7 @@ Copyright © 2018- Lin Pengcheng. All rights reserved.
 - [Apple M1 chip, MacOS, others](#Apple)
   - [M1 adopted My Warehouse/Workshop Models](#M1)
   - [M1 still needs a lot of optimization work](#M1-still-needs-a-lot-of-optimization-work)
-  - [M1 Ultra](#M1-Ultra)
+  - [M1 Ultra is a mistake](#M1-Ultra-is-a-mistake)
   - [M1 Supercomputing](#M1-Supercomputing)
   - [Almost all CPU and SoC companies are learning M1](#Almost-all-CPU-and-SoC-companies-are-learning-M1)
 - [Intel](#Intel)
@@ -67,11 +67,39 @@ Success Story:
 
 - Apple M1 chip still needs a lot of optimization work, now its optimization level is still very simple, after all, it is only the first generation of works, released in stages.
 
-### M1 Ultra
+### M1 Ultra is a mistake
 
 M1 Ultra use "dispatch center (virtual global unified warehouse, integration layer or platform, the parent company of the enterprise group)" model, which is a variant of warehouse/workshop model. It has two warehouse/workshop models (M1 Max) managed by a single dispatch center.
 
 This model can avoid the complexity of hardware scale too large, It's a simple and fast implementation. 
+
+2022-03-14, I read in the Chinese news 
+(["Apple'S M1 Ultra chip assembly secret found in patent"](https://www.cnbeta.com/articles/tech/1245843.htm)) 
+that M1 Ultra uses UltraFusion encapsulation architecture based on TSMC Cowos-S5 architecture. 
+I saw from the news and Cowos-S5 paper’s abstract (
+[2021-06-01, [Wafer Level System Integration of the Fifth Generation CoWoS®-S with High Performance Si Interposer at 2500 mm2](https://ieeexplore.ieee.org/document/9501649)](https://ieeexplore.ieee.org/document/6575597)) 
+that it is similar to "AMD Infinity Fabric Architecture" and "Intel UCIe" technology, 
+with only chip interconnection function and no scheduler function.
+reference:
+2021-06-01, P. K. Huang; C. Y. Lu; W. H. Wei R&D, Taiwan Semiconductor Manufacturing Company, Ltd., Hsinchu, Taiwan, R.O.C.; [Wafer Level System Integration of the Fifth Generation CoWoS®-S with High Performance Si Interposer at 2500 mm2](https://ieeexplore.ieee.org/document/9501649)
+
+I think:
+
+- TSMC's approach doesn't have a scheduler because it lacks a complete base ecology, 
+  but Apple can use MacOS as a scheduler.
+
+- Apple & TSMC's chip interconnection method is a mistake. 
+  The correct method should be memory interconnection, 
+  splicing the memory of two M1 Max into one large memory (or virtual large memory). 
+  Then M1 Ultra is not only A fractal system of warehouse/workshop model, but also a standard warehouse/workshop model.
+
+- In the future, Apple must implement my dispatching center technology 
+  and implement OS kernel as DBMS-like ASIC. Currently, only Apple has a complete basic ecosystem. 
+  So it's the only one that can do that.
+  reference: [2021.11.15, OS kernel as DBMS-like ASIC: The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/OS_as_DB_en.md)
+
+- MS windows + Intel (AMD), Google android + ARM can also be combined to have a complete base ecosystem, 
+  but the coordination takes a long time.
 
 ### M1 Supercomputing
 
