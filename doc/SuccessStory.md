@@ -2,6 +2,8 @@
 
 Copyright © 2018- Lin Pengcheng. All rights reserved.
 
+This article was written on 2022-03-13.
+
 ## TOC
 
 - [Apple M1 chip, MacOS, others](#Apple)
@@ -94,7 +96,9 @@ I think:
   Then M1 Ultra is not only A fractal system of warehouse/workshop model, 
   but also a standard warehouse/workshop model.
   It is also a simple and high-performance approach.
-  It can be used as the realization scheme of future M1 Supercomputing.
+  It can be used as solution of future M1 Supercomputing.
+  It maintains the consistency of the Architecture of the Apple M Series chips, 
+  so it can maintain the simplicity, uniformity and compatibility of the system.
 
 - In the future, Apple must implement my dispatching center technology 
   and implement OS kernel as DBMS-like ASIC. Currently, only Apple has a complete basic ecosystem. 
