@@ -77,7 +77,7 @@ This model can avoid the complexity of hardware scale too large, It's a simple a
 (["Apple'S M1 Ultra chip assembly secret found in patent"](https://www.cnbeta.com/articles/tech/1245843.htm)) 
 that M1 Ultra uses UltraFusion encapsulation architecture based on TSMC Cowos-S5 architecture. 
 I saw from the news and Cowos-S5 paper’s abstract (
-[2021-06-01, [Wafer Level System Integration of the Fifth Generation CoWoS®-S with High Performance Si Interposer at 2500 mm2](https://ieeexplore.ieee.org/document/9501649)](https://ieeexplore.ieee.org/document/6575597)) 
+[2021-06-01, [Wafer Level System Integration of the Fifth Generation CoWoS®-S with High Performance Si Interposer at 2500 mm2](https://ieeexplore.ieee.org/document/9501649)) 
 that it is similar to "AMD Infinity Fabric Architecture" and "Intel UCIe" technology, 
 with only chip interconnection function and no scheduler function.
 reference:
