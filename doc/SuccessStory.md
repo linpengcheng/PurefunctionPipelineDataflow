@@ -96,7 +96,7 @@ I think:
   The correct method should be memory interconnection, 
   splicing the memory of two M1 Max into one large memory (or virtual large memory). 
   Then M1 Ultra is not only A fractal system of warehouse/workshop model, 
-  but also a **bigger** standard warehouse/workshop model.
+  but also a **bigger** M1 chip (standard warehouse/workshop model).
   Apple has forgotten their previous slogan: "**Bigger Than Bigger**"
   It is also a simple and high-performance approach.
   It can be used as solution of future M1 Supercomputing.
@@ -110,6 +110,8 @@ I think:
 
 - MS windows + Intel (AMD), Google android + ARM can also be combined to have a complete base ecosystem, 
   but the coordination takes a long time.
+  
+Conclusion: Apple's understanding of my theory is not good enough.
 
 ### M1 Supercomputing
 
