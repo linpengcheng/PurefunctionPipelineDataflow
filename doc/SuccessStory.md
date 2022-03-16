@@ -12,6 +12,7 @@ This article was written on 2022-03-13.
   - [M1 adopted My Warehouse/Workshop Models](#M1)
   - [M1 still needs a lot of optimization work](#M1-still-needs-a-lot-of-optimization-work)
   - [M1 Ultra is a mistake](#M1-Ultra-is-a-mistake)
+  - [Why Apple is not the creator of the M1 architecture](#Why-Apple-is-not-the-creator-of-the-M1-architecture)
   - [M1 Supercomputing](#M1-Supercomputing)
   - [Almost all CPU and SoC companies are learning M1](#Almost-all-CPU-and-SoC-companies-are-learning-M1)
 - [Intel](#Intel)
@@ -42,7 +43,7 @@ Success Story:
 
 - [Comparison of Apple M1 chip and My Warehouse/Workshop Model computer hardware architecture](https://github.com/linpengcheng/PurefunctionPipelineDataflow#Follower-Case-Apple-M1-chip)
 
-  - 2019-02-06, My Warehouse/Workshop Model‘s computer hardware architecture  design was published. 
+  - 2019-02-06, My Warehouse/Workshop Model‘s computer hardware architecture design was published on github. 
 
   - 2020-11-11, the Apple M1 chip adopted the "Warehouse/Workshop Model" design and was released.
 
@@ -97,7 +98,9 @@ I think:
   splicing the memory of two M1 Max into one large memory (or virtual large memory). 
   Then M1 Ultra is not only A fractal system of warehouse/workshop model, 
   but also a **bigger** M1 chip (standard warehouse/workshop model).
-  Apple has forgotten their previous slogan: "**Bigger Than Bigger**"
+  ----
+  Apple has forgotten their previous slogan: "**Bigger Than Bigger**".
+  ----
   It is also a simple and high-performance approach.
   It can be used as solution of future M1 Supercomputing.
   It maintains the consistency of the Architecture of the Apple M Series chips, 
@@ -112,6 +115,35 @@ I think:
   but the coordination takes a long time.
   
 Conclusion: Apple's understanding of my theory is not good enough.
+
+2022-03-14, [a discussion at r/programming](https://www.reddit.com/r/programming/comments/tdx4nc/m1_ultra_is_a_mistake/)
+
+### Why Apple is not the creator of the M1 architecture
+
+- Two years is exactly equivalent to a cycle of Intel's Tick-Tock strategy, 
+  that is, a new product with a new architecture is released every two years.
+
+  - 2019-02-06, My Warehouse/Workshop Model‘s computer hardware architecture design was published on github.
+  
+  - 2020-11-11, the Apple M1 chip adopted the "Warehouse/Workshop Model" design and was released.
+  
+- Apple just copied my theory and designed the M1 like a copier, 
+  when Apple needed to expand the basic architecture to meet the M1 Ultra design requirements, 
+  because of Apple's lack of understanding and innovation, 
+  it destroyed the simplicity and unity of the my theory's architecture, 
+  and my theory emphasized Fractal. 
+  The creator of any theoretical system has its own unique, consistent philosophy and style, 
+  the splice architecture of the M1 Ultra is completely inconsistent with the architecture of the M1, 
+  and it is difficult to imagine that they are the same series of works.
+  
+- I don't find Apple to provide a relevant, systematic, innovative theory before and after the M1 release, 
+  this is not a normal phenomenon, at least it should promote its innovative theory after the release of M1 
+  to help developers develop software that adapts to the M1 architecture, 
+  and promote the development and improvement of product ecology. 
+  I think Apple should have no theory in this regard.
+
+To sum up, the Apple M1 is a very inconsistent product that lacks systematic theory, 
+which is not a characteristic of the work of a revolutionary theory creator.
 
 ### M1 Supercomputing
 
