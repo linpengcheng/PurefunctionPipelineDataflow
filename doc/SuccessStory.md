@@ -211,7 +211,7 @@ News: Qualcomm are learning My Warehouse/Workshop Model (Apple M1 chip)
 
 <h3 id="Singularity">Microsoft's AI computing platform Singularity's architecture</h3>
 
-- [Microsoft's AI computing platform Singularity's architecture](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Follower_MS_Singularity_Architecture_en.md)
+- [Microsoft's AI computing platform Singularity's architecture has plagiarized my Warehouse/Workshop Model](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Follower_MS_Singularity_Architecture_en.md)
 
    Its paper does not cite my paper in the references, and Microsoft bing blocked the word "Warehouse/Workshop Model", previously bing could search for it, and Google can always search for it as well. It's bury one's head in the sand. It is extremely malicious plagiarism.
    
