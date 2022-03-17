@@ -118,9 +118,16 @@ I think:
 - MS windows + Intel (AMD), Google android + ARM can also be combined to have a complete base ecosystem, 
   but the coordination takes a long time.
   
+- Some people reluctantly argue that the performance of the M1 Ultra is better than the M1 Max, 
+  and therefore a success. In this regard, I disagree, M1 Ultra is composed of two M1 Max, 
+  I really can't imagine how bad the architecture can make it perform worse than an M1 Max, 
+  this evaluation standard is really low.  
+  
 Conclusion: Apple's understanding of my theory is not good enough.
 
 2022-03-14, [a discussion at r/programming](https://www.reddit.com/r/programming/comments/tdx4nc/m1_ultra_is_a_mistake/)
+
+![bigger than bigger for M1 Ultra](./image/bigger_than_bigger_M1Ultra.jpg)
 
 ### Why Apple is not the creator of the M1 architecture
 
@@ -208,8 +215,9 @@ News: Qualcomm are learning My Warehouse/Workshop Model (Apple M1 chip)
 
    Its paper does not cite my paper in the references, and Microsoft bing blocked the word "Warehouse/Workshop Model", previously bing could search for it, and Google can always search for it as well. It's bury one's head in the sand. It is extremely malicious plagiarism.
    
+   ![bing blocks wwmodel](./image/bing_blocks_wwmodel_27-2-2022_125524_cn.bing.com.jpeg)
+   
   - [a discussion at r/programming](https://www.reddit.com/r/programming/comments/t2drdk/microsofts_ai_computing_platform_singularitys/)
-  
   
   - [a discussion at r/softwarearchitecture](https://www.reddit.com/r/softwarearchitecture/comments/t2dz7t/microsofts_ai_computing_platform_singularitys/)
   
