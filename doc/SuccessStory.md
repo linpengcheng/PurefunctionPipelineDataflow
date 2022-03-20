@@ -166,13 +166,14 @@ I think:
   </table>
   
   [ThrudTheBarbarian's commend full screenshot](./image/ThrudTheBarbarian_comments_M1Ultra_is_a_mistake_2022_03_15.png)
+  
   [ThrudTheBarbarian work at Apple full screenshot](./image/ThrudTheBarbarian_work_at_apple_2022_03_15.png)
   
-Conclusion: Apple's understanding of my theory is not good enough.
+Conclusion: 
+- Apple's understanding of my theory is not good enough.
+- My warehouse/workshop model will definitely be the architecture of all computers (including supercomputers) in the future.
 
 2022-03-14, [a discussion at r/programming](https://www.reddit.com/r/programming/comments/tdx4nc/m1_ultra_is_a_mistake/)
-
-
 
 ### Why Apple is not the creator of the M1 architecture
 
