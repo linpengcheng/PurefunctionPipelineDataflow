@@ -101,7 +101,7 @@ I think:
   
   ----
   
-  Apple has forgotten their previous slogan: "**Bigger Than Bigger**".
+  Apple has forgotten their previous slogan: "**Bigger_is_Better**" and "**Bigger_than_bigger**".
   
   ----
   
@@ -109,6 +109,13 @@ I think:
   It can be used as solution of future M1 Supercomputing.
   It maintains the consistency of the Architecture of the Apple M Series chips, 
   so it can maintain the simplicity, uniformity and compatibility of the system.
+  
+  <table>
+	  <tr>
+		  <td><img src="./image/Bigger_is_Better_M1Ultra.jpg" /></td>
+		  <td><img src="./image/Bigger_than_bigger.jpg" /></td>
+	  </tr>
+  </table>
 
 - In the future, Apple must implement my dispatching center technology 
   and implement OS kernel as DBMS-like ASIC. Currently, only Apple has a complete basic ecosystem. 
@@ -118,16 +125,54 @@ I think:
 - MS windows + Intel (AMD), Google android + ARM can also be combined to have a complete base ecosystem, 
   but the coordination takes a long time.
   
-- Some people reluctantly argue that the performance of the M1 Ultra is better than the M1 Max, 
-  and therefore a success. In this regard, I disagree, M1 Ultra is composed of two M1 Max, 
-  I really can't imagine how bad the architecture can make it perform worse than an M1 Max, 
-  this evaluation standard is really low.  
+- ThrudTheBarbarian, a member of r/chipdesign (a chip design forum) 
+  who has worked at Apple for almost a couple of decades, 
+  commented on my post on r/chipdesign on 2022-03-15 10:07:28(UTC+8)
+
+  > Uh huh. Maybe you’re right. Maybe some of the highest-paid, 
+  > and certainly one of the best silicon design teams on the planet are wrong, 
+  > but extraordinary claims require extraordinary evidence.
+
+  > The chip, from advance talks and benchmarks, seems to perform fairly well. 
+  > We’ll find out soon. Apple are not beholden to any particular internal architecture, 
+  > as a founder of ARM, they have a perpetual license 
+  > that allows them to do whatever they want internally, 
+  > so I could see different internal design for the M2 (or whatever is put into the Mac Pro). 
+  > They only need to remain compatible at the ABI/Instruction-set interface.
+
+  I don't agree with him, the M1 Ultra perform fairly well because it has two M1 Max spliced together, 
+  I really can't imagine how bad architecture would make it perform worse than a M1 Max, 
+  this is a really low standard for evaluation. 
+
+  The Apple M1 Ultra's architecture is a complex solution,
+  It destroys the simplicity and unity of my warehouse/workshop model which M1 adopts as architecture, 
+  Therefore, the scalability and compatibility are extremely poor, 
+  which brings about the complexity of the system, 
+  and the manufacturing cost, process complexity and difficulty are all high.
+
+  My architecture conforms to the two basic principles of simplicity and unity in scientific research, 
+  mathematics, and industry. It has excellent scalability and compatibility. 
+  Simplicity is the foundation of high performance and high reliability. 
+  It can be judged and concluded by obvious scientific common sense: 
+  my architecture is far superior to the architecture of the Apple M1 Ultra.
+
+  r/chipdesign has deleted my post and banned me permanently, I can only post screenshots. 
+  
+  <table>
+	  <tr>
+		  <td><img src="./image/ThrudTheBarbarian_comments_M1Ultra_is_a_mistake_part.png" /></td>
+		  <td><img src="./image/ThrudTheBarbarian_work_at_apple_part.png" /></td>
+	  </tr>
+  </table>
+  
+  [ThrudTheBarbarian's commend full screenshot](./image/ThrudTheBarbarian_comments_M1Ultra_is_a_mistake_2022_03_15.png)
+  [ThrudTheBarbarian work at Apple full screenshot](./image/ThrudTheBarbarian_work_at_apple_2022_03_15.png)
   
 Conclusion: Apple's understanding of my theory is not good enough.
 
 2022-03-14, [a discussion at r/programming](https://www.reddit.com/r/programming/comments/tdx4nc/m1_ultra_is_a_mistake/)
 
-![bigger than bigger for M1 Ultra](./image/bigger_than_bigger_M1Ultra.jpg)
+
 
 ### Why Apple is not the creator of the M1 architecture
 
