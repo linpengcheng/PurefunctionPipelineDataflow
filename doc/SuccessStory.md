@@ -127,7 +127,7 @@ I think:
   
 - ThrudTheBarbarian, a member of r/chipdesign (a chip design forum) 
   who has worked at Apple for almost a couple of decades, 
-  commented on my post on r/chipdesign on 2022-03-15 10:07:28(UTC+8)
+  commented on my post on r/chipdesign on 2022-03-15 22:07:28(UTC+8)
 
   > Uh huh. Maybe you’re right. Maybe some of the highest-paid, 
   > and certainly one of the best silicon design teams on the planet are wrong, 
