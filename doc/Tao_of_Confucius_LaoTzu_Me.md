@@ -1,8 +1,8 @@
-# From "Confucius praises Lao Tzu as a dragon" to "The Tao of My Warehouse/Workshop Model"
+# Tao is Change: From "Confucius praises Lao Tzu as a dragon" to "The Tao of My Warehouse/Workshop Model"
 
 Copyright © 2022-07-09 Lin Pengcheng. All rights reserved.
 
-# 从"孔子誉老子为龙"到"我的仓库/车间模型大道"
+# 道即是易: 从"孔子誉老子为龙"到"我的仓库/车间模型大道"
 
 版权所有 © 2022-07-09 林鹏程， 保留所有权利。
 
