@@ -147,3 +147,13 @@ but I have not heard that they have any standard work,
 which will lead to fragmentation of ARM-based SOC systems. 
 In the end, it will lose to RISC-V, which worked hard to standardize the extension.
 
+Postscript:
+
+From the 2022-11-01 Chinese News, ["After 2024, ARM chips can only use the public version? Qualcomm is disabled self-developed GPU"](https://www.51cto.com/article/721715.html):
+
+> ARM does not intend to allow external GPUs, NPUs or ISPs to exist in SoCs based on ARM architecture, 
+> including Qualcomm's Adreno, the GPU used by Samsung in partnership with AMD, 
+> and everyone needs to change back to the "public version" of ARM.
+
+ARM adopted my view a year ago (2021-12-06), but this will be very dissatisfied with the various princes who use ARM, ARM's approach is right, we should standardize its SoC architecture while the monopoly position is still there, otherwise if the SoC based on ARM is fragmented, it will fail.
+
