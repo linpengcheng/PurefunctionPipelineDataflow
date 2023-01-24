@@ -28,6 +28,20 @@ complementing each other's strengths, and cooperating to complete tasks.
 It is similar to the heterogeneous parallel computing of the computer, 
 and this is the gifted magical power of the warehouse/workshop model.
 
+Postscript:
+
+After Apple, Intel, Microsoft, ARM and others, Tesla is following my theory.
+
+Reference:
+
+- 2022.12.12, www.forbes.com,  [Tesla may be adding a radar which is the crutch they definitely need](https://www.forbes.com/sites/bradtempleton/2022/12/12/tesla-may-be-adding-a-radar-which-is-the-crutch-they-definitely-need/)
+
+- 2022.12.12, techcrunch.com, [Tesla appears to be turning back to radar for its vehicles](https://techcrunch.com/2022/12/07/tesla-appears-to-be-turning-back-to-radar-for-its-vehicles/)
+
+- 2022.12.06, electrek.co, [Tesla radar car next month self driving suite concerns](https://electrek.co/2022/12/06/tesla-radar-car-next-month-self-driving-suite-concerns/)
+
+- 2022.12.13, 核子可乐, Tina, InfoQ新闻, [《放出狠话又自打脸，特斯拉将重新在车辆上安装雷达，最快下个月发布》](https://www.infoq.cn/article/SINxMyTD46V2NRNMm84q)
+
 # AI也要兼听则明（以特斯拉自动驾驶为例）
 
 版权所有 © 2021.10.12 林鹏程， 保留所有权利。
@@ -45,3 +59,20 @@ and this is the gifted magical power of the warehouse/workshop model.
 最善长组织和协调多种混合技术以最优方法解决问题。
 因为法学善长解决分岐和矛盾, 管理科学最善长组织协调, 优势互补, 合作完成任务。
 它类似于计算机的异构并行计算, 它是仓库/车间模型的天赋神通.
+
+后记:
+
+言出法随，继＂苹果，Intel, 微软，ARM＂等公司之后，＂特斯拉＂追随我的理论.
+
+2022.12.13, InfoQ新闻, 《放出狠话又自打脸，特斯拉将重新在车辆上安装雷达，最快下个月发布》.
+
+参考文献:
+
+- 2022.12.13, 核子可乐, Tina, InfoQ新闻, [《放出狠话又自打脸，特斯拉将重新在车辆上安装雷达，最快下个月发布》](https://www.infoq.cn/article/SINxMyTD46V2NRNMm84q)
+
+- 2022.12.12, www.forbes.com,  [Tesla may be adding a radar which is the crutch they definitely need](https://www.forbes.com/sites/bradtempleton/2022/12/12/tesla-may-be-adding-a-radar-which-is-the-crutch-they-definitely-need/)
+
+- 2022.12.12, techcrunch.com, [Tesla appears to be turning back to radar for its vehicles](https://techcrunch.com/2022/12/07/tesla-appears-to-be-turning-back-to-radar-for-its-vehicles/)
+
+- 2022.12.06, electrek.co, [Tesla radar car next month self driving suite concerns](https://electrek.co/2022/12/06/tesla-radar-car-next-month-self-driving-suite-concerns/)
+
