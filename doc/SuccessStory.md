@@ -116,6 +116,14 @@ I think:
 		  <td><img src="./image/Bigger_than_bigger.jpg" /></td>
 	  </tr>
   </table>
+  
+  <table>
+    <tr>
+      <td><img src="./image/BiggerMonkeyKingBar01.png"> </td>
+      <td><img src="./image/BiggerMonkeyKingBar02.png"> </td>
+      <td><img src="./image/BiggerMonkeyKingBar03.png"> </td>
+    </tr>
+</table>
 
 - In the future, Apple must implement my dispatching center technology 
   and implement OS kernel as DBMS-like ASIC. Currently, only Apple has a complete basic ecosystem. 
@@ -183,6 +191,23 @@ Conclusion:
   - 2019-02-06, My Warehouse/Workshop Model‘s computer hardware architecture design was published on github.
   
   - 2020-11-11, the Apple M1 chip adopted the "Warehouse/Workshop Model" design and was released.
+
+  As mentioned before, my `Warehouse/Workshop Model` meets 
+  the two basic principles (simplicity and uniformity) of 
+  scientific research, mathematics, and industrial.
+  It has excellent scalability and compatibility, 
+  and is simple and inexpensive to manufacture. 
+
+  Simplicity is the basis for high performance and reliability, 
+  and it is obvious from scientific common sense that 
+  my architecture is a million miles ahead of Apple's M1 series architecture. 
+  So Apple adopted my architecture directly, saving a lot of research time.
+
+  As we all know, the architecture design phase is the most difficult 
+  and time-consuming phase of research, as long as the architecture is defined, 
+  everything just has to be a step-by-step procedural process. 
+  Apple renamed my `Warehouse/Workshop Model` to `Unified Memory Architecture` 
+  without mentioning me, which is total plagiarism!
   
 - Apple just copied my theory and designed the M1 like a copier, 
   when Apple needed to expand the basic architecture to meet the M1 Ultra design requirements, 
