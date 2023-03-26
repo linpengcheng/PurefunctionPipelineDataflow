@@ -120,6 +120,8 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   to software programming methodology, architecture, programming language and so on. 
   It solve the most fundamental and core major problems in the IT industry: 
   The foundation and core of the IT theory lack mathematical support. 
+  
+  - See also: [`Traditional OO & FP & hardware architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
 
 - [Software and hardware are factories that manufacture data, 
   so they have the same "warehouse/workshop model" and management methods 
@@ -1408,7 +1410,7 @@ but The workshop is connected with data services (object status, warehouse) to f
 
 ![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
-<h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model">Traditional OO&FP architecture VS. Warehouse/Workshop Model</h5>
+<h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model">Traditional OO & FP & hardware architecture VS. Warehouse/Workshop Model</h5>
 
 - Traditional OO & FP & hardware architecture
 
@@ -1506,11 +1508,11 @@ but The workshop is connected with data services (object status, warehouse) to f
         by the warehouse scheduler to the data that has been checked to meet the standard.
       - The output data of each workshop (pure function, pipeline) is checked 
         by the warehouse and saved after meeting the standard.
-      - The workshops are independent, short, logically simple, clear, 
+      - The workshops are independent, short, logically simple, clear, linearly scalable,
         they do not interact with each other, only with the warehouse, 
         which guarantees simplicity, correctness and high efficiency.
       - Replace "the complex and chaotic m*n object interactive network" with 
-        "1:n One scheduler for global scheduling and optimization of all workshops.".
+        "1:n One scheduler for global scheduling and optimization of all workshops(pure function, pipeline).".
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
