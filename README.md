@@ -1437,7 +1437,7 @@ but The workshop is connected with data services (object status, warehouse) to f
     >   It describes an argument or explanation that purports to be scientific 
     >   but uses faulty reasoning or speculative premises, 
     >   which can be neither affirmed nor denied and thus cannot be discussed rigorously and scientifically.
-
+    >   
     >   For a meaningful discussion on whether a certain statement is true or false, 
     >   the statement must satisfy the criterion of falsifiability, 
     >   the inherent possibility for the statement to be tested and found false. 
@@ -1457,8 +1457,8 @@ but The workshop is connected with data services (object status, warehouse) to f
     >   when Pauli replied to Lev Landau, 
     >   "What you said was so confused that one could not tell whether it was nonsense or not."
     >  
-    >  Columbia physicist Peter Woit used the phrase in the title of his book Not Even Wrong: 
-    >  The Failure of String Theory and the Search For Unity in Physical Law. Woit also writes a blog of that name.
+    >   Columbia physicist Peter Woit used the phrase in the title of his book Not Even Wrong: 
+    >   The Failure of String Theory and the Search For Unity in Physical Law. Woit also writes a blog of that name.
 
     > - [Not Even Wrong, BY JASON LISLE, PH.D. *  | TUESDAY, DECEMBER 30, 2014](https://www.icr.org/article/not-even-wrong)
     > 
