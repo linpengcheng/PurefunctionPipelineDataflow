@@ -40,7 +40,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Everything is unified](#Everything-is-unified)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification with object-oriented](#The-unification-with-object-oriented)
-      - [`Traditional OO&FP architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
+      - [`Traditional OO & FP & hardware architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
       - [async/await, Project Loom fiber, Gantt Chart, and Scientific Management](#async)
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
@@ -1410,44 +1410,107 @@ but The workshop is connected with data services (object status, warehouse) to f
 
 <h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model">Traditional OO&FP architecture VS. Warehouse/Workshop Model</h5>
 
-- Traditional OO&FP architecture
+- Traditional OO & FP & hardware architecture
 
-  There is no definite, operational theoretical basis 
-  for design and evaluation, the design is very random, 
-  and there are not many good OO&FP architectures. 
-  
-  In the same case, the OO&FP architectures designed 
-  by different people are very different, 
-  and it is difficult to evaluate the pros and cons. 
-  For this situation, it is generally called lack of scientificity.
+  - Mathematical support
+
+    Lack of mathematical support, in any discipline, the part that has mathematical support can be called science.
+
+  - Common sense in scientific research: repeatability and verifiability
+
+    There is no definite, operational theoretical basis for design and evaluation, 
+    design is very arbitrary, and good examples of OO & FP & hardware architectures are rare.
+
+    Because the same case, different people design OO & FP & hardware architecture varies greatly, 
+    and it is difficult to evaluate the advantages and disadvantages. 
+    So they belong to [what `Pauli` said **`"Not Even Wrong"`**](http://en.wikipedia.org/wiki/Not_Even_Wrong)
+
+    In short, they are not repeatable, not verifiable, and not scientific at all.
+    They are **pseudoscience**.   
+    
+    > Reference: [Not Even Wrong, BY JASON LISLE, PH.D. *  | TUESDAY, DECEMBER 30, 2014](https://www.icr.org/article/not-even-wrong)
+    > 
+    > Physicist Wolfgang Pauli was once asked to review a technical paper and assess its accuracy. 
+    > The content was so garbled, however, that Pauli is said to have remarked that 
+    > not only was the paper not right, it was “not even wrong.” He meant the paper was so poorly written, 
+    > so muddled in its reasoning, that it was impossible to evaluate in any fashion. 
+    > It was even worse than wrong—it was incoherent. The author would have to 
+    > substantially improve the paper in order for it to even be assessed as wrong.
+    > 
+    > Science is largely a literary endeavor. It advances only when scientists are able to 
+    > communicate their discoveries to other scientists for independent evaluation and confirmation. 
+    > A hypothesis that is not clearly stated cannot be tested. Only when experimental methods are 
+    > carefully articulated can they be critiqued or validated. Therefore, scientists must be able to 
+    > cogently articulate their hypotheses, observations, and methods. 
+    > They must carefully define important terms and use them in a consistent way.
+    > Anything less is confusing at best and “not even wrong” at worst.
+
+  - Real-world reference models
+
+    - FP & hardware system architectures do not have real-world reference models, 
+      and theories without reference systems are difficult to explain and understand, 
+      and most likely to make mistakes.
+
+    - OO is only a superficial simulation of the real world, there is no unified guidelines, 
+      principles and models. Both the system architecture and the process are very complex and confusing.
 
 - Warehouse/Workshop Model
 
-  - Based on mathematical models, 
-    operations research, management science
-  - With 10 principles, 5 aesthetics, 
-    and 5 basic components
-  - The architecture can be visualized with 
-    a simple star chart and Gantt chart
-  - In the same case, the architecture designed 
-    by different people will be consistent and clear. 
-    The pros and cons of different people's design schemes 
-    can be accurately judged by mathematical models and operations research. For this situation, 
-    it is generally called science.
-  - It is a best practice that has been used in the manufacturing industry for hundreds of years.
-    - We should be based on a centrally managed large data model standard system, 
-      not many simple types (or objects) that manage confusion, 
-    - Validate centrally instead of everywhere. 
-    - The large data model standard system is managed by the warehouse.
-    - The input data of each workshop (pure function, pipeline) is given 
-      by the warehouse scheduler to the data that has been checked to meet the standard.
-    - The output data of each workshop (pure function, pipeline) is checked 
-      by the warehouse and saved after meeting the standard.
-    - The workshops are independent, short, logically simple, clear, 
-      they do not interact with each other, only with the warehouse, 
-      which guarantees simplicity, correctness and high efficiency.
-    - Change "the complex and chaotic m*n interactive network of objects" to 
-      "the 1:n global unified scheduling of the warehouse's scheduler to the workshops (pure functions, pipelines)".
+  - Mathematical support
+
+    - Based on mathematical models, 
+      operations research, management science
+    - The architecture can be visualized with 
+      a simple star chart and Gantt chart
+      
+  - Common sense in scientific research: repeatability and verifiability
+      
+    - With 10 principles, 5 aesthetics, 
+      and 5 basic components
+    
+    - In the same case, the architectures designed by different people will be consistent and clear, 
+      and the superiority of different people's design solutions can be accurately judged by 
+      mathematical models and operations research, which is in line with the scientific principle 
+      of repeatable and verifiable certainty, so we call it science. The best people can effectively 
+      prove the superiority of their solutions by mathematical methods, 
+      so this method is the choice of the best people.
+      
+    - In my mathematical and principle-based "warehouse/shop floor model" theory, 
+      uncertainty exists in a deterministic principle-based framework and mathematical model. 
+      Uncertainty is controllable, and when an uncertain event occurs, 
+      the scheduler can immediately optimize it by dynamic planning 
+      and incorporate it into the deterministic system. 
+
+      - Uncertainty is the monkey on the palm of Buddha. The monkey may make trouble, 
+        but it cannot turn over the palm of Buddha's hand, 
+        and Buddha (scheduler) sentences the monkey to 500 years of imprisonment 
+        and then exiles it to a hundred thousand miles, 
+        and finally incorporates it into the deterministic Buddhist system. 
+
+      - Just like after Enron, the principle-based international accounting standards 
+        turned around and defeated the proud and conceited rule-based US accounting standards, 
+        effectively dealing with uncertainty and avoiding being exploited. 
+        Most importantly, they are simple, effective and reliable. 
+
+  - Real-world reference models
+
+    - The theory of having a real-world mainstream system as a reference model is easy to understand, easy to comprehend, and if there is controversy or doubt, the real-world reference model can be analyzed and the answer found.
+
+    - This has been the best practice of the manufacturing industry for centuries, 
+      and there are countless research materials and book boxes available on the subject.
+      - We should be based on a centrally managed large data model standard system, 
+        not many simple types (or objects) that manage confusion, 
+      - Validate centrally instead of everywhere. 
+      - The large data model standard system is managed by the warehouse.
+      - The input data of each workshop (pure function, pipeline) is given 
+        by the warehouse scheduler to the data that has been checked to meet the standard.
+      - The output data of each workshop (pure function, pipeline) is checked 
+        by the warehouse and saved after meeting the standard.
+      - The workshops are independent, short, logically simple, clear, 
+        they do not interact with each other, only with the warehouse, 
+        which guarantees simplicity, correctness and high efficiency.
+      - Replace "the complex and chaotic m*n object interactive network" with 
+        "1:n One scheduler for global scheduling and optimization of all workshops.".
       
 #### The unification of single-threaded and multi-threaded and asynchronous and distributed
   
