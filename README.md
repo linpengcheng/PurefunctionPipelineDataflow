@@ -1430,22 +1430,52 @@ but The workshop is connected with data services (object status, warehouse) to f
     In short, they are not repeatable, not verifiable, and not scientific at all.
     They are **pseudoscience**.   
     
-    > Reference: [Not Even Wrong, BY JASON LISLE, PH.D. *  | TUESDAY, DECEMBER 30, 2014](https://www.icr.org/article/not-even-wrong)
+    > Reference: 
+    > - [Not even wrong, Wikipedia](https://en.wikipedia.org/wiki/Not_even_wrong)
     > 
-    > Physicist Wolfgang Pauli was once asked to review a technical paper and assess its accuracy. 
-    > The content was so garbled, however, that Pauli is said to have remarked that 
-    > not only was the paper not right, it was “not even wrong.” He meant the paper was so poorly written, 
-    > so muddled in its reasoning, that it was impossible to evaluate in any fashion. 
-    > It was even worse than wrong—it was incoherent. The author would have to 
-    > substantially improve the paper in order for it to even be assessed as wrong.
+    >   "Not even wrong" is a phrase often used to describe pseudoscience or bad science.
+    >   It describes an argument or explanation that purports to be scientific 
+    >   but uses faulty reasoning or speculative premises, 
+    >   which can be neither affirmed nor denied and thus cannot be discussed rigorously and scientifically.
+
+    >   For a meaningful discussion on whether a certain statement is true or false, 
+    >   the statement must satisfy the criterion of falsifiability, 
+    >   the inherent possibility for the statement to be tested and found false. 
+    >   In this sense, the phrase "not even wrong" is synonymous with "unfalsifiable".
+    >   
+    >   History of the expression
+    >   
+    >   The phrase is generally attributed to the theoretical physicist Wolfgang Pauli, 
+    >   who was known for his colorful objections to incorrect or careless thinking.
+    >   Rudolf Peierls documents an instance in which "a friend showed Pauli the paper of a young 
+    >   physicist which he suspected was not of great value but on which he wanted Pauli's views. 
+    >   Pauli remarked sadly, 'It is not even wrong'."
+    >   This is also often quoted as "That is not only not right; it is not even wrong", 
+    >   or in Pauli's native German, "Das ist nicht nur nicht richtig; es ist nicht einmal falsch!" 
+    >   Peierls remarks that quite a few apocryphal stories of this kind have been circulated and mentions 
+    >   that he listed only the ones personally vouched for by him. He also quotes another example 
+    >   when Pauli replied to Lev Landau, 
+    >   "What you said was so confused that one could not tell whether it was nonsense or not."
+    >  
+    >  Columbia physicist Peter Woit used the phrase in the title of his book Not Even Wrong: 
+    >  The Failure of String Theory and the Search For Unity in Physical Law. Woit also writes a blog of that name.
+
+    > - [Not Even Wrong, BY JASON LISLE, PH.D. *  | TUESDAY, DECEMBER 30, 2014](https://www.icr.org/article/not-even-wrong)
     > 
-    > Science is largely a literary endeavor. It advances only when scientists are able to 
-    > communicate their discoveries to other scientists for independent evaluation and confirmation. 
-    > A hypothesis that is not clearly stated cannot be tested. Only when experimental methods are 
-    > carefully articulated can they be critiqued or validated. Therefore, scientists must be able to 
-    > cogently articulate their hypotheses, observations, and methods. 
-    > They must carefully define important terms and use them in a consistent way.
-    > Anything less is confusing at best and “not even wrong” at worst.
+    >   Physicist Wolfgang Pauli was once asked to review a technical paper and assess its accuracy. 
+    >   The content was so garbled, however, that Pauli is said to have remarked that 
+    >   not only was the paper not right, it was “not even wrong.” He meant the paper was so poorly written, 
+    >   so muddled in its reasoning, that it was impossible to evaluate in any fashion. 
+    >   It was even worse than wrong—it was incoherent. The author would have to 
+    >   substantially improve the paper in order for it to even be assessed as wrong.
+    > 
+    >   Science is largely a literary endeavor. It advances only when scientists are able to 
+    >   communicate their discoveries to other scientists for independent evaluation and confirmation. 
+    >   A hypothesis that is not clearly stated cannot be tested. Only when experimental methods are 
+    >   carefully articulated can they be critiqued or validated. Therefore, scientists must be able to 
+    >   cogently articulate their hypotheses, observations, and methods. 
+    >   They must carefully define important terms and use them in a consistent way.
+    >   Anything less is confusing at best and “not even wrong” at worst.
 
   - Real-world reference models
 
