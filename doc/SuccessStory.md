@@ -325,6 +325,14 @@ News: MS Server Chips are learning My Warehouse/Workshop Model (Apple M1 chip)
 
 ### Programming language
 
+- [The unification with `OO&FP` and `Warehouse/Workshop Model`](https://github.com/linpengcheng/PurefunctionPipelineDataflow#The-unification-with-object-oriented)
+
+- [`Traditional OO & FP & hardware architecture` VS. `Warehouse/Workshop Model`](https://github.com/linpengcheng/PurefunctionPipelineDataflow#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
+
+  Conclusion: Traditional IT software and hardware theories are pseudoscience, they belong to what Pauli said "Not Even Wrong".
+
+- [Don't try to solve all problems with programming languages](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/comment_complicated_pl.md)
+
 - [2021.11.07, Foxpro's Database-oriented programming paradigm is the development direction of the future programming language](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Mummy4Foxpro.md)
 
 ### AI
