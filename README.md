@@ -99,6 +99,10 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [End message](#End-message)
 - [Reference](#Reference)
 - Appendix:
+  - [Methodology of scientific research in Taoism](#Methodology-of-scientific-research-in-Taoism)
+    - [Lin Pengcheng's Closed-loop of Needs](#Lin-Pengchengs-Closed-loop-of-Needs)
+    - [(Chinese) Ways to become a saint (Use brain's loophole to unlock brain's potential!)](doc
+/ways_to_become_a_saint.md)
   - [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
   - [Everything is RMDB.](doc/Everything_is_RMDB.md)
@@ -3032,6 +3036,17 @@ it has been rich and improved a lot.
 - [Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
 - [Operations research, Sarah Lewis](https://whatis.techtarget.com/definition/operations-research-OR)
 - [MES (Manufacturing Execution System), WikiMili](https://wikimili.com/en/Manufacturing_execution_system)
+
+## Methodology of scientific research in Taoism
+
+### <h3 id="Lin-Pengchengs-Closed-loop-of-Needs">Lin Pengcheng's Closed-loop of Needs</h3>
+
+![Lin Pengcheng's Closed-loop of Needs](doc/lpc_closed_loop_of_needs_en.png)
+
+### Ways to become a saint (Use brain's loophole to unlock brain's potential!)
+
+[(Chinese) Ways to become a saint (Use brain's loophole to unlock brain's potential!)](doc
+/ways_to_become_a_saint.md)
 
 ## Other Articles Table of Contents
 
