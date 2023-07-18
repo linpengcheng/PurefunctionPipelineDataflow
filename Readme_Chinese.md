@@ -100,6 +100,9 @@
   - [结尾](#结尾) 
 - [参考文献](#参考文献)
 - 附录:
+  - [道家仙派科研方法学](#道家仙派科研方法学)
+    - [林鹏程需求闭环理论模型](#林鹏程需求闭环理论模型)
+    - [成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_saint.md)
   - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
   - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
   - [一切都是RMDB](doc/Everything_is_RMDB.md)
@@ -2408,6 +2411,17 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 - [运筹学 Operations research, wikipedia](https://en.wikipedia.org/wiki/Operations_research)
 - [运筹学 Operations research, Sarah Lewis](https://whatis.techtarget.com/definition/operations-research-OR)
 - [制造执行系统 MES (Manufacturing Execution System), WikiMili](https://wikimili.com/en/Manufacturing_execution_system)
+
+## 道家仙派科研方法学
+
+### 林鹏程需求闭环理论模型
+
+![林鹏程需求闭环理论模型](doc/lpc_closed_loop_of_needs_cn.png)
+
+### 成圣法
+
+[成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc
+/ways_to_become_a_saint.md)
 
 ## 其他文章目录
 
