@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="27cm" viewBox="18 20 444 534" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="19" y="395" width="259" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="19" y="395" width="259" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="148.5" y="417">
+      <tspan x="148.5" y="417">最高优先权：本能潜意识系统</tspan>
+      <tspan x="148.5" y="433">生理需求</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="42" y="335.75" width="217" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="42" y="335.75" width="217" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="150.5" y="357.75">
+      <tspan x="150.5" y="357.75">安全需求</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="64" y="272.75" width="174" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="64" y="272.75" width="174" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="151" y="297.75">
+      <tspan x="151" y="297.75">社交需求</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="82" y="215.75" width="137" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="82" y="215.75" width="137" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="150.5" y="237.75">
+      <tspan x="150.5" y="237.75">尊重需求</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="100" y="156.75" width="102" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="100" y="156.75" width="102" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="151" y="178.75">
+      <tspan x="151" y="178.75">自我实现需求</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="148.5" y1="395" x2="150.081" y2="378.202"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="154.331,386.401 150.29,375.976 144.375,385.464 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="150.5" y1="335.75" x2="150.882" y2="321.221"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="155.676,329.113 150.941,318.985 145.68,328.85 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="151" y1="272.75" x2="150.618" y2="258.221"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="155.82,265.85 150.559,255.985 145.824,266.113 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="150.5" y1="215.75" x2="150.894" y2="199.221"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="155.707,207.102 150.947,196.986 145.71,206.864 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="308" y="206" width="152" height="65"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="308" y="206" width="152" height="65"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="384" y="242.4">
+      <tspan x="384" y="242.4"></tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="384" y="271">
+    <tspan x="384" y="271"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="384" y="271">
+    <tspan x="384" y="271"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="312" y="235">
+    <tspan x="312" y="235">           大脑漏洞</tspan>
+    <tspan x="312" y="251">永生：肉体或思想的不朽</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="384,271 384,473.13 148.5,473.13 148.5,453.472 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="153.5,461.236 148.5,451.236 143.5,461.236 "/>
+  </g>
+  <text font-size="20.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="94" y="38.0002">
+    <tspan x="94" y="38.0002">林鹏程需求闭环理论模型</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="60.0002">
+    <tspan x="97" y="60.0002">（马斯洛需求层次理论模型升级版）</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="103" y="124">
+    <tspan x="103" y="124">利用大脑漏洞，释放大脑潜能！</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="77" y="78.5502">
+    <tspan x="77" y="78.5502">版权所有 © 2023.07.14 林鹏程， 保留所有权利。</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="26" y="100">
+    <tspan x="26" y="100">https://github.com/linpengcheng/PurefunctionPipelineDataflow</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="300" y1="130.55" x2="300" y2="503.38"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="499.008">
+    <tspan x="100" y="499.008">马斯洛需求层次理论模型</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="307" y="500.38">
+    <tspan x="307" y="500.38">中国神话与传统价值观</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="151,156.75 151,138.5 384,138.5 384,201.528 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="379,193.764 384,203.764 389,193.764 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="26" y="519.63">
+    <tspan x="26" y="519.63">把我们的理想（最高层次“自我实现需求”----“三不朽”）伪装成最底层的</tspan>
+    <tspan x="26" y="535.63">“生理需求”中最终极的追求“永生”，获取大脑系统的最高优先权，让大脑</tspan>
+    <tspan x="26" y="551.63">释放出最大的潜能为我们的理想奋斗。</tspan>
+  </text>
+</svg>
