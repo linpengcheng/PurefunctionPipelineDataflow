@@ -102,7 +102,8 @@
 - 附录:
   - [道家仙派科研方法学](#道家仙派科研方法学)
     - [林鹏程需求闭环理论模型](#林鹏程需求闭环理论模型)
-    - [成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_saint.md)
+    - [成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_immortal.md)
+    - [开山立派四要件](doc/TaoistScientificResearchMethodology.md)
   - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
   - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
   - [一切都是RMDB](doc/Everything_is_RMDB.md)
@@ -2420,7 +2421,11 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 ### 成圣法
 
-[成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_saint.md)
+[成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_immortal.md)
+
+### 开山立派四要件
+
+[开山立派四要件](doc/TaoistScientificResearchMethodology.md)
 
 ## 其他文章目录
 
