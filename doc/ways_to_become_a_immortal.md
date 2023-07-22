@@ -1,4 +1,4 @@
-# Ways to become a saint (Use brain's loophole to unlock brain's potential!)
+# Ways to become a immortal (Use brain's loophole to unlock brain's potential!)
 
 Copyright © 2023.07.18 Lin Pengcheng. All rights reserved.
 
