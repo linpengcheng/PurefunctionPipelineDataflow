@@ -1377,7 +1377,7 @@ greater than greater，bigger than bigger，
 
 ```
 
-天上蟠桃园，人间悟道茶！
+天界蟠桃园，人间悟道茶！
 
 ### 道家科学派祖庭
 
