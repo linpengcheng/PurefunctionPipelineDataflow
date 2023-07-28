@@ -99,11 +99,13 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [End message](#End-message)
 - [Reference](#Reference)
 - Appendix:
-  - [Methodology of scientific research in Taoism](#Methodology-of-scientific-research-in-Taoism)
-    - [Lin Pengcheng's Closed-loop of Needs](#Lin-Pengchengs-Closed-loop-of-Needs)
-    - [(Chinese) Ways to become a immortal (Use brain's loophole to unlock brain's potential!)](doc/ways_to_become_a_immortal.md)
-    - [(Chinese) 4 Key Things to Create a Scientific School of Thought](doc/TaoistScientificResearchMethodology.md)
-  - [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
+  - [Taoist-style Scientific Research Methodology](#Taoist-style-Scientific-Research-Methodology)
+    - [Core](#Core)
+      - [Lin Pengcheng's Closed-loop of Needs](#Lin_Pengchengs_Closed_loop_of_Needs)
+      - [(Chinese) Ways to become a immortal (Use brain's loophole to unlock brain's potential!)](doc/ways_to_become_a_immortal.md)
+    - [Others](#Others)
+      - [(Chinese) 4 Key Things to Create a Scientific School of Thought](doc/TaoistScientificResearchMethodology.md)
+      - [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
   - [Clojure is a FP based on RMDB.](doc/Clojure_is_FP_based_on_RMDB.md)
   - [Everything is RMDB.](doc/Everything_is_RMDB.md)
   - [Implement relational data model and programming based on hash-map (NoSQL)](doc/relational_model_on_hashmap.md)
@@ -3037,19 +3039,21 @@ it has been rich and improved a lot.
 - [Operations research, Sarah Lewis](https://whatis.techtarget.com/definition/operations-research-OR)
 - [MES (Manufacturing Execution System), WikiMili](https://wikimili.com/en/Manufacturing_execution_system)
 
-## Methodology of scientific research in Taoism
+## Taoist-style Scientific Research Methodology
 
-### <h3 id="Lin-Pengchengs-Closed-loop-of-Needs">Lin Pengcheng's Closed-loop of Needs</h3>
+### Core
 
-![Lin Pengcheng's Closed-loop of Needs](doc/lpc_closed_loop_of_needs_en.png)
+- <p id="Lin_Pengchengs_Closed_loop_of_Needs">Lin Pengcheng's Closed-loop of Needs</p>
 
-### Ways to become a immortal (Use brain's loophole to unlock brain's potential!)
+  ![Lin Pengcheng's Closed-loop of Needs](doc/lpc_closed_loop_of_needs_en.png)
 
-[(Chinese) Ways to become a immortal (Use brain's loophole to unlock brain's potential!)](doc/ways_to_become_a_immortal.md)
+- [(Chinese) Ways to become a immortal (Use brain's loophole to unlock brain's potential!)](doc/ways_to_become_a_immortal.md)
 
-### 4 Key Things to Create a Scientific School of Thought
+### Others
 
-[(Chinese) 4 Key Things to Create a Scientific School of Thought](doc/TaoistScientificResearchMethodology.md)
+- [(Chinese) 4 Key Things to Create a Scientific School of Thought](doc/TaoistScientificResearchMethodology.md)
+
+- [Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
 
 ## Other Articles Table of Contents
 
