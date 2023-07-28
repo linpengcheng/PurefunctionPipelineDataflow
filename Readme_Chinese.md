@@ -101,10 +101,13 @@
 - [参考文献](#参考文献)
 - 附录:
   - [道家仙派科研方法学](#道家仙派科研方法学)
-    - [林鹏程需求闭环理论模型](#林鹏程需求闭环理论模型)
-    - [成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_immortal.md)
-    - [开山立派四要件](doc/TaoistScientificResearchMethodology.md)
-  - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
+    - 核心
+      - [林鹏程需求闭环理论模型](#林鹏程需求闭环理论模型)
+      - [成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_immortal.md)
+      - 证道法(待发布)
+    - 其他
+      - [开山立派四要件](doc/TaoistScientificResearchMethodology.md)
+      - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
   - [Clojure是基于关系式数据库理论的函数式编程语言](doc/Clojure_is_FP_based_on_RMDB.md)
   - [一切都是RMDB](doc/Everything_is_RMDB.md)
   - [在hash-map(NoSQL)的基础上实现关系式数据模型和编程](doc/relational_model_on_hashmap.md)
@@ -2415,17 +2418,35 @@ IT界大工业生产化的关键在于建立象传统工业界的完整的标准
 
 ## 道家仙派科研方法学
 
-### 林鹏程需求闭环理论模型
+### 核心
 
-![林鹏程需求闭环理论模型](doc/lpc_closed_loop_of_needs_cn.png)
+- <p id="林鹏程需求闭环理论模型">林鹏程需求闭环理论模型</p>
 
-### 成圣法
+  ![林鹏程需求闭环理论模型](doc/lpc_closed_loop_of_needs_cn.png)
 
-[成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_immortal.md)
+- [成圣法：借假修真，破解大脑漏洞，开发大脑潜能，超越先天智商的限制，以达超凡入圣之境(林鹏程需求闭环理论模型，非立志成圣不可用)](doc/ways_to_become_a_immortal.md)
 
-### 开山立派四要件
+- 证道法(待发布)
+  
+### 其他
 
-[开山立派四要件](doc/TaoistScientificResearchMethodology.md)
+- [开山立派四要件](doc/TaoistScientificResearchMethodology.md)
+
+- [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
+
+- [道即是易: 从"孔子誉老子为龙"到"我的仓库/车间模型大道"](./doc/Tao_of_Confucius_LaoTzu_Me.md)
+- 
+- [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](doc/Tao_ICD.md)
+
+- [数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](doc/math-xiaoyao.md)
+  
+- [`纯函数管道数据流`与《天龙八部》逍遥派武学体系](doc/dataflow_xiaoyao.md)
+
+- [科研、软件工程、中医](doc/SR_SE_TraditionalChineseMedicine.md)
+- 
+- [《代码大全》与“想像力编程”](doc/CodeComplete.md)
+
+- [《计算机编程的艺术》与想象力编程](doc/TAOCP.md)
 
 ## 其他文章目录
 
