@@ -3053,7 +3053,7 @@ it has been rich and improved a lot.
 
 - [(Chinese) 4 Key Things to Create a Scientific School of Thought](doc/TaoistScientificResearchMethodology.md)
 
-- [Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
+- [(Chinese) Simplicity and Unity ---- Grand Unified Theory, Lisp(Clojure) and Pure Function Pipeline Dataflow](doc/Simplicity_and_Unity.md)
 
 ## Other Articles Table of Contents
 
