@@ -41,7 +41,7 @@
   - [万法归宗](#万法归宗)
     - [编程技术和系统架构的统一](#编程技术和系统架构的统一)
     - [与FP和面向对象的统一](#与FP和面向对象的统一)
-      - [`传统OO&FP&硬件系统架构`与`仓库/车间模型`的比较](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN)
+      - [`传统IT理论(OO&FP&硬件等IT系统构造方法学)`与`仓库/车间模型`的比较](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN)
     - [单线程、多线程、异步、分布式大统一](#单线程-多线程-异步-分布式大统一)
       - [`async/await`, `Project Loom 纤程`, `甘特图`和`科学管理`](#async)
       - [`微服务`和`智能线程`的统一](#微服务和智能线程的统一)
@@ -130,6 +130,7 @@
   我的理论重建了IT行业的基础理论，它以简单和统一的方式完美地、全面地把计算机理论与数学关联在一起: 
   从硬件集成电路和计算机架构, 到软件编程方法学、架构、编程语言等.
   解决了IT业从诞生至今一直存在的根基科学性的根本问题----核心缺乏数学依据。
+  - [`传统IT理论(OO&FP&硬件等IT系统构造方法学)`与`仓库/车间模型`的比较](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN)
   - 小学五年级的水池水流进流出模型
   - 小学四年级的基于甘特图的调度（优化，运筹学）。
   - 幼儿园级的搭积木分形构造系统的方法
@@ -1144,9 +1145,11 @@ Alan Perlis的这个名言可以看成是IT版的"一个和尚挑水吃, 两个�
 身随意动, “一转眼则周身全动”， “一动俱动，一到俱到”而神形合一。
 如行云流水一般连绵不绝的长江大河. 
 
-<h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN">传统OO&FP&硬件系统架构与仓库/车间模型的比较</h5>
+##### Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN
 
-- 传统OO&FP&硬件系统架构
+<h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model-CN">传统IT理论(OO&FP&硬件等IT系统构造方法学)与仓库/车间模型的比较</h5>
+
+- 传统IT理论(OO&FP&硬件等IT系统构造方法学)
   
   - 数学支持度
     
@@ -1162,6 +1165,54 @@ Alan Perlis的这个名言可以看成是IT版的"一个和尚挑水吃, 两个�
       这使得它们成为滥竽充数者的乐园. 
       
     - 总之, 它们没有可重复、可验证性， 完全没有科学性可言.
+
+    > Reference:
+    > 
+    > - [Not even wrong, Wikipedia](https://en.wikipedia.org/wiki/Not_even_wrong)
+    > 
+    >   "Not even wrong" is a phrase often used to describe pseudoscience or bad science.
+    >   It describes an argument or explanation that purports to be scientific 
+    >   but uses faulty reasoning or speculative premises, 
+    >   which can be neither affirmed nor denied and thus cannot be discussed rigorously and scientifically.
+    >   
+    >   For a meaningful discussion on whether a certain statement is true or false, 
+    >   the statement must satisfy the criterion of falsifiability, 
+    >   the inherent possibility for the statement to be tested and found false. 
+    >   In this sense, the phrase "not even wrong" is synonymous with "unfalsifiable".
+    >   
+    >   History of the expression
+    >   
+    >   The phrase is generally attributed to the theoretical physicist Wolfgang Pauli, 
+    >   who was known for his colorful objections to incorrect or careless thinking.
+    >   Rudolf Peierls documents an instance in which "a friend showed Pauli the paper of a young 
+    >   physicist which he suspected was not of great value but on which he wanted Pauli's views. 
+    >   Pauli remarked sadly, 'It is not even wrong'."
+    >   This is also often quoted as "That is not only not right; it is not even wrong", 
+    >   or in Pauli's native German, "Das ist nicht nur nicht richtig; es ist nicht einmal falsch!" 
+    >   Peierls remarks that quite a few apocryphal stories of this kind have been circulated and mentions 
+    >   that he listed only the ones personally vouched for by him. He also quotes another example 
+    >   when Pauli replied to Lev Landau, 
+    >   "What you said was so confused that one could not tell whether it was nonsense or not."
+    >  
+    >   Columbia physicist Peter Woit used the phrase in the title of his book Not Even Wrong: 
+    >   The Failure of String Theory and the Search For Unity in Physical Law. Woit also writes a blog of that name.
+
+    > - [Not Even Wrong, BY JASON LISLE, PH.D. *  | TUESDAY, DECEMBER 30, 2014](https://www.icr.org/article/not-even-wrong)
+    > 
+    >   Physicist Wolfgang Pauli was once asked to review a technical paper and assess its accuracy. 
+    >   The content was so garbled, however, that Pauli is said to have remarked that 
+    >   not only was the paper not right, it was “not even wrong.” He meant the paper was so poorly written, 
+    >   so muddled in its reasoning, that it was impossible to evaluate in any fashion. 
+    >   It was even worse than wrong—it was incoherent. The author would have to 
+    >   substantially improve the paper in order for it to even be assessed as wrong.
+    > 
+    >   Science is largely a literary endeavor. It advances only when scientists are able to 
+    >   communicate their discoveries to other scientists for independent evaluation and confirmation. 
+    >   A hypothesis that is not clearly stated cannot be tested. Only when experimental methods are 
+    >   carefully articulated can they be critiqued or validated. Therefore, scientists must be able to 
+    >   cogently articulate their hypotheses, observations, and methods. 
+    >   They must carefully define important terms and use them in a consistent way.
+    >   Anything less is confusing at best and “not even wrong” at worst.
     
   - 真实世界参考模型
   
