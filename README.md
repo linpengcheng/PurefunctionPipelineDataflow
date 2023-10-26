@@ -40,7 +40,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [Everything is unified](#Everything-is-unified)
     - [The unification of `programming technology` and `system architecture`](#The-unification-of-programming-technology-and-system-architecture)
     - [The unification with object-oriented](#The-unification-with-object-oriented)
-      - [`Traditional OO & FP & hardware architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
+      - [`Traditional IT theory (OO, FP and hardware architecture, etc.)` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
     - [The unification of `single-threaded`, `multi-threaded`, `asynchronous` and `distributed`](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed)
       - [async/await, Project Loom fiber, Gantt Chart, and Scientific Management](#async)
       - [The unification of `Microservice` and `Intelligent-thread`](#The-unification-of-Microservice-and-Intelligent-thread)
@@ -127,7 +127,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   It solve the most fundamental and core major problems in the IT industry: 
   The foundation and core of the IT theory lack mathematical support. 
   
-  - See also: [`Traditional OO & FP & hardware architecture` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model)
+  - See also: [`Traditional IT theory (OO, FP and hardware architecture, etc.)` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model) : Traditional IT theory system are pseudoscience, they belong to what physicist Wolfgang Pauli said "Not Even Wrong".
 
 - [Software and hardware are factories that manufacture data, 
   so they have the same "warehouse/workshop model" and management methods 
@@ -1416,9 +1416,9 @@ but The workshop is connected with data services (object status, warehouse) to f
 
 ![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
-<h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model">Traditional OO & FP & hardware architecture VS. Warehouse/Workshop Model</h5>
+<h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model">Traditional IT theory (OO, FP and hardware architecture, etc.) VS. Warehouse/Workshop Model</h5>
 
-- Traditional OO & FP & hardware architecture
+- Traditional IT theory (OO, FP and hardware architecture, etc.)
 
   - Mathematical support
 
