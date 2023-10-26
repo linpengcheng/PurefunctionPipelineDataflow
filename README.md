@@ -1416,6 +1416,8 @@ but The workshop is connected with data services (object status, warehouse) to f
 
 ![Microservice Architecture](./doc/Microservice_Architecture-v1r1.png) 
 
+##### Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model
+
 <h5 id="Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model">Traditional IT theory (OO, FP and hardware architecture, etc.) VS. Warehouse/Workshop Model</h5>
 
 - Traditional IT theory (OO, FP and hardware architecture, etc.)
