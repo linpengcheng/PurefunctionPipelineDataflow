@@ -29,6 +29,16 @@
 如果你们还想让我预测一下，马斯克接下来想干啥，我猜测马斯克接下来该去火星建一个“灵霄宝殿”了，
 当然这个工程工期长花费大，如果马斯克等不及了，可以在火星上找座山，挖个山洞住，把这座山命名为“奥林匹斯山”。
 
+备注:
+
+本篇文章发表半年后, 2023.09.08，www.51cto.com 新闻，[《马斯克被曝要合并特斯拉和Neuralink，目标AGI，《银河系漫游指南》中描绘的那种》](https://www.51cto.com/article/766022.html)，
+这篇文章所讲的合并技术和我的预言几乎一模一样。文章内容如下：
+
+> 马斯克要把特斯拉、SpaceX、Neuralink等和xAI整合在一起了？
+> 外媒爆料马斯克半年来看似不稳定、自相矛盾行为背后有一个真正计划：
+> 打造《银河系漫游指南》式的通用人工智能。
+> （看过这本科幻小说的应该都知道，其中有一台超级计算机，能够找出“生命终极问题的答案，宇宙及一切”）
+
 参考文献
 
 - 2023-03-02, 澎湃新闻, [马斯克：特斯拉汽车是轮子上的机器人，人形机器人数量将超过人类](https://www.163.com/news/article/HUQGOA0E0001899O.html)
@@ -36,4 +46,6 @@
 - 2021-02-02,林鹏程, [机器人与变形金刚](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md#%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9A)
 
 - 2021-02-02,  Lin Pengcheng, [Robots and transformers](https://github.com/linpengcheng/PurefunctionPipelineDataflow#Robots-and-transformers)
+
+- 2023.09.08，www.51cto.com 新闻，[《马斯克被曝要合并特斯拉和Neuralink，目标AGI，《银河系漫游指南》中描绘的那种》](https://www.51cto.com/article/766022.html)
 
