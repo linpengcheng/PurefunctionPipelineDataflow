@@ -22,4 +22,4 @@ IT业软硬件系统构造方法学没有数学化、科学化的缺点就是如
 
 - 2023.06.22,dl.acm.org, Sanjay Ghemawat, Robert Grandl, Srdjan Petrovic, Michael Whittaker, [Towards Modern Development of Cloud Applications](https://weibo.cn/sinaurl?u=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3593856.3595909%3Futm_source%3Dthenewstack%26utm_medium%3Dwebsite%26utm_cnotallow%3Dinline-mention%26utm_campaign%3Dplatform)
 
-- 2018, 林鹏程, 基于数学的大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
+- 2018, 林鹏程, [基于数学的大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型](https://github.com/linpengcheng/PurefunctionPipelineDataflow)
