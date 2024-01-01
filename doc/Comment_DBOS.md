@@ -25,8 +25,8 @@
 实现起来比较困难但更高效.
 
 DBOS在抽象层使用仓库/车间模型, 但从他的2022.09.03的博客
-《DBOS: A Database-Oriented Operating System》上看, 
-他的实现偏离了仓库/车间模型及其原则, 究其原因, 
+[《DBOS: A Database-Oriented Operating System》](https://dbos-project.github.io/blog/intro-blog.html)
+上看, 他的实现偏离了仓库/车间模型及其原则, 究其原因, 
 应该是对仓库/车间模型理解不够透彻, 
 不自觉地滑向贯用的传统DB和OS系统构造方法.
 
