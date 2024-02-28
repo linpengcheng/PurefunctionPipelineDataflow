@@ -11,7 +11,7 @@ Copyright © 2019-02-17 Lin Pengcheng. All rights reserved.
 - [Example](#Example)
 - [Live Preview Effects](#Live-Preview-Effects)
 - [Appendix](#Appendix)
-  - 2024-02-28, [Java "JEP 467: Markdown Documentation Comments"](https://openjdk.org/jeps/467) uses my original method.
+  - [Java "JEP 467: Markdown Documentation Comments"(create: 2023/09/11 update:2024-02-27)](https://openjdk.org/jeps/467) uses my original method(2019-02-17).
 
 ## Comment Area Markup Method
 
@@ -291,5 +291,5 @@ the path starts with the root path, for example:
 
 ## Appendix
 
-- 2024-02-28, [Java "JEP 467: Markdown Documentation Comments"](https://openjdk.org/jeps/467) uses my original method.
+- [Java "JEP 467: Markdown Documentation Comments"(create: 2023/09/11 update:2024-02-27)](https://openjdk.org/jeps/467) uses my original method(2019-02-17)
 
