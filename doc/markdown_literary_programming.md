@@ -1,6 +1,6 @@
 # Markdown Literate programming that don't break the syntax of any programming language
 
-Copyright © 2018 Lin Pengcheng. All rights reserved.
+Copyright © 2019-02-17 Lin Pengcheng. All rights reserved.
 
 ## Table of Contents
 - [Comment Area Markup Method](#Comment-Area-Markup-Method)
@@ -10,6 +10,8 @@ Copyright © 2018 Lin Pengcheng. All rights reserved.
 - [Notepad++ Solutions](#NotepadPlusPlus-Solutions)
 - [Example](#Example)
 - [Live Preview Effects](#Live-Preview-Effects)
+- [Appendix](#Appendix)
+  - 2024-02-28, [Java "JEP 467: Markdown Documentation Comments"](https://openjdk.org/jeps/467) uses my original method.
 
 ## Comment Area Markup Method
 
@@ -286,4 +288,8 @@ the path starts with the root path, for example:
 ![](./image/MLP_Clojure_Example_CuteMarked01.png)
 ![](./image/MLP_Clojure_Example_CuteMarked02.png)
 ![](./image/MLP_Clojure_Example_CuteMarked03.png)
+
+## Appendix
+
+- 2024-02-28, [Java "JEP 467: Markdown Documentation Comments"](https://openjdk.org/jeps/467) uses my original method.
 
