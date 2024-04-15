@@ -1,10 +1,10 @@
-# Java的新特性系统性最佳实践: Java弃暗投明，投奔我的理论!
+# Java的新特性系统性最佳实践: Java弃暗投明，放弃OOP，投奔我的理论!
 
 版权所有 © 2024.04.15 林鹏程， 保留所有权利。
 
 从Java 8开始，Java开始改变其笨重缓慢的形象，努力增加新特性，提高性能，
 但由于Java的主要应用领域是企业级应用，更新编程语言的策略比较保守，
-大多还守着Java 8，应用众多新特性的企业或个人得不多，只单独新特性的介绍，
+大多还守着Java 8，应用众多新特性的企业或个人得不多，只有单独的新特性的介绍，
 没有系统性最佳实践指南之类的文章，人们还不知道Java已弃暗投明，放弃OOP，投奔我的理论——
 [《基于数学的大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型》](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md) ！
 
@@ -43,7 +43,7 @@
 
 综上所述，Java新特性的发展表明，Java已弃暗投明，放弃`OOP`，
 投奔我的理论——[《基于数学的大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型》](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md) ！
-再结合Java大力发展本机编译、本机代码交互，Java初创时的核心理念`OOP`和`虚拟机`已经被抛弃了。
+再结合Java大力发展本机编译、本机代码交互，说明Java初创时的核心理念`OOP`和`虚拟机`已经被抛弃了。
 
 为什么Java弃暗投明，投奔我的理论? 原因如下:
 
