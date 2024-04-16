@@ -19,27 +19,29 @@
     主要用于存储、保存数据，并且没有其它额外自定义行为的场景下。
     它很适合用来作为 **“仓库”** ，当然如果有特殊需求，
     其他Java类更适合的话，也可以适用，我的理论有极强的兼容性。
-  - 类：在我的理论中类主要作为命名空间组织代码，
-  　或兼容OOP的概念，以使用传统Java代码。
-  - 对象：在我的理论中不需要对象，这用于兼容OOP的概念，
-  　以使用传统Java代码。
+    详见[《与FP和面向对象的统一》](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md#%E4%B8%8EFP%E5%92%8C%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%BB%9F%E4%B8%80)
+  - 类：在我的理论中类主要作为命名空间组织代码，或兼容OOP的概念，以使用传统Java代码。
+  - 对象：在我的理论中不需要对象，这用于兼容OOP的概念，以使用传统Java代码。
   
 - 调度器: 虚拟线程 (JDK 19～21)，结构化并发 (JDK 19～22)
-
-　- 结构化并发: 用来构造 **“调度器”** 算法：动态树形甘特图（运筹学）。
-　- 虚拟线程: 在给车间分配任务后，用来运行任务。
+  
+  - 结构化并发: 用来构造 **“调度器”** 算法：动态树形甘特图（运筹学）。
+  - 虚拟线程: 在给车间分配任务后，用来运行任务。
 
 - JEP 467: Markdown 文档注释
 
   该特性使用我2019-02-17的原创方法[《Markdown Literary Programming that don't break the syntax of any programming language》 ](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/markdown_literary_programming.md) ,
-  我的方法更简单、灵活、可视化、可扩展，适用所有编程语言和标记语言。
+  我的方法更简单、灵活、可视化、可扩展，适用所有编程语言和标记语言。它把源代码从文本时代提升到Web时代，功能和体验大幅度提升。
   
   Demo: [preview in Notepad++](https://github.com/linpengcheng/ClojureBoxNpp)
 
 - 其他新特性
 
-  主要是本机编译、本机代码交互、语法增强、工具增强，
-  这些与编程范式没关系，不讨论。
+  - 本机编译GraalVM、本机代码交互
+    
+    和我在[《和语言平台的统一》](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md#%E5%92%8C%E8%AF%AD%E8%A8%80%E5%B9%B3%E5%8F%B0%E7%9A%84%E7%BB%9F%E4%B8%80)所讲的类似，只不过我主张用Lisp表示中间语言，Lisp比较简单、清晰、方便，容易实现和扩展。GraalVM使用JVM字节码。
+    
+  - 语法增强、工具增强: 这些与编程范式没关系，不讨论。
 
 综上所述，Java新特性的发展表明，Java已弃暗投明，放弃`OOP`，
 投奔我的理论——[《基于数学的大统一编程理论：纯函数管道数据流和基于原则的仓库/车间模型》](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md) ！
@@ -64,3 +66,6 @@
   取得绝对胜利，在IT领域，最底层技术决定上层技术，因此，我的理论在
   在IT领域中OS，DB，编程语言，应用软件开发等所有层次取得绝对胜利
   只是时间问题，这是必然的，Java语言的改变只是一个开始。
+
+不管Java以前有没有本文所写的想法，从现在开始，Java必定有了这个想法，并为此努力发展! :-)
+
