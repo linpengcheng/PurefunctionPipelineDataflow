@@ -1,4 +1,4 @@
-# Systematic Best Practices for Java's New Features: Java has abandoned OOP in favor of my theory!!
+# Systematic Best Practices for Java's New Features: Java has abandoned OOP in favor of my theory!
 
 Copyright © 2024.04.15 Lin Pengcheng. All rights reserved. 
 
@@ -97,7 +97,7 @@ The reason is as follows:
   which is simple, clear, and much superior to the 
   current mainstream OOP, FP, and command programming.
 
-- In my Chinese article [**"Traditional IT theory (OO, FP and hardware architecture, etc.) VS. Warehouse/Workshop Model"**](https://github.com/linpengcheng/PurefunctionPipelineDataflow#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model), 
+- In my article [**"Traditional IT theory (OO, FP and hardware architecture, etc.) VS. Warehouse/Workshop Model"**](https://github.com/linpengcheng/PurefunctionPipelineDataflow#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model), 
   I pointed out that my Warehouse/Workshop Model is based on
   mathematical models, which is a downgrade from the
   pseudo-science of OOP, FP, and imperative programming.
