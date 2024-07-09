@@ -84,6 +84,8 @@ Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自
   
   显然，我的理论已经达到第3阶段了。
 
+  我发现最近这几年，我公开发布的预言或断言100%都实现了，“言出法随”大神通大成了！
+
 参考文献
 
 - 2021-06-11, Paul Alcorn, [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
