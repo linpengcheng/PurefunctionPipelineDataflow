@@ -24,7 +24,7 @@ Intel这个牙膏厂，它的原有的技术积累和开发路线可以说是不
 危险与机遇并存，这是决定Intel生死存亡的时刻，如同凤凰涅槃，或浴火重生，或烧成死灰。
 
 Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自己的x86处理器设计许可，作为其新的IDM 2.0计划的一部分。
-鉴于Intel以前的许可政策，我认为这是Intel准备放弃x86. Intel发放的x86处理器设计许可的目标对象很可能是中国公司，
+鉴于Intel以前的严苛的许可政策，我认为这是Intel准备放弃x86. Intel发放的x86处理器设计许可的目标对象很可能是中国公司，
 我认为x86是一种过时的即将被淘汰的设计，中国公司不应出价太高，避免成为冤大头。
 
 后记:
@@ -38,11 +38,66 @@ Intel CEO Pat Gelsinger最近宣布，该公司将开始向其他公司发放自
   并通过加大缓存改善没有集成大内存的缺点, ，这相当于实现了把大型仓库分解为两级仓库：
   小型集成仓库（缓存）和大型外部仓库（内存）。
 
-参考：
+- 2023.10.25高通推出对标Apple的M系列SoC的骁龙 X Elite
+
+- 2024年6月，Intel开始推出仓库/车间模型SoC: Lunar Lake
+
+  2024年6月，Intel开始推出仓库/车间模型SoC，至此，两大主流CPU（ARM和x86）均已加入，
+  宣告CPU/SoC全面进入我创造的仓库/车间模型时代，统一硬件领域。
+
+  三年前，我预言Intel必然要推出仓库/车间模型SoC，x86 CPU实现不佳，过于复杂臃肿，功耗大，发热大，
+  最好使用RISC-V加x86兼容层(或x86 CPU), 在技术革新的同时进军PC和物联网，一举三得，
+  Intel也准备花20亿美元收购高性能RISC-V的领先厂商SiFive，可惜SiFive不想卖。
+  Intel自行从头开始设计RISC-V太费时间了，会贻失商机，只好硬着头皮改造x86 CPU。
+
+  仓库/车间模型SoC需要精密制程，Intel拼命花高价和Apple一起获得台积电3nm制程的优先制造权，
+  可惜x86 CPU实现不佳，过于复杂臃肿，功耗大，使用3nm制程制造出来的仓库/车间模型SoC，
+  竟然不如5nm制程制造出来的Apple M1，而且功耗大，发热大，体积大，只能推出桌面PC版，
+  无法推出笔记本电脑所需要的低功耗版。要解决Intel目前的难题，其实也很简单，
+  有好多个方案可以选择，我已解决了主要的方向性、系统性、架构性、原则性问题，
+  这些小问题我就不讲了，算做课后作业吧！:-)
+
+  目前，Apple(ARM)、高通(ARM)、Intel(x86)三大CPU厂商已推出仓库/车间模型SoC，
+  第四大厂商AMD别无选择，不跟随只有死路一条。至此CPU/SoC全面进入我创造的仓库/车间模型时代，
+  统一硬件领域。
+
+  在IT领域，底层硬件技术决定上层软件技术，软件领域必然也要进入我创造的仓库/车间模型时代，
+  统一整个IT领域。
+
+  我宣称以我的基于数学模型的仓库/车间模型理论为核心统一了多个行业理论体系，为什么我只抓着IT行业打？
+  道理很简单，在街头流氓斗殴时，都是钉着带头的、跳得最欢的那个打，把他打服了，其他人也就服了，
+  这个道理也适用于科学领域，目前IT业号称高科技的当红炸子鸡，渗透到各行各业，流行度、知名度、应用度最高，
+  最崇尚数学偏又核心底层软硬件系统构造方法学没有数学模型支持，而这是我的理论的最大优势，
+  以我的理论最强优点攻击最强行业的最大弱点，高举数学旗帜，降维打击，如摧枯拉朽，一击即溃，攻击效果最大、
+  效率最高、速度最快、震憾力最强。最强行业被击败了，其他行业自然顺服，万国来朝，学术界第一个理论帝国成立，
+  天可汗、学术界始皇帝、大成就悟道者、道家科学派创始人、科学仙帝、科学道祖林鹏程的千秋伟业大功告成，
+  千秋万载，一统学界！
+
+  叔本华説: 所有真理都经历三个阶段。
+  1. 它被嘲笑。
+  2. 它被强烈反对。
+  3. 它被认为是不言而喻的真理。
+  显然，我的理论已经达到第3阶段了。
+
+参考文献
+
 - 2021-06-11, Paul Alcorn, [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
+  
+- 2021.10.22, Anton Shilov, [Intel's Attempt to Acquire SiFive for $2 Billion Fell Apart, Report Claims](https://www.tomshardware.com/news/intel-failed-to-buy-sifive)
+
 - 2022-02-14, Agam Shah, [Intel's plan to license x86 cores for chips with Arm, RISC-V and more inside](https://www.theregister.com/2022/02/14/intel_x86_licensing/)
+
 - [为什么我的"仓库/车间模型"能做到高性能低功耗(以Apple, Intel, 高通为例)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast.md)
+
 - [未来的OS内核将是一个面向数据的调度器（带有计算机硬件和软件集成架构图）](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/OS_as_DB_cn.md)
+
+- 2024.06.03, Gavin Bonshor, [Intel Unveils Lunar Lake Architecture: New P and E cores, Xe2-LPG Graphics, New NPU 4 Brings More AI Performance](https://www.anandtech.com/show/21425/intel-lunar-lake-architecture-deep-dive-lion-cove-xe2-and-npu4)
+
+- 2024.06.10, PChome, [PC鲜辣报：AMD双平台新U齐发 英特尔展示Lunar Lake](https://www.msn.cn/zh-cn/news/other/pc%E9%B2%9C%E8%BE%A3%E6%8A%A5-amd%E5%8F%8C%E5%B9%B3%E5%8F%B0%E6%96%B0u%E9%BD%90%E5%8F%91-%E8%8B%B1%E7%89%B9%E5%B0%94%E5%B1%95%E7%A4%BAlunar-lake/ar-BB1nVqrQ?ocid=BingNewsSerp)
+
+- 2024.06.12, 电脑报, [科普+八卦: “退回”8核8线程的Lunar Lake表现如何？英特尔颠覆式变革目的何在？](https://new.qq.com/rain/a/20240612A02DFW00)
+
+- 2024.06.13, RICH WOODS, [Arm says it wants all Snapdragon X Elite laptops destroyed, The legal battle between Arm and Qualcomm continues](https://www.xda-developers.com/arm-says-it-wants-all-snapdragon-x-elite-laptops-destroyed/)
 
 - 2021-06-14, 首发在新浪微博.
 - 2021-06-15, 发布在 github, twitter, reddit/programming.
