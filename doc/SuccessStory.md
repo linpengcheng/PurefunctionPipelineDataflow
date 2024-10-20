@@ -266,6 +266,8 @@ News: Intel are learning My Warehouse/Workshop Model (Apple M1 chip)
 
 - [2022-01-06, Apple loses lead Apple Silicon designer Jeff Wilcox to Intel](https://appleinsider.com/articles/22/01/06/apple-loses-lead-apple-silicon-designer-jeff-wilcox-to-intel)
 
+- 2024-06, Intel releases warehouse/workshop model SoC: Lunar Lake
+
 ## Qualcomm
 
 - [2021-07-28, Why my "warehouse/workshop model" can achieve high performance and low power consumption (take Apple M1 chip, Intel AVX-512, Qualcomm as examples)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/why_wwmodel_fast_en.md)
@@ -277,6 +279,8 @@ News: Qualcomm are learning My Warehouse/Workshop Model (Apple M1 chip)
 - [2021-7-3 News, Qualcomm plans to design an M1 competitor for PCs—sans ARM](https://arstechnica.com/gadgets/2021/07/qualcomm-ceo-we-can-beat-apple-because-we-poached-talent-from-them/)
   
 - [2021-7-1 News, Qualcomm's new CEO eyes dominance in the laptop markets](https://www.reuters.com/technology/qualcomms-new-ceo-eyes-dominance-laptop-markets-2021-07-01/)
+
+- 2023-10, Qualcomm releases warehouse/workshop model SoC: Snapdragon X Elite
 
 ## Microsoft
 
@@ -323,6 +327,10 @@ News: MS Server Chips are learning My Warehouse/Workshop Model (Apple M1 chip)
 
 - [2021.11.15, OS kernel as DBMS-like ASIC: The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/OS_as_DB_en.md)
 
+### DB
+
+- [Chinese: Comment "(Stonebraker) DBOS: A Database-Oriented Operating System"](./Comment_DBOS.md)
+
 ### Programming language
 
 - [The unification with `OO&FP` and `Warehouse/Workshop Model`](https://github.com/linpengcheng/PurefunctionPipelineDataflow#The-unification-with-object-oriented)
@@ -334,6 +342,8 @@ News: MS Server Chips are learning My Warehouse/Workshop Model (Apple M1 chip)
 - [Don't try to solve all problems with programming languages](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/comment_complicated_pl.md)
 
 - [2021.11.07, Foxpro's Database-oriented programming paradigm is the development direction of the future programming language](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Mummy4Foxpro.md)
+
+- [Chinese: Comment Google anti-microservice](./Comment_Google_anti-microservice.md)
 
 ### AI
 
