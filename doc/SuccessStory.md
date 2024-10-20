@@ -23,8 +23,9 @@ This article was written on 2022-03-13.
 - [Microsoft](#Microsoft)
   - [Microsoft's AI computing platform Singularity's architecture](#Singularity)
   - [Microsoft Server Chips](#Microsoft-Server-Chips)
-- [Future, Prediction and Others](#Future)
-  - [Windows, MacOS, Linux and other OS](#OS)
+- [Future, Prediction and Others](#FuturePredictionandOthers)
+  - [OS](#OS)
+  - [DB](#DB)
   - [Programming language](#Programming-language)
   - [AI](#AI)
   - [Robot](#Robot)
@@ -321,9 +322,9 @@ News: MS Server Chips are learning My Warehouse/Workshop Model (Apple M1 chip)
 
 - [2020-12-22, Microsoft Developing Proprietary ARM Chip to Compete with Apple’s M1 ---- A new report suggests Microsoft will develop and Apple M1 rival in the form of an ARM chip for Azure servers and Surface products.](https://winbuzzer.com/2020/12/22/microsoft-developing-proprietary-arm-chip-to-compete-with-apples-m1-xcxwbn/)
 
-<h2 id="Future">Future, Prediction and Others</h2>
+## Future, Prediction and Others
 
-<h3 id="OS">Windows, MacOS, Linux and other OS</h3>
+### OS
 
 - [2021.11.15, OS kernel as DBMS-like ASIC: The future OS kernel will be a data-oriented scheduler (with Computer hardware and software integration architecture diagram)](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/OS_as_DB_en.md)
 
