@@ -23,7 +23,7 @@ This article was written on 2022-03-13.
 - [Microsoft](#Microsoft)
   - [Microsoft's AI computing platform Singularity's architecture](#Singularity)
   - [Microsoft Server Chips](#Microsoft-Server-Chips)
-- [Future, Prediction and Others](#FuturePredictionandOthers)
+- [Future, Prediction and Others](#Future-Prediction-and-Others)
   - [OS](#OS)
   - [DB](#DB)
   - [Programming language](#Programming-language)
