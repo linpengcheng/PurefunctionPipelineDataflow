@@ -4,7 +4,7 @@ Copyright © 2023.07.18 Lin Pengcheng. All rights reserved.
 
 ## Abstracts
 
-Disguise the highest level need (self-actualization need: immortality of the mind) as 
+Disguise the highest level need (self-actualization need: immortality of the thought) as 
 the lowest level need (physiological need: immortality of the body) and become 
 the highest priority task of the brain to maximise the potential of the brain to execute it.
 
