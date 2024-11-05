@@ -2666,7 +2666,8 @@ Most of the fundamental ideas of science are essentially simple, and may, as a r
 be expressed in a language comprehensible to everyone.
 If you can't explain it simply, you don't understand it well enough.
 Any intelligent fool can make things bigger, more complex, and more violent. 
-It takes a touch of genius -- and a lot of courage -- to move in the opposite direction. 
+It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.
+There are five ascending levels of intelligence: smart, intelligent, brilliant, genius and simple.
       ---- Albert Einstein
            The greatest folk scientist in history :-)
            A professional clerk in the patent office 
@@ -2894,6 +2895,8 @@ Hard work must be done to build a complex system into a simple and smooth pure p
 This requires great wisdom and pays a lot of difficult Business Process Design (or Reengineering).
 
 ```
+There are five ascending levels of intelligence: smart, intelligent, brilliant, genius and simple.
+        ---- Albert Einstein
 Many people think that sages have secret tricks, despise simple technology, and pursue complex, 
 difficult, and sophisticated technology, but this idea is completely contrary to the facts.
         ---- Wang Yangming, 
