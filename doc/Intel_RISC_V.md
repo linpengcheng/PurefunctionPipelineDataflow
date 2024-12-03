@@ -55,7 +55,94 @@ postscript:
   and improve the shortcomings of not integrating large memory by increasing the cache, 
   This seems to implement a large repository as a two-level repository: 
   a small integrated warehouse (cache) and a large external warehouse (memory).
+  
+- 2023.10.25 Qualcomm releases Snapdragon X Elite against Apple's M-series SoCs
 
+- 2024.06, Intel releases warehouse/workshop model SoC: Lunar Lake
+
+  2024.06, Intel releases warehouse/workshop model SoC: Lunar Lake, and by now,
+  the two major CPUs (ARM and x86) had joined my theoretical camp,
+  declaring that CPUs/SoCs had fully entered the era of warehouse/workshop model
+  created by me to unify the hardware world.
+
+  Three years ago, I predicted that Intel would inevitably release a warehouse/workshop model SoC,
+  x86 CPUs are poorly implemented, too complex and bloated, high power consumption, high heat,
+  it's best to use RISC-V plus x86 compatibility layer (or x86 CPUs), and enter the PC
+  and the Internet of Things at the same time as the technological innovation, a three-in-one,
+  Intel is also ready to spend $2 billion to acquire the high-performance RISC-V Intel was
+  also ready to spend $2 billion to acquire SiFive, a leading high-performance RISC-V vendor,
+  but unfortunately SiFive didn't want to sell. It would have been too time-consuming for
+  Intel to design RISC-V from scratch on its own, and it would have lost the business opportunity,
+  so it had to build SoC by adapting x86 CPUs.
+
+  Warehouse/workshop model SoCs require sophisticated manufacturing processes,
+  Intel desperately paid a high price to get priority manufacturing rights for
+  TSMC's 3nm process with Apple, but unfortunately, x86 CPUs are poorly implemented,
+  too complex and bloated, and consume a lot of power. 
+  
+  Its warehouse/workshop model SoC Lunar Lake, built using the 3nm process,
+  is surprisingly inferior to the 5nm Apple M1 released about four years ago (2020-11-11),
+  and high-power consumption, heat, large size, can only launch the desktop PC version,
+  can not release the low-power version of the laptop computer needs. To solve Intel's current problems,
+  in fact, is also very simple, there are many options to choose from, I have solved the major directional,
+  systemic, architectural, and principle issues, I will not talk about these small issues,
+  counting as homework! :-)
+
+  At present, Apple (ARM), Qualcomm (ARM), Intel (x86) three major CPU vendors have released
+  warehouse/workshop model SoC, the fourth major vendor AMD has no choice, do not follow
+  only a dead end. In fact, AMD also released the SoC Ryzen AI 300 without memory in June 2024,
+  it should not have grabbed the 3nm precision process priority manufacturing rights and R&D progress,
+  and will definitely follow with the warehouse/workshop model SoCs. So CPU/SoCs have fully entered
+  the era of the warehouse/workshop model created by me, and unified the field of hardware.
+
+  The major PC parts manufacturers as if only nvidia I have not criticized,
+  I have read a H100 architecture article, would like to criticize,
+  because too busy to delay until the H200 came out and did not write,
+  outdated old products do not want to write, although the H100 is still banned
+  from exporting Chinese products. I write articles have always been more casual,
+  no special to find H200 architecture information, because now the IT industry
+  hardware and software architecture are not supported by mathematical models,
+  not scientific, to find the problem is too easy!
+
+  In the IT field, the underlying hardware technology determines the upper layer
+  software technology, and the software field will inevitably enter the era of
+  the warehouse/workshop model created by me to unify the entire IT field.
+
+  I claim that my mathematical model based warehouse/workshop model theory
+  as the core of the unification of a number of industry theory system,
+  why do I only grasp the IT industry to fight? The reason is very simple,
+  in the street hooligans fight, are nailed to the leader,
+  the most active one to fight, to beat him convinced,
+  the others will also be convinced.
+
+  This reasoning also applies to the field of science, the IT industry is known
+  as high-tech hot industry, and applied to all industries, popularity, popularity,
+  application of the highest degree, the most respected mathematical bias and
+  the core of the underlying hardware and software system construction methodology
+  is not supported by mathematical models, and this is the biggest advantage of my theory.
+
+  The strongest advantages of my theory to attack the strongest industry's greatest weaknesses,
+  hold up the banner of mathematics, the lowering of the dimensional strike,
+  the attack has the greatest effect, the highest efficiency, the fastest speed, the strongest shock.
+
+  After the strongest industry was defeated, other industries naturally obeyed,
+  and the first theoretical empire in the academic world was established,
+  and I became the first emperor of the academic world!
+
+  ```
+  All truth passes through three stages:
+  1. it is ridiculed.
+  2. it is violently opposed.
+  3. it is accepted as being self-evident.
+      ---- Schopenhauer
+  ```
+      
+  Apparently, my theory has reached stage 3.
+
+  I have found my numerous fulfilled prophecies or assertions
+  that I have posted publicly in these last few years
+  to be 100% correct!
+  
 Reference: 
 
 - 2021-06-11,  Paul Alcorn, [Intel Offers $2 Billion for RISC-V Chip Startup SiFive: Bloomberg](https://www.tomshardware.com/news/intel-offers-dollar2-billion-for-risc-v-startup-sifive-bloomberg)
