@@ -69,8 +69,7 @@ postscript:
   x86 CPUs are poorly implemented, too complex and bloated, high power consumption, high heat,
   it's best to use RISC-V plus x86 compatibility layer (or x86 CPUs), and enter the PC
   and the Internet of Things at the same time as the technological innovation, a three-in-one,
-  Intel is also ready to spend $2 billion to acquire the high-performance RISC-V Intel was
-  also ready to spend $2 billion to acquire SiFive, a leading high-performance RISC-V vendor,
+  Intel was also ready to spend $2 billion to acquire SiFive, a leading high-performance RISC-V vendor,
   but unfortunately SiFive didn't want to sell. It would have been too time-consuming for
   Intel to design RISC-V from scratch on its own, and it would have lost the business opportunity,
   so it had to build SoC by adapting x86 CPUs.
