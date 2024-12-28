@@ -19,7 +19,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [5. Confluence(reduce)](#5-Confluence)
 - [Code Example](#Code-example)
 - [Classical Model](#Classical-Model)
-- [Warehouse/Workshop Model](#Warehouse-Workshop-Model)
+- [Warehouse/Workshop Model (2019.02.04)](#Warehouse-Workshop-Model)
   - [Overview of the model](#Overview-of-the-model)
   - [10 Principles of the model](#Principles-of-the-model)
     - [Division of tasks](#Division-of-tasks)
@@ -671,6 +671,8 @@ This is a typical application of the philosophy of the `Tao` and the `Grand Unif
 ![River](./doc/image/river.jpeg) 
 
 <h2 id="Warehouse-Workshop-Model">Warehouse/Workshop Model</h2>
+
+(2019.02.04)
 
 ![Warehouse Workshop Model](./doc/Warehouse-Workshop-Model-v2.svg)
 
