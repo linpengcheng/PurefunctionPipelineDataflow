@@ -1,6 +1,6 @@
 # 未来的OS内核将是一个面向数据的调度器（带有计算机硬件和软件集成架构图）
 
----- 未来OS将是一个类似DB的系统, Clojure则是最好的DML
+---- 未来OS将是一个类似DB的ASIC系统, Clojure则是最好的DML
 
 版权所有 © 2021.11.15 林鹏程， 保留所有权利。
 
@@ -36,6 +36,10 @@ OS应该发展成什么模样才能适应这种新的理论和新的计算机架
       不重要，很少使用，缓慢的外部车间可以使用总线。但是，车间仍不应相互连接。
 
   - DML: 只要让Clojure集成JDBC和SQL，让所有核心API原生支持JDBC和OSDB, 就可以立刻成为最好的DML.
+    - 在应用层和脚本层，Clojure 或 Babashka 足够了。
+    - 在系统层，如果需要，为一种编程语言实现原生编译器根本不是问题。此外，JVM 还拥有 GraalVM 来支持原生编译。
+      - [Jank](https://github.com/jank-lang/jank)：在 LLVM 上托管的本地 Clojure 方言
+      - [ClojuRust](https://github.com/clojurust/clojurust)：Clojure 有一个 Rust 实现
   
 - 车间
   - 硬件: CPU，GPU, ASIC, 各种外设等
