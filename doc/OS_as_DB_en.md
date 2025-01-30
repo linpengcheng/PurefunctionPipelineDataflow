@@ -51,11 +51,11 @@ It must use the following `Warehouse/Workshop Model`:
   - DML: Just let Clojure integrate JDBC and SQL, 
     and let all core APIs natively support JDBC and OSDB, 
     and Clojure can instantly become the best DML.
-    - At the application layer and script layer, Clojure is sufficient.
+    - At the application layer and script layer, Clojure or [Babashka](https://github.com/babashka/babashka) is sufficient.
     - At the system layer, If necessary, implementing a native compiler for a programming language is not a problem at all. 
       In addition, the JVM has GraalVM to support native compilation.
       - [Jank](https://github.com/jank-lang/jank): The native Clojure dialect hosted on LLVM
-      - [ClojuRust](https://github.com/clojurust/clojurust): Clojure has a rust implementation: . 
+      - [ClojuRust](https://github.com/clojurust/clojurust): Clojure has a rust implementation. 
     
 - Workshop
 
