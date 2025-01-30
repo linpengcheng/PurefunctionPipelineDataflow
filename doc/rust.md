@@ -24,6 +24,11 @@ but he also achieved great success.
 Therefore, I suggest that computer science should classify financial knowledge as a compulsory course, 
 which has great reference significance for building a safe, efficient and stable system.
 
+Besides, financial modeling is too complicated, 
+using my “Warehouse/Workshop Model” is much simpler, 
+reliable, stable, efficient, high performance.
+It's fast, rough and furious, full of manufactured industrial style.
+
 Postscript:
 
 Mar 31, 2018, this article was created.
@@ -43,6 +48,8 @@ Rust设计人员还是很厉害的，象欧阳锋一样，拿着一本错乱的�
 Rust只学了一点皮毛并带错误的知识，居然也能获得巨大成功。
 
 所以，我建议计算机专业把财务金融知识列为必修课，这对构建安全、高效、稳定的系统有极大的参考意义。
+
+另外, 金融模型太复杂了, 用我的"仓库/车间模型"会更简单,可靠,稳定,高效,高性能, 主打一个快糙猛, 满满的制造工业风格.
 
 后记:
 
