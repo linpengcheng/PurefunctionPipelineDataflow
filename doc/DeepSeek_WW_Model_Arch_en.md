@@ -1,4 +1,4 @@
-# DeepSeek's Warehouse/Workshop Modeling Architecture
+# DeepSeek's Warehouse/Workshop Model Architecture
 
 Copyright © 2025.02.01 Pengcheng Lin, All rights reserved.
 
