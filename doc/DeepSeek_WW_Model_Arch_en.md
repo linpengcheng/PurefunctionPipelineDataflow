@@ -35,8 +35,9 @@ Natural distributed, heterogeneous parallelism, concurrency, asynchronous suppor
 
 According to DeepSeek's answer, the original DeepSeek's architecture describes a more complex, 
 the storage of the big model is an important part, which is ignored and not described, 
-the scheduler is mixed in the feed-forward neural network to describe, 
-which is very suitable for the “warehouse/workshop model”, 
+the scheduler is mixed in the feed-forward neural network to describe.
+
+The DeepSeek's architecture is very suitable for the “warehouse/workshop model”, 
 but the location and role of the storage and the scheduler can be dealt with better, 
 they are part of the warehouse, although they have no direct impact on the AI effect of the big model, 
 but if we do a good job of functional pipelining and enhance the independence of the workshop, 
