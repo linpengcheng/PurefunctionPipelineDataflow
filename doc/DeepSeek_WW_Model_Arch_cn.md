@@ -17,13 +17,14 @@
 - 输入嵌入层
 - 编码器
 - 解码器
+- 多头注意力
 - 前馈神经网络[Mixture-of-Experts（MoE）架构]
   - 路由专家
   - 共享专家
   - 路由
   - 选择
   - 加权与聚合
-- 优化器
+- 优化与训练
 - 资源监控
 - 容错处理
 
@@ -31,13 +32,18 @@
 
 按DeepSeek的回答, 原版的DeepSeek的架构描述得比较复杂,
 大模型的存储是重要的一环, 它忽略不描述了, 调度器混杂在前馈神经网络里描述,
-它非常适合"仓库/车间模型", 但在存储和调度器可以处理得更好.
+它非常适合"仓库/车间模型", 但在存储和调度器的位置和作用可以处理得更好,
+它们属于仓库,虽然它们对大模型的AI效果无直接影响,
+但如做好车间的函数式管道化、增强独立性，以仓库为中心调度, 
+可以更好地全局优化，提高车间利用效率，增强性能。
 
 ## 参考文献
 
 ### [DeepSeek-V3 的 MoE 架构解析：细粒度专家与高效模型扩展](https://www.cnblogs.com/ghj1976/p/18676819/deepseekv3-de-moe-jia-gou-jie-xi-xi-li-du-zhuan-ji)
 
-![](https://img2023.cnblogs.com/blog/120296/202501/120296-20250117135634036-1472907500.jpg)
+### [DeepSeek-V3 关键点解读：架构篇](https://zeeklog.com/deepseek-v3-guan-jian-dian-jie-du-jia-gou-pian-2/)
+
+![](https://qiniu.meowparty.cn/coder.2023/2025-01-11/Lesson-c017bd061abc5.png)
 
 ### 问: 简要说明一下DeepSeek的架构.
 
