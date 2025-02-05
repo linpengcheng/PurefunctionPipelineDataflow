@@ -1304,7 +1304,7 @@ greater than greater，bigger than bigger，
 扫灭不服，
 秒杀伪科。
 跳梁小丑，
-哑口无言，
+丑态百出。
 涤荡乾坤，
 正本清源。
 得国之正，
