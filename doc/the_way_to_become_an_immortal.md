@@ -1307,8 +1307,10 @@ greater than greater，bigger than bigger，
 丑态百出。
 涤荡乾坤，
 正本清源。
+天下悦服， 
+万国来朝。
 得国之正，
-莫过于此。 
+莫过于此。
 千秋万载，
 一统学界。
 
