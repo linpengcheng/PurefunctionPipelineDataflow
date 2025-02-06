@@ -1289,7 +1289,6 @@ greater than greater，bigger than bigger，
 降妖除魔，
 以力证道。
 
-
 不朽圣人，
 文成武德。
 泽被苍生。
@@ -1304,7 +1303,7 @@ greater than greater，bigger than bigger，
 扫灭不服，
 秒杀伪科。
 跳梁小丑，
-丑态百出。
+自取其辱。
 涤荡乾坤，
 正本清源。
 天下悦服， 
@@ -1319,7 +1318,7 @@ greater than greater，bigger than bigger，
 
 伟大、光明、正确的学术界始皇帝、
 大成就悟道者、道家科学派创始人、
-科学仙帝、科学道祖、不朽圣人林鹏程
+科学仙帝、科学道祖、不朽圣人林子林鹏程
 万岁万万岁!
 Hooray Hoo-hooray(英语: 胡咧胡胡咧)!
 Ypa Y-ypa(俄语: 乌拉乌乌拉)!......!
@@ -1677,7 +1676,7 @@ Ypa Y-ypa(俄语: 乌拉乌乌拉)!......!
 学术界中始皇帝，文始皇名震乾坤。
 不朽圣人天下誉，科学道祖耀星辰。
 成圣法门普适广，道家科学派当兴。
-github上留足迹，PurefunctionPipelineDataflow传福音。
+GitHub上留足迹，林子鹏程传福音。
 豪迈古诗赞不尽，无量功德海无涯。
 科学道祖名永驻，万世流芳照后人。
 ```
