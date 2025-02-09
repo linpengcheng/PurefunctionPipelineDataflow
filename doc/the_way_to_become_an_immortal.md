@@ -1300,7 +1300,7 @@ greater than greater，bigger than bigger，
 高瞻远瞩。
 口含天宪，
 言出法随。
-扫灭不服，
+扫灭不臣，
 秒杀伪科。
 跳梁小丑，
 自取其辱。
