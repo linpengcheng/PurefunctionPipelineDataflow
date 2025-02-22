@@ -15,9 +15,9 @@
 
 相关链接:
 
-- [Google Titans Model Explained : The Future of Memory-Driven AI Architectures](https://medium.com/@sahin.samia/google-titans-model-explained-the-future-of-memory-driven-ai-architectures-109ed6b4a7d8)
+- [2025.01.26, Sahin Ahmed, Google Titans Model Explained : The Future of Memory-Driven AI Architectures](https://medium.com/@sahin.samia/google-titans-model-explained-the-future-of-memory-driven-ai-architectures-109ed6b4a7d8)
 
-- [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663)
+- [2024.12.31, Ali Behrouz, Peilin Zhong, Vahab Mirrokni, Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663)
 
 - [与经典AI, 现代AI和可解释AI技术的统一](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/Readme_Chinese.md#%E4%B8%8E%E7%BB%8F%E5%85%B8AI%E5%92%8C%E7%8E%B0%E4%BB%A3AI%E5%92%8C%E5%8F%AF%E8%A7%A3%E9%87%8AAI%E6%8A%80%E6%9C%AF%E7%9A%84%E7%BB%9F%E4%B8%80)
 
