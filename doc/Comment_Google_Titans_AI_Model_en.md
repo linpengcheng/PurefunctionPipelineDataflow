@@ -10,10 +10,14 @@ so it is still very complex and inefficient.
 
 This is the most common mistake of Western thinking, which is too concrete, 
 too much superficial empirical evidence of objective matter.
+It's good for understanding and implementing, 
+but it gets more and more complicated, detailed and fragmented.
+You can only see the leaves but not the forest. 
+Can not do simple and unified abstraction.
 
-It is not enough to simulate the workings of the brain, 
-it is necessary to know how to efficiently dispatch all the resources 
-to accomplish the task, this is scientific management!
+It's not enough to simply simulate the workings of the brain, 
+but it's also important to know how to efficiently dispatch all the resources 
+to accomplish the task, which is what scientific management is good at!
 
 Reference:
 
