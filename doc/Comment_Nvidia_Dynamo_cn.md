@@ -9,7 +9,7 @@
 
    ![](./image/Nvidia_Dynamo_GPU_Planner.webp)
 
-2. NIXL（NVIDIA Inference Transfer Engine）类似于我在2021.06.19评价的微软Windows 11的
+2. NIXL（NVIDIA Inference Transfer Engine）类似于我2021.06.19在微博评价的微软Windows 11的
    DirectStorage技术使系统更加向“仓库/车间模型”演进，CPU和GPU更加向独立不交互的车间定义演进，
    更加以内存（仓库）为中心。(也可以参照我的文章
    ["预测: Intel和Microsoft都在向“仓库/车间模型”过渡(2021-06-22)"](./Intel_RISC_V_cn.md))
