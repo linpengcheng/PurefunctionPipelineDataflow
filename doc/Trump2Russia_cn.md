@@ -17,7 +17,7 @@
             <img src="./image/Trump2Russia/Trump1.jpg" />
          </td>
          <td valign="top">
-            <img src="./image/Trump2Russia/Trump2.jpg"  width="70%" />
+            <img src="./image/Trump2Russia/Trump2.jpg"  width="65%" />
          </td>
        </tr>
      </tbody>
