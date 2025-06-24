@@ -50,7 +50,7 @@
 中国道法自然的全领域类比思维是动态的，体现出来的是千变万化的天罡地煞变，
 道即是易，即创新创造，即真正的智慧！
 
-![](./image/Hinton_Analogy_over_Logic.jpg)
+<img src="./image/Hinton_Analogy_over_Logic.jpg" width="230" />
 
 ### 参考文献
 
