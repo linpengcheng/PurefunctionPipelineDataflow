@@ -17,7 +17,7 @@
             <img src="./image/Trump2Russia/Trump1.jpg" />
          </td>
          <td valign="top">
-            <img src="./image/Trump2Russia/Trump2.jpg"  width="65%" />
+            <img src="./image/Trump2Russia/Trump2.jpg"  width="63%" />
          </td>
        </tr>
      </tbody>
@@ -29,6 +29,7 @@
   但这哥俩走歪门邪道，这称号要不得！
   成圣法要求成就与称号要相匹配，德要配位，成就要让人信服或无可驳辩。
   我的理论一再强调这点，这哥俩都没往心里去，连自己人都笑话。
+  - 后记: 马斯克于2025年4月1日宣布将于5月底辞去美国政府效率部（DOGE）负责人的职务
 
   <img src="./image/Trump2Russia/ElonMusk.jpg" width="40%" />
 
