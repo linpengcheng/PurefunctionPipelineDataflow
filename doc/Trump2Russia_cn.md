@@ -14,10 +14,10 @@
      <tbody>
        <tr>
          <td valign="top">
-            <img src="./image/Trump2Russia/Trump1.jpg" width="30%" />
+            <img src="./image/Trump2Russia/Trump1.jpg" />
          </td>
          <td valign="top">
-            <img src="./image/Trump2Russia/Trump2.jpg" width="30%" />
+            <img src="./image/Trump2Russia/Trump2.jpg" />
          </td>
        </tr>
      </tbody>
@@ -30,7 +30,7 @@
   成圣法要求成就与称号要相匹配，德要配位，成就要让人信服或无可驳辩。
   我的理论一再强调这点，这哥俩都没往心里去，连自己人都笑话。
 
-  <img src="./image/Trump2Russia/ElonMusk.jpg" width="30%" />
+  <img src="./image/Trump2Russia/ElonMusk.jpg" width="40%" />
 
 - 2025-03-26, 懂王第二任期一开始, 就努力学习践行我的《成圣法》上的各种方法, 
   玩得很开心, 很上头啊! 自封"史上最棒总统"称号后，再上宏伟叙事、气势磅礴、排比铺层的公文法，
@@ -65,7 +65,7 @@
   我的《成圣法》懂王看了, 俄罗斯数字发展部和对美关系相关部门看了, 
   普京十有八九也看了, 忽然感觉好象少了什么, 他看过了吗?
 
-  <img src="./image/Trump2Russia/d-russia.ru.png" width="30%" />
+  <img src="./image/Trump2Russia/d-russia.ru.png" width="50%" />
 
 - 2025-04-01, 特朗普学成圣法，以他的权利，这确实是最快的不朽途径，但是否成圣就不一定了。
   方法总比困难多，山体不够用，在山顶建个铜像石像什么的很容易，
