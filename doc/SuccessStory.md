@@ -345,10 +345,22 @@ News: MS Server Chips are learning My Warehouse/Workshop Model (Apple M1 chip)
 - [2021.11.07, Foxpro's Database-oriented programming paradigm is the development direction of the future programming language](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Mummy4Foxpro.md)
 
 - [Chinese: Comment Google anti-microservice](./Comment_Google_anti-microservice.md)
+  
+- [Chinese: Comment TileLang is Warehouse/Workshop Model](./Comment_TileLang_is_wwmodel_cn.md)
+
+- [Rust: Mathematics can't save programming, but finance can](./rust.md)
 
 ### AI
 
 - [2021-04-30, Explainable AI System use the law model, the Warehouse/Workshop Model, classic AI(expert system, logic programming), machine learning](https://github.com/linpengcheng/PurefunctionPipelineDataflow#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
+
+- [Comment: "Google Titans Model Explained : The Future of Memory-Driven AI Architectures"](./Comment_Google_Titans_AI_Model_en.md)
+  
+- [Chinese: Comment_Nvidia_Dynamo](./Comment_Nvidia_Dynamo_cn.md)
+
+- [Chinese: DeepSeek's Warehouse/Workshop Model Architecture](./DeepSeek_WW_Model_Arch_en.md)
+
+- [Chinese: comment AI intelligent body](./comment_AI_intelligent_body.md)
  
 ### Robot
 
