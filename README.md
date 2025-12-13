@@ -96,7 +96,6 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - [The easiest way to learn](#The-easiest-way-to-learn)
   - [Principles-based are better than rules-based](#Principles-based-are-better-than-rules-based)
   - [Eating your own dog food](#Eating-your-own-dog-food)
-  - [Computer science is essentially a management science, and vice versa.](#Computer-science-is-management-science)
   - [Clojure officially advocates pipeline programming in 2021](#Clojure-officially-advocates-pipeline-programming-in-2021)
   - [End message](#End-message)
 - [Reference](#Reference)
@@ -2262,6 +2261,35 @@ See also: [Foxpro Database-oriented programming paradigm is the development dire
       then Transformers has a metabolic function and can develop and maintain itself 
       until it completes its mission. For example, sending several sub-Battlestars (sub-factories) 
       to conquer the sea of stars, Even if a sub-Battlestar fails, it can still shout: "I will be back!" :-)
+
+      If we construct 365 Star Lord-level Transformers, they can form the ultimate celestial technique
+      of the ancient Heavenly Court: the "365 Zhou Tian Stars Formation," restoring the majestic divine
+      might of the ancient Heavenly Court. This was a lighthearted comment I made around November 2022
+      (I couldn’t find the exact date because WeChat’s "Channels" feature lacks a function to search my historical comments)
+      under a video about China’s Zhuhai Airshow "Nantianmen Plan" on WeChat Channels.
+      Though this idea may seem distant, it is theoretically achievable and could serve as a follow-up plan
+      to the "Nantianmen Plan." It is not strategic deception but an inevitable, feasible,
+      and methodologically sound framework that will undoubtedly be realized.
+
+      In this section, I have demonstrated grand supernatural abilities such as
+      Tiangang Dishan Transformation (heavenly and earthly metamorphosis),
+      化身千万 (creating countless manifestations), 滴血重生 (rebirth from a drop of blood),
+      大小如意 (size manipulation),法天象地 (embodying the cosmos), and the 365 Zhou Tian Stars Formation.
+      Combined with the earlier discussion of the Six Paths of Reincarnation in hell,
+      we can see that the "Warehouse/Workshop Model" is a fundamental method that points directly to the Great Dao.
+      This is neither nonsense nor superstition, because myths represent humanity’s ultimate dreams,
+      and the purpose of scientific development is to realize these dreams. Thus,
+      myths can guide the direction of scientific progress. This leads me to the following statement:
+
+      ```
+      The end of science is mythology.
+          ---- Lin Pengcheng
+      ``` 
+
+      This statement is adapted from "the end of science is religion" and "the end of science is theology,"
+      both of which I believe are incorrect. My revised version is the accurate one!
+
+      See also: [Chinese: Dao is Change: From "Confucius Praising Laozi as a Dragon" to "My Great Dao of the Warehouse/Workshop Model"](./doc/Tao_of_Confucius_LaoTzu_Me.md)
   
   - Warehouse: Its scheduling function is the core of AI, 
     based on the data in the warehouse, combining functional components to complete tasks.
@@ -2280,6 +2308,63 @@ See also: [Foxpro Database-oriented programming paradigm is the development dire
       Just like Monkey King (Sun Wukong), you can turn the chewed vellus hair into a monkey army 
       to gather and scatter like you want. The vellus hair can do it, and other body tissues can do it better. 
       It can be considered that Monkey King (Sun Wukong) is a fractal system composed of countless little Monkey Kings (Sun Wukong).
+
+- 2023.03.04, [Prediction: Musk will next develop unmanned aircraft and unmanned ships to construct an all-knowing "Musk" Transformer with sea, land, air and sky functions](./doc/TeslaRobot_en.md)
+
+- 2023.09.08, www.51cto.com News, “Musk Reportedly Plans to Merge Tesla and Neuralink,
+  Aiming for AGI Like That Depicted in The Hitchhiker's Guide to the Galaxy.”
+  The merger technology described in this article is almost identical to my prophecy.
+
+- If the earlier space fortress can construct the “365 Celestial Array,”
+  then the integrated land-sea-air-space system can build the “Heavenly Net,”
+  both ancient celestial realm masterstrokes.
+
+- Since the “Southern Heavenly Gate Project” space fortress and spaceplane unveiled at the 2022 Zhuhai Airshow,
+  I've observed China's accelerated development of robotic dogs, drone carriers, aircraft-carrying drones,
+  and short videos showcasing unmanned aircraft-equipped submarines. It appears they are constructing my omniscient,
+  omnipotent Transformers combat system spanning land, sea, air, and space—building the “Heavenly Net.”
+  In December 2024, I saw reports that Musk advised the U.S. military to learn from China and adopt my omniscient,
+  omnipotent Transformers combat system. Furthermore, with drones becoming critical weapons on the Russia-Ukraine battlefield,
+  it appears that military development in China, the U.S., and indeed worldwide is converging toward my theoretical framework.
+
+  - This section should be viewed in conjunction with the earlier discussion on [The unification of single-threaded, multi-threaded, asynchronous and distributed](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed).
+  Essentially, each robot (weapon, soldier) is treated as an intelligent thread (process) for scheduling.
+
+In summary, my theory is also a military theory, treating command departments as dispatchers 
+and combat units as workshops. From the highest Ministry of Defense down to 
+the lowest combat unit (unmanned intelligent weapons), 
+the entire national military system constitutes a fractal warehouse/workshop model.
+
+As outlined below in [The unification with modern economic and social operating system](#The-unification-with-modern-economic-and-social-operating-system), 
+the national decision-making body can be treated as the dispatcher, 
+with military departments and various economic sectors as workshops. 
+Prioritizing the military as the primary workshop, it integrates and centrally manages AI, 
+robotics, economics, politics, and other domains—this constitutes wartime economics: 
+the intelligent integration of military, political, and economic functions during conflict.
+
+Thus, my theory presents a simple, unified architecture—the “warehouse/workshop model”
+— from the macro level down to its smallest components. It operates as a pipeline, 
+seamlessly integrating political, economic, and military functions; reconnaissance, 
+strike, offense, and defense capabilities; sea, land, air, and space domains; 
+and human and weapon systems. This framework is both simple and unified, 
+yet infinitely adaptable, allowing for flexible aggregation and dispersion. 
+It is universal, flexible, efficient, and stable. It remains paramount 
+in any application domain where the goal is to accomplish objectives simply and efficiently.
+
+This principle is paramount in military affairs, fully embodied in Sun Tzu's Art of War 
+and modern military development. Moreover, defeat in war means death—inept commanders deter adversaries, 
+and those who confront them perish swiftly. An incompetent leader exhausts his entire army, 
+and others won't tolerate such disruption. Thus, only wartime military operations can genuinely, 
+rigorously, and uncompromisingly implement this principle.
+
+Only when faced with death do humans work diligently and efficiently—this is wartime management. 
+My theory, rooted in scientific management principles, may seem harsh when applied to people, 
+but for machines, it's a divinely inspired approach! For instance: delivery routes and timings for food orders. 
+Intelligent supervision is the IT-driven, smart version of scientific management theory. 
+Though not 100% optimized—turning humans into machines—it's already quite formidable.
+
+I founded the “Grand Unified Military Theory School,” 
+becoming the greatest military theorist of the new century—studied worldwide. :-)  
   
 #### The unification with modern economic and social operating system
 
