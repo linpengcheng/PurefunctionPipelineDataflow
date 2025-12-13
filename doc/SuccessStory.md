@@ -344,11 +344,11 @@ News: MS Server Chips are learning My Warehouse/Workshop Model (Apple M1 chip)
 
 - [2021.11.07, Foxpro's Database-oriented programming paradigm is the development direction of the future programming language](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Mummy4Foxpro.md)
 
+- [Rust: Mathematics can't save programming, but finance can](./rust.md)
+
 - [Chinese: Comment Google anti-microservice](./Comment_Google_anti-microservice.md)
   
 - [Chinese: Comment TileLang is Warehouse/Workshop Model](./Comment_TileLang_is_wwmodel_cn.md)
-
-- [Rust: Mathematics can't save programming, but finance can](./rust.md)
 
 ### AI
 
