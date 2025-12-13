@@ -139,21 +139,22 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   From an accountant's perspective:](#The-unification-with-Accounting)  
   
   - Enterprises are factories manufacturing cash flows. The dominant system architecture
-    in factories is the “warehouse/shop floor model.” Various raw materials, intermediate products,
+    in factories is the “Warehouse/Workshop Model”. Various raw materials, intermediate products,
     and finished goods are merely concrete manifestations of abstract cash flows at specific points in time.
 
   - Computer software and hardware are factories manufacturing data flows,
-    thus sharing the same “warehouse/shop floor model” and management approaches as manufacturing.
+    thus sharing the same “Warehouse/Workshop Model” and management approaches as manufacturing.
     Various data types are merely concrete manifestations of abstract data flows at specific points in time.
 
-- [Taylor's scientific management theory is not a complete scientific management system; the warehouse/shop floor model constitutes the complete scientific management system](#The-unification-with-Management-Science)
+- [Taylor's scientific management theory is not a complete scientific management system;
+  the Warehouse/Workshop Model constitutes the complete scientific management system](#The-unification-with-Management-Science)
   
   Taylor's scientific management theory only defines operational optimization, i.e., operations research (OR),
-  equivalent to the scheduler of the “warehouse/shop floor model.” It lacks scientific definitions for the components,
+  equivalent to the scheduler of the “Warehouse/Workshop Model”. It lacks scientific definitions for the components,
   architecture, construction principles, mathematical models, standardization, aesthetics, etc.,
   of the enterprise (factory) as the object of scientific management.
 
-  My “Warehouse/Shop Model” provides perfect definitions for these elements. Based on this foundation,
+  My “Warehouse/Workshop Model” provides perfect definitions for these elements. Based on this foundation,
   it enables the comprehensive mathematization, scientification, simplification, unification,
   systematization, and standardization of management science.
 
@@ -2244,21 +2245,6 @@ See also: [Foxpro Database-oriented programming paradigm is the development dire
       to gather and scatter like you want. The vellus hair can do it, and other body tissues can do it better. 
       It can be considered that Monkey King (Sun Wukong) is a fractal system composed of countless little Monkey Kings (Sun Wukong).
   
-#### The unification with energy system
-
-- Standardized product: Electric energy.
-- Warehouse: Power plant, battery.
-- Workshop
-  - Input workshop: 
-    Convert chemical energy, wind energy, solar energy, 
-    mechanical energy, and other energy into standard energy 
-    -- "electric energy".
-  - Output workshop: 
-    Various electrical equipment such as computers, 
-    household appliances, communication equipment, etc. 
-    convert standard electrical energy into signals, 
-    mechanical energy, sound, etc.
-
 #### The unification with modern economic and social operating system
 
 - Standardized product: Currency, general equivalent.
@@ -2286,6 +2272,136 @@ See also: [Foxpro Database-oriented programming paradigm is the development dire
     - Finance department: Currency, general equivalent.
     - Warehouse: products, raw materials, etc.
   - Workshop: various production departments, administrative departments, and individuals.
+
+In summary, this involves managing the nation as 
+a super-corporation by establishing a national-level 
+ERP (Enterprise Resource Planning) system. 
+This achieves the unification of macroeconomics and microeconomics, 
+both utilizing the Warehouse/Workshop Model as their core framework. 
+Consequently, the entire theoretical system becomes 
+comprehensively mathematized, scientifically grounded, 
+simplified, unified, and standardized. Thus, 
+I have created the “Grand Unified Economics”. 
+I am the founding patriarch of a new school in economics:-)
+
+Traditionally, emperors who ended national division 
+and achieved unification are celebrated as legendary rulers. 
+In academia, the same principle applies, 
+I should therefore be awarded the “Nobel Prize in Economics.”
+
+#### The unification with Management Science
+
+```
+Computer science is essentially a management science, and vice versa.
+    ---- Lin Pengcheng
+         Creator of Computer Science Management School
+         Creator of Management Science Computer School
+```         
+
+Taylor's scientific management theory is not 
+a complete scientific management system; 
+the Warehouse/Workshop Model constitutes 
+the complete scientific management system.
+
+Taylor's scientific management theory only 
+defines operational optimization, i.e., 
+operations research (OR), equivalent to 
+the scheduler of the “Warehouse/Workshop Model”.
+It lacks scientific definitions for the components, 
+architecture, construction principles, mathematical models, 
+standardization, aesthetics, etc., of the enterprise (factory) 
+as the object of scientific management.  
+My “Warehouse/Workshop Model” provides perfect definitions 
+for these elements. Based on this foundation, 
+it enables the comprehensive mathematization, 
+scientification, simplification, unification, systematization, 
+and standardization of management science.
+
+In the field of computer science, I applied technologies such as management principles, 
+warehouse/workshop model, and large-scale industrial standardization assembly lines 
+to the fields of computer software, hardware, and AI, and realized the unification of computer theory.
+
+In management science, I take the simple, classic, vivid, 
+and widely used in social production practice, 
+elementary school mathematics "water input/output of the pool" as the mathematical prototype, 
+take the absolute mainstream production model (warehouse/workshop model) as an example, 
+define and elaborate the management principles (core of management science). 
+
+It is the first mathematical define and elaborate of management principles and warehouse/workshop models, 
+and it is the most scientific, systematic, simple, reliable, clear and operable. 
+It uses mathematics to change management science from soft science to hard science, 
+it has important guiding significance for management science, warehouse/workshop model optimization design, 
+it will create great economic benefits for enterprises. 
+For example: It can be used as a scientific basis to further optimize 
+the pulsation production line technology of Boeing aircraft.
+
+Whether it is an IT practitioner who takes up a management position, or a manager who becomes an IT industry executive, they can use my theory as a bridge to another kind of science.
+
+My theory is grounded in scientific management principles. 
+While it may seem somewhat harsh when applied to managing people, 
+when applied to managing machines, it is a divinely inspired theory! 
+For example: delivery routes and timings for food orders. 
+Intelligent supervision is essentially the IT-enabled, 
+intelligent version of scientific management theory. 
+Though it may not achieve 100% optimization or fully mechanize human labor, 
+it is already quite alarming.
+
+My primary innovations in management science include:
+
+- Boeing's PULSE production line represents the most advanced aircraft manufacturing technology,
+  yet Boeing failed to further model, mathematize, simplify, universalize, unify, theorize,
+  or systematize it. My theory achieves this, forming the scheduling algorithm of my framework.
+
+- Despite years of development by world-leading ERP (Enterprise Resource Planning)
+  software vendors like SAP, no correct enterprise management model has been abstracted.
+  My theory achieves this through the Warehouse/Workshop Model.
+
+- Despite centuries of modern industrial practice and millennia of management theory development,
+  the Warehouse/Workshop Model has been overlooked.  No substantial theoretical discourse exists on it,
+  leaving the field fragmented, unsystematic, and unscientific.  My theory enables the reconstruction of
+  enterprise management theory around its core,  achieving simplification, universality, unification,
+  mathematization, and scientific rigor across the entire theoretical framework.
+
+- Building upon the warehouse/workshop model, I have scientifically, mathematically, simply,
+  and uniformly restructured existing management principles, transforming them into a highly
+  systematized theory that forms the core of a new generation of scientific, systematic,
+  and mathematical management science. Current management disciplines are highly fragmented,
+  with minimal interconnectivity and no cohesive framework, falling short of true scientific rigor.
+  My theory rescues existing management science.
+
+#### The unification with Accounting
+
+As a CPA (Certified Public Accountant), 
+my theories stem from an accounting mindset. 
+From an accountant's perspective:
+
+- Enterprises are factories manufacturing cash flows. 
+  The dominant system architecture in factories is the 
+  “Warehouse/Workshop Model”. Various raw materials, 
+  intermediate products, and finished goods are merely 
+  concrete manifestations of abstract cash flows at 
+  specific points in time.
+
+- Computer software and hardware are factories manufacturing 
+  data flows, thus sharing the same “Warehouse/Workshop Model” 
+  and management approaches as manufacturing.  Various data types 
+  are merely concrete manifestations of abstract data flows 
+  at specific points in time.
+
+#### The unification with energy system
+
+- Standardized product: Electric energy.
+- Warehouse: Power plant, battery.
+- Workshop
+  - Input workshop: 
+    Convert chemical energy, wind energy, solar energy, 
+    mechanical energy, and other energy into standard energy 
+    -- "electric energy".
+  - Output workshop: 
+    Various electrical equipment such as computers, 
+    household appliances, communication equipment, etc. 
+    convert standard electrical energy into signals, 
+    mechanical energy, sound, etc.
 
 #### The unification with Other Models 
 
@@ -3001,35 +3117,6 @@ This theory consists of the following six parts:
 Each component of this theory is perfectly applied and 
 demonstrated other components, which shows that this 
 theory is a practical, complete and systematic theoretical system.
-
-<h3 id="Computer-science-is-management-science">Computer science is essentially a management science, and vice versa.</h3> 
-
-```
-Computer science is essentially a management science, and vice versa.
-    ---- Lin Pengcheng
-         Creator of Computer Science Management School
-         Creator of Management Science Computer School
-```         
-
-In the field of computer science, I applied technologies such as management principles, 
-warehouse/workshop model, and large-scale industrial standardization assembly lines 
-to the fields of computer software, hardware, and AI, and realized the unification of computer theory.
-
-In management science, I take the simple, classic, vivid, 
-and widely used in social production practice, 
-elementary school mathematics "water input/output of the pool" as the mathematical prototype, 
-take the absolute mainstream production model (warehouse/workshop model) as an example, 
-define and elaborate the management principles (core of management science). 
-
-It is the first mathematical define and elaborate of management principles and warehouse/workshop models, 
-and it is the most scientific, systematic, simple, reliable, clear and operable. 
-It uses mathematics to change management science from soft science to hard science, 
-it has important guiding significance for management science, warehouse/workshop model optimization design, 
-it will create great economic benefits for enterprises. 
-For example: It can be used as a scientific basis to further optimize 
-the pulsation production line technology of Boeing aircraft.
-
-Whether it is an IT practitioner who takes up a management position, or a manager who becomes an IT industry executive, they can use my theory as a bridge to another kind of science.
 
 ### Clojure officially advocates pipeline programming in 2021
 
