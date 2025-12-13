@@ -113,6 +113,7 @@
       - [类比、数学、道、真正的智慧和我的大统一理论](doc/Analogy_Math_Tao_Wisdom_MyTheory_cn.md)
       - [评《Nature重磅：AI和人脑的根本区别找到了，我们对“聪明”的理解可能全错了》----西方人变相承认中国的传统国学思维方式更有智慧](doc/Comment_Nature_Aligning_generalization_between_humans_and_machines_cn.md)
       - [开山立派四要件](doc/TaoistScientificResearchMethodology.md)
+      - [“二代道祖----科学道祖”林鹏程评《简单是一种优势，但可悲的是复杂性卖得更好》](doc/Taoist_Simplicity_cn.md)
       - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](doc/Simplicity_and_Unity.md)
       - [道即是易: 从"孔子誉老子为龙"到"我的仓库/车间模型大道"](./doc/Tao_of_Confucius_LaoTzu_Me.md)
       - [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](doc/Tao_ICD.md)
