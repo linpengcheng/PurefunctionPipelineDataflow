@@ -66,8 +66,10 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [The unification with `classic AI, modern AI, and explainable AI technology`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
       - [Explainable AI System use the law model and the Warehouse/Workshop Model on 2021-04-30](#Explainable-AI-System)
       - [Robots and transformers on 2021-02-02](#Robots-and-transformers)
-    - [The unification with `energy system`](#The-unification-with-energy-system)
     - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
+    - [The unification with Management Science](#The-unification-with-Management-Science)
+    - [The unification with Accounting](#The-unification-with-Accounting)  
+    - [The unification with `energy system`](#The-unification-with-energy-system)    
     - [The unification with `Other Models`](#The-unification-with-Other-Models)    
   - [Warehouse/Workshop Model Summary](#Warehouse-Workshop-Model-Summary)    
 - [The difference between it and others](#The-difference-between-it-and-others)
@@ -129,9 +131,31 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   
   - See also: [`Traditional IT theory (OO, FP and hardware architecture, etc.)` VS. `Warehouse/Workshop Model`](#Traditional-OO-and-FP-architecture-VS-Warehouse-Workshop-Model) : Traditional IT theory system are pseudoscience, they belong to what physicist Wolfgang Pauli said "Not Even Wrong".
 
-- [Software and hardware are factories that manufacture data, 
+- [Software and hardware are factories that manufacture data flows, 
   so they have the same "warehouse/workshop model" and management methods 
   as the manufacturing industry.](#Warehouse-Workshop-Model)
+
+  [As a CPA (Certified Public Accountant), my theories stem from an accounting mindset.
+  From an accountant's perspective:](#The-unification-with-Accounting)  
+  
+  - Enterprises are factories manufacturing cash flows. The dominant system architecture
+    in factories is the “warehouse/shop floor model.” Various raw materials, intermediate products,
+    and finished goods are merely concrete manifestations of abstract cash flows at specific points in time.
+
+  - Computer software and hardware are factories manufacturing data flows,
+    thus sharing the same “warehouse/shop floor model” and management approaches as manufacturing.
+    Various data types are merely concrete manifestations of abstract data flows at specific points in time.
+
+- [Taylor's scientific management theory is not a complete scientific management system; the warehouse/shop floor model constitutes the complete scientific management system](#The-unification-with-Management-Science)
+  
+  Taylor's scientific management theory only defines operational optimization, i.e., operations research (OR),
+  equivalent to the scheduler of the “warehouse/shop floor model.” It lacks scientific definitions for the components,
+  architecture, construction principles, mathematical models, standardization, aesthetics, etc.,
+  of the enterprise (factory) as the object of scientific management.
+
+  My “Warehouse/Shop Model” provides perfect definitions for these elements. Based on this foundation,
+  it enables the comprehensive mathematization, scientification, simplification, unification,
+  systematization, and standardization of management science.
 
 - [Software and hardware are a unified architecture: "warehouse/workshop model".](#The-unification-with-Computer-Hardware-Architecture)
   - From the perspective of static, it is a star.
@@ -195,6 +219,8 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
   - What role do they play in this act?
   
   I have always believed that such irrational and unscientific attitudes and behaviors can be ignored.
+
+  ![](./doc/image/disagreement_hierarchy.jpg)
 
 ## My and Other Peoples Related Views
 
