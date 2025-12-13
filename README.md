@@ -1453,6 +1453,10 @@ but The workshop is connected with data services (object status, warehouse) to f
 
   - Mathematical support
 
+    ```
+    In any particular theory, only that part which contains mathematics constitutes true science.
+        ---- Kant
+    ```
     Lack of mathematical support, in any discipline, the part that has mathematical support can be called science.
 
   - Common sense in scientific research: repeatability and verifiability
@@ -1516,12 +1520,37 @@ but The workshop is connected with data services (object status, warehouse) to f
 
   - Real-world reference models
 
+    ```
+    Whatever is not deduced from the phenomena should be called a hypothesis; hypotheses,
+    whether metaphysical or physical... have no place in experimental philosophy.
+    In this philosophy, particular propositions are inferred from the phenomena,
+    and afterward rendered general by induction. It was thus...
+    that the laws of motion and of gravitation were discovered.
+        ---- Newton
+
+    Newton was the first to succeed in finding a clearly formulated basis from which,
+    through purely mathematical thinking, he could logically and
+    quantitatively deduce a wide range of phenomena in agreement with experience.
+    Before Newton, there was no tangible support for the belief in a complete chain of physical causation.
+        ---- Einstein
+    ```
+ 
+    Newton classified all explanations of "causes" that could not be strictly proven
+    by phenomena and mathematics as "hypotheses." He declared that true philosophia experimentalis
+    — the precursor to modern science — only accepts what is derived from the induction
+    of phenomena and can be described by mathematical laws.
+    
     - FP & hardware system architectures do not have real-world reference models, 
       and theories without reference systems are difficult to explain and understand, 
       and most likely to make mistakes.
+      They have neither phenomena nor the process of being generalized into
+      more universal conclusions through induction, let alone induction into
+      abstract mathematical models, thus failing to meet Newton's requirements for modern science.
 
     - OO is only a superficial simulation of the real world, there is no unified guidelines, 
       principles and models. Both the system architecture and the process are very complex and confusing.
+      That is to say, they have not been generalized into more universal conclusions through induction,
+      let alone abstracted into mathematical models, and thus do not align with Newton's conception of modern science.
 
 - Warehouse/Workshop Model
 
@@ -1563,7 +1592,14 @@ but The workshop is connected with data services (object status, warehouse) to f
 
   - Real-world reference models
 
-    - The theory of having a real-world mainstream system as a reference model is easy to understand, easy to comprehend, and if there is controversy or doubt, the real-world reference model can be analyzed and the answer found.
+    - My theory is grounded in observable phenomena, employs induction to derive more universal conclusions,
+      and has been ultimately abstracted into a mathematical model,
+      thereby conforming to Newton's criteria for modern science.
+      
+    - The theory of having a real-world mainstream system
+      as a reference model is easy to understand, easy to comprehend,
+      and if there is controversy or doubt,
+      the real-world reference model can be analyzed and the answer found.
 
     - This has been the best practice of the manufacturing industry for centuries, 
       and there are countless research materials and book boxes available on the subject.
