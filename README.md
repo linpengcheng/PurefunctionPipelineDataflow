@@ -2311,21 +2311,21 @@ See also: [Foxpro Database-oriented programming paradigm is the development dire
 
 - 2023.03.04, [Prediction: Musk will next develop unmanned aircraft and unmanned ships to construct an all-knowing "Musk" Transformer with sea, land, air and sky functions](./doc/TeslaRobot_en.md)
 
-- 2023.09.08, www.51cto.com News, “Musk Reportedly Plans to Merge Tesla and Neuralink,
-  Aiming for AGI Like That Depicted in The Hitchhiker's Guide to the Galaxy.”
-  The merger technology described in this article is almost identical to my prophecy.
+  - 2023.09.08, www.51cto.com News, “Musk Reportedly Plans to Merge Tesla and Neuralink,
+    Aiming for AGI Like That Depicted in The Hitchhiker's Guide to the Galaxy.”
+    The merger technology described in this article is almost identical to my prophecy.
 
-- If the earlier space fortress can construct the “365 Celestial Array,”
-  then the integrated land-sea-air-space system can build the “Heavenly Net,”
-  both ancient celestial realm masterstrokes.
+  - If the earlier space fortress can construct the “365 Celestial Array,”
+    then the integrated land-sea-air-space system can build the “Heavenly Net,”
+    both ancient celestial realm masterstrokes.
 
-- Since the “Southern Heavenly Gate Project” space fortress and spaceplane unveiled at the 2022 Zhuhai Airshow,
-  I've observed China's accelerated development of robotic dogs, drone carriers, aircraft-carrying drones,
-  and short videos showcasing unmanned aircraft-equipped submarines. It appears they are constructing my omniscient,
-  omnipotent Transformers combat system spanning land, sea, air, and space—building the “Heavenly Net.”
-  In December 2024, I saw reports that Musk advised the U.S. military to learn from China and adopt my omniscient,
-  omnipotent Transformers combat system. Furthermore, with drones becoming critical weapons on the Russia-Ukraine battlefield,
-  it appears that military development in China, the U.S., and indeed worldwide is converging toward my theoretical framework.
+  - Since the “Southern Heavenly Gate Project” space fortress and spaceplane unveiled at the 2022 Zhuhai Airshow,
+    I've observed China's accelerated development of robotic dogs, drone carriers, aircraft-carrying drones,
+    and short videos showcasing unmanned aircraft-equipped submarines. It appears they are constructing my omniscient,
+    omnipotent Transformers combat system spanning land, sea, air, and space—building the “Heavenly Net.”
+    In December 2024, I saw reports that Musk advised the U.S. military to learn from China and adopt my omniscient,
+    omnipotent Transformers combat system. Furthermore, with drones becoming critical weapons on the Russia-Ukraine battlefield,
+    it appears that military development in China, the U.S., and indeed worldwide is converging toward my theoretical framework.
 
   - This section should be viewed in conjunction with the earlier discussion on [The unification of single-threaded, multi-threaded, asynchronous and distributed](#The-unification-of-single-threaded-and-multi-threaded-and-asynchronous-and-distributed).
   Essentially, each robot (weapon, soldier) is treated as an intelligent thread (process) for scheduling.
