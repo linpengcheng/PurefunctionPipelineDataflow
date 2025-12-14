@@ -337,7 +337,7 @@ This is the simplicity and repetition pursued by large industrial production lin
 
 [jianshu_dataflow_5_components.png](./doc/image/jianshu_dataflow_5_components.png)
 
-[weibo_dataflow_5_components](./doc/image/weibo/weibo_dataflow_5_components_20180228.png)
+[weibo_dataflow_5_components.png](./doc/image/weibo/weibo_dataflow_5_components_20180228.png)
 
 ### 1 Pipeline Component
 
