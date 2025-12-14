@@ -11,7 +11,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 - [Key innovative ideas (for TL;DR)](#Key-innovative-ideas)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
-- [5 basic pure function pipeline data flow components (2018.02.28 on [my jianshu blog](https://www.jianshu.com/p/0a968746207f))](#Five-basic-pure-function-pipeline-data-flow-components)
+- [5 basic pure function pipeline data flow components (2018.02.28 on my jianshu Chinese blog)](#Five-basic-pure-function-pipeline-data-flow-components)
   - [1. Pipeline Component (forward flow)](#1-Pipeline-Component)
   - [2. Conditional Branch](#2-Conditional-Branch)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
