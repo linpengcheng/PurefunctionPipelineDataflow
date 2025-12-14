@@ -1538,6 +1538,15 @@ but The workshop is connected with data services (object status, warehouse) to f
     by phenomena and mathematics as "hypotheses." He declared that true philosophia experimentalis
     — the precursor to modern science — only accepts what is derived from the induction
     of phenomena and can be described by mathematical laws.
+    Newton's "phenomena" refer to systematically observed, mathematically describable,
+    and recurrent natural events. They constitute the only legitimate starting point for scientific theory,
+    as opposed to reliance on unverifiable hypotheses or metaphysical speculation.
+    Newton believed that science must be rooted in the observable world, avoiding metaphysical fancy.
+    Through the method of "phenomena → mathematical induction → universal laws → deductive verification,"
+    he transformed natural philosophy into a precise mathematical science,
+    laying the foundation for modern scientific methodology.
+    Newton's approach aligns with the Daoist principles of "the Dao follows nature,"
+    "all methods return to one," and "one Dao gives rise to all methods."
     
     - FP & hardware system architectures do not have real-world reference models, 
       and theories without reference systems are difficult to explain and understand, 
@@ -1572,7 +1581,7 @@ but The workshop is connected with data services (object status, warehouse) to f
       prove the superiority of their solutions by mathematical methods, 
       so this method is the choice of the best people.
       
-    - In my mathematical and principle-based "warehouse/shop floor model" theory, 
+    - In my mathematical and principle-based "Warehouse/Workshop Model" theory, 
       uncertainty exists in a deterministic principle-based framework and mathematical model. 
       Uncertainty is controllable, and when an uncertain event occurs, 
       the scheduler can immediately optimize it by dynamic planning 
@@ -1591,9 +1600,14 @@ but The workshop is connected with data services (object status, warehouse) to f
 
   - Real-world reference models
 
-    - My theory is grounded in observable phenomena, employs induction to derive more universal conclusions,
-      and has been ultimately abstracted into a mathematical model,
-      thereby conforming to Newton's criteria for modern science.
+    - My theory, through the induction of phenomena (such as fluid dynamics models in nature
+      and large-scale industrial production practices), arrives at a more universal conclusion
+      — the Warehouse/Workshop Model — which is further abstracted into a mathematical framework.
+      Subsequently, deductive verification is conducted by applying this mathematical model
+      across various industries and specialized disciplines, establishing it as the core model
+      for their respective theoretical systems and the foundation for comprehensive mathematization and scientization.
+      This approach aligns with Newton’s requirements for modern science and resonates with Daoist philosophical principles
+      such as “the Dao follows nature,” “all methods return to one,” and “one Dao gives rise to all methods.”
       
     - The theory of having a real-world mainstream system
       as a reference model is easy to understand, easy to comprehend,
