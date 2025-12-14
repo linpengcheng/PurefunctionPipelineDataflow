@@ -2404,8 +2404,10 @@ becoming the greatest military theorist of the new century—studied worldwide. 
   
   - Standardized products: currency, general equivalent
   - Warehouse: 
-    - Finance department: Currency, general equivalent.
-    - Warehouse: products, raw materials, etc.
+    - From the perspective of financial flow
+      - Finance department: Currency, general equivalent.
+    - From the perspective of physical flow or manufacturing
+      - Warehouse department: products, raw materials, etc.
   - Workshop: various production departments, administrative departments, and individuals.
 
 In summary, this involves managing the nation as 
