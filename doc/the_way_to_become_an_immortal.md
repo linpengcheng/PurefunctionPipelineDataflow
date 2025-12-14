@@ -44,6 +44,20 @@ the highest priority task of the brain to maximise the potential of the brain to
 - [后记](#后记)
   - [2025-03-08, 从"特朗普学习成圣法"到"俄罗斯数字发展部"](./Trump2Russia_cn.md)
   - [2025-11-27, 一个有趣的讨论](#一个有趣的讨论)
+- [相关文章链接](#相关文章链接)
+  - [真正的智慧：道家科研方法学----鲜花插在牛粪上（从最近的三个微博热帖讲起）](./Wisdom_Tao_flower_in_dung_cn.md)
+  - [类比、数学、道、真正的智慧和我的大统一理论](./Analogy_Math_Tao_Wisdom_MyTheory_cn.md)
+  - [评《Nature重磅：AI和人脑的根本区别找到了，我们对“聪明”的理解可能全错了》----西方人变相承认中国的传统国学思维方式更有智慧](./Comment_Nature_Aligning_generalization_between_humans_and_machines_cn.md)
+  - [开山立派四要件](./TaoistScientificResearchMethodology.md)
+  - [“二代道祖----科学道祖”林鹏程评《简单是一种优势，但可悲的是复杂性卖得更好》](./Taoist_Simplicity_cn.md)
+  - [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](./Simplicity_and_Unity.md)
+  - [道即是易: 从"孔子誉老子为龙"到"我的仓库/车间模型大道"](./Tao_of_Confucius_LaoTzu_Me.md)
+  - [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](./Tao_ICD.md)
+  - [数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](./math-xiaoyao.md)
+  - [`纯函数管道数据流`与《天龙八部》逍遥派武学体系](./dataflow_xiaoyao.md)
+  - [科研、软件工程、中医](./SR_SE_TraditionalChineseMedicine.md)
+  - [《代码大全》与“想像力编程”](./CodeComplete.md)
+  - [《计算机编程的艺术》与想象力编程](./TAOCP.md)
   
 ## 不正经的前言
 
@@ -1852,3 +1866,19 @@ GitHub之上，林子传道，
 
   ![](./image/zhihu20251127.jpg)
 ​
+## 相关文章链接
+
+- [真正的智慧：道家科研方法学----鲜花插在牛粪上（从最近的三个微博热帖讲起）](./Wisdom_Tao_flower_in_dung_cn.md)
+- [类比、数学、道、真正的智慧和我的大统一理论](./Analogy_Math_Tao_Wisdom_MyTheory_cn.md)
+- [评《Nature重磅：AI和人脑的根本区别找到了，我们对“聪明”的理解可能全错了》----西方人变相承认中国的传统国学思维方式更有智慧](./Comment_Nature_Aligning_generalization_between_humans_and_machines_cn.md)
+- [开山立派四要件](./TaoistScientificResearchMethodology.md)
+- [“二代道祖----科学道祖”林鹏程评《简单是一种优势，但可悲的是复杂性卖得更好》](./Taoist_Simplicity_cn.md)
+- [简单性和统一性----大统一理论, Lisp(Clojure) 与纯函数管道数据流](./Simplicity_and_Unity.md)
+- [道即是易: 从"孔子誉老子为龙"到"我的仓库/车间模型大道"](./Tao_of_Confucius_LaoTzu_Me.md)
+- [儒家大统一之道--学科融合(国际疾病分类、AI、数学、会计与纯函数管道数据流)](./Tao_ICD.md)
+- [数学与《天龙八部》小无相功：从AI的角度看，所有的专业都是穿着马甲的数学。](./math-xiaoyao.md)
+- [`纯函数管道数据流`与《天龙八部》逍遥派武学体系](./dataflow_xiaoyao.md)
+- [科研、软件工程、中医](./SR_SE_TraditionalChineseMedicine.md)
+- [《代码大全》与“想像力编程”](./CodeComplete.md)
+- [《计算机编程的艺术》与想象力编程](./TAOCP.md)
+  
