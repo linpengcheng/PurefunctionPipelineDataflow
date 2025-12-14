@@ -3289,15 +3289,13 @@ Although my writing time is very limited, but I will gradually improve it.
 compared to the content when I first set up the blog, 
 it has been rich and improved a lot.
 
+- 2018-02-03, I published the content of `the pure function pipeline data flow` blog on Sina Weibo.
+  - [2018.02 weibo blog list](https://weibo.com/u/1920588532?start_time=1514736000&end_time=1519833600)
+  - [2018.02 weibo blog list.png](./doc/image/weibo_dataflow_bloglist_201802.png)
 - 2018-02-16, I published the content of [`the pure function pipeline data flow` blog on jianshu.com](https://www.jianshu.com/u/5c76839aa8d6)
-
   - 2018.02.28 on [my jianshu Chinese blog](https://www.jianshu.com/p/0a968746207f)
-
-  - [jianshu_dataflow_5_components.png](./doc/image/jianshu_dataflow_5_components.png)
-    
-  - [jianshu_list](./doc/image/jianshu_list.png)
-  
-- On February 13, 2018, I published the content of `the pure function pipeline data flow` blog on Sina Weibo.
+  - [jianshu_dataflow_5_components.png](./doc/image/jianshu_dataflow_5_components.png)    
+  - [jianshu_list](./doc/image/jianshu_list.png)  
 - On March 18, 2018, I opened and published `the pure function pipeline data flow` blog content on github.
 - Years before 2018, I introduced and demonstrated `the Pure Function Pipeline Data Flow` in QQ and WeChat groups.
 - [wikipedia.org: Dataflow_programming: External_links: The Pure Function Pipeline Data Flow](https://en.wikipedia.org/wiki/Dataflow_programming#External_links)
