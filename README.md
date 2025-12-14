@@ -11,7 +11,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 - [Key innovative ideas (for TL;DR)](#Key-innovative-ideas)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
-- [5 basic pure function pipeline data flow components (2018.02.28 on my jianshu Chinese blog)](#Five-basic-pure-function-pipeline-data-flow-components)
+- [5 basic pure function pipeline data flow components (2018.02.28 on my jianshu & weibo Chinese blog)](#Five-basic-pure-function-pipeline-data-flow-components)
   - [1. Pipeline Component (forward flow)](#1-Pipeline-Component)
   - [2. Conditional Branch](#2-Conditional-Branch)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
@@ -333,9 +333,11 @@ This is the simplicity and repetition pursued by large industrial production lin
 
 ## Five basic pure function pipeline data flow components
 
-2018.02.28 on [my jianshu Chinese blog](https://www.jianshu.com/p/0a968746207f)
+2018.02.28 on [my jianshu Chinese blog](https://www.jianshu.com/p/0a968746207f), [my weibo Chinese blog](https://weibo.com/1920588532/G5aVlDIC3?pagetype=profilefeed)
 
 [jianshu_dataflow_5_components.png](./doc/image/jianshu_dataflow_5_components.png)
+
+[weibo_dataflow_5_components](./doc/image/weibo/weibo_dataflow_5_components_20180228.png)
 
 ### 1 Pipeline Component
 
