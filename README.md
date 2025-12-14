@@ -11,7 +11,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
 - [Key innovative ideas (for TL;DR)](#Key-innovative-ideas)
 - [My and Other People's Related Views](#My-and-Other-Peoples-Related-Views)
 - [Summary](#Summary)
-- [5 basic pure function pipeline data flow components](#Five-basic-pure-function-pipeline-data-flow-components)
+- [5 basic pure function pipeline data flow components (2018.02.28 on [my jianshu blog](https://www.jianshu.com/p/0a968746207f))](#Five-basic-pure-function-pipeline-data-flow-components)
   - [1. Pipeline Component (forward flow)](#1-Pipeline-Component)
   - [2. Conditional Branch](#2-Conditional-Branch)
   - [3. Feedback circuit (reflow, whirlpool, recursive)](#3-Feedback-Circuit)
@@ -63,7 +63,7 @@ It's a `Arctic Code Vault Repository` in the [`2020 GitHub Archive Program`.](ht
     - [The unification with `Programming Language Platform`](#The-unification-with-Programming-Language-Platform)    
     - [The unification with `Clojure Web Application Model`](#The-unification-with-Clojure-Web-Application-Model)    
     - [The unification with `Lifecycle Management`](#The-unification-with-Lifecycle-Management)
-    - [The unification with `classic AI, modern AI, and explainable AI technology`](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
+    - [The unification with `classic AI, modern AI, and explainable AI technology` (2014-09-01)](#The-unification-with-classic-AI-and-modern-AI-and-explainable-AI-technology)
       - [Explainable AI System use the law model and the Warehouse/Workshop Model on 2021-04-30](#Explainable-AI-System)
       - [Robots and transformers on 2021-02-02](#Robots-and-transformers)
     - [The unification with `modern economic and social operating system`](#The-unification-with-modern-economic-and-social-operating-system)
@@ -332,6 +332,10 @@ After using this method proficiently, it is a simple and repeated boring techniq
 This is the simplicity and repetition pursued by large industrial production lines.
 
 ## Five basic pure function pipeline data flow components
+
+2018.02.28 on [my jianshu Chinese blog](https://www.jianshu.com/p/0a968746207f)
+
+[jianshu_dataflow_5_components.png](./doc/image/jianshu_dataflow_5_components.png)
 
 ### 1 Pipeline Component
 
@@ -2209,6 +2213,10 @@ See also: [Foxpro Database-oriented programming paradigm is the development dire
 
 #### The unification with classic AI and modern AI and explainable AI technology
 
+2014-09-01 on [my Chinese blog.sina.com.cn](https://weibo.com/p/2304187279daf40102v14f)
+
+[weibo_fa_20140901a.png](./doc/image/weibo/weibo_fa_20140901a.png)
+
 - Warehouse
   - Rule base: for classic AI, expert system, logic programming
     - Statute law, like signature scanning technology of antivirus software, identify known patterns, more accurate
@@ -3279,6 +3287,14 @@ Although my writing time is very limited, but I will gradually improve it.
 compared to the content when I first set up the blog, 
 it has been rich and improved a lot.
 
+- 2018-02-16, I published the content of [`the pure function pipeline data flow` blog on jianshu.com](https://www.jianshu.com/u/5c76839aa8d6)
+
+  - 2018.02.28 on [my jianshu Chinese blog](https://www.jianshu.com/p/0a968746207f)
+
+  - [jianshu_dataflow_5_components.png](./doc/image/jianshu_dataflow_5_components.png)
+    
+  - [jianshu_list](./doc/image/jianshu_list.png)
+  
 - On February 13, 2018, I published the content of `the pure function pipeline data flow` blog on Sina Weibo.
 - On March 18, 2018, I opened and published `the pure function pipeline data flow` blog content on github.
 - Years before 2018, I introduced and demonstrated `the Pure Function Pipeline Data Flow` in QQ and WeChat groups.
@@ -3319,6 +3335,10 @@ it has been rich and improved a lot.
 - [Markdown Literary Programming that don't break the syntax of any programming language](doc/markdown_literary_programming.md)
 
 - [~~Introduction： Basic Methods (Old version)~~](doc/IntroductionBasicMethods.md)
+
+  2018.02.28 on [my jianshu Chinese blog](https://www.jianshu.com/p/0a968746207f)
+
+  [jianshu_dataflow_5_components.png](./doc/image/jianshu_dataflow_5_components.png)
 
 - [Annotation is an unnecessary technique](doc/annotation_is_unnecessary.md)
 
