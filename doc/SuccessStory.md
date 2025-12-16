@@ -342,8 +342,13 @@ News: MS Server Chips are learning My Warehouse/Workshop Model (Apple M1 chip)
 
 - [Don't try to solve all problems with programming languages](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/comment_complicated_pl.md)
 
+- [Markdown Literate Programming that don't break the syntax of any programming language](./markdown_literary_programming.md)
+
 - [2021.11.07, Foxpro's Database-oriented programming paradigm is the development direction of the future programming language](https://github.com/linpengcheng/PurefunctionPipelineDataflow/blob/master/doc/Mummy4Foxpro.md)
 
+- [Systematic Best Practices for Java's New Features: Java has abandoned OOP in favor of my theory!](./JavasNewFeaturesBestPractices_en.md)
+  - [Chinese edition](./JavasNewFeaturesBestPractices_cn.md) 
+  
 - [Rust: Mathematics can't save programming, but finance can](./rust.md)
 
 - [Chinese: Comment Google anti-microservice](./Comment_Google_anti-microservice.md)
