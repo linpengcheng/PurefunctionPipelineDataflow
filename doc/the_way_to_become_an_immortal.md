@@ -46,6 +46,7 @@ the highest priority task of the brain to maximise the potential of the brain to
   - [2025-11-27, 一个有趣的讨论](#一个有趣的讨论)
 - [相关文章链接](#相关文章链接)
   - [真正的智慧：道家科研方法学----鲜花插在牛粪上（从最近的三个微博热帖讲起）](./Wisdom_Tao_flower_in_dung_cn.md)
+  - [类比是牛顿的现代科学方法论的第一步](./Analogy_Newtons_methodology_first_step_cn.md)
   - [类比、数学、道、真正的智慧和我的大统一理论](./Analogy_Math_Tao_Wisdom_MyTheory_cn.md)
   - [评《Nature重磅：AI和人脑的根本区别找到了，我们对“聪明”的理解可能全错了》----西方人变相承认中国的传统国学思维方式更有智慧](./Comment_Nature_Aligning_generalization_between_humans_and_machines_cn.md)
   - [开山立派四要件](./TaoistScientificResearchMethodology.md)
@@ -2101,6 +2102,7 @@ GitHub之上，林子传道，
 ## 相关文章链接
 
 - [真正的智慧：道家科研方法学----鲜花插在牛粪上（从最近的三个微博热帖讲起）](./Wisdom_Tao_flower_in_dung_cn.md)
+- [类比是牛顿的现代科学方法论的第一步](./Analogy_Newtons_methodology_first_step_cn.md)
 - [类比、数学、道、真正的智慧和我的大统一理论](./Analogy_Math_Tao_Wisdom_MyTheory_cn.md)
 - [评《Nature重磅：AI和人脑的根本区别找到了，我们对“聪明”的理解可能全错了》----西方人变相承认中国的传统国学思维方式更有智慧](./Comment_Nature_Aligning_generalization_between_humans_and_machines_cn.md)
 - [开山立派四要件](./TaoistScientificResearchMethodology.md)
